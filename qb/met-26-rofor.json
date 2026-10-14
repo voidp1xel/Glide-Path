@@ -1,0 +1,300 @@
+{
+"title": "ROFOR",
+"src": "Joshi Ch 26 (ROFOR)",
+"qs": [
+{
+"n": 1,
+"q": "Time of issue of ROFOR is",
+"o": [
+"0610 UTC",
+"0000 IST",
+"0000 UTC"
+],
+"a": 2,
+"fig": "fig:rofor-q26"
+},
+{
+"n": 2,
+"q": "Period of validity of ROFOR is",
+"o": [
+"0000 to 0000 IST",
+"0600 to 0100 IST",
+"0600 to 1000 UTC"
+],
+"a": 2,
+"fig": "fig:rofor-q26"
+},
+{
+"n": 3,
+"q": "Wind speed in ROFOR is in",
+"o": [
+"KT",
+"MPS",
+"KMH"
+],
+"a": 0,
+"fig": "fig:rofor-q26"
+},
+{
+"n": 4,
+"q": "Base of CB cloud is",
+"o": [
+"300 m",
+"300 ft",
+"3000 ft"
+],
+"a": 2,
+"fig": "fig:rofor-q26"
+},
+{
+"n": 5,
+"q": "Height of freezing level?",
+"o": [
+"1700 m",
+"17,000 ft",
+"1.7 km"
+],
+"a": 1,
+"fig": "fig:rofor-q26"
+},
+{
+"n": 6,
+"q": "Icing group in the ROFOR is",
+"o": [
+"7///170",
+"621800",
+"541501"
+],
+"a": 1,
+"ex": "Indicator 6 = icing: 6 Ic hihihi tL → 6 2 180 0.",
+"fig": "fig:rofor-q26"
+},
+{
+"n": 7,
+"q": "Type of icing?",
+"o": [
+"Nil",
+"Light",
+"Light icing in cloud"
+],
+"a": 2,
+"ex": "Ic = 2: light icing in cloud.",
+"fig": "fig:rofor-q26"
+},
+{
+"n": 8,
+"q": "Indicator figure for turbulence group in the ROFOR is",
+"o": [
+"7",
+"6",
+"5"
+],
+"a": 2,
+"fig": "fig:rofor-q26"
+},
+{
+"n": 9,
+"q": "Height at which icing is expected?",
+"o": [
+"21,000 ft",
+"18,000 m",
+"15,000 ft"
+],
+"a": 1,
+"ex": "hihihi = 180 → 18,000 ft. The book prints option (b) as '18,000 m' and keys it; read it as 18,000 ft.",
+"fig": "fig:rofor-q26"
+},
+{
+"n": 10,
+"q": "Thickness of icing is expected to be?",
+"o": [
+"300 m",
+"600 m",
+"Up to cloud top"
+],
+"a": 2,
+"ex": "tL = 0: up to the top of cloud.",
+"fig": "fig:rofor-q26"
+},
+{
+"n": 11,
+"q": "Height at which turbulence is expected?",
+"o": [
+"15,000 ft",
+"5,000 ft",
+"12,000 ft"
+],
+"a": 0,
+"ex": "5 4 150 1: moderate turbulence in cloud, occasional, at 15,000 ft, thickness code 1 = 300 m.",
+"fig": "fig:rofor-q26"
+},
+{
+"n": 12,
+"q": "Thickness of turbulence expected is?",
+"o": [
+"2000 ft",
+"300 m",
+"Up to top of cloud"
+],
+"a": 1,
+"fig": "fig:rofor-q26"
+},
+{
+"n": 13,
+"q": "Wind at 5000 ft expected is?",
+"o": [
+"280/10 kt",
+"280/15 kt",
+"280/20 kt"
+],
+"a": 1,
+"ex": "Indicator 4, height 050, temp 22; wind 28015.",
+"fig": "fig:rofor-q26"
+},
+{
+"n": 14,
+"q": "Wind at 20000 ft expected is?",
+"o": [
+"270/45 kt",
+"270/45 KMH",
+"270/40 kt"
+],
+"a": 0,
+"fig": "fig:rofor-q26"
+},
+{
+"n": 15,
+"q": "Temperature at 20000 ft expected is?",
+"o": [
+"−05 °C",
+"05 °C",
+"265 K"
+],
+"a": 0,
+"fig": "fig:rofor-q26"
+},
+{
+"n": 16,
+"q": "Temperature at 40,000 ft expected is?",
+"o": [
+"−45 °C",
+"−41 °C",
+"233 K"
+],
+"a": 1,
+"fig": "fig:rofor-q26"
+},
+{
+"n": 17,
+"q": "Date of issue of forecast is?",
+"o": [
+"10",
+"01",
+"02"
+],
+"a": 1,
+"fig": "fig:rofor-q26"
+},
+{
+"n": 18,
+"q": "Indicator group for jet stream in ROFOR is",
+"o": [
+"22222",
+"11111",
+"111111"
+],
+"a": 1,
+"fig": "fig:rofor-q26"
+},
+{
+"n": 19,
+"q": "Indicator group for maximum wind in ROFOR is",
+"o": [
+"22222",
+"11111",
+"111111"
+],
+"a": 0,
+"fig": "fig:rofor-q26"
+},
+{
+"n": 20,
+"q": "Maximum wind speed expected is",
+"o": [
+"120 kt",
+"130 kt",
+"140 kt"
+],
+"a": 2,
+"ex": "22222 36140 2825: max wind 140 kt at 36,000 ft from 280°, vertical shear 25 kt per 300 m.",
+"fig": "fig:rofor-q26"
+},
+{
+"n": 21,
+"q": "Maximum wind speed expected at height",
+"o": [
+"40000 ft",
+"36000 ft",
+"38000 ft"
+],
+"a": 1,
+"fig": "fig:rofor-q26"
+},
+{
+"n": 22,
+"q": "Jet stream is expected at Lat/Long",
+"o": [
+"27 N/70 E",
+"28 N/75 E",
+"28 N/70 E"
+],
+"a": 2,
+"ex": "11111 12870 380120: quadrant 1, 28N 70E, jet at 38,000 ft, 120 kt.",
+"fig": "fig:rofor-q26"
+},
+{
+"n": 23,
+"q": "Vertical wind shear per 300 m expected is",
+"o": [
+"25 kt",
+"30 kt",
+"38 kt"
+],
+"a": 0,
+"fig": "fig:rofor-q26"
+},
+{
+"n": 24,
+"q": "Jet stream core speed is expected to be",
+"o": [
+"125 kt",
+"120 kt",
+"140 kt"
+],
+"a": 1,
+"fig": "fig:rofor-q26"
+},
+{
+"n": 25,
+"q": "Jet stream is expected at a height of",
+"o": [
+"40,000 ft",
+"36,000 ft",
+"38,000 ft"
+],
+"a": 2,
+"fig": "fig:rofor-q26"
+},
+{
+"n": 26,
+"q": "Wind at 40,000 ft expected is?",
+"o": [
+"270/105 kt",
+"270/115 KMH",
+"270/140 kt"
+],
+"a": 0,
+"fig": "fig:rofor-q26"
+}
+]
+}

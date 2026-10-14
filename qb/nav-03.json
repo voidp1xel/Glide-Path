@@ -1,0 +1,472 @@
+{
+"title": "Projections",
+"src": "Bali GN Ch 3",
+"qs": [
+{
+"n": 1,
+"q": "Radio Navigation charts (Jeppesen) uses:",
+"o": [
+"Lamberts conformal conic projection",
+"Mercator's projection",
+"IMPP"
+],
+"a": 0
+},
+{
+"n": 2,
+"q": "A rhumb line is a straight line. This applies to",
+"o": [
+"Mercators",
+"Lamberts",
+"IMPP."
+],
+"a": 0
+},
+{
+"n": 3,
+"q": "Meridians and parallel intersect at right angles. This applies to",
+"o": [
+"Mercators",
+"Lamberts",
+"Both."
+],
+"a": 2
+},
+{
+"n": 4,
+"q": "On the Mercator's chart,",
+"o": [
+"Distortion increases away from the Equator",
+"Distortion increases away from the Pole",
+"Parallels of latitude are not straight lines"
+],
+"a": 0
+},
+{
+"n": 5,
+"q": "The scale on a Lamberts projection is correct only along",
+"o": [
+"The standard parallels",
+"The equator",
+"The end parallels of latitude and 2degs. on either side of the central meridian."
+],
+"a": 0
+},
+{
+"n": 6,
+"q": "Charts are used only for",
+"o": [
+"Flying over seas",
+"Dead reckoning navigation",
+"Polar navigation."
+],
+"a": 0
+},
+{
+"n": 7,
+"q": "In an ortho morphic projection,",
+"o": [
+"Meridians and parallels intersect at right angles",
+"Meridians and parallels are straight lines",
+"Both the above"
+],
+"a": 0
+},
+{
+"n": 8,
+"q": "The chart that is generally used for navigation in polar areas is based on a?",
+"o": [
+"Lambert's Conformal.",
+"Transverse Mercator.",
+"Stereographical projection."
+],
+"a": 2
+},
+{
+"n": 9,
+"q": "On a Lambert conformal conic chart the convergence of the meridians is?",
+"o": [
+"The same as earth convergency at the parallel of origin.",
+"The same as the scale.",
+"Most accurate at the standard parallels."
+],
+"a": 0
+},
+{
+"n": 10,
+"q": "On a Lambert conformal conic projection, with two standard parallels the scale is?",
+"o": [
+"Correct only along the parallel of origin.",
+"Correct only at the poles.",
+"Correct only along the standard parallels."
+],
+"a": 2
+},
+{
+"n": 11,
+"q": "On a Transverse Mercator chart, scale is exactly correct along the?",
+"o": [
+"Meridian of tangency.",
+"Prime meridian.",
+"Standard latitudes."
+],
+"a": 0
+},
+{
+"n": 12,
+"q": "On lamberts conical projection, the given scale is correct at and convergence is correct at",
+"o": [
+"Latitude of origin, latitude of origin",
+"Latitude of origin, standard Parallels",
+"Standard Parallels, latitude of origin."
+],
+"a": 2
+},
+{
+"n": 13,
+"q": "While measuring track at Lambert conical projection protractor is to be placed at:",
+"o": [
+"Latitude of departure",
+"Latitude of arrival",
+"Mid way longitude"
+],
+"a": 2
+},
+{
+"n": 14,
+"q": "On a Lambert conformal conic chart, the angular difference between two meridians (the angle at which they converge) is the",
+"o": [
+"Departure angle",
+"Map convergence",
+"Secant of ½ latitude"
+],
+"a": 1,
+"ex": "The book prints this question cut short; it asks for the name of the angle between meridians on a Lambert chart: map (chart) convergence."
+},
+{
+"n": 15,
+"q": "On a Direct Mercator chart, meridians are?",
+"o": [
+"Parallel, equally spaced, horizontal straight lines.",
+"Converging curved lines.",
+"Parallel, equally spaced, vertical straight lines."
+],
+"a": 2
+},
+{
+"n": 16,
+"q": "On which of the following chart projections is it not possible to represent the north or south poles?",
+"o": [
+"Polar Stereographic.",
+"Direct Mercator.",
+"Lambert's Conical."
+],
+"a": 1
+},
+{
+"n": 17,
+"q": "Which one of the following, concerning great circles on a Direct Mercator chart, is correct?",
+"o": [
+"With the exception of meridians and the equator, they are curves concave to the equator.",
+"Straight lines.",
+"Curves concave to the nearest pole."
+],
+"a": 0
+},
+{
+"n": 18,
+"q": "On a Lambert conformal conic chart, the distance between parallels of latitude spaced the same number of degrees apart?",
+"o": [
+"Increases between and reduces outside of the standard parallels.",
+"Reduces between and expands outside the standard parallels.",
+"Is constant between the standard parallels."
+],
+"a": 1
+},
+{
+"n": 19,
+"q": "Which one of the following statements is correct concerning the appearance of great circles, with the exception of meridians, on a polar stereographic chart whose tangency is at the pole?",
+"o": [
+"The higher the latitude the closer they approximate to a straight line.",
+"The lower the latitude the closer they approximate to straight line.",
+"Never approximate to straight lines."
+],
+"a": 0
+},
+{
+"n": 20,
+"q": "Which one of the following describes the appearance of rhumb lines, except meridians, on a polar stereographic chart.",
+"o": [
+"Straight lines.",
+"Curves concave to the pole.",
+"Approximately straight lines."
+],
+"a": 1
+},
+{
+"n": 21,
+"q": "What is the value of the convergence factor on a polar stereographic chart?",
+"o": [
+"2.0.",
+"1.5.",
+"1.0."
+],
+"a": 2
+},
+{
+"n": 22,
+"q": "On a Direct Mercator, rhumb lines are?",
+"o": [
+"Straight lines.",
+"Curves concave to the nearest pole.",
+"Curves convex to the nearest pole."
+],
+"a": 0
+},
+{
+"n": 23,
+"q": "A perfectly straight line on a Lamberts chart is?",
+"o": [
+"A parallel of latitude.",
+"A rhumb line.",
+"A meridian of longitude."
+],
+"a": 2
+},
+{
+"n": 24,
+"q": "Which of the following statements best describes how scale varies on a Mercator chart?",
+"o": [
+"It is correct on the standard parallels, but expands outside them, and contracts within them.",
+"Expands directly with the secant of the latitude.",
+"Expands as the secant (½ x co-latitude)."
+],
+"a": 1
+},
+{
+"n": 25,
+"q": "On a Lambert Conformal chart the distance between meridians 5° apart along latitude 37° North is 9 cm. The scale of the chart at that parallel approximates?",
+"o": [
+"1: 3 500 000.",
+"1: 5 000 000",
+"1: 4 000 000."
+],
+"a": 1,
+"ex": "5° of longitude at 37°N = 5 × 60 × cos 37° ≈ 240 NM ≈ 444 km. 9 cm : 444 km ≈ 1 : 4.9 million."
+},
+{
+"n": 26,
+"q": "Where is the convergency correct on a Transverse Mercator chart?",
+"o": [
+"At the datum meridian and the Equator.",
+"Only at the Equator and poles.",
+"Only at the datum meridian."
+],
+"a": 1
+},
+{
+"n": 27,
+"q": "In which of the following projections will a plane surface touch the reduced earth at one of the poles?",
+"o": [
+"Stereographic.",
+"Direct Mercator.",
+"Transverse Mercator."
+],
+"a": 0
+},
+{
+"n": 28,
+"q": "The scale on a Lambert's conformal conic chart?",
+"o": [
+"Is constant.",
+"Is constant along a parallel of latitude.",
+"Is constant along a meridian of longitude."
+],
+"a": 1
+},
+{
+"n": 29,
+"q": "The scale is correct on a transverse Mercator chart?",
+"o": [
+"Along the datum meridian and meridians at 90° to it.",
+"At the prime meridian.",
+"Along the great circle of tangency."
+],
+"a": 2
+},
+{
+"n": 30,
+"q": "The nominal scale of a Lambert conformal conic chart is the?",
+"o": [
+"Scale at the standard parallels.",
+"Scale at the parallel of origin.",
+"Scale at the poles."
+],
+"a": 0
+},
+{
+"n": 31,
+"q": "What type of projection is generally used for charts used for navigation in North and south polar areas?",
+"o": [
+"Lambert's conformal.",
+"Polar stereographical projection.",
+"Direct Mercator."
+],
+"a": 1
+},
+{
+"n": 32,
+"q": "On a Lambert Conformal conic chart great circle that are not meridians are?",
+"o": [
+"Curves concave to the pole of projection.",
+"Straight lines within the standard parallels.",
+"Curves concave to the parallel of origin."
+],
+"a": 2
+},
+{
+"n": 33,
+"q": "Parallels of latitude, except the equator, are?",
+"o": [
+"Rhumb lines.",
+"Complex curves.",
+"Great circle."
+],
+"a": 0
+},
+{
+"n": 34,
+"q": "On Jeppesen charts scale is given in following manner:",
+"o": [
+"Representative fraction.",
+"Graduated scale and statement in words",
+"All of the above"
+],
+"a": 2
+},
+{
+"n": 35,
+"q": "SCALE: The scale of a map or chart is the ratio of a given distance on the map or chart to the actual distance it represents on the Earth. The scale of a chart at any point may be expressed in several ways. The four examples of scale descriptions given below refer to the same chart, and all four are correct:",
+"o": [
+"1/63,360",
+"1 to 63,360",
+"1: 63,360",
+"1 inch to 1 statute mile (one statute mile being 63,360 inches)."
+],
+"a": 0
+},
+{
+"n": 36,
+"q": "Ratio of Map Distance to Earth Distance is called scale. On a map, scale is given by following. Representative fraction (rf) Statement in words • Graduated scale. REPRESENTATIVE FRACTION:",
+"o": [
+"Scale on map is given in a fraction with numerator always as 1.",
+"e.g. T0,000 • 1,000,000"
+],
+"a": 1
+},
+{
+"n": 37,
+"q": "The smaller the denominator of the representative fraction, the larger the scale of the chart described. STATEMENT IN WORDS: A statement gives ratio of map Distance to earth Distance, e.g. (i) 1 km = 10 Nm (ii) On this map 1 cm represents 5 km. GRADUATED SCALE: A calibrated scale gives, the ratio of map Distance to carth Distance. NAUTICAL MILES eg- Map/Chart Distance MD/CD",
+"o": [
+"Scale = T =",
+"Earth Distance ED"
+],
+"a": 1
+},
+{
+"n": 38,
+"q": "Maps indicate the details of the topography. Pilots can use this for:",
+"o": [
+"Contact navigation",
+"Instrument flying",
+"Dead reckoning navigation"
+],
+"a": 0
+},
+{
+"n": 39,
+"q": "Relief. The inequalities in elevation of the surface of the earth represented on the aeronautical charts by contours, hypsometric tints, spot elevations and hill shading, the choice of method being affected by the nature and scale of the chart and its intended use. Contours and Form Lines: Contours are the lines drawn on a map or chart joining places of equal elevation. When these are approximately drawn, they are called form lines. Spot Heights: Is the presentation of spot elevation in feet or meters as indicated below: 1730. Layer Tinting: In order to indicate height intervals, shades of color are chosen which become deeper with increase of height. Thus at a glance, a pilot can know the type of terrain. Hachuring: Hachures are short tapered lines, usually employed to indicate high ground on charts. These lines radiate away from peaks and high ground. In the middle of the tapered lines spot heights showing highest elevation can also be shown. Hill shading: is a method of shading so that if a bright light is shining across the map, shadows are cast by the high ground. Conventional Signs:",
+"o": [
+"ICAO Chart Symbols",
+"Civil Land Joint civil and Sheltered",
+"Military Land Anchorage"
+],
+"a": 1
+},
+{
+"n": 40,
+"q": "The scale of a chart is shown as 1: 1million. This means that",
+"o": [
+"1° on the chart equals 1 million inches on the Earth",
+"1 c.m. on the chart represents 1 million centimeters on the Earth",
+"Both."
+],
+"a": 2
+},
+{
+"n": 41,
+"q": "Representation of high ground on a projection can be in the form of:",
+"o": [
+"Contours and form lines",
+"Spot heights and Layer tinting",
+"All the above"
+],
+"a": 2
+},
+{
+"n": 48,
+"q": "On a direct Mercator projection, the distance measured between two meridians spaced 5° apart at latitude 60° N is 8 cm. The Scale of this chart at latitude 60°N is approximately?",
+"o": [
+"1: 3 500 000.",
+"1: 5 000 000.",
+"1: 2 000 000."
+],
+"a": 0,
+"ex": "5° at 60°N = 300 × cos 60° = 150 NM ≈ 278 km. 8 cm : 278 km ≈ 1 : 3.5 million."
+},
+{
+"n": 49,
+"q": "On a direct Mercator projection, at latitude 45° North, a certain length represents 70 NM. At latitude 30° North, the same length represents approximately?",
+"o": [
+"86 NM",
+"75 NM",
+"45 NM"
+],
+"a": 0,
+"ex": "Same chart length; earth distance ∝ cos lat: 70 × cos 30° / cos 45° ≈ 86 NM."
+},
+{
+"n": 50,
+"q": "At 60° N the scale of a direct Mercator chart is 1:3000 000. What is the scale at the equator?",
+"o": [
+"1: 5 000 000.",
+"1: 6 000 000.",
+"1: 12 000 000."
+],
+"a": 1,
+"ex": "Mercator scale denominator at the equator = denominator at lat ÷ cos lat: 3 000 000 / cos 60° = 6 000 000."
+},
+{
+"n": 51,
+"q": "STRAIGHT LINE TRACKS ON POLAR STEREOGRAPHIC CHARTS:",
+"o": [
+"030°, 150°, 120°, Easterly, 000°E",
+"330°, 090°, 060°, Westerly, 060°W",
+"150°, 030°, 120°, Easterly, 210°E"
+],
+"a": 0,
+"ex": "d.long 120°: isosceles triangle with base angles 30°. NH, north is towards the pole: initial track 030°, final 150°, convergence 120°, track due east at the mid-longitude 000°."
+},
+{
+"n": 52,
+"q": "A straight-line track is drawn on a Polar Stereographic chart from A (82°S 164°E) to B (82°S 078°W). Determine the initial track direction at A, the final track direction at B and the longitude where the track is either E or W.",
+"o": [
+"031°, 149°, Easterly, 137°E",
+"059°, 118°, Easterly, 180°W",
+"149°, 031°, Westerly, 137°W"
+],
+"a": 2,
+"ex": "d.long 118°, base angles 31°. SH: north is away from the pole, so initial track 149°, final 031°, westerly at mid-longitude 137°W."
+}
+]
+}

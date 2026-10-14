@@ -1,0 +1,196 @@
+{
+"id": "met-02",
+"title": "Atmospheric Pressure",
+"src": "Joshi Ch 2",
+"text": "met",
+"start": 712,
+"end": 818,
+"key": "abcbcacbacacd abcaaabaaabcc abcbdbcdbbdcc ba",
+"fix": {
+"1": {
+"o": [
+"Converge",
+"Diverge",
+"Go straight"
+]
+},
+"2": {
+"o": [
+"Good weather",
+"Bad weather",
+"None"
+]
+},
+"3": {
+"q": "In a high pressure area winds are",
+"o": [
+"Normal",
+"Strong",
+"Weak"
+]
+},
+"4": {
+"o": [
+"Over",
+"Under",
+"Constant"
+]
+},
+"5": {
+"o": [
+"Pressure",
+"Temperature tendency",
+"Pressure tendency"
+]
+},
+"6": {
+"o": [
+"Aneroid",
+"Mercury",
+"Alcohol"
+]
+},
+"7": {
+"o": [
+"Depression",
+"Secondary Low",
+"Col"
+]
+},
+"8": {
+"q": "Bad weather and better visibility is associated with"
+},
+"9": {
+"o": [
+"Altimeter",
+"ASI",
+"VSI"
+]
+},
+"10": {
+"q": "Altimeter always measures the height of aircraft above",
+"o": [
+"MSL",
+"Datum of 1013.2 hPa",
+"Datum at which its sub-scale is set"
+]
+},
+"13": {
+"o": [
+"100 hPa",
+"1000 hPa",
+"3 hPa",
+"33 hPa"
+]
+},
+"15": {
+"q": "Which is true?"
+},
+"16": {
+"o": [
+"Polar region",
+"Middle latitudes",
+"Tropics"
+]
+},
+"18": {
+"q": "In the Southern Hemisphere, around a Low Pressure Area wind blows",
+"o": [
+"In clockwise direction",
+"In anticlockwise direction",
+"Across isobars towards the centre"
+]
+},
+"19": {
+"o": [
+"QNH",
+"QNE",
+"QFF",
+"QFE"
+]
+},
+"20": {
+"o": [
+"Anemograph",
+"Barometer",
+"Hygrograph"
+]
+},
+"22": {
+"q": "On either side, perpendicular to the …, pressures rise",
+"o": [
+"Trough",
+"Ridge",
+"Low"
+]
+},
+"24": {
+"o": [
+"20,000 ft",
+"30,000 ft",
+"35,000 ft"
+]
+},
+"26": {
+"o": [
+"20,000 ft",
+"30,000 ft",
+"40,000 ft"
+]
+},
+"27": {
+"q": "24,000 ft height in ISA corresponds to pressure level"
+},
+"30": {
+"o": [
+"7,000 ft",
+"5,000 ft",
+"10,000 ft"
+]
+},
+"31": {
+"q": "Atmospheric pressure is due to"
+},
+"38": {
+"o": [
+"Negative",
+"Radiation",
+"Subsidence",
+"Airmass"
+]
+},
+"39": {
+"o": [
+"Warm / Low",
+"Cold / Low",
+"Hot / High",
+"Cool / Low"
+]
+},
+"41": {
+"q": "An aerodrome is at the mean sea level. Its QNH is 1014.0 hPa. Its QFF will be",
+"o": [
+"1014.0 hPa",
+"1013.25 hPa",
+"Difficult to tell",
+"More than QNH"
+]
+}
+},
+"ex": {
+"4": "Low to High = under-read (L-H-L): the altimeter shows less than your true altitude.",
+"11": "Pressure falls more slowly with height in warm air, so a given pressure level is higher over the warm air mass.",
+"12": "Warm air is less dense, so pressure falls more slowly with height.",
+"13": "Near MSL 1 hPa ≈ 27–30 ft, so 1000 ft ≈ 33 hPa.",
+"17": "Flying east, drift to starboard means wind from the port (north) side. In the N hemisphere, wind from port = flying towards low pressure = altimeter over-reads, so actual altitude is lower.",
+"20": "Strictly a barograph records pressure; the book's key gives (b).",
+"23": "Cold air is dense, so pressure falls faster with height in cold areas.",
+"24": "Standard levels: 850→5,000 ft, 700→10,000, 500→18,000, 400→24,000, 300→30,000, 200→38,000 (≈40,000), 100→53,000 ft.",
+"32": "Altimeter constant but true altitude rising = flying from low to high pressure (or cold to warm): it under-reads.",
+"33": "9160 m ≈ 30,000 ft ≈ the 300 hPa level.",
+"34": "Contours: 40 gpm interval at 700 and 500 hPa; 80 gpm at 300 and 200 hPa.",
+"36": "160 m ÷ 8 m per hPa = 20 hPa. QFE = QNH − 20 = 985 hPa.",
+"39": "Hot and High: warm air and high pressure both make the altimeter under-read, so true altitude increases while indicated stays constant.",
+"41": "At an aerodrome at MSL there is no column to reduce through, so QFF = QNH = 1014.0 hPa."
+}
+}

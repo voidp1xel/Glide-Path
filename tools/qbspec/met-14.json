@@ -1,0 +1,99 @@
+{
+"id": "met-14",
+"title": "Air Masses, Fronts and WDs",
+"src": "Joshi Ch 14",
+"text": "met",
+"start": 4035,
+"end": 4108,
+"key": "abbcbaababaca cbbcbbaabccab abcb",
+"fix": {
+"3": {
+"o": [
+"Warm occlusion",
+"Cold occlusion"
+]
+},
+"6": {
+"o": [
+"Warm air overtakes the cold air",
+"Cold air undercuts the warm air"
+]
+},
+"7": {
+"o": [
+"Cold front",
+"Warm front"
+]
+},
+"8": {
+"o": [
+"Warm front",
+"Cold front"
+]
+},
+"9": {
+"q": "Precipitation occurs over a belt of 30–50 km on both sides of the front",
+"o": [
+"Cold front",
+"Warm front"
+]
+},
+"11": {
+"q": "Line squalls occur … of a cold front"
+},
+"13": {
+"q": "CB, roll-type clouds, SC, AC with embedded CB are associated with",
+"o": [
+"Cold front",
+"Warm front"
+]
+},
+"14": {
+"o": [
+"Equatorial front",
+"Tropopause",
+"Polar front"
+]
+},
+"18": {
+"o": [
+"Backs & weakens",
+"Veers & strengthens",
+"Backs & strengthens"
+],
+"a": "c"
+},
+"24": {
+"q": "WD is a … front"
+},
+"25": {
+"q": "FZRA and FZFG occur … of a warm front"
+},
+"28": {
+"q": "A WD with two or more closed isobars at 2 hPa interval is termed as",
+"o": [
+"Troughs in westerlies",
+"Western depression",
+"Western cyclone"
+]
+},
+"29": {
+"q": "A WD originates over",
+"o": [
+"Baluchistan",
+"Caspian sea",
+"Mediterranean, Caspian and Black Seas"
+]
+},
+"30": {
+"q": "Induced lows develop to the … of a WD"
+}
+},
+"ex": {
+"3": "Advancing air colder than the air ahead → it undercuts everything → cold occlusion (common in summer).",
+"10": "Cold fronts move about twice as fast as warm fronts, so they catch up and occlude.",
+"18": "Ahead of a warm front the wind backs and strengthens as the low approaches; it veers at the front. (The printed key shows (b), which conflicts with the book's own Q27 'wind backs during the approach of a warm front'.)",
+"22": "Rain, drizzle, low stratus and frontal fog make visibility poor ahead of and during a warm front.",
+"24": "WDs reach India as occluded fronts."
+}
+}

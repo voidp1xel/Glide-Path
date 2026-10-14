@@ -1,0 +1,179 @@
+{
+"id": "met-01",
+"title": "Atmosphere",
+"src": "Joshi Ch 1",
+"text": "met",
+"start": 310,
+"end": 424,
+"key": "abcacabaabcba accaabcabcabc accbaacacbbcc adabcd",
+"fix": {
+"5": {
+"o": [
+"Is constant",
+"Varies with altitude",
+"Varies with latitude"
+]
+},
+"7": {
+"o": [
+"Solar radiation",
+"Heat from earth surface",
+"From above"
+]
+},
+"9": {
+"q": "CO2 and H2O are also called ..........",
+"o": [
+"Green House Gases",
+"Rare Earth Gases"
+]
+},
+"13": {
+"o": [
+"Troposphere",
+"Stratosphere",
+"Heterosphere"
+]
+},
+"15": {
+"o": [
+"Troposphere",
+"Tropopause",
+"Stratosphere"
+]
+},
+"16": {
+"o": [
+"Mesosphere",
+"Thermosphere",
+"Stratosphere"
+],
+"q": "Mother of Pearl clouds occur in"
+},
+"17": {
+"o": [
+"-56.5°C",
+"-65.5°C",
+"-35.5°C"
+],
+"q": "The temperature in ISA at 17 km is"
+},
+"18": {
+"o": [
+"1:3",
+"1:4",
+"1:5"
+]
+},
+"19": {
+"q": "By volume, the approximate ratio of O2 to N2 in the atmosphere is .........."
+},
+"21": {
+"o": [
+"15°C",
+"10°C",
+"25°C"
+]
+},
+"24": {
+"q": "CO2 and H2O keep the atmosphere .........."
+},
+"26": {
+"o": [
+"-05°C",
+"-02°C",
+"03°C"
+]
+},
+"27": {
+"o": [
+"-11 hPa",
+"10 hPa",
+"12 hPa"
+]
+},
+"28": {
+"o": [
+"-4.5°C",
+"-05.5°C",
+"-03.5°C"
+]
+},
+"29": {
+"o": [
+"Thermosphere",
+"Mesosphere",
+"Upper Stratosphere"
+]
+},
+"30": {
+"o": [
+"Pressure",
+"Gravitation of earth",
+"Mixing due to turbulence"
+]
+},
+"31": {
+"q": "Half of the atmospheric air mass is contained below ..........",
+"o": [
+"20,000 ft",
+"15,000 ft",
+"10,000 ft"
+]
+},
+"32": {
+"o": [
+"2°C/1000 ft",
+"2°C/km",
+"5°C/km"
+]
+},
+"36": {
+"q": "Lapse rate in the troposphere is produced by .......... and in the stratosphere by ..........",
+"o": [
+"Evaporation; condensation",
+"Rising air; solar radiation",
+"Terrestrial radiation; solar radiation",
+"Solar radiation; convection"
+]
+},
+"38": {
+"o": [
+"Isothermal rate",
+"Temperature rise with lowering height",
+"Temperature rise with height",
+"Temperature fall with height"
+]
+},
+"40": {
+"o": [
+"Poor conductor of heat and electricity",
+"Equator is warmer than poles above 10 km",
+"Lapse rate in the stratosphere is positive",
+"Density is constant above 8 km"
+],
+"q": "One of the characteristics of our atmosphere is"
+},
+"45": {
+"o": [
+"Lapse rate at poles is always higher than at equator",
+"Lapse rate at equator is always higher than at poles",
+"Lapse rate at equator is the same as at poles even above the poles",
+"Lapse rate reverses at poles and becomes negative"
+]
+}
+},
+"ex": {
+"6": "Above about 8 km the trend reverses: because the equatorial troposphere is so much deeper, air over the equator keeps cooling up to 16-18 km and ends up colder (tropopause -70 to -75°C) than air over the poles (-40 to -45°C).",
+"8": "The mesopause (80 km) is the coldest part of the atmosphere, about -100°C = 173.15 K.",
+"17": "ISA is isothermal at -56.5°C from 11 km to 20 km, so 17 km is -56.5°C.",
+"26": "ISA at 2 km = 15 - (6.5 × 2) = 2°C. Deviation = actual - ISA = 5 - 2 = +3°C.",
+"27": "Deviation = actual - ISA = 1002.25 - 1013.25 = -11 hPa.",
+"28": "ISA at 19 km is -56.5°C (isothermal 11-20 km). Deviation = -60 - (-56.5) = -3.5°C.",
+"30": "The book attributes the uniform composition of the homosphere to the earth's gravitation (key: b).",
+"31": "Half the mass of the atmosphere lies below about 6 km, i.e. roughly 18,000-20,000 ft.",
+"41": "Latent heat (evaporation, condensation, sublimation) carries about 77% of the heat flow from surface to atmosphere; sensible heat only 23%.",
+"43": "In ISA the tropopause is at 11 km (36,090 ft).",
+"44": "Latent heat processes (condensation, sublimation, freezing) dominate heat transfer."
+}
+}

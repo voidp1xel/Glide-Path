@@ -1,0 +1,221 @@
+{
+"title": "Compass and Directions",
+"src": "Bali GN Ch 6",
+"qs": [
+{
+"n": 1,
+"q": "Compass heading 120°, deviation 10W, variation 15E. What is the true heading?",
+"o": [
+"145°",
+"125°",
+"095°"
+],
+"a": 1,
+"ex": "C → D → M → V → T: add easterly, subtract westerly going towards True (Dev/Var east: compass/magnetic least; west: best)."
+},
+{
+"n": 2,
+"q": "Compass heading 345°, deviation -7, variation 27E. What is the true heading?",
+"o": [
+"005°",
+"311°",
+"019°"
+],
+"a": 0,
+"ex": "C → D → M → V → T: add easterly, subtract westerly going towards True (Dev/Var east: compass/magnetic least; west: best)."
+},
+{
+"n": 3,
+"q": "Magnetic heading 132°, deviation 4E, variation 24W. What is the compass heading?",
+"o": [
+"136°",
+"104°",
+"128°"
+],
+"a": 2,
+"ex": "C → D → M → V → T: add easterly, subtract westerly going towards True (Dev/Var east: compass/magnetic least; west: best)."
+},
+{
+"n": 4,
+"q": "True heading 220°, deviation 12W, variation 12W. What is the compass heading?",
+"o": [
+"196°",
+"220°",
+"244°"
+],
+"a": 2,
+"ex": "C → D → M → V → T: add easterly, subtract westerly going towards True (Dev/Var east: compass/magnetic least; west: best)."
+},
+{
+"n": 5,
+"q": "True heading 270°, deviation +10, variation 7E. What is the compass heading?",
+"o": [
+"253°",
+"273°",
+"267°"
+],
+"a": 0,
+"ex": "C → D → M → V → T: add easterly, subtract westerly going towards True (Dev/Var east: compass/magnetic least; west: best)."
+},
+{
+"n": 6,
+"q": "Magnetic heading 300°, deviation 16W, variation 16E. What is the compass heading?",
+"o": [
+"332°",
+"316°",
+"284°"
+],
+"a": 1,
+"ex": "C → D → M → V → T: add easterly, subtract westerly going towards True (Dev/Var east: compass/magnetic least; west: best)."
+},
+{
+"n": 7,
+"q": "Compass heading 030°, deviation 10E, variation 4E. What is the true heading?",
+"o": [
+"044°",
+"036°",
+"024°"
+],
+"a": 0,
+"ex": "C → D → M → V → T: add easterly, subtract westerly going towards True (Dev/Var east: compass/magnetic least; west: best)."
+},
+{
+"n": 8,
+"q": "Compass heading 000°, deviation 10W, variation 17W. What is the true heading?",
+"o": [
+"007°",
+"353°",
+"333°"
+],
+"a": 2,
+"ex": "C → D → M → V → T: add easterly, subtract westerly going towards True (Dev/Var east: compass/magnetic least; west: best)."
+},
+{
+"n": 9,
+"q": "Magnetic heading 215°, deviation 3E, variation 6W. What is the compass heading?",
+"o": [
+"218°",
+"212°",
+"206°"
+],
+"a": 1,
+"ex": "C → D → M → V → T: add easterly, subtract westerly going towards True (Dev/Var east: compass/magnetic least; west: best)."
+},
+{
+"n": 10,
+"q": "Compass heading 220°, deviation -4, variation 5W. What is the true heading?",
+"o": [
+"221°",
+"219°",
+"211°"
+],
+"a": 2,
+"ex": "C → D → M → V → T: add easterly, subtract westerly going towards True (Dev/Var east: compass/magnetic least; west: best)."
+},
+{
+"n": 11,
+"q": "True heading 090°, variation 3°W, deviation 7°E. What is the compass heading?",
+"o": [
+"086°",
+"100°",
+"094°"
+],
+"a": 0,
+"ex": "M = 090 + 3 = 093; C = 093 − 7 = 086."
+},
+{
+"n": 12,
+"q": "Compass 274°, magnetic 268°, true 270°. What are the deviation and variation?",
+"o": [
+"Dev 6°W, Var 2°E",
+"Dev 6°E, Var 2°W",
+"Dev 4°W, Var 2°E"
+],
+"a": 0,
+"ex": "C 274 → M 268: compass best → deviation 6°W. M 268 → T 270: variation 2°E."
+},
+{
+"n": 13,
+"q": "True heading 224°, variation 4°W, deviation 4°E. What are the magnetic and compass headings?",
+"o": [
+"228°M, 224°C",
+"220°M, 224°C",
+"228°M, 232°C"
+],
+"a": 0,
+"ex": "M = 224 + 4 = 228; C = 228 − 4 = 224."
+},
+{
+"n": 14,
+"q": "Compass heading 300°, deviation 4°E, variation 6°E. What is the true heading?",
+"o": [
+"310°",
+"290°",
+"302°"
+],
+"a": 0,
+"ex": "M = 300 + 4 = 304; T = 304 + 6 = 310."
+},
+{
+"n": 15,
+"q": "For flying in a given direction, the pilot needs a:",
+"o": [
+"Compass",
+"Protractor",
+"Manual."
+],
+"a": 1
+},
+{
+"n": 16,
+"q": "The true direction to be followed between two points can be obtained if you have a",
+"o": [
+"Compass",
+"Map",
+"Radio compass."
+],
+"a": 0
+},
+{
+"n": 17,
+"q": "Variation is the angular difference at a place between True North and Magnetic North and expressed in degrees to the East or West of :",
+"o": [
+"True North",
+"Magnetic North",
+"Both."
+],
+"a": 0
+},
+{
+"n": 18,
+"q": "When Variation is East:",
+"o": [
+"Magnetic direction is less than true direction",
+"Magnetic direction is more than true direction",
+"depends upon the hemisphere."
+],
+"a": 0
+},
+{
+"n": 19,
+"q": "Lines joining places of equal variation shown on a map/chart are called",
+"o": [
+"Isogonals",
+"Isobars",
+"Aclinic lines."
+],
+"a": 0
+},
+{
+"n": 20,
+"q": "A line joining places of zero variation is called",
+"o": [
+"an aclinic line",
+"an isoclinic line",
+"an agonic line."
+],
+"a": 2
+}
+],
+"lead": "Q1–14 are the book's heading-conversion tables, set as multiple choice (the book's answers are the keys)."
+}

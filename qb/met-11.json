@@ -1,0 +1,210 @@
+{
+"title": "Precipitation",
+"src": "Joshi Ch 11",
+"qs": [
+{
+"n": 1,
+"q": "When supercooled water drops and ice particles co-exist, the ice crystals grow at the expense of the water drops because",
+"o": [
+"Saturation vapour pressure over water drops is less than over the ice crystals",
+"Saturation vapour pressure over the ice crystals is less than over water drops",
+"The ice crystals convert into water drops"
+],
+"a": 1,
+"ex": "Bergeron process: SVP over ice is lower, so vapour leaves the drops and deposits on the crystals."
+},
+{
+"n": 2,
+"q": "The clouds whose tops extend well above the freezing level are called",
+"o": [
+"Warm clouds",
+"Cold clouds",
+"Moderate clouds"
+],
+"a": 1
+},
+{
+"n": 3,
+"q": "The clouds whose tops do not extend to the freezing level are called",
+"o": [
+"Warm clouds",
+"Cold clouds",
+"Moderate clouds"
+],
+"a": 0
+},
+{
+"n": 4,
+"q": "Coalescence theory explains occurrence of rainfall from the",
+"o": [
+"Warm clouds",
+"Cold clouds",
+"Both types of clouds"
+],
+"a": 0
+},
+{
+"n": 5,
+"q": "Ice crystal theory explains occurrence of rainfall from the",
+"o": [
+"Warm clouds",
+"Cold clouds",
+"Both types of clouds"
+],
+"a": 1
+},
+{
+"n": 6,
+"q": "Giant nucleus theory explains occurrence of rainfall over",
+"o": [
+"Maritime areas",
+"Inland areas",
+"Hilly areas"
+],
+"a": 0
+},
+{
+"n": 7,
+"q": "Very heavy precipitation as showers over a short period is called",
+"o": [
+"Flash floods",
+"Cloud burst",
+"Orographic rain"
+],
+"a": 1
+},
+{
+"n": 8,
+"q": "Rain shadow area is on the … of the mountain range",
+"o": [
+"Top",
+"Windward side",
+"Leeward side"
+],
+"a": 2,
+"ex": "Air descending the lee side warms adiabatically and dries out."
+},
+{
+"n": 9,
+"q": "Sleet is a mixture of",
+"o": [
+"Hail & snow",
+"Rain & snow",
+"Frozen rain"
+],
+"a": 1
+},
+{
+"n": 10,
+"q": "Rainfall in the tropics is more in",
+"o": [
+"Winters",
+"Summers",
+"Post monsoon"
+],
+"a": 1
+},
+{
+"n": 11,
+"q": "Rainfall in the tropics is more in the",
+"o": [
+"Morning",
+"Afternoon",
+"Night"
+],
+"a": 1
+},
+{
+"n": 12,
+"q": "Rainfall in the temperate latitudes is more in",
+"o": [
+"Winters",
+"Summers",
+"Spring"
+],
+"a": 0
+},
+{
+"n": 13,
+"q": "Over J&K and western Himalayas rainfall is more in",
+"o": [
+"Winters",
+"Summers",
+"Post monsoon"
+],
+"a": 0,
+"ex": "Western Disturbances bring winter rain/snow to J&K and the western Himalaya."
+},
+{
+"n": 14,
+"q": "Rainfall over coastal areas is more in the",
+"o": [
+"Evening",
+"Afternoon",
+"Night & early morning"
+],
+"a": 2,
+"ex": "Land/sea breeze effects give coastal rain at night and early morning."
+},
+{
+"n": 15,
+"q": "Areas to the … of Western Ghats of India are rain shadow areas",
+"o": [
+"W",
+"S",
+"E"
+],
+"a": 2,
+"ex": "Monsoon winds blow from the west; the lee (east) of the Western Ghats is the rain shadow."
+},
+{
+"n": 16,
+"q": "A sudden rise in the level of rivers or streams causing floods is called",
+"o": [
+"Cloud burst",
+"Catchments flooding",
+"Flash floods"
+],
+"a": 2
+},
+{
+"n": 17,
+"q": "Artificial rain making is also termed as",
+"o": [
+"Simulation",
+"Cloud seeding",
+"Nucleation"
+],
+"a": 1
+},
+{
+"n": 18,
+"q": "Fog can be dispersed for a short period by artificial stimulation",
+"o": [
+"True",
+"False"
+],
+"a": 0
+},
+{
+"n": 19,
+"q": "Showery precipitation occurs from",
+"o": [
+"NS",
+"AC",
+"CB"
+],
+"a": 2
+},
+{
+"n": 20,
+"q": "A day is called a rainy day when rainfall in 24 hr is … mm or more",
+"o": [
+"1.5",
+"2",
+"2.5"
+],
+"a": 2
+}
+]
+}

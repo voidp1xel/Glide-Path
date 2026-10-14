@@ -1,0 +1,461 @@
+{
+"title": "Met Services for Aviation",
+"src": "Joshi Ch 21",
+"qs": [
+{
+"n": 1,
+"q": "For non-scheduled National Flights an advance notice (before ETD) is required to be given to AMOs",
+"o": [
+"3 hr",
+"18-24 hr",
+"6 hr"
+],
+"a": 0
+},
+{
+"n": 2,
+"q": "For non-scheduled National Flights an advance notice (before ETD) is required to be given to AMSs",
+"o": [
+"3 hr",
+"18-24 hr",
+"6 hr"
+],
+"a": 1
+},
+{
+"n": 3,
+"q": "WAFS provides ….. to Met Offices.",
+"o": [
+"high quality en-route forecasts of winds and temperature",
+"SIGMET",
+"TREND"
+],
+"a": 0
+},
+{
+"n": 4,
+"q": "IMD has … Regional Met offices",
+"o": [
+"4",
+"5",
+"6"
+],
+"a": 2
+},
+{
+"n": 5,
+"q": "There are … Aerodrome Met Offices",
+"o": [
+"17",
+"18",
+"19"
+],
+"a": 1
+},
+{
+"n": 6,
+"q": "There are … Aeronautical Met Stations",
+"o": [
+"56",
+"54",
+"52"
+],
+"a": 1
+},
+{
+"n": 7,
+"q": "In AIREP the Met Information is contained in Section",
+"o": [
+"1",
+"2",
+"3"
+],
+"a": 2
+},
+{
+"n": 8,
+"q": "TAF are generally valid for",
+"o": [
+"18 hr",
+"12 hr",
+"9 hr"
+],
+"a": 2,
+"ex": "The book's practice answer is 9 hr (the shortest standard TAF); TAFs run 9 to 30 hr."
+},
+{
+"n": 9,
+"q": "The validity of Landing Forecast (TREND) is",
+"o": [
+"1 hr",
+"2 hr",
+"3 hr"
+],
+"a": 1
+},
+{
+"n": 10,
+"q": "Landing Forecast is appended to",
+"o": [
+"METAR and SPECI",
+"TAF",
+"AIREP"
+],
+"a": 0
+},
+{
+"n": 11,
+"q": "Local/Area Forecast is issued three times a day valid for next",
+"o": [
+"18 hr",
+"12 hr",
+"9 hr"
+],
+"a": 1
+},
+{
+"n": 12,
+"q": "Area Forecast covers an area",
+"o": [
+"100 NM",
+"100 km",
+"50 NM"
+],
+"a": 0
+},
+{
+"n": 13,
+"q": "Global SIGWX Charts are issued by",
+"o": [
+"WMO",
+"AMO",
+"WAFC"
+],
+"a": 2
+},
+{
+"n": 14,
+"q": "Global SIGWX Charts are valid for",
+"o": [
+"18 hr",
+"24 hr",
+"9 hr"
+],
+"a": 1
+},
+{
+"n": 15,
+"q": "Global SIGWX Charts for high-level are issued for Flight Levels",
+"o": [
+"250 & 630",
+"460 & 100",
+"460 & 260"
+],
+"a": 0
+},
+{
+"n": 16,
+"q": "CODAR is",
+"o": [
+"Radar Report",
+"Coded ARFOR",
+"Upper air report from an aircraft, other than weather reconnaissance aircraft"
+],
+"a": 2
+},
+{
+"n": 17,
+"q": "WINTEM is",
+"o": [
+"Actual upper winds",
+"Forecast upper wind and temperature",
+"Actual temperature and upper winds"
+],
+"a": 1
+},
+{
+"n": 18,
+"q": "SIGMET is a notice of severe weather for",
+"o": [
+"actual",
+"expected",
+"both"
+],
+"a": 2
+},
+{
+"n": 19,
+"q": "SIGMET is issued for aircraft",
+"o": [
+"in flight",
+"on ground",
+"both"
+],
+"a": 0
+},
+{
+"n": 20,
+"q": "SIGMET is issued by",
+"o": [
+"WAFC",
+"AMO",
+"MWO"
+],
+"a": 2
+},
+{
+"n": 21,
+"q": "SIGMET is valid for",
+"o": [
+"4 hr",
+"8 hr",
+"9 hr"
+],
+"a": 0
+},
+{
+"n": 22,
+"q": "SIGMET is not issued for",
+"o": [
+"Rain",
+"Volcanic Ash",
+"SEV Icing"
+],
+"a": 0,
+"ex": "Rain alone is not a SIGMET phenomenon; FZRA causing severe icing is."
+},
+{
+"n": 23,
+"q": "AIRMET is SIGMET issued by a MWO for the safety of",
+"o": [
+"low-level aircraft",
+"high-level aircraft",
+"both"
+],
+"a": 0
+},
+{
+"n": 24,
+"q": "GAMET is an area forecast in abbreviated plain language for",
+"o": [
+"low level flights",
+"high level flights",
+"all level flights"
+],
+"a": 0,
+"ex": "GAMET = area forecast in abbreviated plain language for low-level flights."
+},
+{
+"n": 25,
+"q": "The validity of Airfield warnings is not exceeding",
+"o": [
+"3 hr",
+"4 hr",
+"6 hr"
+],
+"a": 1
+},
+{
+"n": 26,
+"q": "Airfield warning is issued for expected wind speed",
+"o": [
+"30 kt",
+"24 kt",
+"15 kt"
+],
+"a": 0
+},
+{
+"n": 27,
+"q": "Airfield warning is issued for wind direction of 20 kt changes by",
+"o": [
+"45°",
+"30°",
+"60°"
+],
+"a": 0
+},
+{
+"n": 28,
+"q": "Airfield Warning for gliders, light aircraft and helicopters is issued for expected wind speed",
+"o": [
+"15 kt",
+"17 kt",
+"30 kt"
+],
+"a": 1
+},
+{
+"n": 29,
+"q": "Wind Shear Warning is issued for the observed or expected wind shear above runway",
+"o": [
+"up to 500 m",
+"above 500 m",
+"300 m"
+],
+"a": 0
+},
+{
+"n": 30,
+"q": "VOLMET is a MET information for aircraft",
+"o": [
+"on ground",
+"in flight",
+"both"
+],
+"a": 1
+},
+{
+"n": 31,
+"q": "VOLMET Radio Telephony Broadcast is made on HF Channel from",
+"o": [
+"Mumbai only",
+"Kolkata only",
+"both Kolkata and Mumbai"
+],
+"a": 2
+},
+{
+"n": 32,
+"q": "VOLMET consists of",
+"o": [
+"SIGMET",
+"TAF only",
+"TAF and METAR"
+],
+"a": 2
+},
+{
+"n": 33,
+"q": "In ROBEX the METAR/SPECI of international aerodromes and their alternates is exchanged",
+"o": [
+"within India",
+"outside India"
+],
+"a": 1
+},
+{
+"n": 34,
+"q": "Global SIGWX Charts are issued … times a day",
+"o": [
+"Two",
+"Three",
+"Four"
+],
+"a": 2
+},
+{
+"n": 35,
+"q": "Global SIGWX Charts for Medium-level are issued for Flight Levels",
+"o": [
+"150 & 200",
+"100 & 250",
+"100 & 150"
+],
+"a": 1
+},
+{
+"n": 36,
+"q": "In India who compiles a single National SIGWX chart?",
+"o": [
+"New Delhi",
+"Mumbai",
+"Kolkata",
+"Chennai"
+],
+"a": 3,
+"ex": "MWO Chennai compiles the single national SIGWX charts."
+},
+{
+"n": 37,
+"q": "The Indian National SIGWX chart is made for Medium Levels between Flight Levels",
+"o": [
+"150 & 200",
+"100 & 250",
+"100 & 150"
+],
+"a": 1
+},
+{
+"n": 38,
+"q": "The Indian National SIGWX chart is valid for",
+"o": [
+"24 hr",
+"18 hr",
+"12 hr"
+],
+"a": 0
+},
+{
+"n": 39,
+"q": "In India the National SIGWX chart is issued",
+"o": [
+"2 times a day",
+"4 times a day",
+"6 times a day"
+],
+"a": 1
+},
+{
+"n": 40,
+"q": "Individual TS which cover less than 50% area are termed",
+"o": [
+"FRQ",
+"ISOL",
+"OCNL"
+],
+"a": 1
+},
+{
+"n": 41,
+"q": "If TS cells have no separation between adjacent TS and cover an area more than 75%, it is termed",
+"o": [
+"FRQ",
+"ISOL",
+"OCNL"
+],
+"a": 0
+},
+{
+"n": 42,
+"q": "If TS cells are well separated and cover an area 50–75%, it is termed",
+"o": [
+"FRQ",
+"ISOL",
+"OCNL"
+],
+"a": 2
+},
+{
+"n": 43,
+"q": "The Indian National SIGWX chart is made for High Levels between Flight Levels",
+"o": [
+"150 & 200",
+"100 & 250",
+"100 & 150",
+"FL250 and FL630"
+],
+"a": 3
+},
+{
+"n": 44,
+"q": "Local Forecast covers an area",
+"o": [
+"100 NM",
+"100 km",
+"50 NM"
+],
+"a": 2
+},
+{
+"n": 45,
+"q": "Nowcasting forecast is valid for",
+"o": [
+"30 hr",
+"48 hr",
+"less than 24 hr"
+],
+"a": 2
+}
+]
+}

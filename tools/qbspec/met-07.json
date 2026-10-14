@@ -1,0 +1,149 @@
+{
+"id": "met-07",
+"title": "Visibility and Fog",
+"src": "Joshi Ch 7",
+"text": "met",
+"start": 2159,
+"end": 2210,
+"key": "acaabbbbaabbc bbcbcdc",
+"fix": {
+"1": {
+"o": [
+"Less than 1000 m",
+"1000 m",
+"1000 to 2000 m"
+]
+},
+"4": {
+"o": [
+"Mist",
+"Haze",
+"Fog"
+]
+},
+"5": {
+"o": [
+"May to June",
+"Dec to Feb",
+"Oct to Nov"
+]
+},
+"6": {
+"o": [
+"Thunder clouds",
+"Fog and stratus",
+"Frontal clouds"
+]
+},
+"7": {
+"o": [
+"Radiation fog",
+"Advection fog",
+"Frontal fog"
+]
+},
+"8": {
+"q": "The radiation fog forms due to",
+"o": [
+"Heating of the earth during day",
+"Radiational cooling of earth at night",
+"Advection of cold air"
+]
+},
+"9": {
+"q": "The radiation fog activity increases after the passage of a …",
+"o": [
+"WD",
+"Depression",
+"Col"
+]
+},
+"10": {
+"q": "Radiation fog is essentially a … phenomenon",
+"o": [
+"Nocturnal",
+"Dusk",
+"Day"
+]
+},
+"11": {
+"o": [
+"Water",
+"Land",
+"Both"
+]
+},
+"13": {
+"o": [
+"Night only",
+"Day time only",
+"Any time of day and night"
+]
+},
+"14": {
+"q": "For formation of radiation fog",
+"o": [
+"There should be sufficient moisture in atmosphere, cloudy sky, nil wind",
+"There should be sufficient moisture in atmosphere, clear sky, light wind",
+"There should be sufficient moisture in atmosphere, cloudy sky, strong wind"
+]
+},
+"15": {
+"o": [
+"Visiometer",
+"Transmissometer",
+"Ceilometer"
+]
+},
+"16": {
+"o": [
+"Over sea",
+"Over land",
+"Both over land and sea"
+]
+},
+"17": {
+"q": "Fog is … cloud on ground"
+},
+"18": {
+"q": "Frontal fog is more common with a",
+"o": [
+"Western Disturbance",
+"Cyclone",
+"Warm front",
+"Cold front"
+]
+},
+"19": {
+"o": [
+"Lows and Cols",
+"High and Trough",
+"Lows and Ridges",
+"Highs and Cols"
+]
+}
+},
+"ex": {
+"2": "RVR is reported when visibility or RVR is below 1500 m.",
+"3": "Radiation fog needs nocturnal cooling of the ground: it is a land phenomenon (book key a).",
+"4": "Mist: visibility 1000–5000 m with RH ≈ 100%. Haze is dry particles; fog is below 1000 m.",
+"9": "In N India radiation fog typically follows a Western Disturbance: the WD brings rain (moisture), then skies clear and nights cool.",
+"18": "Frontal fog forms in the continuous rain ahead of a warm front.",
+"19": "Highs and cols have light winds, subsidence, stability and clear skies.",
+"20": "An inversion keeps cooling and moisture trapped in a shallow layer near the ground."
+},
+"add": [
+{
+"n": 20,
+"q": "Thermal processes / temperature distribution which favours formation of fog is",
+"o": [
+"Isothermal",
+"Adiabatic",
+"Inversion",
+"SALR"
+],
+"a": 2,
+"ex": "An inversion keeps cooling and moisture trapped in a shallow layer near the ground."
+}
+]
+}

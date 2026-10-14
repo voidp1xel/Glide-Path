@@ -1,0 +1,88 @@
+{
+"id": "met-20",
+"title": "General Circulation",
+"src": "Joshi Ch 20",
+"text": "met",
+"start": 5587,
+"end": 5628,
+"key": "acaaaccbabbaa cb",
+"fix": {
+"2": {
+"q": "… occurs over subtropical high",
+"o": [
+"advection",
+"convection",
+"subsidence"
+]
+},
+"8": {
+"q": "In the equatorial regions the upper tropospheric winds are",
+"o": [
+"Westerlies",
+"Easterlies",
+"Zonal Westerlies"
+]
+},
+"9": {
+"o": [
+"W to E",
+"E to W",
+"N to S",
+"S to N"
+]
+},
+"12": {
+"q": "Latitudinally, on the average there is radiation … in the tropics than in the polar regions"
+},
+"14": {
+"q": "Rising air creates calms in the equatorial region. These are called"
+},
+"1": {
+"o": [
+"Subtropical high",
+"Polar High",
+"Equatorial high"
+]
+},
+"6": {
+"o": [
+"Tropical Latitudes",
+"Middle latitudes",
+"Horse Latitudes"
+]
+},
+"7": {
+"o": [
+"Natural Westerlies",
+"Steady Westerlies",
+"Zonal Westerlies"
+]
+},
+"11": {
+"o": [
+"Perpendicular direction",
+"Opposite direction",
+"Southwards"
+]
+},
+"13": {
+"o": [
+"Synoptic Meteorology",
+"Climatology",
+"Physical Meteorology"
+]
+},
+"15": {
+"o": [
+"Easterly winds",
+"Trade Winds",
+"Tropical Winds"
+]
+}
+},
+"ex": {
+"3": "Subsidence under the subtropical highs warms and dries the air, suppressing cloud: hence the deserts near 30°N/S.",
+"10": "Tropical disturbances are steered westward by the high-level easterlies (book: 'westerly direction' = towards the west).",
+"11": "Reaching the westerlies they recurve and move in the opposite direction (east)."
+}
+}

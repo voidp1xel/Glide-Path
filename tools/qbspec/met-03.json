@@ -1,0 +1,212 @@
+{
+"id": "met-03",
+"title": "Temperature",
+"src": "Joshi Ch 3",
+"text": "met",
+"start": 1028,
+"end": 1126,
+"key": "accacacbacbacbcbbbaabcaaabababdcbaddbba",
+"fix": {
+"1": {
+"q": "Diurnal variation of temperature is greatest when wind is",
+"o": [
+"Calm",
+"Light",
+"Strong"
+]
+},
+"2": {
+"q": "Diurnal variation of temperature is maximum over",
+"o": [
+"Forest",
+"Ocean",
+"Land"
+]
+},
+"4": {
+"q": "ALBEDO is",
+"o": [
+"Radiation received by earth",
+"Amount of heat",
+"Reflecting power of earth"
+]
+},
+"5": {
+"q": "During day the ambient temperature is … than ground",
+"o": [
+"Lower",
+"Higher",
+"Same"
+]
+},
+"8": {
+"q": "Snow surface reflects about … % of solar radiation."
+},
+"11": {
+"o": [
+"Directly",
+"Inversely"
+]
+},
+"17": {
+"q": "Higher the temperature … would be the wavelength of emitted radiation",
+"o": [
+"Longer",
+"Shorter"
+]
+},
+"18": {
+"q": "Air is a bad conductor of heat. A parcel of air can therefore be regarded as insulated from the environment",
+"o": [
+"False",
+"True"
+]
+},
+"19": {
+"q": "Warmer the earth … will be the nocturnal radiation",
+"o": [
+"Intense",
+"Weaker",
+"Moderate"
+]
+},
+"20": {
+"q": "Heat is the … of the KE of all the molecules and atoms of a substance",
+"o": [
+"Sum total",
+"Average"
+]
+},
+"21": {
+"q": "The solar radiation consists of about 46% …"
+},
+"22": {
+"q": "The total energy radiated by a black body is proportional to its temperature (T) as",
+"o": [
+"T²",
+"T³",
+"T⁴"
+]
+},
+"24": {
+"o": [
+"Absolute temperature",
+"Humidity",
+"Albedo"
+]
+},
+"26": {
+"o": [
+"Sensible heat",
+"Latent heat"
+]
+},
+"27": {
+"q": "−40°C = −40°F",
+"o": [
+"True",
+"False"
+]
+},
+"28": {
+"o": [
+"1.5 m",
+"1.25 m",
+"2 m"
+]
+},
+"30": {
+"o": [
+"Mercury",
+"Alcohol",
+"Spirit"
+]
+},
+"31": {
+"o": [
+"0°F",
+"12°F",
+"22°F",
+"32°F"
+]
+},
+"32": {
+"o": [
+"100°F",
+"112°F",
+"212°F",
+"312°F"
+]
+},
+"33": {
+"o": [
+"173 K",
+"273 K",
+"373 K",
+"473 K"
+]
+},
+"34": {
+"o": [
+"373 K",
+"273 K",
+"173 K",
+"312 K"
+]
+},
+"35": {
+"o": [
+"233 K",
+"283 K",
+"294 K",
+"293 K"
+]
+},
+"36": {
+"o": [
+"Clear",
+"Partly cloudy",
+"Cloudy",
+"Overcast"
+]
+},
+"37": {
+"o": [
+"Escape through cloud",
+"Are partly radiated back by clouds to earth",
+"Are fully absorbed by H2O",
+"Are fully prevented by clouds to escape"
+]
+},
+"38": {
+"o": [
+"Forest",
+"Desert",
+"Water",
+"Snow"
+]
+},
+"39": {
+"q": "If temperature does not change with height in a layer, it indicates",
+"o": [
+"Isothermal layer",
+"Inversion",
+"Instability",
+"Uniform lapse rate"
+]
+}
+},
+"ex": {
+"3": "In clear weather about 5/6 of the solar radiation reaches the earth's surface.",
+"5": "By day the ground is the heater, so the air (ambient temperature) is lower than the ground.",
+"11": "A high specific heat means more heat is needed for each degree: temperature rise is inversely proportional to specific heat. Water (1) heats slowly; soil (0.2) heats fast.",
+"13": "Ground keeps losing heat until incoming and outgoing radiation balance just after sunrise; the screen minimum comes ½–1 hour after dawn.",
+"16": "Water vapour partly absorbs long-wave terrestrial radiation (it is a greenhouse gas).",
+"18": "The book treats an air parcel as insulated (adiabatic) because air is a poor conductor.",
+"22": "Stefan–Boltzmann law: E ∝ T⁴ (absolute temperature).",
+"24": "Wien's law: λmax ∝ 1/T. Hot sun → short waves; cool earth → long waves.",
+"35": "C = 5/9 × (68 − 32) = 20°C; K = 20 + 273 = 293 K.",
+"37": "Cloud absorbs outgoing long-wave radiation and its base radiates back to earth, so cloudy nights stay warmer.",
+"38": "Dry desert sand has low specific heat and no moisture: the largest day–night swing."
+}
+}

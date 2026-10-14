@@ -1,0 +1,147 @@
+{
+"id": "met-09",
+"title": "Stability and Instability",
+"src": "Joshi Ch 9",
+"text": "met",
+"start": 2705,
+"end": 2764,
+"key": "ababbcabaccbc babaaac",
+"fix": {
+"1": {
+"q": "DALR = 9.8°C/km, ELR = 6.8°C/km; atmosphere is",
+"o": [
+"Stable",
+"Unstable",
+"Indifferent"
+]
+},
+"2": {
+"q": "SALR = 5.5°C/km, ELR = 4.5°C/km; atmosphere is",
+"o": [
+"Unstable",
+"Stable",
+"Indifferent"
+]
+},
+"3": {
+"q": "DALR > ELR > SALR",
+"o": [
+"Conditionally unstable",
+"Latently stable",
+"Potentially stable"
+]
+},
+"4": {
+"o": [
+"ELR = DALR",
+"ELR > DALR",
+"ELR < DALR"
+]
+},
+"5": {
+"o": [
+"SALR = ELR",
+"SALR < ELR",
+"SALR > ELR"
+]
+},
+"6": {
+"o": [
+"Stable",
+"Unstable",
+"Indifferent"
+]
+},
+"7": {
+"q": "DALR means:",
+"o": [
+"The rate at which temperature of unsaturated parcel of air falls with height when made to ascend adiabatically",
+"The rate at which temperature falls with height",
+"The rate at which ascending parcel of saturated air cools"
+]
+},
+"8": {
+"q": "Surface temperature is 30°C. Assuming DALR, what is the temperature at 2 km?",
+"o": [
+"18°C",
+"10°C",
+"42°C"
+]
+},
+"11": {
+"o": [
+"5°C/km",
+"15°C/km",
+"10°C/km"
+]
+},
+"12": {
+"o": [
+"10°C/km",
+"5°C/km",
+"5°F/km"
+]
+},
+"13": {
+"o": [
+"At 0°C",
+"At −15°F",
+"At −40°C"
+]
+},
+"14": {
+"o": [
+"29°C",
+"25°C",
+"45°C"
+]
+},
+"16": {
+"q": "Inversion is … lapse rate (ELR)"
+},
+"17": {
+"q": "Environmental lapse rate can be more than DALR"
+},
+"20": {
+"o": [
+"Post monsoon",
+"Monsoon",
+"Winters"
+]
+}
+},
+"ex": {
+"1": "ELR (6.8) < DALR (9.8): a lifted dry parcel cools faster than its surroundings and sinks back → stable.",
+"2": "ELR (4.5) < SALR (5.5): even saturated air is stable.",
+"8": "30 − 9.8 × 2 = 10.4 ≈ 10°C.",
+"14": "35 − 9.8 ≈ 25°C.",
+"17": "A super-adiabatic lapse rate (ELR > DALR) occurs over strongly heated ground: absolutely unstable.",
+"13": "At very low temperatures (below −40°C) there is so little water vapour that latent heat release is negligible."
+},
+"drop": [
+9,
+10
+],
+"add": [
+{
+"n": 9,
+"q": "An isothermal atmosphere is:",
+"o": [
+"Stable",
+"Unstable",
+"Neutral"
+],
+"a": 0
+},
+{
+"n": 10,
+"q": "If ELR is less than SALR, the atmosphere is said to be:",
+"o": [
+"Absolutely unstable",
+"Conditionally unstable",
+"Absolutely stable"
+],
+"a": 2
+}
+]
+}

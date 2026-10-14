@@ -1,0 +1,111 @@
+{
+"title": "Humidity",
+"src": "Joshi Ch 5",
+"qs": [
+{
+"n": 1,
+"q": "The ratio in % between the amount of water vapour present in the air to the amount of water vapour that it can hold at the same temperature is",
+"o": [
+"Humidity",
+"Relative humidity",
+"Dew point"
+],
+"a": 1
+},
+{
+"n": 2,
+"q": "The temperature to which air be cooled at constant pressure to become saturated, is called",
+"o": [
+"Wet bulb temperature",
+"Dry bulb temperature",
+"Dew point",
+"Humidity"
+],
+"a": 2
+},
+{
+"n": 3,
+"q": "Free air temperature, Wet bulb temperature and Dew point temperature are equal when",
+"o": [
+"Air temperature is 0°C",
+"Relative humidity is 100%",
+"Air temperature is not below 0°C"
+],
+"a": 1,
+"ex": "In saturated air (fog, rain) dry bulb = wet bulb = dew point."
+},
+{
+"n": 4,
+"q": "On a rainy day compared to sunny day the length of runway required is Aff More",
+"o": [
+"More",
+"Less",
+"Same"
+],
+"a": 0,
+"ex": "Humid air is less dense, so take-off run is longer (the book suggests adding 10% to take-off distance in high humidity)."
+},
+{
+"n": 5,
+"q": "The spread (difference) between free air temperature and dew point temperature is … when air is saturated",
+"o": [
+"Large",
+"Least",
+"Same"
+],
+"a": 1
+},
+{
+"n": 6,
+"q": "The saturation vapour pressure over water is … than over ice",
+"o": [
+"More",
+"Less",
+"Same"
+],
+"a": 0,
+"ex": "At sub-zero temperatures SVP over water is greater than over ice, so in mixed clouds drops evaporate and ice crystals grow (Bergeron process)."
+},
+{
+"n": 7,
+"q": "As the temperature of the air increases, the amount of water vapour required to saturate it …",
+"o": [
+"Decreases",
+"Increases",
+"Remains same"
+],
+"a": 1
+},
+{
+"n": 8,
+"q": "The actual amount of water vapour contained in a given volume of air at a given temperature is termed as …",
+"o": [
+"Relative humidity",
+"Specific humidity",
+"Absolute humidity"
+],
+"a": 2
+},
+{
+"n": 9,
+"q": "Humidity mixing ratio … when air is lifted adiabatically",
+"o": [
+"Decreases",
+"Remains constant",
+"Increases"
+],
+"a": 1,
+"ex": "With no water added or removed, the mixing ratio (g of WV per kg of dry air) stays constant during adiabatic lifting."
+},
+{
+"n": 10,
+"q": "It is the lowest temperature which air would attain by evaporating water into it to saturate it.",
+"o": [
+"Wet bulb temperature",
+"Dry bulb temperature",
+"Dew point"
+],
+"a": 0
+}
+]
+}

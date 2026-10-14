@@ -1,0 +1,43 @@
+module.exports = {
+  n: 17, title: 'Air Data Systems', tag: 'pitot-static · alternate static · ADC · CADC errors', icon: 'gauge', hue: 4, partOfBook: 'Aircraft Instruments',
+  big: 'Where the pressure instruments get their air: the pitot tube and static ports, what the alternate static source does to each instrument, the air data computer (sensors, transducers, computer, outputs) and the errors common to all pressure instruments.',
+  purpose: 'No end-of-chapter questions in the book; its facts are asked inside the altimeter, ASI and VSI chapters: which instrument uses which pressure, alternate-static effects, compressibility and density error, transonic jump.',
+  lessons: [
+    { id: 'ps', type: 'svg', fig: 'pitot-static', icon: 'route', ask: 'Which pressure feeds which instrument', dgca: true,
+      takeaway: 'Pitot (ram) pressure goes only to the ASI. Static pressure goes to the ASI, the altimeter and the VSI. The pitot opening faces the airflow; the static port lies parallel to it.',
+      hook: 'Pitot: one customer. Static: everyone.' },
+    { id: 'ports', type: 'pairs', icon: 'scale', ask: 'Pitot tube vs static port', dgca: true,
+      pairs: [
+        { a: { label: 'Pitot tube', body: 'Senses **impact (ram)** pressure. Near the **wing leading edge**, opening **perpendicular** to the airflow. Prone to dirt, water and ice: **heated** for IFR; check the heater before flight.' }, b: { label: 'Static port', body: 'Senses **still-air** pressure. **Flush on the fuselage side**, opening **parallel** to the airflow; vents on both sides cancel attitude effects.' }, rule: 'Pitot = faces the wind. Static = side-on.' },
+      ] },
+    { id: 'alt', type: 'matrix', icon: 'alert', ask: 'Alternate static source inside the cabin', dgca: true, revise: true,
+      lead: 'Used when the main static source is blocked (ice etc.). Inside the cockpit only on unpressurised aircraft. Cabin pressure is LOWER than outside because of the airflow over the cabin.',
+      takeaway: 'Lower static pressure: the altimeter reads high, the ASI reads high, and the VSI briefly shows a climb before settling back.',
+      corner: 'Instrument', cols: ['On the alternate source'],
+      rows: [['Altimeter', 'Reads higher than actual'], ['VSI', 'Momentary climb, then settles back'], ['ASI', 'Reads greater than normal']].map(r => ({ label: r[0], cells: [r[1]] })) },
+    { id: 'adc', type: 'sequence', icon: 'layers', ask: 'Inside an air data system', dgca: true,
+      steps: [
+        { label: 'Sensors', sub: 'pitot · static · temp probe (+ AoA)', tip: 'Measure the atmosphere around the aircraft. Complex systems add an angle-of-attack sensor.' },
+        { label: 'Transducers', sub: 'to volts · synchro · digital', tip: 'Their accuracy governs the whole system.' },
+        { label: 'Computer', sub: 'TAS · Mach · corrected SP & OAT', tip: 'Also: correction signals to transducers, drives displays, feeds nav computers, pressurisation, AFCS and engine fuel control.' },
+        { label: 'Outputs', sub: 'PA · airspeed · density · Mach · temp · AoA · rates', tip: 'Pressure altitude from ISA; temperature corrected for friction and compression at the probe; true AoA corrected for airspeed.' },
+      ] },
+    { id: 'outs', type: 'classify', icon: 'list', ask: 'ADC: input or output?',
+      lead: 'From the book\'s "inputs and outputs of the air data computer" diagram.',
+      buckets: [{ id: 'i', label: 'Input' }, { id: 'o', label: 'Output' }],
+      items: [{ text: 'Pitot pressure', bucket: 'i' }, { text: 'Static pressure', bucket: 'i' }, { text: 'Total air temperature', bucket: 'i' }, { text: 'Aircraft type data (VMO)', bucket: 'i' }, { text: 'Power supply', bucket: 'i' }, { text: 'GPWS', bucket: 'o' }, { text: 'Autothrottle', bucket: 'o' }, { text: 'Yaw damper', bucket: 'o' }, { text: 'Cabin pressurisation', bucket: 'o' }, { text: 'Flight data recorder', bucket: 'o' }, { text: 'Automatic (altitude) reporting', bucket: 'o' }] },
+    { id: 'errs', type: 'pairs', icon: 'alert', ask: 'Errors in the CADC and its instruments', dgca: true,
+      pairs: [
+        { a: { label: 'Position error', body: 'Depends on **aircraft type and configuration**; corrected by a circuit built from flight tests → the CADC is **tailored to one type**.' }, b: { label: 'Scale (instrument) error', body: 'From the particular **aneroids**; varies with altitude; reduced by a **corrective camshaft**.' }, rule: 'Corrected output: CAS, actual TAS, calibrated altitude, true Mach.' },
+        { a: { label: 'ASI density error', body: 'High → low density: ASI **under-reads**; same IAS = **higher TAS**.' }, b: { label: 'ASI compressibility error', body: 'Ram air is compressed → ASI **over-reads**. **Negligible ≤ 300 kt TAS.**' }, rule: '' },
+        { a: { label: 'VSI transonic jump', body: 'Near **Mach 1**, a shock wave passing the static source drops static pressure → a **brief false jump**.' }, b: { label: 'What it tells you', body: 'A positive sign the aircraft is **close to the speed of sound**.' }, rule: '' },
+      ] },
+    { id: 'quiz', type: 'quiz', icon: 'check', ask: 'Quick check',
+      questions: [
+        { q: 'Which instrument uses pitot pressure?', options: ['ASI only', 'Altimeter and VSI', 'All three'], answer: 0 },
+        { q: 'On the alternate static source inside the cabin, the altimeter reads:', options: ['Higher than actual', 'Lower than actual', 'Correctly'], answer: 0 },
+        { q: 'Compressibility error makes the ASI:', options: ['Over-read', 'Under-read', 'Freeze'], answer: 0 },
+        { q: 'A CADC is tailored to one aircraft type because of:', options: ['Position error', 'Scale error', 'Density error'], answer: 0 },
+      ] },
+  ],
+};

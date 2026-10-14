@@ -1,0 +1,144 @@
+{
+"id": "met-18",
+"title": "Tropical Systems",
+"src": "Joshi Ch 18",
+"text": "met",
+"start": 4783,
+"end": 4889,
+"key": "bbcacbacdab bbaadccbaaa ccbcbccbacb abccbaa",
+"fix": {
+"2": {
+"o": [
+"Tropical cyclone",
+"Extra-tropical depressions",
+"Monsoon depressions"
+]
+},
+"3": {
+"o": [
+"Moderate winds and heavy rains",
+"Hurricane force winds and squalls",
+"Calm wind, little clouding and practically no rainfall"
+]
+},
+"6": {
+"q": "TRS occur over Indian seas in",
+"o": [
+"Equatorial region",
+"5–15°N",
+"0–5°N"
+]
+},
+"7": {
+"q": "In the Bay of Bengal during July and August, monsoon depressions form over the",
+"o": [
+"Head Bay",
+"Central Bay",
+"South Bay"
+]
+},
+"12": {
+"o": [
+"Latitudes near equator",
+"Tropical latitudes",
+"Polar latitudes",
+"Mid latitudes"
+]
+},
+"14": {
+"o": [
+"True",
+"False"
+]
+},
+"15": {
+"q": "The … is the most dangerous part of the cyclone"
+},
+"19": {
+"o": [
+"Shelf clouds",
+"Wall clouds",
+"Rotor clouds",
+"Roll clouds"
+]
+},
+"21": {
+"q": "Surge is sudden strengthening of wind in the … air mass"
+},
+"22": {
+"q": "Surge and shear line are features of … monsoon"
+},
+"25": {
+"o": [
+"Velocity divergence",
+"Velocity convergence",
+"Like ITCZ"
+]
+},
+"26": {
+"o": [
+"< 17 kt",
+"34–47 kt",
+"17–27 kt",
+"48–63 kt"
+]
+},
+"28": {
+"q": "A monsoon depression slopes … with height"
+},
+"30": {
+"o": [
+"Sea",
+"Plains",
+"Hills",
+"Rivers"
+]
+},
+"33": {
+"o": [
+"1002–1010 hPa",
+"1000–900 hPa",
+"1010–1020 hPa"
+]
+},
+"35": {
+"q": "TRS develop over … deg latitude"
+},
+"37": {
+"o": [
+"Equatorial front",
+"Tropical front",
+"Polar front"
+]
+},
+"39": {
+"q": "A tropical cyclone moves … in a day"
+}
+},
+"ex": {
+"1": "Severe cyclonic storm = 48–63 kt. (Depression 17–27, deep depression 28–33, CS 34–47.)",
+"9": "At recurvature the rain belt shifts from the SW sector to the N–NE sector.",
+"10": "Facing your course with strong wind from the left in the NH means the low lies ahead (Buys Ballot). Turn until the wind comes from starboard and weakens.",
+"16": "No TC forms at the equator (no Coriolis), at the poles or at 40° (water too cold).",
+"20": "Bay and Arabian Sea storms have only a short sea track before landfall, so they rarely reach full maturity.",
+"28": "Monsoon depressions slope south-west with height (surface over Kolkata → 300 hPa over Visakhapatnam).",
+"40": "Outer storm area with gale-force winds extends to ~400 km."
+},
+"drop": [
+31
+],
+"add": [
+{
+"n": 31,
+"q": "For formation of a CS, sea surface temperature should be",
+"o": [
+"26–27°C",
+"23–24°C",
+"24–25°C",
+"30°C"
+],
+"a": 0,
+"ex": "Sea surface above about 26°C to a depth of ~60 m."
+}
+]
+}

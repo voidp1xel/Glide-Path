@@ -1,0 +1,211 @@
+{
+"title": "Ice Accretion",
+"src": "Joshi Ch 12",
+"qs": [
+{
+"n": 1,
+"q": "Hoar frost occurs on airframe in clear air when the temperature of airframe is",
+"o": [
+"Below the frost point",
+"Frost point",
+"Just above the frost point"
+],
+"a": 0
+},
+{
+"n": 2,
+"q": "In clouds at temperatures below 0°C an aircraft may encounter icing of the type",
+"o": [
+"Only glazed",
+"Only rime",
+"Intermediate between these two"
+],
+"a": 2,
+"ex": "Real clouds contain a range of drop sizes, so the ice is often intermediate (mixed rime/glaze)."
+},
+{
+"n": 3,
+"q": "Opaque rime ice is",
+"o": [
+"Light porous",
+"Solid",
+"Mixture of porous and solid"
+],
+"a": 0
+},
+{
+"n": 4,
+"q": "Rime is formed by freezing of … supercooled water droplets on airframe when aircraft is flying through clouds",
+"o": [
+"Small",
+"Large",
+"Medium"
+],
+"a": 0
+},
+{
+"n": 5,
+"q": "Glazed ice is formed by freezing of … supercooled water droplets on airframe when aircraft is flying through clouds",
+"o": [
+"Small",
+"Large",
+"Medium"
+],
+"a": 1
+},
+{
+"n": 6,
+"q": "The … ice poses serious aviation hazard",
+"o": [
+"Rime",
+"Hoar frost",
+"Glazed"
+],
+"a": 2
+},
+{
+"n": 7,
+"q": "Airframe icing occurs below 0°C. Its probability of occurrence decreases progressively below −20°C, as at lower temperatures the proportion of supercooled water drops in a cloud",
+"o": [
+"Increases",
+"Decreases",
+"Does not change"
+],
+"a": 1
+},
+{
+"n": 8,
+"q": "CI, CS and CC clouds consist mostly of ice crystals. Icing hazard is therefore",
+"o": [
+"Maximum",
+"Medium",
+"Negligible"
+],
+"a": 2
+},
+{
+"n": 9,
+"q": "AS, NS consist of supercooled water drops and ice crystals in varying proportion. … icing is possible.",
+"o": [
+"Maximum",
+"Light or moderate",
+"Negligible"
+],
+"a": 1
+},
+{
+"n": 10,
+"q": "In AC clouds … icing is possible in mountainous areas",
+"o": [
+"Light",
+"Moderate",
+"Severe"
+],
+"a": 2,
+"ex": "In AC, light to moderate icing is normal, but severe icing is possible over mountains (forced ascent, large drops)."
+},
+{
+"n": 11,
+"q": "In TCU icing may range from light to severe type at least up to … level.",
+"o": [
+"−40°C level",
+"−30°C level",
+"−20°C level"
+],
+"a": 2
+},
+{
+"n": 12,
+"q": "In CB icing may range from light to severe type up to −20°C level. Below this temperature severe icing is",
+"o": [
+"Not significant",
+"Significant",
+"Maximum"
+],
+"a": 0
+},
+{
+"n": 13,
+"q": "Liquid water content is an important factor in icing. As the maximum water concentration is around …, maximum ice formation in clouds may also be expected around that level.",
+"o": [
+"−25°C level",
+"−20°C level",
+"−15°C level"
+],
+"a": 2
+},
+{
+"n": 14,
+"q": "Carburettor icing occurs when air from intake passes through a venturi (choke) and causes expansional cooling and vaporisation of fuel. Serious icing can occur at extreme temperatures",
+"o": [
+"13°C",
+"30°C to −10°C",
+"20°C"
+],
+"a": 1
+},
+{
+"n": 15,
+"q": "… occurs in moist cloudless air on an aircraft surface having temperature below 0°C, due to sublimation of water vapour onto feathery ice crystals.",
+"o": [
+"Rime",
+"Glazed",
+"Hoar frost"
+],
+"a": 2
+},
+{
+"n": 16,
+"q": "… occurs in ST, SC, AC, CU, NS at temperature −10 to −40°C and in CB at temperature −20 to −40°C",
+"o": [
+"Rime",
+"Glazed",
+"Hoar frost"
+],
+"a": 0
+},
+{
+"n": 17,
+"q": "In clouds … occurs when a wide range of water drop sizes are present at temperatures between 0°C and −40°C",
+"o": [
+"Rime",
+"Glazed",
+"Mixture of rime and clear ice"
+],
+"a": 2
+},
+{
+"n": 18,
+"q": "… occurs in AS, NS, AC and towering CU or CB between 0°C and −20°C, in warm front below 0°C, especially if the aircraft has rapidly descended from a colder region.",
+"o": [
+"Glazed",
+"Rime",
+"Mixture of rime and clear ice"
+],
+"a": 2,
+"ex": "Book key (c): a mixture of rime and clear ice. Pure glaze needs large supercooled drops, e.g. freezing rain below a warm front."
+},
+{
+"n": 19,
+"q": "When fog freezes on parked aircraft it produces …",
+"o": [
+"Hoar frost",
+"Rime",
+"Clear ice"
+],
+"a": 0,
+"ex": "Book key (a). Strictly, supercooled fog drops freezing on contact give rime; hoar frost forms by deposition from vapour in clear air."
+},
+{
+"n": 20,
+"q": "Icing … the stalling speed appreciably",
+"o": [
+"Decreases",
+"Increases",
+"Does not increase/decrease"
+],
+"a": 1,
+"ex": "Ice spoils the wing profile, adds weight and drag: stall speed rises."
+}
+]
+}

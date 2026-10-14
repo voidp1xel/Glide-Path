@@ -1,0 +1,567 @@
+{
+"title": "DR Elements: Temperature and Airspeed",
+"src": "Bali GN Ch 11",
+"qs": [
+{
+"n": 1,
+"q": "Total Air Temp is always... than Static Air Temp and the difference varies with...",
+"o": [
+"warmer, altitude.",
+"warmer, TAS.",
+"colder, CAS."
+],
+"a": 1
+},
+{
+"n": 2,
+"q": "Cruising at FL390, M.84 is found to give a TAS of 499kt. The ISA deviation at this level will be:",
+"o": [
+"+15.5.",
+"-19.",
+"+19."
+],
+"a": 0,
+"ex": "LSS = 499 ÷ 0.84 ≈ 594 kt → T = (594/39)² ≈ 232 K ≈ −41 °C. ISA at FL390 is −56.5 °C, so the air is about ISA +15.5. The book key prints (b) −19; corrected to (a) — a TAS this high for M0.84 can only mean warmer than ISA."
+},
+{
+"n": 3,
+"q": "In An Air Data Computer (ADC), aero plane altitude is calculated from:",
+"o": [
+"Measurement of outside air temperature (OAT)",
+"The difference between absolute and dynamic pressure at the fuselage",
+"Measurement of absolute barometric pressure from a static source on the fuselage"
+],
+"a": 2
+},
+{
+"n": 4,
+"q": "With M = Mach number, Ts = static temperature and Tt = total temperature (in K), which is correct?",
+"o": [
+"Ts = Tt × (0.2 M²)",
+"Ts = Tt × (1 + 0.2 M²)",
+"Ts = Tt ÷ (1 + 0.2 M²)"
+],
+"a": 2,
+"ex": "TAT = SAT (1 + 0.2 M²) with temperatures in kelvin, so SAT = TAT ÷ (1 + 0.2 M²). The book key prints (a); corrected to (c)."
+},
+{
+"n": 5,
+"q": "The difference between static air temperature and total air temperature is known as:",
+"o": [
+"hot ramp radiation",
+"corrected outside air temperature",
+"the ram rise"
+],
+"a": 2,
+"ex": "The heating of air brought to rest at the probe is the ram rise."
+},
+{
+"n": 6,
+"q": "An Air Data Computer (ADC):",
+"o": [
+"transforms air data measurements into electric impulses driving servo motors in instruments",
+"is an auxiliary system that provides altitude information in the event that the static source is blocked",
+"e) measures position error in the static system and transmits this information to ATC to provide correct altitude reporting"
+],
+"a": 0
+},
+{
+"n": 10,
+"q": "Total air temperature is ____ than ____ by an amount proportional to ____",
+"o": [
+"Higher, SAT, CAS",
+"Higher, SAT, TAS",
+"Higher, SAT, LSS"
+],
+"a": 1
+},
+{
+"n": 11,
+"q": "A temperature sensor having a recovery factor of 0.75 indicates 30° C. Static Air Temperature (SAT) is 25° C. How high is the Ram-rise?",
+"o": [
+"18.8° C.",
+"5° C.",
+"6.7° C."
+],
+"a": 1,
+"ex": "Ram rise measured = 30 − 25 = 5 °C at recovery 0.75 → full ram rise = 5 / 0.75 ≈ 6.7 °C. Book key: (b) 5 °C (the indicated rise)."
+},
+{
+"n": 12,
+"q": "If pressure altitude is 30000 ft amsl and mach number is 0.84 what is the ISA TAT ?",
+"o": [
+"-10°C.",
+"10°C.",
+"-12°C"
+],
+"a": 2
+},
+{
+"n": 13,
+"q": "If indicated TAT is -10°C, pressure altitude is 30000 ft. amsl, and mach number is 0.84, what is the temperature deviation?",
+"o": [
+"2ºC.",
+"4°C.",
+"-4°C."
+],
+"a": 0
+},
+{
+"n": 14,
+"q": "If pressure altitude is 40,000 ft. amsl, indicated TAT is -29°C what is the mach number assuming ISA conditions?",
+"o": [
+"0.7.",
+"0.75.",
+"0.8."
+],
+"a": 2
+},
+{
+"n": 15,
+"q": "If mach number is 0.88 and TAT is -4°C, what is the pressure altitude in the international standard atmosphere?",
+"o": [
+"22000 ft.",
+"28000 ft.",
+"26000 ft."
+],
+"a": 1
+},
+{
+"n": 16,
+"q": "If pressure altitude is 30000 ft., indicated TAT is -10°C, mach number is 0.82, what is the density altitude?",
+"o": [
+"31000 ft.",
+"30382 ft.",
+"30674 ft."
+],
+"a": 1
+},
+{
+"n": 17,
+"q": "FL 350, Mach 0.80, OAT -55°C. Calculate the values for TAS and local speed of sound (LSS)?",
+"o": [
+"460 kt. LSS 575 kt.",
+"465 kt, LSS 575 kt.",
+"460 kt, LSS 567 kt."
+],
+"a": 0,
+"ex": "LSS = 39 √218 ≈ 575 kt; TAS = 0.80 × 575 = 460 kt."
+},
+{
+"n": 18,
+"q": "TAS = 485 kt, OAT = ISA +10°C, FL 410. Calculate the Mach number?",
+"o": [
+"0.852.",
+"0.833.",
+"0.825."
+],
+"a": 2
+},
+{
+"n": 19,
+"q": "TAS 487kt, FL 330, Temperature ISA + 15.Calculate the MACH number?",
+"o": [
+"0.81..",
+"0.83.",
+"0.79.ł"
+],
+"a": 0
+},
+{
+"n": 20,
+"q": "M 0.80, OAT -50°C, FL. 330, GS 490 kt, VAR 20°W, Magnetic heading 140°, drift is 11' right. Calculate the true W/V?",
+"o": [
+"020°/80 kts.",
+"025°/90 kts.",
+"020/95 kts."
+],
+"a": 0
+},
+{
+"n": 21,
+"q": "FL250, OAT -15°C, TAS 250 kt. Calculate the Mach No.?",
+"o": [
+"0.40.",
+"0.38.",
+"0.45."
+],
+"a": 1
+},
+{
+"n": 22,
+"q": "IAS 120 kt, FI. 80, OAT +20°C. What is the TAS?",
+"o": [
+"135 kts.",
+"144 kts.",
+"141 kts."
+],
+"a": 0,
+"ex": "At FL80 ISA is −1 °C, so +20 °C is ISA +21: TAS ≈ 120 × 1.13–1.17. The book keys 135 kt."
+},
+{
+"n": 23,
+"q": "FL120, OAT is ISA standard, CAS is 200 kt, Track is 222°(M), Heading is 215°(M), Variation is 15ạiW. time to fly 105 NM is 21 MIN. what is the W/V?",
+"o": [
+"050°(T) / 70 kt.",
+"050°(T) / 50 kt.",
+"050°(T) / 75 kt."
+],
+"a": 1
+},
+{
+"n": 24,
+"q": "What corrections must be applied to indicated airspeed to produce true airspeed?",
+"o": [
+"Correction for altitude and wind.",
+"Correction for altitude and temperature.",
+"Correction for heading and altitude."
+],
+"a": 1
+},
+{
+"n": 25,
+"q": "EAS is?",
+"o": [
+"CAS corrected for adiabatic compression.",
+"IAS corrected for adiabatic compression.",
+"IAS corrected for pressure sensing errors."
+],
+"a": 0
+},
+{
+"n": 26,
+"q": "As pressure altitude increases when climbing at constant IAS?",
+"o": [
+"CAS will increase.",
+"CAS will decrease.",
+"TAS will increase."
+],
+"a": 2
+},
+{
+"n": 27,
+"q": "As pressure altitude increases when climbing at constant mach number?",
+"o": [
+"TAS will decrease then remain constant.",
+"CAS will decrease then remain constant",
+"TAS will increase."
+],
+"a": 0
+},
+{
+"n": 28,
+"q": "As pressure altitude increases.",
+"o": [
+"Temperature decreases.",
+"Temperature decreases then remains constant.",
+"Temperature increases then remains constant."
+],
+"a": 1
+},
+{
+"n": 29,
+"q": "Mach number is the ratio of?",
+"o": [
+"CAS:LSS.",
+"TAS:LSS.",
+"IAS:TAS"
+],
+"a": 1,
+"ex": "Mach number = TAS ÷ local speed of sound. The book key prints (c); corrected to (b)."
+},
+{
+"n": 30,
+"q": "At a fixed pressure altitude an increase in temperature will?",
+"o": [
+"Decrease density but increase density altitude.",
+"Not affect density altitude.",
+"Increase density but decrease density altitude."
+],
+"a": 0
+},
+{
+"n": 31,
+"q": "The Airspeed Indicator measures:",
+"o": [
+"Differential pressure",
+"Differential pressure changes",
+"Static pressure changes"
+],
+"a": 0
+},
+{
+"n": 32,
+"q": "Calibrated air speed is:",
+"o": [
+"IAS plus the pressure error",
+"IAS plus density error correction",
+"IAS plus instrument error correction"
+],
+"a": 2
+},
+{
+"n": 33,
+"q": "CAS is IAS corrected for:",
+"o": [
+"position error.",
+"instrument error.",
+"density error."
+],
+"a": 0
+},
+{
+"n": 34,
+"q": "EAS is:",
+"o": [
+"IAS corrected for compressibility",
+"CAS corrected for position error",
+"CAS corrected for compressibility"
+],
+"a": 2
+},
+{
+"n": 35,
+"q": "At any given height or altitude, an aircraft will always lift-off at the same?",
+"o": [
+"CAS.",
+"Ground speed.",
+"EAS."
+],
+"a": 0
+},
+{
+"n": 36,
+"q": "CAS is?",
+"o": [
+"EAS corrected for position error and compressibility error.",
+"IAS corrected for position error and instrument error.",
+"IAS corrected for density error and position error."
+],
+"a": 1
+},
+{
+"n": 37,
+"q": "When descending through an isothermal layer at a constant Calibrated Airspeed (CAS), the True Airspeed (TAS) will?",
+"o": [
+"Decrease.",
+"Remain constant.",
+"Increase at an exponential rate."
+],
+"a": 0
+},
+{
+"n": 39,
+"q": "An aircraft flying at a TAS of 1100 knots at FL 650. A change in 0.1M causes a change in TAS of 57 knots. The temperature deviation at FL. 650 assuming an ISA atmosphere is:",
+"o": [
+"+5",
+"−5",
+"−2.5"
+],
+"a": 2,
+"ex": "LSS = 57 / 0.1 = 570 kt → T = (570/39)² ≈ 214 K = −59 °C; ISA at FL650 is −56.5 °C → about ISA −2.5."
+},
+{
+"n": 40,
+"q": "If the outside temperature at 35000ft is -40°C, the local speed of sound is:",
+"o": [
+"307kt",
+"686kt",
+"596kt"
+],
+"a": 2,
+"ex": "LSS = 39 √233 ≈ 596 kt."
+},
+{
+"n": 41,
+"q": "An aircraft is flying at FL 390, temperature -56.5° C at Mach 0.85. The TAS of the aircraft is:",
+"o": [
+"561",
+"472",
+"485"
+],
+"a": 2,
+"ex": "LSS at −56.5 °C ≈ 573 kt; × 0.85 ≈ 487 ≈ 485 kt."
+},
+{
+"n": 42,
+"q": "The velocity of sound at the sea level in a standard atmosphere is:",
+"o": [
+"661kt",
+"644kt",
+"1059kt"
+],
+"a": 0,
+"ex": "LSS = 39 √288 ≈ 661 kt at ISA sea level."
+},
+{
+"n": 44,
+"q": "An increase of 0.15 Mach results in an increase of 93 kt TAS of an aircraft. The local speed of sound is:",
+"o": [
+"620 kt",
+"560 kt",
+"580 kt"
+],
+"a": 0,
+"ex": "LSS = 93 / 0.15 = 620 kt."
+},
+{
+"n": 45,
+"q": "When climbing at a constant Mach number below the tropopause, in ISA conditions, the calibrated airspeed (CAS) will:",
+"o": [
+"increase at a linear rate",
+"decrease",
+"increase at an exponential rate"
+],
+"a": 1
+},
+{
+"n": 46,
+"q": "Even if the CAS or MN is unaltered on purpose the MN may change due to a change in the OAT, eg. high temperature to low temperature, the LSS will decrease, thus to maintain a constant MN the TAS must decrease. For example if two aero planes are traveling at the same MN, but at different flight levels the aero plane at the lower flight level will have a higher TAS.",
+"o": [
+"ISOTHERMAL LAYER",
+"If an aero plane climbs or descends through an Isothermal Layer the graphs depict what will happen to the other airspeeds, if one of them remains constant"
+],
+"a": 1
+},
+{
+"n": 47,
+"q": "At a constant Mach number, the calibrated airspeed (CAS):",
+"o": [
+"remains unchanged when the outside temperature increases",
+"increases when the altitude increases",
+"decreases when the altitude increases"
+],
+"a": 2
+},
+{
+"n": 48,
+"q": "When descending through an isothermal layer at a constant Calibrated Airspeed (CAS), the True Airspeed (TAS) will:",
+"o": [
+"increase at an exponential rate",
+"increase at a linear rate",
+"decrease"
+],
+"a": 2
+},
+{
+"n": 49,
+"q": "When descending through an isothermal level the TAS will ......, the CAS...... and the LSS will ...",
+"o": [
+"remain constant, decrease, increase",
+"Increase, increase, decrease",
+"remain constant, increase, remain constant"
+],
+"a": 2
+},
+{
+"n": 50,
+"q": "When descending through an inversion at constant TAS?",
+"o": [
+"Mach number increases.",
+"Mach number remains constant.",
+"c. CAS decreases."
+],
+"a": 0
+},
+{
+"n": 51,
+"q": "When climbing through an inversion at constant TAS.",
+"o": [
+"Mach number increases.",
+"Mach number decreases",
+"c. Mach number remains constant."
+],
+"a": 1
+},
+{
+"n": 52,
+"q": "When descending through an inversion at constant CAS?",
+"o": [
+"TAS decreases.",
+"Mach number increases.",
+"c. Mach number remains constant."
+],
+"a": 0
+},
+{
+"n": 53,
+"q": "When climbing through an inversion at constant CAS?",
+"o": [
+"TAS increases.",
+"Mach number decreases.",
+"TAS decreases."
+],
+"a": 0
+},
+{
+"n": 54,
+"q": "When climbing through an inversion at constant mach number?",
+"o": [
+"CAS increases.",
+"TAS increases.",
+"TAS remains constant"
+],
+"a": 1
+},
+{
+"n": 55,
+"q": "When descending through an inversion at constant mach number?",
+"o": [
+"TAS increases.",
+"TAS decreases.",
+"CAS decreases."
+],
+"a": 1
+},
+{
+"n": 56,
+"q": "When climbing through an inversion at constant CAS?",
+"o": [
+"TAS increases.",
+"TAS remains constant.",
+"Mach number decreases."
+],
+"a": 0
+},
+{
+"n": 57,
+"q": "When descending through an inversion at constant CAS?",
+"o": [
+"TAS increases.",
+"TAS decreases.",
+"Mach number increases."
+],
+"a": 1
+},
+{
+"n": 58,
+"q": "When descending through an isothermal layer at constant TAS?",
+"o": [
+"Mach number increases.",
+"Mach number decreases.",
+"Mach number remains constant."
+],
+"a": 2
+},
+{
+"n": 59,
+"q": "When climbing through an isothermal layer at constant TAS?",
+"o": [
+"Mach number increases.",
+"Mach number decreases.",
+"Mach number remains constant."
+],
+"a": 2
+},
+{
+"n": 60,
+"q": "When descending through an isothermal layer at constant CAS?",
+"o": [
+"Mach number increases.",
+"Mach number decreases.",
+"Mach number remains constant."
+],
+"a": 1
+}
+]
+}

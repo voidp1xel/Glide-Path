@@ -1,0 +1,561 @@
+{
+"title": "Miscellaneous Questions",
+"src": "Joshi: Miscellaneous",
+"qs": [
+{
+"n": 1,
+"q": "Translucent rime ice forms due to",
+"o": [
+"Melting of large snow particles",
+"Freezing of large supercooled water drops",
+"Freezing of small supercooled water drops",
+"Sublimation of large hail"
+],
+"a": 2
+},
+{
+"n": 2,
+"q": "Advection fog occurs due to … air moving over a … surface over …",
+"o": [
+"Dry, wet, land only",
+"Moist and cold, warm, land only",
+"Warm & moist air, cold, both land & sea."
+],
+"a": 2
+},
+{
+"n": 3,
+"q": "ELR 6.5° C and SALR 7°C on lifting a saturated parcel of air the atmosphere would be",
+"o": [
+"Stable",
+"Absolutely stable",
+"Absolutely unstable",
+"Indifferent"
+],
+"a": 1,
+"ex": "ELR (6.5) less than SALR (7): a saturated parcel cools faster than its surroundings, so the air is absolutely stable."
+},
+{
+"n": 4,
+"q": "Gradient wind is weaker than geostrophic wind around a low because",
+"o": [
+"Centripetal force is provided by pressure gradient force",
+"Centripetal force is added to the pressure gradient force",
+"Coriolis force is added to the pressure gradient force",
+"Coriolis force is opposite to Centripetal"
+],
+"a": 0
+},
+{
+"n": 5,
+"q": "The altimeter of an aircraft is set to QFE before landing, on landing it will indicate",
+"o": [
+"Height of A/C wheels above runway",
+"Flight Level",
+"A/C altitude AMSL",
+"Height of A/C above ARP in ISA"
+],
+"a": 3,
+"ex": "With QFE set the altimeter reads height above the aerodrome datum (ARP), in ISA; on the runway it reads (about) zero."
+},
+{
+"n": 6,
+"q": "TAF generally has a validity of … hr and TREND … hr",
+"o": [
+"9 hr; 2 hr",
+"24 hr; 3 hr",
+"12 hr; 2 hr",
+"24 hr; 9hr"
+],
+"a": 0
+},
+{
+"n": 7,
+"q": "CAT is most pronounced on which side of a subtropical jet stream",
+"o": [
+"About 3 km above the core",
+"Cold side of core",
+"South side of core",
+"at core"
+],
+"a": 1
+},
+{
+"n": 8,
+"q": "Hail forms by collision with super-cooled water drops by",
+"o": [
+"Condensation",
+"Deposition",
+"Evaporation",
+"Transpiration"
+],
+"a": 1
+},
+{
+"n": 9,
+"q": "Thermal wind blows parallel to … keeping … to the left (NH)",
+"o": [
+"Isotherms, low temperature",
+"Isobars, low temperature",
+"Isobars, low pressure",
+"Isallobars, high temperature"
+],
+"a": 0
+},
+{
+"n": 10,
+"q": "Roaring Forties are … winds that blow throughout the year and are very stormy in the",
+"o": [
+"Wly, N hemisphere",
+"Ely, S hemisphere",
+"Wly, S hemisphere",
+"Ely, N hemisphere"
+],
+"a": 2
+},
+{
+"n": 11,
+"q": "Temperature in the troposphere decreases from equator to poles. The thermal wind throughout the troposphere is therefore … and … as height increases",
+"o": [
+"Wly, increases",
+"Wly, decreases",
+"Wly, remains same",
+"Ely, increases"
+],
+"a": 0
+},
+{
+"n": 12,
+"q": "A cold front passes a station; the pressure",
+"o": [
+"Changes are very small",
+"first increases and then decreases",
+"first decreases and then increases",
+"rises continually"
+],
+"a": 2
+},
+{
+"n": 13,
+"q": "Flying conditions associated with CB during pre monsoon are",
+"o": [
+"Continuous rain, poor visibility, light turbulence",
+"Good visibility, drizzle, turbulence",
+"Hail, gusts, shower, and severe turbulence",
+"Rain, poor visibility, and turbulence"
+],
+"a": 2
+},
+{
+"n": 14,
+"q": "Which is true of a cold front",
+"o": [
+"Less steeper than a warm front",
+"Associated with continuous rain and ST clouds",
+"Heavy convective weather and squall line",
+"Similar slope as warm front"
+],
+"a": 2
+},
+{
+"n": 15,
+"q": "The observed temperature is - 40 deg C at FL 300 (10 km). It is termed as",
+"o": [
+"10 deg C warmer than ISA",
+"10 deg C colder than ISA",
+"15 deg C warmer than ISA",
+"15 deg C colder than ISA"
+],
+"a": 0,
+"ex": "ISA at 30 000 ft is about −45 °C (15 − 2 × 30), so −40 °C is about 5 °C warmer; the book treats FL300 as 10 km where ISA is −50 °C, so −40 is 10 °C warmer."
+},
+{
+"n": 16,
+"q": "Aquaplaning may occur in",
+"o": [
+"- GR",
+"+RA",
+"-TS",
+"Thick Fog"
+],
+"a": 1
+},
+{
+"n": 17,
+"q": "CAT is most likely to be encountered in",
+"o": [
+"A high close to a Dust Storm",
+"After the passage of a severe Sandstorm",
+"A sharp trough aloft with winds of jet stream speed",
+"A ridge aloft"
+],
+"a": 2
+},
+{
+"n": 18,
+"q": "What are Norwesters",
+"o": [
+"Warm dry winds coming from NW",
+"Severe Duststorm from NW",
+"TS affecting NW India in premonsoon",
+"TS of E and NE India in premonsoon"
+],
+"a": 3
+},
+{
+"n": 19,
+"q": "Example of non frontal stability is",
+"o": [
+"Squall line",
+"Inversion",
+"Frontogenesis",
+"Occlusion"
+],
+"a": 1
+},
+{
+"n": 20,
+"q": "If temperature initially is constant and then increases with height, the atmosphere is",
+"o": [
+"Stable",
+"Unstable",
+"Indifferent",
+"Adiabatic"
+],
+"a": 0
+},
+{
+"n": 21,
+"q": "Under what conditions severe icing is encountered",
+"o": [
+"temperature 0 deg C",
+"rain and temperature below -10 deg C",
+"visible vapour and temperature -5 deg C",
+"rain at temperature -20 deg C"
+],
+"a": 2
+},
+{
+"n": 22,
+"q": "Select the correct answer :",
+"o": [
+"The level from ground to freezing level is more susceptible for icing",
+"Most potent area for dangerous icing is freezing level to about 25,000 ft",
+"Icing may be severe in the temperature range - 20 to - 40 deg C",
+"Severe icing may form in the temperature range - 10 to 30 deg C"
+],
+"a": 1
+},
+{
+"n": 23,
+"q": "Ice accretion",
+"o": [
+"increases drag but reduces stalling speed",
+"alters aerodynamics, reduces weight, and decrease lift",
+"alters aerodynamics, increases weight and lift",
+"increases drag and weight and stalling speed"
+],
+"a": 3
+},
+{
+"n": 24,
+"q": "The wind 260102 KT, is reported in a METAR / SPECI as:",
+"o": [
+"26010 KT + 26002 KT",
+"260P99 KT only",
+"Only in remark column",
+"260P99 KT and complete wind in remark column"
+],
+"a": 3,
+"ex": "Wind of 100 kt or more is reported as P99KT (direction 260 → 260P99KT)."
+},
+{
+"n": 25,
+"q": "Will SPECI be issued if",
+"o": [
+"Wind changes from 27010 KT to 29018KT",
+"RVR changes, from 1400 m to 1600 m",
+"Visibility changes from 6000 m to 4000 m",
+"Temperature changes from 15 to 16 deg C"
+],
+"a": 2,
+"ex": "Only the visibility change crosses a SPECI threshold (5000 m). The wind turns just 20° and its speed changes by 8 kt; RVR 1400→1600 does not pass 150/350/600/800 m; a 1 °C rise is below 2 °C."
+},
+{
+"n": 26,
+"q": "CAVOK in a METAR replaces",
+"o": [
+"Visibility, cloud and Wx groups",
+"Wind, visibility & cloud groups",
+"Wind, temp & pressure groups",
+"Visibility, temp & cloud groups"
+],
+"a": 0
+},
+{
+"n": 27,
+"q": "The calm and clear night is cooler than cloudy night because :",
+"o": [
+"Clouds prevent terrestrial radiation from escaping.",
+"Clouds radiate heat towards sky",
+"Due to CO2 and H20 present in the air",
+"Terrestrial radiation skip through clouds"
+],
+"a": 0
+},
+{
+"n": 28,
+"q": "Diurnal variation of temperature is least",
+"o": [
+"When sky is clear",
+"During land breeze over the coastal areas",
+"When sky is overcast",
+"When winds are weak over the land surface"
+],
+"a": 2
+},
+{
+"n": 29,
+"q": "Density altitude is",
+"o": [
+"Higher if atmosphere is warmer than ISA",
+"Lower if atmosphere is warmer than ISA",
+"Higher if atmosphere is colder than ISA",
+"Higher if atmosphere is isothermal"
+],
+"a": 0
+},
+{
+"n": 30,
+"q": "The temperature to which air should be cooled to saturate it is ... .. temperature",
+"o": [
+"Wet bulb",
+"Dew point",
+"Dry bulb",
+"Ambient"
+],
+"a": 1
+},
+{
+"n": 31,
+"q": "No cyclonic storm or high pressure systems form within 5° of the equator because",
+"o": [
+"Pressure gradient force is negligible",
+"Frictional force is minimal",
+"Coriolis force is negligible",
+"Geotropic force is maximum"
+],
+"a": 2
+},
+{
+"n": 32,
+"q": "Gradient wind",
+"o": [
+"Is due to the balance between Pressure gradient force and Friction",
+"Is super geostrophic in a low and subgeostrophic in a high",
+"Is due to the balance between Pressure gradient, Coriolis and Centripetal forces",
+"Blows parallel to straight isobars"
+],
+"a": 2
+},
+{
+"n": 33,
+"q": "Effect of Wind Shear",
+"o": [
+"Decreasing head wind increases lift",
+"Increasing tail wind increases lift",
+"Decreasing tail wind increases lift and a/c rises above the glide path",
+"Weakening head wind raises aircraft above the flight path"
+],
+"a": 2
+},
+{
+"n": 34,
+"q": "Due to friction the wind",
+"o": [
+"Strengthens and backs during landing",
+"Decreases and backs during landing",
+"Strengthens and backs during take off",
+"Decreases and veers during landing"
+],
+"a": 1
+},
+{
+"n": 35,
+"q": "The term 'monsoon' means",
+"o": [
+"Seasonal reversal of winds and rainfall",
+"Rains all over India",
+"One of the four seasons with maximum rain in the N",
+"Monsoon circulation"
+],
+"a": 0
+},
+{
+"n": 36,
+"q": "The two main seasons in India are",
+"o": [
+"Pre monsoon and SW monsoon",
+"Winters and Hot season",
+"Hot season and Rainy season",
+"Winter and SW monsoon"
+],
+"a": 3
+},
+{
+"n": 37,
+"q": "The main cause of seasons in India is",
+"o": [
+"Oscillation of sun 23½ N to 23 ½ S",
+"Advection of air from Arabian sea",
+"Thermal equator at equator whole year",
+"Earth rotating around its own axis"
+],
+"a": 0
+},
+{
+"n": 38,
+"q": "The axis of monsoon trough runs",
+"o": [
+"In the Bay of Bengal",
+"Along the Gangetic plains",
+"Along 22 deg East to West of India",
+"Along central peninsula"
+],
+"a": 1
+},
+{
+"n": 39,
+"q": "During monsoon season the low level winds are",
+"o": [
+"SEly along E coast",
+"NEly over Tamil Nadu",
+"SEly over Bay of Bengal",
+"SEly North of Monsoon Trough"
+],
+"a": 3
+},
+{
+"n": 40,
+"q": "During SW monsoon the winds above 500 hPa are",
+"o": [
+"Ely over S and weak Wly over N India",
+"Wly over S and strong over N India",
+"Wly over S and weak Wly over N India",
+"Strong Ely over S and weak over N India"
+],
+"a": 3
+},
+{
+"n": 41,
+"q": "Which is not true of the post-monsoon season?",
+"o": [
+"Pressure gradient is weakest of all seasons",
+"Frequency of tropical cyclones is max.",
+"Monsoon withdraws from the country",
+"Worst period for flying except S India"
+],
+"a": 3
+},
+{
+"n": 42,
+"q": "The months during which Tamil Nadu gets most of its rainfall are",
+"o": [
+"Oct - Nov",
+"Jul - Sep",
+"Apr - Jun",
+"Dec - Mar"
+],
+"a": 0
+},
+{
+"n": 43,
+"q": "ITCZ affects weather over India during",
+"o": [
+"Winters only",
+"Pre - monsoon only",
+"Monsoons only",
+"All the four seasons"
+],
+"a": 3
+},
+{
+"n": 44,
+"q": "ESNO is the name given to",
+"o": [
+"El - Nino only",
+"Souther oscillations and La- Nino",
+"El - Nino and Southern oscillations",
+"El - Nino and La - Nino combined"
+],
+"a": 2
+},
+{
+"n": 45,
+"q": "Friction causes winds to get deflected .",
+"o": [
+"Parallel to isobars",
+"Towards low",
+"Perpendicular to isobars",
+"Towards high"
+],
+"a": 1
+},
+{
+"n": 46,
+"q": "Station level pressure at ARP is reduced to MSL as per",
+"o": [
+"ISA is QFF",
+"ISA is QFE",
+"Isothermal is QNH",
+"ISA is QNH"
+],
+"a": 3
+},
+{
+"n": 47,
+"q": "A/C moving from west to east and is drifting northwards. Its altimeter will",
+"o": [
+"Under read",
+"Over read",
+"Reading will remain unchanged"
+],
+"a": 0,
+"ex": "Drifting north while heading east means a southerly wind; with your back to it the low is on your left (west), so you are flying towards high pressure: the altimeter under-reads."
+},
+{
+"n": 48,
+"q": "Wind Shear in a TS is maximum",
+"o": [
+"Below the anvil",
+"all sides of a CB",
+"Beneath the cloud",
+"in SW sector"
+],
+"a": 2
+},
+{
+"n": 49,
+"q": "Difference between Airmass TS (AM TS) and Steady State TS (SS TS) is",
+"o": [
+"SS TS duration is more",
+"AM TS duration is more",
+"SS TS duration is less",
+"AM TS occur in fronts"
+],
+"a": 0
+},
+{
+"n": 50,
+"q": "In a line of TS there is a hole in the radar echo. What would you infer?",
+"o": [
+"No precipitation",
+"Strong convective activity",
+"Area free of clouds",
+"A gap between two CB"
+],
+"a": 1,
+"ex": "A hole (echo-free area) inside a line of strong echoes indicates strong convective activity (dry hole)."
+}
+]
+}

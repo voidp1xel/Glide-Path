@@ -1,0 +1,26 @@
+module.exports = {
+  n: 10, title: 'DR Elements: Pressure and Altimetry', tag: 'ISA · QFE/QNH/QFF · PA · DA · 1-in-60 · ILS dots', icon: 'gauge', hue: 3, partOfBook: 'General Navigation',
+  big: 'ISA and density, altimeter settings, pressure, true and density altitude, altimeter error problems, the 1-in-60 rule in both planes, and ILS deflection sums.',
+  purpose: 'Heavy on calculations: pressure altitude, density altitude, true altitude, terrain clearance with a wrong setting, glide-path heights and ROD.',
+  lessons: [
+    { id: 'sim', type: 'sim', sim: 'altimetry', icon: 'sliders', ask: 'Play with it: QFE, QNH and QNE', dgca: true, takeaway: 'Each setting measures from a different datum: runway, sea level, or the 1013 hPa surface.' },
+    { id: 'hilo', type: 'sim', sim: 'hilo', icon: 'sliders', ask: 'Wrong setting: how much clearance is left?', dgca: true, takeaway: 'Fly into lower pressure or colder air without resetting and the altimeter over-reads: you are lower than you think.', hook: 'High to low (or hot to cold), look out below.' },
+    { id: 'calc', type: 'formulas', icon: 'calc', ask: 'Altitude calculators', dgca: true,
+      items: [
+        { name: 'Pressure altitude', eq: 'PA = elevation + (1013 − QNH) × 30', ex: '4000 ft, QNH 1025 → 3640 ft.', calc: { inputs: [{ k: 'e', label: 'Elevation (ft)', v: 4000 }, { k: 'q', label: 'QNH', v: 1025 }], f: 'Math.round(e+(1013-q)*30)', unit: 'ft' } },
+        { name: 'Density altitude', eq: 'DA ≈ PA + 118 × (OAT − ISA)', ex: 'PA 10 000, OAT 12 °C → ≈ 12 000 ft.', calc: { inputs: [{ k: 'p', label: 'PA (ft)', v: 10000 }, { k: 't', label: 'OAT (°C)', v: 12 }], f: 'Math.round(p+118*(t-(15-1.98*p/1000)))', unit: 'ft' } },
+        { name: 'True altitude', eq: 'TA = IA + 4% × IA per 10 °C deviation', ex: '20 000 ft at ISA +15 → 21 200 ft.', calc: { inputs: [{ k: 'a', label: 'Indicated (ft)', v: 20000 }, { k: 't', label: 'OAT (°C)', v: -10 }], f: 'Math.round(a+0.004*a*(t-(15-2*a/1000)))', unit: 'ft' } },
+        { name: 'Glide-path height', eq: 'H (ft) = D (NM) × angle × 101', ex: '3 NM on a 3° GP → 909 ft.', calc: { inputs: [{ k: 'd', label: 'Distance (NM)', v: 3 }, { k: 'g', label: 'Angle (°)', v: 3 }], f: 'Math.round(d*g*101)', unit: 'ft' } },
+      ] },
+    { id: 'settings', type: 'matrix', icon: 'list', ask: 'Altimeter settings', revise: true, dgca: true,
+      corner: 'Setting', cols: ['Reads on the ground', 'Reduced using'],
+      rows: [{ label: 'QFE', cells: ['Zero (height)', '—'] }, { label: 'QNH', cells: ['Elevation (altitude)', { v: 'ISA', key: true }] }, { label: 'QFF', cells: ['—', { v: 'Actual temperature', key: true }] }, { label: '1013.25', cells: ['Pressure altitude', '—'] }] },
+    { id: 'ils', type: 'matrix', icon: 'target', ask: 'ILS needle deflections', revise: true, dgca: true,
+      corner: 'Display', cols: ['Glide slope', 'Localiser'],
+      rows: [{ label: 'Full scale', cells: ['±0.7°', '±2.5°'] }, { label: '5-dot: per dot', cells: [{ v: '0.14°', key: true }, { v: '0.5°', key: true }] }, { label: '4-dot: per dot', cells: ['0.175°', '0.625°'] }, { label: 'Limit', cells: ['½ scale → go around', '—'] }] },
+    { id: 'numbers', type: 'numbers', icon: 'hash', ask: 'Numbers to know', revise: true,
+      items: [{ k: 'ISA MSL', v: '15 °C · 1013.25 hPa' }, { k: 'Density MSL', v: '1.225 kg/m³' }, { k: 'Lapse', v: '1.98 °C / 1000 ft' }, { k: 'Tropopause', v: '36 090 ft, −56.5 °C' }, { k: 'ft per hPa at MSL', v: '27 (30 in sums)' }, { k: '500 hPa', v: '18 000 ft' }, { k: '3° GP', v: '~318 ft per NM' }, { k: 'ROD', v: 'GS × angle × 1.69' }] },
+    { id: 'quiz', type: 'quiz', icon: 'check', ask: 'Quick check',
+      questions: [{ q: 'QNH is QFE reduced to MSL using:', options: ['Actual temperature', 'ISA', 'Dew point'], answer: 1 }, { q: 'Hotter than ISA, density altitude is:', options: ['Higher than PA', 'Lower than PA', 'Equal to PA'], answer: 0 }] },
+  ],
+};

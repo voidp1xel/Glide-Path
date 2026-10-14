@@ -1,0 +1,36 @@
+module.exports = {
+  n: 1, title: 'The Solar System', tag: 'Orbit · seasons · twilight · kinds of day', icon: 'sun', hue: 1, partOfBook: 'General Navigation',
+  big: 'The earth\'s elliptical orbit, why we have seasons, sunrise, sunset and the three twilights, the moon, leap years, and the difference between apparent, mean and sidereal days.',
+  purpose: 'Easy, predictable marks: perihelion/aphelion dates, tilt causes seasons, civil twilight 6°, LMT in the air almanac, sidereal day 23 h 56 min, equation of time.',
+  lessons: [
+    { id: 'map', type: 'mindmap', short: 'Mind map', icon: 'brain', ask: 'The whole chapter on one page',
+      root: { label: 'Solar system', children: [
+        { label: 'Orbit', children: [{ label: 'Ellipse, sun at focus' }, { label: 'Perihelion Jan' }, { label: 'Aphelion Jul' }, { label: 'Kepler: equal areas' }] },
+        { label: 'Tilt 23.5°', children: [{ label: 'Seasons' }, { label: 'Solstices 21 Jun / 22 Dec' }, { label: 'Equinoxes Mar / Sep' }] },
+        { label: 'Twilight', children: [{ label: 'Civil 6°' }, { label: 'Nautical 12°' }, { label: 'Astronomical 18°' }] },
+        { label: 'Days', children: [{ label: 'Apparent (true sun)' }, { label: 'Mean 24 h' }, { label: 'Sidereal 23 h 56 m' }, { label: 'EOT' }] },
+        { label: 'Moon', children: [{ label: '29½ days' }, { label: '50 min later daily' }] },
+      ] } },
+    { id: 'orbit', part: 'Orbit and seasons', type: 'svg', fig: 'earth-orbit', icon: 'sun', ask: 'Where is the earth in each season?', dgca: true,
+      takeaway: 'The orbit is an ellipse: closest (perihelion, fastest) in early January, farthest (aphelion, slowest) in early July. Seasons come from the 23.5° tilt, not from distance.',
+      hook: 'Perihelion in January: the NH is nearest the sun in its winter.' },
+    { id: 'effects', type: 'matrix', icon: 'list', ask: 'What causes what?', revise: true, dgca: true,
+      corner: 'Cause', cols: ['Effect'],
+      rows: [['Rotation (W → E)', 'Day and night; heavenly bodies rise in the east'], ['Revolution', 'The year'], [{ v: 'Tilt of 23.5°', key: true }, { v: 'Seasons; unequal day and night', key: true }], ['Elliptical orbit', 'Apparent solar day varies; equation of time'], ['Refraction', 'Sunrise earlier, sunset later']].map(r => ({ label: typeof r[0] === 'string' ? r[0] : r[0].v, cells: [r[1]] })) },
+    { id: 'twilight', part: 'Sunrise and twilight', type: 'svg', fig: 'twilight', icon: 'moon', ask: 'Civil, nautical, astronomical twilight', dgca: true,
+      takeaway: 'Twilight is measured by how far the sun\'s centre is below the sensible horizon: civil 0–6° (the one pilots use), nautical 6–12°, astronomical 12–18°. Almanac times are in LMT.' },
+    { id: 'days', part: 'Kinds of day', type: 'pairs', icon: 'clock', ask: 'Apparent, mean and sidereal day', dgca: true,
+      pairs: [
+        { a: { label: 'Apparent solar day', body: 'Between two transits of the **true sun**; varies **23 h 44 min – 24 h 14 min** (elliptical orbit).' }, b: { label: 'Mean solar day', body: 'Based on the **mean sun**: fictitious, constant speed along the **celestial equator**; exactly 24 h.' }, rule: 'Equation of time = apparent − mean (sundial − clock).' },
+        { a: { label: 'Sidereal day', body: 'Between two transits of a star / **First Point of Aries**: **23 h 56 min**.' }, b: { label: 'Equation of time extremes', body: '~14 min near **6 Feb**, ~16 min near **3 Nov**; zero four times a year.' }, rule: '' },
+      ] },
+    { id: 'nums', type: 'numbers', icon: 'hash', ask: 'Numbers to know', revise: true,
+      items: [{ k: 'Earth\'s year', v: '365 d 5 h 48 m 45 s' }, { k: 'Axis to orbit plane', v: '66.5°' }, { k: 'Obliquity of ecliptic', v: '23.5°' }, { k: 'Sidereal day', v: '23 h 56 min' }, { k: 'Synodic month', v: '29½ days' }, { k: 'Moonrise later each day', v: '~50 min' }, { k: 'Sun centre at sunset', v: '~50′ below' }, { k: 'Midnight sun / polar night', v: 'beyond ~66.5°' }, { k: 'Leap century', v: '÷ 400' }] },
+    { id: 'quiz', type: 'quiz', icon: 'check', ask: 'Quick check',
+      questions: [
+        { q: 'The earth is closest to the sun in:', options: ['Early January', 'Early July', 'March'], answer: 0 },
+        { q: 'Civil twilight ends when the sun\'s centre is:', options: ['6° below', '12° below', '18° below'], answer: 0 },
+        { q: 'Seasons are caused by:', options: ['Varying distance to the sun', 'The tilt of the earth\'s axis', 'The earth\'s rotation'], answer: 1 },
+      ] },
+  ],
+};

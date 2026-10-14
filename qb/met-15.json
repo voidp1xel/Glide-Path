@@ -1,0 +1,262 @@
+{
+"title": "Jet Streams",
+"src": "Joshi Ch 15",
+"qs": [
+{
+"n": 1,
+"q": "The arbitrary lower limit of jet core velocity has been assigned by WMO as",
+"o": [
+"60 kt",
+"60 m/s",
+"70 m/s"
+],
+"a": 0,
+"ex": "30 m/s ≈ 60 kt."
+},
+{
+"n": 2,
+"q": "A jet stream has",
+"o": [
+"One maxima",
+"One or more maxima",
+"Only two maxima"
+],
+"a": 1
+},
+{
+"n": 3,
+"q": "The vertical wind shear in a jet stream is about",
+"o": [
+"5 m/s per km",
+"6 m/s per km",
+"8 m/s per km"
+],
+"a": 0
+},
+{
+"n": 4,
+"q": "Compared to horizontal wind shear, the vertical wind shear in a jet stream is",
+"o": [
+"Weaker",
+"Stronger",
+"Same"
+],
+"a": 1
+},
+{
+"n": 5,
+"q": "In a jet stream, the path of the maximum speed is known as",
+"o": [
+"Core",
+"Axis",
+"Jet streak"
+],
+"a": 1
+},
+{
+"n": 6,
+"q": "The wind speed along the axis of a jet stream is always",
+"o": [
+"Uniform",
+"Not uniform"
+],
+"a": 1
+},
+{
+"n": 7,
+"q": "Along the axis of a jet stream there are centres of high speed winds; these are called",
+"o": [
+"Jet streaks",
+"Core",
+"Axis"
+],
+"a": 0
+},
+{
+"n": 8,
+"q": "In a wavy jet the jet streaks are located over or near the",
+"o": [
+"Ridge",
+"Trough",
+"Between trough and ridge"
+],
+"a": 0
+},
+{
+"n": 9,
+"q": "The Sub-tropical Jet Stream (STJ) is",
+"o": [
+"Westerly",
+"Easterly",
+"Southerly"
+],
+"a": 0
+},
+{
+"n": 10,
+"q": "The normal position of the Sub-tropical Jet Stream is",
+"o": [
+"30°N",
+"27°N",
+"35°N"
+],
+"a": 1,
+"ex": "Book key (b) 27°N: the STJ's mean position over India; globally ~30°N in winter."
+},
+{
+"n": 11,
+"q": "The southernmost position of the STJ, in February, is",
+"o": [
+"22°N",
+"20°N",
+"18°N"
+],
+"a": 0
+},
+{
+"n": 12,
+"q": "The STJ affects India from",
+"o": [
+"Jun to Jul",
+"Oct to May",
+"Aug to Sep"
+],
+"a": 1
+},
+{
+"n": 13,
+"q": "The STJ has a layered structure. There are often two layers of maximum wind to the … of the jet core",
+"o": [
+"S",
+"N",
+"SW"
+],
+"a": 0,
+"ex": "Book key (a) S."
+},
+{
+"n": 14,
+"q": "The STJ strengthens",
+"o": [
+"Northwards",
+"Upstream",
+"Downstream"
+],
+"a": 2
+},
+{
+"n": 15,
+"q": "At and near the STJ the temperature gradient is very",
+"o": [
+"Small",
+"Large",
+"Moderate"
+],
+"a": 0
+},
+{
+"n": 16,
+"q": "Vertical wind shear in the STJ is greater … the core",
+"o": [
+"Above",
+"Below",
+"Along"
+],
+"a": 0
+},
+{
+"n": 17,
+"q": "The TJ prevails over the Indian Peninsula from",
+"o": [
+"May to Jun",
+"Sep to Oct",
+"Jun to Aug"
+],
+"a": 2
+},
+{
+"n": 18,
+"q": "The TJ is located over the Indian Peninsula approximately at",
+"o": [
+"13°N",
+"17°N",
+"18°N"
+],
+"a": 0
+},
+{
+"n": 19,
+"q": "The TJ is located over India approximately at a height of",
+"o": [
+"15–16 km",
+"12–13 km",
+"11–12 km"
+],
+"a": 0
+},
+{
+"n": 20,
+"q": "The TJ is strongest in",
+"o": [
+"July–Aug",
+"Sep–Oct",
+"June"
+],
+"a": 0
+},
+{
+"n": 21,
+"q": "In the TJ the wind shears are much … than in the STJ",
+"o": [
+"More",
+"Less",
+"Same"
+],
+"a": 1
+},
+{
+"n": 22,
+"q": "The TJ is",
+"o": [
+"Westerly",
+"Easterly",
+"Southerly"
+],
+"a": 1
+},
+{
+"n": 23,
+"q": "A jet stream can be recognised by",
+"o": [
+"High level dust",
+"High pressure",
+"Streaks of CI",
+"Lenticular clouds"
+],
+"a": 2
+},
+{
+"n": 24,
+"q": "Flying at right angles to a jet stream with falling pressure, you will experience",
+"o": [
+"Wind from left",
+"Increasing head wind",
+"Increasing tail wind",
+"Wind from right"
+],
+"a": 0,
+"ex": "N hemisphere, falling pressure means the low is ahead-left: with the jet (low/cold on its left) crossing at right angles, the wind comes from your left (book key a)."
+},
+{
+"n": 25,
+"q": "When and where does the tropical jet stream occur?",
+"o": [
+"All year along equator",
+"In Middle East in summers",
+"In winters over Russia",
+"In summers over SE Asia and Central Africa"
+],
+"a": 3
+}
+]
+}

@@ -1,0 +1,735 @@
+{
+"title": "Mass and Balance",
+"src": "Bali GN Ch 14",
+"qs": [
+{
+"n": 2,
+"q": "MSTOM 42 100 kg, MSLM 35 000 kg, PLLM 33 000 kg, MZFM 31 000 kg, DOM 19 000 kg, fuel capacity 12 500 kg, max trip fuel 9000 kg, contingency 1000 kg, alternate 500 kg, final reserve 400 kg. What are the maximum take-off mass and maximum traffic load?",
+"o": [
+"42 100 kg / 12 200 kg",
+"42 000 kg / 12 100 kg",
+"41 900 kg / 12 000 kg"
+],
+"a": 2,
+"ex": "RTOM is the least of: PLLM + trip fuel = 42 000; MZFM + take-off fuel (9000 + 1000 + 500 + 400) = 41 900; MSTOM 42 100. So 41 900 kg; traffic load = 41 900 − 19 000 − 10 900 = 12 000 kg."
+},
+{
+"n": 6,
+"q": "The centre of gravity of an aeroplane is that point through which the total mass of the aeroplane is said to act. The weight acts in a direction",
+"o": [
+"governed by the distribution of the mass within the aeroplane",
+"always parallel to the aeroplane's vertical axis",
+"parallel to the gravity vector"
+],
+"a": 2
+},
+{
+"n": 7,
+"q": "When an aeroplane is stationary on the ground, its total weight will act vertically",
+"o": [
+"through its centre of pressure",
+"through a point defined as the datum point",
+"through its centre of gravity"
+],
+"a": 2
+},
+{
+"n": 8,
+"q": "The weight of an aeroplane in level, non-accelerated flight is said to act",
+"o": [
+"vertically through the centre of gravity",
+"always along the vertical axis of the aeroplane",
+"vertically through the datum point"
+],
+"a": 0
+},
+{
+"n": 9,
+"q": "The centre of gravity of an aeroplane",
+"o": [
+"may only be moved if permitted by the regulating authority and endorsed in the C of A",
+"must be maintained in a fixed position by careful distribution of the load",
+"can be allowed to move between defined limits"
+],
+"a": 2
+},
+{
+"n": 10,
+"q": "The centre of gravity is the",
+"o": [
+"centre of thrust along the longitudinal axis, in relation to a datum line",
+"neutral point along the longitudinal axis, in relation to a datum line",
+"point where all the aircraft mass is considered to be concentrated"
+],
+"a": 2
+},
+{
+"n": 11,
+"q": "The centre of gravity of a body is that point",
+"o": [
+"where the sum of the external forces is equal to zero",
+"which is always used as datum when computing moments",
+"through which the sum of the forces of all masses of the body is considered to act"
+],
+"a": 2
+},
+{
+"n": 12,
+"q": "An aeroplane is loaded with its centre of gravity towards the rear limit. This will result in:",
+"o": [
+"a reduction in power required for a given speed",
+"an increased risk of stalling due to a decrease in tailplane moment",
+"a reduced fuel consumption as a result of reduced drag"
+],
+"a": 1
+},
+{
+"n": 13,
+"q": "When the centre of gravity is at the forward limit, an aeroplane will be:",
+"o": [
+"extremely stable and will require excessive elevator control to change pitch",
+"extremely unstable and require excessive elevator control to change pitch",
+"extremely stable and require small elevator control to change pitch"
+],
+"a": 0
+},
+{
+"n": 14,
+"q": "What determines the longitudinal stability of an aeroplane?",
+"o": [
+"The relationship of thrust and lift to weight and drag",
+"The location of the centre of gravity with respect to the neutral point",
+"The effectiveness of the horizontal stabiliser, rudder and rudder trim tab"
+],
+"a": 1
+},
+{
+"n": 15,
+"q": "An aeroplane is said to be \"neutrally stable\". This is likely to:",
+"o": [
+"cause the centre of gravity to move forwards",
+"be caused by a centre of gravity which is towards the forward limit",
+"be caused by a centre of gravity which is towards the rearward limit"
+],
+"a": 2
+},
+{
+"n": 16,
+"q": "If the centre of gravity is near the forward limit the aeroplane will:",
+"o": [
+"require elevator trim which will result in an increase in fuel consumption",
+"benefit from reduced drag due to the decrease in angle of attack",
+"require less power for a given airspeed"
+],
+"a": 0
+},
+{
+"n": 17,
+"q": "During take-off you notice that, for a given elevator input, the aeroplane rotates much more rapidly than expected. This is an indication that:",
+"o": [
+"the centre of pressure is aft of the centre of gravity",
+"the aeroplane is overloaded",
+"the centre of gravity may be towards the aft limit"
+],
+"a": 2
+},
+{
+"n": 18,
+"q": "If the centre of gravity of an aeroplane moves forward during flight the elevator control will:",
+"o": [
+"become heavier making the aeroplane more difficult to manoeuvre in pitch",
+"become lighter making the aeroplane more difficult to manoeuvre in pitch",
+"become heavier making the aeroplane more easy to manoeuvre in pitch"
+],
+"a": 0
+},
+{
+"n": 19,
+"q": "The position of the centre of gravity can always be determined by:",
+"o": [
+"subtracting the total moment from the total mass",
+"dividing the total moment by the total mass",
+"dividing the total mass by the total moment"
+],
+"a": 1,
+"ex": "CG = total moment ÷ total mass."
+},
+{
+"n": 20,
+"q": "The stalling speed of an aeroplane will be highest when it is loaded with a:",
+"o": [
+"high gross mass and aft centre of gravity",
+"high gross mass and forward centre of gravity",
+"low gross mass and aft centre of gravity"
+],
+"a": 1,
+"ex": "High mass and a forward CG (more tail download) give the highest stall speed."
+},
+{
+"n": 21,
+"q": "With the centre of gravity on the forward limit which of the following is to be expected?",
+"o": [
+"A decrease in range",
+"A tendency to yaw to the right on take-off",
+"A decrease of the stalling speed"
+],
+"a": 0
+},
+{
+"n": 22,
+"q": "The Dry Operating Mass of an aeroplane includes:",
+"o": [
+"Crew and crew baggage, catering, removable passenger service equipment, potable water and lavatory chemicals",
+"Passengers, baggage and cargo",
+"Fuel and passengers' baggage and cargo"
+],
+"a": 0
+},
+{
+"n": 23,
+"q": "At the flight preparation stage, the following parameters are available for determining the mass of the aircraft: (1) dry operating mass, (2) operating mass. Which statement is correct?",
+"o": [
+"The dry operating mass includes fixed equipment needed to carry out a specific flight",
+"The dry operating mass includes take-off fuel",
+"The operating mass is the mass of the aeroplane without take-off fuel"
+],
+"a": 0
+},
+{
+"n": 24,
+"q": "The term \"Basic Empty Mass\" includes the mass of the aeroplane structure complete with its power plants, systems, furnishings and other items of equipment considered an integral part of the configuration. Its value is",
+"o": [
+"found in the latest version of the weighing schedule as corrected to allow for modifications",
+"printed in the loading manual and includes unusable fuel",
+"found in the flight manual and is inclusive of unusable fuel plus fluids contained in closed systems"
+],
+"a": 0
+},
+{
+"n": 25,
+"q": "When establishing the mass breakdown of an aeroplane, the empty mass is defined as the sum of the:",
+"o": [
+"basic mass plus special equipment mass",
+"standard empty mass plus specific equipment mass plus trapped fluids plus unusable fuel mass",
+"basic mass plus variable equipment mass"
+],
+"a": 1
+},
+{
+"n": 26,
+"q": "An aeroplane is weighed: nose wheel 5330 kg, left main 12 370 kg, right main 12 480 kg. If the operational items amount to 1780 kg with a crew mass of 545 kg, the empty mass as entered in the weight schedule is:",
+"o": [
+"31 960 kg",
+"30 180 kg",
+"28 400 kg"
+],
+"a": 1,
+"ex": "The weight schedule records the mass as weighed: 5330 + 12 370 + 12 480 = 30 180 kg. Operational items (incl. crew) are added later to get the DOM."
+},
+{
+"n": 27,
+"q": "The take-off mass of an aeroplane is 117 000 kg, comprising a traffic load of 18 000 kg and fuel of 46 000 kg. What is the dry operating mass?",
+"o": [
+"99 000 kg",
+"64 000 kg",
+"53 000 kg"
+],
+"a": 2,
+"ex": "DOM = 117 000 − 18 000 − 46 000 = 53 000 kg."
+},
+{
+"n": 28,
+"q": "When preparing to weigh an aeroplane, which of the following is NOT required?",
+"o": [
+"drain all engine tank oil",
+"drain all usable fuel",
+"drain all chemical toilet fluid tanks"
+],
+"a": 0
+},
+{
+"n": 29,
+"q": "An aeroplane may be weighed",
+"o": [
+"in an enclosed, non-air-conditioned hangar",
+"at a specified \"weighing location\" on the airfield",
+"in a quiet parking area clear of the normal manoeuvring area"
+],
+"a": 0
+},
+{
+"n": 30,
+"q": "The mass of an aeroplane weighing more than 2000 kg must be determined prior to initial entry into service and thereafter",
+"o": [
+"at intervals of 5 years if no modifications have taken place",
+"at intervals of 9 years",
+"at regular annual intervals"
+],
+"a": 0
+},
+{
+"n": 31,
+"q": "Where an operator uses an aircraft weighing less than 2000 kg, the re-weighing interval is",
+"o": [
+"4 years for each aeroplane",
+"whenever a major repair/modification affecting weight and balance data is carried out",
+"whenever the Certificate of Airworthiness is renewed"
+],
+"a": 1
+},
+{
+"n": 32,
+"q": "An aeroplane is weighed prior to entry into service. Who is responsible for deriving the Dry Operating Mass from the weighed mass by adding the operational items?",
+"o": [
+"The aeroplane manufacturer or supplier",
+"The commander of the aeroplane",
+"The operator"
+],
+"a": 2
+},
+{
+"n": 33,
+"q": "The responsibility for determining the mass of operating items and crew included within the Dry Operating Mass lies with",
+"o": [
+"the person compiling the weighing schedule",
+"the operator",
+"the commander"
+],
+"a": 1
+},
+{
+"n": 34,
+"q": "A revenue flight; take-off mass not airfield limited. DOM 34 930 kg, performance-limited landing mass 55 000 kg, taxi fuel 350 kg, trip fuel 9730 kg, contingency and final reserve 1200 kg, alternate 1600 kg, 130 passengers at 84 kg with 14 kg baggage each, maximum traffic load. Determine the maximum cargo load without exceeding the limiting landing mass.",
+"o": [
+"4530 kg",
+"5400 kg",
+"6350 kg"
+],
+"a": 0
+},
+{
+"n": 35,
+"q": "The empty mass of an aeroplane is 44 800 kg. Operational items (including crew standard mass of 1060 kg) are 2300 kg. If the maximum zero fuel mass is 65 500 kg, the maximum traffic load that could be carried is:",
+"o": [
+"20 700 kg",
+"23 000 kg",
+"18 400 kg"
+],
+"a": 2,
+"ex": "DOM = 44 800 + 2300 = 47 100; traffic load = 65 500 − 47 100 = 18 400 kg."
+},
+{
+"n": 36,
+"q": "DOM 85 000 kg, performance-limited TOM 127 000 kg, performance-limited landing mass 98 500 kg, MZFM 89 800 kg; trip fuel 29 300 kg, contingency and final reserve 3600 kg, alternate 2800 kg. The maximum traffic load that can be carried is:",
+"o": [
+"4800 kg",
+"7100 kg",
+"6300 kg"
+],
+"a": 0,
+"ex": "Limits: TOM via landing 98 500 + 29 300 = 127 800; via MZFM 89 800 + 35 700 = 125 500; PLTOM 127 000 → RTOM 125 500; traffic = 125 500 − 85 000 − 35 700 = 4800 kg."
+},
+{
+"n": 37,
+"q": "An additional baggage container is loaded into the aft cargo compartment but not entered in the load and trim sheet. The aeroplane will be heavier than expected and the calculated take-off safety speeds",
+"o": [
+"will not be achieved",
+"are unaffected but will be increased",
+"will give reduced safety margins"
+],
+"a": 2
+},
+{
+"n": 38,
+"q": "Fuel loaded is 15 400 kg but is entered in the load and trim sheet as 14 500 kg. The error is not detected, but the crew will notice that",
+"o": [
+"speed at unstick will be higher than expected",
+"V1 will be reached sooner than expected",
+"the aeroplane will rotate much earlier than expected"
+],
+"a": 0
+},
+{
+"n": 39,
+"q": "When considering the effects of increased mass on an aeroplane, which is true?",
+"o": [
+"Stalling speeds will be higher",
+"Flight endurance will be increased",
+"Gradient of climb for a given power setting will be higher"
+],
+"a": 0
+},
+{
+"n": 40,
+"q": "An aeroplane is loaded with 16 500 litres of fuel at a density of 780 kg/m³. This is entered into the load sheet as 16 500 kg. As a result the aeroplane is",
+"o": [
+"lighter than anticipated and the calculated safety speeds will be too high",
+"heavier than anticipated and the calculated safety speeds will be too high",
+"lighter than anticipated and the calculated safety speeds will be too low"
+],
+"a": 0,
+"ex": "16 500 L × 0.78 = 12 870 kg, so the aircraft is lighter than the sheet says and the computed speeds are too high."
+},
+{
+"n": 41,
+"q": "A flight benefits from an unforecast strong tailwind. On arrival a straight-in approach and immediate landing clearance are given. The landing mass will be higher than planned and",
+"o": [
+"the approach path will be steeper",
+"the landing distance required will be longer",
+"the approach path will be steeper and threshold speed higher"
+],
+"a": 1
+},
+{
+"n": 42,
+"q": "Determine the landing mass for this single-engine aeroplane: standard empty mass 1764 lb, optional equipment 35 lb, pilot + front passenger 300 lb, cargo 350 lb, ramp (block) fuel 60 gal, trip fuel 35 gal, fuel density 6 lb/gal.",
+"o": [
+"2659 lb",
+"2449 lb",
+"2599 lb"
+],
+"a": 2,
+"ex": "Zero-fuel mass 2449 lb + block fuel 360 lb − trip 210 lb = 2599 lb."
+},
+{
+"n": 43,
+"q": "MSTOM 48 000 kg, MSLM 44 000 kg, MZFM 36 000 kg; taxi fuel 600 kg, contingency 900 kg, alternate 800 kg, final reserve 1100 kg, trip fuel 9000 kg. Determine the actual take-off mass:",
+"o": [
+"47 800 kg",
+"48 000 kg",
+"48 400 kg"
+],
+"a": 0,
+"ex": "MZFM + take-off fuel (9000 + 900 + 800 + 1100) = 47 800 kg is the limit."
+},
+{
+"n": 44,
+"q": "If an aeroplane is at a higher mass than anticipated, for a given airspeed the angle of attack will",
+"o": [
+"remain constant, drag will decrease and endurance will decrease",
+"remain constant, drag will increase and endurance will increase",
+"be greater, drag will increase and endurance will decrease"
+],
+"a": 2
+},
+{
+"n": 45,
+"q": "DOM 90 000 kg, block fuel 30 000 kg, taxi fuel 800 kg, maximum take-off mass 145 000 kg. The traffic load available is:",
+"o": [
+"55 000 kg",
+"55 800 kg",
+"25 800 kg"
+],
+"a": 2,
+"ex": "Take-off fuel 29 200; TOM 145 000 − 90 000 − 29 200 = 25 800 kg."
+},
+{
+"n": 46,
+"q": "DOM 2000 kg; maximum take-off, landing and zero-fuel masses all 3500 kg; block fuel 550 kg, taxi fuel 50 kg. The available payload is:",
+"o": [
+"1000 kg",
+"950 kg",
+"1500 kg"
+],
+"a": 0,
+"ex": "Take-off fuel 500 kg; 3500 − 2000 − 500 = 1000 kg."
+},
+{
+"n": 47,
+"q": "The maximum fuel that can be loaded is 3800 US gallons. With a specific gravity of 0.79, the mass of fuel which may be loaded is",
+"o": [
+"13 647 kg",
+"11 364 kg",
+"14 383 kg"
+],
+"a": 1,
+"ex": "3800 × 3.785 L × 0.79 ≈ 11 364 kg."
+},
+{
+"n": 48,
+"q": "DOM 38 000 kg, MSTOM 72 000 kg, MLM 65 000 kg, MZFM 61 000 kg, fuel burn 8000 kg, take-off fuel 10 300 kg. The maximum allowed take-off mass and payload are respectively:",
+"o": [
+"73 000 kg and 27 000 kg",
+"71 300 kg and 23 000 kg",
+"71 300 kg and 25 300 kg"
+],
+"a": 1
+},
+{
+"n": 49,
+"q": "Structural limits: maximum ramp 69 900 kg, MTOM 69 300 kg, MLM 58 900 kg, MZFM 52 740 kg. Performance-limited TOM 67 450 kg, performance-limited LM 55 470 kg. DOM 34 900 kg, trip fuel 6200 kg, taxi 250 kg, contingency & final reserve 1300 kg, alternate 1100 kg. The maximum traffic load is:",
+"o": [
+"25 800 kg",
+"17 840 kg",
+"18 170 kg"
+],
+"a": 1
+},
+{
+"n": 50,
+"q": "Performance-limited TOM 93 500 kg, expected landing mass at destination 81 700 kg, maximum certificated landing mass 86 300 kg, fuel on board 16 500 kg. A diversion is made to an en-route alternate (not performance-limited for landing); fuel remaining at landing 10 300 kg. The landing mass:",
+"o": [
+"is 87 300 kg and excess structural stress could result",
+"is 83 200 kg, in excess of the regulated landing mass, and could result in overrunning the runway",
+"must be reduced to 81 700 kg to avoid a high-speed approach"
+],
+"a": 0
+},
+{
+"n": 51,
+"q": "Take-off mass 302 550 kg; fuel on board at take-off (including contingency and alternate of 19 450 kg) 121 450 kg; DOM 161 450 kg. The useful load will be:",
+"o": [
+"19 650 kg",
+"121 450 kg",
+"141 100 kg"
+],
+"a": 2,
+"ex": "Useful load = TOM − DOM = 141 100 kg."
+},
+{
+"n": 52,
+"q": "Total mass 7500 kg, CG at station 80.5, aft CG limit station 79.5. How much cargo must be shifted from the aft compartment (station 150) to the forward compartment (station 30) to move the CG to the aft limit?",
+"o": [
+"62.5 kg",
+"68.9 kg",
+"73.5 kg"
+],
+"a": 0,
+"ex": "Shift = mass × ΔCG ÷ distance = 7500 × 1 ÷ 120 = 62.5 kg."
+},
+{
+"n": 53,
+"q": "The weighing schedule gives empty mass 57 320 kg, nominal DOM 60 120 kg and MZFM 72 100 kg. Which statement is correct?",
+"o": [
+"operational items 2800 kg and maximum useful load 14 780 kg",
+"operational items 2800 kg and maximum traffic load 11 980 kg",
+"operational items 2800 kg and maximum traffic load 14 780 kg"
+],
+"a": 1
+},
+{
+"n": 54,
+"q": "Block fuel 40 000 kg, trip fuel 29 000 kg, taxi fuel 800 kg; MTOM 170 000 kg, MLM 148 500 kg, MZFM 112 500 kg, DOM 80 400 kg. The maximum traffic load is:",
+"o": [
+"32 100 kg",
+"32 900 kg",
+"18 900 kg"
+],
+"a": 0
+},
+{
+"n": 55,
+"q": "The Zero Fuel Mass and the Dry Operating Mass:",
+"o": [
+"differ by the mass of usable fuel",
+"differ by the value of the traffic load mass",
+"are the same value"
+],
+"a": 1,
+"ex": "ZFM = DOM + traffic load."
+},
+{
+"n": 56,
+"q": "Certified MTOM 141 500 kg, performance-limited TOM 137 300 kg, DOM 58 400 kg excluding crew and crew hand baggage of 640 kg, crew baggage in hold 110 kg, fuel on board 60 700 kg. Calculate the useful load.",
+"o": [
+"17 450 kg",
+"18 200 kg",
+"78 150 kg"
+],
+"a": 0
+},
+{
+"n": 57,
+"q": "The term 'Basic Empty Mass' includes the mass of the aeroplane structure with its powerplants, systems, furnishings and integral equipment. Its value is",
+"o": [
+"printed in the loading manual and includes unusable fuel",
+"found in the latest version of the weighing schedule as corrected to allow for modifications",
+"inclusive of an allowance for crew, crew baggage and other operating items; it is entered in the loading manifest"
+],
+"a": 1
+},
+{
+"n": 58,
+"q": "Basic empty mass 3000 kg; maximum take-off, landing and zero-fuel masses all 5200 kg; ramp fuel 650 kg, taxi fuel 50 kg. The payload available is:",
+"o": [
+"1600 kg",
+"1550 kg",
+"2200 kg"
+],
+"a": 0,
+"ex": "Take-off fuel 600; 5200 − 3000 − 600 = 1600 kg (taking basic empty mass as the DOM)."
+},
+{
+"n": 59,
+"q": "The Dry Operating Mass is the total mass of the aeroplane ready for a specific type of operation but excluding:",
+"o": [
+"usable fuel and crew",
+"potable water and lavatory chemicals",
+"usable fuel and traffic load"
+],
+"a": 2
+},
+{
+"n": 60,
+"q": "On an aeroplane without a central fuel tank, the maximum Zero Fuel Mass is related to:",
+"o": [
+"maximum structural take-off mass",
+"wing-loaded trip fuel",
+"the bending moment at the wing root"
+],
+"a": 2
+},
+{
+"n": 61,
+"q": "M to N 750 NM, no fuel at N. TAS 380 kt, 30 kt headwind M→N, fuel flow 5700 kg/h, reserve 500 kg (unused), mass less fuel and traffic load 52 000 kg, MTOM at M 91 000 kg, at N 88 000 kg, MLM at N 77 500 kg, at M 75 000 kg. Find (i) maximum traffic load M→N, (ii) maximum traffic load N→M.",
+"o": [
+"(i) 14 573 kg (ii) 22 500 kg",
+"(i) 14 503 kg (ii) 22 500 kg",
+"(i) 14 573 kg (ii) 22 000 kg"
+],
+"a": 0
+},
+{
+"n": 62,
+"q": "PLTOM 45 000 lb, PLLM 40 000 lb, flight fuel 4000 lb, reserve 800 lb, DOM 25 000 lb. Find (i) the traffic load, (ii) whether additional reserve fuel can be carried without affecting the traffic load, and how much.",
+"o": [
+"(i) 14 200 lb (ii) 1000 lb",
+"(i) 14 200 lb (ii) no",
+"(i) 15 200 lb (ii) 1000 lb"
+],
+"a": 0
+},
+{
+"n": 63,
+"q": "P to Q (no fuel at Q) and back. Max traffic load off-loaded at Q and uplifted from Q. Distance 610 NM; mass without fuel and traffic load 36 500 kg; MLM 52 400 kg; MTOM 63 000 kg; reserve (unused) 4000 kg; additional fuel per flight 500 kg; consumption 1350 kg/h; GS P→Q 240 kt, Q→P 280 kt. Find (i) fuel to lift at P, (ii) max traffic load P→Q, (iii) max traffic load Q→P.",
+"o": [
+"(i) 10 372 kg (ii) 7059 kg (iii) 11 900 kg",
+"(i) 11 872 kg (ii) 7459 kg (iii) 10 400 kg",
+"(i) 11 372 kg (ii) 7959 kg (iii) 10 900 kg"
+],
+"a": 2
+},
+{
+"n": 64,
+"q": "MSTOM 80 000 lb, MSLM 64 500 lb, DOM 50 000 lb, flight fuel 6000 (book: kg), reserve 1500. Find the traffic load that can be carried.",
+"o": [
+"13 000 lb",
+"11 193 lb",
+"22 500 lb"
+],
+"a": 1
+},
+{
+"n": 65,
+"q": "A to B: max take-off mass (structural) 82 000 lb, mass without fuel and traffic load 50 000 lb, PLLM 64 000 lb, fuel for A→B 16 000 lb, reserve 8000 lb. If the aircraft lands at B having used 500 lb of reserve, what maximum traffic load can be carried?",
+"o": [
+"6000 lb",
+"8000 lb",
+"6500 lb"
+],
+"a": 2
+},
+{
+"n": 66,
+"q": "A to B: max permissible TOM 82 000 lb, mass without fuel and traffic load 50 000 lb, max permissible landing mass 69 000 lb, fuel A→B 16 000 lb, reserve 3000 lb. (i) Maximum traffic load? (ii) Can additional reserve fuel be carried without affecting it?",
+"o": [
+"(i) 16 000 (ii) cannot carry",
+"(i) 13 000 (ii) cannot carry",
+"(i) 13 000 (ii) 3000 lb"
+],
+"a": 1
+},
+{
+"n": 67,
+"q": "M to N and back with max traffic load each way, no fuel at N: 80 NM; GS M→N 70 kt, N→M 110 kt; 410 kg/h; MTOM at M 6180 kg, MLM at N 5740 kg, MTOM at N 5800 kg, MLM at M 5460 kg, MZFM 5180 kg, mass less fuel and traffic load 4400 kg, reserve 250 kg (unused). Find (i) max traffic load M→N, (ii) N→M.",
+"o": [
+"(i) 763 kg (ii) 780 kg",
+"(i) 763 kg (ii) 530 kg",
+"(i) 513 kg (ii) 530 kg"
+],
+"a": 0
+},
+{
+"n": 68,
+"q": "Max T/O mass 51.0 t, RTOM 50.0 t, max landing mass 44.2 t, RLM 43.2 t, MZFM 45.1 t, APS mass 27.5 t, trip fuel 4.2 t, reserve 1.0 t. Find the traffic load that can be carried.",
+"o": [
+"17.6 t",
+"17.3 t",
+"14.7 t"
+],
+"a": 2
+},
+{
+"n": 69,
+"q": "Max take-off mass 80 000 lb, max landing mass 60 000 lb, DOM 48 000 lb, TAS 200 kt, track 350°, W/V 350/20, distance 1350 NM, fuel consumption 2500 lb/h, reserve 3500 lb. Find the traffic load that can be carried.",
+"o": [
+"9750 lb",
+"8500 lb",
+"15 409 lb"
+],
+"a": 1
+},
+{
+"n": 70,
+"q": "MSTOM 55 000 kg, MSLM 52 000 kg, MZFM 38 000 kg, DOM 29 000 kg, consumption 1600 kg/h, distance 1500 NM, reserve 2750 kg, TAS 260 kt. Winds: 20 kt headwind to half way, then 60 kt tailwind. (i) Max traffic load in still air; (ii) with the winds.",
+"o": [
+"(i) 9000 kg (ii) 9000 kg",
+"(i) 9000 kg (ii) 8000 kg",
+"(i) 9000 kg (ii) 10 000 kg"
+],
+"a": 0
+},
+{
+"n": 71,
+"q": "Find the maximum traffic load: flying time 3 h 30 min, FC 1500 kg/h, reserve fuel 45 min, restricted take-off mass 45 000 kg, DOM 37 525 kg.",
+"o": [
+"1100 kg",
+"1200 kg",
+"1025 kg"
+],
+"a": 0
+},
+{
+"n": 72,
+"q": "MSTOM 82 000 lb, MSLM 64 500 lb, DOM 50 000 lb, flight fuel 16 000 lb, reserve 1500 lb. Calculate the payload if the aircraft is to use 700 lb of reserve fuel after reaching destination.",
+"o": [
+"13 000 lb",
+"13 200 lb",
+"13 700 lb"
+],
+"a": 2
+},
+{
+"n": 73,
+"q": "In a neutrally stable aircraft the centre of gravity is located:",
+"o": [
+"at or very near the aerodynamic centre",
+"too far aft of the aerodynamic centre",
+"too far forward of the aerodynamic centre"
+],
+"a": 0,
+"ex": "Neutral stability: CG at or very near the aerodynamic centre (neutral point)."
+},
+{
+"n": 74,
+"q": "Structural integrity of the wing root will be adversely affected by:",
+"o": [
+"adding fuel to MZFM",
+"increasing the number of fasteners at the wing root",
+"exceeding maximum authorised mass including fuel"
+],
+"a": 2
+},
+{
+"n": 75,
+"q": "Calculate the total fuel required for a turbojet: thrust 80 kN, SFC 0.6 kg/(s·kN), flight time 30 min.",
+"o": [
+"43 200 kg",
+"86 400 kg",
+"172 800 kg"
+],
+"a": 1,
+"ex": "0.6 × 80 = 48 kg/s × 1800 s = 86 400 kg."
+}
+]
+}

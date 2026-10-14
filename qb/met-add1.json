@@ -1,0 +1,838 @@
+{
+"title": "Additional Questions 1",
+"src": "Joshi: Additional Qs 1",
+"qs": [
+{
+"n": 1,
+"q": "The main cause of occurrence of weather over the earth surface is",
+"o": [
+"Changing pressure",
+"Advection of moist air",
+"Variation in insolation",
+"Movement of air mass"
+],
+"a": 2
+},
+{
+"n": 2,
+"q": "Thermal lows are generally located over",
+"o": [
+"Polar region",
+"Equatorial region",
+"Temperate region",
+"Movement region"
+],
+"a": 1
+},
+{
+"n": 3,
+"q": "The main cause of ground inversion is",
+"o": [
+"Release of latent heat",
+"Incident solar radiation",
+"Convection",
+"Terrestrial radiation on calm and clear night"
+],
+"a": 3
+},
+{
+"n": 4,
+"q": "Above the friction layer winds mostly blow parallel to isobars due to balance of",
+"o": [
+"Coriolis force and Geostrophic force",
+"Coriolis force and Pressure Gradient force",
+"Coriolis force and Gravitational force",
+"Coriolis force and Centripetal force"
+],
+"a": 0
+},
+{
+"n": 5,
+"q": "Wind at 1 km height is 320/20 kt whereas surface wind is 260/05 kt because of",
+"o": [
+"Subsidence",
+"Convection",
+"Friction",
+"Thunderstorm"
+],
+"a": 2,
+"ex": "Friction slows and backs the surface wind relative to the wind above the friction layer."
+},
+{
+"n": 6,
+"q": "The amount of water vapour which air can hold depends on",
+"o": [
+"Dew point temperature",
+"Wet bulb temperature",
+"Dry bulb temperature",
+"Virtual temperature"
+],
+"a": 2
+},
+{
+"n": 7,
+"q": "In the general circulation the Equatorial Low Pressure Belt is at the junction of which cells?",
+"o": [
+"Hadley Cells",
+"Polar cell",
+"Ferrel and Hadley Cells",
+"Ferrel Cell"
+],
+"a": 0
+},
+{
+"n": 8,
+"q": "The dew point temperature",
+"o": [
+"is higher if air contains more water vapour",
+"changes by cooling or warming",
+"is equal to the air temperature during mist",
+"is always higher than Wet Bulb temperature for unsaturated air"
+],
+"a": 0
+},
+{
+"n": 9,
+"q": "What controls the movement of most TS?",
+"o": [
+"jet stream",
+"wind at 400 hPa",
+"wind at 700-500 hPa",
+"wind at 30,000 ft"
+],
+"a": 2
+},
+{
+"n": 10,
+"q": "Isohyets are the line of equal",
+"o": [
+"Humidity",
+"Sunshine",
+"Rainfall amount",
+"Density"
+],
+"a": 2
+},
+{
+"n": 11,
+"q": "How much in advance of departure must a pilot notify the Aeronautical Met Station (AMS) requiring a met forecast for a national flight?",
+"o": [
+"3 hr",
+"6 hr",
+"12 hr",
+"18 to 24 hr"
+],
+"a": 3
+},
+{
+"n": 12,
+"q": "An a/c cruising at FL500 in July from Chennai to Trivandrum will generally experience",
+"o": [
+"Weak Sly wind",
+"Subtropical Wly wind",
+"Tropical Ely wind",
+"Tropical Jet stream"
+],
+"a": 3
+},
+{
+"n": 13,
+"q": "The sun is highest at noon, but two/three hours later the earth receives more radiation; hence maximum temperature is around 1500 hr. It is due to",
+"o": [
+"Angular Momentum",
+"Thermal cooling",
+"Thermal Inertia",
+"Rotation of the Earth"
+],
+"a": 2
+},
+{
+"n": 14,
+"q": "Which of the following Indian months corresponds to Grishma Ritu?",
+"o": [
+"Jyeshtha and Asadha",
+"Shravana",
+"Phalguna",
+"Paush"
+],
+"a": 0
+},
+{
+"n": 15,
+"q": "Due to Coriolis force an Ely wind blowing over the equator will",
+"o": [
+"get deflected to the left",
+"become Wly",
+"weaken",
+"remain unchanged"
+],
+"a": 3
+},
+{
+"n": 16,
+"q": "The surface wind at coastal stations on West coast of India during late night/early morning in Pre-monsoon season is",
+"o": [
+"Nly",
+"Ely",
+"Wly",
+"Sly"
+],
+"a": 1
+},
+{
+"n": 17,
+"q": "Convective clouds develop at a place when the atmosphere is",
+"o": [
+"absolutely stable",
+"conditionally stable",
+"neutrally stable",
+"none of the above"
+],
+"a": 1
+},
+{
+"n": 18,
+"q": "In a SPECI report the QNH 1005.8 hPa is reported as",
+"o": [
+"1016 hPa",
+"1015.8 hPa",
+"1005 hPa",
+"1016.8 hPa"
+],
+"a": 2,
+"ex": "QNH is rounded down: 1005.8 → Q1005."
+},
+{
+"n": 19,
+"q": "Stability of atmosphere is determined by",
+"o": [
+"Inversion",
+"DALR",
+"ELR",
+"SALR"
+],
+"a": 2
+},
+{
+"n": 20,
+"q": "The characteristic features, good visibility and turbulence, are of",
+"o": [
+"high pressure area",
+"stable air mass",
+"unstable air",
+"cold Polar air mass"
+],
+"a": 2
+},
+{
+"n": 21,
+"q": "Extreme turbulence in a TS can be assessed from",
+"o": [
+"heavy Ice accretion",
+"frequent lightning",
+"Hail",
+"appearance of Anvil"
+],
+"a": 1
+},
+{
+"n": 22,
+"q": "Jet streams are strongest when temperature gradient are greatest",
+"o": [
+"True",
+"False"
+],
+"a": 0
+},
+{
+"n": 23,
+"q": "While planning to land during TS, which is the most serious aviation hazard to expect?",
+"o": [
+"Hail storm",
+"Downdraught",
+"WS and Turbulence",
+"Heavy rain"
+],
+"a": 2
+},
+{
+"n": 24,
+"q": "In an arid area the cloud which is capable of causing a dust storm is",
+"o": [
+"CI",
+"CU",
+"CB",
+"NS"
+],
+"a": 2
+},
+{
+"n": 25,
+"q": "If after the issue of a SPECI, conditions continue to be below the prescribed limit then the next routine report will be a",
+"o": [
+"METAR",
+"SPECIAL",
+"SPECI",
+"could be METAR or SPECI"
+],
+"a": 0
+},
+{
+"n": 26,
+"q": "Fronts are characteristics of",
+"o": [
+"Tropical cyclones",
+"Monsoon depression",
+"TS",
+"Extra Tropical Depressions"
+],
+"a": 3
+},
+{
+"n": 27,
+"q": "In India in a VOLMET broadcast",
+"o": [
+"SIGMET is excluded",
+"METAR,SPECI,SIGMET and TAF are included",
+"only SPECI is included",
+"only TAF are included"
+],
+"a": 1
+},
+{
+"n": 28,
+"q": "In a SPECI the lowest layer of clouds, regardless of amount, is reported as",
+"o": [
+"FEW, SCT, BKN or OVC",
+"SCT, BKN or OVC",
+"BKN or OVC",
+"FEW, SCT, or OVC"
+],
+"a": 0
+},
+{
+"n": 29,
+"q": "If the atmospheric pressure at an aerodrome is equal to the MSL pressure, then",
+"o": [
+"QNH > QFE",
+"QNH < QFE",
+"QNH = QFE",
+"None of the above"
+],
+"a": 2,
+"ex": "If station pressure equals MSL pressure the aerodrome is effectively at sea level, so QNH = QFE."
+},
+{
+"n": 30,
+"q": "An a/c at FL180 in July from Kolkata to Mumbai will generally experience",
+"o": [
+"Wly wind",
+"Ely wind",
+"Nly wind",
+"Sly wind"
+],
+"a": 1
+},
+{
+"n": 31,
+"q": "Isopycnics are lines of constant",
+"o": [
+"Height",
+"Insolation",
+"Geopotential heights",
+"Density"
+],
+"a": 3
+},
+{
+"n": 32,
+"q": "The minimum notice required to be given to an Aerodrome Met Office (AMO) by an aircraft operator needing met data for a national flight is",
+"o": [
+"3 hr",
+"6 hr",
+"12 hr",
+"18 to 24 hr"
+],
+"a": 0
+},
+{
+"n": 33,
+"q": "METAR VIAG 250300Z 27005KT 1200 +SHRA FEW008 SCT025 BKN080 28/25 Q1004 TEMPO 0405 0800 +TSRA FEW020CB OVC300= In the METAR, surface visibility in TS is",
+"o": [
+"800 m",
+"1200 m",
+"4050 m",
+"0300 m"
+],
+"a": 0,
+"ex": "TEMPO 0800 +TSRA: visibility 800 m in the thunderstorm."
+},
+{
+"n": 34,
+"q": "The upper air report from an a/c other than weather reconnaissance a/c has the identification code as",
+"o": [
+"WINTEM",
+"VOLMET",
+"RAWIN",
+"CODAR"
+],
+"a": 3
+},
+{
+"n": 35,
+"q": "'TAF AMD' covers the validity period",
+"o": [
+"the remaining validity period of original TAF",
+"half the validity period of the TAF",
+"the validity starting 2 hr prior to the end period of original TAF",
+"full validity period of the TAF"
+],
+"a": 0
+},
+{
+"n": 36,
+"q": "RVR is a measure of",
+"o": [
+"Atmospheric transmissivity and background illumination",
+"Atmospheric transparency, intensity of R/W lights and background illumination",
+"Intensity of background illumination",
+"Atmospheric transmissivity, intensity of R/W lights"
+],
+"a": 1
+},
+{
+"n": 37,
+"q": "SPECI is issued when the visibility changes from",
+"o": [
+"800 to 1500 m",
+"8 km to 6 km",
+"300 m to 400 m",
+"300 m to 150 m"
+],
+"a": 0
+},
+{
+"n": 38,
+"q": "During pre-monsoon the pressure gradient in the S parts of the East coast of India is from",
+"o": [
+"N to S along the coast",
+"S to N along the coast",
+"E to W across the coast",
+"W to E across the coast"
+],
+"a": 2
+},
+{
+"n": 39,
+"q": "During SW monsoon the wind at FL400 over Bengaluru is generally",
+"o": [
+"Strong Ely",
+"Strong Wly",
+"Fluctuates between Ely and Wly",
+"Weak Sly"
+],
+"a": 0
+},
+{
+"n": 40,
+"q": "The lapse rate of temperature in a low level inversion is",
+"o": [
+"Positive",
+"negative",
+"insignificant",
+"6.5° C"
+],
+"a": 1
+},
+{
+"n": 41,
+"q": "Which of the following Indian months corresponds to the Rainy Season / Varsha Ritu?",
+"o": [
+"Kwar",
+"Kartik",
+"Magha",
+"Shravana and Bhadrapad"
+],
+"a": 3
+},
+{
+"n": 42,
+"q": "The Code Name for an aviation forecast in figure code for a specific area is",
+"o": [
+"ROFOR",
+"ARFOR",
+"TAFOR",
+"GAMET"
+],
+"a": 1
+},
+{
+"n": 43,
+"q": "SIGMET message is -",
+"o": [
+"Occurring or expected, enroute weather, which may affect safety of the air operation.",
+"Aerodrome forecast in plain language.",
+"Special Reports to local ATC unit and concerned operators",
+"Trend type of landing forecast passed to operators"
+],
+"a": 0
+},
+{
+"n": 44,
+"q": "Which of the following Indian month corresponds to Winter/ Shishira Ritu",
+"o": [
+"Kwar",
+"Pausha",
+"Magha and Phalguna",
+"Shravana"
+],
+"a": 2
+},
+{
+"n": 45,
+"q": "The variable surface wind speed refers to",
+"o": [
+"< 03 KT",
+"04 KT or less",
+"≥ 02 KT",
+"Calm"
+],
+"a": 0
+},
+{
+"n": 46,
+"q": "Which of the following Indian month corresponds to Sharad Ritu (Post monsoon)",
+"o": [
+"Jyeshtha",
+"Asauj and Kartika",
+"Phalguna",
+"Shravana"
+],
+"a": 1
+},
+{
+"n": 47,
+"q": "TAF VECC 220300Z 2400KT 3000 FU SCT030 BECMG 0406 6000 SCT030 BKN100 TEMPO 0708 2000 TSRA SCT020CB OVC080 — this TAF forecasts TS and RA between",
+"o": [
+"0400 and 0600 UTC",
+"0400 and 0600 IST",
+"0700 and 0800 UTC",
+"0700 and 0800 IST"
+],
+"a": 2,
+"ex": "TEMPO 0708 = between 0700 and 0800 UTC."
+},
+{
+"n": 48,
+"q": "The hailstones occur from",
+"o": [
+"both warm and cold clouds",
+"cold clouds only",
+"warm clouds only",
+"NS clouds"
+],
+"a": 1
+},
+{
+"n": 49,
+"q": "SPECI is issued when the height of base of the lowest cloud layer ≥ 5/8 changes to or passes",
+"o": [
+"500m, 300m, 150m, 50m, 25m",
+"450m, 350m, 150m, 50m, 30m",
+"400m, 300m, 150m, 90m, 30m",
+"450m, 300m, 150m, 60m, 30 m"
+],
+"a": 3
+},
+{
+"n": 50,
+"q": "Fog is produced in Fronts by",
+"o": [
+"evaporation and precipitation",
+"frequent Rain",
+"adiabatic cooling",
+"freezing Rain"
+],
+"a": 0
+},
+{
+"n": 51,
+"q": "Over the earth deserts are located in the regions of",
+"o": [
+"Equatorial trough",
+"Subtropical high",
+"Polar Front",
+"ITCZ"
+],
+"a": 1
+},
+{
+"n": 52,
+"q": "The air can hold more moisture at MSL over the",
+"o": [
+"Temperate latitudes",
+"20° Latitude",
+"Equator",
+"Poles"
+],
+"a": 2
+},
+{
+"n": 53,
+"q": "With altitude in an isothermal atmosphere the density of the air",
+"o": [
+"does not change",
+"increases with height",
+"first decreases and then increases",
+"decreases"
+],
+"a": 0,
+"ex": "Even in an isothermal layer pressure falls with height, so density decreases."
+},
+{
+"n": 54,
+"q": "The fronts associated with WDs over NW India in winter are mostly",
+"o": [
+"Warm Occlusions",
+"Cold Occlusions",
+"Cold Fronts",
+"Warm Fronts"
+],
+"a": 0,
+"ex": "The book's key gives warm occlusions."
+},
+{
+"n": 55,
+"q": "In a Cold Occlusion the",
+"o": [
+"Cold air of Cold Front is not the coldest",
+"Cold air of Cold Front is the coldest",
+"Cold air of Warm Front is the coldest",
+"Cold air of Warm Front is warmer than that of Cold Front"
+],
+"a": 1
+},
+{
+"n": 56,
+"q": "A day is called a Rainy Day when the amount of rainfall in a day is",
+"o": [
+"7.5 mm or more",
+"10 mm or more",
+"2.5 mm or more",
+"at least 1.0 mm"
+],
+"a": 2
+},
+{
+"n": 57,
+"q": "A cold front is defined as the",
+"o": [
+"advancing cold airmass undercutting the warm airmass",
+"warm airmass over riding the cold airmass",
+"retreating cold pool of air",
+"leading cold gust front"
+],
+"a": 0
+},
+{
+"n": 58,
+"q": "In a METAR the third layer of clouds is reported when amount is",
+"o": [
+"3/8 or more SCT, BKN or OVC",
+"5/8 or less SCT, BKN",
+"5/8 or more BKN or OVC",
+"3/8 or more FEW, SCT"
+],
+"a": 2
+},
+{
+"n": 59,
+"q": "SPECI is issued for RVR when it changes or passes",
+"o": [
+"150 m",
+"200 m",
+"400 m",
+"900 m"
+],
+"a": 0
+},
+{
+"n": 60,
+"q": "Above which datum the cloud base is reported at airports?",
+"o": [
+"above mean sea level",
+"above the aerodrome level",
+"above standard pressure level",
+"above pressure level in ISA"
+],
+"a": 1
+},
+{
+"n": 61,
+"q": "For International Flight documentation, the following data is provided",
+"o": [
+"SIGWX charts between FL 250 and FL 600",
+"SIGWX charts between FL 250 and FL 630 and forecast 250 hPa wind and Temp. data",
+"SIGWX charts and Upper wind and temperature charts",
+"WAFC generated SIGWX forecast chart only"
+],
+"a": 1
+},
+{
+"n": 62,
+"q": "When visibility is 800 m to 5000 m, in a METAR it is reported in steps of",
+"o": [
+"100 m",
+"200 m",
+"500 m",
+"1000 m"
+],
+"a": 0
+},
+{
+"n": 63,
+"q": "The Polar Front is",
+"o": [
+"Continuous",
+"Not continuous",
+"A transition zone between Polar and Arctic Westerlies",
+"Boundary between Arctic and Polar air masses"
+],
+"a": 1,
+"ex": "The polar front is broken into segments, not continuous around the globe."
+},
+{
+"n": 64,
+"q": "Most of the weather occurring in India is due to",
+"o": [
+"Fronts",
+"Cyclones",
+"TS",
+"Monsoon Trough"
+],
+"a": 2
+},
+{
+"n": 65,
+"q": "The Doppler Weather Radar works on the Principles of",
+"o": [
+"Frequency amplification",
+"Change in frequency of return echo",
+"Comparison of drop sizes",
+"Wavelength modification"
+],
+"a": 1
+},
+{
+"n": 66,
+"q": "Flight forecast in Chart from of Documentation* supplied in India consists of",
+"o": [
+"Synoptic charts 03 and 12 UTC and U/A charts for 00 and 12 UTC",
+"Latest surface synoptic chart and upper air charts",
+"SIGWX chart and upper air charts for 850, 500 and 300 hPa",
+"SIGWX chart and prognostic charts for 300,250 and 200 hPa"
+],
+"a": 3
+},
+{
+"n": 67,
+"q": "SIGMET message contains weather information which is",
+"o": [
+"Actual and not a forecast",
+"Forecast only",
+"Both actual and forecast",
+"Actual only"
+],
+"a": 2
+},
+{
+"n": 68,
+"q": "Veering of geostrophic wind at a station with height indicates",
+"o": [
+"Warm air advection",
+"Cold air advection",
+"Subsidence of cold air",
+"Convection of warm air"
+],
+"a": 0
+},
+{
+"n": 69,
+"q": "The wind Bora is a",
+"o": [
+"warm Anabatic wind",
+"cold Katabatic wind",
+"violent Wly wind",
+"light maritime Ely wind"
+],
+"a": 1
+},
+{
+"n": 70,
+"q": "Will a SPECI be issued when the mean speed has changed by",
+"o": [
+"< 09 kt",
+"10 kt or more",
+"less than 10 kt",
+"> 08 kt"
+],
+"a": 1,
+"ex": "A change in mean speed of 10 kt or more triggers a SPECI."
+},
+{
+"n": 71,
+"q": "Highest annual rainfall over the earth occurs in the",
+"o": [
+"Temperate regions",
+"Tropical regions",
+"Polar regions",
+"Equatorial regions"
+],
+"a": 3
+},
+{
+"n": 72,
+"q": "The most hazardous area for aviation in a cyclone is",
+"o": [
+"about 400 km from eye",
+"eye of the cyclone",
+"wall cloud around the eye",
+"all over the cyclone"
+],
+"a": 2
+},
+{
+"n": 73,
+"q": "The ITCZ",
+"o": [
+"is a region of calm winds and layer type of clouds",
+"affects only N hemisphere in winters",
+"usually lies along the Equatorial Trough",
+"affects S hemisphere in monsoon"
+],
+"a": 2
+},
+{
+"n": 74,
+"q": "The strong Wly winds which blow in both the hemispheres between 35° and 60° Lat are called:",
+"o": [
+"Roaring Forties",
+"Trades",
+"Jetstreams",
+"Polar Wly"
+],
+"a": 0
+},
+{
+"n": 75,
+"q": "Cold core low pressure system",
+"o": [
+"intensifies with height",
+"weakens with height",
+"does not change with height",
+"veers with height"
+],
+"a": 0
+}
+]
+}

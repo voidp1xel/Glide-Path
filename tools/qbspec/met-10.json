@@ -1,0 +1,106 @@
+{
+"id": "met-10",
+"title": "Optical Phenomena",
+"src": "Joshi Ch 10",
+"text": "met",
+"start": 2904,
+"end": 2948,
+"key": "abbaabbcabdab cbababc",
+"fix": {
+"2": {
+"q": "Aurora Australis are called … Lights"
+},
+"4": {
+"q": "Aurora Borealis are called … Lights",
+"o": [
+"Northern",
+"Southern",
+"Temperate"
+]
+},
+"10": {
+"q": "Corona are formed due to the … of light"
+},
+"11": {
+"o": [
+"Mist only",
+"Fog only",
+"Small water or ice particles only",
+"Any one of all these"
+]
+},
+"15": {
+"q": "Halo is a luminous ring of … radius"
+},
+"16": {
+"q": "Halo round the sun shows a pure clear … on the outside"
+},
+"17": {
+"o": [
+"Supercooled water drops",
+"Ice crystals",
+"Both"
+]
+},
+"18": {
+"q": "The cloud which causes halo has … chances of ice accretion",
+"o": [
+"Negligible",
+"Maximum",
+"Medium"
+]
+},
+"19": {
+"q": "Sometimes a halo with a radius of … is observed, called Large Halo",
+"o": [
+"32°",
+"42°",
+"22°"
+]
+},
+"20": {
+"q": "Halo occurs from … cloud"
+}
+},
+"ex": {
+"19": "The book's key gives 42°; the text describes the large halo with a radius of 46°. Learn: small halo 22°, large halo 46° (book option 42° is the closest).",
+"8": "Superior mirage (image raised) over cold surfaces with an inversion; inferior mirage (image below, 'water on the road') over hot surfaces with a steep lapse rate."
+},
+"drop": [
+5,
+6,
+12
+],
+"add": [
+{
+"n": 5,
+"q": "Corona occurs in … clouds",
+"o": [
+"AS",
+"NS",
+"CS"
+],
+"a": 0
+},
+{
+"n": 6,
+"q": "Bishop's ring is due to the diffraction of light by fine particles of",
+"o": [
+"Water",
+"Dust",
+"Ice"
+],
+"a": 1
+},
+{
+"n": 12,
+"q": "Halo is produced by",
+"o": [
+"Refraction",
+"Diffraction",
+"Scattering"
+],
+"a": 0
+}
+]
+}

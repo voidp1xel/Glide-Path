@@ -1,0 +1,211 @@
+{
+"title": "Stability and Instability",
+"src": "Joshi Ch 9",
+"qs": [
+{
+"n": 1,
+"q": "DALR = 9.8°C/km, ELR = 6.8°C/km; atmosphere is",
+"o": [
+"Stable",
+"Unstable",
+"Indifferent"
+],
+"a": 0,
+"ex": "ELR (6.8) < DALR (9.8): a lifted dry parcel cools faster than its surroundings and sinks back → stable."
+},
+{
+"n": 2,
+"q": "SALR = 5.5°C/km, ELR = 4.5°C/km; atmosphere is",
+"o": [
+"Unstable",
+"Stable",
+"Indifferent"
+],
+"a": 1,
+"ex": "ELR (4.5) < SALR (5.5): even saturated air is stable."
+},
+{
+"n": 3,
+"q": "DALR > ELR > SALR",
+"o": [
+"Conditionally unstable",
+"Latently stable",
+"Potentially stable"
+],
+"a": 0
+},
+{
+"n": 4,
+"q": "Dry air is unstable when:",
+"o": [
+"ELR = DALR",
+"ELR > DALR",
+"ELR < DALR"
+],
+"a": 1
+},
+{
+"n": 5,
+"q": "The saturated air is said to be unstable if",
+"o": [
+"SALR = ELR",
+"SALR < ELR",
+"SALR > ELR"
+],
+"a": 1
+},
+{
+"n": 6,
+"q": "If ELR = SALR = DALR the atmosphere is",
+"o": [
+"Stable",
+"Unstable",
+"Indifferent"
+],
+"a": 2
+},
+{
+"n": 7,
+"q": "DALR means:",
+"o": [
+"The rate at which temperature of unsaturated parcel of air falls with height when made to ascend adiabatically",
+"The rate at which temperature falls with height",
+"The rate at which ascending parcel of saturated air cools"
+],
+"a": 0
+},
+{
+"n": 8,
+"q": "Surface temperature is 30°C. Assuming DALR, what is the temperature at 2 km?",
+"o": [
+"18°C",
+"10°C",
+"42°C"
+],
+"a": 1,
+"ex": "30 − 9.8 × 2 = 10.4 ≈ 10°C."
+},
+{
+"n": 9,
+"q": "An isothermal atmosphere is:",
+"o": [
+"Stable",
+"Unstable",
+"Neutral"
+],
+"a": 0
+},
+{
+"n": 10,
+"q": "If ELR is less than SALR, the atmosphere is said to be:",
+"o": [
+"Absolutely unstable",
+"Conditionally unstable",
+"Absolutely stable"
+],
+"a": 2
+},
+{
+"n": 11,
+"q": "DALR is approximately",
+"o": [
+"5°C/km",
+"15°C/km",
+"10°C/km"
+],
+"a": 2
+},
+{
+"n": 12,
+"q": "SALR at mean sea level is about",
+"o": [
+"10°C/km",
+"5°C/km",
+"5°F/km"
+],
+"a": 1
+},
+{
+"n": 13,
+"q": "SALR approaches DALR",
+"o": [
+"At 0°C",
+"At −15°F",
+"At −40°C"
+],
+"a": 2,
+"ex": "At very low temperatures (below −40°C) there is so little water vapour that latent heat release is negligible."
+},
+{
+"n": 14,
+"q": "Dry air having a temperature of 35°C on surface when forced to rise adiabatically by 1 km would attain a temperature of",
+"o": [
+"29°C",
+"25°C",
+"45°C"
+],
+"a": 1,
+"ex": "35 − 9.8 ≈ 25°C."
+},
+{
+"n": 15,
+"q": "Inversion in the atmosphere indicates",
+"o": [
+"Stability",
+"Instability",
+"Neutrality"
+],
+"a": 0
+},
+{
+"n": 16,
+"q": "Inversion is … lapse rate (ELR)",
+"o": [
+"Positive",
+"Negative",
+"Neutral"
+],
+"a": 1
+},
+{
+"n": 17,
+"q": "Environmental lapse rate can be more than DALR",
+"o": [
+"True",
+"False"
+],
+"a": 0,
+"ex": "A super-adiabatic lapse rate (ELR > DALR) occurs over strongly heated ground: absolutely unstable."
+},
+{
+"n": 18,
+"q": "The process which to a large extent determines the vertical distribution of temperature in atmosphere is",
+"o": [
+"Adiabatic",
+"Isothermal",
+"Isentropic"
+],
+"a": 0
+},
+{
+"n": 19,
+"q": "Rise in temperature with height is",
+"o": [
+"Inversion",
+"Lapse",
+"Normal"
+],
+"a": 0
+},
+{
+"n": 20,
+"q": "Inversion is common in",
+"o": [
+"Post monsoon",
+"Monsoon",
+"Winters"
+],
+"a": 2
+}
+]
+}

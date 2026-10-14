@@ -1,0 +1,26 @@
+module.exports = {
+  n: 9, title: 'Dead Reckoning', tag: 'Triangle of velocities · drift · track error · runway winds', icon: 'route', hue: 0, partOfBook: 'General Navigation',
+  big: 'Navigating by calculation: headings, tracks, drift and track error, the triangle of velocities, runway wind components, airspeeds from IAS to TAS, and the time-distance sums that keep a DR plot honest.',
+  purpose: 'Every paper has CRP sums: find heading and GS, find the W/V, runway crosswinds, drift and compass-heading chains.',
+  lessons: [
+    { id: 'triangle', type: 'sim', sim: 'velocity', icon: 'sliders', ask: 'Play with it: the triangle of velocities', dgca: true,
+      takeaway: 'Air vector (heading/TAS) plus wind vector equals ground vector (track/GS). Change the wind and watch the heading swing into it and the groundspeed change.',
+      hook: 'One arrow for the aircraft, two for the ground, three for the wind.' },
+    { id: 'drift', type: 'pairs', icon: 'compass', ask: 'Drift and track error', dgca: true,
+      pairs: [
+        { a: { label: 'Drift', body: 'From **heading** to **track**. Track right of heading = **starboard**. TR = HDG + S − P.' }, b: { label: 'Track error', body: 'From **required track** to **TMG**. TMG right of RT = starboard TE.' }, rule: 'Steer into wind: starboard drift → heading left of track.' },
+        { a: { label: 'Wind ⟂ track', body: 'GS **less** than TAS.' }, b: { label: 'Wind ⟂ heading', body: 'GS **more** than TAS.' }, rule: '' },
+      ] },
+    { id: 'speeds', type: 'sequence', icon: 'gauge', ask: 'From the ASI to TAS', dgca: true,
+      steps: [{ label: 'ASIR', sub: 'raw reading' }, { label: 'IAS', sub: 'calibrated to ISA MSL' }, { label: 'CAS', sub: '+ position & instrument error' }, { label: 'EAS', sub: '+ compressibility' }, { label: 'TAS', sub: '+ density' }, { label: 'Mach', sub: 'TAS ÷ LSS' }] },
+    { id: 'rwy', type: 'formulas', icon: 'calc', ask: 'Runway components', dgca: true,
+      items: [{ name: 'Crosswind', eq: 'W × sin θ', ex: '330/30 on runway 04 (θ 70°): 28 kt from the left.', calc: { inputs: [{ k: 'w', label: 'Wind speed', v: 30 }, { k: 'd', label: 'Wind dir (°M)', v: 330 }, { k: 'r', label: 'Runway (°M)', v: 40 }], f: 'Math.round(Math.abs(w*Math.sin((d-r)*Math.PI/180)))', unit: 'kt' } },
+        { name: 'Headwind', eq: 'W × cos θ (negative = tailwind)', ex: '270/30 on runway 29: 28 kt headwind.', calc: { inputs: [{ k: 'w', label: 'Wind speed', v: 30 }, { k: 'd', label: 'Wind dir (°M)', v: 270 }, { k: 'r', label: 'Runway (°M)', v: 290 }], f: 'Math.round(w*Math.cos((d-r)*Math.PI/180))', unit: 'kt' } }] },
+    { id: 'chain', type: 'stamp', icon: 'check', ask: 'Compass heading chains', dgca: true,
+      lead: 'Track → (drift) → true heading → (variation) → magnetic → (deviation) → compass. Starboard drift and easterly var/dev are subtracted going this way.',
+      stamps: [{ id: 'a', label: '306°' }, { id: 'b', label: '033°' }, { id: 'c', label: '190°M' }],
+      cases: [{ text: 'RT 300°T, drift 8° right, var 10°W, dev −4°.', answer: 'a' }, { text: 'TT 348°, drift 17° left, var 32°W, dev 4°E.', answer: 'b' }, { text: 'TT 192°, var 7°E, drift 5° left (magnetic heading).', answer: 'c' }] },
+    { id: 'quiz', type: 'quiz', icon: 'check', ask: 'Quick check',
+      questions: [{ q: 'Track 010°, heading 000°. The drift is:', options: ['10°P', '10°S', 'Nil'], answer: 1 }, { q: 'Drift is measured from:', options: ['Track', 'Heading', 'Required track'], answer: 1 }] },
+  ],
+};

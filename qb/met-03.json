@@ -1,0 +1,410 @@
+{
+"title": "Temperature",
+"src": "Joshi Ch 3",
+"qs": [
+{
+"n": 1,
+"q": "Diurnal variation of temperature is greatest when wind is",
+"o": [
+"Calm",
+"Light",
+"Strong"
+],
+"a": 0
+},
+{
+"n": 2,
+"q": "Diurnal variation of temperature is maximum over",
+"o": [
+"Forest",
+"Ocean",
+"Land"
+],
+"a": 2
+},
+{
+"n": 3,
+"q": "On a clear day the amount of solar radiation received by earth surface is",
+"o": [
+"¾",
+"30%",
+"5/6"
+],
+"a": 2,
+"ex": "In clear weather about 5/6 of the solar radiation reaches the earth's surface."
+},
+{
+"n": 4,
+"q": "ALBEDO is",
+"o": [
+"Radiation received by earth",
+"Amount of heat",
+"Reflecting power of earth"
+],
+"a": 0
+},
+{
+"n": 5,
+"q": "During day the ambient temperature is … than ground",
+"o": [
+"Lower",
+"Higher",
+"Same"
+],
+"a": 2,
+"ex": "By day the ground is the heater, so the air (ambient temperature) is lower than the ground."
+},
+{
+"n": 6,
+"q": "Diurnal variation of temperature over ocean is …",
+"o": [
+"More than land",
+"Above 3°C",
+"Less than 1°C"
+],
+"a": 0
+},
+{
+"n": 7,
+"q": "At a coastal station the diurnal variation of temperature depends on",
+"o": [
+"Wind direction",
+"Wind speed",
+"Radiation"
+],
+"a": 2
+},
+{
+"n": 8,
+"q": "Snow surface reflects about … % of solar radiation.",
+"o": [
+"75%",
+"80%",
+"90%"
+],
+"a": 1
+},
+{
+"n": 9,
+"q": "Amount of Solar radiation received per unit area is",
+"o": [
+"Insolation",
+"Convection",
+"Radiation"
+],
+"a": 0
+},
+{
+"n": 10,
+"q": "Solar radiation received by the earth is",
+"o": [
+"Long Wave",
+"Albedo",
+"Shortwave"
+],
+"a": 2
+},
+{
+"n": 11,
+"q": "Rise in temperature of a surface is proportional to its specific heat",
+"o": [
+"Directly",
+"Inversely"
+],
+"a": 1,
+"ex": "A high specific heat means more heat is needed for each degree: temperature rise is inversely proportional to specific heat. Water (1) heats slowly; soil (0.2) heats fast."
+},
+{
+"n": 12,
+"q": "Specific heat of land is … than that of water",
+"o": [
+"Lower",
+"Same",
+"Higher"
+],
+"a": 0
+},
+{
+"n": 13,
+"q": "Minimum temperature is reached at …",
+"o": [
+"sunrise",
+"midnight",
+"½ - 1 hour after dawn"
+],
+"a": 2,
+"ex": "Ground keeps losing heat until incoming and outgoing radiation balance just after sunrise; the screen minimum comes ½–1 hour after dawn."
+},
+{
+"n": 14,
+"q": "An air parcel is lifted till it gets saturated. The temperature attained by it is called",
+"o": [
+"Potential temperature",
+"Dew Point",
+"Wet bulb"
+],
+"a": 1
+},
+{
+"n": 15,
+"q": "Cloudy nights are.",
+"o": [
+"cold",
+"normal",
+"warm"
+],
+"a": 2
+},
+{
+"n": 16,
+"q": "Water vapour is transparent to terrestrial radiation",
+"o": [
+"completely",
+"partially",
+"indifferent"
+],
+"a": 1,
+"ex": "Water vapour partly absorbs long-wave terrestrial radiation (it is a greenhouse gas)."
+},
+{
+"n": 17,
+"q": "Higher the temperature … would be the wavelength of emitted radiation",
+"o": [
+"Longer",
+"Shorter"
+],
+"a": 1
+},
+{
+"n": 18,
+"q": "Air is a bad conductor of heat. A parcel of air can therefore be regarded as insulated from the environment",
+"o": [
+"False",
+"True"
+],
+"a": 1,
+"ex": "The book treats an air parcel as insulated (adiabatic) because air is a poor conductor."
+},
+{
+"n": 19,
+"q": "Warmer the earth … will be the nocturnal radiation",
+"o": [
+"Intense",
+"Weaker",
+"Moderate"
+],
+"a": 0
+},
+{
+"n": 20,
+"q": "Heat is the … of the KE of all the molecules and atoms of a substance",
+"o": [
+"Sum total",
+"Average"
+],
+"a": 0
+},
+{
+"n": 21,
+"q": "The solar radiation consists of about 46% …",
+"o": [
+"UV",
+"IR",
+"Visible"
+],
+"a": 1
+},
+{
+"n": 22,
+"q": "The total energy radiated by a black body is proportional to its temperature (T) as",
+"o": [
+"T²",
+"T³",
+"T⁴"
+],
+"a": 2,
+"ex": "Stefan–Boltzmann law: E ∝ T⁴ (absolute temperature)."
+},
+{
+"n": 23,
+"q": "Intense radiation are emitted by",
+"o": [
+"Hot bodies",
+"Cold bodies",
+"Stars"
+],
+"a": 0
+},
+{
+"n": 24,
+"q": "The wavelength of most intense radiation is inversely proportional to its …",
+"o": [
+"Absolute temperature",
+"Humidity",
+"Albedo"
+],
+"a": 0,
+"ex": "Wien's law: λmax ∝ 1/T. Hot sun → short waves; cool earth → long waves."
+},
+{
+"n": 25,
+"q": "Hot bodies (like sun) radiate",
+"o": [
+"Short Waves",
+"Long Waves",
+"Both"
+],
+"a": 0
+},
+{
+"n": 26,
+"q": "The flow of heat from earth surface is 77% by",
+"o": [
+"Sensible heat",
+"Latent heat"
+],
+"a": 1
+},
+{
+"n": 27,
+"q": "−40°C = −40°F",
+"o": [
+"True",
+"False"
+],
+"a": 0
+},
+{
+"n": 28,
+"q": "Surface Temperature is recorded at a height of … above ground",
+"o": [
+"1.5 m",
+"1.25 m",
+"2 m"
+],
+"a": 1
+},
+{
+"n": 29,
+"q": "The door of Stevenson's screen should open",
+"o": [
+"opposite to sun",
+"into sun",
+"any direction"
+],
+"a": 0
+},
+{
+"n": 30,
+"q": "The liquid used in Minimum Thermometer is",
+"o": [
+"Mercury",
+"Alcohol",
+"Spirit"
+],
+"a": 1
+},
+{
+"n": 31,
+"q": "Freezing point of water is",
+"o": [
+"0°F",
+"12°F",
+"22°F",
+"32°F"
+],
+"a": 3
+},
+{
+"n": 32,
+"q": "Boiling point of water is",
+"o": [
+"100°F",
+"112°F",
+"212°F",
+"312°F"
+],
+"a": 2
+},
+{
+"n": 33,
+"q": "Freezing point of water is",
+"o": [
+"173 K",
+"273 K",
+"373 K",
+"473 K"
+],
+"a": 1
+},
+{
+"n": 34,
+"q": "Boiling point of water is",
+"o": [
+"373 K",
+"273 K",
+"173 K",
+"312 K"
+],
+"a": 0
+},
+{
+"n": 35,
+"q": "Convert 68°F into Kelvin temperature",
+"o": [
+"233 K",
+"283 K",
+"294 K",
+"293 K"
+],
+"a": 3,
+"ex": "C = 5/9 × (68 − 32) = 20°C; K = 20 + 273 = 293 K."
+},
+{
+"n": 36,
+"q": "Diurnal variation of temperature is least on a day when it is",
+"o": [
+"Clear",
+"Partly cloudy",
+"Cloudy",
+"Overcast"
+],
+"a": 3
+},
+{
+"n": 37,
+"q": "A clear and calm night is cooler than a cloudy night, because nocturnal radiation",
+"o": [
+"Escape through cloud",
+"Are partly radiated back by clouds to earth",
+"Are fully absorbed by H2O",
+"Are fully prevented by clouds to escape"
+],
+"a": 1,
+"ex": "Cloud absorbs outgoing long-wave radiation and its base radiates back to earth, so cloudy nights stay warmer."
+},
+{
+"n": 38,
+"q": "Which surface will cause higher diurnal variation",
+"o": [
+"Forest",
+"Desert",
+"Water",
+"Snow"
+],
+"a": 1,
+"ex": "Dry desert sand has low specific heat and no moisture: the largest day–night swing."
+},
+{
+"n": 39,
+"q": "If temperature does not change with height in a layer, it indicates",
+"o": [
+"Isothermal layer",
+"Inversion",
+"Instability",
+"Uniform lapse rate"
+],
+"a": 0
+}
+]
+}

@@ -1,0 +1,97 @@
+{
+"id": "met-04",
+"title": "Air Density",
+"src": "Joshi Ch 4",
+"text": "met",
+"start": 1214,
+"end": 1238,
+"key": "ababbbdbac",
+"fix": {
+"1": {
+"q": "Density is … at poles than equator",
+"o": [
+"Higher",
+"Lower",
+"Same"
+]
+},
+"2": {
+"q": "Above 8 km density is … at poles than at equator",
+"o": [
+"Higher",
+"Lower",
+"Same"
+]
+},
+"3": {
+"o": [
+"Density altitude",
+"ISA density",
+"Real density"
+]
+},
+"4": {
+"q": "Density is usually expressed as …",
+"o": [
+"kg/sq m",
+"g/cu m",
+"N/sq m"
+]
+},
+"5": {
+"q": "Higher density altitude means … density",
+"o": [
+"Higher",
+"Lower",
+"Same"
+]
+},
+"6": {
+"q": "For given pressure and temperature, moist air has density",
+"o": [
+"Higher",
+"Lower",
+"Same"
+]
+},
+"7": {
+"q": "Air is less dense in",
+"o": [
+"High altitudes",
+"Warm air",
+"High humidity",
+"All these"
+]
+},
+"8": {
+"o": [
+"The altitude in ISA at which the prevailing pressure occurs",
+"The altitude in ISA at which the prevailing density occurs",
+"The altitude in actual atmosphere at which the prevailing density occurs"
+]
+},
+"9": {
+"o": [
+"Increases",
+"Lowers",
+"Remains the same"
+],
+"a": "b"
+},
+"10": {
+"q": "For every 1°C change in temperature, density altitude differs from pressure altitude by",
+"o": [
+"33 ft",
+"100 ft",
+"120 ft",
+"210 ft"
+]
+}
+},
+"ex": {
+"2": "Above about 8 km the reversal applies: density becomes greater near the equator than at the poles.",
+"6": "Water vapour (molecular weight 18) is lighter than dry air (≈29), so moist air is less dense: ρ = (p − 3e/8)/RT.",
+"9": "Higher pressure at the same temperature means denser air, so the density altitude LOWERS. (The book's printed key shows (a); that is a misprint.)",
+"10": "Density altitude ≈ pressure altitude + 120 ft × (ISA deviation in °C)."
+}
+}

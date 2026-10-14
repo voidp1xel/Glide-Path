@@ -1,0 +1,155 @@
+{
+"id": "met-08",
+"title": "Vertical Motion and Clouds",
+"src": "Joshi Ch 8",
+"text": "met",
+"start": 2482,
+"end": 2531,
+"key": "bbbdabcabcaca bbcaaba",
+"fix": {
+"2": {
+"o": [
+"Low cloud of sheet type",
+"A medium cloud of sheet type",
+"A cloud of large vertical growth",
+"A high cloud of sheet type"
+]
+},
+"3": {
+"o": [
+"CU",
+"CB",
+"AS",
+"AC"
+]
+},
+"5": {
+"o": [
+"Halo",
+"Corona",
+"With multi-coloured clouds"
+]
+},
+"7": {
+"o": [
+"AS",
+"NS",
+"ST"
+]
+},
+"10": {
+"o": [
+"AC",
+"AS",
+"CS",
+"CI"
+]
+},
+"13": {
+"o": [
+"Mintra level",
+"Drytra level",
+"Maxtra level"
+]
+},
+"14": {
+"o": [
+"Virgo",
+"Virga",
+"Mirage"
+]
+},
+"16": {
+"q": "Cloud ceiling is the height of the cloud covering …",
+"o": [
+"3–4/8",
+"8/8",
+"5/8 or more"
+]
+},
+"17": {
+"o": [
+"Maxtra level",
+"Drytra level",
+"Mintra level"
+]
+},
+"18": {
+"q": "Cloud of operational significance has base below … m or below the highest minimum sector altitude, whichever is greater",
+"o": [
+"1500",
+"2000",
+"1000"
+]
+},
+"19": {
+"o": [
+"Stability",
+"Instability",
+"Neutrality"
+]
+},
+"20": {
+"o": [
+"True",
+"False"
+]
+}
+},
+"ex": {
+"5": "Halo forms in ice-crystal cloud (CS). Ice crystals don't stick, so a halo cloud gives little icing.",
+"10": "Halo (red inside, violet outside) forms by refraction through ice crystals in cirrostratus.",
+"12": "Lenticular (lens-shaped) clouds form at the crests of lee/mountain waves.",
+"19": "AC castellanus (turret-like tops) shows mid-level instability: a warning of later thunderstorms.",
+"20": "Hail can fall from the overhanging anvil into apparently clear air."
+},
+"drop": [
+8,
+9,
+11,
+15
+],
+"add": [
+{
+"n": 8,
+"q": "The clouds composed of ice crystals having feathery appearance",
+"o": [
+"CI",
+"CS",
+"AS"
+],
+"a": 0
+},
+{
+"n": 9,
+"q": "NS clouds occur",
+"o": [
+"At cold front",
+"At warm front"
+],
+"a": 1
+},
+{
+"n": 11,
+"q": "Corona is associated with the cloud",
+"o": [
+"AS",
+"AC",
+"CC",
+"CS"
+],
+"a": 0,
+"ex": "Corona (coloured rings, red outside) forms by diffraction in thin water-droplet cloud such as AS (book key a); halo forms in ice-crystal CS."
+},
+{
+"n": 15,
+"q": "CB with distinct anvil is called",
+"o": [
+"Castellanus",
+"Capillatus",
+"Uncinus"
+],
+"a": 1
+}
+]
+}

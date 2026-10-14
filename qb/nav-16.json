@@ -1,0 +1,412 @@
+{
+"title": "Flight Planning and Monitoring",
+"src": "R.K. Bali — Air Navigation, Ch 16",
+"qs": [
+{
+"n": 1,
+"q": "True course (TC) 017°, W/V 340°/30 kt, true airspeed (TAS) 420 kt. Find the wind correction angle (WCA) and ground speed (GS).",
+"o": [
+"WCA +2°, GS 396 kt",
+"WCA −2°, GS 426 kt",
+"WCA −2°, GS 396 kt"
+],
+"a": 2,
+"ex": "Wind from the left of track → correct left (−2°). Headwind component ≈ 30 × cos 37° ≈ 24 kt → GS ≈ 396 kt."
+},
+{
+"n": 2,
+"q": "You are flying a constant heading of 252°. Variation is 22°E, deviation is 3°W and your INS is showing a drift of 9° right. The true track is?",
+"o": [
+"280°",
+"224°",
+"242°"
+],
+"a": 0,
+"ex": "252 C − 3 (dev W) = 249 M; + 22 (var E) = 271 T; + 9° right drift = 280 T."
+},
+{
+"n": 3,
+"q": "A twin-jet aeroplane carries out the X-Y flight. When it reaches point K (35°N, 048°W) a non-mechanical event makes the Captain consider rerouting to one of three fields. From K to A: distance 847 NM, headwind component 18 kt. From K to B: distance 1112 NM, tailwind component 120 kt. From K to C: distance 883 NM, wind component 0. With an aeroplane true airspeed of 460 kt, the field selected will be the one most rapidly reached:",
+"o": [
+"B",
+"A",
+"A or C, or B"
+],
+"a": 2,
+"ex": "Times: A 847/442 = 1.92 h, B 1112/580 = 1.92 h, C 883/460 = 1.92 h — all equal, so any of the three."
+},
+{
+"n": 4,
+"q": "On a given path, it is possible to choose between four flight levels, each with a mandatory Mach number. FL 370: M 0.80, SAT −60°C, HWC −15 kt. FL 330: M 0.78, SAT −60°C, HWC −5 kt. FL 290: M 0.80, SAT −55°C, HWC −15 kt. FL 270: M 0.76, SAT −43°C, HWC 0 kt. The flight level allowing the highest ground speed is:",
+"o": [
+"FL 270",
+"FL 330",
+"FL 290 or FL 370"
+],
+"a": 0,
+"ex": "TAS = 38.94·M·√T(K). FL270: 449 kt, no wind → 449. FL370 ≈ 440, FL330 ≈ 438, FL290 ≈ 445 after headwind."
+},
+{
+"n": 5,
+"q": "How many feet do you have to climb to reach FL 75? Departure aerodrome elevation = 1500 ft, QNH = 1023 hPa, temperature = ISA, 1 hPa = 30 ft.",
+"o": [
+"6000 ft",
+"6600 ft",
+"6300 ft"
+],
+"a": 2,
+"ex": "Aerodrome pressure altitude = 1500 − (1023−1013)×30 = 1200 ft. FL 75 = 7500 ft → climb 6300 ft."
+},
+{
+"n": 6,
+"q": "The measured course 042° T. The variation in the area is 6° W and the wind is calm. The deviation is 4° W. In order to follow this course, the pilot must fly a compass heading of:",
+"o": [
+"052°",
+"058°",
+"044°"
+],
+"a": 0,
+"ex": "042 T + 6 (var W) = 048 M; + 4 (dev W) = 052 C."
+},
+{
+"n": 7,
+"q": "You are to determine the maximum fuel load which can be carried in the following conditions: dry operating mass 2800 kg; trip fuel 300 kg; payload 400 kg; maximum take-off mass 4200 kg; maximum landing mass 3700 kg.",
+"o": [
+"800 kg",
+"1000 kg",
+"1800 kg"
+],
+"a": 0,
+"ex": "Landing limit: 2800 + 400 + (fuel − 300) ≤ 3700 → fuel ≤ 800 kg. (Take-off limit would allow 1000 kg.) The lower one wins."
+},
+{
+"n": 8,
+"q": "The still air distance in the climb is 189 Nautical Air Miles (NAM) and the time 30 minutes. What ground distance would be covered in a 30kt headwind?",
+"o": [
+"193NM",
+"174NM",
+"188NM"
+],
+"a": 1,
+"ex": "30 min at 30 kt headwind loses 15 NM: 189 − 15 = 174 NM."
+},
+{
+"n": 9,
+"q": "An airfield elevation of 900 ft and a QNH of 1019 hPa, determine the aerodrome pressure altitude:",
+"o": [
+"750 ft",
+"720 ft",
+"780 ft"
+],
+"a": 1,
+"ex": "QNH 6 hPa above 1013 → subtract 6×30 = 180 ft: 900 − 180 = 720 ft."
+},
+{
+"n": 10,
+"q": "At an airfield where the Relative Humidity is high :",
+"o": [
+"There will be no change in performance of the aircraft",
+"Take-Off performance of an aircraft will be enhanced",
+"The climb performance of an aircraft will be degraded"
+],
+"a": 2
+},
+{
+"n": 11,
+"q": "In order to Take-Off an aircraft requires a Runway Headwind Component of at least 15 Kts. The maximum permitted Cross Wind Component is 30 Kts. The Runway in use is 09 and the Wind Direction is 130°. The minimum and maximum wind speeds that will allow take-off are:",
+"o": [
+"46 and 25 kts",
+"20 and 46 Kts",
+"25 and 46 Kts"
+],
+"a": 1,
+"ex": "Angle off runway = 40°. Headwind V·cos40 ≥ 15 → V ≥ 20 kt. Crosswind V·sin40 ≤ 30 → V ≤ 46 kt."
+},
+{
+"n": 12,
+"q": "If the sustained Mach number/true airspeed at cruising level varies by plus or minus Mach ___ or more, or plus or minus ___ true airspeed or more from the current flight plan, the appropriate air traffic services unit shall be so informed.",
+"o": [
+"0.02, 19 kms",
+"0.01, 19 kts",
+"0.05, 10 kts"
+],
+"a": 0
+},
+{
+"n": 13,
+"q": "Unless otherwise shown on charts for standard instrument departure routes the routes are given with:",
+"o": [
+"magnetic course",
+"true headings",
+"magnetic headings"
+],
+"a": 0
+},
+{
+"n": 14,
+"q": "A flight plan is required to be filed by:",
+"o": [
+"Any flight with in advisory airspace",
+"Only IFR flights within controlled airspace",
+"Any IFR or VFR flight with in controlled airspace"
+],
+"a": 2
+},
+{
+"n": 15,
+"q": "A flight plan can be submitted:",
+"o": [
+"30 days before EOBT",
+"24 hrs before ETD",
+"120 hrs before EOBT"
+],
+"a": 2,
+"ex": "Book key prints (b), but this chapter's own text says a flight plan may be submitted no more than 120 hours before EOBT — so (c). Override of a misprint."
+},
+{
+"n": 16,
+"q": "Letter W in ITEM 10 of the flight plan indicates:",
+"o": [
+"RVSM approved",
+"Weather Radar on board",
+"Route designator in India."
+],
+"a": 0
+},
+{
+"n": 17,
+"q": "To indicate to ATC that you are evacuating a critically injured on board, following will be added in box 18 of flight plan form",
+"o": [
+"STS",
+"PAN MED",
+"MEDEVAC"
+],
+"a": 2
+},
+{
+"n": 18,
+"q": "An aircraft, following a 215° true track, must fly over a 10600 ft obstacle with a minimum obstacle clearance of 1500 ft. Knowing the QNH received from an airport close by, which is almost at sea level, is 1035 hPa and the temperature is ISA −15°C, the minimum flight level will be:",
+"o": [
+"140",
+"130",
+"120"
+],
+"a": 0,
+"ex": "Required true altitude 10600 + 1500 = 12100 ft. At ISA−15 the altimeter over-reads ~6% → indicate ≈ 12830 ft on QNH 1035; that is ≈ 12170 ft pressure altitude (FL 122). Track 215° (westbound) → next even level FL 140."
+},
+{
+"n": 19,
+"q": "When calculating the fuel required to carry out a given flight, one must take into account: 1. the wind; 2. foreseeable airborne delays; 3. other weather forecasts; 4. any foreseeable conditions which may delay landing. The combination of correct statements is:",
+"o": [
+"1, 2, 3, 4",
+"1, 2, 3",
+"1, 3"
+],
+"a": 0
+},
+{
+"n": 20,
+"q": "The fuel burn off is 200 kg/h with a relative fuel density of 0.8. If the relative density is 0.75, the fuel burn will be:",
+"o": [
+"200 kg",
+"267 kg",
+"188 kg"
+],
+"a": 0,
+"ex": "Fuel is burned by mass, not volume — 200 kg/h stays 200 kg/h."
+},
+{
+"n": 21,
+"q": "In the ATS flight plan item 10 (equipment), the letter to indicate the carriage of a serviceable transponder- mode A (4digits- 4096 codes) and mode C, is:",
+"o": [
+"C",
+"A",
+"S"
+],
+"a": 0
+},
+{
+"n": 22,
+"q": "In the ATS flight plan item 19, emergency and survival equipment carried on the flight should be indicated by:",
+"o": [
+"circling the relevant box",
+"crossing out the box relevant to any equipment not carried",
+"listing the items carried on the \"REMARKS\" line"
+],
+"a": 1
+},
+{
+"n": 23,
+"q": "Item 9 of the ATS flight plan includes \"NUMBER AND TYPE OF AIRCRAFT\". In this case \"NUMBER\" means:",
+"o": [
+"the ICAO type designator number as set in ICAO Doc 8643",
+"the registration number of the aircraft",
+"the number of aircraft flying in a group"
+],
+"a": 2
+},
+{
+"n": 24,
+"q": "When completing an ATS flight plan for a flight commencing under IFR but possibly changing to VFR, the letters entered in Item 8 (FLIGHT RULES) would be:",
+"o": [
+"Y",
+"X",
+"G"
+],
+"a": 0
+},
+{
+"n": 25,
+"q": "On a flight plan you are required to indicate in the box marked \"speed\" the planned speed for the first part of the cruise or for the entire cruise. This speed is :",
+"o": [
+"The indicated airspeed",
+"The true airspeed",
+"The estimated ground speed"
+],
+"a": 1
+},
+{
+"n": 26,
+"q": "The maximum permissible take-off mass of an aircraft for the L wake turbulence category on a flight plan is:",
+"o": [
+"7000kg",
+"5700kg",
+"10000kg"
+],
+"a": 0
+},
+{
+"n": 27,
+"q": "In the appropriate box of a flight plan form, corresponding to the estimated time of departure, the time indicated is that at which the aircraft intends to:",
+"o": [
+"start-up",
+"pass the departure beacon",
+"go off-blocks"
+],
+"a": 2
+},
+{
+"n": 28,
+"q": "In ICAO Flight Plan column 8 following letter denotes a Non Scheduled air operation.",
+"o": [
+"G",
+"N",
+"X"
+],
+"a": 1,
+"ex": "Book key prints (c) X, but Item 8 'Type of flight' uses S = scheduled, N = non-scheduled, G = general aviation, M = military, X = other. So (b) N. Override of a misprint."
+},
+{
+"n": 29,
+"q": "In an ICAO Flight Plan, a change of cruising speed and level is entered in item 15 at a point at which:",
+"o": [
+"the change is 5 kts or more of the TAS or 0.01 Mach or more and a level change is planned to commence.",
+"the change is 5% or more of the TAS or 0.1 Mach or more and a level change of 1000 feet is planned to commence.",
+"the change is 5% or more of the TAS or 0.01 Mach or more and a level change is planned to commence."
+],
+"a": 2
+},
+{
+"n": 30,
+"q": "You have a flight plan IFR from Amsterdam to London. In the flight plan it is noted that you will deviate from the ATS route passing the FIR boundary Amsterdam/London. The airway clearance reads: Cleared to London via flight planned route. Which of the following statements is correct?",
+"o": [
+"The route according to the flight plan is accepted",
+"It is not allowed to file such a flight plan",
+"The filed deviation is not accepted"
+],
+"a": 0
+},
+{
+"n": 31,
+"q": "Runway direction 305 degrees Magnetic. Surface Wind 260/30. Calculate cross wind and head wind component in kts.",
+"o": [
+"18/20",
+"21/21",
+"24/26"
+],
+"a": 1,
+"ex": "Angle 45°: crosswind = 30 × sin45 ≈ 21 kt, headwind = 30 × cos45 ≈ 21 kt."
+},
+{
+"n": 32,
+"q": "If no ICAO identifier has been attributed to an alternate airport (item 16) of a flight plan form:",
+"o": [
+"Write ZZZZ in item 16 and indicate in item 18 (additional information) DEGT/ followed by the name of the airport.",
+"Write XXXX in item 16 and indicate in item 18 (additional information) DEGT/ followed by the name of the airport.",
+"Write ZZZZ in item 16 and indicate in item 18 (additional information) ALTN/ followed by the name of the airport."
+],
+"a": 2
+},
+{
+"n": 33,
+"q": "The \"total estimated elapsed time\" in item 16 of a VFR flight plan is the estimated time:",
+"o": [
+"required by the aircraft from take-off to arrive overhead the destination airport.",
+"required by the aircraft from brake release at take-off until landing.",
+"required by the aircraft from the moment it moves by its own power until it stops at the end of the flight (block time)."
+],
+"a": 0
+},
+{
+"n": 34,
+"q": "In item 19 of ICAO flight plan Endurance is entered as:",
+"o": [
+"flying time plus 30 minutes holding time in hours and minutes.",
+"fuel endurance in hours and minutes.",
+"fuel on board in kgs."
+],
+"a": 1
+},
+{
+"n": 35,
+"q": "In ICAO flight plan item 15 how do you indicate that over way point HADDY you plan to change your TAS from 410 knots to 450 knots with altitude remaining Flight Level 330?",
+"o": [
+"HADDY/N0450F330",
+"HADDY/KT450",
+"HADDY/K450/FL330"
+],
+"a": 0
+},
+{
+"n": 36,
+"q": "An Airbus 300 plans to taxi out at 08:00 UTC and take off from Amsterdam (EHAM) at 08:20 UTC to arrive at Lisbon (LPPT) at 10:50 UTC. In item 13 of the ICAO flight plan, in the box next to the departure aerodrome (EHAM), the time to be entered is ___, and in item 16 the total EET to be entered is ___.",
+"o": [
+"08:00, 10:50.",
+"08:00, 02:30",
+"08:20, 02:30"
+],
+"a": 1,
+"ex": "Item 13 takes EOBT (off-blocks 08:00). Item 16 total EET runs from take-off (08:20) to arrival (10:50) = 2 h 30 min."
+},
+{
+"n": 37,
+"q": "In item 15 of ICAO flight plan is there a provision to enter SIDs and STARs in route box:",
+"o": [
+"yes",
+"no",
+"no, however these can be entered in other information."
+],
+"a": 0
+},
+{
+"n": 38,
+"q": "In item 13 of ICAO flight plan time to be filled up in the box after departure aerodrome box is:",
+"o": [
+"estimated departure time",
+"estimated start up time",
+"estimated off block time."
+],
+"a": 2
+},
+{
+"n": 39,
+"q": "For Extended Diversion Time Operations, diversion time to an en-route alternate aerodrome from any point on the route is calculated in:",
+"o": [
+"ISA and still-air conditions.",
+"prevailing atmospheric conditions.",
+"ISA and prevailing wind conditions."
+],
+"a": 0
+}
+]
+}

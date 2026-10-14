@@ -1,0 +1,197 @@
+{
+"title": "TAF",
+"src": "Joshi Ch 26 (TAF)",
+"qs": [
+{
+"n": 1,
+"q": "The TAF has been issued on … day",
+"o": [
+"23rd",
+"18th",
+"24th"
+],
+"a": 2,
+"fig": "fig:taf-q26"
+},
+{
+"n": 2,
+"q": "The TAF has been issued at",
+"o": [
+"2330 IST",
+"1830 UTC",
+"24 UTC"
+],
+"a": 0,
+"ex": "241800Z = 24th, 1800 UTC = 2330 IST (UTC + 5½ h).",
+"fig": "fig:taf-q26"
+},
+{
+"n": 3,
+"q": "The expected surface wind speed is",
+"o": [
+"09 kt",
+"06 kt",
+"08 kt"
+],
+"a": 2,
+"fig": "fig:taf-q26"
+},
+{
+"n": 4,
+"q": "Initially expected wind direction is",
+"o": [
+"120°",
+"090°",
+"050°"
+],
+"a": 1,
+"fig": "fig:taf-q26"
+},
+{
+"n": 5,
+"q": "TAF is valid for date",
+"o": [
+"23rd",
+"24th",
+"25th"
+],
+"a": 2,
+"fig": "fig:taf-q26"
+},
+{
+"n": 6,
+"q": "Lowest forecast visibility in TAF is",
+"o": [
+"1500 m",
+"0800 m",
+"0200 m"
+],
+"a": 1,
+"fig": "fig:taf-q26"
+},
+{
+"n": 7,
+"q": "Height of base of lowest clouds in TAF is",
+"o": [
+"1000 m",
+"1000 ft",
+"0800 ft"
+],
+"a": 2,
+"ex": "SCT008 is the lowest layer: 800 ft.",
+"fig": "fig:taf-q26"
+},
+{
+"n": 8,
+"q": "Weather TSRA is expected after",
+"o": [
+"0600 UTC",
+"0600 IST",
+"0800 UTC"
+],
+"a": 0,
+"fig": "fig:taf-q26"
+},
+{
+"n": 9,
+"q": "Direction of gusty wind is",
+"o": [
+"090°",
+"100°",
+"120°"
+],
+"a": 2,
+"fig": "fig:taf-q26"
+},
+{
+"n": 10,
+"q": "Expected weather up to 25/0400 UTC is",
+"o": [
+"Fog",
+"TSRA",
+"Mist"
+],
+"a": 0,
+"ex": "0800 FG until BECMG 2504/2505.",
+"fig": "fig:taf-q26"
+},
+{
+"n": 11,
+"q": "Amount of lowest cloud is",
+"o": [
+"1-2/8",
+"3-4/8",
+"5-7/8"
+],
+"a": 1,
+"fig": "fig:taf-q26"
+},
+{
+"n": 12,
+"q": "Amount of CB cloud is",
+"o": [
+"1-2/8",
+"2-4/8",
+"5-7/8"
+],
+"a": 0,
+"fig": "fig:taf-q26"
+},
+{
+"n": 13,
+"q": "Height of base of CB is",
+"o": [
+"2500 ft",
+"3000 m",
+"2500 m"
+],
+"a": 0,
+"fig": "fig:taf-q26"
+},
+{
+"n": 14,
+"q": "The height of topmost layer of cloud is",
+"o": [
+"2800 m",
+"28000 m",
+"28000 ft"
+],
+"a": 2,
+"fig": "fig:taf-q26"
+},
+{
+"n": 15,
+"q": "Period of validity of TAF is",
+"o": [
+"23 to 00 IST",
+"00 to 09 UTC",
+"20 to 12 UTC"
+],
+"a": 1,
+"ex": "2500/2509 = 25th 0000 to 0900 UTC.",
+"fig": "fig:taf-q26"
+},
+{
+"n": 16,
+"q": "Group 1500/1509 in a TAF indicates",
+"o": [
+"TAF is issued on 15th at 0000 UTC",
+"TAF is valid from 15th 0000 to 0900 UTC",
+"TAF is valid from 1500 to 0900 UTC"
+],
+"a": 1
+},
+{
+"n": 17,
+"q": "What is true of a TAF?",
+"o": [
+"9 hr TAF is for international dissemination",
+"TAF valid for 9 hr is issued every 6 hr",
+"TAF valid for 12-30 hr is issued every 3 hr",
+"TAF for national use are valid for 9 hr and issued every 3 hr"
+],
+"a": 3,
+"ex": "9-h TAFs are domestic, issued every 3 h; 12–30 h TAFs every 6 h."
+}
+]
+}

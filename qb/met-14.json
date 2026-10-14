@@ -1,0 +1,306 @@
+{
+"title": "Air Masses, Fronts and WDs",
+"src": "Joshi Ch 14",
+"qs": [
+{
+"n": 1,
+"q": "The airmass which originates at sea in high Latitudes is called",
+"o": [
+"Polar maritime",
+"Tropical continental",
+"Tropical maritime"
+],
+"a": 0
+},
+{
+"n": 2,
+"q": "The airmass which originates over equatorial region is",
+"o": [
+"Warm and dry",
+"Warm and Moist",
+"Cold and dry"
+],
+"a": 1
+},
+{
+"n": 3,
+"q": "If the advancing cold front is colder than the cool air mass of the warm front, the advancing cold front undercuts and lifts both the warm and cool air masses of the warm front. This is",
+"o": [
+"Warm occlusion",
+"Cold occlusion"
+],
+"a": 1,
+"ex": "Advancing air colder than the air ahead → it undercuts everything → cold occlusion (common in summer)."
+},
+{
+"n": 4,
+"q": "The airmass which originated over land area located in polar region is:",
+"o": [
+"Warm and dry",
+"Warm and Moist",
+"Cold and dry"
+],
+"a": 2
+},
+{
+"n": 5,
+"q": "If a warm airmass overtakes a cold air mass, it is called",
+"o": [
+"Cold Front",
+"Warm Front",
+"Occluded Front"
+],
+"a": 1
+},
+{
+"n": 6,
+"q": "At warm front",
+"o": [
+"Warm air overtakes the cold air",
+"Cold air undercuts the warm air"
+],
+"a": 0
+},
+{
+"n": 7,
+"q": "The conditions are always unstable at a",
+"o": [
+"Cold front",
+"Warm front"
+],
+"a": 0
+},
+{
+"n": 8,
+"q": "Sometimes Line squall occurs about 100-300 km ahead of a",
+"o": [
+"Warm front",
+"Cold front"
+],
+"a": 1
+},
+{
+"n": 9,
+"q": "Precipitation occurs over a belt of 30–50 km on both sides of the front",
+"o": [
+"Cold front",
+"Warm front"
+],
+"a": 0
+},
+{
+"n": 10,
+"q": "Cold front moves at … the speed of a warm front moves",
+"o": [
+"Same",
+"Double",
+"Half"
+],
+"a": 1,
+"ex": "Cold fronts move about twice as fast as warm fronts, so they catch up and occlude."
+},
+{
+"n": 11,
+"q": "Line squalls occur … of a cold front",
+"o": [
+"Ahead",
+"Behind",
+"At the"
+],
+"a": 0
+},
+{
+"n": 12,
+"q": "Fronts are associated with",
+"o": [
+"Tropical cyclone",
+"Monsoon Depression",
+"Extra-tropical Cyclones"
+],
+"a": 2
+},
+{
+"n": 13,
+"q": "CB, roll-type clouds, SC, AC with embedded CB are associated with",
+"o": [
+"Cold front",
+"Warm front"
+],
+"a": 0
+},
+{
+"n": 14,
+"q": "The surface of discontinuity between the Polar Ely and the temperate Wly is called",
+"o": [
+"Equatorial front",
+"Tropopause",
+"Polar front"
+],
+"a": 2
+},
+{
+"n": 15,
+"q": "The air mass which originates from sea area located in lower Lat is",
+"o": [
+"Warm and Dry",
+"Warm and Moist",
+"Cold and Moist"
+],
+"a": 1
+},
+{
+"n": 16,
+"q": "WDs approach India as",
+"o": [
+"Cols",
+"Occluded Fronts",
+"Highs"
+],
+"a": 1
+},
+{
+"n": 17,
+"q": "Maximum WDs occur in",
+"o": [
+"Summers",
+"Post Monsoon",
+"Winters"
+],
+"a": 2
+},
+{
+"n": 18,
+"q": "Ahead of a warm front the surface wind",
+"o": [
+"Backs & weakens",
+"Veers & strengthens",
+"Backs & strengthens"
+],
+"a": 2,
+"ex": "Ahead of a warm front the wind backs and strengthens as the low approaches; it veers at the front. (The printed key shows (b), which conflicts with the book's own Q27 'wind backs during the approach of a warm front'.)"
+},
+{
+"n": 19,
+"q": "On approach of a Warm Front temperature",
+"o": [
+"Fall",
+"Rise",
+"Remain same"
+],
+"a": 1
+},
+{
+"n": 20,
+"q": "CI, CS, AS, NS, ST in sequence are associated with the front",
+"o": [
+"Warm",
+"Cold",
+"Occluded"
+],
+"a": 0
+},
+{
+"n": 21,
+"q": "During the passage of a Cold Front winds",
+"o": [
+"Suddenly become squally",
+"Back and weaken",
+"Veer and are of moderate strength"
+],
+"a": 0
+},
+{
+"n": 22,
+"q": "Visibility is poor in a Warm Front",
+"o": [
+"Ahead",
+"Ahead & During",
+"After & During"
+],
+"a": 1,
+"ex": "Rain, drizzle, low stratus and frontal fog make visibility poor ahead of and during a warm front."
+},
+{
+"n": 23,
+"q": "Fog occurs in Cold Front",
+"o": [
+"Ahead",
+"During",
+"After"
+],
+"a": 2
+},
+{
+"n": 24,
+"q": "WD is a … front",
+"o": [
+"Cold",
+"Warm",
+"Occluded"
+],
+"a": 2,
+"ex": "WDs reach India as occluded fronts."
+},
+{
+"n": 25,
+"q": "FZRA and FZFG occur … of a warm front",
+"o": [
+"Ahead",
+"During",
+"After"
+],
+"a": 0
+},
+{
+"n": 26,
+"q": "Precipitation ceases after the passage of a front",
+"o": [
+"Cold",
+"Warm",
+"Occluded"
+],
+"a": 1
+},
+{
+"n": 27,
+"q": "During the approach of a Warm Front wind",
+"o": [
+"Backs",
+"Veers",
+"Does not change"
+],
+"a": 0
+},
+{
+"n": 28,
+"q": "A WD with two or more closed isobars at 2 hPa interval is termed as",
+"o": [
+"Troughs in westerlies",
+"Western depression",
+"Western cyclone"
+],
+"a": 1
+},
+{
+"n": 29,
+"q": "A WD originates over",
+"o": [
+"Baluchistan",
+"Caspian sea",
+"Mediterranean, Caspian and Black Seas"
+],
+"a": 2
+},
+{
+"n": 30,
+"q": "Induced lows develop to the … of a WD",
+"o": [
+"N",
+"S",
+"NE",
+"ANSWERS"
+],
+"a": 1
+}
+]
+}

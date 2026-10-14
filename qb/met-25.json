@@ -1,0 +1,463 @@
+{
+"title": "METAR, SPECI and TREND",
+"src": "Joshi Ch 25",
+"qs": [
+{
+"n": 1,
+"q": "The METAR has been issued on … day",
+"o": [
+"15th",
+"16th",
+"17th"
+],
+"a": 1,
+"fig": "fig:metar-q25"
+},
+{
+"n": 2,
+"q": "The METAR has been issued at",
+"o": [
+"0630 IST",
+"0230 UTC",
+"0230 IST"
+],
+"a": 1,
+"fig": "fig:metar-q25"
+},
+{
+"n": 3,
+"q": "The surface wind speed is",
+"o": [
+"2-6 kt",
+"3-7 kt",
+"4-6 kt"
+],
+"a": 1,
+"ex": "05 KT is a 2-min mean rounded to the nearest knot; the book's answer is 3–7 kt.",
+"fig": "fig:metar-q25"
+},
+{
+"n": 4,
+"q": "Wind direction is varying from",
+"o": [
+"290 to 050°",
+"050 to 290°",
+"200 to 050°"
+],
+"a": 0,
+"fig": "fig:metar-q25"
+},
+{
+"n": 5,
+"q": "Visibility 1500 m is towards",
+"o": [
+"N",
+"S",
+"All over the airport"
+],
+"a": 1,
+"fig": "fig:metar-q25"
+},
+{
+"n": 6,
+"q": "Visibility towards N is",
+"o": [
+"1500 m",
+"5000 m",
+"3000 m"
+],
+"a": 1,
+"fig": "fig:metar-q25"
+},
+{
+"n": 7,
+"q": "Height of base of low clouds above station level is",
+"o": [
+"2000 ft",
+"2500 ft",
+"2500 m"
+],
+"a": 0,
+"ex": "FEW020 = lowest layer at 2000 ft above aerodrome level.",
+"fig": "fig:metar-q25"
+},
+{
+"n": 8,
+"q": "Runway Visual Range is",
+"o": [
+"1500 m",
+"> 1500 m",
+"< 1500 m"
+],
+"a": 1,
+"fig": "fig:metar-q25"
+},
+{
+"n": 9,
+"q": "Runway Visual Range has",
+"o": [
+"Decreased",
+"Increased",
+"Remained same"
+],
+"a": 1,
+"ex": "P1500U: RVR more than 1500 m, tendency U = increased.",
+"fig": "fig:metar-q25"
+},
+{
+"n": 10,
+"q": "The poor visibility is due to the present weather, which is",
+"o": [
+"Fog",
+"Brown Dust",
+"Mist"
+],
+"a": 2,
+"ex": "BR = mist (visibility 1000–5000 m).",
+"fig": "fig:metar-q25"
+},
+{
+"n": 11,
+"q": "Amount of lowest cloud is",
+"o": [
+"1-2/8",
+"2-4/8",
+"5-7/8"
+],
+"a": 0,
+"fig": "fig:metar-q25"
+},
+{
+"n": 12,
+"q": "Amount of CB cloud is",
+"o": [
+"1-2/8",
+"2-4/8",
+"5-7/8"
+],
+"a": 0,
+"fig": "fig:metar-q25"
+},
+{
+"n": 13,
+"q": "Height of base of CB is",
+"o": [
+"2500 m",
+"3000 ft",
+"2500 ft"
+],
+"a": 2,
+"fig": "fig:metar-q25"
+},
+{
+"n": 14,
+"q": "The height of topmost layer of cloud is",
+"o": [
+"3000 m",
+"30000 m",
+"30000 ft"
+],
+"a": 2,
+"fig": "fig:metar-q25"
+},
+{
+"n": 15,
+"q": "The landing forecast appended to any METAR is valid for",
+"o": [
+"1 hr",
+"2 hr",
+"3 hr"
+],
+"a": 1,
+"fig": "fig:metar-q25"
+},
+{
+"n": 16,
+"q": "The wind in TREND from 0330 UTC is valid up to … UTC",
+"o": [
+"0400",
+"0430",
+"0415"
+],
+"a": 2,
+"ex": "The TEMPO change runs from 0330 until the BECMG AT0415 group.",
+"fig": "fig:metar-q25"
+},
+{
+"n": 17,
+"q": "Expected visibility after 0415 UTC is",
+"o": [
+"6000 m",
+"10 km",
+"10 km or more"
+],
+"a": 2,
+"ex": "After 0415 the TREND says CAVOK: visibility 10 km or more. The book prints (b) and (c) both as '10 km'; its key is (c), shown here as '10 km or more'.",
+"fig": "fig:metar-q25"
+},
+{
+"n": 18,
+"q": "The group Q1003 in the METAR indicates",
+"o": [
+"QFE",
+"QFF",
+"QNH"
+],
+"a": 2,
+"fig": "fig:metar-q25"
+},
+{
+"n": 19,
+"q": "The difference between TT and TdTd is 3°C. The atmosphere is",
+"o": [
+"Very Dry",
+"Moist",
+"Saturated"
+],
+"a": 1,
+"ex": "A 3°C spread means moist air, close to saturation.",
+"fig": "fig:metar-q25"
+},
+{
+"n": 20,
+"q": "Just before the METAR was issued the weather was",
+"o": [
+"Rain",
+"Mist",
+"Fog"
+],
+"a": 2,
+"ex": "REFG = recent fog.",
+"fig": "fig:metar-q25"
+},
+{
+"n": 21,
+"q": "The range of pressure reported as Q1003 is",
+"o": [
+"1002.5 to 1003.5 hPa",
+"1003.0 to 1003.9 hPa",
+"1003.1 to 1003.5 hPa"
+],
+"a": 1,
+"ex": "QNH is rounded DOWN, so Q1003 covers 1003.0–1003.9.",
+"fig": "fig:metar-q25"
+},
+{
+"n": 22,
+"q": "The range of temperature reported as 32°C is",
+"o": [
+"31.4 to 32.3°C",
+"32.1 to 32.4°C",
+"31.5 to 32.4°C"
+],
+"a": 2,
+"ex": "Temperatures of x.5 are rounded up, so 32 covers 31.5–32.4.",
+"fig": "fig:metar-q25"
+},
+{
+"n": 23,
+"q": "Visibility is reported in steps of 50 m when visibility is",
+"o": [
+"800 m to 5000 m",
+"0 to 800 m",
+"5000 m to 10 km"
+],
+"a": 1
+},
+{
+"n": 24,
+"q": "Visibility is reported in steps of 100 m when visibility is",
+"o": [
+"800 m to 5000 m",
+"0 to 800 m",
+"5000 m to 10 km"
+],
+"a": 0
+},
+{
+"n": 25,
+"q": "Visibility is reported in steps of 1000 m when visibility is",
+"o": [
+"800 m to 5000 m",
+"0 to 800 m",
+"5000 m to 9999"
+],
+"a": 2
+},
+{
+"n": 26,
+"q": "Visibility is reported 9999 when visibility is",
+"o": [
+"800 m to 5000 m",
+"9000 to 9999 m",
+"10 km or more"
+],
+"a": 2
+},
+{
+"n": 27,
+"q": "Temperature +2.5°C is reported as",
+"o": [
+"02",
+"03",
+"2.5°C"
+],
+"a": 1
+},
+{
+"n": 28,
+"q": "Temperature −12.5°C is reported as",
+"o": [
+"−12",
+"−13",
+"M12"
+],
+"a": 2,
+"ex": "−12.5 is rounded up to −12, written M12."
+},
+{
+"n": 29,
+"q": "Pressure is rounded down to the nearest whole number in hectopascal",
+"o": [
+"exact value",
+"upper value",
+"lower value"
+],
+"a": 2
+},
+{
+"n": 30,
+"q": "QNH 1002.6 hPa is reported as",
+"o": [
+"Q1002",
+"Q1003",
+"Q1002.6"
+],
+"a": 0
+},
+{
+"n": 31,
+"q": "QNH 29.92 inches is reported as",
+"o": [
+"Q2900",
+"A2992",
+"A3000"
+],
+"a": 1
+},
+{
+"n": 32,
+"q": "Fog is reported when visibility is",
+"o": [
+"< 1000 m",
+"1000 m",
+"> 1000 m"
+],
+"a": 0
+},
+{
+"n": 33,
+"q": "Mist is reported when visibility is",
+"o": [
+"< 1000 m to 2000 m",
+"1000 to 5000 m",
+"> 1000 m"
+],
+"a": 1
+},
+{
+"n": 34,
+"q": "CAVOK signifies Visibility, Cloud … and present weather better than the prescribed values or conditions",
+"o": [
+"ceiling",
+"base",
+"amount"
+],
+"a": 0
+},
+{
+"n": 35,
+"q": "CAVOK is issued when visibility is",
+"o": [
+"9-10 km",
+"10 km or more",
+"10 km only"
+],
+"a": 1
+},
+{
+"n": 36,
+"q": "CAVOK is issued when (i) visibility 10 km or more; (ii) no weather of significance; (iii) no clouds below 1500 m or below the highest minimum sector altitude, whichever is greater, and no CB.",
+"o": [
+"Any one condition",
+"Any two conditions",
+"All the three conditions"
+],
+"a": 2,
+"ex": "CAVOK needs all three conditions together."
+},
+{
+"n": 37,
+"q": "SPECI is issued when (i) change in wind direction is ≥ 60° and speed before and/or after change ≥ 10 kt; (ii) mean speed has changed by ≥ 10 kt; (iii) variation from mean speed by ≥ 10 kt and speed before and/or after change ≥ 15 kt.",
+"o": [
+"Any two conditions",
+"Any one condition",
+"All the three conditions"
+],
+"a": 1,
+"ex": "Any one of the wind criteria triggers a SPECI."
+},
+{
+"n": 38,
+"q": "SPECI is issued when clouds are (i) BKN or OVC base at 30, 60, 150, 300, 450 m; (ii) cloud amount below 450 m changes from SKC/FEW/SCT to BKN/OVC or from BKN/OVC to SKC/FEW/SCT.",
+"o": [
+"Any one condition",
+"Any two conditions",
+"All the above conditions"
+],
+"a": 0,
+"ex": "Either cloud criterion triggers a SPECI."
+},
+{
+"n": 39,
+"q": "SPECI is issued for vertical visibility, by stations having Ceilograph, when sky is obscured",
+"o": [
+"True",
+"False"
+],
+"a": 0
+},
+{
+"n": 40,
+"q": "SPECI is issued when surface temperature has increased by … or more from the last observation.",
+"o": [
+"3°C",
+"4°C",
+"2°C"
+],
+"a": 2
+},
+{
+"n": 41,
+"q": "WSRWY28 indicates that the wind shear has been reported for RW 28 in",
+"o": [
+"take off path",
+"approach path",
+"both take off and approach paths"
+],
+"a": 2
+},
+{
+"n": 42,
+"q": "R26/M0150 in a METAR indicates that",
+"o": [
+"maximum RVR is 150 m",
+"minimum RVR is 150 m",
+"150 m is the lowest RVR the instrument can measure and RVR is < 150 m"
+],
+"a": 2,
+"ex": "M = less than the lowest value the instrument can assess."
+}
+],
+"lead": "Q1–22 refer to the METAR shown above each question; Q23–42 are general."
+}

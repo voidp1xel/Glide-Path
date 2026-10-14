@@ -1,0 +1,40 @@
+module.exports = {
+  n: 20, title: 'General Circulation', tag: 'Hadley · Ferrel · polar cells · pressure belts', icon: 'globe', hue: 2,
+  big: 'Why the atmosphere circulates at all, the three-cell model, the planet\'s pressure belts and wind belts, upper westerlies and easterlies, and standing and Rossby waves.',
+  purpose: 'Short, predictable questions: subtropical high = subsidence = deserts, trade winds, horse latitudes, doldrums, Hadley cells, which way tropical and mid-latitude systems move.',
+  lessons: [
+    { id: 'map', type: 'mindmap', short: 'Mind map', icon: 'brain', ask: 'The whole chapter on one page',
+      root: { label: 'Circulation', children: [
+        { label: 'Cause', children: [{ label: 'Tropics surplus' }, { label: 'Poles deficit' }, { label: 'Winds + oceans carry heat' }] },
+        { label: 'Hadley 0–30°', children: [{ label: 'ITCZ rises' }, { label: 'Sinks at 30°' }, { label: 'Trades return' }] },
+        { label: 'Ferrel 30–60°', children: [{ label: 'Surface westerlies' }, { label: 'Rises at 60°' }] },
+        { label: 'Polar 60–90°', children: [{ label: 'Polar high' }, { label: 'Polar easterlies' }, { label: 'Polar front' }] },
+        { label: 'Belts', children: [{ label: 'Doldrums' }, { label: 'Horse latitudes 30–40°' }, { label: 'Roaring forties' }] },
+        { label: 'Upper flow', children: [{ label: 'Zonal westerlies' }, { label: 'Equatorial easterlies' }, { label: 'Rossby waves' }] },
+      ] } },
+    { id: 'cells', part: 'The three cells', type: 'svg', fig: 'three-cells', icon: 'layers', ask: 'How does the three-cell model work?', dgca: true,
+      takeaway: 'Hadley cell: air rises at the ITCZ, flows poleward aloft, sinks at ~30° (subtropical high, deserts) and returns as the trade winds. Ferrel cell: surface westerlies to ~60°, rising at the polar front. Polar cell: air sinks at the pole and spreads out as polar easterlies.',
+      hook: 'H-F-P from equator to pole: Hot Hadley, Fair Ferrel, Polar.' },
+    { id: 'belts', type: 'matrix', icon: 'list', ask: 'The planet\'s belts', revise: true, dgca: true,
+      corner: 'Belt', cols: ['Latitude', 'What happens'],
+      rows: [
+        { label: 'Doldrums / ITCZ', cells: ['≈ 0° (follows sun)', 'Rising air, calms, CB, heavy rain; equatorial low'] },
+        { label: 'Trade winds', cells: ['0–30°', 'Steady NE (NH) / SE (SH)'] },
+        { label: 'Horse latitudes', cells: [{ v: '30–40°', key: true }, { v: 'Sinking air: calm, high pressure, deserts', key: true }] },
+        { label: 'Westerlies', cells: ['35–60°', 'Roaring Forties, Furious Fifties, Crying Sixties'] },
+        { label: 'Polar front', cells: ['≈ 60°', 'Temperate low; frontal depressions'] },
+        { label: 'Polar easterlies', cells: ['60–90°', 'Cold outflow from the polar high'] },
+      ] },
+    { id: 'steer', part: 'Upper winds', type: 'pairs', icon: 'route', ask: 'Which way do weather systems move?',
+      pairs: [
+        { a: { label: 'Mid-latitude systems', body: 'Steered by the **zonal westerlies** → move **W to E**.' }, b: { label: 'Tropical disturbances', body: 'Steered by upper **easterlies** → move **westward**; recurve (opposite way) on reaching the westerlies.' }, rule: 'Upper winds are the steering current.' },
+        { a: { label: 'Standing waves', body: 'Season-averaged stationary patterns from mountains, continents, oceans, SST.' }, b: { label: 'Rossby waves', body: 'Planetary meanders of the upper westerlies; the jet stream\'s loops (Carl Rossby, 1930s).' }, rule: 'Both alter storm tracks.' },
+      ] },
+    { id: 'quiz', type: 'quiz', icon: 'check', ask: 'Quick check',
+      questions: [
+        { q: 'Large deserts near 30°N and 30°S are due to:', options: ['Convection', 'Subsidence', 'Advection'], answer: 1 },
+        { q: 'The horse latitudes lie at about:', options: ['0–5°', '30–40°', '60°'], answer: 1 },
+        { q: 'Upper winds over the equatorial region are:', options: ['Westerly', 'Easterly', 'Calm'], answer: 1 },
+      ] },
+  ],
+};

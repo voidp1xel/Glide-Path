@@ -1,0 +1,163 @@
+{
+"id": "met-19",
+"title": "Climatology of India",
+"src": "Joshi Ch 19",
+"text": "met",
+"start": 5327,
+"end": 5412,
+"key": "cdbaacccababc adbabbbdaaaad cacdda",
+"fix": {
+"2": {
+"o": [
+"Post monsoon",
+"Summer",
+"Monsoon",
+"Winter"
+]
+},
+"6": {
+"o": [
+"Jan to Feb",
+"March to May",
+"Jun to Sep",
+"Oct to Dec"
+]
+},
+"11": {
+"o": [
+"Assam",
+"W Bengal",
+"Orissa"
+]
+},
+"13": {
+"o": [
+"Mar to May",
+"Jun to Sept",
+"Oct to Nov",
+"Jan to Feb"
+]
+},
+"15": {
+"o": [
+"Bay of Bengal",
+"NE India",
+"Central India",
+"Pakistan"
+]
+},
+"22": {
+"o": [
+"Port drift",
+"Starboard drift",
+"Tail wind",
+"Head wind"
+]
+},
+"23": {
+"o": [
+"Port drift",
+"Starboard drift",
+"Tail wind",
+"Head wind"
+]
+},
+"26": {
+"o": [
+"Summer season",
+"Winters",
+"Post monsoon",
+"Monsoon"
+]
+},
+"27": {
+"o": [
+"Orissa",
+"Punjab",
+"Gujarat",
+"Chennai"
+]
+},
+"28": {
+"q": "El Nino is",
+"o": [
+"Warm phase of ENSO",
+"Cold phase of ENSO",
+"Good for Indian monsoon causing more rains"
+]
+},
+"29": {
+"o": [
+"Pre monsoon",
+"Winters",
+"Post monsoon",
+"Monsoon"
+]
+},
+"30": {
+"o": [
+"Pre monsoon",
+"Winters",
+"Post monsoon",
+"Monsoon"
+]
+},
+"31": {
+"o": [
+"Pre monsoon",
+"Winters",
+"Post monsoon",
+"Monsoon"
+]
+}
+},
+"ex": {
+"1": "Radiation fog increases after a WD passes (rain moistens, then clear skies and cold nights).",
+"8": "Rainfall shifts with the monsoon trough: normal position along the Gangetic plains gives rain over most of India; along the foothills gives a break.",
+"11": "Fair weather over Assam during the monsoon indicates a depression forming or intensifying over the head Bay.",
+"15": "In July the lowest pressure (994 hPa) lies over Baluchistan/Pakistan.",
+"17": "Monsoon: easterlies above 500 hPa; TEJ at 15–16 km near 13°N.",
+"18": "Winter: westerlies aloft over all India (STJ at 12 km over the north).",
+"21": "Winter: NW–W winds at 6 km over N India.",
+"22": "Winter westerlies at 6 km on an ESE track: mainly a tailwind; the book's key gives (a) port drift.",
+"23": "Kolkata → Nagpur is westbound; NW winds at 2 km come from the right → port drift (and a headwind component).",
+"26": "The subtropical (mid-tropospheric) cyclone forms in the monsoon at 500–700 hPa over Gujarat/NE Arabian Sea."
+},
+"drop": [
+10,
+12,
+32
+],
+"add": [
+{
+"n": 10,
+"q": "Break in monsoon occurs when the axis of the monsoon trough is along the",
+"o": [
+"Gangetic plains",
+"Foot hills of Himalayas",
+"Bay of Bengal"
+],
+"a": 1
+},
+{
+"n": 12,
+"q": "Monsoon is also called",
+"o": [
+"Pre monsoon",
+"Rainy season",
+"Post monsoon"
+],
+"a": 1
+},
+{
+"n": 32,
+"q": "During break monsoon more rain occurs",
+"o": [
+"Along foot hills",
+"NW India",
+"S India"
+],
+"a": 0
+}
+]
+}

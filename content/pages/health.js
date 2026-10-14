@@ -1,0 +1,102 @@
+/* Health plan for the Class 2 / Class 1 medicals. Not a prescription: review with a doctor. */
+window.STATIC = {
+  on: 'health', href: 'health.html', icon: 'heart', hue: 'h5', chip: 'Medical fitness plan',
+  title: 'Health plan: fit by December',
+  big: 'What your two blood reports say, the targets to hit before the Class 2 medical, and a day built around IIIT classes and mess food: meal times, supplement times, training and sleep.',
+  blocks: [
+    { html: '<blockquote><strong>Read this first.</strong> This plan is built from your reports and what you told me, using standard guidance for raised triglycerides, low HDL and low B12. It is not a prescription. Show it, with both reports and your full supplement list, to a physician this month, and follow their dose advice where it differs. Declare every medicine and supplement honestly on the DGCA medical form.</blockquote>' },
+    { heading: 'What your reports say', id: 'reports' },
+    { type: 'matrix', icon: 'pulse', ask: 'Your results at a glance',
+      lead: '29 Jun 2026 (Lifecare, full package) and 7 Oct 2026 (Lal PathLabs, lipids).',
+      takeaway: 'Three things to fix: triglycerides about 2× the limit, HDL ("good" cholesterol) too low, and vitamin B12 deficient. Liver, kidney, sugar, thyroid and blood counts are all normal, which is good news.',
+      corner: 'Test', cols: ['June', 'October', 'Target', 'Meaning'],
+      rows: [
+        { label: 'Triglycerides', cells: [{ v: '356', key: true }, { v: '300', key: true }, '< 150', 'High. Driven by refined carbs, sugar, fried/oily food, excess calories, low activity. Improving slightly.'] },
+        { label: 'HDL', cells: [{ v: '32.8', key: true }, { v: '30.5', key: true }, '> 40', 'Low. Raised mainly by aerobic exercise and weight loss.'] },
+        { label: 'VLDL', cells: [{ v: '71.2', key: true }, { v: '60', key: true }, '< 30', 'Follows triglycerides.'] },
+        { label: 'Non-HDL', cells: [{ v: '153', key: true }, '130', '< 130', 'Borderline; will fall with TG.'] },
+        { label: 'Total / LDL', cells: ['186 / 82', '160 / 69.5', '< 200 / < 100', 'Fine.'] },
+        { label: 'Vitamin B12', cells: [{ v: '< 148', key: true }, '—', '187–883 (aim > 300)', 'Deficient. Needs a doctor-set dose; recheck in 8–12 weeks.'] },
+        { label: 'Fasting sugar', cells: ['86', '—', '74–99', 'Normal.'] },
+        { label: 'Uric acid', cells: ['6.7', '—', '3.5–7.2', 'High-normal; improves with weight loss, less sugar/fried food, more water.'] },
+        { label: 'Phosphorus', cells: ['4.9 (slightly high)', '—', '2.5–4.5', 'Minor; often normal for age 19. Mention to the doctor.'] },
+        { label: 'Liver, kidney, thyroid, CBC', cells: ['Normal', '—', '—', 'All within range.'] },
+        { label: 'Weight / BMI', cells: ['—', '73–74.5 kg · BMI ≈ 26', '< 71 kg · BMI < 25', 'Overweight band; DGCA examiners look closely above 25.'] },
+      ] },
+    { type: 'numbers', icon: 'target', ask: 'Targets before the Class 2 (mid-December)',
+      takeaway: 'Lose about 3.5 kg in 8 weeks (≈0.45 kg a week) and repeat the bloods around 1 December. Weight loss alone typically cuts triglycerides by 20–30%.',
+      items: [
+        { k: 'Morning weight', v: '≤ 69.5 kg', note: 'BMI ≈ 24.5 at 168.5 cm' }, { k: 'Rate', v: '≈ 0.45 kg/week' },
+        { k: 'Calories', v: '≈ 1,900–2,000/day', note: 'maintenance is ≈ 2,400' }, { k: 'Protein', v: '≈ 110 g/day', note: 'keeps muscle while losing fat' },
+        { k: 'Steps', v: '9,000+/day' }, { k: 'Exercise', v: '5 sessions/week', note: '3 strength + 2–3 cardio' },
+        { k: 'Sleep', v: '7–8 h', note: 'same times daily' }, { k: 'Water', v: '3 L/day' },
+        { k: 'Triglycerides', v: '< 150', note: 'retest ~1 Dec' }, { k: 'HDL', v: '> 40' },
+      ] },
+
+    { heading: 'Your day', id: 'day', sub: 'built for a class day; shift times by an hour if needed' },
+    { type: 'sequence', icon: 'clock', ask: 'The daily schedule',
+      lead: 'Tap each stop. The same order every day matters more than exact times.',
+      takeaway: 'Eat breakfast every day (protein-first), keep lunch and dinner to the plate rule, put fibre in the afternoon, train in the evening, and take each supplement where it works best.',
+      steps: [
+        { label: '06:45 Wake', sub: 'water · weigh-in', tip: '500 ml water. Weigh after the toilet, before food. Log it on My Path.' },
+        { label: '07:30 Breakfast', sub: 'protein first + B12', tip: 'Every day, don\'t skip: it stops the evening over-eating. Option A: 3 idli + sambar + 1 bowl curd (or 2 boiled eggs if you eat them). Option B: Yoga Bar protein oats 1 serving with 250–300 ml toned milk (not 450). Take vitamin B12 here.' },
+        { label: '11:00 Snack', sub: 'if hungry', tip: 'Fruit (apple/guava/orange) or roasted chana/peanuts (small handful). No biscuits, juices, cold drinks.' },
+        { label: '13:00 Lunch', sub: 'mess plate rule + berberine', tip: 'Half plate: dal/sabzi/salad. Quarter: 2 rotis OR 1 small bowl rice (not both). Quarter: protein (dal, paneer, curd, chana, egg). Skip fried items and sweets. Berberine with this meal.' },
+        { label: '16:30 Fibre', sub: 'psyllium', tip: '1 tsp (≈5 g) psyllium in 300 ml water, then another glass of water. At least 2 hours away from tablets so it doesn\'t block their absorption. Takes the edge off dinner hunger.' },
+        { label: '17:30 Train', sub: '45–60 min', tip: 'Strength Mon/Wed/Fri, cardio Tue/Thu/Sat (see the week plan). Protein shake (1 scoop in water) only on training days, within an hour after.' },
+        { label: '20:00 Dinner', sub: 'plate rule + omega-3', tip: 'Same plate as lunch. The mess dinner is where most extra calories hide: max 2–3 rotis, no second helping of rice, scoop sabzi from the top (less oil), no sweet dish, no fried snack. Omega-3 with dinner.' },
+        { label: '22:30 Wind down', sub: 'magnesium', tip: 'Magnesium glycinate. Screens off by 23:00. Nothing to eat after dinner.' },
+        { label: '23:00 Sleep', sub: '7–8 h', tip: 'Short sleep raises appetite and triglycerides. Same time on weekends ± 1 h.' },
+      ] },
+    { type: 'matrix', icon: 'list', ask: 'Supplement timings', id: 'supps',
+      lead: 'Your current list, placed where each works best. Dose questions are for your doctor.',
+      takeaway: 'Fat-soluble ones (omega-3, vitamin D) with a meal; B12 in the morning; magnesium at night; psyllium alone, 2 hours from everything else. Vitamin D 60,000 IU is a once-a-week dose, never daily.',
+      corner: 'Supplement', cols: ['When', 'How', 'Note for the doctor'],
+      rows: [
+        { label: 'Vitamin B12 (methylcobalamin)', cells: [{ v: 'Breakfast, daily', key: true }, 'With or before breakfast', 'Your level is < 148 (deficient). Tablets are usually 500 or 1500 **mcg** (you wrote 500 mg). Ask if you need a higher dose or injections, and whether to check folate/homocysteine.'] },
+        { label: 'Vitamin D3 60,000 IU', cells: [{ v: 'Once a WEEK', key: true }, 'Sunday lunch (with some fat)', 'Usually 8 weeks then monthly. Never daily. Vitamin D level was not tested: add it to the December test.'] },
+        { label: 'Berberine + milk thistle + probiotic (Good Bug)', cells: ['With lunch (and dinner if label says 2×)', 'With food to avoid stomach upset', 'Can lower blood sugar and interact with medicines. Confirm it is needed alongside the ayurvedic tablets.'] },
+        { label: 'Ayurvedic cholesterol tablets (2)', cells: ['After breakfast & after dinner', 'As per label', 'Ingredients unknown: show the box to the doctor; declare at DGCA medical.'] },
+        { label: 'Omega-3 (743 EPA + 528 DHA)', cells: [{ v: 'With dinner', key: true }, 'With the biggest meal', '≈1.3 g EPA+DHA/day. Higher therapeutic doses for triglycerides only on medical advice.'] },
+        { label: 'Psyllium husk', cells: [{ v: '~16:30', key: true }, '5 g in 300 ml water + extra water', 'Keep 2 h from other tablets.'] },
+        { label: 'Magnesium glycinate (400 mg Mg)', cells: ['Bedtime', 'Water', '400 mg elemental is at the upper end: ask if 200 mg is enough.'] },
+        { label: 'Whey isolate (MuscleBlaze Iso Zero)', cells: ['After training', '1 scoop in 300 ml water', 'Counts towards the 110 g protein.'] },
+      ] },
+    { type: 'pairs', icon: 'scale', ask: 'Mess food swaps that move triglycerides',
+      pairs: [
+        { a: { label: 'Instead of', body: 'Puri, pakora, samosa, fried rice, paratha with butter.' }, b: { label: 'Take', body: 'Plain roti / phulka, dal, dry sabzi, salad, curd.' }, rule: 'Deep-fried mess food often uses reused oil or vanaspati: the worst for TG and HDL.' },
+        { a: { label: 'Instead of', body: 'Gulab jamun, kheer, sweet lassi, juice, cold drink, chai with 2 sugars.' }, b: { label: 'Take', body: 'Fruit, buttermilk (chaas), plain curd, tea with no/½ sugar.' }, rule: 'Sugar and fructose are the fastest way to raise triglycerides.' },
+        { a: { label: 'Instead of', body: 'Rice AND rotis AND seconds.' }, b: { label: 'Take', body: 'Rice OR rotis, one plate, eat slowly (15–20 min).' }, rule: 'Excess refined carbs at night become triglycerides by morning.' },
+        { a: { label: 'Instead of', body: 'Skipping breakfast, then a huge dinner.' }, b: { label: 'Take', body: 'Protein breakfast, normal lunch, smaller dinner.' }, rule: 'Same calories, better spread → less over-eating and better lipids.' },
+      ] },
+    { type: 'cycle', icon: 'zap', ask: 'The training week', numbered: false,
+      takeaway: 'Cardio raises HDL and burns triglycerides; strength protects muscle while you lose weight. Walk every day on top.',
+      stages: [
+        { label: 'Mon · Strength A', points: ['Squats 3×10', 'Push-ups 3×max', 'Rows (band/DB) 3×12', 'Plank 3×40 s', '10 min brisk walk cool-down'] },
+        { label: 'Tue · Cardio', points: ['40 min brisk walk/jog/cycle', 'Zone 2: you can talk in short sentences'] },
+        { label: 'Wed · Strength B', points: ['Lunges 3×10/leg', 'Shoulder press 3×12', 'Lat pull-down / pull-ups', 'Glute bridge 3×15'] },
+        { label: 'Thu · Intervals', points: ['5 min warm-up', '8 × (1 min fast / 2 min easy)', '5 min cool-down'] },
+        { label: 'Fri · Strength A', points: ['Repeat Monday, add a rep or a bit of weight'] },
+        { label: 'Sat · Long cardio / sport', points: ['50–60 min: football, badminton, swim, long walk'] },
+        { label: 'Sun · Rest', points: ['Easy walk', 'Vitamin D (weekly) with lunch', 'Plan the week; restock fruit/curd'] },
+      ] },
+    { type: 'bullets', icon: 'shield', ask: 'For the DGCA medical day',
+      groups: [
+        { title: 'Before', icon: 'calendar', points: ['Repeat bloods ~2 weeks before', 'Normal meals; no crash dieting in the last week', 'No alcohol, no heavy late meal the night before', 'Sleep 8 h'] },
+        { title: 'Carry', icon: 'file', points: ['ID, photos, eGCA details', 'All reports (June, October, December)', 'Written list of every medicine and supplement with doses', 'Glasses if you use them'] },
+        { title: 'Ask your doctor now', icon: 'help', points: ['B12 dose/route and recheck date', 'Are the ayurvedic tablets + berberine both needed?', 'Vitamin D: test, then weekly → monthly', 'Is the 4.9 phosphorus worth repeating?'] },
+      ] },
+  ],
+  after(w) {
+    const { el } = G;
+    const s = el('section', { class: 'lesson', id: 'today' }, el('div', { class: 'lhead' }, el('div', null, el('h3', null, 'Today\'s checklist'), el('p', { class: 'lead' }, 'Resets every day. Tick as you go; a streak counts days with at least 70% ticked.'))));
+    const st = el('div', { class: 'stage' }); s.append(st); w.append(s);
+    G.planner.daily(st, [
+      { id: 'w', time: '06:45', title: 'Weigh-in + 500 ml water' }, { id: 'b', time: '07:30', title: 'Protein breakfast + B12' },
+      { id: 'l', time: '13:00', title: 'Plate-rule lunch + berberine' }, { id: 'p', time: '16:30', title: 'Psyllium in water' },
+      { id: 'x', time: '17:30', title: 'Training session (or rest day walk)' }, { id: 'd', time: '20:00', title: 'Plate-rule dinner + omega-3, no sweets/fried' },
+      { id: 'm', time: '22:30', title: 'Magnesium · screens off' }, { id: 's', time: 'all day', title: '9,000+ steps' }, { id: 'h', time: 'all day', title: '3 L water' },
+    ]);
+    w.append(el('p', { class: 'hint' }, 'Log your weight and new blood reports on ', el('a', { href: G.url('path.html#weight') }, 'My Path'), '.'));
+  },
+};

@@ -1,0 +1,114 @@
+{
+"title": "Convergency",
+"src": "Bali GN Ch 4",
+"qs": [
+{
+"n": 23,
+"q": "The angle between the true great-circle track and the true rhumb-line track joining A (60°S 165°W) and B (60°S 177°E), at the place of departure A, is:",
+"o": [
+"15.5°",
+"5.2°",
+"7.8°"
+],
+"a": 2,
+"ex": "d.long = 15° + 3° = 18°. Convergency = 18 × sin 60° ≈ 15.6°; conversion angle = ½ ≈ 7.8°."
+},
+{
+"n": 24,
+"q": "The average true course of the great circle is 100°. The true course of the rhumb line at point A is:",
+"o": [
+"100°",
+"104°",
+"107°"
+],
+"a": 0,
+"ex": "The rhumb line track equals the great circle track at the mid-point (the average)."
+},
+{
+"n": 25,
+"q": "What is the standard formula for convergency?",
+"o": [
+"convergency = d.lat × cos mean latitude",
+"convergency = d.lat × sin mean latitude",
+"convergency = d.long × sin mean latitude"
+],
+"a": 2
+},
+{
+"n": 26,
+"q": "An aircraft passes position A (60°00′N 120°00′W) en route to position B (60°00′N 140°30′W). What is the great circle track on departure from A?",
+"o": [
+"261°",
+"099°",
+"279°"
+],
+"a": 2,
+"ex": "RL is 270°. Convergency = 20.5 × sin 60° ≈ 17.8°, CA ≈ 8.9°. In the NH the GC lies on the polar side, so the initial GC track is 270 + 9 ≈ 279°."
+},
+{
+"n": 27,
+"q": "A great circle track joins position A (59°S 141°W) and B (61°S 148°W). What is the difference between the great circle track at A and B?",
+"o": [
+"it increases by 3°",
+"it decreases by 6°",
+"it increases by 6°"
+],
+"a": 2,
+"ex": "Convergency = 7 × sin 60° ≈ 6°. Going west in the SH the GC track increases."
+},
+{
+"n": 28,
+"q": "The rhumb line track between position A (45°00′N 010°00′W) and position B (48°30′N 015°00′W) is approximately:",
+"o": [
+"225°",
+"315°",
+"135°"
+],
+"a": 1
+},
+{
+"n": 29,
+"q": "The great circle track from P to Q measured at P is 095°, southern hemisphere, conversion angle P–Q = 7°. What is the rhumb line track P–Q?",
+"o": [
+"088°",
+"102°",
+"109°"
+],
+"a": 0,
+"ex": "In the SH the GC lies south of the RL; eastbound, the initial GC track (095) is more southerly than the RL: RL = 095 − 7 = 088°."
+},
+{
+"n": 30,
+"q": "The great circle track X–Y measured at X is 319° and at Y 325°. Which statement is correct?",
+"o": [
+"southern hemisphere, rhumb line track is 331°",
+"northern hemisphere, rhumb line track is 313°",
+"southern hemisphere, rhumb line track is 322°"
+],
+"a": 2,
+"ex": "GC track increases from 319 to 325 (by 6°) going north-west: SH. RL = mean = 322°."
+},
+{
+"n": 31,
+"q": "Place A is at 70°00′S 060°00′W and place B 70°00′S 030°00′E. Find the initial great circle track.",
+"o": [
+"270°",
+"132°",
+"312°"
+],
+"a": 1,
+"ex": "d.long 90°, convergency = 90 × sin 70 ≈ 84.6°, CA ≈ 42.3°. RL = 090°; in the SH the GC starts towards the pole (south): 090 + 42 = 132°."
+},
+{
+"n": 32,
+"q": "On a Mercator chart the GC track from A (25°00′S 010°00′W) to B (35°00′S 040°00′W) is 242°. Find the RL track from B to A.",
+"o": [
+"249.5°",
+"075°",
+"069.5°"
+],
+"a": 2,
+"ex": "Mean lat 30°S, d.long 30°: convergency 15°, CA 7.5°. In the SH the GC lies on the southern (polar) side; westbound RL A→B = 242 + 7.5 = 249.5°, so B→A = 069.5°."
+}
+]
+}

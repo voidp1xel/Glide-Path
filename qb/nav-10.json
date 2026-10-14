@@ -1,0 +1,350 @@
+{
+"title": "DR Elements: Pressure and Altimetry",
+"src": "Bali GN Ch 10",
+"qs": [
+{
+"n": 1,
+"q": "Density varies:",
+"o": [
+"Inversely with temperature and pressure",
+"Directly with pressure and inversely with temperature",
+"Inversely with pressure and directly with temperature"
+],
+"a": 1
+},
+{
+"n": 2,
+"q": "If pressure increases whilst temperature increases in the ISA:",
+"o": [
+"Density will increase.",
+"Density might Increase or decrease.",
+"Density will remain constant."
+],
+"a": 0
+},
+{
+"n": 3,
+"q": "If pressure increases whilst temperature increases in a non-standard atmosphere:",
+"o": [
+"Density will increase.",
+"Density will decrease.",
+"Density might increase or decrease."
+],
+"a": 2
+},
+{
+"n": 4,
+"q": "In ISA conditions, with increase in altitude rate of fall of pressure",
+"o": [
+"Increases",
+"Decreases",
+"Remains same"
+],
+"a": 0,
+"ex": "Book answer: the height change per hPa grows with altitude (27 ft at MSL, 50 ft at 18 000 ft, 100 ft at 40 000 ft), i.e. pressure falls more slowly per foot as you climb."
+},
+{
+"n": 5,
+"q": "In atmosphere rate of fall of pressure is",
+"o": [
+"Linear",
+"Exponential",
+"Progressive"
+],
+"a": 1
+},
+{
+"n": 6,
+"q": "The ISA temperature and pressure for 18,000 ft are:",
+"o": [
+"-20.7° C and 506 hPa respectively",
+"-20.7° C and 595.2 hPa respectively",
+"- 12.7° C and 506 h Pa respectively"
+],
+"a": 0
+},
+{
+"n": 7,
+"q": "What is the ISA temperature value at FL 330?",
+"o": [
+"−56.5°C",
+"−53°C",
+"−51°C"
+],
+"a": 2,
+"ex": "ISA at 33 000 ft = 15 − 1.98 × 33 ≈ −50.3 °C. The book keys (c) printed as −50 °C/−51 °C."
+},
+{
+"n": 21,
+"q": "An aircraft is in level flight at FL100 over a mountain range, which extends up to 2400 meters AMSL. If the regional QNH is 998 hPa (use 30 ft/hPa), what is the approximate terrain clearance?",
+"o": [
+"450 feet.",
+"7869 feet.",
+"1681 feet."
+],
+"a": 0,
+"ex": "FL100 with QNH 998: true ≈ 10 000 − 15 × 30 = 9550 ft. Terrain 2400 m = 7874 ft. Clearance ≈ 1680 ft."
+},
+{
+"n": 22,
+"q": "An aircraft flies an altitude of 3500 feet from A to B, elevation 700 feet ONH 1015 hPa. B Elevation is 1120 feet QNH 992 hPa. Assuming the altimeter sub- scale is not changed, the aircraft will arrive over B at a height of:",
+"o": [
+"670 feet",
+"1690feet",
+"2810 feet"
+],
+"a": 2,
+"ex": "Altimeter still on 1015 reads 3500; actual = 3500 − (1015 − 992) × 30 = 2810 ft AMSL; over 1120 ft ground → 1690 ft."
+},
+{
+"n": 23,
+"q": "The atmospheric pressure at FL70 in a \"standard + 10° atmosphere is:",
+"o": [
+"942.13hPa",
+"1013.25hPa",
+"781.85hPa"
+],
+"a": 0
+},
+{
+"n": 24,
+"q": "On board an aircraft the altitude is measured from the:",
+"o": [
+"Density altitude",
+"Standard altitude",
+"Pressure altitude"
+],
+"a": 2
+},
+{
+"n": 25,
+"q": "If QNH is 999 hPa, what is the pressure altitude at an elevation of 25000 it.",
+"o": [
+"25400 ft.",
+"25200 ft.",
+"25300 ft."
+],
+"a": 0,
+"ex": "(1013 − 999) × 27 ≈ 380 → PA ≈ 25 380 ≈ 25 400 ft."
+},
+{
+"n": 26,
+"q": "If pressure altitude is 22,800 ft, at an elevation of 22,000 ft, what is QNH?",
+"o": [
+"985 hPa.",
+"1034 hPa.",
+"1026 hPa."
+],
+"a": 0,
+"ex": "PA is 800 ft above the elevation, so QNH is below 1013: 800 ÷ 30 ≈ 27 hPa → QNH ≈ 986 ≈ 985 hPa."
+},
+{
+"n": 27,
+"q": "If pressure altitude is 3700 It amsl and QNH is 1000 mb, what is field elevation?",
+"o": [
+"3310.",
+"390.",
+"490."
+],
+"a": 0
+},
+{
+"n": 28,
+"q": "Take-off and landing performance must be calculated based on ---- and ---- respectively?",
+"o": [
+"Forecast temperatures, forecast temperatures",
+"Actual temperatures, forecast temperatures",
+"Actual temperatures, actual temperatures"
+],
+"a": 1
+},
+{
+"n": 29,
+"q": "If the OAT at a pressure altitude of 5000 ft. amsl is 10°C what is the temperature deviation?",
+"o": [
+"-4.90C.",
+"+4.90C.",
+"-14.90C"
+],
+"a": 1
+},
+{
+"n": 30,
+"q": "Density altitude is?",
+"o": [
+"The altitude at which the existing density would occur in the ISA.",
+"The density at which the existing temperature would occur in the ISA.",
+"The elevation at which the existing density would occur in the ISA."
+],
+"a": 0
+},
+{
+"n": 31,
+"q": "The pressure altitude of the field can be found by?",
+"o": [
+"Setting QNH on the altimeter subscale.",
+"Setting QFE on the altimeter subscale.",
+"Setting 1013 mb on the altimeter subscale."
+],
+"a": 2
+},
+{
+"n": 32,
+"q": "If field pressure altitude is 5000 ft amsl and OAT is 25°C, What is the density altitude?",
+"o": [
+"5000 + 118 [25 - (15 - (5 x 1.98)}] = 7348.2 ft.",
+"5000 - 118 [25 - (15 + (5 x 1.98)}] = 4988.2 ft.",
+"5000 + 118 [25 + {15 - (5 x 1.98);] = 8551.8 ft."
+],
+"a": 0
+},
+{
+"n": 33,
+"q": "If QFE is 1022 hPa, what is the pressure altitude of the field?",
+"o": [
+"270 ft amsl",
+"−270 ft amsl",
+"30 660 ft amsl"
+],
+"a": 1,
+"ex": "(1013 − 1022) × 30 = −270 ft."
+},
+{
+"n": 34,
+"q": "Which of the following cause air density to decrease?",
+"o": [
+"Increasing humidity, increasing altitude, increasing temperature.",
+"Increasing humidity, decreasing altitude, increasing temperature.",
+"Decreasing humidity, increasing altitude, decreasing temperature."
+],
+"a": 0
+},
+{
+"n": 35,
+"q": "If QNH changes from 1013 hPa to 1022 hPa will?",
+"o": [
+"Increase field elevation",
+"Decrease field elevation.",
+"Not affect field elevation."
+],
+"a": 2
+},
+{
+"n": 36,
+"q": "If QFE changes from 1013 hPa to 1022 hPa will?",
+"o": [
+"Increase field elevation",
+"Not affect QNH.",
+"Inercase QNH."
+],
+"a": 2
+},
+{
+"n": 37,
+"q": "If acrodrome elevation is 4000 ft. amsl, and QNH is 1025 hPa, what is the pressure altitude?",
+"o": [
+"3540 ft.",
+"3640 ft.",
+"3740 ft."
+],
+"a": 1,
+"ex": "PA = 4000 + (1013 − 1025) × 30 = 3640 ft."
+},
+{
+"n": 38,
+"q": "As altitude increase in the ISA?",
+"o": [
+"The effects of decreasing pressure outweighs those of decreasing temperature, so aircraft performance decreases.",
+"The effects of decreasing density outweigh those of decreasing pressure and temperature so aircraft performance decreases",
+"The effects of increasing TAS: CAS ratio outweigh those of pressure and temperature so aircraft performance decreases."
+],
+"a": 0
+},
+{
+"n": 39,
+"q": "If the temperature is 12°C at a pressure altitude of 10000 ft., what is the density altitude?",
+"o": [
+"11993 ft.",
+"13993 ft",
+"14993 ft."
+],
+"a": 0,
+"ex": "ISA at 10 000 = −5 °C; deviation +17 → DA ≈ 10 000 + 17 × 118 ≈ 12 000 ft (book 11 993 ft)."
+},
+{
+"n": 40,
+"q": "If pressure altitude is 0 ft. and ambient temperature is 10°C, what is the density altitude?",
+"o": [
+"593 ft.",
+"-593 ft.",
+"1593 ft."
+],
+"a": 1,
+"ex": "ISA at 0 ft 15 °C; deviation −5 → DA ≈ −593 ft."
+},
+{
+"n": 41,
+"q": "If field elevation is 1000 ft. amsi, QNH is 1025 mb, and QFE is 991.67 mb, what is the pressure altitude at the field?",
+"o": [
+"-640 ft.",
+"1640 ft.",
+"640 ft."
+],
+"a": 2,
+"ex": "PA = 1000 + (1013 − 1025) × 30 = 640 ft."
+},
+{
+"n": 42,
+"q": "Density altitude is: (1) the elevation at which the prevailing density occurs in the ISA; (2) the pressure altitude at which the prevailing temperature occurs in the ISA; (3) the pressure altitude at which the prevailing density occurs in the ISA.",
+"o": [
+"1",
+"1 and 2",
+"1 and 3"
+],
+"a": 2
+},
+{
+"n": 43,
+"q": "Pressure altitude 29000 f, OAT -55°C. Calculate the density altitude?",
+"o": [
+"28 900 ft",
+"27 500 ft",
+"27 850 ft"
+],
+"a": 1,
+"ex": "ISA at 29 000 = −43 °C; dev −12 → DA ≈ 29 000 − 1420 ≈ 27 500 ft."
+},
+{
+"n": 44,
+"q": "What is the true altitude if OAT = +35°C and Pressure Altitude = 5000 feet?",
+"o": [
+"5550 ft",
+"4555 ft",
+"5320 ft"
+],
+"a": 0
+},
+{
+"n": 45,
+"q": "An aircraft with its altimeter set to 1013 lands at an aerodrome of elevation 1240 ft, QNH 1008. What will the altimeter read on the ground?",
+"o": [
+"1375 ft",
+"1105 ft",
+"1240 ft"
+],
+"a": 0,
+"ex": "Altimeter on 1013 over-reads by (1013 − 1008) × 27 = 135 ft: 1240 + 135 = 1375 ft."
+},
+{
+"n": 46,
+"q": "An aircraft at FL75 takes off from an aerodrome with elevation 1500 ft, QNH 1023.25. What is the true vertical distance (height above the aerodrome)?",
+"o": [
+"6300 ft",
+"6000 ft",
+"5700 ft"
+],
+"a": 0,
+"ex": "FL75 = 7500 ft on 1013; QNH 1023 adds 10 × 30 = 300 → 7800 ft AMSL; minus 1500 ft elevation = 6300 ft."
+}
+]
+}

@@ -1,0 +1,92 @@
+{
+"id": "met-05",
+"title": "Humidity",
+"src": "Joshi Ch 5",
+"text": "met",
+"start": 1315,
+"end": 1354,
+"key": "bcbababcba",
+"fix": {
+"1": {
+"o": [
+"Humidity",
+"Relative humidity",
+"Dew point"
+]
+},
+"2": {
+"o": [
+"Wet bulb temperature",
+"Dry bulb temperature",
+"Dew point",
+"Humidity"
+]
+},
+"3": {
+"o": [
+"Air temperature is 0°C",
+"Relative humidity is 100%",
+"Air temperature is not below 0°C"
+]
+},
+"4": {
+"o": [
+"More",
+"Less",
+"Same"
+]
+},
+"5": {
+"q": "The spread (difference) between free air temperature and dew point temperature is … when air is saturated",
+"o": [
+"Large",
+"Least",
+"Same"
+]
+},
+"6": {
+"q": "The saturation vapour pressure over water is … than over ice",
+"o": [
+"More",
+"Less",
+"Same"
+]
+},
+"7": {
+"q": "As the temperature of the air increases, the amount of water vapour required to saturate it …",
+"o": [
+"Decreases",
+"Increases",
+"Remains same"
+]
+},
+"8": {
+"o": [
+"Relative humidity",
+"Specific humidity",
+"Absolute humidity"
+]
+},
+"9": {
+"q": "Humidity mixing ratio … when air is lifted adiabatically",
+"o": [
+"Decreases",
+"Remains constant",
+"Increases"
+]
+},
+"10": {
+"o": [
+"Wet bulb temperature",
+"Dry bulb temperature",
+"Dew point"
+]
+}
+},
+"ex": {
+"3": "In saturated air (fog, rain) dry bulb = wet bulb = dew point.",
+"4": "Humid air is less dense, so take-off run is longer (the book suggests adding 10% to take-off distance in high humidity).",
+"6": "At sub-zero temperatures SVP over water is greater than over ice, so in mixed clouds drops evaporate and ice crystals grow (Bergeron process).",
+"9": "With no water added or removed, the mixing ratio (g of WV per kg of dry air) stays constant during adiabatic lifting."
+}
+}

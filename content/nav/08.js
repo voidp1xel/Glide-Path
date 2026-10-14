@@ -1,0 +1,45 @@
+module.exports = {
+  n: 8, title: 'Magnetism and Compasses', tag: 'Dip · deviation coefficients · compass errors · slaved compass', icon: 'compass', hue: 5, partOfBook: 'General Navigation',
+  big: 'The earth\'s magnetic field (H, Z, dip), aircraft hard and soft iron, deviation coefficients A, B and C, compass swinging, acceleration and turning errors, and the direct-reading and remote-indicating compasses.',
+  purpose: 'Roughly 100 questions in the book and several in every paper: APDE, turning errors, coefficients B and C, dip, flux valve.',
+  lessons: [
+    { id: 'map', type: 'mindmap', short: 'Mind map', icon: 'brain', ask: 'The whole chapter on one page',
+      root: { label: 'Compasses', children: [
+        { label: 'Earth field', children: [{ label: 'H directive' }, { label: 'Z vertical' }, { label: 'tan dip = Z/H' }] },
+        { label: 'Aircraft', children: [{ label: 'Hard iron P Q R' }, { label: 'Soft iron cZ fZ' }] },
+        { label: 'Coefficients', children: [{ label: 'A constant' }, { label: 'B max E/W' }, { label: 'C max N/S' }] },
+        { label: 'Dip errors', children: [{ label: 'APDE' }, { label: 'Turning: undershoot N' }, { label: 'Liquid swirl' }] },
+        { label: 'Slaved compass', children: [{ label: 'Flux valve 120°' }, { label: 'Senses meridian' }, { label: 'Roll cut-out' }] },
+      ] } },
+    { id: 'dip', type: 'pairs', icon: 'globe', ask: 'Dip, H and Z', dgca: true,
+      pairs: [{ a: { label: 'Magnetic equator', body: 'Dip **0°**, H **maximum**, Z zero. Compass works best; no dip errors.' }, b: { label: 'Magnetic pole', body: 'Dip **90°**, H **zero**. Compass useless (DRC unreliable beyond ~70°).' }, rule: 'tan dip = Z/H; T = H / cos dip.' }] },
+    { id: 'coeff', type: 'matrix', icon: 'grid', ask: 'Coefficients A, B and C', dgca: true, revise: true,
+      corner: 'Coefficient', cols: ['Caused by', 'Max deviation on', 'Formula', 'Corrected'],
+      rows: [
+        { label: 'A', cells: ['Lubber line misalignment; horizontal soft iron', 'All headings (constant)', 'mean of 8 headings', 'Realign lubber line'] },
+        { label: 'B', cells: ['P + cZ (fore-aft)', { v: 'East / West', key: true }, '(E − W)/2 · B sin hdg', { v: 'On east', key: true }] },
+        { label: 'C', cells: ['Q + fZ (lateral)', { v: 'North / South', key: true }, '(N − S)/2 · C cos hdg', { v: 'On north', key: true }] },
+      ] },
+    { id: 'apde', type: 'stamp', icon: 'plane', ask: 'Which way does the compass swing? (NH)', dgca: true,
+      lead: 'APDE: Acceleration → towards the nearer Pole; Deceleration → towards the Equator. No error on N/S headings.',
+      stamps: [{ id: 'N', label: 'Apparent turn north' }, { id: 'S', label: 'Apparent turn south' }, { id: '0', label: 'No error' }],
+      cases: [
+        { text: 'Accelerating on a westerly heading.', answer: 'N' }, { text: 'Decelerating on an easterly heading (after landing).', answer: 'S' },
+        { text: 'Accelerating on a northerly heading.', answer: '0' }, { text: 'Accelerating on an easterly heading.', answer: 'N' },
+      ] },
+    { id: 'turning', type: 'pairs', icon: 'rotate', ask: 'Turning errors', dgca: true,
+      pairs: [{ a: { label: 'Turning onto the nearer pole (N in NH)', body: 'Compass **sluggish**, lags → **roll out early** (e.g. stop at 330° turning right onto north at 40°N).' }, b: { label: 'Turning onto the equator side (S in NH)', body: 'Compass **lively**, leads → **roll out late** (e.g. stop at 210° turning right onto south).' }, rule: 'APPS: Pole = Sluggish. Max on N/S headings, nil on E/W and at the magnetic equator.' }] },
+    { id: 'slaved', type: 'bullets', icon: 'zap', ask: 'Remote-indicating (slaved) compass',
+      groups: [
+        { title: 'How it works', points: ['Flux valve: 3 spokes at 120°, pendulous, fixed in azimuth', 'Mounted at wing tip or fin top', 'Selsyn + gyro: magnetic north with gyro stability', 'Slaving ~5°/min; roll cut-out above ~10° bank'] },
+        { title: 'Why it is better', points: ['Senses (not seeks) the meridian: works to higher latitudes', 'Turning and acceleration errors minimised', 'No manual DI resetting; feeds RMI/autopilot'] },
+        { title: 'Drawbacks', points: ['Heavier and costlier', 'Electrical: can fail', 'Complex'] },
+      ] },
+    { id: 'quiz', type: 'quiz', icon: 'check', ask: 'Quick check',
+      questions: [
+        { q: 'Deviation due to coefficient B is maximum on:', options: ['N/S headings', 'E/W headings', 'All headings'], answer: 1 },
+        { q: 'In the NH, accelerating on a westerly heading the DRC shows an apparent turn to the:', options: ['North', 'South', 'No turn'], answer: 0 },
+        { q: 'Dip at the magnetic equator is:', options: ['0°', '45°', '90°'], answer: 0 },
+      ] },
+  ],
+};

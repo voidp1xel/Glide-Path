@@ -1,0 +1,176 @@
+{
+"title": "Time",
+"src": "Bali GN Ch 5",
+"qs": [
+{
+"n": 9,
+"q": "Mean time has been introduced in order to:",
+"o": [
+"have one fixed time to be used within the border of a country.",
+"introduce a constant measurement of time, independent of the daily variations in the movement of the sun as observed from the earth.",
+"compensate for the irregularities of the speed of rotation of the earth around it is axis."
+],
+"a": 0
+},
+{
+"n": 11,
+"q": "An aircraft crosses the IDL from 150°E to 108°W at 0000 UTC. At the destination",
+"o": [
+"LMT is behind and date is ahead",
+"Both LMT and date are behind",
+"Date is behind and LMT is ahead"
+],
+"a": 2,
+"ex": "Crossing the date line eastwards (150°E → 108°W) the date goes back one day, while local time is later in the day."
+},
+{
+"n": 16,
+"q": "At 10 h 40 min at 160°E, the difference between zone time and LMT will be",
+"o": [
+"Zone time will be ahead of LMT by 20 min",
+"Zone time will be ahead of LMT by 40 min",
+"LMT will be ahead of ZT by 20 min"
+],
+"a": 0,
+"ex": "160°E ÷ 15 = 10.67 → zone 11 (ZT = UTC + 11 h); LMT = UTC + 10 h 40 min, so ZT is 20 min ahead."
+},
+{
+"n": 18,
+"q": "Local Mean Time of a place is the time elapsed since the transit of the mean sun over",
+"o": [
+"its meridian",
+"its antemeridian",
+"the prime meridian"
+],
+"a": 1
+},
+{
+"n": 19,
+"q": "IST and the LMT of a place can be the same only when",
+"o": [
+"the place is in India",
+"the longitude of the place is 82°30′E",
+"all the above"
+],
+"a": 1
+},
+{
+"n": 20,
+"q": "The LMT at a place in India is 0400. If the position of the place is 10°N 078°E, the IST at that place will be",
+"o": [
+"0400",
+"0418",
+"0342"
+],
+"a": 1,
+"ex": "LMT 0400 at 78°E → UTC = 0400 − 5:12 = 2248. IST = UTC + 5:30 = 0418."
+},
+{
+"n": 21,
+"q": "Mumbai is at 19°05′N 073°00′E. A place exactly north of Mumbai is at 21°N 073°00′E. When IST in Mumbai is 1200, the IST at the other place will be",
+"o": [
+"1122",
+"1200",
+"1238"
+],
+"a": 1,
+"ex": "Standard time is the same throughout the zone; IST is 1200 everywhere in India."
+},
+{
+"n": 22,
+"q": "When GMT at Chennai (13°00′N 083°00′E) is 1100, the IST at Kolkata (20°00′N 088°30′E) will be",
+"o": [
+"1122",
+"1100",
+"1630"
+],
+"a": 2,
+"ex": "IST = UTC + 5:30: 1100 + 5:30 = 1630."
+},
+{
+"n": 23,
+"q": "On 27 February, at 52°S 040°E, sunrise is at 0243 UTC. On the same day, at 52°S 035°W, sunrise is at",
+"o": [
+"0243 LMT",
+"0743 LMT",
+"0523 LMT"
+],
+"a": 2,
+"ex": "Sunrise happens at the same LMT along a latitude. 0243 UTC at 40°E = 0523 LMT; so 0523 LMT at 35°W too."
+},
+{
+"n": 24,
+"q": "The sun rises at 50°N and 025°E on the 25th January at 0254UTC. On the same day what time does it rise at 50° N and 040°W?",
+"o": [
+"0254 UTC",
+"0714 UTC",
+"2154 UTC"
+],
+"a": 1,
+"ex": "At 25°E sunrise = 0254 + 1:40 = 0434 LMT. At 40°W: 0434 + 2:40 = 0714 UTC."
+},
+{
+"n": 25,
+"q": "What is the meaning of the term \"standard time\"?",
+"o": [
+"it is another term for UTC",
+"it is the time set by the legal authorities for a country or part of a country",
+"it is an expression for local mean time"
+],
+"a": 1
+},
+{
+"n": 26,
+"q": "The local mean time at longitude 095°20′W at 0000 UTC is",
+"o": [
+"1738:40 same day",
+"1738:40 previous day",
+"0621:20 previous day"
+],
+"a": 1,
+"ex": "95°20′ = 6 h 21 min 20 s; west is behind: 0000 − 6:21:20 = 1738:40 the previous day."
+},
+{
+"n": 27,
+"q": "What does 5 hours 50 minutes and 20 seconds change of longitude represent?",
+"o": [
+"80°05′",
+"87°35′",
+"35°15′"
+],
+"a": 1,
+"ex": "1 h = 15°, 1 min = 15′, 1 s = 15″: 5 h 50 min 20 s = 75° + 12°30′ + 5′ = 87°35′."
+},
+{
+"n": 28,
+"q": "The times given for sunrise, sunset, morning and evening twilight in the air almanac:",
+"o": [
+"are given in UTC.",
+"are given in standard time.",
+"are given in LMT."
+],
+"a": 2
+},
+{
+"n": 29,
+"q": "A is at longitude 012°30′E and B at 043°15′E. LMT at B is 1749. What is the LMT at A?",
+"o": [
+"1546",
+"1706",
+"1952"
+],
+"a": 0,
+"ex": "d.long 30°45′ = 2 h 03 min; A is west of B: 1749 − 2:03 = 1546."
+},
+{
+"n": 30,
+"q": "Consider the following statements on sunrise and sunset.",
+"o": [
+"in May sunrise occurs later at 45°N than at 45°S",
+"in November sunset occurs earlier at 45°S than at 45°N",
+"at the equator sunrise and sunset occur at quite regular times throughout the year"
+],
+"a": 2
+}
+]
+}
