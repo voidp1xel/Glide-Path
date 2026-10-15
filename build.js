@@ -100,6 +100,7 @@ function shell({ title, desc, root, scripts, pre }) {
 <link rel="stylesheet" href="${r}/assets/motion.css?v=${VER}">
 <link rel="stylesheet" href="${r}/assets/polish.css?v=${VER}">
 <link rel="stylesheet" href="${r}/assets/content.css?v=${VER}">
+<link rel="stylesheet" href="${r}/assets/lessons2.css?v=${VER}">
 <link rel="manifest" href="${r}/manifest.webmanifest">
 <link rel="apple-touch-icon" href="${r}/assets/apple-touch-icon.png">
 <meta property="og:title" content="${title}">
@@ -115,6 +116,7 @@ ${scripts.map(s => `<script src="${s.startsWith('http') ? s : r + '/' + s}${s.en
 <script src="${r}/assets/figs.js?v=${VER}"></script>
 ${fs.readdirSync(path.join(SITE, 'assets')).filter(f => /^figs-.+\.js$/.test(f)).map(f => `<script src="${r}/assets/${f}?v=${VER}"></script>`).join('\n')}
 <script src="${r}/assets/lessons.js?v=${VER}"></script>
+<script src="${r}/assets/lessons2.js?v=${VER}"></script>
 <script src="${r}/assets/tools.js?v=${VER}"></script>
 <script src="${r}/assets/planner.js?v=${VER}"></script>
 <script src="${r}/assets/pages.js?v=${VER}"></script>

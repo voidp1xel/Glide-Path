@@ -20,6 +20,7 @@ window.STATIC = {
     group('Studying', [
       row('Default chapter track', 'Core & Revision hides the ◆ Exam-Ready lessons', seg([['core', 'Core & Revision'], ['exam', '◆ Exam-Ready']], S.pref('track') || 'core', v => S.pref('track', v))),
       row('"You stopped here" banner', 'Offer to jump back to where you left a chapter', toggle(S.pref('resume') !== false, v => S.pref('resume', v))),
+      row('Centre what I tap', 'Tapping a diagram glides it to the middle of the screen', toggle(S.pref('autocenter') !== false, v => S.pref('autocenter', v))),
     ]);
     const name = el('input', { class: 'set-in', type: 'text', maxlength: 30, placeholder: 'Your name', value: S.pref('name') || '' });
     name.addEventListener('change', () => { S.pref('name', name.value.trim() || null); toast('Saved'); });

@@ -10,7 +10,7 @@
       const v = attrs[k];
       if (v == null || v === false) continue;
       if (k === 'class') n.className = v;
-      else if (k === 'style' && typeof v === 'object') Object.assign(n.style, v);
+      else if (k === 'style' && typeof v === 'object') { for (const p in v) { if (p.startsWith('--')) n.style.setProperty(p, v[p]); else n.style[p] = v[p]; } }
       else if (k === 'html') n.innerHTML = v;
       else if (k.startsWith('on') && typeof v === 'function') n.addEventListener(k.slice(2), v);
       else if (k === 'dataset') Object.assign(n.dataset, v);

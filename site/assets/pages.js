@@ -4,6 +4,8 @@
   const { el, rich, icon, S, toast, url, topbar, footer, readbar, fmtAgo, fmtTime, dayKey, chapterMeta, allChapters, $, $$ } = G;
   const HUES = ['h0', 'h1', 'h2', 'h3', 'h4', 'h5'];
   const hue = i => HUES[((i % 6) + 6) % 6];
+  /* info-bar icon per lesson type (only70 changes the icon with the kind of figure) */
+  const INFOICON = { flow: 'flag', hotspot: 'target', fly: 'plane', sequence: 'plane', hold: 'rotate', signals: 'eye', plan: 'target', stamp: 'check', classify: 'grid', tricks: 'brain', numbers: 'hash', timeline: 'ruler', explore: 'compass', layers: 'layers' };
 
   /* ================= chapter ================= */
   function chapter(c, app) {
@@ -37,13 +39,19 @@
     if (c.purpose) main.append(el('div', { class: 'purpose' }, el('b', null, 'Why it matters for DGCA: '), rich(c.purpose)));
     /* the chapter in one minute: numbered cards from the lessons' one-line answers (only70 layout) */
     const plain = t => String(t || '').replace(/\*\*|==|`/g, '').replace(/(^|\s)\*(\S.*?)\*/g, '$1$2').trim();
-    const minute = (c.minute && c.minute.length ? c.minute : c.lessons.filter(l => l.tier !== 'exam' && l.takeaway).map(l => l.takeaway)).slice(0, 6);
+    const given = (c.minute && c.minute.length) ? c.minute : (c.remember && c.remember.length) ? c.remember : null;
+    const minute = (given || c.lessons.filter(l => l.tier !== 'exam' && l.takeaway).map(l => l.takeaway)).slice(0, 6);
     if (minute.length) main.append(el('section', { class: 'minute1', id: 'minute' },
       el('div', { class: 'kicker' }, 'The chapter in one minute'),
-      el('div', { class: 'mgrid' }, minute.map((t, i) => el('div', { class: 'mcard ' + hue((c.hue || 0) + i) }, el('b', null, i + 1), el('p', null, plain(t)))))));
+      el('div', { class: 'mgrid' }, minute.map((t, i) => el('div', { class: 'mcard ' + hue((c.hue || 0) + i), style: { '--tilt': ([-1.1, .8, -.6, 1, -.9, .6][i % 6]) + 'deg' } }, el('b', null, i + 1), el('p', null, plain(t)))))));
 
     /* lessons */
     const lessons = c.lessons.slice();
+    /* the big picture (only70's opening tree): chapters without an authored tree get one built from their parts and lessons */
+    if (c.bigPicture !== false && !lessons.some(l => l.type === 'tree') && lessons.length) {
+      const bp = G.bigPicture(c, lessons);
+      if (bp) lessons.splice(lessons[0] && lessons[0].type === 'story' ? 1 : 0, 0, bp);
+    }
     if (c.notesHtml) lessons.push({ id: 'points', type: 'facts', short: 'Every fact, drawn out', icon: 'grid', ask: 'Every fact from the book, drawn out', lead: 'Nothing left out: each section of the chapter as cards. Terms in colour, numbers in blue, cause → effect as arrows, tables as tables.', part: 'Every fact from the book' });
     if (c.bank) lessons.push({ id: 'test', type: 'qbank', bank: c.bank, short: 'Test yourself', icon: 'check', ask: 'Test yourself: the book\'s question bank', lead: c.bankLead || 'Every end-of-chapter question from the book, with the book\'s answer key. Your answers are saved.', part: 'Test yourself' });
 
@@ -62,15 +70,20 @@
         lastPart = d.part; partN++;
         const pd = el('div', { class: 'partdiv', 'data-part': partN }, el('small', null, 'PART ' + partN), el('h2', null, d.part));
         main.append(pd); d._partEl = pd;
-        toc.append(el('li', { class: 'part', 'data-part': partN }, el('span', null, 'P' + partN), d.part));
+        const pn = partN, pli = el('li', { class: 'part', 'data-part': pn }, el('button', { type: 'button', 'aria-expanded': 'true', onclick: e => {
+          const open = pli.classList.toggle('shut'); e.currentTarget.setAttribute('aria-expanded', String(!open));
+          $$('.toc li[data-in="' + pn + '"]').forEach(x => x.classList.toggle('folded', open)); } }, el('span', null, 'P' + pn), el('em', null, d.part), el('i', { class: 'chev' }, '▾')));
+        toc.append(pli);
       }
       const h = hue(d.hue ?? ((c.hue || 0) + idx));
       const info = el('div', { class: 'infobar', hidden: true });
-      const ctx = { hue: h, hueStart: (c.hue || 0) + idx, info: (t, x, q) => { info.hidden = false; info.replaceChildren(el('span', { class: 'ic' }, icon('search')), el('div', null, el('b', null, t), x ? el('p', null, rich(x)) : null, q ? el('blockquote', null, rich(q)) : null)); } };
+      const ctx = { hue: h, hueStart: (c.hue || 0) + idx, lessonId: d.id, info: (t, x, q, o) => { o = o || {}; info.hidden = false; info.classList.toggle('good', o.tone === 'good'); info.classList.toggle('bad', o.tone === 'bad');
+        const jump = o.jump ? el('a', { class: 'ib-jump', href: '#' + o.jump }, o.jumpLabel || 'Open this lesson', icon('right')) : null;
+        info.replaceChildren(el('span', { class: 'ic' }, icon(o.icon || INFOICON[d.type] || 'search')), el('div', null, el('b', null, t), x ? el('p', null, rich(x)) : null, q ? el('blockquote', null, rich(q)) : null, jump)); } };
       const stage = el('div', { class: 'stage' });
-      const sec = el('section', { class: 'lesson ' + h + (d.tier === 'exam' ? ' examtier' : ''), id: d.id },
+      const sec = el('section', { class: 'lesson ' + h + (d.tier === 'exam' ? ' examtier' : '') + (d.auto ? ' autobp' : ''), id: d.id },
         el('div', { class: 'lhead' }, el('div', { class: 'ltile' }, icon(d.icon || 'spark')),
-          el('div', null, el('h3', null, d.ask || d.short, d.tier === 'exam' ? el('span', { class: 'badge exam' }, '◆ Exam') : null, d.dgca ? el('span', { class: 'badge dgca' }, 'DGCA favourite') : null),
+          el('div', null, d.tier === 'exam' ? el('div', { class: 'examkick' }, '◆ Exam-Ready') : null, el('h3', null, d.ask || d.short, d.tier === 'exam' ? el('span', { class: 'badge exam' }, '◆ Exam') : null, d.dgca ? el('span', { class: 'badge dgca' }, 'DGCA favourite') : null),
             d.lead ? el('p', { class: 'lead' }, rich(d.lead)) : null)),
         (d.takeaway || d.hook) ? el('div', { class: 'answerrow' },
           d.takeaway ? el('div', { class: 'takeaway' }, icon('spark'), rich(d.takeaway)) : el('div'),
@@ -86,7 +99,7 @@
       main.append(sec);
       if (d.type !== 'notes' && d.type !== 'qbank') num++;
       const done = (s.seen[c.id] || []).includes(d.id);
-      const li = el('li', { class: d.tier === 'exam' ? 'exam-only' : '' }, el('a', { href: '#' + d.id, 'data-id': d.id, onclick: () => body.classList.remove('toc-open') }, el('span', { class: 'n' }, String(idx + 1).padStart(2, '0')), d.short || d.ask, el('span', { class: 'ck' }, done ? '✓' : '')));
+      const li = el('li', { class: d.tier === 'exam' ? 'exam-only' : '', 'data-in': lastPart ? partN : null }, el('a', { href: '#' + d.id, 'data-id': d.id, onclick: () => body.classList.remove('toc-open') }, el('span', { class: 'n' }, d.tier === 'exam' ? '◆' : String(idx + 1).padStart(2, '0')), el('span', { class: 't' }, d.short || d.ask), el('span', { class: 'ck' }, done ? '✓' : '')));
       toc.append(li);
       secs.push({ d, sec, li });
     });
@@ -114,6 +127,7 @@
     nb.classList.toggle('has', !!nta.value.trim());
     nb.onclick = () => { panel.hidden = !panel.hidden; if (!panel.hidden) nta.focus(); };
     body.append(nb, panel);
+    if (G.autoCenter) G.autoCenter(main);
     body.append(footer());
     readbar();
 
@@ -126,7 +140,10 @@
         if (!e.isIntersecting) return;
         const id = e.target.id; if (cur === id) return; cur = id;
         $$('.toc a.on').forEach(a => a.classList.remove('on'));
-        const a = $('.toc a[data-id="' + id + '"]'); if (a) { a.classList.add('on'); a.scrollIntoView({ block: 'nearest' }); }
+        const a = $('.toc a[data-id="' + id + '"]'); if (a && a.parentNode.classList.contains('folded')) { const pi = a.parentNode.dataset.in; const ph = $('.toc li.part[data-part="' + pi + '"] button'); if (ph) ph.click(); }
+        if (a) { a.classList.add('on'); /* scroll only the sidebar (scrollIntoView would also move the page and cancel a smooth scroll) */
+          const box = side; if (box.scrollHeight > box.clientHeight + 2) { const ar = a.getBoundingClientRect(), br = box.getBoundingClientRect(); if (ar.top < br.top + 8) box.scrollTop -= br.top + 8 - ar.top; else if (ar.bottom > br.bottom - 8) box.scrollTop += ar.bottom - br.bottom + 8; }
+          else if (box.scrollWidth > box.clientWidth + 2) { const ar = a.getBoundingClientRect(), br = box.getBoundingClientRect(); if (ar.left < br.left + 8 || ar.right > br.right - 8) box.scrollLeft += ar.left - br.left - (br.width - ar.width) / 2; } }
         const d = lessons.find(l => l.id === id);
         s.pos['ch:' + c.id] = id; S.seen(c.id, id);
         S.visit({ href: here + '#' + id, title: c.title, sub: d ? (d.ask || d.short) : '', subj: sub.id, ch: c.id, kind: 'chapter' });

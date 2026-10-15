@@ -250,8 +250,10 @@
     const pct = v => ((v - min) / (max - min)) * 100;
     const tl = el('div', { class: 'tl', style: { '--tlh': (d.height || 200) + 'px' } }, el('div', { class: 'axis' }));
     (d.ticks || []).forEach(t => tl.append(el('div', { class: 'tick', style: { left: pct(t) + '%' } }, t + (d.unit ? '' : ''))));
+    /* shaded ranges under the axis (only70 timeline bands): {from, to, label, tip, h} */
+    (d.bands || []).forEach((b, i) => tl.append(el('button', { type: 'button', class: 'tlband ' + hue(b.h != null ? b.h : b.hue != null ? b.hue : ctx.hueStart + i), style: { left: pct(b.from) + '%', width: (pct(b.to) - pct(b.from)) + '%' }, onclick: () => ctx.info(b.label, b.tip || '', b.quote) }, el('span', null, b.label))));
     const marks = d.marks.map((m, i) => {
-      const mk = el('div', { class: 'mark ' + hue(m.hue != null ? m.hue : ctx.hueStart + i), style: { left: pct(m.at) + '%' }, onclick: () => pick(i) },
+      const mk = el('div', { class: 'mark ' + hue(m.hue != null ? m.hue : ctx.hueStart + i) + (pct(m.at) < 9 ? ' edge-l' : pct(m.at) > 91 ? ' edge-r' : ''), style: { left: pct(m.at) + '%' }, onclick: () => pick(i) },
         el('div', { class: 'lbl' }, m.label, el('small', null, m.atLabel || (m.at + (d.unit ? ' ' + d.unit : '')))), el('div', { class: 'stem', style: { height: (m.h || (20 + (i % 3) * 38)) + 'px' } }));
       tl.append(mk); return mk;
     });
@@ -356,7 +358,7 @@
       btns.forEach(b => b.classList.remove('good', 'bad'));
       if (i >= d.cases.length) { caseBox.replaceChildren(el('span', { class: 'cn' }, 'Done'), el('div', null, 'You stamped ' + score + ' of ' + d.cases.length + ' right first time.'), el('div', { style: { marginTop: '10px' } }, el('button', { class: 'btn', onclick: () => { i = 0; score = 0; dash.querySelectorAll('i').forEach(x => x.className = ''); show(); } }, icon('refresh'), 'Play again'))); return; }
       caseBox.replaceChildren(el('span', { class: 'cn' }, 'Case ' + (i + 1)), el('div', null, rich(d.cases[i].text)));
-      ctx.info('Case ' + (i + 1), d.ask2 || 'Which one applies? Press a stamp.');
+      ctx.info('Case ' + (i + 1), d.prompt || d.ask2 || 'Which one applies? Press a stamp.');
     }
     let first = true;
     function press(s, b) {
@@ -367,7 +369,7 @@
         setTimeout(() => { i++; show(); }, 1100);
       } else { b.classList.add('bad'); first = false; ctx.info('Not ' + s.label, c.hint || 'Look at the key word in the case.'); }
     }
-    st.append(dash, caseBox, el('div', { class: 'kicker', style: { margin: '16px 0 0' } }, 'Press a stamp'), stamps);
+    st.append(dash, caseBox, el('div', { class: 'kicker', style: { margin: '16px 0 0' } }, d.trayLabel || 'Press a stamp'), stamps);
     show();
   };
 
