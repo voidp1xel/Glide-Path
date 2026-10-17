@@ -1,0 +1,155 @@
+{
+ "id": "nav-27-td",
+ "title": "Track and Drift Questions",
+ "src": "R.K. Bali — Air Navigation, Part III Ch 3. Q1–12 are the book's worked examples turned into choices (answer = the book's working); Q13–16 key from the printed grid, PDF p. 249",
+ "text": "nav",
+ "start": 14666,
+ "end": 14752,
+ "key": "cbaabbaabccabcba",
+ "fix": {
+  "13": {
+   "o": [
+    "224°",
+    "044°",
+    "046°"
+   ],
+   "q": "Compass heading 270°, deviation 2° W, variation 30° E, relative bearing 316°. What is the QDR?"
+  },
+  "14": {
+   "o": [
+    "183 relative",
+    "353 relative",
+    "007 relative"
+   ]
+  },
+  "15": {
+   "o": [
+    "no drift",
+    "right drift",
+    "a wind from the right"
+   ]
+  },
+  "16": {
+   "o": [
+    "168 NM",
+    "148 NM",
+    "128 NM"
+   ],
+   "q": "An aircraft at 9000 ft flying towards a station can receive VHF R/T from a ground station 1600 ft AMSL at a distance of about:"
+  },
+  "1": {
+   "q": "An aircraft is homing to a station on 090° (M) with 10° starboard drift. What does the RBI show?",
+   "o": [
+    "350°",
+    "000°",
+    "010°"
+   ]
+  },
+  "2": {
+   "q": "An aircraft is homing to a station on 360° (M) with 15° port drift. What does the RBI show?",
+   "o": [
+    "015°",
+    "345°",
+    "195°"
+   ]
+  },
+  "3": {
+   "q": "An aircraft is flying away from a station on 270° (M) with 15° port drift. What does the ADF read?",
+   "o": [
+    "165°",
+    "195°",
+    "345°"
+   ]
+  },
+  "4": {
+   "q": "An aircraft is flying away from a station on a magnetic heading of 030°. The RBI shows 185°. Track and drift?",
+   "o": [
+    "Track 035°, drift 5° S",
+    "Track 025°, drift 5° P",
+    "Track 215°, drift 5° S"
+   ]
+  },
+  "5": {
+   "q": "An aircraft is flying away from a station on a track of 200° (M) with 10° starboard drift. Heading and RBI?",
+   "o": [
+    "Heading 210°, RBI 170°",
+    "Heading 190°, RBI 190°",
+    "Heading 190°, RBI 170°"
+   ]
+  },
+  "6": {
+   "q": "An aircraft is flying away from a station on heading 270° (M), making good a track of 260°. RBI and drift?",
+   "o": [
+    "RBI 190°, drift 10° S",
+    "RBI 170°, drift 10° P",
+    "RBI 170°, drift 10° S"
+   ]
+  },
+  "7": {
+   "q": "After 2 h at 80 kt GS on heading 090°, the ADF shows 168°; 2 h remain to the station. Heading to steer for the station?",
+   "o": [
+    "114°",
+    "102°",
+    "078°"
+   ]
+  },
+  "8": {
+   "q": "After 180 NM on heading 200°, the ADF shows 186°; 120 NM remain to the destination. New heading to the station?",
+   "o": [
+    "185°",
+    "191°",
+    "215°"
+   ]
+  },
+  "9": {
+   "q": "Constant heading, 12° S drift, track made good 5 NM left of and parallel to the airway centreline. NDB on the centreline 30 NM ahead. RBI? (assume heading 090°)",
+   "o": [
+    "002°",
+    "022°",
+    "012°"
+   ]
+  },
+  "10": {
+   "q": "Constant heading, 12° P drift, track made good 5 NM right of the centreline. NDB on the centreline 30 NM behind. ADF reading? (assume heading 090°)",
+   "o": [
+    "182°",
+    "168°",
+    "178°"
+   ]
+  },
+  "11": {
+   "q": "Constant heading, 8° S drift, track made good 5 NM right of the airway centreline. NDB on the centreline 30 NM ahead. ADF reading? (assume heading 090°)",
+   "o": [
+    "018°",
+    "002°",
+    "358°"
+   ]
+  },
+  "12": {
+   "q": "Constant heading, 5° S drift, track made good 5 NM left of the centreline. NDB on the centreline 30 NM ahead. ADF reading? (assume heading 090°)",
+   "o": [
+    "015°",
+    "005°",
+    "355°"
+   ]
+  }
+ },
+ "drop": [],
+ "ex": {
+  "1": "MBT 090; MH = 090 − 10 = 080 (steer into wind); RB = 090 − 080 = 010.",
+  "2": "MH = 360 + 15 = 015; RB = 360 − 015 = 345.",
+  "3": "MBT = 090, MH = 285; RB = 090 − 285 + 360 = 165.",
+  "4": "MBT = 185 + 030 = 215, so MBF (track) 035; track right of heading: 5° S.",
+  "5": "MBT 020; MH = 200 − 10 = 190; RB = 020 − 190 + 360 = 190.",
+  "6": "MBT 080; RB = 080 − 270 + 360 = 170; track left of heading: 10° P.",
+  "7": "MBT = 258 → track 078, drift 12° P. 160 NM flown: off-track 32 NM → TE 12°, closing angle 12°. Heading = 090 + 12 + 12 = 114.",
+  "8": "MBT 026 → track 206, drift 6° S. TE 6° → 18 NM off; closing angle 18/120 × 60 = 9°. Correction 15°: 200 − 15 = 185.",
+  "9": "Required track 102; 5 NM in 30 NM = 10°; NDB is right of the track: MBT 112; RB = 112 − 090 = 022.",
+  "10": "Track 078 + 10 = 088 from the NDB; MBT 268; RB = 268 − 090 = 178.",
+  "11": "Required track 098, the NDB is 10° left: MBT 088; RB = 088 − 090 = −2 → 358.",
+  "12": "Required track 095 + 10 = 105; RB = 015.",
+  "13": "MH 268; QDM = 268 + 316 − 360 = 224; QDR = 044.",
+  "14": "075 T + 10 W = 085 M track; drift 7° right means head 7° left: heading 078; RB = 085 − 078 = 007.",
+  "16": "1.25 (√9000 + √1600) = 1.25 (94.9 + 40) ≈ 168 NM."
+ }
+}

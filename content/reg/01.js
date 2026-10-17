@@ -13,24 +13,24 @@ module.exports = {
         { label: 'Airspace', children: [{ label: 'FIR, CTA, CTR, TMA' }, { label: 'P, R, D areas' }] },
         { label: 'Emergency', children: [{ label: 'INCERFA → ALERFA → DETRESFA' }, { label: 'ELT AF/AP/AD/S' }] },
       ] } },
-    { id: 'aircraft', short: 'What is an aircraft', part: 'What is an aircraft?', type: 'tree', icon: 'plane', ask: 'Which machines are aircraft?',
+    { id: 'aircraft', short: 'What is an aircraft', part: 'What is an aircraft?', type: 'mindmap', icon: 'plane', ask: 'Which machines are aircraft?',
       takeaway: 'An aircraft is supported by reactions of the air, but not by air reacting against the ground (so a hovercraft is not one). Aerodynes get lift dynamically from moving surfaces; balloons and airships float.',
       hook: 'Air holds it up, not air squashed against the ground.',
-      root: { label: 'Aircraft', sub: 'supported by reactions of the air', children: [
+      root: { label: 'Aircraft · supported by reactions of the air', children: [
         { label: 'Lighter than air', icon: 'cloud', children: [
-          { label: 'Balloon', sub: 'fixed or free, no engine', tip: 'Unmanned free balloons are classed heavy, medium or light.' },
-          { label: 'Airship', sub: 'power-driven', tip: 'Power-driven lighter-than-air aircraft.' } ] },
+          { label: 'Balloon · fixed or free, no engine', tip: 'Unmanned free balloons are classed heavy, medium or light.' },
+          { label: 'Airship · power-driven', tip: 'Power-driven lighter-than-air aircraft.' } ] },
         { label: 'Heavier than air: aerodynes', icon: 'plane', children: [
-          { label: 'Aeroplane', sub: 'power + fixed wings', tip: 'Power-driven heavier-than-air; lift from surfaces that remain fixed.' },
-          { label: 'Glider', sub: 'no power + fixed wings', tip: 'Non-power-driven heavier-than-air with fixed lifting surfaces.' },
-          { label: 'Helicopter', sub: 'powered rotors', tip: 'Supported by power-driven rotors on substantially vertical axes.' },
-          { label: 'Gyroplane, kite', sub: 'also aerodynes' } ] },
+          { label: 'Aeroplane · power + fixed wings', tip: 'Power-driven heavier-than-air; lift from surfaces that remain fixed.' },
+          { label: 'Glider · no power + fixed wings', tip: 'Non-power-driven heavier-than-air with fixed lifting surfaces.' },
+          { label: 'Helicopter · powered rotors', tip: 'Supported by power-driven rotors on substantially vertical axes.' },
+          { label: 'Gyroplane, kite · also aerodynes' } ] },
         { label: 'Special words', icon: 'list', children: [
-          { label: 'Seaplane', sub: 'water only' }, { label: 'Amphibian', sub: 'land or water' },
-          { label: 'Microlight', sub: '≤ 330 kg (1 seat) / ≤ 450 kg (2 seats)', tip: 'Wing area at least 10 m². Hang gliders and para-planes are excluded. Flown on a Permit to Fly.' },
-          { label: 'State aircraft', sub: 'military, customs, police, posts' } ] },
+          { label: 'Seaplane · water only' }, { label: 'Amphibian · land or water' },
+          { label: 'Microlight · ≤ 330 kg (1 seat) / ≤ 450 kg (2 seats)', tip: 'Wing area at least 10 m². Hang gliders and para-planes are excluded. Flown on a Permit to Fly.' },
+          { label: 'State aircraft · military, customs, police, posts' } ] },
       ] } },
-    { id: 'mass', short: 'Small vs large', takeaway: 'Small aeroplane: MCTOM 5,700 kg or less; large: over 5,700 kg. A seaplane uses water only; an amphibian uses land or water.', type: 'pairs', icon: 'weight', ask: 'Small or large aeroplane?', dgca: true,
+    { id: 'mass', hook: '5,700 kg splits small from large.', short: 'Small vs large', takeaway: 'Small aeroplane: MCTOM 5,700 kg or less; large: over 5,700 kg. A seaplane uses water only; an amphibian uses land or water.', type: 'pairs', icon: 'weight', ask: 'Small or large aeroplane?', dgca: true,
       pairs: [
         { a: { label: 'Small aeroplane', body: 'Maximum certificated take-off mass **5,700 kg or less**.' }, b: { label: 'Large aeroplane', body: 'MCTOM **over 5,700 kg**.' }, rule: 'Exactly 5,700 kg is still small.' },
         { a: { label: 'Seaplane', body: 'Takes off and alights **solely on water**.' }, b: { label: 'Amphibian', body: 'Can use **land or water**.' }, rule: 'Amphibians are amphibious: both.' },
@@ -65,7 +65,7 @@ module.exports = {
     { id: 'vertical', short: 'Heights and levels', part: 'Heights and levels', type: 'svg', fig: 'reg-vertical-refs', icon: 'layers', ask: 'Altitude, height, elevation or flight level?', dgca: true,
       takeaway: 'Altitude is measured from MSL (QNH), height from a chosen datum (QFE), elevation is a point on the ground above MSL, and a flight level is a pressure surface referenced to 1013.2 hPa. Below the transition altitude fly altitudes; at and above the transition level fly flight levels; the transition layer lies in between.',
       hook: 'Altitude: from the sea. Height: from the spot. Elevation: the ground itself.' },
-    { id: 'minalt', short: 'Minimum altitudes', takeaway: 'MSA gives 1,000 ft clearance within 25 NM of a radio aid. MEA adds nav-aid reception and comms to obstacle clearance; MOCA gives obstacle clearance only. MDA belongs to 2D approaches, DA to 3D approaches.', type: 'matrix', icon: 'mountain', ask: 'The minimum altitudes', revise: true, dgca: true,
+    { id: 'minalt', hook: 'MSA: 1,000 ft within 25 NM.', short: 'Minimum altitudes', takeaway: 'MSA gives 1,000 ft clearance within 25 NM of a radio aid. MEA adds nav-aid reception and comms to obstacle clearance; MOCA gives obstacle clearance only. MDA belongs to 2D approaches, DA to 3D approaches.', type: 'matrix', icon: 'mountain', ask: 'The minimum altitudes', revise: true, dgca: true,
       corner: 'Name', cols: ['What it guarantees'],
       rows: [
         { label: 'MSA', cells: [{ v: '300 m (1,000 ft) above everything within 46 km (25 NM) of a radio aid, per sector', key: true }] },
@@ -75,12 +75,12 @@ module.exports = {
         { label: 'MDA/H', cells: [{ v: '2D approach or circling: no descent below without visual reference', key: true }] },
         { label: 'DA/H', cells: [{ v: '3D approach: start the missed approach here if not visual', key: true }] },
       ] },
-    { id: 'datum', short: 'DA vs MDA', takeaway: 'DA/DH is the go-around decision point on a 3D approach, measured from the threshold. MDA/MDH is the floor of a 2D or circling approach, measured from aerodrome elevation.', type: 'pairs', icon: 'scale', ask: 'DA/H versus MDA/H', dgca: true,
+    { id: 'datum', hook: 'DA decides; MDA is a floor.', short: 'DA vs MDA', takeaway: 'DA/DH is the go-around decision point on a 3D approach, measured from the threshold. MDA/MDH is the floor of a 2D or circling approach, measured from aerodrome elevation.', type: 'pairs', icon: 'scale', ask: 'DA/H versus MDA/H', dgca: true,
       pairs: [
         { a: { label: 'DA / DH', body: '**3D** approach (ILS, APV). At DA you **decide**: continue visually or go around. DH is from **threshold** elevation.' }, b: { label: 'MDA / MDH', body: '**2D** approach or circling. You may **level off** at MDA and fly on to the MAPt. MDH is from **aerodrome** elevation (threshold if more than 2 m / 7 ft lower). Circling: always aerodrome elevation.' }, rule: 'Decision = 3D; Minimum descent = 2D.' },
         { a: { label: 'Type A approach', body: 'Minimum **250 ft or above**.' }, b: { label: 'Type B approach', body: 'Minimum **below 250 ft** (Cat I/II/III).' }, rule: 'A = above 250.' },
       ] },
-    { id: 'cats', short: 'Runway categories', takeaway: 'Non-precision: visibility 1,000 m. Cat I: DH 200 ft, RVR 550 m. Cat II: DH 100–200 ft, RVR 300 m. Cat III: DH below 100 ft or none, RVR below 300 m.', type: 'matrix', icon: 'grid', ask: 'Instrument runway categories', revise: true, dgca: true,
+    { id: 'cats', hook: 'Two hundred and 550 for Cat I; one hundred and 300 for Cat II.', short: 'Runway categories', takeaway: 'Non-precision: visibility 1,000 m. Cat I: DH 200 ft, RVR 550 m. Cat II: DH 100–200 ft, RVR 300 m. Cat III: DH below 100 ft or none, RVR below 300 m.', type: 'matrix', icon: 'grid', ask: 'Instrument runway categories', revise: true, dgca: true,
       corner: 'Runway', cols: ['Decision height', 'Visibility / RVR'],
       rows: [
         { label: 'Non-precision', cells: ['(MDH)', { v: 'visibility ≥ 1,000 m', key: true }] },
@@ -96,7 +96,7 @@ module.exports = {
         { text: 'Used to lose height or get established inbound when a reversal entry is not practical.', answer: 'rt' },
         { text: 'Final segment of an NPA flown without levelling off, down to about 50 ft above the threshold.', answer: 'cdfa' },
       ] },
-    { id: 'airspace', short: 'Airspace words', takeaway: 'A control zone starts at the surface, a control area above it. An FIR gives information and alerting; controlled airspace (A–E) gives ATC.', part: 'Airspace words', type: 'pairs', icon: 'layers', ask: 'CTR, CTA, FIR and the rest', dgca: true,
+    { id: 'airspace', hook: 'Zone from the ground, area from above it.', short: 'Airspace words', takeaway: 'A control zone starts at the surface, a control area above it. An FIR gives information and alerting; controlled airspace (A–E) gives ATC.', part: 'Airspace words', type: 'pairs', icon: 'layers', ask: 'CTR, CTA, FIR and the rest', dgca: true,
       pairs: [
         { a: { label: 'Control zone (CTR)', body: 'Controlled airspace **from the surface** to an upper limit.' }, b: { label: 'Control area (CTA)', body: 'Controlled airspace **from a limit above the earth**. A **TMA** is a CTA where routes meet near major aerodromes; an **airway** is a CTA shaped as a corridor.' }, rule: 'Zone touches the ground; area floats.' },
         { a: { label: 'FIR', body: 'Defined airspace where **flight information and alerting service** are given.' }, b: { label: 'Controlled airspace', body: 'Where ATC service is given: Classes **A, B, C, D, E**.' }, rule: 'Every bit of sky is in an FIR; not all of it is controlled.' },

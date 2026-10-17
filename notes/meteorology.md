@@ -462,6 +462,7 @@
 - Width of gust–lull swings = **gustiness**. Two types: **frictional (mechanical)** — flow over rough ground becomes unstable above a critical speed; **thermal** — convection from surface heating or cool air over a warm surface.
 - Increased by buildings, trees, rugged terrain and **steep lapse rates**; least over the open sea and in stable air; **more by day**, least on clear nights with an inversion.
 - **Thermal eddies** are bigger and give stronger gusts than frictional ones; can reach great heights.
+- **Factors**: turbulence and the friction layer are increased by flow over **buildings, trees and rugged country** and by a **steep lapse rate**; less over open sea; **most by day**, **least on a clear night with an inversion** (p.52–53).
 
 ### Diurnal variation of surface wind (p.53–54)
 - **Day**: thermals deepen the friction layer and bring stronger upper wind down → surface wind **stronger, gustier and veered** towards the gradient wind (NH).

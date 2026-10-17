@@ -2,6 +2,7 @@ module.exports = {
   n: 1, title: 'Aerodynamics Basics', tag: 'Terms · airspeeds · Bernoulli · Reynolds number · CP and AC', icon: 'plane', hue: 0, partOfBook: 'Part 2 · Aerodynamics',
   big: 'The physics vocabulary of flight, the chain from indicated to true airspeed and Mach number, the three ways of explaining lift, why viscosity and Reynolds number matter, and where the lift force actually acts.',
   purpose: 'Technical General opens here: definitions, gas laws, dynamic pressure (½ρV²), the IAS→CAS→EAS→TAS chain, Bernoulli and continuity, Reynolds number, and CP vs aerodynamic centre are all standard one-mark questions.',
+  bankLead: 'The Handbook prints no question bank, so these are original questions written for Glidepath from the book’s facts — not the book’s own questions. Your answers are saved.',
   lessons: [
     { id: 'map', type: 'mindmap', short: 'Mind map', icon: 'brain', ask: 'The whole chapter on one page',
       root: { label: 'Aero basics', children: [
@@ -15,7 +16,7 @@ module.exports = {
     { id: 'anatomy', part: 'Words of the wing', type: 'svg', fig: 'aerofoil-anatomy', icon: 'plane', ask: 'Name every part of an aerofoil', dgca: true,
       takeaway: 'Chord line joins leading and trailing edge; the mean camber line runs midway between the surfaces. Angle of attack is chord to relative airflow; angle of incidence is chord to the aircraft datum. Lift is at 90° to the airflow, drag along it, and their resultant (total reaction) acts through the centre of pressure.',
       hook: 'Attack is to the Air; Incidence is In the aircraft.' },
-    { id: 'defs', type: 'matrix', icon: 'list', ask: 'Wing definitions', revise: true, dgca: true,
+    { id: 'defs', takeaway: 'Aspect ratio = span² ÷ area; taper = tip chord ÷ root chord; wash-out = less incidence towards the tip; load factor = lift ÷ weight; the MAC is the chord through the centroid of the wing area.', hook: 'Wash-out washes the tip angle out.', type: 'matrix', icon: 'list', ask: 'Wing definitions', revise: true, dgca: true,
       corner: 'Term', cols: ['Meaning'],
       rows: [
         { label: 'Aspect ratio', cells: [{ v: 'span ÷ mean chord = b² ÷ S', key: true }] },
@@ -30,7 +31,7 @@ module.exports = {
     { id: 'speeds', part: 'Pressures and airspeeds', type: 'svg', fig: 'airspeed-ladder', icon: 'gauge', ask: 'From IAS to Mach number', dgca: true,
       takeaway: 'IAS is the dynamic pressure the ASI reads. Correct it for position error to get CAS, for compressibility to get EAS, and for density to get TAS (TAS = EAS ÷ √(ρ/ρ₀)). Mach number is TAS divided by the local speed of sound, 39√T kt.',
       hook: 'I Can Easily Tell: IAS → CAS → EAS → TAS.' },
-    { id: 'press', type: 'formulas', icon: 'calc', ask: 'Pressure and airspeed formulas', revise: true, dgca: true,
+    { id: 'press', takeaway: 'Dynamic pressure q = ½ρV², so doubling the speed gives four times the q. TAS = EAS ÷ √(ρ/ρ₀) (about twice EAS at 40 000 ft); LSS = 39 √T kt; Mach = TAS ÷ LSS.', hook: 'Double the speed, four times the push.', type: 'formulas', icon: 'calc', ask: 'Pressure and airspeed formulas', revise: true, dgca: true,
       items: [
         { name: 'Dynamic pressure', eq: 'q = ½ ρ V²', note: 'Double the speed → 4× q.', calc: { inputs: [{ k: 'v', label: 'Speed (m/s)', v: 60 }, { k: 'r', label: 'ρ (kg/m³)', v: 1.225 }], f: '0.5*r*v*v', unit: 'Pa' } },
         { name: 'TAS from EAS', eq: 'TAS = EAS ÷ √(ρ/ρ₀)', note: 'At 40,000 ft ρ/ρ₀ ≈ ¼ → TAS ≈ 2 × EAS.', calc: { inputs: [{ k: 'e', label: 'EAS (kt)', v: 250 }, { k: 's', label: 'ρ/ρ₀', v: 0.25 }], f: 'e/Math.sqrt(s)', unit: 'kt' } },
@@ -43,12 +44,12 @@ module.exports = {
       hook: 'Squeeze, speed, suck.' },
     { id: 'magnus', type: 'svg', fig: 'magnus', icon: 'rotate', ask: 'Lift without a wing: the Magnus effect', tier: 'exam',
       takeaway: 'A spinning cylinder or ball drags air round with it (circulation): the flow speeds up on one side and slows on the other, so pressure differs and there is a net force. That is the circulation theory of lift, and why golf balls carry and cricket balls swing.' },
-    { id: 'theories', type: 'pairs', icon: 'scale', ask: 'Three explanations of lift',
+    { id: 'theories', takeaway: 'Lift can be explained three ways: lower pressure over the top (continuity + Bernoulli), air deflected downwards (momentum), or circulation round the aerofoil. They describe the same flow.', hook: 'Pressure, push-down, spin: one lift.', type: 'pairs', icon: 'scale', ask: 'Three explanations of lift',
       pairs: [
         { a: { label: 'Pressure distribution', body: 'Continuity + **Bernoulli**: faster flow over the top → lower static pressure on top.' }, b: { label: 'Momentum', body: 'The wing **deflects air downwards**; force = rate of change of momentum. Grows with AoA and camber.' }, rule: 'Both describe the same flow from different sides.' },
         { a: { label: 'Circulation (Magnus)', body: 'Net **circulation** round the aerofoil speeds flow on top and slows it below.' }, b: { label: 'Equation of continuity', body: '**ρAV = constant**; incompressible below ~0.4 Mach, so **AV = constant**.' }, rule: '' },
       ] },
-    { id: 'rn', part: 'Viscosity and Reynolds number', type: 'pairs', icon: 'waves', ask: 'Viscosity and Reynolds number', dgca: true,
+    { id: 'rn', takeaway: 'Air (a gas) gets more viscous when warmer; liquids get less. A higher Reynolds number (ρVl/μ) gives a more energetic boundary layer that separates later, raising CLmax and the stalling angle.', hook: 'High Reynolds, late separation.', part: 'Viscosity and Reynolds number', type: 'pairs', icon: 'waves', ask: 'Viscosity and Reynolds number', dgca: true,
       pairs: [
         { a: { label: 'Gas (air)', body: 'Viscosity **rises with temperature** (more collisions): falls with height to the tropopause, then steady. μ = 1.79 × 10⁻⁵ kg/m/s at MSL.' }, b: { label: 'Liquid', body: 'Viscosity **falls with temperature** (weaker cohesion).' }, rule: 'Kinematic viscosity (μ/ρ) rises with height: density falls faster.' },
         { a: { label: 'Low Reynolds number', body: 'Laminar layer, **separates early**, more drag.' }, b: { label: 'High Reynolds number', body: 'Earlier turbulent layer with more energy, **separation delayed**, higher **CLmax and stalling angle**.' }, rule: 'RN = ρVl/μ: inertial ÷ viscous forces. Same RN → same aerodynamics (scale effect).' },
@@ -56,7 +57,7 @@ module.exports = {
     { id: 'cp', part: 'Where lift acts', type: 'svg', fig: 'cp-move', icon: 'target', ask: 'Which way does the centre of pressure move?', dgca: true,
       takeaway: 'On a cambered aerofoil the CP moves forward as angle of attack increases (furthest forward at CLmax, then jumps back at the stall). On a symmetric aerofoil it stays near 25% chord. On a flat plate it moves back. The aerodynamic centre, where pitching moment does not change with AoA, is fixed at 25% chord below about 0.4 Mach.',
       hook: 'CP wanders, AC stays at a quarter.' },
-    { id: 'cp-stamp', type: 'stamp', icon: 'check', ask: 'CP or AC?', tier: 'exam',
+    { id: 'cp-stamp', takeaway: 'The centre of pressure is where the total reaction acts; on a cambered wing it moves forward as AoA rises and jumps back at the stall. The aerodynamic centre (about 25% chord, subsonic) is where the pitching moment stays constant.', hook: 'CP wanders, AC stays put.', type: 'stamp', icon: 'check', ask: 'CP or AC?', tier: 'exam',
       stamps: [{ id: 'cp', label: 'Centre of pressure' }, { id: 'ac', label: 'Aerodynamic centre' }],
       cases: [
         { text: 'Point where the pitching moment stays constant with angle of attack.', answer: 'ac' },
@@ -65,7 +66,7 @@ module.exports = {
         { text: 'At 25% chord for any aerofoil in subsonic flow.', answer: 'ac' },
         { text: 'Moves back suddenly at the stall.', answer: 'cp' },
       ] },
-    { id: 'gas', part: 'Laws you will be asked', type: 'matrix', icon: 'sigma', ask: 'Gas laws and laws of motion', revise: true, tier: 'exam',
+    { id: 'gas', takeaway: 'Boyle: PV constant at constant temperature. Charles: V ∝ T at constant pressure. Gay-Lussac: P ∝ T at constant volume. Combined: PV = nRT. Newton 2: force = rate of change of momentum.', hook: 'Boyle squeezes, Charles heats.', part: 'Laws you will be asked', type: 'matrix', icon: 'sigma', ask: 'Gas laws and laws of motion', revise: true, tier: 'exam',
       corner: 'Law', cols: ['Holds constant', 'Statement'],
       rows: [
         { label: 'Boyle', cells: ['Temperature', { v: 'P ∝ 1/V (PV = const)', key: true }] },

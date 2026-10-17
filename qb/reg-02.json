@@ -1,0 +1,277 @@
+{
+"title": "International Organisations and Conventions",
+"src": "Bali AR Ch 2",
+"qs": [
+{
+"n": 1,
+"q": "Which is an obligation for ICAO members?",
+"o": [
+"ICAO approves international ticket prices",
+"ICAO must be told of changes in national regulations",
+"ICAO must be told of differences from the Standards in any Annex"
+],
+"a": 2
+},
+{
+"n": 2,
+"q": "Over the high seas, which rules apply?",
+"o": [
+"Those of the State of the Operator",
+"Those of States next to the high seas",
+"Those established under the Chicago Convention"
+],
+"a": 2
+},
+{
+"n": 3,
+"q": "Annex 14 contains SARPs for:",
+"o": [
+"Air traffic services",
+"Aerodromes",
+"Facilitation"
+],
+"a": 1
+},
+{
+"n": 4,
+"q": "The Warsaw Convention and its amendments deal with:",
+"o": [
+"Limiting the carrier's liability to passengers and goods",
+"Operator licences for scheduled services",
+"Airport security"
+],
+"a": 0
+},
+{
+"n": 5,
+"q": "Annex 17 covers:",
+"o": [
+"Aerodromes",
+"Security",
+"Facilitation"
+],
+"a": 1
+},
+{
+"n": 6,
+"q": "If a State finds it impracticable to comply with an International Standard:",
+"o": [
+"It gives ICAO 45 days' notice of the difference",
+"It gives ICAO 60 days' notice",
+"It gives ICAO immediate notice of the difference"
+],
+"a": 2
+},
+{
+"n": 7,
+"q": "The convention on carriers' liability for passengers, baggage and freight is the:",
+"o": [
+"Hague Convention",
+"Warsaw Convention",
+"Tokyo Convention"
+],
+"a": 1
+},
+{
+"n": 8,
+"q": "The Standards in the Annexes are:",
+"o": [
+"Binding on member States that have not notified ICAO of a difference",
+"Advice for national legislation",
+"Binding on all international airlines"
+],
+"a": 0
+},
+{
+"n": 9,
+"q": "An aircraft flying over another State follows:",
+"o": [
+"The rules of the State overflown, if they follow ICAO",
+"The rules of the State of the Operator",
+"The rules of its State of Registry, to the extent they don't conflict with those of the State overflown"
+],
+"a": 2
+},
+{
+"n": 10,
+"q": "A flight needs a technical landing in a neighbouring State. Which freedom is used?",
+"o": [
+"3rd",
+"4th",
+"2nd"
+],
+"a": 2
+},
+{
+"n": 12,
+"q": "ICAO was established by the Convention of:",
+"o": [
+"Warsaw",
+"Chicago",
+"Montreal"
+],
+"a": 1
+},
+{
+"n": 13,
+"q": "The Rome Convention and its amendments deal with:",
+"o": [
+"Damage by foreign aircraft to third parties on the surface",
+"Offences on board aircraft",
+"Dangerous goods"
+],
+"a": 0
+},
+{
+"n": 14,
+"q": "The convention on offences and certain other acts committed on board aircraft is:",
+"o": [
+"Rome",
+"Tokyo",
+"Chicago"
+],
+"a": 1
+},
+{
+"n": 15,
+"q": "If the commander reasonably believes someone on board has committed, or is about to commit, an offence, they:",
+"o": [
+"May not ask other crew for help",
+"May require passengers to help restrain the person",
+"May deliver the person to the competent authorities"
+],
+"a": 2
+},
+{
+"n": 16,
+"q": "A person is injured by a part falling from a foreign-registered aircraft overhead. Which convention covers it?",
+"o": [
+"Paris",
+"Chicago",
+"Rome"
+],
+"a": 2
+},
+{
+"n": 17,
+"q": "Is India a party to the International Air Transport Agreement, 1944?",
+"o": [
+"Yes",
+"Yes, but not the technical freedoms",
+"No"
+],
+"a": 2,
+"ex": "India ratified the Transit Agreement (freedoms 1–2), not the Transport Agreement."
+},
+{
+"n": 18,
+"q": "The convention for compensation to persons on the surface damaged by foreign aircraft is the:",
+"o": [
+"Paris Convention",
+"Rome Convention",
+"Warsaw Convention"
+],
+"a": 1
+},
+{
+"n": 19,
+"q": "Which Annex covers dangerous goods?",
+"o": [
+"Annex 16",
+"Annex 18",
+"Annex 17"
+],
+"a": 1
+},
+{
+"n": 23,
+"q": "The second freedom of the air is the right:",
+"o": [
+"To fly passengers between two States",
+"To land for a technical stop",
+"To carry cabotage traffic"
+],
+"a": 1
+},
+{
+"n": 24,
+"q": "Which convention makes destroying or damaging air navigation facilities, or endangering a flight, punishable?",
+"o": [
+"Tokyo",
+"Montreal",
+"Warsaw"
+],
+"a": 1
+},
+{
+"n": 25,
+"q": "Under which convention may a commander impose measures on a person committing an offence on board?",
+"o": [
+"Rome",
+"Warsaw",
+"Tokyo"
+],
+"a": 2
+},
+{
+"n": 26,
+"q": "\"Cabotage\" refers to:",
+"o": [
+"Domestic air services",
+"A national carrier",
+"Crop spraying"
+],
+"a": 0
+},
+{
+"n": 27,
+"q": "If ICAO and national regulations conflict, which takes precedence?",
+"o": [
+"ICAO, always",
+"ICAO, for States that have not notified a difference within the set period",
+"National regulations, always"
+],
+"a": 1
+},
+{
+"n": 28,
+"q": "Which convention was a forerunner of the Chicago Convention 1944?",
+"o": [
+"Warsaw 1929",
+"Paris 1919",
+"Ibero-American 1926"
+],
+"a": 1
+},
+{
+"n": 29,
+"q": "ICAO is:",
+"o": [
+"An autonomous specialised agency linked to the UN",
+"A non-specialised part of the UN",
+"Not linked to the UN"
+],
+"a": 0
+},
+{
+"n": 30,
+"q": "The denunciation notice period of the Montreal Convention 1999 is:",
+"o": [
+"90 days",
+"6 months (180 days)",
+"12 months"
+],
+"a": 1
+},
+{
+"n": 31,
+"q": "A State may denounce the Tokyo Convention 1963 by notifying:",
+"o": [
+"ICAO only",
+"ICAO and member States",
+"ICAO, member States and the national regulator"
+],
+"a": 0
+}
+]
+}

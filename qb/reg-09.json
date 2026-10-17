@@ -1,0 +1,217 @@
+{
+"title": "Use of ATS Surveillance Systems",
+"src": "Bali AR Ch 9",
+"qs": [
+{
+"n": 1,
+"q": "The minimum radar separation for aircraft established on the localizer course can be:",
+"o": [
+"2.0 NM between aircraft on adjacent localizer courses",
+"2.5 NM between aircraft on the same localizer course",
+"5.0 NM between aircraft on the same localizer course"
+],
+"a": 1,
+"ex": "Reduced to 2.5 NM on the same final approach track within 10 NM of the threshold."
+},
+{
+"n": 2,
+"q": "Unless the ATS authority prescribes otherwise, the ICAO horizontal radar separation minimum is:",
+"o": [
+"3.5 NM",
+"8 NM",
+"5.0 NM"
+],
+"a": 2
+},
+{
+"n": 3,
+"q": "Where ADS-B is used, an aircraft may be identified by:",
+"o": [
+"Asking the pilot to squawk the assigned Mode A code with C",
+"Direct recognition of the aircraft identification in an ADS-B label",
+"Recognising an assigned discrete code whose setting is verified"
+],
+"a": 1
+},
+{
+"n": 4,
+"q": "An aircraft is maintaining its assigned level as long as its Mode C level is within:",
+"o": [
+"±500 ft in non-RVSM airspace",
+"±200 ft in RVSM airspace",
+"±300 ft in RVSM airspace"
+],
+"a": 1
+},
+{
+"n": 5,
+"q": "A climbing or descending aircraft has crossed a level when Mode C shows it has passed the level in the required direction by:",
+"o": [
+"±300 ft",
+"More than 300 ft",
+"300 ft"
+],
+"a": 1
+},
+{
+"n": 6,
+"q": "SSR information may be used alone to separate aircraft provided:",
+"o": [
+"The pilot acknowledges instructions by specific manoeuvres",
+"Identification is established and kept by discrete SSR codes",
+"Never: it cannot be used for separation"
+],
+"a": 1
+},
+{
+"n": 7,
+"q": "A departing aircraft can be identified if its blip appears within what distance of the runway end?",
+"o": [
+"1 NM",
+"3 NM",
+"5 NM"
+],
+"a": 0
+},
+{
+"n": 8,
+"q": "Separation using MLAT symbols and PSR blips is applied so that:",
+"o": [
+"The distance between the centres of the symbols/blips is never less than the minimum",
+"The distance between their edges is never less than the minimum",
+"The distance between their furthest edges is never more than the minimum"
+],
+"a": 0
+},
+{
+"n": 9,
+"q": "ATC says \"radar contact\". This means:",
+"o": [
+"The aircraft is under positive control",
+"Position reports may be omitted",
+"The aircraft has been radar identified"
+],
+"a": 2
+},
+{
+"n": 10,
+"q": "A radar controller says \"fly heading 030\". The pilot flies:",
+"o": [
+"030° magnetic (in still air, flying the magnetic track)",
+"030° compass",
+"030° true"
+],
+"a": 0
+},
+{
+"n": 11,
+"q": "Which Mode A code indicates unlawful interference?",
+"o": [
+"7700",
+"7600",
+"7500"
+],
+"a": 2
+},
+{
+"n": 12,
+"q": "Established on the airway, you are told to \"resume own navigation\". It means:",
+"o": [
+"Radar service is terminated and you must make position reports",
+"You take responsibility for your own navigation",
+"Contact the centre at the next reporting point"
+],
+"a": 1
+},
+{
+"n": 13,
+"q": "What does \"radar contact\" signify?",
+"o": [
+"Your aircraft is identified on the radar display and radar instructions will be given until identification is terminated",
+"You'll get traffic advisories until told the service has ended",
+"ATC receives your transponder and will vector you until contact is lost"
+],
+"a": 0
+},
+{
+"n": 14,
+"q": "Without SSR, radar identification may be achieved by:",
+"o": [
+"One or more heading changes of 10°",
+"One or more heading changes of 45°",
+"One or more heading changes of 30° or more"
+],
+"a": 2
+},
+{
+"n": 15,
+"q": "With SSR, an aircraft may be identified by:",
+"o": [
+"Asking the pilot to switch the transponder OFF",
+"Asking the pilot to switch from ON to STBY",
+"Observing compliance with an instruction to switch from ON to STBY and back to ON"
+],
+"a": 2
+},
+{
+"n": 16,
+"q": "\"Air traffic control does not prevent collisions with terrain.\" This is:",
+"o": [
+"Wrong: they do",
+"True except for IFR flights in IMC",
+"True, except when an IFR flight is being radar vectored"
+],
+"a": 2
+},
+{
+"n": 17,
+"q": "Which Mode A code indicates an emergency?",
+"o": [
+"7600",
+"7500",
+"7700"
+],
+"a": 2
+},
+{
+"n": 18,
+"q": "One function of a radar unit providing approach control is to:",
+"o": [
+"Conduct surveillance radar approaches",
+"Apply horizontal separation less than 5 NM",
+"Reduce separation minima if pilots accept"
+],
+"a": 0
+},
+{
+"n": 19,
+"q": "The primary duty of a radar unit is to:",
+"o": [
+"Help aircraft locate storms",
+"Provide radar separation",
+"Assist aircraft whose navigation seems unsatisfactory"
+],
+"a": 1
+},
+{
+"n": 20,
+"q": "Vectored to an airway, you're told to \"resume own navigation\". It means:",
+"o": [
+"ATC will no longer give advisories",
+"You're still in radar contact but must make position reports",
+"Maintain the airway using your own navigation equipment"
+],
+"a": 2
+},
+{
+"n": 21,
+"q": "Aircraft with a serviceable transponder operate it:",
+"o": [
+"At all times in flight, whether or not in airspace where SSR is used",
+"Only where SSR is used for ATS",
+"When the pilot wishes"
+],
+"a": 0
+}
+]
+}

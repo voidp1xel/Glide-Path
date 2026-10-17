@@ -1,0 +1,494 @@
+{
+ "id": "nav-sp7",
+ "title": "Sample Paper 7",
+ "src": "R.K. Bali — Air Navigation, Sample Paper 7",
+ "text": "nav",
+ "start": 20204,
+ "end": 20650,
+ "key": "bbcbcaacbcccacaacabb bacbacbcbabcacabcbcb bacccbbaabbcacccacba baabcaccbabababcbaba caccababcababbbcbcac",
+ "fix": {
+  "1": {
+   "q": "The nominal scale of a Lambert conformal conic chart is correct at the?"
+  },
+  "3": {
+   "q": "In which of the following projections does the plane surface touch the earth at one of the poles?"
+  },
+  "4": {
+   "q": "On a Lambert chart, the distance between parallels of latitude spaced the same number of degrees apart:",
+   "o": [
+    "Is constant throughout the chart.",
+    "Reduces between and expands outside the standard parallels.",
+    "Expands between and expands outside the standard parallels."
+   ]
+  },
+  "5": {
+   "q": "On a polar stereographic chart showing the South Pole, a straight line joins A (70°S 065°E) and B (70°S 025°W). The true course on departure from A is?",
+   "o": [
+    "250°(T)",
+    "315°(T)",
+    "225°(T)"
+   ]
+  },
+  "7": {
+   "o": [
+    "includes changes brought about by subsequent clearances.",
+    "excludes changes brought about by subsequent clearances.",
+    "includes changes brought about by subsequent amendments made by the pilot in command."
+   ]
+  },
+  "8": {
+   "q": "In Item 15 of an ICAO flight plan, a cruising speed of 250 knots is written as:"
+  },
+  "9": {
+   "q": "A radio altimeter depends on:"
+  },
+  "11": {
+   "q": "VMCA is defined as the minimum speed, whilst in the air, at which directional control can be maintained with one engine inoperative with:",
+   "o": [
+    "use of full rudder deflection",
+    "a maximum of 5° bank",
+    "both of the above"
+   ]
+  },
+  "12": {
+   "q": "Maximum allowable take-off mass 64 400 kg, maximum landing mass 56 200 kg, maximum zero fuel mass 53 000 kg, dry operating mass 35 500 kg, traffic load 14 500 kg, trip fuel 4900 kg, take-off fuel 7400 kg. Find the maximum possible additional load.",
+   "o": [
+    "5600 kg",
+    "7000 kg",
+    "3000 kg"
+   ]
+  },
+  "13": {
+   "q": "Dry operating mass 33 510 kg, load 7600 kg, final reserve fuel 983 kg, alternate fuel 1100 kg, contingency fuel 102 kg. The estimated landing mass at the alternate should be:",
+   "o": [
+    "42 195 kg",
+    "42 093 kg",
+    "42 210 kg"
+   ]
+  },
+  "16": {
+   "q": "An NDB signal crossing from land to sea ______ in speed and bends ______ the normal:",
+   "o": [
+    "increases, away from",
+    "decreases, towards",
+    "decreases, away from"
+   ]
+  },
+  "17": {
+   "o": [
+    "219 NM",
+    "159 NM",
+    "174 NM"
+   ]
+  },
+  "19": {
+   "a": "a"
+  },
+  "22": {
+   "o": [
+    "Pulse Repetition Time, Pulse Width.",
+    "Continuous Wave, Pulse Repetition Period.",
+    "Pulse Width, Speed of Propagation."
+   ]
+  },
+  "25": {
+   "q": "How does a forward CG affect the aircraft in terms of stall angle, range and endurance?"
+  },
+  "27": {
+   "q": "When deviation is not zero, which track do we follow when flying a VOR radial?"
+  },
+  "28": {
+   "q": "If the number of passengers is not known, what has to be filled in flight plan Item 19?",
+   "o": [
+    "P/NSP (Not Specified)",
+    "P/NKN (Not Known)",
+    "P/TBN (To Be Notified)"
+   ]
+  },
+  "29": {
+   "q": "An aircraft's MTOM is 140 000 kg; on the day it weighs 130 000 kg. What should be entered as the wake turbulence category?"
+  },
+  "31": {
+   "q": "The more fundamental parameter that triggers a stall warning is:",
+   "o": [
+    "High IAS",
+    "High AOA",
+    "Low TAS"
+   ]
+  },
+  "32": {
+   "q": "An aircraft at 24 380 ft is at a ground range of 30 NM from a DME. What is the indicated (slant) range?"
+  },
+  "33": {
+   "q": "If, due to an emergency, the pilot descends at a greater rate, he may expect:",
+   "o": [
+    "Greater groundspeed, longer roll distance and undershooting of the runway",
+    "Greater airspeed, longer roll distance and proper control of the aircraft",
+    "Greater groundspeed, longer roll distance and overshooting of the runway"
+   ]
+  },
+  "35": {
+   "q": "The altimeter consists of one or several aneroid capsules located in a sealed casing. The pressures in the aneroid capsule and casing are respectively:"
+  },
+  "38": {
+   "q": "What is the true direction and distance (in NM) from point P (48° 33'S, 57° 09'E) to point Q (71° 23'S, 57° 09'E)?",
+   "o": [
+    "360°, 1370 NM",
+    "180°, 1370 NM",
+    "180°, 754 NM"
+   ]
+  },
+  "40": {
+   "q": "Which band does a radio altimeter operate in?",
+   "o": [
+    "4200–4400 kHz",
+    "4200–4400 MHz",
+    "4200–4400 GHz"
+   ]
+  },
+  "41": {
+   "q": "The failure of the radio altimeter would:",
+   "o": [
+    "result in warning of proximity to the ground not being available during cruise",
+    "increase the risk of CFIT",
+    "both of the above"
+   ]
+  },
+  "42": {
+   "q": "What does the best angle of climb speed achieve?",
+   "o": [
+    "Maximum rate of climb for a given altitude and weight.",
+    "The maximum height gain without sacrificing too much forward progress (best gradient).",
+    "Efficient ascent in terms of fuel consumption."
+   ]
+  },
+  "43": {
+   "o": [
+    "1300, 6th Jan",
+    "0040, 7th Jan",
+    "0010, 7th Jan"
+   ]
+  },
+  "44": {
+   "q": "An aircraft is said to be 'neutrally stable' if the centre of gravity is located at the:"
+  },
+  "45": {
+   "q": "ILS and GNSS are written in the flight plan (Item 10) as:"
+  },
+  "46": {
+   "q": "GPS satellite constellations are typically deployed in orbits that are inclined relative to:"
+  },
+  "47": {
+   "q": "Which of the following combinations gives the poorest aircraft performance?",
+   "o": [
+    "high humidity, low altitude, high temperature.",
+    "high humidity, high altitude, high temperature.",
+    "low humidity, low altitude, low temperature."
+   ]
+  },
+  "48": {
+   "q": "During a VFR flight, at a navigation check point the remaining usable fuel is 60 US gal. The reserve fuel is 12 US gal. According to the flight plan the remaining flight time is 1 h 35 min. Calculate the highest acceptable rate of consumption for the rest of the trip.",
+   "o": [
+    "30.3 US gal/hr",
+    "33.6 US gal/hr",
+    "35.5 US gal/hr"
+   ]
+  },
+  "49": {
+   "q": "The operating mass of an aircraft is:",
+   "o": [
+    "the dry operating mass plus the take off fuel mass.",
+    "the empty mass plus the take off fuel mass.",
+    "the empty mass plus crew, crew baggage and catering."
+   ]
+  },
+  "50": {
+   "q": "The coded identification of a VOR is transmitted about every:"
+  },
+  "51": {
+   "q": "An aircraft heading 140° (M) bears 320° (T) from a VOR (variation 10° E). The bearing selected on the OBS which would centre the VOR/ILS deviation indicator with TO showing would be:"
+  },
+  "52": {
+   "o": [
+    "quickly and steadily turning left or right",
+    "quickly and steadily increasing/decreasing ground speed",
+    "quickly and steadily descending, climbing, or adjusting vertical speed"
+   ]
+  },
+  "53": {
+   "q": "",
+   "o": []
+  },
+  "55": {
+   "q": "Unless otherwise stated on the charts, the routes shown for SIDs are given as:",
+   "o": [
+    "Magnetic heading",
+    "True course",
+    "Magnetic course"
+   ]
+  },
+  "56": {
+   "q": "At night, a position report has to be made to ATC at a distance of 750 NM from the ground station. Which frequency should be used?",
+   "o": [
+    "17 296 kHz",
+    "123.9 MHz",
+    "5649 kHz"
+   ]
+  },
+  "57": {
+   "q": "An aircraft flying an ILS is receiving an excess of 90 Hz modulation on both localiser and glide path. What will be the fly indications on the CDI?",
+   "o": [
+    "Fly right and fly down",
+    "Fly left and fly down",
+    "Fly right and fly up"
+   ]
+  },
+  "58": {
+   "q": "A multi-engine aircraft is on an IFR flight. Trip fuel 65 USG; contingency fuel 5% of trip; alternate fuel including final reserve 17 USG; usable fuel at departure 93 USG. At the point half way to destination, fuel consumed is 40 USG. Assuming fuel consumption remains unchanged, which statement is correct?"
+  },
+  "60": {
+   "q": "An aircraft on heading 340° M has an ADF reading of 190°. What will be the indication on the RMI?",
+   "o": [
+    "Pointer reads 170°, tail reads 350°",
+    "Pointer reads 350°, tail reads 170°",
+    "Pointer reads 150°, tail reads 330°"
+   ]
+  },
+  "61": {
+   "o": [
+    "7 days",
+    "28 days",
+    "depends upon operational requirement"
+   ]
+  },
+  "62": {
+   "o": [
+    "to read information only",
+    "to update the database",
+    "to change information once in 28 days"
+   ]
+  },
+  "63": {
+   "o": [
+    "Is used to establish aircraft magnetic heading during a compass swing.",
+    "Is the compass used as reference during landing.",
+    "Is a compass on which compass direction for landing may be set."
+   ]
+  },
+  "65": {
+   "q": "An aircraft plans to depart London at 1000 UTC and arrive at Munich (EDDM) at 1215 UTC. In ATC flight plan Item 16 the entry should be:"
+  },
+  "66": {
+   "q": "An aeroplane is flying from one airport to another. In cruise the CAS is 150 kt, TAS 180 kt and GS 210 kt. The speed box of the flight plan shall be filled as:"
+  },
+  "68": {
+   "o": [
+    "VOR and DME call signs were the same and broadcast with the same pitch",
+    "DME call sign is the one with the lower pitch that was broadcast several times",
+    "DME call sign is the one with the higher pitch that was broadcast only once"
+   ]
+  },
+  "70": {
+   "q": "In the southern hemisphere, during landing in a westerly direction, the magnetic compass will indicate:",
+   "a": "c"
+  },
+  "71": {
+   "o": [
+    "ASI and altimeter both",
+    "Airspeed indicator only",
+    "Altimeter only"
+   ]
+  },
+  "72": {
+   "q": "Maximum allowable take-off mass 64 400 kg; maximum landing mass 56 200 kg; maximum zero fuel mass 53 000 kg; dry operating mass 35 500 kg; estimated load 14 500 kg; estimated trip fuel 4900 kg; minimum take-off fuel 7400 kg. Find the maximum additional load."
+  },
+  "73": {
+   "o": [
+    "four modes, each 4096 codes.",
+    "two modes, each of 4096 codes.",
+    "two modes, each 1024 codes."
+   ]
+  },
+  "75": {
+   "q": "If the SSR transponder IDENT button is pressed, an identification pulse is automatically and continuously transmitted for:",
+   "o": [
+    "20 seconds, 4.35 µs before the last framing pulse",
+    "20 seconds, 4.35 µs after the last framing pulse",
+    "10 seconds, 4.35 µs after the last framing pulse"
+   ]
+  },
+  "76": {
+   "q": "Distance from P to Q is 400 NM, wind component P→Q +30 kt and Q→P −40 kt. All-engines TAS 160 kt. Flight fuel 2450 kg and safe endurance 4 hours. Calculate the PNR for return to P. What are the distance P→PNR and the distance from PNR to Q?",
+   "o": [
+    "155 NM, 45 NM",
+    "255 NM, 155 NM",
+    "294 NM, 106 NM"
+   ]
+  },
+  "78": {
+   "q": "An aircraft is flying straight and level over a warm air mass. The altimeter reading will be:",
+   "o": [
+    "less than the real height",
+    "correct",
+    "greater than the real height"
+   ]
+  },
+  "79": {
+   "q": "Minimum number of GNSS satellites required for each of the following: 1. 3D operation with RAIM and isolation of a faulty satellite 2. Obtaining a 3D position 3. 2D operation.",
+   "o": [
+    "5, 4, 3",
+    "6, 4, 3",
+    "7, 5, 4"
+   ]
+  },
+  "80": {
+   "q": "In a Doppler VOR (DVOR) the reference signal is ______, the bearing signal is ______ and the direction of rotation of the bearing signal is ______.",
+   "o": [
+    "AM, FM, anticlockwise",
+    "AM, FM, clockwise",
+    "FM, AM, anticlockwise"
+   ]
+  },
+  "81": {
+   "q": "The frequency and wavelength of a radio altimeter are?",
+   "o": [
+    "4.2–4.4 GHz and 7.14–6.82 m",
+    "4.2–4.4 MHz and 7.14–6.82 cm",
+    "4.2–4.4 GHz and 7.14–6.82 cm"
+   ]
+  },
+  "84": {
+   "q": "A preventive RA in TCAS II (no change in vertical speed required) is:"
+  },
+  "85": {
+   "q": "The purpose of the latitude rider nut in a DGI is to:",
+   "o": [
+    "correct for earth rate compensation.",
+    "correct for transport wander.",
+    "correct for real wander."
+   ]
+  },
+  "87": {
+   "o": [
+    "alternate dots and dashes with an amber light",
+    "continuous dots with a white light",
+    "continuous dashes with an amber light"
+   ]
+  },
+  "88": {
+   "q": "An aircraft takes off from aerodrome ALPHA (elevation 1483 ft, QFE 963 hPa, temperature 32 °C). Five minutes later, passing 5000 ft on QFE, the second altimeter set to 1013 hPa will indicate approximately:",
+   "o": [
+    "6900 ft",
+    "6400 ft",
+    "6000 ft"
+   ]
+  },
+  "90": {
+   "q": "When descending through an isothermal layer at a constant Mach number, the TAS will ______, the CAS will ______ and the LSS will ______.",
+   "o": [
+    "remain constant, increase, remain constant.",
+    "decrease, decrease, remain constant.",
+    "increase, increase, decrease."
+   ]
+  },
+  "91": {
+   "q": "How many feet do you have to climb to reach FL75? Departure aerodrome elevation 1500 ft, QNH 1023 hPa, temperature ISA, 1 hPa = 30 ft.",
+   "o": [
+    "7800 ft",
+    "6300 ft",
+    "5700 ft"
+   ]
+  },
+  "92": {
+   "q": "The time to reach the cruising level at a given gross mass is 36 minutes and the distance travelled is 157 NM (nil wind). What will be the distance travelled with an average tailwind component of 60 kt?",
+   "o": [
+    "193 NM",
+    "228 NM",
+    "175 NM"
+   ]
+  },
+  "93": {
+   "o": [
+    "120°",
+    "130°",
+    "140°"
+   ]
+  },
+  "94": {
+   "o": [
+    "aircraft altitude.",
+    "time passed at a given altitude.",
+    "mach number of the aircraft."
+   ]
+  },
+  "95": {
+   "q": "Distance from P to Q is 400 NM, wind component P→Q +30 kt and Q→P −40 kt. All-engines TAS 160 kt. Flight fuel 2450 kg and safe endurance 4 hours. Calculate the distance and time to the equal-time point between P and Q for a reduced TAS of 130 kt after one engine fails.",
+   "o": [
+    "56 NM, 96 minutes",
+    "144 NM, 45 minutes",
+    "162 NM, 51 minutes"
+   ]
+  },
+  "96": {
+   "q": "A typical airborne weather radar (AWR) is gyro-stabilised, within limits, in:",
+   "o": [
+    "pitch, roll and yaw",
+    "pitch and yaw",
+    "pitch and roll"
+   ]
+  },
+  "97": {
+   "o": [
+    "the space segment, the earth segment and the user segment.",
+    "the space segment, the control segment and the user segment.",
+    "the space segment, the control segment and the clock segment."
+   ]
+  },
+  "99": {
+   "q": "If one of two static systems is not calibrated for position error, what will happen during high speed cruise?",
+   "o": [
+    "the non-compensated altimeter will indicate a lower altitude.",
+    "the non-compensated altimeter will indicate a higher altitude.",
+    "the non-compensated altimeter will indicate a correct altitude."
+   ]
+  },
+  "100": {
+   "q": "The main design functions of Secondary Surveillance Radar (SSR) Mode S are:",
+   "o": [
+    "continuous automatic position reporting using Global Positioning System (GPS) satellites.",
+    "improved long range (HF) communication capability.",
+    "data linking, ATC surveillance, reduced R/T communications and use by TCAS II."
+   ]
+  }
+ },
+ "drop": [
+  30,
+  53,
+  54
+ ],
+ "ex": {
+  "5": "A 90° change of longitude westwards at 70°S. In the southern hemisphere the straight line (great circle) leaves A heading towards the pole: 270° − 45° = 225°.",
+  "12": "TOM limits: MTOM 64 400; MLM + trip 61 100; MZFM + take-off fuel 60 400 → 60 400. Traffic = 60 400 − 7400 − 35 500 = 17 500 kg, i.e. 3000 kg more than the 14 500 kg planned.",
+  "13": "Landing mass at the alternate = DOM + load + final reserve + unused contingency = 33 510 + 7600 + 983 + 102 = 42 195 kg.",
+  "17": "189 NAM in 30 min → TAS 378 kt. A 30 kt headwind for 30 min removes 15 NM: 174 NM.",
+  "19": "Book key prints (b). A transverse Mercator is correct along its central meridian, so it suits areas with a large north–south extent; the correct answer is (a).",
+  "32": "24 380 ft ≈ 4.0 NM. Slant range = √(30² + 4.0²) ≈ 30.26 NM.",
+  "38": "Same meridian, Q further south: track 180°. Δlat = 71° 23' − 48° 33' = 22° 50' = 1370 NM.",
+  "39": "MH = 252 − 3 = 249°, TH = 249 + 22 = 271°, TT = 271 + 9 = 280°.",
+  "43": "Δlong = 160° = 10 h 40 min, east is ahead: 1330 + 1040 = 0010 on 7th January.",
+  "48": "(60 − 12) US gal / 1.583 h ≈ 30.3 US gal/h.",
+  "51": "Radial = 320°T − 10°E = 310° M. To show TO, select the reciprocal: 130°.",
+  "56": "750 NM needs HF; at night the lower HF frequency is used: 5649 kHz.",
+  "58": "Planned reserve = 3.25 + 17 = 20.25 USG. Consumption is running at 80 USG for the trip, so 53 USG remain and 40 USG more are needed, leaving 13 USG — the destination can be reached but not with reserves intact.",
+  "60": "Magnetic bearing = 340 + 190 = 530 − 360 = 170°; the tail shows 350°.",
+  "65": "Item 16 shows total EET: 1000 → 1215 = 0215.",
+  "70": "Book key prints (a). In the southern hemisphere deceleration on an east or west heading makes the compass show an apparent turn towards north (the reverse of 'ANDS' in the northern hemisphere), so the correct answer is (c).",
+  "76": "GS out 190, home 120. PNR = 4 × 190 × 120 / 310 ≈ 294 NM, leaving 106 NM to Q.",
+  "82": "GS out ≈ 84 kt, GS home ≈ 115 kt. Time out = 2 h × 115 / 199 ≈ 1.16 h → ≈ 97 NM.",
+  "83": "CP = D × H / (O + H) = 500 × 360 / (240 + 360) = 300 NM.",
+  "88": "QFE 963 is 50 hPa below 1013, about 1400 ft at roughly 28 ft/hPa near the ground, so the 1013 altimeter shows about 5000 + 1400 = 6400 ft.",
+  "91": "FL75 with QNH 1023 is about 7500 + 300 = 7800 ft amsl; minus the 1500 ft elevation = 6300 ft to climb.",
+  "92": "36 min with a 60 kt tailwind adds 36 NM: 157 + 36 = 193 NM.",
+  "93": "For a given course, drift is greatest with the wind at 90° to it: 040 + 90 = 130°."
+ }
+}

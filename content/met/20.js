@@ -15,7 +15,7 @@ module.exports = {
     { id: 'cells', part: 'The three cells', type: 'svg', fig: 'three-cells', icon: 'layers', ask: 'How does the three-cell model work?', dgca: true,
       takeaway: 'Hadley cell: air rises at the ITCZ, flows poleward aloft, sinks at ~30° (subtropical high, deserts) and returns as the trade winds. Ferrel cell: surface westerlies to ~60°, rising at the polar front. Polar cell: air sinks at the pole and spreads out as polar easterlies.',
       hook: 'H-F-P from equator to pole: Hot Hadley, Fair Ferrel, Polar.' },
-    { id: 'belts', type: 'matrix', icon: 'list', ask: 'The planet\'s belts', revise: true, dgca: true,
+    { id: 'belts', takeaway: 'From the equator outwards: doldrums (ITCZ, rising air and rain), trade winds (0–30°), horse latitudes (30–40°, sinking air and deserts), westerlies (35–60°), the polar front (about 60°) and the polar easterlies.', hook: 'Rain, trades, deserts, westerlies, fronts, polar.', type: 'matrix', icon: 'list', ask: 'The planet\'s belts', revise: true, dgca: true,
       corner: 'Belt', cols: ['Latitude', 'What happens'],
       rows: [
         { label: 'Doldrums / ITCZ', cells: ['≈ 0° (follows sun)', 'Rising air, calms, CB, heavy rain; equatorial low'] },
@@ -25,7 +25,7 @@ module.exports = {
         { label: 'Polar front', cells: ['≈ 60°', 'Temperate low; frontal depressions'] },
         { label: 'Polar easterlies', cells: ['60–90°', 'Cold outflow from the polar high'] },
       ] },
-    { id: 'steer', part: 'Upper winds', type: 'pairs', icon: 'route', ask: 'Which way do weather systems move?',
+    { id: 'steer', takeaway: 'Weather systems are steered by the upper winds: mid-latitude lows move west to east with the westerlies; tropical disturbances drift west in the easterlies and recurve when they reach the westerlies.', hook: 'Upper winds steer the weather.', part: 'Upper winds', type: 'pairs', icon: 'route', ask: 'Which way do weather systems move?',
       pairs: [
         { a: { label: 'Mid-latitude systems', body: 'Steered by the **zonal westerlies** → move **W to E**.' }, b: { label: 'Tropical disturbances', body: 'Steered by upper **easterlies** → move **westward**; recurve (opposite way) on reaching the westerlies.' }, rule: 'Upper winds are the steering current.' },
         { a: { label: 'Standing waves', body: 'Season-averaged stationary patterns from mountains, continents, oceans, SST.' }, b: { label: 'Rossby waves', body: 'Planetary meanders of the upper westerlies; the jet stream\'s loops (Carl Rossby, 1930s).' }, rule: 'Both alter storm tracks.' },

@@ -1,0 +1,371 @@
+{
+ "id": "hb-21",
+ "title": "Compasses and Gyroscopic Instruments",
+ "src": "Practice questions written for Glidepath from the Aviator's Handbook, Part 6, 6-9 to 6-17 (not printed in the book: the Handbook has no question bank)",
+ "text": "avh",
+ "start": 1,
+ "end": 3,
+ "key": "",
+ "add": [
+  {
+   "n": 1,
+   "q": "A direct-reading compass must be sensitive to the earth's:",
+   "o": [
+    "Dip angle",
+    "Vertical component (Z)",
+    "Total field",
+    "Horizontal component (H)"
+   ],
+   "a": 3,
+   "ex": "Book 6-9."
+  },
+  {
+   "n": 2,
+   "q": "Deadbeat (aperiodic) means the compass card:",
+   "o": [
+    "Is very sensitive to dip",
+    "Settles quickly without oscillating",
+    "Has no liquid",
+    "Spins freely"
+   ],
+   "a": 1,
+   "ex": "Book 6-9."
+  },
+  {
+   "n": 3,
+   "q": "Compass acceleration error is zero on headings of:",
+   "o": [
+    "East and west",
+    "North and south",
+    "All quadrantals",
+    "North only"
+   ],
+   "a": 1,
+   "ex": "Book 6-9."
+  },
+  {
+   "n": 4,
+   "q": "In the northern hemisphere, accelerating on an east or west heading shows an apparent turn towards:",
+   "o": [
+    "West",
+    "North",
+    "East",
+    "South"
+   ],
+   "a": 1,
+   "ex": "ANDS."
+  },
+  {
+   "n": 5,
+   "q": "In the northern hemisphere, turning through north the compass:",
+   "o": [
+    "Spins",
+    "Over-reads (leads)",
+    "Under-reads (lags)",
+    "Reads correctly"
+   ],
+   "a": 2,
+   "ex": "UNOS."
+  },
+  {
+   "n": 6,
+   "q": "Compass turning error is zero when passing through:",
+   "o": [
+    "East or west",
+    "North",
+    "South",
+    "Any quadrantal heading"
+   ],
+   "a": 0,
+   "ex": "Book 6-9."
+  },
+  {
+   "n": 7,
+   "q": "Coefficient B equals:",
+   "o": [
+    "(N − S) ÷ 2",
+    "(Deviation on east − deviation on west) ÷ 2",
+    "Mean of eight headings",
+    "(E + W) ÷ 2"
+   ],
+   "a": 1,
+   "ex": "Corrected on an easterly heading."
+  },
+  {
+   "n": 8,
+   "q": "Coefficient C is corrected on a heading of:",
+   "o": [
+    "045°",
+    "West",
+    "East",
+    "North"
+   ],
+   "a": 3,
+   "ex": "C = (N − S) ÷ 2."
+  },
+  {
+   "n": 9,
+   "q": "Coefficient A is caused by:",
+   "o": [
+    "Soft iron induced by Z",
+    "Fore-and-aft hard iron",
+    "Athwartships magnetism",
+    "Lubber-line misalignment"
+   ],
+   "a": 3,
+   "ex": "Corrected by rotating the compass."
+  },
+  {
+   "n": 10,
+   "q": "A compass swing is needed after:",
+   "o": [
+    "A tyre change",
+    "Refuelling",
+    "Every flight",
+    "A lightning strike"
+   ],
+   "a": 3,
+   "ex": "Also latitude change, component change, storage."
+  },
+  {
+   "n": 11,
+   "q": "The flux valve is excited at 400 Hz and gives an output at:",
+   "o": [
+    "1200 Hz",
+    "800 Hz",
+    "400 Hz",
+    "200 Hz"
+   ],
+   "a": 1,
+   "ex": "Second harmonic."
+  },
+  {
+   "n": 12,
+   "q": "The flux valve detector is mounted on a Hooke's joint so that it is:",
+   "o": [
+    "Free in pitch and roll but fixed in azimuth",
+    "Fully fixed",
+    "Free in azimuth only",
+    "Free in all axes"
+   ],
+   "a": 0,
+   "ex": "Book 6-11."
+  },
+  {
+   "n": 13,
+   "q": "Gyro rigidity increases with:",
+   "o": [
+    "Higher friction",
+    "Smaller rotor mass",
+    "Higher RPM and greater moment of inertia",
+    "Lower RPM"
+   ],
+   "a": 2,
+   "ex": "Book 6-13."
+  },
+  {
+   "n": 14,
+   "q": "Precession acts:",
+   "o": [
+    "180° from the torque",
+    "At the point of torque",
+    "90° on from the applied torque in the direction of rotation",
+    "Directly opposite the torque"
+   ],
+   "a": 2,
+   "ex": "Book 6-13."
+  },
+  {
+   "n": 15,
+   "q": "Apparent drift of a horizontal-axis gyro is:",
+   "o": [
+    "Zero at the poles",
+    "15 × sin latitude °/h",
+    "15 °/h everywhere",
+    "15 × cos latitude °/h"
+   ],
+   "a": 1,
+   "ex": "Max at the poles."
+  },
+  {
+   "n": 16,
+   "q": "Drift is movement of the spin axis in the:",
+   "o": [
+    "Horizontal plane",
+    "Vertical plane",
+    "Lateral plane",
+    "Fore–aft plane"
+   ],
+   "a": 0,
+   "ex": "Topple is vertical."
+  },
+  {
+   "n": 17,
+   "q": "The turn and slip indicator uses a:",
+   "o": [
+    "Earth gyro with two",
+    "Tied gyro with two",
+    "Space gyro",
+    "Rate gyro with one degree of freedom"
+   ],
+   "a": 3,
+   "ex": "THAR1."
+  },
+  {
+   "n": 18,
+   "q": "The artificial horizon uses a gyro with a:",
+   "o": [
+    "Horizontal axis, rate",
+    "Free space gyro",
+    "Horizontal axis, tied",
+    "Vertical spin axis, earth-tied"
+   ],
+   "a": 3,
+   "ex": "AVE2."
+  },
+  {
+   "n": 19,
+   "q": "A rate-one turn is:",
+   "o": [
+    "1° per second",
+    "360° per minute",
+    "6° per second",
+    "3° per second"
+   ],
+   "a": 3,
+   "ex": "Two-minute turn."
+  },
+  {
+   "n": 20,
+   "q": "With the slip ball displaced outward in a turn, the aircraft is:",
+   "o": [
+    "Balanced",
+    "Skidding",
+    "Slipping",
+    "Stalling"
+   ],
+   "a": 1,
+   "ex": "Too much rudder."
+  },
+  {
+   "n": 21,
+   "q": "If the turn indicator rotor runs slow, the indicator:",
+   "o": [
+    "Under-reads the rate of turn",
+    "Is unaffected",
+    "Over-reads",
+    "Shows a slip"
+   ],
+   "a": 0,
+   "ex": "Less precession."
+  },
+  {
+   "n": 22,
+   "q": "An air-driven artificial horizon during acceleration shows a false:",
+   "o": [
+    "Descent only",
+    "Descent and bank to the right",
+    "Climb and bank to the right",
+    "Climb and bank to the left"
+   ],
+   "a": 3,
+   "ex": "Book 6-16."
+  },
+  {
+   "n": 23,
+   "q": "Direct-reading compass accuracy (book) is about:",
+   "o": [
+    "±30°",
+    "±1°",
+    "±10°",
+    "±0.1°"
+   ],
+   "a": 2,
+   "ex": "Remote-indicating ±1°."
+  },
+  {
+   "n": 24,
+   "q": "Compass liquid must have:",
+   "o": [
+    "Low expansion, a low freezing point and a high boiling point",
+    "Opaque colour",
+    "High viscosity",
+    "A high freezing point"
+   ],
+   "a": 0,
+   "ex": "Book 6-9."
+  },
+  {
+   "n": 25,
+   "q": "Hard-iron aircraft magnetism is:",
+   "o": [
+    "Permanent and independent of heading",
+    "Zero at the poles",
+    "Caused by the compass",
+    "Induced and varies with heading"
+   ],
+   "a": 0,
+   "ex": "Soft iron varies with heading."
+  },
+  {
+   "n": 26,
+   "q": "Coefficient B is maximum on headings of:",
+   "o": [
+    "North and south",
+    "North only",
+    "The quadrantals",
+    "East and west"
+   ],
+   "a": 3,
+   "ex": "Varies as sin heading."
+  },
+  {
+   "n": 27,
+   "q": "Slaving keeps the DG aligned at about:",
+   "o": [
+    "15° per hour",
+    "1° per second",
+    "10° per minute",
+    "3° per minute"
+   ],
+   "a": 3,
+   "ex": "Book 6-11."
+  },
+  {
+   "n": 28,
+   "q": "A DG's latitude nut on the inner gimbal corrects:",
+   "o": [
+    "Gimbal error",
+    "Apparent (earth-rate) drift",
+    "Transport wander",
+    "Real wander"
+   ],
+   "a": 1,
+   "ex": "Book 6-14."
+  },
+  {
+   "n": 29,
+   "q": "Transport wander is zero when flying:",
+   "o": [
+    "At high speed",
+    "At the equator only",
+    "East or west",
+    "North or south along a meridian"
+   ],
+   "a": 3,
+   "ex": "Rate ∝ E/W groundspeed × tan lat."
+  },
+  {
+   "n": 30,
+   "q": "An electric artificial horizon cuts out roll erection above about:",
+   "o": [
+    "45° of bank",
+    "2° of bank",
+    "10° of bank",
+    "60° of bank"
+   ],
+   "a": 2,
+   "ex": "Reduces turning error."
+  }
+ ]
+}

@@ -49,11 +49,11 @@
     const lessons = c.lessons.slice();
     /* the big picture (only70's opening tree): chapters without an authored tree get one built from their parts and lessons */
     if (c.bigPicture !== false && !lessons.some(l => l.type === 'tree') && lessons.length) {
-      const bp = G.bigPicture(c, lessons);
+      const bp = G.bigPicture ? G.bigPicture(c, lessons) : null;
       if (bp) lessons.splice(lessons[0] && lessons[0].type === 'story' ? 1 : 0, 0, bp);
     }
     if (c.notesHtml) lessons.push({ id: 'points', type: 'facts', short: 'Every fact, drawn out', icon: 'grid', ask: 'Every fact from the book, drawn out', lead: 'Nothing left out: each section of the chapter as cards. Terms in colour, numbers in blue, cause → effect as arrows, tables as tables.', part: 'Every fact from the book' });
-    if (c.bank) lessons.push({ id: 'test', type: 'qbank', bank: c.bank, short: 'Test yourself', icon: 'check', ask: 'Test yourself: the book\'s question bank', lead: c.bankLead || 'Every end-of-chapter question from the book, with the book\'s answer key. Your answers are saved.', part: 'Test yourself' });
+    if (c.bank) lessons.push({ id: 'test', type: 'qbank', bank: c.bank, short: 'Test yourself', icon: 'check', ask: c.bankAsk || (c.bankLead ? 'Test yourself: practice questions' : 'Test yourself: the book\'s question bank'), lead: c.bankLead || 'Every end-of-chapter question from the book, with the book\'s answer key. Your answers are saved.', part: 'Test yourself' });
 
     const toc = el('ul', { class: 'toc' });
     const trackBox = el('div', { class: 'track' });

@@ -1,3 +1,10 @@
+/* Pictograms for the tower light-signal cards: a beam from the tower to an aircraft (in the air or on the ground). Steady = solid beam, flashing = dashed. */
+const LIGHT = (col, flash, air, flare) => `<svg viewBox="0 0 120 120"><rect width="120" height="120" style="fill:var(--m-night)"/><rect x="0" y="96" width="120" height="24" style="fill:var(--m-asphalt)"/>
+  <path d="M14 96 L20 54 L32 54 L38 96 Z" style="fill:#5d626c"/><rect x="12" y="44" width="28" height="12" rx="2" style="fill:#8a919c"/>
+  ${flare ? `<path d="M26 44 Q50 4 74 18" fill="none" stroke="${col}" stroke-width="3"/><circle cx="76" cy="18" r="7" fill="${col}"/>` : `<path d="M40 50 L${air ? '86 30' : '86 86'}" stroke="${col}" stroke-width="${flash ? 6 : 7}" stroke-linecap="round" ${flash ? 'stroke-dasharray="7 7"' : ''}/>`}
+  <g transform="translate(${air ? '96 28' : '96 88'})"><path d="M-12 0 h16 l6 -2 a2 2 0 0 1 0 4 l-6 -2 M-2 0 l-5 -9 h3 l8 9 M-2 0 l-5 9 h3 l8 -9" fill="none" stroke="#dfe6ef" stroke-width="2" stroke-linejoin="round"/></g></svg>`;
+const G_ = '#3ddc84', R_ = '#ff5a4f', W_ = '#ffffff';
+
 module.exports = {
   n: 4, title: 'Rules of the Air', tag: 'Annex 2 · right of way · lights · flight plans · RCF · VMC · signals · cruising levels', icon: 'plane', hue: 3, partOfBook: 'Part I · Air Regulations',
   big: 'The everyday rules of flying: who gives way, which lights you show, when and how to file, what to do when the radio dies, how much weather VFR needs, every signal from the ground or an interceptor, and which level to cruise at.',
@@ -55,7 +62,7 @@ module.exports = {
         { text: 'You are on final; another aircraft is taxiing to the runway.', answer: 'they', why: 'Aircraft on the ground give way to aircraft landing or on final.' },
         { text: 'You (aeroplane) are on approach above another aeroplane also landing.', answer: 'me', why: 'The higher aircraft gives way to the lower one.' },
       ] },
-    { id: 'row-land', short: 'Landing and taxiing', takeaway: 'Of two landing aircraft the lower goes first, but powered aircraft always give way to gliders. Taxiing aircraft give way to those taking off. On the ground, head-on means stop or turn right.', type: 'pairs', icon: 'plane', ask: 'Landing, taking off and taxiing', dgca: true,
+    { id: 'row-land', hook: 'Lower lands first; everyone gives way to gliders.', short: 'Landing and taxiing', takeaway: 'Of two landing aircraft the lower goes first, but powered aircraft always give way to gliders. Taxiing aircraft give way to those taking off. On the ground, head-on means stop or turn right.', type: 'pairs', icon: 'plane', ask: 'Landing, taking off and taxiing', dgca: true,
       pairs: [
         { a: { label: 'Two aircraft landing', body: 'The **higher gives way to the lower**, but the lower must not cut in front of one on final or overtake it.' }, b: { label: 'Gliders', body: 'Power-driven heavier-than-air aircraft give way to **gliders** even when landing.' }, rule: 'Lower first, glider first.' },
         { a: { label: 'Take-off', body: 'Aircraft **taxiing** on the manoeuvring area give way to aircraft **taking off or about to**.' }, b: { label: 'Emergency landing', body: 'Give way to any aircraft known to be **compelled to land**.' }, rule: '' },
@@ -97,7 +104,7 @@ module.exports = {
         { at: 3, label: 'Latest filing', atLabel: '3 h before', tip: 'At least 180 minutes before EOBT, except for operational or technical reasons.' },
         { at: 0, label: 'EOBT', atLabel: 'delay ≥ 15 min → tell ATC', tip: 'A delay of 15 minutes or more means notifying the revised time, amending or refiling.' },
       ] },
-    { id: 'fpl-when', short: 'Plan required?', takeaway: 'A flight plan is needed for any flight receiving ATC, IFR in advisory airspace, flights across borders, and where the ATS authority requires it for SAR or air defence.', type: 'classify', icon: 'doc', ask: 'Is a flight plan required?', dgca: true,
+    { id: 'fpl-when', hook: 'Controlled, advised, crossing borders, wanted for SAR.', short: 'Plan required?', takeaway: 'A flight plan is needed for any flight receiving ATC, IFR in advisory airspace, flights across borders, and where the ATS authority requires it for SAR or air defence.', type: 'classify', icon: 'doc', ask: 'Is a flight plan required?', dgca: true,
       buckets: [{ id: 'y', label: 'Flight plan required' }, { id: 'n', label: 'Not needed' }],
       items: [
         { text: 'Any flight to receive air traffic control service', bucket: 'y' },
@@ -107,7 +114,7 @@ module.exports = {
         { text: 'A flight where it is required to avoid interception by the military', bucket: 'y' },
         { text: 'A nano RPA below 50 ft AGL in uncontrolled airspace', bucket: 'n', why: 'Nano (≤ 50 ft) and micro (≤ 200 ft) RPA in uncontrolled airspace or enclosed premises are exempt.' },
       ] },
-    { id: 'fpl-changes', short: 'Changes to report', takeaway: 'Regain track at once if off it; report any change to assigned Mach or IAS immediately, a TAS change of 10 kt or M 0.02, and an estimate change of more than 2 minutes.', type: 'matrix', icon: 'refresh', ask: 'Changes you must report', revise: true, dgca: true,
+    { id: 'fpl-changes', hook: 'Ten knots, point oh two, two minutes.', short: 'Changes to report', takeaway: 'Regain track at once if off it; report any change to assigned Mach or IAS immediately, a TAS change of 10 kt or M 0.02, and an estimate change of more than 2 minutes.', type: 'matrix', icon: 'refresh', ask: 'Changes you must report', revise: true, dgca: true,
       corner: 'Change', cols: ['Action'],
       rows: [
         { label: 'Off track', cells: ['regain track forthwith'] },
@@ -155,17 +162,17 @@ module.exports = {
         { k: 'Semicircular levels apply above', v: '3,000 ft AGL' },
         { k: 'Reduced visibility allowed (ATS)', v: '3,000 m', note: 'helicopters 1,500 m (India 1,000 m)' },
       ] },
-    { id: 'svfr', short: 'Special VFR', takeaway: 'Special VFR is a VFR flight cleared inside a control zone below VMC, with ground visibility of at least 1,500 m (1,000 m for PC 1/2 helicopters). In India only pilots with an instrument or instructor rating may fly it.', type: 'pairs', icon: 'fog', ask: 'Special VFR: who, where, how much?', dgca: true,
+    { id: 'svfr', hook: 'Special VFR needs 1,500 m.', short: 'Special VFR', takeaway: 'Special VFR is a VFR flight cleared inside a control zone below VMC, with ground visibility of at least 1,500 m (1,000 m for PC 1/2 helicopters). In India only pilots with an instrument or instructor rating may fly it.', type: 'pairs', icon: 'fog', ask: 'Special VFR: who, where, how much?', dgca: true,
       pairs: [
         { a: { label: 'What and where', body: 'A VFR flight **cleared by ATC to operate in a control zone below VMC**. Approved by the **approach control** unit, one request at a time, when traffic permits.' }, b: { label: 'Visibility', body: 'Ground visibility **≥ 1,500 m**; Performance Class 1/2 helicopters **≥ 1,000 m** (state in field 18 and on RTF).' }, rule: 'SVFR exists only inside a CTR.' },
         { a: { label: 'Who may fly it (India)', body: 'Only pilots holding an **instrument rating, Assistant Flight Instructor or Flight Instructor rating**.' }, b: { label: 'Purpose', body: 'Enter the CTR to land, take off and leave, cross it, or fly locally within it.' }, rule: '' },
       ] },
-    { id: 'ifr', short: 'IFR minimum levels', takeaway: 'Without a published minimum, IFR flies 2,000 ft above the highest obstacle within 8 km over mountains, 1,000 ft elsewhere. Cancel IFR only for a stretch of uninterrupted VMC.', type: 'pairs', icon: 'mountain', ask: 'IFR minimum levels and changing rules', dgca: true,
+    { id: 'ifr', hook: 'Two thousand over mountains, one thousand elsewhere, within 8 km.', short: 'IFR minimum levels', takeaway: 'Without a published minimum, IFR flies 2,000 ft above the highest obstacle within 8 km over mountains, 1,000 ft elsewhere. Cancel IFR only for a stretch of uninterrupted VMC.', type: 'pairs', icon: 'mountain', ask: 'IFR minimum levels and changing rules', dgca: true,
       pairs: [
         { a: { label: 'Over high terrain / mountains', body: 'At least **600 m (2,000 ft)** above the highest obstacle within **8 km** of the estimated position.' }, b: { label: 'Elsewhere', body: 'At least **300 m (1,000 ft)** above the highest obstacle within **8 km**.' }, rule: 'Only where the State has not set a minimum flight altitude.' },
         { a: { label: 'IFR → VFR', body: 'Tell ATS "**IFR flight cancelled**" and the changes; only if you expect a **reasonable period of uninterrupted VMC**.' }, b: { label: 'VFR → IFR', body: 'Send the flight-plan changes (or file) and **obtain a clearance** before going IFR in controlled airspace.' }, rule: 'Cancelling IFR is your choice; going IFR needs ATC.' },
       ] },
-    { id: 'distress', short: 'Distress or urgency', part: 'Signals', type: 'classify', icon: 'alert', ask: 'Distress or urgency?', dgca: true,
+    { id: 'distress', hook: 'Red means distress; flashing lights mean urgency.', short: 'Distress or urgency', part: 'Signals', type: 'classify', icon: 'alert', ask: 'Distress or urgency?', dgca: true,
       takeaway: 'Distress (grave and imminent danger): SOS, MAYDAY, red rockets fired one at a time, red parachute flare. Urgency (must land, no immediate help): landing lights or nav lights switched on and off repeatedly. Very urgent message about safety: XXX or PAN PAN.',
       buckets: [{ id: 'd', label: 'Distress' }, { id: 'u', label: 'Urgency' }],
       items: [
@@ -203,6 +210,24 @@ module.exports = {
         { label: 'White flashes', cells: ['Land at this aerodrome and proceed to apron', 'Return to starting point'] },
         { label: 'Red pyrotechnic', cells: [{ v: 'Do not land for the time being', key: true }, '—'] },
       ] },
+    { id: 'tower-cards', short: 'Light cards', type: 'signals', icon: 'eye', ask: 'What is the tower\'s light gun telling you?', tier: 'exam',
+      lead: 'Pick in flight or on the ground, or hide the meanings and test yourself.',
+      takeaway: 'The same colour means different things in the air and on the ground: steady green clears you (to land / to take off), steady red holds you (keep circling / stop), flashing green brings you back or lets you taxi, flashing red keeps you away, flashing white sends you to the apron or back to the start.',
+      hook: 'Steady = do it now; flashing = get ready.',
+      groups: ['In flight', 'On the ground'],
+      cards: [
+        { name: 'Cleared to land', sub: 'steady green', group: 'In flight', svg: LIGHT(G_, false, true), tip: 'Steady green to an aircraft in flight.' },
+        { name: 'Give way, keep circling', sub: 'steady red', group: 'In flight', svg: LIGHT(R_, false, true), tip: 'Steady red to an aircraft in flight.' },
+        { name: 'Return for landing', sub: 'green flashes', group: 'In flight', svg: LIGHT(G_, true, true), tip: 'Series of green flashes in flight.' },
+        { name: 'Aerodrome unsafe, do not land', sub: 'red flashes', group: 'In flight', svg: LIGHT(R_, true, true), tip: 'Series of red flashes in flight.' },
+        { name: 'Land here, go to the apron', sub: 'white flashes', group: 'In flight', svg: LIGHT(W_, true, true), tip: 'Series of white flashes in flight.' },
+        { name: 'Do not land for now', sub: 'red pyrotechnic', group: 'In flight', svg: LIGHT(R_, false, true, true), tip: 'A red pyrotechnic light, whatever any earlier instruction said.' },
+        { name: 'Cleared for take-off', sub: 'steady green', group: 'On the ground', svg: LIGHT(G_, false, false), tip: 'Steady green to an aircraft on the ground.' },
+        { name: 'Stop', sub: 'steady red', group: 'On the ground', svg: LIGHT(R_, false, false), tip: 'Steady red to an aircraft on the ground.' },
+        { name: 'Cleared to taxi', sub: 'green flashes', group: 'On the ground', svg: LIGHT(G_, true, false), tip: 'Series of green flashes on the ground.' },
+        { name: 'Taxi clear of the landing area', sub: 'red flashes', group: 'On the ground', svg: LIGHT(R_, true, false), tip: 'Series of red flashes on the ground.' },
+        { name: 'Return to the starting point', sub: 'white flashes', group: 'On the ground', svg: LIGHT(W_, true, false), tip: 'Series of white flashes on the ground.' },
+      ] },
     { id: 'tower-stamp', short: 'Read the light', takeaway: 'Green flashes on the ground mean taxi; steady green means land or take off; red flashes in the air mean the aerodrome is unsafe; steady red on the ground means stop; white flashes on the ground mean go back.', type: 'stamp', icon: 'check', ask: 'What does the tower want?',
       stamps: [{ id: 'gs', label: 'Steady green' }, { id: 'rs', label: 'Steady red' }, { id: 'gf', label: 'Green flashes' }, { id: 'rf', label: 'Red flashes' }, { id: 'wf', label: 'White flashes' }],
       cases: [
@@ -231,7 +256,7 @@ module.exports = {
         { name: 'Gliders flying', fig: 'reg-gs-glider', rows: [['Looks like', '**Double white cross** displayed horizontally'], ['Means', 'The aerodrome is used by gliders and glider flights are in progress']] },
         { name: 'Take-off direction', fig: 'reg-gs-digits', rows: [['Looks like', 'Two digits displayed **vertically** at or near the tower'], ['Means', 'Take-off direction in **tens of degrees magnetic** (e.g. 27 = 270°)']] },
       ] },
-    { id: 'marshal', short: 'Marshalling', takeaway: 'Learn the core marshalling signals: straight ahead, turn, normal and emergency stop, brakes, chocks, start and cut engines, slow down, hold, all clear.', type: 'tricks', icon: 'user', ask: 'Marshalling signals', dgca: true,
+    { id: 'marshal', hook: 'Arms crossed overhead: stop.', short: 'Marshalling', takeaway: 'Learn the core marshalling signals: straight ahead, turn, normal and emergency stop, brakes, chocks, start and cut engines, slow down, hold, all clear.', type: 'tricks', icon: 'user', ask: 'Marshalling signals', dgca: true,
       cue: 'What the signalman does',
       cards: [
         { name: 'Straight ahead', trick: 'Bent arms, wands moved up and down from chest to head height.', emoji: '⬆️' },

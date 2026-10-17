@@ -1,0 +1,378 @@
+{
+"title": "Exhaust, Reverse Thrust, Reheat and Engine Systems",
+"src": "Practice questions written for Glidepath from the Aviator's Handbook, Part 4, 4-27 to 4-38 (not printed in the book: the Handbook has no question bank)",
+"qs": [
+{
+"n": 1,
+"q": "A convergent nozzle is choked when the exit flow reaches:",
+"o": [
+"M 0.5",
+"M 1",
+"M 2",
+"Ambient pressure"
+],
+"a": 1,
+"ex": "Book 4-27."
+},
+{
+"n": 2,
+"q": "A convergent–divergent nozzle allows the exhaust to become:",
+"o": [
+"Cooler than ambient",
+"Choked at the exit",
+"Supersonic",
+"Subsonic only"
+],
+"a": 2,
+"ex": "Book 4-27."
+},
+{
+"n": 3,
+"q": "When reheat is selected, the variable-area nozzle:",
+"o": [
+"Stays fixed",
+"Opens",
+"Closes",
+"Vectors downwards"
+],
+"a": 1,
+"ex": "Prevents back-pressure and surge."
+},
+{
+"n": 4,
+"q": "Turbofan engine noise comes mainly from the:",
+"o": [
+"Fan and LP compressor",
+"Exhaust cone",
+"Accessory gearbox",
+"Combustor"
+],
+"a": 0,
+"ex": "Book 4-28."
+},
+{
+"n": 5,
+"q": "A cold-stream reverser turns:",
+"o": [
+"Propeller thrust",
+"Fan (bypass) air forward",
+"Bleed air",
+"Core exhaust"
+],
+"a": 1,
+"ex": "Book 4-29."
+},
+{
+"n": 6,
+"q": "Reheat is normally selected at:",
+"o": [
+"Any RPM",
+"Idle",
+"50% RPM",
+"100% RPM"
+],
+"a": 3,
+"ex": "Book 4-30."
+},
+{
+"n": 7,
+"q": "Afterburning increases thrust by:",
+"o": [
+"Raising gas temperature, the local speed of sound and jet velocity",
+"Reducing mass flow",
+"Increasing compressor ratio",
+"Cooling the exhaust"
+],
+"a": 0,
+"ex": "Book 4-30."
+},
+{
+"n": 8,
+"q": "Hot-streak reheat ignition:",
+"o": [
+"Fires a flame streak from the main combustor into the jet pipe",
+"Uses a platinum catalyst",
+"Overheats the turbine",
+"Uses a spark plug only"
+],
+"a": 0,
+"ex": "Book 4-30."
+},
+{
+"n": 9,
+"q": "Water–methanol injection restores thrust lost because of:",
+"o": [
+"Low RPM",
+"Compressor surge",
+"High temperature or altitude",
+"Ice"
+],
+"a": 2,
+"ex": "Book 4-31."
+},
+{
+"n": 10,
+"q": "The APU is normally started using:",
+"o": [
+"A cartridge",
+"The aircraft battery",
+"Ground air only",
+"An engine bleed"
+],
+"a": 1,
+"ex": "Book 4-32."
+},
+{
+"n": 11,
+"q": "The APU generator:",
+"o": [
+"Only works in flight",
+"Is not paralleled with other generators",
+"Always runs in parallel",
+"Supplies DC only"
+],
+"a": 1,
+"ex": "Book 4-32."
+},
+{
+"n": 12,
+"q": "High-energy ignition (about 12 J) is used for:",
+"o": [
+"APU only",
+"Starting and relighting",
+"Continuous ignition in rain",
+"Reheat only"
+],
+"a": 1,
+"ex": "Low-energy (6 J) for continuous use."
+},
+{
+"n": 13,
+"q": "A hot start is one in which:",
+"o": [
+"RPM hangs below idle",
+"Oil pressure is low",
+"EGT exceeds its limit",
+"The engine fails to light"
+],
+"a": 2,
+"ex": "Causes: tailwind, residual fuel."
+},
+{
+"n": 14,
+"q": "A hung start is usually caused by:",
+"o": [
+"A weak starter or low battery voltage",
+"Too much fuel",
+"A tailwind",
+"Faulty igniters"
+],
+"a": 0,
+"ex": "Book 4-32."
+},
+{
+"n": 15,
+"q": "A wet start (no light-up, EGT does not rise) is usually caused by:",
+"o": [
+"A weak starter",
+"Faulty igniters",
+"Low oil",
+"A tailwind"
+],
+"a": 1,
+"ex": "Dry-motor before the next attempt."
+},
+{
+"n": 16,
+"q": "The fuel-control unit that reduces fuel flow as altitude increases is the:",
+"o": [
+"HP pump",
+"Barometric pressure control unit (BPCU)",
+"Minimum burner pressure unit",
+"Overspeed governor"
+],
+"a": 1,
+"ex": "Book 4-33."
+},
+{
+"n": 17,
+"q": "The minimum burner pressure unit causes idle RPM to:",
+"o": [
+"Fall with altitude",
+"Fluctuate",
+"Stay constant",
+"Rise with altitude"
+],
+"a": 3,
+"ex": "It prevents lean flame-out."
+},
+{
+"n": 18,
+"q": "FADEC has:",
+"o": [
+"Two channels and no manual override",
+"One channel only",
+"A manual override",
+"Hydromechanical backup"
+],
+"a": 0,
+"ex": "Book 4-35."
+},
+{
+"n": 19,
+"q": "Engine oil pressure is measured:",
+"o": [
+"At the tank",
+"After the oil pump",
+"After the cooler",
+"Before the pump"
+],
+"a": 1,
+"ex": "Temperature is read after the cooler."
+},
+{
+"n": 20,
+"q": "Magnetic chip detectors in the oil system warn of:",
+"o": [
+"Bearing or gear wear",
+"Oil contamination by fuel",
+"Low oil level",
+"High oil temperature"
+],
+"a": 0,
+"ex": "Book 4-34."
+},
+{
+"n": 21,
+"q": "A ramjet:",
+"o": [
+"Can produce thrust at zero speed",
+"Needs high forward speed for compression",
+"Has an axial compressor",
+"Uses inlet valves"
+],
+"a": 1,
+"ex": "Efficient from about M 2."
+},
+{
+"n": 22,
+"q": "A pulse-jet:",
+"o": [
+"Needs supersonic speed",
+"Has a turbine",
+"Can produce thrust at zero speed but is very noisy",
+"Is very fuel efficient"
+],
+"a": 2,
+"ex": "Book 4-38."
+},
+{
+"n": 23,
+"q": "Thrust of a solid rocket is proportional to the:",
+"o": [
+"Burning surface area",
+"Oxidiser tank size",
+"Nozzle length",
+"Altitude"
+],
+"a": 0,
+"ex": "Book 4-36."
+},
+{
+"n": 24,
+"q": "A jet pipe is double-walled in order to:",
+"o": [
+"Store fuel",
+"Increase thrust",
+"Reduce weight",
+"Allow air cooling"
+],
+"a": 3,
+"ex": "Book 4-27."
+},
+{
+"n": 25,
+"q": "A con-di nozzle off its design pressure ratio:",
+"o": [
+"Over-expands, with shocks inside",
+"Chokes at M 0.5",
+"Always under-expands",
+"Produces no thrust"
+],
+"a": 0,
+"ex": "Hence variable geometry."
+},
+{
+"n": 26,
+"q": "Thrust vectoring nozzles can deflect thrust by up to about:",
+"o": [
+"90°",
+"45°",
+"20°",
+"5°"
+],
+"a": 2,
+"ex": "Book 4-28."
+},
+{
+"n": 27,
+"q": "A thrust reverser must not allow:",
+"o": [
+"Any reverse thrust",
+"Deployment on the ground",
+"Use on landing",
+"Re-ingestion of debris or hot gas"
+],
+"a": 3,
+"ex": "Book 4-29."
+},
+{
+"n": 28,
+"q": "Afterburning becomes efficient at about:",
+"o": [
+"M 0.8",
+"M 5",
+"M 2.5",
+"M 1.2"
+],
+"a": 2,
+"ex": "SFC is otherwise very high."
+},
+{
+"n": 29,
+"q": "Reheat on a turbofan can give up to about:",
+"o": [
+"100%",
+"10%",
+"50% more thrust",
+"200%"
+],
+"a": 2,
+"ex": "Oxygen-rich bypass air."
+},
+{
+"n": 30,
+"q": "Water–methanol injection can restore thrust by up to about:",
+"o": [
+"60%",
+"30%",
+"100%",
+"5%"
+],
+"a": 1,
+"ex": "Book 4-31."
+},
+{
+"n": 31,
+"q": "The scavenge pumps in a dry-sump oil system:",
+"o": [
+"Cool the oil",
+"Return oil to the tank and have a larger capacity than the pressure pump",
+"Pressurise the bearings",
+"Filter the fuel"
+],
+"a": 1,
+"ex": "Book 4-34."
+}
+]
+}

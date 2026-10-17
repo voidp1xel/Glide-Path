@@ -15,7 +15,7 @@ module.exports = {
     { id: 'section', part: 'Anatomy', type: 'svg', fig: 'jet-section', icon: 'target', ask: 'What does a jet stream look like in cross-section?', dgca: true,
       takeaway: 'A flattened tube of fast wind (core ≥ 60 kt) just below the tropopause break. Shear is strongest vertically (≈5 m/s per km). Cirrus streaks mark the warm side; the worst CAT sits just below the core on the cold, low-pressure side.',
       hook: 'Cold side = CAT side.' },
-    { id: 'types', type: 'matrix', icon: 'list', ask: 'Which jet is which?', dgca: true, revise: true,
+    { id: 'types', takeaway: 'Over India two jets matter: the westerly subtropical jet (about 12 km, near 27°N, October to May, up to 200 kt) and the easterly tropical jet (15–16 km, near 13°N, June to August). The polar-front jet stays further north.', hook: 'Winter westerly STJ, monsoon easterly TEJ.', type: 'matrix', icon: 'list', ask: 'Which jet is which?', dgca: true, revise: true,
       corner: 'Jet', cols: ['Direction', 'Height', 'Position', 'Speed'],
       rows: [
         { label: 'Arctic', cells: ['W', '7–8 km', 'Arctic', '—'] },
@@ -28,10 +28,10 @@ module.exports = {
     { id: 'india', part: 'Jets over India', type: 'svg', fig: 'jets-india', icon: 'map', ask: 'Which jet sits over India, and when?', dgca: true,
       takeaway: 'Winter half (Oct–May): the westerly STJ at ~12 km, ~27°N, reaching 22°N in February, fastest in January. Monsoon (Jun–Aug): the easterly TEJ at 15–16 km near 13°N, plus a low-level jet over the Peninsula.',
       hook: 'Winter West (STJ), Monsoon east (TEJ).' },
-    { id: 'stj-year', type: 'timeline', icon: 'calendar', ask: 'The STJ through the year', unit: '', min: 0, max: 12, ticks: [0, 2, 4, 6, 8, 10, 12], height: 220,
+    { id: 'stj-year', takeaway: 'The STJ arrives over India in October, is fastest in January (100–120 kt), reaches furthest south (22°N) in February, weakens and leaves by the end of May, and the TEJ takes over for the monsoon.', hook: 'Arrives October, peaks January, south in February, gone by June.', type: 'timeline', icon: 'calendar', ask: 'The STJ through the year', unit: '', min: 0, max: 12, ticks: [0, 2, 4, 6, 8, 10, 12], height: 220,
       axisLabel: 'months from October',
       marks: [{ at: 0, label: 'Oct', atLabel: 'arrives, 60–70 kt', h: 30 }, { at: 3.3, label: 'Jan', atLabel: 'fastest 100–120 kt', h: 90 }, { at: 4.3, label: 'Feb', atLabel: 'southernmost 22°N', h: 140 }, { at: 7.5, label: 'May', atLabel: 'weak 60–70 kt, leaves', h: 50 }, { at: 9.5, label: 'Jun–Aug', atLabel: 'TEJ replaces it', h: 110 }] },
-    { id: 'stj-facts', type: 'bullets', icon: 'list', ask: 'STJ details the exam likes', tier: 'exam',
+    { id: 'stj-facts', takeaway: 'The STJ core is 3–4 km below the tropopause; the worst CAT is above the core and on its north (cold) side, where the horizontal shear is strongest. It splits round the Himalaya and strengthens downstream.', hook: 'Shear is strongest above and to the north.', type: 'bullets', icon: 'list', ask: 'STJ details the exam likes', tier: 'exam',
       groups: [
         { title: 'Structure', icon: 'layers', points: ['3–4 km below the tropopause, at the tropical/middle break (300–200 hPa)', 'Two layers of max wind to the **south** of the core', 'Splits round the Himalaya, rejoins over China'] },
         { title: 'Shear', icon: 'wind', points: ['Vertical shear greater **above** the core', 'Horizontal shear greater to the **north** (~100 kt/100 NM vs 35 kt/100 NM south)'] },

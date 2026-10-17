@@ -1,0 +1,371 @@
+{
+ "id": "hb-26",
+ "title": "ILS, MLS, Radar and SSR",
+ "src": "Practice questions written for Glidepath from the Aviator's Handbook, Part 7, 7-18 to 7-28 (not printed in the book: the Handbook has no question bank)",
+ "text": "avh",
+ "start": 1,
+ "end": 3,
+ "key": "",
+ "add": [
+  {
+   "n": 1,
+   "q": "Seen on approach, the localiser's 90 Hz lobe is on the:",
+   "o": [
+    "Right",
+    "Below",
+    "Above",
+    "Left"
+   ],
+   "a": 3,
+   "ex": "150 Hz on the right."
+  },
+  {
+   "n": 2,
+   "q": "The glidepath's 150 Hz lobe is:",
+   "o": [
+    "Right of the centreline",
+    "Below the glidepath",
+    "Above the glidepath",
+    "Left of the centreline"
+   ],
+   "a": 1,
+   "ex": "90 Hz above."
+  },
+  {
+   "n": 3,
+   "q": "Localiser frequencies are:",
+   "o": [
+    "108.0–111.95 MHz, even tenths",
+    "112–117.95 MHz",
+    "329.15–335 MHz",
+    "108.1–111.95 MHz, odd tenths"
+   ],
+   "a": 3,
+   "ex": "Book 7-18."
+  },
+  {
+   "n": 4,
+   "q": "Glidepath frequencies are in the band:",
+   "o": [
+    "962–1213 MHz",
+    "75 MHz",
+    "108–112 MHz",
+    "329.15–335 MHz"
+   ],
+   "a": 3,
+   "ex": "UHF."
+  },
+  {
+   "n": 5,
+   "q": "Localiser coverage within ±10° of the centreline extends to:",
+   "o": [
+    "17 nm",
+    "25 nm",
+    "50 nm",
+    "10 nm"
+   ],
+   "a": 1,
+   "ex": "±35° to 17 nm."
+  },
+  {
+   "n": 6,
+   "q": "Glidepath vertical coverage for a 3° path is about:",
+   "o": [
+    "1° to 10°",
+    "0° to 3°",
+    "3° to 6°",
+    "1.35° to 5.25°"
+   ],
+   "a": 3,
+   "ex": "0.45θ to 1.75θ."
+  },
+  {
+   "n": 7,
+   "q": "The outer marker is identified by:",
+   "o": [
+    "Green light",
+    "Amber light, dot-dash at 1300 Hz",
+    "Blue light and dashes at 400 Hz",
+    "White light, dots at 3000 Hz"
+   ],
+   "a": 2,
+   "ex": "Book 7-18."
+  },
+  {
+   "n": 8,
+   "q": "The middle marker is identified by:",
+   "o": [
+    "Amber light and dot-dash at 1300 Hz",
+    "White light and dots",
+    "Blue light and dashes",
+    "Red light"
+   ],
+   "a": 0,
+   "ex": "Book 7-18."
+  },
+  {
+   "n": 9,
+   "q": "False glideslopes appear first at about:",
+   "o": [
+    "3°",
+    "12°",
+    "6°",
+    "1.5°"
+   ],
+   "a": 2,
+   "ex": "Intercept from below."
+  },
+  {
+   "n": 10,
+   "q": "On a 3° glidepath the height at 5 nm is about:",
+   "o": [
+    "900 ft",
+    "1500 ft",
+    "3000 ft",
+    "500 ft"
+   ],
+   "a": 1,
+   "ex": "300 ft per nm."
+  },
+  {
+   "n": 11,
+   "q": "On a 3° glidepath at 140 kt groundspeed, the rate of descent is about:",
+   "o": [
+    "300 ft/min",
+    "420 ft/min",
+    "700 ft/min",
+    "1400 ft/min"
+   ],
+   "a": 2,
+   "ex": "ROD ≈ 5 × GS."
+  },
+  {
+   "n": 12,
+   "q": "MLS operates at about:",
+   "o": [
+    "1090 MHz",
+    "330 MHz with 40 channels",
+    "5 GHz with 200 channels",
+    "9375 MHz"
+   ],
+   "a": 2,
+   "ex": "Book 7-20."
+  },
+  {
+   "n": 13,
+   "q": "An advantage of MLS over ILS is:",
+   "o": [
+    "Cheaper airborne equipment",
+    "Curved and segmented approaches",
+    "No DME needed",
+    "Lower frequency"
+   ],
+   "a": 1,
+   "ex": "Wide coverage."
+  },
+  {
+   "n": 14,
+   "q": "Increasing a primary radar's PRF:",
+   "o": [
+    "Reduces minimum range",
+    "Improves bearing resolution",
+    "Reduces its maximum unambiguous range",
+    "Increases maximum range"
+   ],
+   "a": 2,
+   "ex": "Max range = c × PRI ÷ 2."
+  },
+  {
+   "n": 15,
+   "q": "Primary radar range resolution improves with:",
+   "o": [
+    "Higher power",
+    "Shorter pulses",
+    "Wider beams",
+    "Longer pulses"
+   ],
+   "a": 1,
+   "ex": "Bearing resolution needs narrow beams."
+  },
+  {
+   "n": 16,
+   "q": "Doubling a primary radar's range needs power increased:",
+   "o": [
+    "16 times",
+    "2 times",
+    "4 times",
+    "8 times"
+   ],
+   "a": 0,
+   "ex": "Echo travels both ways."
+  },
+  {
+   "n": 17,
+   "q": "Doppler navigator sea bias makes groundspeed:",
+   "o": [
+    "Under-read",
+    "Fluctuate wildly",
+    "Over-read",
+    "Read zero"
+   ],
+   "a": 0,
+   "ex": "2–3%."
+  },
+  {
+   "n": 18,
+   "q": "Weather radar uses about:",
+   "o": [
+    "4300 MHz",
+    "1030 MHz",
+    "5 GHz",
+    "9375 MHz (3 cm)"
+   ],
+   "a": 3,
+   "ex": "Reflects from large drops."
+  },
+  {
+   "n": 19,
+   "q": "On weather radar the most turbulence is found where:",
+   "o": [
+    "The display is black",
+    "Echoes are weakest",
+    "Colour gradients are steepest",
+    "The display is green"
+   ],
+   "a": 2,
+   "ex": "Book 7-25."
+  },
+  {
+   "n": 20,
+   "q": "Weather radar cannot detect:",
+   "o": [
+    "Clear-air turbulence",
+    "Convective cells",
+    "Wet hail",
+    "Heavy rain"
+   ],
+   "a": 0,
+   "ex": "No drops to reflect."
+  },
+  {
+   "n": 21,
+   "q": "SSR ground stations interrogate on:",
+   "o": [
+    "1030 MHz and aircraft reply on 1090 MHz",
+    "1030 MHz both ways",
+    "1090 MHz and reply on 1030",
+    "121.5 MHz"
+   ],
+   "a": 0,
+   "ex": "Book 7-27."
+  },
+  {
+   "n": 22,
+   "q": "Mode A/C gives how many identity codes?",
+   "o": [
+    "1024",
+    "16 million",
+    "7700",
+    "4096"
+   ],
+   "a": 3,
+   "ex": "Digits 0–7."
+  },
+  {
+   "n": 23,
+   "q": "Mode C reports pressure altitude in increments of:",
+   "o": [
+    "25 ft",
+    "100 ft",
+    "10 ft",
+    "500 ft"
+   ],
+   "a": 1,
+   "ex": "Mode S: 25 ft."
+  },
+  {
+   "n": 24,
+   "q": "Garbling occurs when two aircraft are within about:",
+   "o": [
+    "0.1 nm",
+    "5 nm vertically",
+    "10 nm",
+    "1.7 nm in range on a similar bearing"
+   ],
+   "a": 3,
+   "ex": "Overlapping replies."
+  },
+  {
+   "n": 25,
+   "q": "Squawk 7600 indicates:",
+   "o": [
+    "Radio failure",
+    "Unlawful interference",
+    "Emergency",
+    "VFR conspicuity"
+   ],
+   "a": 0,
+   "ex": "7500 hijack, 7700 emergency."
+  },
+  {
+   "n": 26,
+   "q": "The localiser aerial is about:",
+   "o": [
+    "Beside the touchdown zone",
+    "At the outer marker",
+    "At the threshold",
+    "1000 ft beyond the upwind end of the runway"
+   ],
+   "a": 3,
+   "ex": "Book 7-18."
+  },
+  {
+   "n": 27,
+   "q": "Localiser full-scale deflection is set to:",
+   "o": [
+    "±35°",
+    "±2.5°",
+    "±700 ft at the threshold",
+    "±100 ft"
+   ],
+   "a": 2,
+   "ex": "Book 7-18."
+  },
+  {
+   "n": 28,
+   "q": "Primary radar maximum unambiguous range equals:",
+   "o": [
+    "c ÷ PRF",
+    "c × PRI ÷ 2",
+    "c × pulse width ÷ 2",
+    "PRF × c"
+   ],
+   "a": 1,
+   "ex": "Book 7-21."
+  },
+  {
+   "n": 29,
+   "q": "Doppler navigators give:",
+   "o": [
+    "Heading",
+    "Groundspeed and drift",
+    "Position",
+    "Altitude"
+   ],
+   "a": 1,
+   "ex": "Need position updates."
+  },
+  {
+   "n": 30,
+   "q": "SSR side-lobe suppression uses the:",
+   "o": [
+    "F1 pulse",
+    "SPI pulse",
+    "P2 pulse from an omni aerial",
+    "Mode S address"
+   ],
+   "a": 2,
+   "ex": "Reply only if P1 > P2."
+  }
+ ]
+}

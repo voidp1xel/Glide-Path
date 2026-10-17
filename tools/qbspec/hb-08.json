@@ -1,0 +1,371 @@
+{
+ "id": "hb-08",
+ "title": "High-Speed Flight, Envelope and Aeroelasticity",
+ "src": "Practice questions written for Glidepath from the Aviator's Handbook, Part 2, 2-49 to 2-57 (not printed in the book: the Handbook has no question bank)",
+ "text": "avh",
+ "start": 1,
+ "end": 3,
+ "key": "",
+ "add": [
+  {
+   "n": 1,
+   "q": "The local speed of sound depends only on:",
+   "o": [
+    "Density",
+    "Pressure",
+    "Temperature",
+    "Altitude directly"
+   ],
+   "a": 2,
+   "ex": "LSS = 39√T kt."
+  },
+  {
+   "n": 2,
+   "q": "Climbing at constant TAS, Mach number:",
+   "o": [
+    "Increases",
+    "First falls then rises",
+    "Decreases",
+    "Stays constant"
+   ],
+   "a": 0,
+   "ex": "LSS falls with height."
+  },
+  {
+   "n": 3,
+   "q": "The critical Mach number is the free-stream Mach number at which:",
+   "o": [
+    "The aircraft goes supersonic",
+    "Local flow first reaches M 1 somewhere on the aircraft",
+    "The bow wave attaches",
+    "Drag is lowest"
+   ],
+   "a": 1,
+   "ex": "Book 2-49."
+  },
+  {
+   "n": 4,
+   "q": "Increasing weight (and so AoA) makes Mcrit:",
+   "o": [
+    "Equal to 1",
+    "Unchanged",
+    "Lower",
+    "Higher"
+   ],
+   "a": 2,
+   "ex": "Faster flow over the wing."
+  },
+  {
+   "n": 5,
+   "q": "The transonic range is about:",
+   "o": [
+    "M 0.4 to M 0.75",
+    "M 5 to M 10",
+    "M 0.75 to M 1.2",
+    "M 1.2 to M 5"
+   ],
+   "a": 2,
+   "ex": "Book 2-49."
+  },
+  {
+   "n": 6,
+   "q": "The first shockwave on an aerofoil forms on the:",
+   "o": [
+    "Lower surface",
+    "Upper surface",
+    "Trailing edge",
+    "Leading edge"
+   ],
+   "a": 1,
+   "ex": "Fastest flow is over the top."
+  },
+  {
+   "n": 7,
+   "q": "Behind a normal shockwave the flow is always:",
+   "o": [
+    "Sonic",
+    "Turned through 90°",
+    "Subsonic",
+    "Supersonic"
+   ],
+   "a": 2,
+   "ex": "Book 2-51."
+  },
+  {
+   "n": 8,
+   "q": "Across an expansion wave:",
+   "o": [
+    "Velocity falls to subsonic",
+    "Energy is lost as heat",
+    "Pressure rises sharply",
+    "Velocity increases with no energy loss"
+   ],
+   "a": 3,
+   "ex": "Book 2-51."
+  },
+  {
+   "n": 9,
+   "q": "Supersonic flow accelerates in a:",
+   "o": [
+    "Divergent duct",
+    "Venturi throat only",
+    "Convergent duct",
+    "Constant-area duct"
+   ],
+   "a": 0,
+   "ex": "Book 2-51."
+  },
+  {
+   "n": 10,
+   "q": "Mach tuck is a nose-down tendency caused by the CP moving:",
+   "o": [
+    "Outboard",
+    "Forward",
+    "Not at all",
+    "Aft"
+   ],
+   "a": 3,
+   "ex": "Cured by a Mach trimmer."
+  },
+  {
+   "n": 11,
+   "q": "The area rule reduces:",
+   "o": [
+    "Trim drag only",
+    "Induced drag",
+    "Skin friction",
+    "Transonic interference and wave drag"
+   ],
+   "a": 3,
+   "ex": "Fuselage waisted at the wing."
+  },
+  {
+   "n": 12,
+   "q": "A supercritical aerofoil has:",
+   "o": [
+    "A flat upper surface and aft camber",
+    "A reflex leading edge",
+    "A sharp leading edge and thin section",
+    "Deep forward camber"
+   ],
+   "a": 0,
+   "ex": "Shock is delayed and weaker."
+  },
+  {
+   "n": 13,
+   "q": "Control buzz is caused by:",
+   "o": [
+    "A shockwave near the control hinge",
+    "Mass imbalance",
+    "Low dynamic pressure",
+    "Tip vortices"
+   ],
+   "a": 0,
+   "ex": "Book 2-52."
+  },
+  {
+   "n": 14,
+   "q": "As Mach number increases beyond M 1, longitudinal stability:",
+   "o": [
+    "Decreases",
+    "Disappears",
+    "Is unchanged",
+    "Increases"
+   ],
+   "a": 3,
+   "ex": "CP moves back to about 50%."
+  },
+  {
+   "n": 15,
+   "q": "As Mach number increases beyond M 1, directional stability:",
+   "o": [
+    "Increases",
+    "Becomes infinite",
+    "Decreases",
+    "Is unchanged"
+   ],
+   "a": 2,
+   "ex": "Fin effectiveness falls."
+  },
+  {
+   "n": 16,
+   "q": "On the manoeuvre envelope, flight beyond the CLmax boundary results in:",
+   "o": [
+    "Structural failure",
+    "A stall, not structural damage",
+    "Aileron reversal",
+    "Flutter"
+   ],
+   "a": 1,
+   "ex": "Book 2-56."
+  },
+  {
+   "n": 17,
+   "q": "The g limits on an envelope carry a safety margin to failure of:",
+   "o": [
+    "10%",
+    "100%",
+    "5%",
+    "50%"
+   ],
+   "a": 3,
+   "ex": "Book 2-56."
+  },
+  {
+   "n": 18,
+   "q": "Aileron reversal is most likely:",
+   "o": [
+    "At low speed",
+    "At the stall",
+    "On the ground",
+    "At high IAS on a flexible wing"
+   ],
+   "a": 3,
+   "ex": "Cured by inboard ailerons."
+  },
+  {
+   "n": 19,
+   "q": "Wing divergence occurs when the CP is:",
+   "o": [
+    "Behind the flexural axis",
+    "At 25% chord",
+    "At the hinge line",
+    "Ahead of the flexural axis"
+   ],
+   "a": 3,
+   "ex": "Lift twists the wing nose-up."
+  },
+  {
+   "n": 20,
+   "q": "Control-surface flutter develops when the surface's CG is:",
+   "o": [
+    "Behind its hinge line",
+    "Ahead of its hinge line",
+    "On the hinge line",
+    "At the wing CG"
+   ],
+   "a": 0,
+   "ex": "Prevented by mass balance."
+  },
+  {
+   "n": 21,
+   "q": "The supersonic CP settles at about:",
+   "o": [
+    "10% chord",
+    "50% chord",
+    "25% chord",
+    "75% chord"
+   ],
+   "a": 1,
+   "ex": "Book 2-50."
+  },
+  {
+   "n": 22,
+   "q": "At a given free-stream Mach number, local Mach number is highest:",
+   "o": [
+    "Under the wing",
+    "At the trailing edge",
+    "At the point of maximum camber",
+    "At the stagnation point"
+   ],
+   "a": 2,
+   "ex": "Book 2-49."
+  },
+  {
+   "n": 23,
+   "q": "MMO lies:",
+   "o": [
+    "At M 1.2",
+    "At Mdet",
+    "Above Mcrit",
+    "Below Mcrit"
+   ],
+   "a": 3,
+   "ex": "Book 2-49."
+  },
+  {
+   "n": 24,
+   "q": "In supersonic flow there is:",
+   "o": [
+    "Strong upwash",
+    "Strong downwash",
+    "Increased induced drag",
+    "No upwash or downwash"
+   ],
+   "a": 3,
+   "ex": "Book 2-50."
+  },
+  {
+   "n": 25,
+   "q": "Across a normal shockwave, total pressure:",
+   "o": [
+    "Increases",
+    "Is unchanged",
+    "Has no loss",
+    "Suffers a large loss"
+   ],
+   "a": 3,
+   "ex": "Kinetic energy is turned to heat."
+  },
+  {
+   "n": 26,
+   "q": "Across an oblique shock, the flow behind:",
+   "o": [
+    "Speeds up",
+    "Does not change direction",
+    "Is always subsonic",
+    "May be subsonic or supersonic"
+   ],
+   "a": 3,
+   "ex": "Book 2-51."
+  },
+  {
+   "n": 27,
+   "q": "A Mach trimmer:",
+   "o": [
+    "Operates only at low speed",
+    "Adds nose-down trim",
+    "Adds nose-up trim at high Mach to counter Mach tuck",
+    "Limits the Mach number"
+   ],
+   "a": 2,
+   "ex": "Book 2-53."
+  },
+  {
+   "n": 28,
+   "q": "Thin wings raise Mcrit but:",
+   "o": [
+    "Add fuel space",
+    "Increase wave drag",
+    "Lower Mcrit",
+    "Reduce lift and raise take-off and landing speeds"
+   ],
+   "a": 3,
+   "ex": "Book 2-53."
+  },
+  {
+   "n": 29,
+   "q": "Pulling beyond the CLmax boundary of the manoeuvre envelope:",
+   "o": [
+    "Has no effect",
+    "Raises the g limit",
+    "Stalls the aircraft but does not overstress it",
+    "Always breaks the structure"
+   ],
+   "a": 2,
+   "ex": "Book 2-56."
+  },
+  {
+   "n": 30,
+   "q": "A heavier aircraft has an allowable load factor that is:",
+   "o": [
+    "Higher",
+    "Zero",
+    "Unchanged",
+    "Lower"
+   ],
+   "a": 3,
+   "ex": "The structure carries g × weight."
+  }
+ ]
+}

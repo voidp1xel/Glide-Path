@@ -1,0 +1,208 @@
+{
+"title": "Operational Procedures",
+"src": "Bali AR Ch 17",
+"qs": [
+{
+"n": 1,
+"q": "For a two-pilot scheduled flight, the flight duty period, flight time and landings are limited to:",
+"o": [
+"11 h, 8 h and 6 landings",
+"12 h, 8 h and 5 landings",
+"13 h, 8 h and 4 landings"
+],
+"a": 0
+},
+{
+"n": 2,
+"q": "Route guides must be carried in:",
+"o": [
+"All aircraft",
+"All private aircraft",
+"Aircraft engaged in scheduled transport services"
+],
+"a": 2
+},
+{
+"n": 4,
+"q": "In 28 consecutive days a pilot may fly:",
+"o": [
+"100 h as PIC and 50 h as co-pilot",
+"100 h",
+"120 h"
+],
+"a": 1
+},
+{
+"n": 5,
+"q": "The Flight Manual is carried by:",
+"o": [
+"All aircraft",
+"Scheduled aircraft only",
+"Aircraft whose C of A requires it"
+],
+"a": 0
+},
+{
+"n": 7,
+"q": "The maximum daily duty-time extension for a scheduled flight (unforeseen circumstances) is:",
+"o": [
+"1.5 h",
+"2 h",
+"3 h"
+],
+"a": 1
+},
+{
+"n": 8,
+"q": "The maximum flying hours for flight crew in 90 consecutive days is:",
+"o": [
+"200 h",
+"300 h",
+"330 h"
+],
+"a": 1
+},
+{
+"n": 9,
+"q": "For flight-time limitations, \"flight time\" means:",
+"o": [
+"The time from when the aircraft first moves under its own power to take off until it comes to rest after the flight",
+"The time between take-off and landing",
+"The time from first movement to coming to a stop, plus 1.5 hours"
+],
+"a": 0
+},
+{
+"n": 10,
+"q": "The maximum permitted flight time for flight crew is:",
+"o": [
+"81 h in the 27 days before the flight",
+"120 h in the 27 days before the flight",
+"1,000 h in 365 consecutive days"
+],
+"a": 2
+},
+{
+"n": 11,
+"q": "A pressurised aeroplane shall not start a flight unless it carries enough breathing oxygen for:",
+"o": [
+"All crew members",
+"All crew and passengers",
+"All crew and passengers whenever the pressure in their compartment is below 700 hPa"
+],
+"a": 2
+},
+{
+"n": 12,
+"q": "Emergency and cockpit checklists must be carried by:",
+"o": [
+"All aircraft",
+"Scheduled aircraft",
+"Non-scheduled aircraft"
+],
+"a": 0
+},
+{
+"n": 13,
+"q": "How many first-aid kits must an aircraft carrying 250 passengers have?",
+"o": [
+"2",
+"3",
+"4"
+],
+"a": 1,
+"ex": "0–100: 1; 101–200: 2; 201–300: 3; over 300: 4."
+},
+{
+"n": 14,
+"q": "Apart from assigned flight crew, nobody may be in the flight deck unless they are:",
+"o": [
+"Security staff",
+"An operating crew member",
+"An operator's representative"
+],
+"a": 1
+},
+{
+"n": 16,
+"q": "For unplanned events beyond the operator's control (weather, defects, ATC delay), scheduled flight time and FDP may be extended by:",
+"o": [
+"Flight time up to 2 h and FDP up to 4 h",
+"Flight time up to 4 h and FDP up to 8 h",
+"Flight time up to 1 h and FDP up to 2 h"
+],
+"a": 2
+},
+{
+"n": 17,
+"q": "Minimum trip fuel is the fuel needed to fly from take-off (or the in-flight re-planning point):",
+"o": [
+"Until landing at the destination, taking account of operating conditions",
+"Until overhead the destination",
+"Until overhead the destination, including fuel to divert"
+],
+"a": 0
+},
+{
+"n": 18,
+"q": "Scheduled operators may be authorised LVTO minima down to:",
+"o": [
+"400 m",
+"200 m",
+"125 m"
+],
+"a": 2
+},
+{
+"n": 19,
+"q": "If, after starting an instrument approach, the reported RVR or visibility falls below minimum, the approach shall not continue:",
+"o": [
+"Below MDA/DA",
+"Below the published aerodrome operating minima",
+"Below 1,000 ft above the aerodrome"
+],
+"a": 2
+},
+{
+"n": 20,
+"q": "FDRs keep at least the last ___ hours, CVRs ___ hours and data link recorders ___ hours of operation.",
+"o": [
+"24, 2, 4",
+"25, 2, 2",
+"25, 3, 2"
+],
+"a": 1
+},
+{
+"n": 21,
+"q": "Filed minimum 300 m. Touchdown RVR 400 m, mid-point RVR 100 m, stop-end RVR 300 m. The runway is:",
+"o": [
+"Below minima",
+"Within minima",
+"At minima"
+],
+"a": 0,
+"ex": "Mid-point RVR must be at least 125 m."
+},
+{
+"n": 22,
+"q": "CARS is a:",
+"o": [
+"Lightweight (cockpit audio) recorder",
+"Heavyweight flight recorder",
+"Crash-protected flight recorder"
+],
+"a": 0
+},
+{
+"n": 23,
+"q": "In India, a passenger and cargo manifest must be carried on:",
+"o": [
+"Domestic flights",
+"International flights",
+"Both"
+],
+"a": 2
+}
+]
+}

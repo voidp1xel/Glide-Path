@@ -28,6 +28,7 @@
     if (!svg.classList.contains('fig') || (svg.parentElement && svg.parentElement.classList.contains('figscroll'))) return;
     const vb = svg.viewBox && svg.viewBox.baseVal; if (!vb || vb.width < 300) return;
     if (svg.closest('.vis, .numc, .card, .tcard')) return; // small thumbnails stay as they are
+    if (svg.closest('.flybox, .hsbox, .holdfig, .plangrid, .wheelbox, .sgcard, .tree2')) return; // interactive figures size themselves (pins and planes need the whole drawing)
     const w = document.createElement('div'); w.className = 'figscroll';
     svg.replaceWith(w); w.append(svg);
     requestAnimationFrame(() => w.classList.toggle('can-scroll', w.scrollWidth > w.clientWidth + 4));

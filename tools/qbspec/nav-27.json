@@ -1,0 +1,232 @@
+{
+ "id": "nav-27",
+ "title": "ADF / NDB",
+ "src": "R.K. Bali — Air Navigation, Part III Ch 2 (key read from the printed answer grid, PDF p. 245)",
+ "text": "nav",
+ "start": 14464,
+ "end": 14588,
+ "key": "abaacbacababcccbcbcccaacccaabb",
+ "fix": {
+  "1": {
+   "o": [
+    "180° ambiguity",
+    "90° ambiguity",
+    "quadrantal error"
+   ]
+  },
+  "2": {
+   "o": [
+    "Align radio compass to True North",
+    "Sense Aerial",
+    "Loop Aerial"
+   ]
+  },
+  "3": {
+   "o": [
+    "360°",
+    "225°",
+    "135°"
+   ],
+   "q": "An aircraft is flying on a heading of 315°. Which of the following (magnetic) signal bearings will cause the maximum quadrantal error?"
+  },
+  "4": {
+   "o": [
+    "night effect",
+    "coastal refraction",
+    "mountain or terrain effect"
+   ]
+  },
+  "5": {
+   "o": [
+    "find the loop \"null\" position",
+    "stop loop rotation",
+    "hear the IDENT of some NDB stations radiating a continuous wave signal"
+   ]
+  },
+  "6": {
+   "o": [
+    "Quadrantal error",
+    "Local thunderstorm activity",
+    "Coastal effect"
+   ]
+  },
+  "7": {
+   "o": [
+    "static interference- night effect- absence of failure warning system",
+    "static interference- station interference-latitude error",
+    "height error- station interference- mountain effect"
+   ]
+  },
+  "8": {
+   "o": [
+    "greater from the beacon that is 20NM inland",
+    "the same from both beacons when the aircraft is on a relative bearing Of 180° and 360°",
+    "greater from the beacon that is 50NM inland"
+   ]
+  },
+  "9": {
+   "o": [
+    "800m",
+    "80m",
+    "8000m"
+   ]
+  },
+  "10": {
+   "o": [
+    "zero drift",
+    "right drift",
+    "left drift"
+   ]
+  },
+  "11": {
+   "o": [
+    "inland and the bearing crosses the coast at an acute angle",
+    "inland and the bearing crosses the coast at right angles",
+    "near the coast and the bearing crosses the coast at right angles"
+   ]
+  },
+  "12": {
+   "o": [
+    "skywave/ground wave contamination",
+    "signal bending by the aircraft metallic surfaces",
+    "signal bending caused by electrical interference from aircraft wiring"
+   ]
+  },
+  "13": {
+   "o": [
+    "interference from other transmissions and is maximum at dusk when east of the NDB",
+    "static activity increasing at night particularly in the lower frequency band",
+    "skywave distortion of the null position and is maximum at dawn and dusk"
+   ]
+  },
+  "14": {
+   "o": [
+    "Mutual interference between aircraft aerials",
+    "Frequency drift at the ground station",
+    "Interference from other NDBs, particularly at night"
+   ]
+  },
+  "15": {
+   "o": [
+    "184°",
+    "004°",
+    "356°"
+   ]
+  },
+  "16": {
+   "o": [
+    "It is operating in the HF/VHF band",
+    "It is very simple, being required to transmit only a carrier wave and identification",
+    "In India, most NDBs operate in the frequency band 455 - 1750 kHz"
+   ],
+   "q": "Which statement about the NDB transmitter is correct?"
+  },
+  "17": {
+   "o": [
+    "cut out the static noise",
+    "improve the strength of the received signal",
+    "make the signal audible"
+   ]
+  },
+  "18": {
+   "o": [
+    "dusk",
+    "dawn or dusk",
+    "dawn"
+   ]
+  },
+  "19": {
+   "o": [
+    "Locators have 200 W power, 50 nm range and are NON A2A",
+    "Locators have 5000 W power, 50 nm range and are NON A1A",
+    "Locators have 15 W power, 10-25 nm range and are NON A2A"
+   ]
+  },
+  "20": {
+   "o": [
+    "never",
+    "by day and night",
+    "by night only"
+   ]
+  },
+  "21": {
+   "o": [
+    "transmit the beacon ident",
+    "determine the null position",
+    "resolve ambiguous bearings"
+   ]
+  },
+  "22": {
+   "o": [
+    "ADF",
+    "ILS",
+    "VOR"
+   ]
+  },
+  "23": {
+   "o": [
+    "is used to make the ident from an A1A NDB audible",
+    "is used to determine the signal strength of an NDB",
+    "creates the audio ident for an NDB"
+   ]
+  },
+  "24": {
+   "o": [
+    "decrease, away from",
+    "increase, towards",
+    "increase, away from"
+   ]
+  },
+  "25": {
+   "o": [
+    "A3W",
+    "A9E",
+    "NON/A1A"
+   ]
+  },
+  "26": {
+   "o": [
+    "off for tuning and on for identification",
+    "off for tuning and off for identification",
+    "on for tuning and off for identification"
+   ]
+  },
+  "27": {
+   "o": [
+    "190-1750 kHz",
+    "190-1750 Hz",
+    "190-1750 GHz"
+   ]
+  },
+  "28": {
+   "o": [
+    "during daytime only",
+    "throughout 24 hours, but is most prone to error around dusk and dawn",
+    "during night time only"
+   ]
+  },
+  "29": {
+   "o": [
+    "NDB sited on the coast-RBI 300°",
+    "NDB sited 30 nm inland-RBI 330°",
+    "NDB sited on the coast-RBI 330°"
+   ]
+  },
+  "30": {
+   "o": [
+    "Eight",
+    "Four",
+    "Two"
+   ]
+  }
+ },
+ "drop": [],
+ "ex": {
+  "3": "Signal from 360° on heading 315° arrives at relative bearing 045°, a quadrantal (inter-cardinal) bearing: maximum error. 225° and 135° arrive at 270° and 180° relative: no error.",
+  "9": "λ = 3×10⁸ / 373 000 ≈ 804 m.",
+  "10": "With RB 000 the nose follows the beacon; the heading falls (turning left) because the wind is pushing you right: right (starboard) drift.",
+  "15": "Outbound with RB 184 means 4° starboard drift. Coming back on the reciprocal, the same wind gives 4° port drift, so the nose points 4° right of the station: RB 356.",
+  "30": "Range ∝ √power: double the range needs four times the power.",
+  "20": "Key as printed in the book."
+ }
+}

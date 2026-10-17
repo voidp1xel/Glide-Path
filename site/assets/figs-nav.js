@@ -133,8 +133,8 @@
       <rect x="${x0 + rw}" y="${y - 22}" width="${sw}" height="44" fill="#8a8f98" stroke="#fff" stroke-dasharray="4 4"/><text x="${x0 + rw + sw / 2}" y="${y + 5}" text-anchor="middle" style="font:700 12.5px var(--font);fill:#fff">stopway</text>
       <line x1="${x0 + dt}" x2="${x0 + dt}" y1="${y - 22}" y2="${y + 22}" stroke="#fff" stroke-width="4"/><text x="${x0 + dt + 6}" y="${y + 38}" class="sm">displaced threshold</text>
       <text x="${x0 + dt + 14}" y="${y + 5}" style="font:700 12px var(--font);fill:#fff">→ take-off direction</text>
-      ${bar(x0, x0 + rw, 60, 'TORA = runway', '#3c8cf0')}${bar(x0, x0 + rw + cw, 30, 'TODA = TORA + clearway', '#2fb36b')}
-      ${bar(x0, x0 + rw + sw, 230, 'ASDA = TORA + stopway', '#f08c2e')}${bar(x0 + dt, x0 + rw, 270, 'LDA = runway − displaced threshold', '#d4493a')}
+      ${bar(x0, x0 + rw, 60, 'TORA = runway', 'var(--h0i)')}${bar(x0, x0 + rw + cw, 30, 'TODA = TORA + clearway', 'var(--h1i)')}
+      ${bar(x0, x0 + rw + sw, 230, 'ASDA = TORA + stopway', 'var(--h2i)')}${bar(x0 + dt, x0 + rw, 270, 'LDA = runway − displaced threshold', 'var(--h5i)')}
       <text x="${x0}" y="316" class="sm">Balanced field: V1 chosen so that ASDR = TODR — the shortest field length, the highest take-off mass.</text>
     </svg>`;
   };

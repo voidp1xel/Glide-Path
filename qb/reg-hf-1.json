@@ -1,0 +1,306 @@
+{
+"title": "Human Factors practice set 1",
+"src": "Bali AR, Additional Practice Questions: Human Factors",
+"qs": [
+{
+"n": 1,
+"q": "The atmosphere contains the following gases:",
+"o": [
+"78% nitrogen, 21% oxygen, 0.03% carbon dioxide, rest rare gases.",
+"78% helium, 21% oxygen, 0.03% carbon dioxide, rest: rare gases.",
+"78% nitrogen, 21% oxygen, 1% carbon monoxide, rest: rare gases."
+],
+"a": 0
+},
+{
+"n": 2,
+"q": "The volume percentage of oxygen in the atmosphere is 21% which:",
+"o": [
+"Is constant for all altitudes conventional airplanes can reach.",
+"Decreases with increasing altitude.",
+"Increases with increasing altitude."
+],
+"a": 0
+},
+{
+"n": 3,
+"q": "Oxygen, combined with hemoglobin in blood is transported by:",
+"o": [
+"Platelets.",
+"Red blood cells.",
+"White blood cells."
+],
+"a": 1
+},
+{
+"n": 4,
+"q": "One of the most dangerous symptoms of hypoxia concerning flight safety is:",
+"o": [
+"Hyperventilation, causing emotional stress.",
+"Impaired judgment, disabling the pilot to recognize the symptoms.",
+"Reduced coordination of limb movements, causing the pilot to spin."
+],
+"a": 1
+},
+{
+"n": 5,
+"q": "One of the most frequent symptoms) of decompression sickness emerging after a decompression in airline operation:",
+"o": [
+"Are the bends.",
+"Is a shock.",
+"Are neurological damages to the CNS."
+],
+"a": 0
+},
+{
+"n": 6,
+"q": "The cabin pressure in airline operation is:",
+"o": [
+"Normally not exceeding 4,000 to 5,000 feet.",
+"Normally not exceeding 2,000 to 3,000 feet.",
+"Normally not exceeding 6,000 to 8,000 feet."
+],
+"a": 2
+},
+{
+"n": 7,
+"q": "What is the Time of Useful Consciousness?",
+"o": [
+"The length of time during which an individual can act with both mental and physical efficiency and alertness, measured from the moment at which he loses his available oxygen supply.",
+"The time taken to become aware of hypoxia due to gradual decompression.",
+"The period of time between the start of hypoxia and the moment that the pilot becomes aware of it."
+],
+"a": 0
+},
+{
+"n": 8,
+"q": "You can overcome hyperventilation by breathing into a plastic or paper bag. The intention is:",
+"o": [
+"To reduce blood pressure.",
+"To increase the amount of nitrogen in the lungs.",
+"To raise the level of CO₂ in the blood as fast as possible."
+],
+"a": 2
+},
+{
+"n": 9,
+"q": "Which phenomenon is common to hypoxia and hyperventilation?",
+"o": [
+"Severe headache.",
+"Tingling sensations in arms or legs.",
+"Cyanosis (blueing of lips and finger-nails)."
+],
+"a": 1
+},
+{
+"n": 10,
+"q": "The risk of a barotrauma of the middle ear is more likely to occur:",
+"o": [
+"With colds and slow ascents.",
+"With colds and rapid descents.",
+"With colds and fast climbs."
+],
+"a": 1
+},
+{
+"n": 11,
+"q": "The purpose of a cabin pressurisation system is to:",
+"o": [
+"Reduce trapped-gas, middle-ear and sinus problems.",
+"Let crew and passengers move about freely without oxygen masks or other life-support equipment.",
+"Both of these."
+],
+"a": 2
+},
+{
+"n": 12,
+"q": "Flickering light when reflected from spinning rotor blades:",
+"o": [
+"Can be neglected.",
+"Can cause spatial disorientation and/or nausea, when looked at for a longer period of time.",
+"Should be avoided, because it may destroy the optical nerve."
+],
+"a": 1
+},
+{
+"n": 13,
+"q": "Presbyopia is:",
+"o": [
+"Far farsightedness linked with age.",
+"Short sightedness.",
+"Myopia."
+],
+"a": 0
+},
+{
+"n": 14,
+"q": "Scanning at night should be performed by:",
+"o": [
+"Scanning with one eye open.",
+"Slight eye movement to the side of the object.",
+"Concentrated fixation on an object(image must fall on the foveacentralis)."
+],
+"a": 1
+},
+{
+"n": 15,
+"q": "A pilot approaching a runway which is narrower than normal may feel he is at greater height than he actually is. To compensate he may fly a:",
+"o": [
+"Flatter than normal approach with the tendency to undershoot.",
+"Higher than normal approach with the tendency to overshoot.",
+"Compensatory glide path and stall out."
+],
+"a": 0
+},
+{
+"n": 16,
+"q": "Spatial disorientation will be most likely to occur during flight:",
+"o": [
+"When flying in and out of clouds and the pilot maintains good instrument cross check.",
+"No head movement in a prolonged constant rate turn.",
+"If the brain receives conflicting information and the pilot does not believe the instruments."
+],
+"a": 2
+},
+{
+"n": 17,
+"q": "Hypoxia will effect night vision:",
+"o": [
+"At 5,000 ft.",
+"Less than day vision.",
+"And causes the autokinetic phenomena."
+],
+"a": 0
+},
+{
+"n": 18,
+"q": "What is meant by the term Incapacitation?",
+"o": [
+"When situational awareness of the crew is too low.",
+"The effect of gastrointestinal upset.",
+"The gradual or sudden loss of a crew members ability to function."
+],
+"a": 2
+},
+{
+"n": 19,
+"q": "In the short-term-memory, information is stored for approximately:",
+"o": [
+"20 seconds",
+"A couple of days",
+"1 hour"
+],
+"a": 0
+},
+{
+"n": 20,
+"q": "Concerning the relation between performance and stress, which of the following statement is correct?",
+"o": [
+"Domestic stress will not affect the pilot's performance because he is able to leave this type of stress on the ground.",
+"A moderate level of stress may improve performance.",
+"A student will learn faster and better under severe stress."
+],
+"a": 1
+},
+{
+"n": 21,
+"q": "The main preoccupation in modern airline operations should be:",
+"o": [
+"Efficient utilisation of resources.",
+"Maximum utilisation of resources.",
+"Safety."
+],
+"a": 2
+},
+{
+"n": 22,
+"q": "The elements of the SHEL model are:",
+"o": [
+"Software, hardware, electronics and livewire.",
+"Shareware, hardware, education and limitations.",
+"Software, hardware, environment and liveware."
+],
+"a": 2
+},
+{
+"n": 23,
+"q": "The rate and depth of breathing is primary regulated by the concentration of:",
+"o": [
+"Water vapor in the alveoli.",
+"Oxygen in the cells.",
+"Carbon dioxide in the blood."
+],
+"a": 2
+},
+{
+"n": 24,
+"q": "Pulse rate is in influenced by the following factors: 1. Adrenalin 2. Cortisol 3. Physical exercise.",
+"o": [
+"1, 3 are correct, 2 is false.",
+"1, 2, 3 are correct.",
+"2, 3 are correct, 1 is false."
+],
+"a": 1
+},
+{
+"n": 25,
+"q": "ADDITIONAL PRACTICE QUESTIONS: HUMAN FACTORS 25. Which of the following statements is true?",
+"o": [
+"People are capable of living without stress.",
+"Stressors accumulate thus increasing the likelihood to exhaustion.",
+"Stressors are independent from each other."
+],
+"a": 1
+},
+{
+"n": 26,
+"q": "Motor programmes are:",
+"o": [
+"Rules that let us deal with preconceived situations.",
+"Stored routines executed only under continuous conscious control.",
+"Stored routines that let patterns of behaviour run without continuous conscious control."
+],
+"a": 2
+},
+{
+"n": 27,
+"q": "What optimizes crew co-operation ? 1. Sharing and common task 2. Confidence in each others capability. 3. Precise definition of functions associated with each crew member's role.",
+"o": [
+"1, 2.",
+"2, 3.",
+"1, 2, 3."
+],
+"a": 2
+},
+{
+"n": 28,
+"q": "What should a pilot do to keep his night vision (scotopic vision)?",
+"o": [
+"Select meals with high contents of vitamin B and C.",
+"Not smoke before start and during flight and avoid flash blindness.",
+"Wait at least 60 minutes to night adapt before he takes off."
+],
+"a": 1
+},
+{
+"n": 29,
+"q": "Between which components is an interface mismatch causing stress due to poor cockpit design, thus leading to reduced human performance?",
+"o": [
+"Liveware - Software.",
+"Liveware - Liveware.",
+"Liveware-Hardware."
+],
+"a": 2
+},
+{
+"n": 30,
+"q": "Which of the following sentences concerning crew performance is correct?",
+"o": [
+"Mistakes can always be detected and corrected by the individual, hence too much practice is not needed.",
+"The quality of crew-performance is not dependent on the arousal level of the individual.",
+"The quality of crew-performance depends on the practice done to improve reliability."
+],
+"a": 2
+}
+]
+}

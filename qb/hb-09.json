@@ -1,0 +1,366 @@
+{
+"title": "Propellers",
+"src": "Practice questions written for Glidepath from the Aviator's Handbook, Part 2, 2-58 to 2-60 (not printed in the book: the Handbook has no question bank)",
+"qs": [
+{
+"n": 1,
+"q": "Blade angle is measured between the chord line and the:",
+"o": [
+"Plane of rotation",
+"Helix path",
+"Longitudinal axis",
+"Relative airflow"
+],
+"a": 0,
+"ex": "Book 2-58."
+},
+{
+"n": 2,
+"q": "Slip is the difference between:",
+"o": [
+"Geometric pitch and effective pitch",
+"GMP and EMP",
+"THP and SHP",
+"Blade angle and helix angle"
+],
+"a": 0,
+"ex": "Book 2-58."
+},
+{
+"n": 3,
+"q": "Compared with geometric mean pitch, experimental mean pitch is:",
+"o": [
+"Greater",
+"Equal",
+"Smaller",
+"Zero"
+],
+"a": 0,
+"ex": "EMP is the zero-thrust advance."
+},
+{
+"n": 4,
+"q": "Blade angle = helix angle +:",
+"o": [
+"Angle of attack",
+"Blade twist",
+"Slip",
+"Pitch"
+],
+"a": 0,
+"ex": "Book 2-58."
+},
+{
+"n": 5,
+"q": "Blade angle along a propeller blade:",
+"o": [
+"Decreases towards the tip",
+"Is constant",
+"Is zero at the tip",
+"Increases towards the tip"
+],
+"a": 0,
+"ex": "Twist keeps geometric pitch constant."
+},
+{
+"n": 6,
+"q": "Propeller efficiency equals:",
+"o": [
+"Thrust ÷ drag",
+"SHP ÷ THP",
+"Thrust horsepower ÷ shaft horsepower",
+"BHP ÷ IHP"
+],
+"a": 2,
+"ex": "Book 2-58."
+},
+{
+"n": 7,
+"q": "A feathered propeller has a blade angle of about:",
+"o": [
+"−5°",
+"85–90°",
+"0°",
+"20–35°"
+],
+"a": 1,
+"ex": "Book 2-58."
+},
+{
+"n": 8,
+"q": "For take-off, a variable-pitch propeller is set to:",
+"o": [
+"Fine pitch",
+"Feather",
+"Reverse",
+"Coarse pitch"
+],
+"a": 0,
+"ex": "Book 2-59."
+},
+{
+"n": 9,
+"q": "As TAS increases, a constant-speed unit:",
+"o": [
+"Decreases the blade angle",
+"Increases the blade angle",
+"Feathers the propeller",
+"Keeps blade angle constant"
+],
+"a": 1,
+"ex": "AoA and RPM stay constant."
+},
+{
+"n": 10,
+"q": "The centrifugal twisting moment tends to move the blade towards:",
+"o": [
+"Feather",
+"Coarse pitch",
+"Fine pitch",
+"Reverse"
+],
+"a": 2,
+"ex": "Book 2-59."
+},
+{
+"n": 11,
+"q": "The aerodynamic twisting moment tends to move the blade towards:",
+"o": [
+"Fine pitch",
+"Coarse pitch",
+"Zero",
+"Reverse"
+],
+"a": 1,
+"ex": "CP ahead of the pitch-change axis."
+},
+{
+"n": 12,
+"q": "In normal operation:",
+"o": [
+"ATM is greater than CTM",
+"They are always equal",
+"CTM is greater than ATM",
+"Neither exists"
+],
+"a": 0,
+"ex": "Book 2-59."
+},
+{
+"n": 13,
+"q": "A windmilling propeller produces:",
+"o": [
+"Less drag than a stationary one",
+"More drag than a stationary propeller",
+"No drag",
+"Thrust"
+],
+"a": 1,
+"ex": "Book 2-59."
+},
+{
+"n": 14,
+"q": "Beyond about how many blades does efficiency fall?",
+"o": [
+"6",
+"3",
+"10",
+"2"
+],
+"a": 0,
+"ex": "Book 2-60."
+},
+{
+"n": 15,
+"q": "Solidity is:",
+"o": [
+"Thrust ÷ area",
+"Total blade chord ÷ circumference at that radius",
+"Number of blades ÷ RPM",
+"Blade length ÷ diameter"
+],
+"a": 1,
+"ex": "n c ÷ 2πr."
+},
+{
+"n": 16,
+"q": "For a clockwise propeller (viewed from behind), torque reaction tends to:",
+"o": [
+"Roll it right",
+"Pitch it up",
+"Roll the aircraft left",
+"Yaw it right"
+],
+"a": 2,
+"ex": "Book 2-60."
+},
+{
+"n": 17,
+"q": "Spiral slipstream from a clockwise propeller yaws the aircraft:",
+"o": [
+"Not at all",
+"Up",
+"Left",
+"Right"
+],
+"a": 2,
+"ex": "It strikes the left side of the fin."
+},
+{
+"n": 18,
+"q": "Asymmetric blade effect occurs because at high AoA:",
+"o": [
+"The tips go supersonic",
+"The propeller slows down",
+"The down-going blade has a larger angle of attack",
+"The up-going blade has more thrust"
+],
+"a": 2,
+"ex": "Yaws left for a clockwise propeller."
+},
+{
+"n": 19,
+"q": "Gyroscopic precession of the propeller only occurs when the aircraft:",
+"o": [
+"Pitches or yaws",
+"Flies straight and level",
+"Climbs at constant attitude",
+"Is on the ground"
+],
+"a": 0,
+"ex": "Book 2-60."
+},
+{
+"n": 20,
+"q": "Contra-rotating propellers cancel:",
+"o": [
+"Only P-factor",
+"Only drag",
+"Torque, precession and slipstream effects",
+"Only noise"
+],
+"a": 2,
+"ex": "Book 2-60."
+},
+{
+"n": 21,
+"q": "Effective pitch is:",
+"o": [
+"Blade angle minus helix angle",
+"The distance the propeller actually advances in one revolution",
+"The distance it would advance like a screw in wood",
+"Geometric pitch plus slip"
+],
+"a": 1,
+"ex": "Slip = geometric − effective pitch."
+},
+{
+"n": 22,
+"q": "The helix angle is between the plane of rotation and the:",
+"o": [
+"Blade chord",
+"Relative airflow",
+"Path of effective pitch",
+"Longitudinal axis"
+],
+"a": 2,
+"ex": "Book 2-58."
+},
+{
+"n": 23,
+"q": "A typical reverse blade angle is about:",
+"o": [
+"20–35°",
+"0°",
+"−2° to −8°",
+"10–12°"
+],
+"a": 2,
+"ex": "Book 2-58."
+},
+{
+"n": 24,
+"q": "With a fixed-pitch propeller, the blade angle of attack rises when:",
+"o": [
+"Altitude rises",
+"RPM falls",
+"RPM rises or forward speed falls",
+"Forward speed rises"
+],
+"a": 2,
+"ex": "Book 2-59."
+},
+{
+"n": 25,
+"q": "In a glide with a variable-pitch propeller, coarsening the pitch:",
+"o": [
+"Has no effect",
+"Reduces glide range",
+"Increases drag",
+"Reduces RPM and drag, increasing glide range"
+],
+"a": 3,
+"ex": "Book 2-59."
+},
+{
+"n": 26,
+"q": "If a constant-speed propeller overspeeds, the CSU:",
+"o": [
+"Feathers it",
+"Selects reverse",
+"Decreases the blade angle",
+"Increases the blade angle"
+],
+"a": 3,
+"ex": "More torque absorbed."
+},
+{
+"n": 27,
+"q": "Thrust bending force bends the blade:",
+"o": [
+"Towards fine pitch",
+"Against the rotation",
+"Backward",
+"Forward"
+],
+"a": 3,
+"ex": "Torque bending bends it against rotation."
+},
+{
+"n": 28,
+"q": "When windmilling, the aerodynamic twisting moment:",
+"o": [
+"Stays towards coarse pitch",
+"Becomes zero",
+"Feathers the blade",
+"Reverses and adds to CTM towards fine pitch"
+],
+"a": 3,
+"ex": "Book 2-59."
+},
+{
+"n": 29,
+"q": "Torque reaction on take-off with a clockwise propeller loads the:",
+"o": [
+"Tail wheel more",
+"Right wheel more",
+"Left wheel more",
+"Nose wheel more"
+],
+"a": 2,
+"ex": "The airframe is pushed anticlockwise."
+},
+{
+"n": 30,
+"q": "Raising the tail of a tail-wheel aircraft on take-off (clockwise propeller) gives:",
+"o": [
+"A yaw to the right",
+"A yaw to the left",
+"A pitch-up",
+"A roll right"
+],
+"a": 1,
+"ex": "Gyroscopic precession."
+}
+]
+}

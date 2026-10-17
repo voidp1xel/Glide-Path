@@ -1,0 +1,430 @@
+{
+ "id": "nav-30",
+ "title": "ILS",
+ "src": "R.K. Bali — Air Navigation, Part III Ch 7 (key read from the printed answer grid, PDF p. 276)",
+ "text": "nav",
+ "start": 16001,
+ "end": 16251,
+ "key": "aacbbccbbaacabaccacacabccabbcaaaabcacbabcbccaacbcacacccac",
+ "fix": {
+  "1": {
+   "o": [
+    "Inner",
+    "Middle",
+    "Outer"
+   ]
+  },
+  "3": {
+   "o": [
+    "IAS",
+    "EAS",
+    "G/S"
+   ]
+  },
+  "4": {
+   "o": [
+    "Never",
+    "When flying in the area behind the localiser aerial",
+    "When flying in the area forward the localiser aerial"
+   ]
+  },
+  "5": {
+   "o": [
+    "At the non-approach end, about 150 m to one side of the runway and 300 m along the extended centre line",
+    "At the non-approach end of the runway, about 300 m from the runway on the extended centre line",
+    "At the approach end, about 150 m to one side of the runway and 300 m from touchdown"
+   ]
+  },
+  "6": {
+   "o": [
+    "increase in the aircraft's rate of descent of 50ft/min",
+    "increase in the aircraft's rate of descent of 100ft/min",
+    "decrease in the aircraft's rate of descent of 50ft/min"
+   ],
+   "q": "Every 10 kt decrease in groundspeed on a 3° ILS glide path will require an approximate:"
+  },
+  "7": {
+   "o": [
+    "different frequencies; different modulation frequencies",
+    "different frequencies; different phases",
+    "the same frequency; different modulation frequencies"
+   ],
+   "q": "The principle of operation of an ILS localiser is based on two overlapping lobes transmitted on (i) … frequencies and carrying different (ii) …"
+  },
+  "8": {
+   "o": [
+    "35° each side, to 25 NM",
+    "8° each side, to 10 NM",
+    "25° each side, to 17 NM"
+   ],
+   "q": "ILS glide paths provide azimuth coverage (i) …° each side of the localiser centre line to a distance of (ii) … NM from the threshold."
+  },
+  "9": {
+   "o": [
+    "850ft/min",
+    "800ft/min",
+    "670ft/min"
+   ]
+  },
+  "10": {
+   "o": [
+    "150ft/min",
+    "50ft/min",
+    "100ft/min"
+   ]
+  },
+  "11": {
+   "o": [
+    "109.15MHz",
+    "112.10MHz",
+    "110.20MHz"
+   ]
+  },
+  "12": {
+   "o": [
+    "ground returns ahead of the antennas",
+    "back-scattering of antennas",
+    "multiple lobes of radiation patterns in the vertical plane"
+   ]
+  },
+  "13": {
+   "o": [
+    "Blue - amber - white",
+    "amber - white - green",
+    "Blue - green - white"
+   ]
+  },
+  "14": {
+   "o": [
+    "700ft/min",
+    "450ft/min",
+    "400ft/min"
+   ]
+  },
+  "15": {
+   "o": [
+    "0.5 degrees",
+    "2.5 degrees",
+    "2.0 degrees"
+   ]
+  },
+  "16": {
+   "o": [
+    "VHF",
+    "EHF",
+    "UHF"
+   ]
+  },
+  "17": {
+   "o": [
+    "1350 ft",
+    "1300 ft",
+    "1450 ft"
+   ]
+  },
+  "18": {
+   "o": [
+    "75MHz and is modulated by morse at two dashes per second",
+    "300MHz and is modulated by morse at two dashes per second",
+    "200MHz and is modulated by alternate dot/dash in morse"
+   ]
+  },
+  "19": {
+   "o": [
+    "dots and a white light flashing",
+    "two dashes per second and a blue light flashing",
+    "alternate dots and dashes and an amber light flashing"
+   ]
+  },
+  "20": {
+   "o": [
+    "may receive false course indications",
+    "will not normally receive signals",
+    "will receive signals without identification coding"
+   ]
+  },
+  "21": {
+   "o": [
+    "400Hz, amber",
+    "1300Hz, blue",
+    "400Hz, blue"
+   ]
+  },
+  "22": {
+   "o": [
+    "200ft above the runway threshold",
+    "runway surface",
+    "50ft above ILS reference point"
+   ]
+  },
+  "23": {
+   "o": [
+    "0.7° above and below the glide path and 2.5° each side of the localiser centre line",
+    "1.35° to 5.25° above the horizontal and 8° each side of the localiser centre line",
+    "3° above and below the glide path and 10° each side of the localiser centre line"
+   ]
+  },
+  "24": {
+   "o": [
+    "2000Hz",
+    "400Hz",
+    "3000Hz"
+   ]
+  },
+  "25": {
+   "o": [
+    "Fly left and up",
+    "Fly right and up",
+    "fly right and down"
+   ],
+   "a": "b"
+  },
+  "26": {
+   "o": [
+    "continuous dots with a white light",
+    "Dots and dashes with alternating an amber light",
+    "alternating dots and dashes with a white light"
+   ]
+  },
+  "27": {
+   "o": [
+    "1°",
+    "0.5°",
+    "2°"
+   ]
+  },
+  "28": {
+   "o": [
+    "Is transmitted by the localizer and the glide path transmitters",
+    "Is transmitted in morse by the localizer transmitter with a tone of 1020 Hz",
+    "Is transmitted with a tone of 1450 Hz"
+   ]
+  },
+  "29": {
+   "o": [
+    "8° wide centered on the localizer center line",
+    "10° wide centered on the localizer center line",
+    "8° each side of the localizer center line"
+   ]
+  },
+  "30": {
+   "o": [
+    "329.30",
+    "110.30",
+    "75.00"
+   ]
+  },
+  "31": {
+   "o": [
+    "586 fpm",
+    "666 fpm",
+    "563 fpm"
+   ]
+  },
+  "32": {
+   "o": [
+    "1.22° – 4.73°",
+    "1.35° – 5.25°",
+    "2.05° – 5.55°"
+   ]
+  },
+  "33": {
+   "o": [
+    "6°",
+    "5.35°",
+    "1.75°"
+   ],
+   "q": "The minimum angle at which a false glide path is likely to be encountered on a 3° glide path is:"
+  },
+  "34": {
+   "o": [
+    "±10 NM wide",
+    "±10° from the runway extended centre line",
+    "±2.5°"
+   ]
+  },
+  "35": {
+   "o": [
+    "108 to 112 MHz in the VHF band",
+    "329.3 to 335 MHz in the VHF band",
+    "329.3 to 335 MHz in the UHF band"
+   ]
+  },
+  "36": {
+   "o": [
+    "not less than 7° above the horizontal (drawn from the localizer)",
+    "Not less than 300 m above the highest point on the approach",
+    "not less than 600 m above the horizontal"
+   ]
+  },
+  "37": {
+   "o": [
+    "150 ft above the horizontal plane containing the threshold",
+    "125 ft above the horizontal plane containing the threshold",
+    "100 ft above the horizontal plane containing the threshold"
+   ]
+  },
+  "38": {
+   "o": [
+    "blue; dots",
+    "blue; dashes",
+    "white; dashes"
+   ]
+  },
+  "39": {
+   "o": [
+    "category II/III ILS operations are in progress",
+    "category I ILS operations are in progress",
+    "ILS operations are in progress"
+   ]
+  },
+  "40": {
+   "o": [
+    "To increase aircraft separation in very reduced visibility conditions",
+    "aircraft maneuvering near the runway may disturb guidance signals",
+    "to increase distance from the runway during offset approach operations"
+   ]
+  },
+  "41": {
+   "o": [
+    "a maximum height of 200 ft above the runway",
+    "a maximum height of 50 ft above the runway",
+    "the surface of the runway"
+   ]
+  },
+  "42": {
+   "o": [
+    "7.0 NM",
+    "7.8 NM",
+    "13.0 NM"
+   ]
+  },
+  "43": {
+   "o": [
+    "35 kts",
+    "55 kts",
+    "136 kts"
+   ]
+  },
+  "44": {
+   "o": [
+    "6450 ft",
+    "7455 ft",
+    "7550 ft"
+   ],
+   "q": "An aircraft flying down a 3° ILS glide slope is at 25 NM DME from the threshold. Using the 1 in 60 rule and 1 NM ≈ 6000 ft, the height above the threshold (glide path crossing the threshold at 50 ft) is:"
+  },
+  "45": {
+   "o": [
+    "It must be decreased by 79 ft/ min",
+    "It must be increased by 79 ft/ min",
+    "It must be increased by 35 ft/ min"
+   ],
+   "q": "If there is a 15 kt increase in headwind, by what amount must the rate of descent change to maintain a 3° glide slope?"
+  },
+  "46": {
+   "o": [
+    "1650 FT/MIN",
+    "2400 FT/MIN",
+    "1000 FT/MIN"
+   ]
+  },
+  "47": {
+   "o": [
+    "0451",
+    "0454",
+    "0445"
+   ]
+  },
+  "48": {
+   "o": [
+    "16.0 NM",
+    "26.7 NM",
+    "19.2 NM"
+   ]
+  },
+  "49": {
+   "o": [
+    "1575 ft/min",
+    "1737 ft/min",
+    "1773 ft/min"
+   ]
+  },
+  "50": {
+   "o": [
+    "8.3 NM",
+    "7.0 NM",
+    "13.1 NM"
+   ]
+  },
+  "51": {
+   "o": [
+    "800 FT/MIN",
+    "950 FT/MIN",
+    "1400 FT/MIN"
+   ]
+  },
+  "52": {
+   "o": [
+    "5522 feet",
+    "5110 feet",
+    "6550 feet"
+   ]
+  },
+  "53": {
+   "o": [
+    "It must be increased by 35 ft/min",
+    "It must be decreased by 35 ft/min",
+    "It must be decreased by 61 ft/min"
+   ]
+  },
+  "54": {
+   "o": [
+    "5.2 m/sec",
+    "4.6 m/sec",
+    "4.3 m/sec"
+   ]
+  },
+  "56": {
+   "o": [
+    "675",
+    "795",
+    "855"
+   ]
+  },
+  "57": {
+   "o": [
+    "7550 ft",
+    "7600 ft",
+    "7650 ft"
+   ]
+  },
+  "55": {
+   "o": [
+    "0456",
+    "0439",
+    "0449"
+   ]
+  }
+ },
+ "drop": [],
+ "ex": {
+  "9": "ROD = GS (NM/min) × 6080 × tan 3.25° ≈ 2333 × 0.0568 × … ≈ 800 ft/min.",
+  "10": "About 5 ft/min per knot on a 3° path: 30 kt × 5 = 150 ft/min less.",
+  "14": "Rule of thumb: ROD ≈ 5 × GS on 3°: 90 × 5 = 450 ft/min.",
+  "17": "≈ 318 ft per NM on 3°: 4.6 × 318 + 50 ≈ 1450 ft.",
+  "25": "The book's grid prints (c). By the book's own text, 90 Hz dominates left of the localiser centre line and below the glide path, so fly right and up.",
+  "31": "5 × 110 × 3.2/3 ≈ 586 ft/min.",
+  "32": "Glide path vertical coverage is 0.45θ to 1.75θ: 1.22° – 4.73° for 2.7°.",
+  "42": "2500 ÷ 318 ft/NM ≈ 7.8 NM.",
+  "44": "25 × 6000 × 3/60 = 7500 + 50 = 7550 ft.",
+  "46": "25 000 ft to lose in 100/396 h = 15.2 min: ≈ 1650 ft/min.",
+  "47": "Descent 29 000/1800 = 16.1 min, covering 62 NM at 232 kt. 123 NM level at 320 kt = 23 min: 0422 + 23 = 0445.",
+  "48": "15 000/3000 = 5 min at 320 kt = 26.7 NM.",
+  "49": "250 kt = 25 333 ft/min × 0.07 ≈ 1773 ft/min.",
+  "52": "18 × 6080 × 3/60 = 5472 + 50 = 5522 ft.",
+  "54": "850 × 0.3048 / 60 ≈ 4.3 m/s.",
+  "55": "Descent 16.1 min covers 54 NM at 200 kt; 111 NM level at 350 kt = 19 min: 0430 + 19 = 0449.",
+  "57": "25 × 6080 × 3/60 = 7600 + 50 = 7650 ft."
+ }
+}

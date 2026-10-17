@@ -1,0 +1,312 @@
+{
+ "id": "nav-29",
+ "title": "Holding, Radial Intercept, Bearing to Plot",
+ "src": "R.K. Bali — Air Navigation, Part III Ch 6. Most are the book's worked examples turned into choices (answer = the book's working); Q5, 16, 18–20, 31–33 keyed from the printed grid, PDF p. 269",
+ "text": "nav",
+ "start": 15520,
+ "end": 15815,
+ "key": "bcbcacaaaaaaaaacbccbaaaaaaaaaabab",
+ "fix": {
+  "5": {
+   "o": [
+    "fly to the NDB and join the pattern",
+    "fly to the NDB, then a teardrop with an outbound heading of 120° for 1 minute and a rate-one turn to join inbound",
+    "fly to the NDB, then outbound on 150° for 1 minute, then turn left to point at the NDB, joining overhead"
+   ],
+   "q": "An aeroplane's RMI shows 070°, wind calm. It is to join a right-hand holding pattern at the NDB with an inbound leg of 330°. The aeroplane should:"
+  },
+  "7": {
+   "o": [
+    "80 s",
+    "60 s",
+    "40 s"
+   ],
+   "q": "Holding radial 090°, standard hold, W/V 130°/25 kt, TAS 210 kt. Time on the outbound leg?"
+  },
+  "8": {
+   "o": [
+    "006° for 47 s",
+    "054° for 47 s",
+    "006° for 73 s"
+   ],
+   "q": "Holding leg 210°, left-hand hold, W/V 270°/30 kt, TAS 180 kt. Outbound heading and time?"
+  },
+  "16": {
+   "o": [
+    "310° / 175°",
+    "135° / 040°",
+    "130° / 045°"
+   ],
+   "q": "Heading 170° (M), ADF 345° relative. Make a 45° intercept of the 355° track. Heading to intercept and ADF at the intercept?"
+  },
+  "18": {
+   "o": [
+    "080° relative",
+    "060° relative",
+    "050° relative"
+   ],
+   "q": "Heading 040° (M), ADF 060° relative, to intercept the 120° (M) track inbound to an NDB at 50°. The relative bearing that confirms interception is:"
+  },
+  "19": {
+   "o": [
+    "132° relative",
+    "137° relative",
+    "127° relative"
+   ],
+   "q": "Heading 135° (M) with 13° right drift, intercepting the 082° (M) track outbound from an NDB. The relative bearing that confirms interception is:"
+  },
+  "20": {
+   "o": [
+    "130° (M)",
+    "120° (M)",
+    "140° (M)"
+   ],
+   "q": "Heading 200° (M), ADF 160° relative. The heading to intercept the 150° track outbound from the NDB at 30° is:"
+  },
+  "31": {
+   "o": [
+    "020° / 010°",
+    "060° / 330°",
+    "070° / 320°"
+   ],
+   "q": "Tracking in to an NDB on heading 040° (M), the aircraft is asked to track in on radial 210°, intercept angle 30°. Initial heading and ADF reading on intercepting the new track?"
+  },
+  "32": {
+   "o": [
+    "150° relative",
+    "160° relative",
+    "140° relative"
+   ],
+   "q": "Heading 130° (M), ADF 190° relative, to intercept the 170° (M) track outbound from an NDB at 30°. The relative bearing that confirms interception is:"
+  },
+  "33": {
+   "o": [
+    "290°(M)",
+    "010°(M)",
+    "030°(M) Ans. MBT / MBF = 040°/220° MH = 040° Final MBT/MBF = 150/330° Intercept Angle = 040° New MH = 330° + 040° = 370° - 360° = 010 HOLDING, RADIAL INTERCEPT, BEARING TO PLOT"
+   ]
+  },
+  "1": {
+   "q": "Approaching the station on R-140°, the aircraft is told to hold on radial 325° (standard hold). Which entry?",
+   "o": [
+    "Direct",
+    "Offset (teardrop)",
+    "Parallel"
+   ]
+  },
+  "2": {
+   "q": "Homing to the station on heading 150° with 10° S drift, the aircraft is to hold on a holding leg of 330° (standard hold). Which entry?",
+   "o": [
+    "Direct",
+    "Offset (teardrop)",
+    "Parallel"
+   ]
+  },
+  "3": {
+   "q": "Homing to the station on heading 060° with 10° P drift, the aircraft is to hold on radial 065° (standard hold). Which entry?",
+   "o": [
+    "Direct",
+    "Offset (teardrop)",
+    "Parallel"
+   ]
+  },
+  "4": {
+   "q": "Homing on inbound heading 300° with 10° S drift, the aircraft is to hold on radial 305° (standard hold). Which entry?",
+   "o": [
+    "Direct",
+    "Offset (teardrop)",
+    "Parallel"
+   ]
+  },
+  "6": {
+   "q": "Homing on heading 330° with 15° P drift, the aircraft is to hold on radial 325°, non-standard (left-hand) hold. Which entry?",
+   "o": [
+    "Direct",
+    "Offset (teardrop)",
+    "Parallel"
+   ]
+  },
+  "9": {
+   "q": "Heading 090° to the station, nil wind; the final inbound track is to be 070°. Heading to intercept and ADF reading at the intercept?",
+   "o": [
+    "130° / 300°",
+    "110° / 320°",
+    "010° / 060°"
+   ]
+  },
+  "10": {
+   "q": "Approaching the station on radial 090°, told to approach on radial 082°. Heading to intercept and ADF at the intercept?",
+   "o": [
+    "292° / 330°",
+    "232° / 030°",
+    "262° / 000°"
+   ]
+  },
+  "11": {
+   "q": "Approaching the station on radial 330°, nil wind, told to approach on radial 300°. Heading to intercept and ADF at the intercept?",
+   "o": [
+    "180° / 300°",
+    "060° / 060°",
+    "150° / 330°"
+   ]
+  },
+  "12": {
+   "q": "Approaching the station on radial 230°, told to approach on radial 270°. Heading to intercept and ADF at the intercept?",
+   "o": [
+    "000° / 090°",
+    "180° / 270°",
+    "050° / 040°"
+   ]
+  },
+  "13": {
+   "q": "Approaching the station on heading 330°, told to intercept radial 175° inbound. Heading to intercept and ADF at the intercept?",
+   "o": [
+    "295° / 060°",
+    "035° / 320°",
+    "355° / 000°"
+   ]
+  },
+  "14": {
+   "q": "Approaching the station on heading 185° with 10° S drift, told to intercept radial 340° inbound. Heading to intercept and ADF at the intercept?",
+   "o": [
+    "250° / 270°",
+    "070° / 090°",
+    "160° / 000°"
+   ]
+  },
+  "15": {
+   "q": "Approaching the station on radial 300° with 10° S drift, asked to approach on radial 270°. Heading to intercept and ADF at the intercept?",
+   "o": [
+    "150° / 300°",
+    "030° / 060°",
+    "110° / 340°"
+   ]
+  },
+  "17": {
+   "q": "Approaching the station on heading 225° with 10° S drift, told to approach on radial 075°. Heading to intercept?",
+   "o": [
+    "215°",
+    "195°",
+    "275°",
+    "265°"
+   ]
+  },
+  "21": {
+   "q": "Aircraft at 41°N 81°W, QDM 173° from a VOR at 59°N 84°W; variation at the VOR 3° E, at the aircraft 6° E. Bearing to plot on a Lambert chart?",
+   "o": [
+    "356°",
+    "353°",
+    "176°"
+   ]
+  },
+  "22": {
+   "q": "The aircraft's true bearing from the station is 050° (northern hemisphere), conversion angle 5°. Bearing to plot on a Mercator chart?",
+   "o": [
+    "055°",
+    "045°",
+    "050°"
+   ]
+  },
+  "23": {
+   "q": "QTE 240° (northern hemisphere), conversion angle 10°. Bearing to plot on a Mercator chart?",
+   "o": [
+    "230°",
+    "250°",
+    "240°"
+   ]
+  },
+  "24": {
+   "q": "QTE 320° (southern hemisphere), conversion angle 8°. Bearing to plot on a Mercator chart?",
+   "o": [
+    "328°",
+    "312°",
+    "320°"
+   ]
+  },
+  "25": {
+   "q": "ADF RMI 240° (northern hemisphere), variation 10° W, conversion angle 5°. Bearing to plot on a Mercator chart?",
+   "o": [
+    "055°",
+    "045°",
+    "065°"
+   ]
+  },
+  "26": {
+   "q": "RMI 055° (northern hemisphere), variation 5° E, conversion angle 10°. Bearing to plot on a Mercator chart?",
+   "o": [
+    "230°",
+    "250°",
+    "240°"
+   ]
+  },
+  "28": {
+   "q": "Magnetic bearing to a VOR 310°; aircraft 30°S 45°45'E, VOR 19°20'S 30°30'E; variation at the VOR +7° (E). Bearing to plot on a Mercator chart?",
+   "o": [
+    "134°",
+    "140°",
+    "317°"
+   ]
+  },
+  "29": {
+   "q": "LSR 198°, QC +2°, heading 210° (T), conversion angle 5°, southern hemisphere. Bearing to plot on a Mercator chart?",
+   "o": [
+    "235°",
+    "225°",
+    "055°"
+   ]
+  },
+  "30": {
+   "q": "LSR 301°, QC −1°, heading 120° (T), conversion angle 10°, southern hemisphere. Bearing to plot on a Mercator chart?",
+   "o": [
+    "250°",
+    "230°",
+    "060°"
+   ]
+  }
+ },
+ "drop": [
+  27
+ ],
+ "ex": {
+  "1": "Book: sector 2 runs 145° to 075° (radial), the aircraft on 140 is in it: offset (teardrop).",
+  "2": "MBT = 150 + 10 = 160, aircraft on radial 340: sector 1, parallel.",
+  "3": "MBT = 060 − 10 = 050, aircraft on radial 230: sector 2, offset.",
+  "4": "Aircraft on radial 130: sector 1, parallel.",
+  "5": "Key as printed: direct entry.",
+  "7": "Outbound 090°: the wind from 130° gives about 19–20 kt headwind; add 1 s per knot: about 80 s.",
+  "8": "Drift 8° on the legs; outbound apply 3 × drift: 030 − 24 = 006. GS out 193 kt: 13 kt tailwind → 60 − 13 = 47 s.",
+  "9": "Difference 20° → double = 40, round up to 60°. Heading 070 + 60 = 130; RB = 070 − 130 + 360 = 300.",
+  "10": "MBT 270 → final 262; intercept 30°: 292; RB = 262 − 292 + 360 = 330.",
+  "11": "MBT 150 → final 120; 2 × 30 = 60°: 180; RB = 120 − 180 + 360 = 300.",
+  "12": "MBT 050 → final 090; 2 × 40 = 80 → 90°: 000; RB = 090.",
+  "13": "MBT 330 → final 355; 2 × 25 = 50 → 60°: 295; RB = 060.",
+  "14": "MBT 195 → final 160; 2 × 35 = 70 → 90°: 250; RB = 160 − 250 + 360 = 270.",
+  "15": "MBT 120 → final 090; 60° intercept: 150; RB = 090 − 150 + 360 = 300. The book then joins the 110 non-standard hold with a parallel entry.",
+  "16": "MBT = 345 + 170 = 155; final MBT 175; 175 − 45 = 130; RB = 175 − 130 = 045.",
+  "17": "MBT 235 → final 255; 60° intercept: 255 − 60 = 195 (turn left 30°; ADF 060 at the intercept).",
+  "18": "At the intercept the heading is 120 − 50 = 070; RB = 120 − 070 = 050.",
+  "19": "Outbound 082 means QDM 262; RB = 262 − 135 = 127.",
+  "20": "Outbound 150 at 30°: 150 − 30 = 120.",
+  "21": "QUJ = 173 + 3 (VOR variation) = 176; QTE = 356; on a Lambert chart BTP = QTE.",
+  "25": "QDR 060, QTE 050, + 5 = 055.",
+  "26": "QUJ 060, QTE 240, − 10 = 230.",
+  "28": "QTE = 310 + 7 − 180 = 137; CA = ½ × 15¼° × sin 24.7° ≈ 3°: BTP 134.",
+  "29": "RB 200; MBT = 200 + 210 − 360 = 050; QTE 230; + 5 = 235.",
+  "30": "RB 300; MBT 060; QTE 240; + 10 = 250.",
+  "31": "Inbound on 210 radial = track 030; intercept 30°: 060; RB = 030 − 060 + 360 = 330.",
+  "32": "Heading 170 + 30 = 200; final MBT 350; RB = 350 − 200 = 150."
+ },
+ "add": [
+  {
+   "n": 33,
+   "q": "Tracking in to an NDB on inbound track 040° (M), the aircraft is asked to intercept and proceed on the outbound track 330° (M), intercepting it at 40°. The aircraft should alter heading to:",
+   "o": [
+    "290° (M)",
+    "010° (M)",
+    "030° (M)"
+   ],
+   "a": 1,
+   "ex": "Final MBF 330 + intercept 40 = 370 → 010° (M)."
+  }
+ ]
+}

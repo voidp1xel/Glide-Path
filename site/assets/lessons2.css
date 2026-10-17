@@ -314,3 +314,19 @@ svg.fig text[style*="fill:var(--panel)"],svg.fig text[style*="fill:var(--paper)"
 /* timeline: labels near the ends hang inwards instead of off the panel */
 .tl .mark.edge-l{transform:translateX(-1px);align-items:flex-start}
 .tl .mark.edge-r{transform:translateX(calc(-100% + 1px));align-items:flex-end}
+
+/* info bar: only the title is a block; bold words inside the explanation stay inline */
+.infobar p b,.infobar blockquote b{display:inline;font-size:inherit}
+
+/* light labels on fixed dark scenery (tagged by G.figTextTone) */
+svg.fig text.lt,.fig svg text.lt{stroke:rgba(0,0,0,.6);stroke-width:2.4px}
+
+/* phones: fly step chips become one swipeable row so the controls stay next to the drawing */
+@media (max-width:640px){.flchips{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;padding-bottom:2px}.flchips::-webkit-scrollbar{display:none}.flchips button{flex:none}}
+svg.fig text.dk,.fig svg text.dk{stroke:none}
+
+/* phones: animated drawings keep readable labels and scroll sideways; the box follows the plane */
+@media (max-width:640px){.flybox{overflow-x:auto;scrollbar-width:thin}.flybox .flysvg{min-width:620px}.holdfig .holdsvg{min-width:0}}
+
+/* colour aliases some figures use (they were undefined, so text fell back to black) */
+:root{--bad:var(--warn);--bg:var(--paper)}

@@ -2,6 +2,7 @@ module.exports = {
   n: 9, title: 'Propellers', tag: 'Blade angle, helix angle, AoA · slip, GMP, EMP · constant-speed unit · CTM and ATM · torque, precession, slipstream, P-factor', icon: 'refresh', hue: 2, partOfBook: 'Part 2 · Aerodynamics',
   big: 'A propeller is a rotating wing: the angles that describe it, why it is twisted, how fixed, variable and constant-speed propellers manage their angle of attack, the forces trying to bend and twist each blade, and the four ways a propeller pushes the aircraft off line.',
   purpose: 'Definitions (blade angle, helix angle, geometric/effective pitch, slip, GMP/EMP), CTM vs ATM, fine vs coarse, windmilling drag, solidity, and the left-turning tendencies of a clockwise propeller are steady Technical General questions.',
+  bankLead: 'The Handbook prints no question bank, so these are original questions written for Glidepath from the book’s facts — not the book’s own questions. Your answers are saved.',
   lessons: [
     { id: 'map', type: 'mindmap', short: 'Mind map', icon: 'brain', ask: 'The whole chapter on one page',
       root: { label: 'Propeller', children: [
@@ -13,10 +14,10 @@ module.exports = {
         { label: 'Effects', children: [{ label: 'Torque: roll left' }, { label: 'Precession' }, { label: 'Slipstream: yaw left' }, { label: 'P-factor: yaw left' }] },
       ] } },
 
-    { id: 'angles', part: 'Angles and pitch', type: 'svg', fig: 'prop-angles', icon: 'target', ask: 'Blade angle, helix angle and angle of attack', dgca: true,
+    { id: 'angles', short: 'Blade angles', part: 'Angles and pitch', type: 'svg', fig: 'prop-angles', icon: 'target', ask: 'Blade angle, helix angle and angle of attack', dgca: true,
       takeaway: 'Blade angle is measured from the plane of rotation to the chord. The blade section actually moves along a helix set by rotational and forward speed; the helix angle is that path\'s angle from the plane of rotation. Angle of attack is what is left: blade angle minus helix angle. More forward speed steepens the helix and cuts the AoA.',
       hook: 'Blade = Helix + Attack.' },
-    { id: 'pitch-defs', type: 'matrix', icon: 'list', ask: 'Every pitch definition', revise: true, dgca: true,
+    { id: 'pitch-defs', hook: 'Slip = geometric minus effective pitch.', short: 'Pitch definitions', takeaway: 'Geometric pitch is the ideal screw advance, effective pitch the real one; slip is the difference. EMP exceeds GMP, and blades are twisted to keep the pitch constant.', type: 'matrix', icon: 'list', ask: 'Every pitch definition', revise: true, dgca: true,
       corner: 'Term', cols: ['Meaning'],
       rows: [
         { label: 'Geometric pitch', cells: ['advance per revolution if it screwed through the air at its blade angle'] },
@@ -28,7 +29,7 @@ module.exports = {
         { label: 'Blade twist', cells: ['blade angle **reduced towards the tip** for constant geometric pitch'] },
         { label: 'Efficiency', cells: [{ v: 'THP ÷ SHP', key: true }] },
       ] },
-    { id: 'ranges', type: 'scale', icon: 'sliders', ask: 'Blade angles from feather to reverse',
+    { id: 'ranges', short: 'Blade-angle ranges', takeaway: 'Blade angles run from feathered (85–90°) through cruise and flight idle down to ground idle and negative reverse angles.', type: 'scale', icon: 'sliders', ask: 'Blade angles from feather to reverse',
       bars: [
         { label: 'Feathered', v: 90, show: '85–90°', tip: 'Edge-on to the airflow: least drag from a dead engine.' },
         { label: 'In flight (coarse)', v: 35, show: '20–35°' },
@@ -38,7 +39,7 @@ module.exports = {
         { label: 'Reverse', v: 8, show: '−2° to −8°', tip: 'Negative blade angle: thrust forwards for the landing roll.' },
       ] },
 
-    { id: 'types', part: 'Fixed, variable, constant speed', type: 'pairs', icon: 'sliders', ask: 'Fine or coarse?', dgca: true,
+    { id: 'types', short: 'Fine and coarse', part: 'Fixed, variable, constant speed', type: 'pairs', icon: 'sliders', ask: 'Fine or coarse?', dgca: true,
       takeaway: 'A fixed-pitch blade is right for one speed only: at low speed and high RPM its AoA is too big, at high speed too small. A variable-pitch propeller uses fine pitch for take-off and coarse for cruise; a constant-speed unit does it automatically, increasing the blade angle as TAS rises so the AoA and RPM stay put.',
       hook: 'Fine to go, coarse to cruise.',
       pairs: [
@@ -46,10 +47,10 @@ module.exports = {
         { a: { label: 'Fixed pitch', body: 'AoA rises when RPM rises or forward speed falls. Chosen for one condition (cruise). Higher windmilling RPM in a glide → more drag.' }, b: { label: 'Constant-speed unit', body: 'Pilot sets RPM; flyweight governor moves the blades between the fine and coarse stops. **Overspeed → coarsen.** As TAS rises, blade angle rises, AoA constant.' }, rule: '' },
       ] },
 
-    { id: 'forces', part: 'Forces on a blade', type: 'svg', fig: 'prop-forces', icon: 'zap', ask: 'Which forces bend and twist a blade?', dgca: true,
+    { id: 'forces', short: 'Forces on a blade', part: 'Forces on a blade', type: 'svg', fig: 'prop-forces', icon: 'zap', ask: 'Which forces bend and twist a blade?', dgca: true,
       takeaway: 'Centrifugal force stretches the blade; thrust bends it forward; torque bends it back against rotation. Two twisting moments fight over the pitch: centrifugal twisting moment turns it fine, aerodynamic twisting moment (CP ahead of the pitch axis) turns it coarse. Normally ATM wins; windmilling, ATM reverses and joins CTM.',
       hook: 'CTM fines, ATM coarsens.' },
-    { id: 'ctm-atm', type: 'stamp', icon: 'check', ask: 'CTM or ATM?', tier: 'exam',
+    { id: 'ctm-atm', short: 'CTM or ATM?', takeaway: 'Centrifugal twisting moment turns blades towards fine pitch; aerodynamic twisting moment, from the CP ahead of the pitch axis, turns them coarse and normally wins.', type: 'stamp', icon: 'check', ask: 'CTM or ATM?', tier: 'exam',
       stamps: [{ id: 'c', label: 'CTM' }, { id: 'a', label: 'ATM' }],
       cases: [
         { text: 'Tends to turn the blade towards fine pitch.', answer: 'c' },
@@ -58,22 +59,22 @@ module.exports = {
         { text: 'Produced by centrifugal force on the leading- and trailing-edge mass.', answer: 'c' },
         { text: 'Usually the larger of the two in normal operation.', answer: 'a' },
       ] },
-    { id: 'thrust', type: 'pairs', icon: 'wind', ask: 'Thrust, windmilling and power absorption',
+    { id: 'thrust', short: 'Thrust and windmilling', takeaway: 'A blade’s total reaction splits into thrust and rotational drag; a windmilling propeller makes drag, more than a stopped one; absorbing more power needs more blades, chord or RPM within tip-speed limits.', type: 'pairs', icon: 'wind', ask: 'Thrust, windmilling and power absorption',
       pairs: [
         { a: { label: 'Thrust and torque', body: 'Total reaction ⟂ chord: forward part = **thrust**, in-plane part = **rotational drag (torque)**. Never 100% efficient.' }, b: { label: 'Windmilling', body: 'Air drives the propeller: negative AoA, **drag not thrust** — **more drag than a stopped prop**. ATM now adds to CTM. Feather it.' }, rule: 'Feathering puts the blade edge-on (85–90°).' },
         { a: { label: 'Power absorption', body: 'Must absorb all engine power with **subsonic tips**: more blades (≤ 6), more RPM, wider chord, **contra-rotation**.' }, b: { label: 'Solidity', body: '**n c ÷ 2πr**: total blade chord ÷ circumference at radius r. More than ~6 blades lowers efficiency.' }, rule: '' },
       ] },
-    { id: 'solidity', type: 'formulas', icon: 'calc', ask: 'Propeller formulas', revise: true,
+    { id: 'solidity', short: 'Propeller formulas', takeaway: 'Solidity is total blade chord over circumference; efficiency is thrust power over shaft power; tip speed must stay below Mach 1.', type: 'formulas', icon: 'calc', ask: 'Propeller formulas', revise: true,
       items: [
         { name: 'Solidity', eq: 'σ = n c ÷ 2πr', calc: { inputs: [{ k: 'n', label: 'Blades', v: 4 }, { k: 'c', label: 'Chord (m)', v: 0.25 }, { k: 'r', label: 'Radius (m)', v: 1.2 }], f: 'n*c/(2*Math.PI*r)', unit: '' } },
         { name: 'Efficiency', eq: 'η = THP ÷ SHP', calc: { inputs: [{ k: 't', label: 'Thrust power', v: 800 }, { k: 's', label: 'Shaft power', v: 1000 }], f: 't/s*100', unit: '%' } },
         { name: 'Tip speed', eq: 'V<sub>tip</sub> = √( (πDN/60)² + TAS² )', note: 'Keep it below M 1.', calc: { inputs: [{ k: 'd', label: 'Diameter (m)', v: 3 }, { k: 'n', label: 'RPM', v: 2000 }, { k: 'v', label: 'TAS (m/s)', v: 120 }], f: 'Math.sqrt(Math.pow(Math.PI*d*n/60,2)+v*v)', unit: 'm/s (340 = M 1 at MSL)' } },
       ] },
 
-    { id: 'effects', part: 'Effects on the aircraft', type: 'svg', fig: 'prop-effects', icon: 'rotate', ask: 'Why does a single-engine aircraft swing on take-off?', dgca: true,
+    { id: 'effects', short: 'Effects on the aircraft', part: 'Effects on the aircraft', type: 'svg', fig: 'prop-effects', icon: 'rotate', ask: 'Why does a single-engine aircraft swing on take-off?', dgca: true,
       takeaway: 'With a clockwise propeller (seen from behind): torque reaction rolls the aircraft left and loads the left wheel; the spiral slipstream hits the left of the fin and yaws it left; at high AoA the down-going right blade bites harder (P-factor) and yaws it left; raising the tail of a tail-dragger precesses the nose left. All are worst at low speed and high power.',
       hook: 'Clockwise prop: everything goes left.' },
-    { id: 'effect-sort', type: 'classify', icon: 'grid', ask: 'Which propeller effect?', tier: 'exam',
+    { id: 'effect-sort', short: 'Which effect?', type: 'classify', icon: 'grid', ask: 'Which propeller effect?', tier: 'exam',
       buckets: [{ id: 't', label: 'Torque reaction' }, { id: 'g', label: 'Precession' }, { id: 's', label: 'Spiral slipstream' }, { id: 'p', label: 'Asymmetric blade (P-factor)' }],
       items: [
         { text: 'More load on the left wheel during take-off', bucket: 't' }, { text: 'Roll to the left in flight', bucket: 't' },
@@ -82,9 +83,9 @@ module.exports = {
         { text: 'Down-going blade has the larger AoA', bucket: 'p' }, { text: 'Worst at high angle of attack', bucket: 'p' },
       ],
       takeaway: 'Contra-rotating propellers cancel torque, precession and slipstream effects.' },
-    { id: 'numbers', part: 'Numbers', type: 'numbers', icon: 'hash', ask: 'Numbers to know',
+    { id: 'numbers', short: 'Numbers', part: 'Numbers', type: 'numbers', icon: 'hash', ask: 'Numbers to know',
       items: [{ k: 'Feathered', v: '85–90°' }, { k: 'In-flight coarse', v: '20–35°' }, { k: 'Flight idle', v: '10–12°' }, { k: 'Start locks', v: '1–2°' }, { k: 'Ground idle', v: '0°' }, { k: 'Reverse', v: '−2° to −8°' }, { k: 'Max useful blades', v: '≈ 6' }, { k: 'Tip speed limit', v: '< M 1' }] },
-    { id: 'quiz', type: 'quiz', icon: 'check', ask: 'Quick check',
+    { id: 'quiz', short: 'Quick check', type: 'quiz', icon: 'check', ask: 'Quick check',
       questions: [
         { q: 'Blade angle is measured between the chord and the:', options: ['Relative airflow', 'Plane of rotation', 'Longitudinal axis', 'Helix path'], answer: 1 },
         { q: 'Slip is the difference between:', options: ['GMP and EMP', 'Geometric pitch and effective pitch', 'Blade angle and helix angle', 'THP and SHP'], answer: 1 },

@@ -59,10 +59,10 @@ module.exports = {
       takeaway: 'Twilight is measured by how far the sun\'s centre is below the sensible horizon: civil 0–6° (the one pilots use), nautical 6–12°, astronomical 12–18°. Almanac times are in LMT.',
       hook: 'Six, twelve, eighteen: civil, nautical, astronomical.' },
     { id: 'tw-layers', type: 'layers', icon: 'layers', ask: 'How deep is the sun below the horizon?',
-      lead: 'Tap each band: the deeper the sun, the darker the sky.',
+      lead: 'Read it upwards as the sun sinks: each band is the sun deeper below the horizon. Tap one.',
       takeaway: 'At sunset the sun\'s centre is already about 50′ below the sensible horizon (refraction lifts the image). Civil twilight then lasts until 6°.',
       hook: 'Refraction: sunrise early, sunset late.',
-      ground: 'Sensible horizon (0°)',
+      ground: 'Sun on the sensible horizon (0°)',
       bands: [
         { label: 'Sunset / sunrise', alt: '≈ 50′', h: 48, hue: 4, tip: 'The upper edge of the sun touches the visible horizon; its centre is ~50′ below the sensible horizon (16′ semi-diameter + ~34′ refraction).' },
         { label: 'Civil twilight', alt: '0° – 6°', h: 64, hue: 2, tip: 'Enough light to see the horizon and large objects. **The twilight used in aviation**: night flying is often defined from the end of evening civil twilight.' },

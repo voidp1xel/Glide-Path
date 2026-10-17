@@ -26,7 +26,7 @@ module.exports = {
     { id: 'three-temps', type: 'svg', fig: 'thermometers', icon: 'thermo', ask: 'Dry bulb, wet bulb, dew point: how are they ordered?', dgca: true,
       takeaway: 'In unsaturated air T > Tw > Td. When saturated (fog, rain) all three are equal and the spread is zero.',
       hook: 'Dry ≥ Wet ≥ Dew: alphabetical order backwards (D, W, D).' },
-    { id: 'wb-dp', type: 'pairs', icon: 'scale', ask: 'Wet bulb vs dew point vs frost point',
+    { id: 'wb-dp', takeaway: 'The wet bulb is cooled by evaporating water into the air; the dew point is how far you must cool the air (no water added) to saturate it. Frost point is the same for ice. Heating changes RH but not the dew point.', hook: 'Wet bulb adds water; dew point takes away heat.', type: 'pairs', icon: 'scale', ask: 'Wet bulb vs dew point vs frost point',
       pairs: [
         { a: { label: 'Wet bulb', body: 'Lowest temperature reached by **evaporating water into** the air until saturated. Desert coolers.' }, b: { label: 'Dew point', body: 'Temperature to which air must be **cooled at constant pressure** to saturate it.' }, rule: 'Wet bulb adds water; dew point removes heat.' },
         { a: { label: 'Dew point', body: 'Saturation with respect to **water** → dew, fog, cloud.' }, b: { label: 'Frost point', body: 'Saturation with respect to **ice** → **hoar frost**.' }, rule: 'Frost point is for ice.' },
@@ -39,7 +39,7 @@ module.exports = {
         { title: 'Supercooled water', icon: 'ice', points: ['Liquid drops down to **−40°C**', 'In CB down to **−45°C**'] },
         { title: 'Cloud base rule', icon: 'cloud', points: ['Base (ft) ≈ **(T − Td) × 400**', 'Surface values in °C', 'Spread 5°C → ≈2,000 ft'] },
       ] },
-    { id: 'calc', type: 'formulas', icon: 'calc', ask: 'Work it out',
+    { id: 'calc', takeaway: 'Convective cloud base is about (temperature − dew point) × 400 ft. RH = actual vapour content ÷ saturation content × 100.', hook: 'Spread times four hundred.', type: 'formulas', icon: 'calc', ask: 'Work it out',
       items: [
         { name: 'Cloud base', eq: 'base ≈ (T − T<sub>d</sub>) × 400 ft', calc: { inputs: [{ k: 't', label: 'Temperature (°C)', v: 30 }, { k: 'd', label: 'Dew point (°C)', v: 22 }], f: '(t-d)*400', unit: 'ft agl' } },
         { name: 'Relative humidity', eq: 'RH = e ÷ SVP × 100 = HMR ÷ HMR<sub>sat</sub> × 100', calc: { inputs: [{ k: 'm', label: 'HMR (g/kg)', v: 10 }, { k: 's', label: 'Saturation HMR (g/kg)', v: 20 }], f: 'm/s*100', unit: '%' } },

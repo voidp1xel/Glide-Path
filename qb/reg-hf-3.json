@@ -1,0 +1,307 @@
+{
+"title": "Human Factors practice set 3",
+"src": "Bali AR, Additional Practice Questions: Human Factors",
+"qs": [
+{
+"n": 1,
+"q": "The most dangerous symptoms of hypoxia at altitude are:",
+"o": [
+"Breathlessness and reduced night vision.",
+"Euphoria and impairment of judgment.",
+"Hyperventilation."
+],
+"a": 1
+},
+{
+"n": 2,
+"q": "To safely supply the crew with oxygen, at which altitude is it necessary to breathe 100% oxygen plus pressure after a rapid decompression?",
+"o": [
+"Approximately 33 000 ft.",
+"Approximately 38 000 ft.",
+"Approximately 45 000 ft."
+],
+"a": 1,
+"ex": "100% oxygen alone keeps you safe to about 38,000 ft; above that it must be given under pressure."
+},
+{
+"n": 3,
+"q": "When the pilot suffers from hypothermia (loss of cabin heating):",
+"o": [
+"His oxygen need will not be affected.",
+"His oxygen need will be raised and his tolerance to hypoxia will be increased.",
+"His need for oxygen will be increased as long as he stays conscious."
+],
+"a": 2
+},
+{
+"n": 4,
+"q": "\"Tunnel vision\" (loss of peripherical vision) can be observed if a pilot is subjected to more than:",
+"o": [
+"+ 3.5 Gy.",
+"- 3.5 Gz.",
+"+ 3.5 Gz"
+],
+"a": 2
+},
+{
+"n": 5,
+"q": "\"Grey out\" can be observed if a pilot is subjected to more than:",
+"o": [
+"+ 3 Gz.",
+"- 3 Gz.",
+"+ 3 Gy."
+],
+"a": 0
+},
+{
+"n": 6,
+"q": "How can a pilot increase his tolerance to +Gz?",
+"o": [
+"Relax the muscles, ducking the head and lean upper body forward.",
+"Tightening of muscles, ducking the head and perform a kind of pressure breathing.",
+"Take an upright seat position."
+],
+"a": 1
+},
+{
+"n": 7,
+"q": "A passenger complains about a painful inflated belly at 8,000 feet. You advise him to: 1: unbuckle and massage the belly; 2: stand up and let go the gases out of the intestines; 3; eat less gas forming food and avoid carbohydrated beverages before flight; 4:drink a lot of water throughout the flight.",
+"o": [
+"1, 2 and 4 are correct.",
+"1, 2 and 3 are correct.",
+"1 and 3 not advisable."
+],
+"a": 1
+},
+{
+"n": 8,
+"q": "In the pulmonary artery there is:",
+"o": [
+"Oxygen poor and carbon dioxide rich blood.",
+"Oxygen poor and carbon dioxide poor blood.",
+"Oxygen rich and carbon dioxide rich blood."
+],
+"a": 0
+},
+{
+"n": 9,
+"q": "The transfer of carbon dioxide from the blood to the alveoli can be described by:",
+"o": [
+"Boyle's Law.",
+"Dalton's Law.",
+"The law of diffusion."
+],
+"a": 2
+},
+{
+"n": 10,
+"q": "Some hours after a rapid decompression at FL 300 you experience pain in the joints. Which of following answers is correct?",
+"o": [
+"This symptom indicates decompression sickness and will disappear when you take some exercise.",
+"You should ask for medical advice since this is a symptom of decompression sickness.",
+"This phenomenon is treated by breathing 100% nitrogen."
+],
+"a": 1
+},
+{
+"n": 11,
+"q": "Which symptom does not belong to the following list:",
+"o": [
+"Leans.",
+"Bends.",
+"Chokes."
+],
+"a": 0
+},
+{
+"n": 12,
+"q": "Which statement is correct?",
+"o": [
+"Hearing is the sense that collects most information.",
+"About 70% of the information processed by humans enters through the visual channel.",
+"About 40% of the information processed by humans enters through the visual channel."
+],
+"a": 1
+},
+{
+"n": 13,
+"q": "Adaptation is:",
+"o": [
+"The adjustment of the crystalline lens to focus light on the retina.",
+"The change of the diameter of the pupil.",
+"The adjustment of the eyes to high or low levels of illumination."
+],
+"a": 2
+},
+{
+"n": 14,
+"q": "Occasional motion sickness may be relieved by:",
+"o": [
+"Keeping the head upright and still, if possible using the eyes to orientate oneself.",
+"Moving the head vigorously to loosen neck muscles.",
+"Closing the cockpit ventilators to decrease the cold temperature."
+],
+"a": 0
+},
+{
+"n": 15,
+"q": "To prevent the \"autokinetic phenomena\", the following can be done:",
+"o": [
+"Fix at the source of light, first with one eye, then with the other.",
+"Look side ways to the source of light for better fixation.",
+"Look out for additional references inside and/or outside the cockpit using peripheral vision also."
+],
+"a": 2
+},
+{
+"n": 16,
+"q": "The time an eye needs to adapt fully to the dark is about:",
+"o": [
+"30 minutes.",
+"7 minutes.",
+"15 minutes."
+],
+"a": 0
+},
+{
+"n": 17,
+"q": "The parts) of the eye responsible for night vision:",
+"o": [
+"Are the cones and rods",
+"Is the cornea.",
+"Are rods."
+],
+"a": 2
+},
+{
+"n": 18,
+"q": "Empty field myopia is caused by:",
+"o": [
+"Atmospheric perspective.",
+"Lack of distant focal points.",
+"Flying over mountainous terrain"
+],
+"a": 1
+},
+{
+"n": 19,
+"q": "The human ear is capable of perceiving vibrations between the frequencies:",
+"o": [
+"10-16Hz",
+"16-20000Hz",
+"20000-420000Hz"
+],
+"a": 1
+},
+{
+"n": 20,
+"q": "What is understood by air-sickness?",
+"o": [
+"A sensory conflict within the vestibular system accompanied by nausea, vomiting and fear.",
+"An illness caused by evaporation of gases in the blood.",
+"An illness caused by an infection of the middle ear."
+],
+"a": 0
+},
+{
+"n": 21,
+"q": "Approaches at night without visual references on the ground and no landing aids (e.g. VASIS) can make the pilot believe of being:",
+"o": [
+"Lower than actual altitude with the risk of ducking under.",
+"Lower than actual altitude with the risk of overshooting.",
+"Higher than actual altitude with the risk of landing short (ducking under\")."
+],
+"a": 2
+},
+{
+"n": 22,
+"q": "Orientation in flight is accomplished by: 1: Eyes; 2: Utriculus and sacculus; 3: Semicircular canals; 4: Seat-of-the-pants-Sense.",
+"o": [
+"Only 1 and 4 are correct.",
+"1, 2, 3 and 4 are correct.",
+"1,2, 3 and 4 are false, only 1 is correct."
+],
+"a": 1
+},
+{
+"n": 23,
+"q": "What can a pilot do to avoid \"Flicker vertigo\" when flying in the clouds?",
+"o": [
+"Switch strobe lights off.",
+"Dim the cockpit lights to avoid reflections.",
+"Engage the autopilot until breaking the clouds."
+],
+"a": 0
+},
+{
+"n": 24,
+"q": "During flight in IMC, the most reliable sense which should be used to overcome illusions is the:",
+"o": [
+"\"Seat-of-the-pants-Sense.\"",
+"Visual sense by looking outside.",
+"Visual sense, interpreting the attitude indicator."
+],
+"a": 2
+},
+{
+"n": 25,
+"q": "ADDITIONAL PRACTICE QUESTIONS: HUMAN FACTORS 25. It is inadvisable to fly when suffering from a cold. The reason for this is:",
+"o": [
+"The tissue around the nasal end of the Eustachian tube is likely to be swollen thus causing difficulty in equalizing the pressure within the middle ear and the nasal/throat area. Pain and damage to the eardrum can result, particularly during fast descents.",
+"Although the change in air pressure during a climb at lower altitudes is very small, it increases rapidly at high altitudes. If the tissue in the Eustachian tube of the ear is swollen, gentle descents at high altitude would result in damage to the ear drum.",
+"Swollen tissue in the inner ear will increase the rate of metabolic production resulting in hyperventilation."
+],
+"a": 0
+},
+{
+"n": 26,
+"q": "The metabolization of alcohol:",
+"o": [
+"Is quicker when used to it.",
+"Is a question of time.",
+"Can be influenced by easy to get medication."
+],
+"a": 1
+},
+{
+"n": 27,
+"q": "The first stage in the information process is:",
+"o": [
+"Perception.",
+"The recognition of information.",
+"Sensory stimulation."
+],
+"a": 2
+},
+{
+"n": 28,
+"q": "Motor programmes are:",
+"o": [
+"Stored routines that enable patterns of behavior to be executed without continuous conscious control.",
+"Rules that enable us to deal with preconceived situations.",
+"Stored routines that enable patterns of behavior to be executed only under continuous conscious control."
+],
+"a": 0
+},
+{
+"n": 29,
+"q": "Which of the following human error rates can be described as both realistic and pretty good, after methodical training:",
+"o": [
+"1 in 10 times.",
+"1 in 100 times.",
+"1 in 1000 times."
+],
+"a": 2
+},
+{
+"n": 30,
+"q": "Acute stress quickly leads to:",
+"o": [
+"A decrease in the amount of resources mobilized to face the situation.",
+"A state of over activation beyond the control of willpower.",
+"The mobilization of resources required to cope with the stressors."
+],
+"a": 2
+}
+]
+}

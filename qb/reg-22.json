@@ -1,0 +1,108 @@
+{
+"title": "Security",
+"src": "Bali AR Ch 22",
+"qs": [
+{
+"n": 1,
+"q": "ICAO Annex 17 contains rules establishing security measures for passengers and:",
+"o": [
+"Checked baggage, cargo and other goods, access control and airport design",
+"Cabin baggage, checked baggage, cargo and other goods, access control and airport design",
+"Baggage only"
+],
+"a": 1
+},
+{
+"n": 2,
+"q": "A State shall take adequate measures for the safety of passengers and crew of an aircraft subjected to an act of unlawful interference:",
+"o": [
+"Until their journey can be continued",
+"During a period of investigation",
+"And arrange for them to return to their country of origin"
+],
+"a": 0
+},
+{
+"n": 3,
+"q": "When an aircraft subject to unlawful interference has landed it shall notify by the most expeditious means of the State of registry of the aircraft and the State of the operator of the landing and shall similarly transmit all other relevant information to the:",
+"o": [
+"Two aforementioned States, each State whose citizens suffered fatalities or injuries, each State whose citizens were detained as hostages, each State whose citizens are known to be on board the aircraft and the ICAO",
+"Two aforementioned States, each State whose citizens suffered fatalities or injuries on board the aircraft and the ICAO",
+"Two aforementioned States, each State whose citizens suffered fatalities or injuries, each State whose citizens are known to be on board the aircraft and the ICAO"
+],
+"a": 0
+},
+{
+"n": 4,
+"q": "Definition of \"Security, the ICAO Annex 17\", is a combination of measures:",
+"o": [
+"Intended to safeguard international civil aviation against acts of unlawful interference",
+"And human and material resources intended to safeguard international civil aviation against acts of unlawful interference",
+"And human and material resources intended to safeguard international civil aviation"
+],
+"a": 1
+},
+{
+"n": 5,
+"q": "A State shall provide assistance to an aircraft subjected to an act of unlawful seizure. This assistance includes:",
+"o": [
+"Only permission to land",
+"Provision of navigation aids, air traffic services, permission to land and catering for passengers",
+"Provision of navigation aids, air traffic services and permission to land"
+],
+"a": 2
+},
+{
+"n": 6,
+"q": "For the transport of potentially disruptive passengers some supplementary safeguards are to be observed such as:",
+"o": [
+"Boarding prior to all other passengers",
+"Boarding at the pilot-in-command's discretion",
+"Boarding at the State's discretion"
+],
+"a": 0
+},
+{
+"n": 7,
+"q": "Referring to the operational aspects in the unlawful seizure acts, it can be said:",
+"o": [
+"The contracting States will not assist with navigation aids, air transit services, etc, to an aircraft affected by an unlawful seizure act",
+"The contracting State will make provisions to ensure that an aircraft affected by an unlawful seizure act, which has landed in their territory, would be retained in all cases",
+"The contracting State will make provisions to ensure that an aircraft affected by an unlawful seizure act, which has landed in their territory, would be retained, unless its departure is justified to protect lives"
+],
+"a": 2,
+"ex": "Retained on the ground unless its departure is necessary to protect human life."
+},
+{
+"n": 8,
+"q": "When mixing or contact does take place between passengers subjected to security control and other persons not subjected to such control after the security screening points at airports serving international civil aviation have been passed",
+"o": [
+"The persons not subjected to security control shall be identified",
+"The passengers concerned and their cabin baggage shall be re-screened before boarding an aircraft",
+"Only the passengers are to be re-screened"
+],
+"a": 1
+},
+{
+"n": 9,
+"q": "When a State allows armed agents of foreign States on board to protect aircraft in flight, permission to carry weapons should be conditional upon:",
+"o": [
+"prior notification by the state of embarkation to the foreign state in which the weapons will be carried on the airport of arrival and notification of the pilot in command of a decision to permit a weapon to be carried on board his aircraft",
+"Notification of the pilot in command of a decision to permit a weapon to be carried on board his aircraft only",
+"Agreement between the state of embarkation and the state of destination"
+],
+"a": 0
+},
+{
+"n": 10,
+"q": "A terrorist attack at an airport shall be reported to :",
+"o": [
+"Commissioner of Police",
+"DGCA",
+"Commissioner of Security (Civil Aviation)"
+],
+"a": 2,
+"ex": "BCAS: security incidents go to the Commissioner of Security (Civil Aviation)."
+}
+]
+}

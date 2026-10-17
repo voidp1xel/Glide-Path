@@ -7,8 +7,22 @@
     const d = document.createElement('div');
     if (!f) { d.innerHTML = '<svg viewBox="0 0 200 60" class="fig"><text x="10" y="35" class="sm">[figure: ' + name + ']</text></svg>'; return d.firstChild; }
     d.innerHTML = f(o || {}).trim();
-    const s = d.firstElementChild; if (s) s.classList.add('fig');
+    const s = d.firstElementChild; if (s) { s.classList.add('fig'); G.figTextTone(s); }
     return s;
+  };
+  /* light-coloured labels sit on fixed dark scenery (night skies, asphalt): give them a dark halo instead of the
+     card-coloured one, so they stay readable when the card is white */
+  G.figTextTone = function (svg) {
+    svg.querySelectorAll('text').forEach(t => {
+      const st = t.getAttribute('style') || '';
+      if (/fill:\s*var\(--m-(paint|cloud)\)/.test(st)) { t.classList.add('lt'); return; } // fixed white paint / cloud colour
+      const f = st.match(/fill:\s*(#[0-9a-f]{3,6})/i) || [null, t.getAttribute('fill')];
+      let h = f[1]; if (!h || h[0] !== '#') return;
+      if (h.length === 4) h = '#' + h.slice(1).split('').map(c => c + c).join('');
+      const [r, g, b] = [1, 3, 5].map(i => parseInt(h.slice(i, i + 2), 16) / 255);
+      const L = 0.2126 * r + 0.7152 * g + 0.0722 * b;
+      if (L > 0.6) t.classList.add('lt'); else if (L < 0.15) t.classList.add('dk'); // dark ink on fixed light paint: no halo
+    });
   };
   /* tiny shape helpers used by figure strings */
   const H = (G.FH = {

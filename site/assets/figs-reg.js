@@ -61,7 +61,7 @@
     ${H.plane(560, 190, 1.4, 0)}
     ${AR(560, 206, 560, 316, 'var(--h2i)')}${T(570, 270, 'ALTITUDE', { c: 'var(--h2i)' })}${T(570, 288, 'from MSL', { c: 'var(--h2i)', w: 600 })}
     ${H.plane(425, 160, 1.2, 0)}
-    ${AR(425, 172, 425, 224, 'var(--h3i)')}${T(320, 196, 'HEIGHT', { c: 'var(--h3i)' })}${T(300, 212, 'from a datum (QFE)', { c: 'var(--h3i)', w: 600 })}
+    ${AR(425, 172, 425, 224, 'var(--h3i)')}${T(414, 184, 'HEIGHT', { a: 'end', c: 'var(--h3i)' })}${T(414, 200, 'from a datum (QFE)', { a: 'end', c: 'var(--h3i)', w: 600 })}
     ${AR(300, 252, 300, 316, 'var(--h5i)')}${T(196, 280, 'ELEVATION', { c: 'var(--h5i)' })}${T(150, 298, 'a point on the ground', { c: 'var(--h5i)', w: 600 })}
     ${H.plane(180, 70, 1.3, 0)}${T(206, 75, 'FL 080: pressure level on 1013.2 hPa', { w: 600 })}
   </svg>`;
@@ -335,5 +335,226 @@
     ${scope(585, 150, 95)}${blip(560, 200)}${blip(568, 170)}${blip(576, 140)}<path d="M576 140 Q584 118 612 112" fill="none" stroke="#f4c430" stroke-width="2"/>${blip(612, 112)}${blip(530, 110)}${blip(630, 200)}
     ${T(585, 275, 'Turn method', { a: 'middle', s: 15, w: 800 })}${T(585, 295, 'heading change ≥ 30°;', { a: 'middle', w: 600 })}${T(585, 313, 'only ONE blip responds', { a: 'middle', w: 600 })}
     ${T(350, 30, 'Identifying an aircraft with primary radar only', { a: 'middle', s: 15, w: 800 })}
+  </svg>`;
+})();
+
+/* ---------- Ch 11: SAR ---------- */
+(function () {
+  'use strict';
+  const F = G.FIGS, H = G.FH;
+  const T = (x, y, s, o = {}) => `<text x="${x}" y="${y}" text-anchor="${o.a || 'start'}" style="font:${o.w || 700} ${Math.max(13, o.s || 13)}px var(--font);fill:${o.c || 'var(--ink)'}">${s}</text>`;
+  const ship = (x, y) => `<path d="M${x - 26} ${y - 6} h52 l-8 14 h-36 z" fill="var(--panel)" stroke="var(--ink)" stroke-width="2"/><rect x="${x - 8}" y="${y - 18}" width="14" height="12" fill="var(--panel)" stroke="var(--ink)" stroke-width="2"/>`;
+  F['reg-sar-ship'] = () => `<svg viewBox="0 0 700 330">
+    <rect width="700" height="330" fill="var(--m-sea)" opacity=".35"/>
+    <rect x="8" y="8" width="420" height="314" rx="12" fill="none" stroke="var(--h1i)" stroke-dasharray="5 4"/>${T(20, 30, 'Follow me to the distress', { s: 15, w: 800, c: 'var(--h1i)' })}
+    ${ship(150, 230)}<path d="M150 250 L150 300" stroke="var(--ink)" stroke-dasharray="4 4"/>${T(110, 316, 'ship\'s wake', { w: 600 })}
+    <line x1="150" y1="218" x2="150" y2="110" stroke="var(--ink)" stroke-width="1.5" stroke-dasharray="3 5"/>${T(160, 120, 'projected course', { w: 600 })}
+    <ellipse cx="150" cy="232" rx="62" ry="42" fill="none" stroke="var(--h1i)" stroke-width="2.4"/>${T(220, 268, '1 circle at least once', { c: 'var(--h1i)' })}
+    <path d="M60 160 L240 160" stroke="var(--h1i)" stroke-width="2.4"/>${H.plane(240, 160, 1.1, 0)}${T(60, 150, '2 cross close ahead, rock wings', { c: 'var(--h1i)' })}
+    <path d="M250 160 Q330 160 360 70" fill="none" stroke="var(--h1i)" stroke-width="2.4"/>${H.plane(360, 72, 1.1, -70)}${T(250, 60, '3 fly off the way to go', { c: 'var(--h1i)' })}
+    <rect x="440" y="8" width="252" height="314" rx="12" fill="none" stroke="var(--h5i)" stroke-dasharray="5 4"/>${T(452, 30, 'Help no longer needed', { s: 15, w: 800, c: 'var(--h5i)' })}
+    ${ship(566, 130)}<path d="M566 150 L566 280" stroke="var(--ink)" stroke-dasharray="4 4"/>
+    <path d="M470 210 L670 210" stroke="var(--h5i)" stroke-width="2.4"/>${H.plane(670, 210, 1.1, 0)}${T(452, 246, 'cross the wake close astern,', { c: 'var(--h5i)' })}${T(452, 264, 'rocking the wings', { c: 'var(--h5i)' })}
+    ${T(452, 300, '(or throttle / propeller pitch)', { w: 600 })}
+  </svg>`;
+})();
+
+/* ---------- Ch 12: Visual aids ---------- */
+(function () {
+  'use strict';
+  const F = G.FIGS, H = G.FH;
+  const T = (x, y, s, o = {}) => `<text x="${x}" y="${y}" text-anchor="${o.a || 'start'}" style="font:${o.w || 700} ${Math.max(13, o.s || 13)}px var(--font);fill:${o.c || 'var(--ink)'}">${s}</text>`;
+  const P = '#e9ebef'; // runway paint (stays light in both themes, on asphalt)
+  // plan view of a precision runway's markings (left = threshold); hotspot pins are in these units
+  F['reg-rwy-markings'] = () => {
+    let thr = ''; for (let i = 0; i < 12; i++) { const y = 66 + i * 9.5; if (Math.abs(y - 120) < 6) continue; thr += `<rect x="30" y="${y}" width="56" height="5" fill="${P}"/>`; }
+    let cl = ''; for (let x = 200; x < 640; x += 46) cl += `<rect x="${x}" y="118" width="28" height="4" fill="${P}"/>`;
+    const tdz = (x, n) => [...Array(n)].map((_, i) => `<rect x="${x}" y="${82 + i * 5}" width="22" height="3" fill="${P}"/><rect x="${x}" y="${150 - i * 5}" width="22" height="3" fill="${P}"/>`).join('');
+    return `<svg viewBox="0 0 700 240">
+      <rect x="20" y="60" width="660" height="120" fill="var(--m-asphalt)"/>
+      <rect x="20" y="62" width="660" height="3" fill="${P}"/><rect x="20" y="175" width="660" height="3" fill="${P}"/>
+      ${thr}
+      <text x="150" y="132" text-anchor="middle" transform="rotate(90 150 120)" style="font:900 34px var(--font);fill:${P}">27</text>
+      ${cl}
+      ${tdz(230, 3)}${tdz(380, 2)}${tdz(440, 1)}
+      <rect x="290" y="80" width="46" height="9" fill="${P}"/><rect x="290" y="152" width="46" height="9" fill="${P}"/>
+      ${T(20, 210, '← approach', { w: 600 })}${T(680, 210, 'Runway markings are white', { a: 'end', w: 600 })}
+      ${T(20, 40, 'Plan view, landing left to right', { w: 600 })}
+    </svg>`;
+  };
+  // approach lighting systems compared (side by side, threshold at the top)
+  F['reg-als'] = () => {
+    const col = (cx, title, len, bars, side, dot) => {
+      const thrY = 40, sc = 0.3, yy = d => thrY + d * sc; let s = `<rect x="${cx - 40}" y="${thrY - 8}" width="80" height="6" fill="#2e9e5b"/>`;
+      for (let d = 30; d <= len; d += (title === 'Simple' ? 60 : 30)) s += `<circle cx="${cx}" cy="${yy(d)}" r="3.4" fill="${dot}"/>`;
+      bars.forEach(([d, w]) => { s += `<rect x="${cx - w / 2}" y="${yy(d) - 2}" width="${w}" height="4" rx="2" fill="${dot}"/>`; });
+      if (side) for (let d = 30; d <= 270; d += 30) s += `<rect x="${cx - 26}" y="${yy(d) - 2}" width="8" height="4" fill="#d4493a"/><rect x="${cx + 18}" y="${yy(d) - 2}" width="8" height="4" fill="#d4493a"/>`;
+      return s + T(cx, 340, title, { a: 'middle', s: 15, w: 800 }) + T(cx, 358, len + ' m', { a: 'middle', w: 600 });
+    };
+    return `<svg viewBox="0 0 700 370">
+      <rect x="0" y="0" width="700" height="370" fill="#14202e" opacity=".9"/>
+      ${col(140, 'Simple', 420, [[300, 60]], false, '#f3e6b0')}${col(350, 'Cat I', 900, [[300, 60]], false, '#ffffff')}${col(560, 'Cat II/III', 900, [[150, 52], [300, 60]], true, '#ffffff')}
+      <line x1="40" x2="660" y1="130" y2="130" stroke="#7a8796" stroke-dasharray="3 5"/>${T(660, 125, '300 m', { a: 'end', c: '#cfd6df', w: 600 })}
+      <line x1="470" x2="660" y1="85" y2="85" stroke="#7a8796" stroke-dasharray="3 5"/>${T(660, 80, '150 m', { a: 'end', c: '#cfd6df', w: 600 })}
+      ${T(20, 30, 'threshold (green)', { c: '#9be3b6', w: 600 })}${T(520, 240, 'red side rows', { a: 'end', c: '#ff9a8a', w: 600 })}${T(520, 256, 'to 270 m', { a: 'end', c: '#ff9a8a', w: 600 })}
+      
+    </svg>`.replace(/fill:var\(--ink\)/g, 'fill:#e9edf2');
+  };
+  // PAPI and APAPI faces for signal cards
+  const papi = (n, white) => () => { let s = ''; for (let i = 0; i < n; i++) { const isW = i < white; s += `<circle cx="${30 + i * 28}" cy="40" r="10" fill="${isW ? '#ffffff' : '#e23b2e'}" stroke="#222" stroke-width="1.5"/>`; } return `<svg viewBox="0 0 ${n * 28 + 32} 80"><rect width="100%" height="80" rx="8" fill="#14202e"/><rect x="${n * 28 + 10}" y="18" width="12" height="44" fill="#3a4250"/>${s}</svg>`; };
+  // runway on the right of the PAPI bar: units nearest the runway are on the right and turn red first
+  [4, 3, 2, 1, 0].forEach(w => { F['reg-papi-' + w + 'w'] = papi(4, w); });
+  [2, 1, 0].forEach(w => { F['reg-apapi-' + w + 'w'] = papi(2, w); });
+  // runway lights colour plan view (hotspot pins in these units)
+  F['reg-rwy-lights'] = () => {
+    let s = ''; const L = 30, R = 640, y1 = 72, y2 = 148;
+    for (let x = L + 20; x <= R; x += 34) { const yellow = x > R - 150; const c = yellow ? '#f4c430' : '#f4f4f4'; s += `<circle cx="${x}" cy="${y1}" r="4" fill="${c}"/><circle cx="${x}" cy="${y2}" r="4" fill="${c}"/>`; }
+    for (let x = L + 20; x <= R - 6; x += 17) { const toGo = R - x; const c = toGo < 100 ? '#e23b2e' : toGo < 300 ? (Math.round(x / 17) % 2 ? '#e23b2e' : '#f4f4f4') : '#f4f4f4'; s += `<circle cx="${x}" cy="110" r="3" fill="${c}"/>`; }
+    for (let y = y1; y <= y2; y += 10) s += `<circle cx="${L}" cy="${y}" r="4" fill="#2ecc71"/><circle cx="${R + 6}" cy="${y}" r="4" fill="#e23b2e"/>`;
+    for (let i = 0; i < 5; i++) s += `<circle cx="${L}" cy="${y1 - 10 - i * 9}" r="4" fill="#2ecc71"/><circle cx="${L}" cy="${y2 + 10 + i * 9}" r="4" fill="#2ecc71"/>`;
+    for (let x = 80; x < 240; x += 30) s += `<rect x="${x}" y="92" width="10" height="4" fill="#f4f4f4"/><rect x="${x}" y="124" width="10" height="4" fill="#f4f4f4"/>`;
+    return `<svg viewBox="0 0 700 230"><rect width="700" height="230" fill="#101823"/><rect x="${L}" y="${y1 - 6}" width="${R - L + 6}" height="${y2 - y1 + 12}" fill="#2b313b"/>${s}
+      ${T(20, 220, 'landing →', { c: '#cfd6df', w: 600 })}${T(690, 220, 'colours as seen by a landing pilot', { a: 'end', c: '#cfd6df', w: 600 })}</svg>`;
+  };
+})();
+
+/* ---------- Ch 13: PANS-OPS ---------- */
+(function () {
+  'use strict';
+  const F = G.FIGS, H = G.FH;
+  const T = (x, y, s, o = {}) => `<text x="${x}" y="${y}" text-anchor="${o.a || 'start'}" style="font:${o.w || 700} ${Math.max(13, o.s || 13)}px var(--font);fill:${o.c || 'var(--ink)'}">${s}</text>`;
+  const AR = (x1, y1, x2, y2, c = 'var(--ink)', w = 2) => H.arrow(x1, y1, x2, y2, c, w);
+  // cross-section of a protected area: primary half, secondary quarters with MOC tapering
+  F['reg-protected-area'] = () => `<svg viewBox="0 0 700 300">
+    <rect x="0" y="230" width="700" height="70" fill="var(--m-ground)"/>
+    <path d="M60 230 L60 230 L200 130 L500 130 L640 230 Z" fill="var(--h1)" opacity=".45" stroke="var(--h1i)" stroke-width="2"/>
+    <line x1="200" x2="200" y1="120" y2="240" stroke="var(--ink)" stroke-dasharray="4 4"/><line x1="500" x2="500" y1="120" y2="240" stroke="var(--ink)" stroke-dasharray="4 4"/>
+    ${T(350, 190, 'PRIMARY AREA', { a: 'middle', s: 16, w: 800, c: 'var(--h1i)' })}${T(350, 210, 'full MOC · ½ of total width', { a: 'middle', c: 'var(--h1i)' })}
+    ${T(130, 260, 'secondary', { a: 'middle' })}${T(130, 278, '¼ width', { a: 'middle', w: 600 })}${T(570, 260, 'secondary', { a: 'middle' })}${T(570, 278, '¼ width', { a: 'middle', w: 600 })}
+    ${AR(350, 128, 350, 100, 'var(--h3i)')}${T(360, 106, 'MOC above the highest obstacle', { c: 'var(--h3i)' })}
+    ${T(30, 120, 'MOC tapers to zero', { w: 600 })}${T(30, 138, 'at the outer edge', { w: 600 })}
+    ${T(350, 40, 'Cross-section across the track', { a: 'middle', s: 15, w: 800 })}
+  </svg>`;
+  // departure gradient: OIS 2.5%, PDG 3.3%, MOC 0.8%
+  F['reg-pdg'] = () => `<svg viewBox="0 0 700 300">
+    <rect x="0" y="250" width="700" height="50" fill="var(--m-ground)"/><rect x="20" y="244" width="150" height="8" fill="var(--m-asphalt)"/>
+    ${T(160, 274, 'DER', { a: 'middle' })}
+    <line x1="170" y1="245" x2="680" y2="140" stroke="var(--h3i)" stroke-width="2.5" stroke-dasharray="8 5"/>${T(560, 196, 'OIS 2.5% (from 5 m above DER)', { a: 'middle', c: 'var(--h3i)' })}
+    <line x1="170" y1="248" x2="680" y2="80" stroke="var(--h0i)" stroke-width="3"/>${T(300, 168, 'PDG 3.3%', { s: 16, w: 800, c: 'var(--h0i)' })}
+    ${H.plane(520, 128, 1.3, -18)}
+    <path d="M600 200 L620 140 L640 200 Z" fill="var(--ink)" opacity=".7"/>${T(630, 226, 'obstacle', { a: 'middle', w: 600 })}
+    ${AR(640, 128, 640, 100, 'var(--h1i)', 1.8)}${AR(640, 128, 640, 152, 'var(--h1i)', 1.8)}${T(660, 104, '0.8%', { c: 'var(--h1i)' })}
+    ${T(20, 40, 'MOC = 0 at the DER, + 0.8% of distance flown', { w: 700 })}${T(20, 62, 'No turns below 394 ft (120 m) above the aerodrome', { w: 600 })}
+  </svg>`;
+  // approach profile with segments
+  F['reg-approach-profile'] = () => {
+    const seg = (x1, x2, lab, sub, hue) => `<rect x="${x1}" y="250" width="${x2 - x1}" height="40" fill="var(--h${hue})" opacity=".55"/>${T((x1 + x2) / 2, 268, lab, { a: 'middle', c: `var(--h${hue}i)` })}${T((x1 + x2) / 2, 285, sub, { a: 'middle', w: 600, c: `var(--h${hue}i)` })}`;
+    return `<svg viewBox="0 0 700 300">
+      <path d="M20 50 L150 70 L300 120 L430 150 L620 232" fill="none" stroke="var(--ink)" stroke-width="3"/>
+      <path d="M620 232 L640 230" stroke="var(--ink)" stroke-width="3"/><path d="M560 206 Q620 150 690 80" fill="none" stroke="var(--h5i)" stroke-width="2.5" stroke-dasharray="7 5"/>
+      ${[[150, 70, 'IAF'], [300, 120, 'IF'], [430, 150, 'FAF/FAP'], [560, 206, 'MAPt']].map(([x, y, l]) => `<circle cx="${x}" cy="${y}" r="6" fill="var(--h4)" stroke="var(--ink)" stroke-width="2"/>${T(x, y - 12, l, { a: 'middle' })}`).join('')}
+      <rect x="600" y="232" width="80" height="6" fill="var(--m-asphalt)"/>
+      ${seg(20, 150, 'Arrival', 'STAR', 2)}${seg(150, 300, 'Initial', 'MOC 1,000 ft', 0)}${seg(300, 430, 'Intermediate', '1,000→500 ft', 1)}${seg(430, 560, 'Final', '246/295 ft', 3)}${seg(560, 690, 'Missed', '2.5% · 164 ft', 5)}
+      ${H.plane(240, 98, 1.2, 18)}
+    </svg>`;
+  };
+  // reversal and racetrack procedures (plan views)
+  F['reg-reversal'] = () => {
+    const box = (x, t) => `<rect x="${x}" y="10" width="165" height="280" rx="12" fill="var(--panel)" stroke="var(--line)"/>${T(x + 82, 34, t, { a: 'middle', s: 14, w: 800 })}`;
+    const fix = (x, y) => `<path d="M${x - 8} ${y} l8 -10 l8 10 l-8 10 z" fill="var(--h4)" stroke="var(--ink)" stroke-width="1.5"/>`;
+    const L = 'var(--h0i)';
+    return `<svg viewBox="0 0 700 300">
+      ${box(5, '45°/180° PT')}${fix(88, 250)}<path d="M88 250 L88 130 L118 100 Q140 80 120 70 Q95 60 88 95" fill="none" stroke="${L}" stroke-width="2.4"/>${H.arrow(88, 160, 88, 240, L, 2.4)}${T(88, 282, 'turn 45° away, back 180°', { a: 'middle', w: 600 })}
+      ${box(180, '80°/260° PT')}${fix(263, 250)}<path d="M263 250 L263 120 L300 105 Q320 120 300 140 Q280 150 263 140" fill="none" stroke="${L}" stroke-width="2.4"/>${H.arrow(263, 160, 263, 240, L, 2.4)}${T(263, 282, '80° away, 260° back', { a: 'middle', w: 600 })}
+      ${box(355, 'Base turn')}${fix(438, 70)}<path d="M438 70 L480 230 Q470 270 440 250 L438 90" fill="none" stroke="${L}" stroke-width="2.4"/>${T(438, 282, 'offset outbound leg', { a: 'middle', w: 600 })}
+      ${box(530, 'Racetrack')}${fix(590, 70)}<path d="M590 70 Q590 40 620 40 Q650 40 650 70 L650 220 Q650 250 620 250 Q590 250 590 220 Z" fill="none" stroke="${L}" stroke-width="2.4"/>${T(612, 150, '1–3', { a: 'middle' })}${T(612, 166, 'min', { a: 'middle' })}${T(612, 282, 'outbound 1, 2 or 3 min', { a: 'middle', w: 600 })}
+    </svg>`;
+  };
+  // OCA/H → MDA/H or DA/H stack
+  F['reg-oca'] = () => `<svg viewBox="0 0 700 320">
+    <rect x="0" y="270" width="700" height="50" fill="var(--m-ground)"/>${T(20, 300, 'reference: threshold (PA, APV) or aerodrome elevation (NPA, circling)', { w: 600 })}
+    <path d="M90 270 L130 150 L170 270 Z" fill="var(--ink)" opacity=".7"/>${T(130, 140, 'highest obstacle', { a: 'middle' })}
+    <line x1="130" x2="680" y1="150" y2="150" stroke="var(--line)" stroke-dasharray="4 4"/>
+    <rect x="300" y="100" width="380" height="50" fill="var(--h1)" opacity=".55"/>${T(490, 130, '+ minimum obstacle clearance', { a: 'middle', c: 'var(--h1i)' })}
+    <line x1="300" x2="680" y1="100" y2="100" stroke="var(--h1i)" stroke-width="3"/>${T(290, 105, 'OCA / OCH', { a: 'end', s: 16, w: 800, c: 'var(--h1i)' })}
+    <rect x="300" y="55" width="380" height="45" fill="var(--h3)" opacity=".55"/>${T(490, 82, '+ operator margin', { a: 'middle', c: 'var(--h3i)' })}
+    <line x1="300" x2="680" y1="55" y2="55" stroke="var(--h3i)" stroke-width="3"/>${T(290, 60, 'MDA/H or DA/H', { a: 'end', s: 16, w: 800, c: 'var(--h3i)' })}${T(490, 40, 'MDA/H for 2D and circling · DA/H for 3D', { a: 'middle', w: 600 })}
+    ${T(20, 210, 'NPA MOC:', { w: 800 })}${T(20, 230, '246 ft with FAF', { w: 600 })}${T(20, 248, '295 ft without', { w: 600 })}
+  </svg>`;
+})();
+
+/* ---------- Ch 18: wake vortices ---------- */
+(function () {
+  'use strict';
+  const F = G.FIGS, H = G.FH;
+  const T = (x, y, s, o = {}) => `<text x="${x}" y="${y}" text-anchor="${o.a || 'start'}" style="font:${o.w || 700} ${Math.max(13, o.s || 13)}px var(--font);fill:${o.c || 'var(--ink)'}">${s}</text>`;
+  const swirl = (cx, cy, cw) => { const d = cw ? `M${cx - 30} ${cy} A30 30 0 1 1 ${cx} ${cy + 30}` : `M${cx + 30} ${cy} A30 30 0 1 0 ${cx} ${cy + 30}`; const ax = cx, ay = cy + 30; const head = cw ? `M${ax + 9} ${ay - 7} L${ax} ${ay} L${ax + 9} ${ay + 7}` : `M${ax - 9} ${ay - 7} L${ax} ${ay} L${ax - 9} ${ay + 7}`; return `<circle cx="${cx}" cy="${cy}" r="4" fill="var(--h0i)"/><path d="${d}" fill="none" stroke="var(--h0i)" stroke-width="3"/><path d="${head}" fill="none" stroke="var(--h0i)" stroke-width="3"/>`; };
+  F['reg-wake'] = () => `<svg viewBox="0 0 700 330">
+    ${T(175, 26, 'Seen from behind', { a: 'middle', s: 15, w: 800 })}
+    <path d="M60 80 L290 80" stroke="var(--ink)" stroke-width="5"/><rect x="160" y="66" width="30" height="40" rx="12" fill="var(--panel)" stroke="var(--ink)" stroke-width="2.5"/>
+    ${swirl(60, 150, true)}${swirl(290, 150, false)}
+    ${T(60, 210, 'left wing:', { a: 'middle', w: 600 })}${T(60, 228, 'clockwise', { a: 'middle', c: 'var(--h0i)' })}${T(290, 210, 'right wing:', { a: 'middle', w: 600 })}${T(290, 228, 'anticlockwise', { a: 'middle', c: 'var(--h0i)' })}
+    ${T(175, 270, 'Outward, upward and around each tip', { a: 'middle', w: 600 })}
+    ${T(520, 26, 'Seen from the side', { a: 'middle', s: 15, w: 800 })}
+    ${H.plane(400, 80, 1.6, 0)}
+    <path d="M380 86 Q520 110 680 200" fill="none" stroke="var(--h0i)" stroke-width="3" stroke-dasharray="8 5"/>
+    <line x1="660" x2="660" y1="80" y2="200" stroke="var(--ink)" stroke-width="1.5"/>${H.arrow(660, 140, 660, 82, 'var(--ink)', 1.6)}${H.arrow(660, 140, 660, 198, 'var(--ink)', 1.6)}
+    ${T(650, 120, 'sink 500–', { a: 'end', w: 600 })}${T(650, 138, '1,000 ft', { a: 'end', w: 600 })}
+    ${T(380, 250, 'Strongest: heavy, clean, slow', { c: 'var(--h5i)' })}${T(380, 272, 'Worst wind: light quartering tailwind', { w: 600 })}${T(380, 294, 'Light crosswind holds the upwind', { w: 600 })}${T(380, 312, 'vortex on the runway', { w: 600 })}
+  </svg>`;
+})();
+
+/* ---------- Ch 24: SHEL model ---------- */
+(function () {
+  'use strict';
+  const F = G.FIGS;
+  const T = (x, y, s, o = {}) => `<text x="${x}" y="${y}" text-anchor="${o.a || 'start'}" style="font:${o.w || 700} ${Math.max(13, o.s || 13)}px var(--font);fill:${o.c || 'var(--ink)'}">${s}</text>`;
+  const box = (x, y, w, h, hue, big, small) => `<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="14" fill="var(--h${hue})" stroke="var(--h${hue}i)" stroke-width="2.5"/>${T(x + w / 2, y + h / 2 + 4, big, { a: 'middle', s: 30, w: 800, c: `var(--h${hue}i)` })}${T(x + w / 2, y + h / 2 + 26, small, { a: 'middle', w: 600, c: `var(--h${hue}i)` })}`;
+  const link = (x1, y1, x2, y2, label, lx, ly, a) => `<line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" stroke="var(--ink)" stroke-width="3" stroke-dasharray="6 5"/>${T(lx, ly, label, { a: a || 'middle', w: 700 })}`;
+  F['reg-shel'] = () => `<svg viewBox="0 0 700 420">
+    ${link(220, 210, 300, 210, 'L–S', 260, 200)}${link(400, 210, 480, 210, 'L–H', 440, 200)}
+    ${link(350, 130, 350, 160, '', 0, 0)}${T(362, 150, 'L–E')}
+    ${link(350, 260, 350, 300, '', 0, 0)}${T(362, 286, 'L–L')}
+    ${box(50, 160, 170, 100, 2, 'S', 'software')}
+    ${box(480, 160, 170, 100, 3, 'H', 'hardware')}
+    ${box(265, 30, 170, 100, 1, 'E', 'environment')}
+    ${box(265, 300, 170, 100, 4, 'L', 'other people')}
+    <rect x="300" y="160" width="100" height="100" rx="18" fill="var(--h0)" stroke="var(--h0i)" stroke-width="3.5"/>
+    ${T(350, 214, 'L', { a: 'middle', s: 34, w: 800, c: 'var(--h0i)' })}${T(350, 240, 'the pilot', { a: 'middle', w: 600, c: 'var(--h0i)' })}
+    ${T(20, 32, 'Liveware is the hub:')}${T(20, 52, 'the others are matched', { w: 600 })}${T(20, 70, 'to the human', { w: 600 })}
+    ${T(680, 330, 'A mismatch at any', { a: 'end', w: 600 })}${T(680, 350, 'interface breeds', { a: 'end', w: 600 })}${T(680, 370, 'human error', { a: 'end', c: 'var(--h5i)' })}
+  </svg>`;
+})();
+
+/* ---------- Ch 26: the eye; runway-slope illusions ---------- */
+(function () {
+  'use strict';
+  const F = G.FIGS, H = G.FH;
+  const T = (x, y, s, o = {}) => `<text x="${x}" y="${y}" text-anchor="${o.a || 'start'}" style="font:${o.w || 700} ${Math.max(13, o.s || 13)}px var(--font);fill:${o.c || 'var(--ink)'}">${s}</text>`;
+  // light enters from the left; cx,cy = eyeball centre
+  F['reg-eye'] = () => `<svg viewBox="0 0 700 380">
+    <circle cx="360" cy="190" r="140" fill="var(--panel)" stroke="var(--ink)" stroke-width="3"/>
+    <path d="M360 50 A140 140 0 0 1 360 330" fill="none" stroke="var(--h5i)" stroke-width="7" opacity=".8"/>
+    <path d="M232 128 Q196 190 232 252" fill="var(--m-sky)" opacity=".5" stroke="var(--h1i)" stroke-width="3"/>
+    <line x1="246" y1="112" x2="246" y2="160" stroke="var(--h3i)" stroke-width="7"/><line x1="246" y1="220" x2="246" y2="268" stroke="var(--h3i)" stroke-width="7"/>
+    <ellipse cx="268" cy="190" rx="18" ry="46" fill="var(--h2)" stroke="var(--h2i)" stroke-width="3"/>
+    <line x1="120" y1="168" x2="496" y2="190" stroke="var(--h4i)" stroke-width="1.6" stroke-dasharray="5 4"/><line x1="120" y1="212" x2="496" y2="190" stroke="var(--h4i)" stroke-width="1.6" stroke-dasharray="5 4"/>
+    <circle cx="498" cy="190" r="7" fill="var(--h0i)"/>
+    <path d="M488 236 L560 252 L560 290 L478 272 Z" fill="var(--h3)" stroke="var(--h3i)" stroke-width="2.5"/>
+    <circle cx="484" cy="254" r="6" fill="var(--ink)"/>
+    ${T(60, 160, 'light', { w: 600 })}${H.arrow(60, 190, 150, 190, 'var(--h4i)', 2.4)}
+    ${T(600, 286, 'to the brain', { a: 'middle', w: 600 })}
+  </svg>`;
+  // two approach views: upslope looks steep (pilot thinks high), downslope looks flat (pilot thinks low)
+  const rwy = (x, top, bot, w1, w2, c) => `<path d="M${x - w1} ${bot} L${x - w2} ${top} L${x + w2} ${top} L${x + w1} ${bot} Z" fill="var(--m-asphalt)" stroke="${c}" stroke-width="2"/>`;
+  F['reg-slope-illusion'] = () => `<svg viewBox="0 0 700 330">
+    <rect x="20" y="20" width="310" height="240" rx="14" fill="var(--m-ground)" opacity=".35"/>
+    <rect x="370" y="20" width="310" height="240" rx="14" fill="var(--m-ground)" opacity=".35"/>
+    ${T(175, 48, 'Upslope or narrow', { a: 'middle', s: 15, w: 800 })}
+    ${rwy(175, 80, 240, 46, 14, 'var(--h5i)')}
+    ${T(175, 290, 'looks steep → "I\'m high"', { a: 'middle', c: 'var(--h5i)' })}${T(175, 312, 'pilot descends: LOW, short', { a: 'middle', w: 600 })}
+    ${T(525, 48, 'Downslope or wide', { a: 'middle', s: 15, w: 800 })}
+    ${rwy(525, 150, 240, 110, 70, 'var(--h1i)')}
+    ${T(525, 290, 'looks flat → "I\'m low"', { a: 'middle', c: 'var(--h1i)' })}${T(525, 312, 'pilot climbs: HIGH, long', { a: 'middle', w: 600 })}
   </svg>`;
 })();

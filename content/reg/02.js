@@ -44,7 +44,7 @@ module.exports = {
         { label: '35–36', cells: ['Cargo, cameras', 'no munitions of war; States may regulate cameras'] },
         { label: '38', cells: ['Differences', { v: 'notify ICAO immediately; amended Standard: within 60 days', key: true }] },
       ] },
-    { id: 'docs', short: 'Documents on board', takeaway: 'Every international flight carries the C of R, C of A, crew licences, journey log book, radio licence (if radio fitted), passenger list and cargo manifest (if carried).', type: 'tricks', icon: 'doc', ask: 'The documents every international flight carries (Art 29)', dgca: true,
+    { id: 'docs', hook: 'Register, airworthy, licences, log, radio, people, cargo.', short: 'Documents on board', takeaway: 'Every international flight carries the C of R, C of A, crew licences, journey log book, radio licence (if radio fitted), passenger list and cargo manifest (if carried).', type: 'tricks', icon: 'doc', ask: 'The documents every international flight carries (Art 29)', dgca: true,
       cue: 'Memory trick',
       cards: [
         { name: 'Certificate of Registration', trick: 'Who owns me? (State of registry)', emoji: '🪪' },
@@ -60,17 +60,17 @@ module.exports = {
         { a: { label: 'Arts 30–32', body: 'Radio licence, C of A and crew licences are **issued or rendered valid by the State of registry**.' }, b: { label: 'Art 33', body: 'Other States **must recognise** them, provided they meet at least ICAO minimum standards.' }, rule: 'Registry issues; everyone recognises.' },
         { a: { label: 'Art 32 exception', body: 'A State may **refuse** to recognise, over its own territory, a licence granted **to its own national** by another State.' }, b: { label: 'Arts 39–40 endorsement', body: 'A certificate or licence that falls short of ICAO standards is **endorsed**; it may fly internationally only with permission of the States entered.' }, rule: '' },
       ] },
-    { id: 'icao', short: 'ICAO structure', part: 'ICAO', type: 'tree', icon: 'tower', ask: 'How is ICAO organised?', dgca: true,
+    { id: 'icao', short: 'ICAO structure', part: 'ICAO', type: 'mindmap', icon: 'tower', ask: 'How is ICAO organised?', dgca: true,
       takeaway: 'The Assembly (all States, one vote each) meets at least once every three years and elects a 36-State Council. The Council adopts SARPs, appoints the 19-member Air Navigation Commission and the Secretary-General. HQ is Montreal; 7 regional offices serve 9 regions.',
       hook: 'Three years, thirty-six seats, nineteen navigators.',
-      root: { label: 'ICAO', sub: 'Montreal · UN agency since 1947 · 193 States', children: [
-        { label: 'Assembly', icon: 'user', children: [{ label: 'All contracting States', sub: 'one State, one vote' }, { label: 'Meets ≥ once in 3 years', tip: 'The highest body of ICAO.' }] },
-        { label: 'Council', icon: 'star', children: [{ label: '36 States', sub: 'elected by the Assembly' }, { label: 'Adopts SARPs and PANS', tip: 'SARPs are adopted under Articles 37, 54 and 90 and designated as Annexes.' }, { label: 'President', sub: 'elected by the Council' }] },
-        { label: 'Commissions & committees', icon: 'grid', children: [{ label: 'Air Navigation Commission', sub: '19 members' }, { label: 'Air Transport Committee' }, { label: 'Legal Committee' }, { label: 'Unlawful Interference', sub: '15 members' }, { label: 'Finance', sub: '9–13' }, { label: 'Joint Support', sub: '9–11' }] },
-        { label: 'Secretariat', icon: 'doc', children: [{ label: 'Secretary-General', sub: 'appointed by the Council' }, { label: 'Bureaux', sub: 'Air Navigation, Air Transport, Legal, Technical Assistance, Admin' }] },
+      root: { label: 'ICAO · Montreal · UN agency since 1947 · 193 States', children: [
+        { label: 'Assembly', icon: 'user', children: [{ label: 'All contracting States · one State, one vote' }, { label: 'Meets ≥ once in 3 years', tip: 'The highest body of ICAO.' }] },
+        { label: 'Council', icon: 'star', children: [{ label: '36 States · elected by the Assembly' }, { label: 'Adopts SARPs and PANS', tip: 'SARPs are adopted under Articles 37, 54 and 90 and designated as Annexes.' }, { label: 'President · elected by the Council' }] },
+        { label: 'Commissions & committees', icon: 'grid', children: [{ label: 'Air Navigation Commission · 19 members' }, { label: 'Air Transport Committee' }, { label: 'Legal Committee' }, { label: 'Unlawful Interference · 15 members' }, { label: 'Finance · 9–13' }, { label: 'Joint Support · 9–11' }] },
+        { label: 'Secretariat', icon: 'doc', children: [{ label: 'Secretary-General · appointed by the Council' }, { label: 'Bureaux · Air Navigation, Air Transport, Legal, Technical Assistance, Admin' }] },
         { label: 'Regions', icon: 'map', children: [{ label: '7 offices, 9 regions' }, { label: 'Asia-Pacific: Bangkok', tip: 'India falls under the Asia and Pacific office in Bangkok.' }, { label: 'Middle East: Cairo' }, { label: 'Europe & N Atlantic: Paris' }, { label: 'Also Dakar, Lima, Mexico City, Nairobi' }] },
       ] } },
-    { id: 'pubs', short: 'SARPs, PANS, SUPPS', takeaway: 'Standards are necessary and differences must be notified; Recommended Practices are desirable. PANS apply worldwide, SUPPS to one region.', type: 'pairs', icon: 'file', ask: 'Standard, Recommended Practice, PANS or SUPPS?', dgca: true,
+    { id: 'pubs', hook: 'Standard = shall, Recommended = should.', short: 'SARPs, PANS, SUPPS', takeaway: 'Standards are necessary and differences must be notified; Recommended Practices are desirable. PANS apply worldwide, SUPPS to one region.', type: 'pairs', icon: 'file', ask: 'Standard, Recommended Practice, PANS or SUPPS?', dgca: true,
       pairs: [
         { a: { label: 'Standard', body: 'Uniform application **necessary**. If a State cannot comply it **must** notify ICAO (Art 38).' }, b: { label: 'Recommended Practice', body: 'Uniform application **desirable**. No obligation to notify, but the Council **invites** it.' }, rule: 'Standard = shall. Recommended = should.' },
         { a: { label: 'PANS', body: 'Approved by the **Council** for **worldwide** use: procedures not yet mature for SARPs, or too detailed / changed too often for an Annex (e.g. Doc 4444, Doc 8168).' }, b: { label: 'SUPPS (Doc 7030)', body: 'Same status as PANS but for **one region** only.' }, rule: 'PANS = planet; SUPPS = a slice.' },
@@ -130,7 +130,7 @@ module.exports = {
         { at: 1991, label: 'Montreal (explosives)', tip: 'Marking of plastic explosives for detection.' },
         { at: 2010, label: 'Beijing', tip: 'Aircraft as weapons, BCN weapons, cyber attacks. India has NOT ratified.' },
       ] },
-    { id: 'tokyo', short: 'Tokyo: in flight', takeaway: 'For jurisdiction an aircraft is in flight from take-off power to the end of the landing run; for the commander\'s powers, from doors closed to doors opened. The commander may require crew help but only request passenger help.', type: 'pairs', icon: 'lock', ask: 'Tokyo Convention: when is an aircraft "in flight"?', dgca: true,
+    { id: 'tokyo', hook: 'Power to stop for jurisdiction; doors to doors for the commander.', short: 'Tokyo: in flight', takeaway: 'For jurisdiction an aircraft is in flight from take-off power to the end of the landing run; for the commander\'s powers, from doors closed to doors opened. The commander may require crew help but only request passenger help.', type: 'pairs', icon: 'lock', ask: 'Tokyo Convention: when is an aircraft "in flight"?', dgca: true,
       pairs: [
         { a: { label: 'For jurisdiction (Art 1)', body: 'From **power applied for take-off** until **the landing run ends**.' }, b: { label: 'For the commander\'s powers (Art 5)', body: 'From **all external doors closed** after embarkation until **a door opens** for disembarkation. After a forced landing, until authorities take over.' }, rule: 'Jurisdiction: engines. Commander: doors.' },
         { a: { label: 'Crew', body: 'The commander may **require** or authorise their help to restrain someone.' }, b: { label: 'Passengers', body: 'The commander may **request** or authorise, but **not require**, their help. Anyone may act alone if it is immediately necessary for safety.' }, rule: 'Crew must; passengers may.' },
@@ -141,7 +141,7 @@ module.exports = {
         { title: 'Another State may act only if the offence…', icon: 'alert', points: ['has effect on its territory', 'is by or against its national or permanent resident', 'is against its security', 'breaks its rules of flight', 'or action is needed for a multilateral agreement'] },
         { title: 'Restraint', icon: 'lock', points: ['Reasonable measures, including restraint', 'Ends at landing unless the State refuses disembarkation, forced landing, or the person agrees', 'Notify the landing State\'s authorities, if possible before landing'] },
       ] },
-    { id: 'liability', short: 'Liability treaties', takeaway: 'Warsaw 1929 and Montreal 1999 cover the carrier\'s liability to passengers and cargo; Rome 1952 covers damage on the ground (not ratified by India); Cape Town 2001 covers aircraft finance.', part: 'Who pays?', type: 'matrix', icon: 'scale', ask: 'Liability and finance conventions', revise: true, dgca: true,
+    { id: 'liability', hook: 'Warsaw and Montreal carry passengers; Rome the ground; Cape Town the money.', short: 'Liability treaties', takeaway: 'Warsaw 1929 and Montreal 1999 cover the carrier\'s liability to passengers and cargo; Rome 1952 covers damage on the ground (not ratified by India); Cape Town 2001 covers aircraft finance.', part: 'Who pays?', type: 'matrix', icon: 'scale', ask: 'Liability and finance conventions', revise: true, dgca: true,
       corner: 'Convention', cols: ['Deals with', 'India'],
       rows: [
         { label: 'Warsaw 1929', cells: [{ v: 'carrier liability to passengers, baggage, cargo; ticket and baggage check', key: true }, 'ratified'] },
@@ -164,7 +164,7 @@ module.exports = {
       pairs: [
         { a: { label: 'Security conventions', body: 'Tokyo, Hague, Montreal 1971, 1988 Protocol, Beijing: **6 months** after written notice.' }, b: { label: 'Montreal 1999 (liability)', body: '**90 days** after written notice.' }, rule: 'Always by written notification to ICAO as Depositary, which informs every other party.' },
       ] },
-    { id: 'india', short: 'DGCA or AAI', part: 'Indian organisations', type: 'classify', icon: 'flag', ask: 'DGCA or AAI?', dgca: true,
+    { id: 'india', hook: 'DGCA regulates, AAI operates.', short: 'DGCA or AAI', part: 'Indian organisations', type: 'classify', icon: 'flag', ask: 'DGCA or AAI?', dgca: true,
       takeaway: 'The Ministry of Civil Aviation makes policy. DGCA is the safety regulator: it registers aircraft, licenses people, certifies aerodromes and operators. AAI (formed 1 April 1995) builds and runs airports and provides ATS, CNS aids and AIS.',
       buckets: [{ id: 'dgca', label: 'DGCA' }, { id: 'aai', label: 'AAI' }],
       items: [

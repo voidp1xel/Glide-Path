@@ -2,6 +2,7 @@ module.exports = {
   n: 11, title: 'Landing Gear, Brakes, Tyres and Powered Controls', tag: 'Gear layouts · oleo struts · anti-skid and autobrake · tyre wear, creep and fusible plugs · aquaplaning · Q-feel and fly-by-wire', icon: 'plane', hue: 4, partOfBook: 'Part 3 · Airframe',
   big: 'Everything between the aircraft and the runway, and between the pilot and the control surfaces: gear layouts and shock struts, drum, disc, anti-skid and autobrakes, tyre care and aquaplaning, then manual, power-assisted and fly-by-wire controls with their artificial feel.',
   purpose: 'Tricycle 90% load, oleo gas vs oil roles, anti-skid functions and the 20 kt cut-off, tyre wear patterns, creep and fusible plugs, the 9√P aquaplaning formula, reversible vs irreversible controls, Q-feel and the take-off configuration warning are common questions.',
+  bankLead: 'The Handbook prints no question bank, so these are original questions written for Glidepath from the book’s facts — not the book’s own questions. Your answers are saved.',
   lessons: [
     { id: 'map', type: 'mindmap', short: 'Mind map', icon: 'brain', ask: 'The whole chapter on one page',
       root: { label: 'Gear and controls', children: [
@@ -13,10 +14,10 @@ module.exports = {
         { label: 'Controls', children: [{ label: 'Cables' }, { label: 'Power-assisted: reversible' }, { label: 'FBW: irreversible' }, { label: 'Q-feel' }] },
       ] } },
 
-    { id: 'layouts', part: 'Landing gear', type: 'svg', fig: 'gear-layouts', icon: 'plane', ask: 'Which gear layout is which?', dgca: true,
+    { id: 'layouts', short: 'Gear layouts', part: 'Landing gear', type: 'svg', fig: 'gear-layouts', icon: 'plane', ask: 'Which gear layout is which?', dgca: true,
       takeaway: 'The tricycle is the modern norm, with about 90% of the weight on the mains behind the CG, so it is directionally stable on the ground. A tail-dragger has its mains ahead of the CG: low drag and a nose-high take-off roll, but prone to swing and poor forward view. Bicycle gear needs wing-tip outriggers; quadricycle gear is crosswind-sensitive.',
       hook: 'Mains behind the CG keep you straight.' },
-    { id: 'layout-table', type: 'matrix', icon: 'list', ask: 'Gear layouts on one card', revise: true,
+    { id: 'layout-table', short: 'Layout table', takeaway: 'Tricycle gear is the stable standard; tail-draggers swing; bicycle gear needs outriggers; quadricycle gear is crosswind-sensitive; multi-bogie gear spreads load and survives a burst tyre.', type: 'matrix', icon: 'list', ask: 'Gear layouts on one card', revise: true,
       corner: 'Layout', cols: ['Example', 'Good', 'Bad'],
       rows: [
         { label: 'Single main', cells: ['U-2', 'simple, light, low drag', '—'] },
@@ -26,21 +27,21 @@ module.exports = {
         { label: 'Quadricycle', cells: ['B-52', 'floor close to ground', { v: 'crosswind/roll sensitive', key: true }] },
         { label: 'Multi-bogie', cells: ['B-737 and up', 'safe if a tyre bursts; spreads load', 'weight'] },
       ] },
-    { id: 'oleo', type: 'svg', fig: 'oleo-strut', icon: 'gauge', ask: 'How does an oleo-pneumatic strut work?', dgca: true,
+    { id: 'oleo', short: 'Oleo strut', type: 'svg', fig: 'oleo-strut', icon: 'gauge', ask: 'How does an oleo-pneumatic strut work?', dgca: true,
       takeaway: 'On landing the piston rises, forcing oil through a restricting orifice (clack valve) and compressing the gas: the gas absorbs the shock like a spring. The gas then pushes back, but oil must return through the restriction, so the extension is slowed and the rebound damped.',
       hook: 'Gas is the spring, oil is the brake.' },
-    { id: 'gear-facts', type: 'bullets', icon: 'list', ask: 'Gear facts',
+    { id: 'gear-facts', short: 'Gear facts', takeaway: 'Struts must never bottom or top out; nose gear struts are often two-stage; fixed gear can be split-axle, tripod, spring-leaf or a single strut.', type: 'bullets', icon: 'list', ask: 'Gear facts',
       groups: [
         { title: 'Shock struts', icon: 'gauge', points: ['Never fully extended or compressed in use', 'Nose gear often two-stage', 'Oil-in-compression: orifice, then relief to a reserve'] },
         { title: 'Fixed gear types', icon: 'plane', points: ['Split axle', 'Tripod', 'Spring leaf (spring steel)', 'Single shock strut'] },
         { title: 'Retractable', icon: 'sliders', points: ['Hydraulic', 'Less drag, more weight', 'Tail wheel usually fixed'] },
       ] },
 
-    { id: 'brakes', part: 'Brakes', type: 'pairs', icon: 'alert', ask: 'Drum or disc brakes?',
+    { id: 'brakes', short: 'Drum vs disc brakes', takeaway: 'Disc brakes dissipate heat better than drum brakes, which suffer in water and distort; hot brakes fade and badly adjusted ones drag.', part: 'Brakes', type: 'pairs', icon: 'alert', ask: 'Drum or disc brakes?',
       pairs: [
         { a: { label: 'Drum brakes', body: 'Pads inside a drum. Vibration if distorted; **water reduces effect**; poor heat dissipation; expansion → more pedal travel; **grabbing** from rust.' }, b: { label: 'Disc brakes', body: 'More contact area, **better cooling**. **Brake fade** when too hot; **brake drag** from bad adjustment or air in the system.' }, rule: 'Disc brakes are the modern standard.' },
       ] },
-    { id: 'antiskid', type: 'bullets', icon: 'shield', ask: 'What does anti-skid do?', dgca: true,
+    { id: 'antiskid', short: 'Anti-skid', type: 'bullets', icon: 'shield', ask: 'What does anti-skid do?', dgca: true,
       takeaway: 'Anti-skid holds each wheel just short of skidding by sensing rapid wheel deceleration and briefly releasing pressure (brake modulation). It gives touchdown protection, skid control and locked-wheel protection, and usually switches itself off below about 20 kt.',
       hook: 'Release, regrip, repeat.',
       groups: [
@@ -49,35 +50,35 @@ module.exports = {
         { title: 'Autobrake', icon: 'gauge', points: ['Landing and RTO', 'Arms with thrust levers closed', 'Off: < 20 kt, anti-skid fail, thrust levers forward, pilot braking'] },
       ] },
 
-    { id: 'tyres', part: 'Tyres', type: 'svg', fig: 'tyre-wear', icon: 'target', ask: 'What does the wear pattern tell you?', dgca: true,
+    { id: 'tyres', short: 'Tyre wear', part: 'Tyres', type: 'svg', fig: 'tyre-wear', icon: 'target', ask: 'What does the wear pattern tell you?', dgca: true,
       takeaway: 'Over-inflation bulges the tread and wears the centre; under-inflation flattens it and wears the shoulders, overheats the tyre and is a leading cause of tyre failure. Tyres are filled with nitrogen and checked cold: they can read 10% high after taxi.',
       hook: 'Over = middle, under = edges.' },
-    { id: 'tyre-facts', type: 'classify', icon: 'grid', ask: 'Tyre facts: marking, creep or protection?', tier: 'exam',
+    { id: 'tyre-facts', short: 'Tyre facts', takeaway: 'Markings show balance, strength and venting; creep shows as misaligned paint marks; fusible plugs and nitrogen filling are safety measures.', type: 'classify', icon: 'grid', ask: 'Tyre facts: marking, creep or protection?', tier: 'exam',
       buckets: [{ id: 'm', label: 'Marking' }, { id: 'c', label: 'Creep' }, { id: 'p', label: 'Protection / care' }],
       items: [
         { text: 'Red dot = lightest point of the tyre', bucket: 'm' }, { text: 'Ply rating = strength, not layers', bucket: 'm' }, { text: 'Green/grey dots = vent holes', bucket: 'm' },
         { text: 'Tyre slowly turns on the rim', bucket: 'c' }, { text: 'Checked with paint marks', bucket: 'c' }, { text: 'Most likely on new tyres', bucket: 'c' }, { text: 'Can tear a tube\'s valve', bucket: 'c' },
         { text: 'Fusible plug melts after hot braking', bucket: 'p' }, { text: 'Taxi below 22 kt to reduce wear', bucket: 'p' }, { text: 'Filled with nitrogen', bucket: 'p' },
       ] },
-    { id: 'tyre-table', type: 'matrix', icon: 'list', ask: 'Tyre pressures and tubeless advantages', revise: true,
+    { id: 'tyre-table', short: 'Tyre pressures', takeaway: 'Tyre classes run from low (25–35 psi) to extra high (over 90 psi); tubeless tyres are lighter and immune to creep damage.', type: 'matrix', icon: 'list', ask: 'Tyre pressures and tubeless advantages', revise: true,
       corner: 'Class', cols: ['Pressure (psi)'],
       rows: [
         { label: 'Low', cells: ['25–35'] }, { label: 'Medium', cells: ['35–70'] }, { label: 'High', cells: ['70–90'] }, { label: 'Extra high', cells: ['> 90'] },
         { label: 'Tubeless', cells: [{ v: '~7.5% lighter, no creep damage, slow leak on puncture', key: true }] },
       ] },
-    { id: 'shimmy', type: 'pairs', icon: 'waves', ask: 'Shimmy and nose-wheel control',
+    { id: 'shimmy', short: 'Shimmy', takeaway: 'Nose-wheel shimmy is a rapid oscillation often caused by a broken torque link; twin wheels, Marstrand tyres and dampers prevent it.', type: 'pairs', icon: 'waves', ask: 'Shimmy and nose-wheel control',
       pairs: [
         { a: { label: 'Nose-wheel shimmy', body: 'Rapid side-to-side oscillation from sidewall flexibility; a sign of a **broken torque link**. Cured by **twin nose wheels**, **Marstrand tyres**, shimmy dampers.' }, b: { label: 'Nose-wheel control', body: '**Castoring** (free to swivel), **centering** before retraction, **steering** by hydraulics or tiller.' }, rule: '' },
       ] },
 
-    { id: 'aqua', part: 'Aquaplaning', type: 'formulas', icon: 'drop', ask: 'At what speed will it aquaplane?', revise: true, dgca: true,
+    { id: 'aqua', short: 'Aquaplaning speed', part: 'Aquaplaning', type: 'formulas', icon: 'drop', ask: 'At what speed will it aquaplane?', revise: true, dgca: true,
       takeaway: 'Water pressure under the tyre grows with the square of speed; when it equals tyre pressure the tyre lifts off. Minimum aquaplaning speed ≈ 9 √P (P in psi) for a rotating tyre, about 7.7 √P for a non-rotating one at touchdown. Once started it continues to a much lower speed.',
       hook: 'Nine root P.',
       items: [
         { name: 'Rotating tyre', eq: 'V<sub>P</sub> ≈ 9 √P &nbsp;kt', note: 'P in psi. (34 √P with kg/cm².)', calc: { inputs: [{ k: 'p', label: 'Tyre pressure (psi)', v: 200 }], f: '9*Math.sqrt(p)', unit: 'kt' } },
         { name: 'Non-rotating tyre (landing)', eq: 'V<sub>P</sub> ≈ 7.7 √P &nbsp;kt', calc: { inputs: [{ k: 'p', label: 'Tyre pressure (psi)', v: 200 }], f: '7.7*Math.sqrt(p)', unit: 'kt' } },
       ] },
-    { id: 'aqua-types', type: 'matrix', icon: 'waves', ask: 'Types of aquaplaning and braking action', revise: true,
+    { id: 'aqua-types', short: 'Aquaplaning types', takeaway: 'Dynamic aquaplaning rides on standing water, viscous on a thin film over a smooth surface, reverted-rubber on steam from a locked wheel; braking coefficients grade the surface.', type: 'matrix', icon: 'waves', ask: 'Types of aquaplaning and braking action', revise: true,
       corner: 'Type', cols: ['Cause'],
       rows: [
         { label: 'Dynamic', cells: ['standing water lifts the tyre'] },
@@ -86,14 +87,14 @@ module.exports = {
         { label: 'Braking coeff > 0.40', cells: ['good'] }, { label: '0.30–0.35', cells: ['medium'] }, { label: '≤ 0.25', cells: ['poor'] },
       ] },
 
-    { id: 'controls', part: 'Flight-control systems', type: 'pairs', icon: 'sliders', ask: 'Reversible or irreversible?', dgca: true,
+    { id: 'controls', short: 'Powered controls', part: 'Flight-control systems', type: 'pairs', icon: 'sliders', ask: 'Reversible or irreversible?', dgca: true,
       takeaway: 'With power-assisted controls hydraulics provide part of the force and the pilot still feels the air loads (reversible). With fully powered or fly-by-wire controls hydraulics do all the work, air loads cannot move the stick (irreversible), and feel has to be manufactured, usually proportional to dynamic pressure (Q-feel).',
       hook: 'Part power: real feel. Full power: fake feel.',
       pairs: [
         { a: { label: 'Manual (cables)', body: 'Primary and **secondary stops**, **fairleads**, **tension** (both ways, no backlash, temperature-compensated). Duplicate inspection always.' }, b: { label: 'Power-assisted', body: 'Hydraulics give **part** of the force; **natural feel ∝ IAS²**; **reversible**.' }, rule: '' },
         { a: { label: 'Fully powered / FBW', body: 'All force from hydraulics; stick signals to computers (e.g. 2 ELAC, 3 SEC, 2 FAC). **Irreversible** → needs **artificial feel**.' }, b: { label: 'Jack stall', body: 'Actuators cannot overcome the aerodynamic load on the surface (inadequate hydraulic power).' }, rule: 'Irreversibility also stops buffet and flutter reaching the stick.' },
       ] },
-    { id: 'feel', type: 'matrix', icon: 'grid', ask: 'Artificial feel units', revise: true,
+    { id: 'feel', short: 'Artificial feel', takeaway: 'Spring feel is simple but speed-blind; Q-feel scales with dynamic pressure; g-feel scales with load factor.', type: 'matrix', icon: 'grid', ask: 'Artificial feel units', revise: true,
       corner: 'Feel', cols: ['Works by', 'Note'],
       rows: [
         { label: 'Spring', cells: ['plain spring', 'not speed-related: overstress risk at high speed'] },
@@ -102,13 +103,13 @@ module.exports = {
         { label: 'Electric Q-feel', cells: ['computer-generated resistance', '—'] },
         { label: 'g-feel', cells: ['bob-weights and springs', 'feel ∝ g, not speed; fighters'] },
       ] },
-    { id: 'config-warn', type: 'bullets', icon: 'alert', ask: 'Take-off configuration warning: what triggers it?', dgca: true,
+    { id: 'config-warn', hook: 'Push the throttles in the wrong set-up: the horn tells you.', short: 'Take-off config warning', takeaway: 'Advancing thrust with trim, flaps, speed brake, doors or control locks wrongly set triggers the take-off configuration warning.', type: 'bullets', icon: 'alert', ask: 'Take-off configuration warning: what triggers it?', dgca: true,
       groups: [
         { title: 'With thrust levers at take-off power, if…', icon: 'alert', points: ['Stabiliser trim outside the take-off band', 'LE or TE flaps not in take-off setting', 'Speed brake lever not down', 'Doors not locked', 'Flight controls locked'] },
       ] },
-    { id: 'numbers', part: 'Numbers', type: 'numbers', icon: 'hash', ask: 'Numbers to know',
+    { id: 'numbers', short: 'Numbers', part: 'Numbers', type: 'numbers', icon: 'hash', ask: 'Numbers to know',
       items: [{ k: 'Tricycle main-gear share', v: '≈ 90%' }, { k: 'Anti-skid cut-off', v: '≈ 20 kt' }, { k: 'Electrical anti-skid gain', v: '≈ 15%' }, { k: 'Autobrake disengage', v: '< 20 kt' }, { k: 'Taxi to save tyres', v: '< 22 kt (40 km/h)' }, { k: 'Hot tyre pressure rise', v: 'up to 10%' }, { k: 'Tubeless weight saving', v: '≈ 7.5%' }, { k: 'Aquaplaning (rotating)', v: '9 √P kt' }, { k: 'Aquaplaning (non-rotating)', v: '7.7 √P kt' }, { k: 'Good braking coefficient', v: '> 0.40' }, { k: 'Poor braking coefficient', v: '≤ 0.25' }] },
-    { id: 'quiz', type: 'quiz', icon: 'check', ask: 'Quick check',
+    { id: 'quiz', short: 'Quick check', type: 'quiz', icon: 'check', ask: 'Quick check',
       questions: [
         { q: 'In a tricycle layout the main wheels carry about:', options: ['50%', '70%', '90%', '100%'], answer: 2 },
         { q: 'In an oleo-pneumatic strut the landing shock is absorbed mainly by:', options: ['Oil', 'Compressed gas', 'A spring', 'The tyre'], answer: 1 },

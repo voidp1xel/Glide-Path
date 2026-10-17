@@ -26,6 +26,14 @@
     }
     return n;
   }
+  /* renderers pass `cond ? node : null` straight to append/replaceChildren; the DOM would print "null".
+     Drop null, undefined and false there, everywhere. */
+  ['append', 'prepend', 'replaceChildren'].forEach(m => {
+    const orig = Element.prototype[m];
+    if (!orig || orig.__gp) return;
+    const f = function (...kids) { return orig.apply(this, kids.flat(Infinity).filter(k => k != null && k !== false)); };
+    f.__gp = true; Element.prototype[m] = f;
+  });
   const NS = 'http://www.w3.org/2000/svg';
   function sv(tag, attrs, ...kids) {
     const n = document.createElementNS(NS, tag);

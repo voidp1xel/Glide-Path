@@ -2,6 +2,7 @@ module.exports = {
   n: 12, title: 'Air Conditioning, Pressurisation and Ice Protection', tag: 'Cold air unit · bootstrap and turbo-fan · isobaric cabin · outflow and relief valves · anti-ice vs de-ice · ice detectors', icon: 'thermo', hue: 5, partOfBook: 'Part 3 · Airframe',
   big: 'How bleed air is cooled and fed to the cabin, how the cabin pressure is scheduled and protected by its valves, and how ice is detected, prevented and removed from wings, propellers, intakes and windscreens.',
   purpose: 'Cabin air standards, the three cooling systems (and which works on the ground), isobaric 8000 ft vs hypobaric 25,000 ft, outflow/inward relief/dump/blow-out valves, the 10,000 ft cabin warning, and anti-ice vs de-ice devices are regular questions.',
+  bankLead: 'The Handbook prints no question bank, so these are original questions written for Glidepath from the book’s facts — not the book’s own questions. Your answers are saved.',
   lessons: [
     { id: 'map', type: 'mindmap', short: 'Mind map', icon: 'brain', ask: 'The whole chapter on one page',
       root: { label: 'Cabin and ice', children: [
@@ -12,26 +13,26 @@ module.exports = {
         { label: 'Ice protection', children: [{ label: 'Boots: de-ice' }, { label: 'Hot bleed: anti-ice' }, { label: 'Prop electric' }, { label: 'Fluid, windscreen' }] },
       ] } },
 
-    { id: 'standards', part: 'Air conditioning', type: 'numbers', icon: 'thermo', ask: 'What must the cabin air be?',
+    { id: 'standards', short: 'Cabin air standards', part: 'Air conditioning', type: 'numbers', icon: 'thermo', ask: 'What must the cabin air be?',
       items: [{ k: 'Temperature', v: '18–24 °C' }, { k: 'Humidity', v: '≈ 30%' }, { k: 'Flow per crew member', v: '10 cu ft/min' }, { k: 'CO maximum', v: '1 : 20,000' }, { k: 'Airliner flow', v: '1.5 kg/min/pax', note: '50% fresh, 50% recirculated' }, { k: 'Fighter cockpit', v: '5 kg/min', note: '80% pilot, 20% demist' }] },
-    { id: 'acm', type: 'svg', fig: 'air-cycle', icon: 'wind', ask: 'How can hot bleed air come out cold?', dgca: true,
+    { id: 'acm', short: 'Air-cycle machine', type: 'svg', fig: 'air-cycle', icon: 'wind', ask: 'How can hot bleed air come out cold?', dgca: true,
       takeaway: 'Bleed air is first cooled in a ram-air heat exchanger, then compressed (getting hotter) and cooled again, then expanded through a turbine. Making the turbine do work takes energy out of the air, so it leaves much colder; a water separator removes the condensed moisture before it is mixed with hot air to the selected temperature.',
       hook: 'Squeeze, cool, then make it work: it comes out cold.' },
-    { id: 'systems', type: 'matrix', icon: 'grid', ask: 'Turbo-compressor, bootstrap or turbo-fan?', revise: true, dgca: true,
+    { id: 'systems', hook: 'Bootstrap needs ram air; turbo-fan cools on the ground.', short: 'Cooling systems', takeaway: 'Turbo-compressor systems use LP bleed, bootstrap systems HP bleed (useless on the ground without ram air), and turbo-fan systems HP bleed with a fan so they cool on the ground too.', type: 'matrix', icon: 'grid', ask: 'Turbo-compressor, bootstrap or turbo-fan?', revise: true, dgca: true,
       corner: 'System', cols: ['Bleed used', 'Turbine drives', 'On the ground?'],
       rows: [
         { label: 'Turbo-compressor', cells: ['LP bleed (no HP available)', 'compressor raising the air pressure', 'yes'] },
         { label: 'Bootstrap (brake turbine)', cells: ['HP bleed', 'compressor acting as a brake', { v: 'no — needs ram air', key: true }] },
         { label: 'Turbo-fan', cells: ['HP bleed', 'fan pulling cooling air', { v: 'yes', key: true }] },
       ] },
-    { id: 'ac-parts', type: 'bullets', icon: 'list', ask: 'Air-conditioning parts',
+    { id: 'ac-parts', short: 'Air-con parts', takeaway: 'Bleed and ram air are cooled in heat exchangers and the cold air unit, dried by the water separator and mixed to temperature before distribution.', type: 'bullets', icon: 'list', ask: 'Air-conditioning parts',
       groups: [
         { title: 'Supply', icon: 'wind', points: ['Bleed air (HP/LP valves)', 'Ram-air valves (fresh air)'] },
         { title: 'Cooling', icon: 'snow', points: ['Heat exchanger (pre-cool)', 'Cold air unit: compressor + turbine', 'Water separator'] },
         { title: 'Control', icon: 'sliders', points: ['Temperature control unit / mix valve', 'Distribution ducting', 'Humidifier at high altitude'] },
       ] },
 
-    { id: 'schedule', part: 'Pressurisation', type: 'chart', icon: 'gauge', ask: 'How does the cabin altitude follow the aircraft?', dgca: true,
+    { id: 'schedule', short: 'Pressure schedule', part: 'Pressurisation', type: 'chart', icon: 'gauge', ask: 'How does the cabin altitude follow the aircraft?', dgca: true,
       takeaway: 'An isobaric (airliner) cabin climbs gently with the aircraft until it reaches about 8000 ft, then stays there while the aircraft goes higher: the gap is the differential pressure the hull carries. A hypobaric fighter cabin settles near 25,000 ft so a hole causes a smaller, safer decompression.',
       hook: 'Airliner 8, fighter 25, warning 10.',
       xlab: 'aircraft altitude (×1000 ft)', ylab: 'cabin altitude (×1000 ft)', xmin: 0, xmax: 45, ymin: 0, ymax: 30, xticks: [0, 10, 20, 30, 40], yticks: [8, 10, 25],
@@ -41,10 +42,10 @@ module.exports = {
         { label: 'hypobaric (fighter)', pts: [[0, 0], [8, 5], [25, 20], [32, 25], [45, 25]], labelAt: 4 },
       ],
       bands: [{ from: 10, to: 11, label: 'cabin warning 10,000 ft', hue: 2 }] },
-    { id: 'valves', type: 'svg', fig: 'pressure-valves', icon: 'shield', ask: 'What does each pressurisation valve do?', dgca: true,
+    { id: 'valves', short: 'Pressurisation valves', type: 'svg', fig: 'pressure-valves', icon: 'shield', ask: 'What does each pressurisation valve do?', dgca: true,
       takeaway: 'Air comes in at a constant mass flow; the outflow valve sets the cabin pressure by letting it out (closing it raises the differential). The safety valve stops too much positive differential, the inward relief valve stops the outside pressure exceeding the cabin\'s, the dump valve empties the cabin on command, and blow-out panels protect the floor between cabin and cargo.',
       hook: 'Constant in, controlled out.' },
-    { id: 'valve-stamp', type: 'stamp', icon: 'check', ask: 'Which valve?', tier: 'exam',
+    { id: 'valve-stamp', short: 'Which valve?', takeaway: 'The outflow valve controls pressure; safety and inward relief valves guard against too much positive or negative differential; the dump valve empties the cabin and blow-out panels protect the floor.', type: 'stamp', icon: 'check', ask: 'Which valve?', tier: 'exam',
       stamps: [{ id: 'o', label: 'Outflow' }, { id: 's', label: 'Safety (outward) relief' }, { id: 'i', label: 'Inward relief' }, { id: 'd', label: 'Dump' }, { id: 'b', label: 'Blow-out' }],
       cases: [
         { text: 'Closing it increases the cabin differential pressure.', answer: 'o' },
@@ -54,7 +55,7 @@ module.exports = {
         { text: 'Stops the positive differential exceeding the structural maximum.', answer: 's' },
         { text: 'Has a thrust-recovery nozzle.', answer: 'o' },
       ] },
-    { id: 'press-ops', type: 'sequence', icon: 'route', ask: 'A pressurised flight from taxi to shutdown',
+    { id: 'press-ops', short: 'A pressurised flight', takeaway: 'Pre-pressurise on the taxi, let the cabin climb and descend gently in step with the aircraft, hold a constant differential in cruise, and open the outflow valve on the ground.', type: 'sequence', icon: 'route', ask: 'A pressurised flight from taxi to shutdown',
       steps: [
         { label: 'Taxi', sub: 'pre-pressurise', tip: 'GROUND/FLIGHT to FLIGHT: about 0.1 psi so there is no surge at rotation and no fumes enter.' },
         { label: 'Climb', sub: '300–500 fpm cabin', tip: 'Outflow valve lets the cabin climb in proportion to the aircraft. Max cabin rate 1500 fpm.' },
@@ -62,18 +63,18 @@ module.exports = {
         { label: 'Descent', sub: '300–500 fpm cabin', tip: 'Cabin descends in proportion; about 0.1 psi left at touchdown.' },
         { label: 'On ground', sub: 'outflow fully open', tip: 'Pressure equalised before doors open.' },
       ] },
-    { id: 'zones', type: 'pairs', icon: 'layers', ask: 'Pressurised and unpressurised zones; cockpit gauges',
+    { id: 'zones', short: 'Pressurised zones', takeaway: 'Cockpit, cabin and holds are pressurised; radome, wheel bays and tail cone are not; cabin altitude, rate and differential are displayed.', type: 'pairs', icon: 'layers', ask: 'Pressurised and unpressurised zones; cockpit gauges',
       pairs: [
         { a: { label: 'Pressurised', body: 'Cockpit, cabin, **forward and aft cargo holds**.' }, b: { label: 'Unpressurised', body: '**Radome, nose and main gear bays**, centre-section torque box, **tail cone**.' }, rule: 'Gauges: cabin altimeter, cabin VSI, differential-pressure gauge. Warning above 10,000 ft cabin.' },
       ] },
 
-    { id: 'ice', part: 'Ice and rain protection', type: 'pairs', icon: 'ice', ask: 'Anti-icing or de-icing?', dgca: true,
+    { id: 'ice', short: 'Anti-ice vs de-ice', part: 'Ice and rain protection', type: 'pairs', icon: 'ice', ask: 'Anti-icing or de-icing?', dgca: true,
       takeaway: 'Anti-icing stops ice forming at all (hot bleed air on intakes and leading edges, heated windscreens). De-icing lets a little build up and then removes it (pneumatic boots, cyclic propeller heating). Frost alone can stop a wing lifting, so ground de-icing fluid is used before flight.',
       hook: 'Anti = never lets it stick; De = knocks it off.',
       pairs: [
         { a: { label: 'Anti-ice', body: '**Prevents** ice: hot bleed air (intakes, LE, slats), electrically heated windscreens and probes, fluid before ice forms.' }, b: { label: 'De-ice', body: '**Removes** ice after it builds: **pneumatic boots**, cyclic electrical **propeller** heating, fluid.' }, rule: 'Ground fluid: Type II thicker, longer holdover than Type I; bleed air OFF while spraying.' },
       ] },
-    { id: 'detectors', type: 'matrix', icon: 'search', ask: 'Ice detectors', revise: true,
+    { id: 'detectors', short: 'Ice detectors', takeaway: 'Accretion probes, blocked-hole tubes, torque-sensing blades and vibrating rods all detect ice; the vibrating rod’s frequency falls as ice builds.', type: 'matrix', icon: 'search', ask: 'Ice detectors', revise: true,
       corner: 'Detector', cols: ['Principle'],
       rows: [
         { label: 'Teddington', cells: ['visible probe on which ice accretes'] },
@@ -81,16 +82,16 @@ module.exports = {
         { label: 'Napier', cells: ['motor-driven blade: more torque needed as ice builds'] },
         { label: 'Rosemount', cells: [{ v: 'vibrating rod: frequency drops as ice accretes', key: true }] },
       ] },
-    { id: 'devices', type: 'bullets', icon: 'shield', ask: 'Ice-protection devices', dgca: true,
+    { id: 'devices', hook: 'Boots break ice; heat stops it forming.', short: 'Ice-protection devices', takeaway: 'Pneumatic boots and cyclic propeller heating remove ice; hot bleed air and heated windscreens prevent it; freezing-point fluid works best at low speed.', type: 'bullets', icon: 'shield', ask: 'Ice-protection devices', dgca: true,
       groups: [
         { title: 'Pneumatic boots', icon: 'wind', points: ['Rubber on the LE, inflated in cycles by bleed air', 'Crack ice off (de-ice)', 'Held flat by suction when off'] },
         { title: 'Propeller electrical', icon: 'refresh', points: ['Elements on the **inner third** of blades', '**Timer** heats one propeller at a time', 'Only with propellers turning'] },
         { title: 'Fluid', icon: 'drop', points: ['Lowers the freezing point', 'LE panels; **slinger ring** for propellers', 'Best at low speed'] },
         { title: 'Hot air and windscreen', icon: 'thermo', points: ['Hot bleed/oil: intakes, LE, slats (anti-ice)', 'Windscreen heated slowly: no thermal shock, stays elastic for bird strikes'] },
       ] },
-    { id: 'numbers', part: 'Numbers', type: 'numbers', icon: 'hash', ask: 'Numbers to know',
+    { id: 'numbers', short: 'Numbers', part: 'Numbers', type: 'numbers', icon: 'hash', ask: 'Numbers to know',
       items: [{ k: 'Isobaric cabin', v: '8000 ft' }, { k: 'Hypobaric cabin', v: '25,000 ft' }, { k: 'Cabin altitude warning', v: '> 10,000 ft' }, { k: 'Max cabin rate', v: '1500 fpm' }, { k: 'Normal cabin rate', v: '300–500 fpm' }, { k: 'Pre-pressurisation', v: '0.1 psi' }, { k: 'Inward relief opens', v: '−0.5 to −1 psi' }, { k: 'Ignored altitude change', v: '±500 ft' }, { k: 'Prop de-ice coverage', v: 'inner ⅓' }] },
-    { id: 'quiz', type: 'quiz', icon: 'check', ask: 'Quick check',
+    { id: 'quiz', short: 'Quick check', type: 'quiz', icon: 'check', ask: 'Quick check',
       questions: [
         { q: 'In an air-cycle machine the air is finally cooled by:', options: ['The compressor', 'Expansion through the turbine doing work', 'The water separator', 'The humidifier'], answer: 1 },
         { q: 'Which cooling system cannot cool the cabin on the ground?', options: ['Turbo-fan', 'Bootstrap (brake turbine)', 'Turbo-compressor', 'Vapour cycle'], answer: 1 },

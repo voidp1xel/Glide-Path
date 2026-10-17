@@ -1,0 +1,137 @@
+{
+"title": "Aircraft Nationality and Registration Marks",
+"src": "Bali AR Ch 3",
+"qs": [
+{
+"n": 1,
+"q": "The registration mark (letters, numbers or both) is assigned by:",
+"o": [
+"The ITU",
+"The State of Registry or common mark registering authority",
+"The State of Registry only"
+],
+"a": 1
+},
+{
+"n": 2,
+"q": "The common mark is chosen from the radio call-sign series allocated:",
+"o": [
+"To the State of the Operator",
+"To ICAO by the ITU",
+"To the State of Registry by ICAO"
+],
+"a": 1
+},
+{
+"n": 3,
+"q": "A common mark is assigned to a common mark registering authority by:",
+"o": [
+"ICAO",
+"The State of Registry",
+"The ITU"
+],
+"a": 0
+},
+{
+"n": 4,
+"q": "Registration letters must not be confusable with urgent or distress signals such as:",
+"o": [
+"XXX",
+"RCC",
+"DDD"
+],
+"a": 0
+},
+{
+"n": 5,
+"q": "Registration letters must not be confusable with:",
+"o": [
+"Three-letter groups of the International Code of Signals",
+"Four-letter groups beginning with Q",
+"Five-letter groups of the International Code of Signals"
+],
+"a": 2
+},
+{
+"n": 6,
+"q": "Marks on the fuselage and vertical tail of heavier-than-air aircraft must be at least:",
+"o": [
+"20 cm high",
+"40 cm high",
+"30 cm high"
+],
+"a": 2
+},
+{
+"n": 7,
+"q": "Marks on lighter-than-air aircraft (not unmanned free balloons) must be at least:",
+"o": [
+"60 cm",
+"50 cm",
+"1 m"
+],
+"a": 1
+},
+{
+"n": 8,
+"q": "Registration letters must not be confusable with urgent signals such as:",
+"o": [
+"LLL",
+"PAN",
+"RCC"
+],
+"a": 1
+},
+{
+"n": 9,
+"q": "Registration letters must not be confusable with urgent signals such as:",
+"o": [
+"LLL",
+"TTT",
+"ARCC"
+],
+"a": 1
+},
+{
+"n": 10,
+"q": "Marks under the wings of heavier-than-air aircraft must be at least:",
+"o": [
+"50 cm",
+"40–50 cm",
+"60 cm"
+],
+"a": 0
+},
+{
+"n": 12,
+"q": "The nationality marks allotted to India by the ITU are:",
+"o": [
+"VT and VW",
+"VT only",
+"AT to AW"
+],
+"a": 2,
+"ex": "India still uses its older VT/VU marks."
+},
+{
+"n": 13,
+"q": "The nationality marks used in India are:",
+"o": [
+"VT, VU and U",
+"VT and VU only",
+"AT to AW"
+],
+"a": 0
+},
+{
+"n": 14,
+"q": "Who exercises operational control over a leased aircraft?",
+"o": [
+"The lessor",
+"The lessee",
+"The IFSC"
+],
+"a": 1
+}
+]
+}

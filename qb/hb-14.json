@@ -1,0 +1,366 @@
+{
+"title": "Piston Engines",
+"src": "Practice questions written for Glidepath from the Aviator's Handbook, Part 4, 4-3 to 4-8 (not printed in the book: the Handbook has no question bank)",
+"qs": [
+{
+"n": 1,
+"q": "Compression ratio equals:",
+"o": [
+"Swept ÷ clearance",
+"(Swept volume + clearance volume) ÷ clearance volume",
+"Swept − clearance",
+"Clearance ÷ swept"
+],
+"a": 1,
+"ex": "Book 4-3."
+},
+{
+"n": 2,
+"q": "The Otto cycle is a:",
+"o": [
+"Constant-volume cycle",
+"Two-stroke cycle",
+"Constant-pressure cycle",
+"Constant-temperature cycle"
+],
+"a": 0,
+"ex": "Book 4-4."
+},
+{
+"n": 3,
+"q": "A diesel engine can use a higher compression ratio because:",
+"o": [
+"It uses spark ignition",
+"It burns petrol",
+"Only air is compressed, so there is no detonation risk",
+"It has a carburettor"
+],
+"a": 2,
+"ex": "About 22:1."
+},
+{
+"n": 4,
+"q": "A four-stroke engine completes one cycle in:",
+"o": [
+"360°",
+"180°",
+"1440°",
+"720° of crankshaft rotation"
+],
+"a": 3,
+"ex": "Book 4-4."
+},
+{
+"n": 5,
+"q": "Brake horsepower equals:",
+"o": [
+"IHP plus friction",
+"THP × propeller efficiency",
+"IHP × 33,000",
+"Indicated horsepower minus friction losses"
+],
+"a": 3,
+"ex": "Book 4-3."
+},
+{
+"n": 6,
+"q": "A piston engine converts about what percentage of fuel energy to useful power?",
+"o": [
+"28%",
+"10%",
+"50%",
+"75%"
+],
+"a": 0,
+"ex": "Book 4-3."
+},
+{
+"n": 7,
+"q": "Valve overlap means:",
+"o": [
+"The inlet opens after BDC",
+"The exhaust never closes",
+"Both valves are open around TDC",
+"Both valves are closed at BDC"
+],
+"a": 2,
+"ex": "Improves volumetric efficiency."
+},
+{
+"n": 8,
+"q": "A turbocharger is driven by:",
+"o": [
+"Exhaust gases",
+"The crankshaft",
+"Ram air",
+"An electric motor"
+],
+"a": 0,
+"ex": "Book 4-6."
+},
+{
+"n": 9,
+"q": "For take-off at sea level the turbocharger waste gate is:",
+"o": [
+"Half open",
+"Removed",
+"Fully closed",
+"Fully open"
+],
+"a": 3,
+"ex": "It closes progressively with altitude."
+},
+{
+"n": 10,
+"q": "An intercooler reduces:",
+"o": [
+"Exhaust noise",
+"Engine RPM",
+"Oil pressure",
+"Charge temperature and the risk of detonation"
+],
+"a": 3,
+"ex": "Book 4-6."
+},
+{
+"n": 11,
+"q": "A rich mixture (about 8:1):",
+"o": [
+"Increases endurance",
+"Is used for economy cruise",
+"Runs cooler and reduces detonation",
+"Raises CHT"
+],
+"a": 2,
+"ex": "Book 4-7."
+},
+{
+"n": 12,
+"q": "A lean mixture:",
+"o": [
+"Reduces CHT",
+"Reduces endurance",
+"Is used for take-off",
+"Increases the risk of detonation"
+],
+"a": 3,
+"ex": "Book 4-7."
+},
+{
+"n": 13,
+"q": "Carburettor icing can occur with outside air temperatures between about:",
+"o": [
+"Only below 0 °C",
+"0 °C and −40 °C",
+"+10 °C and +50 °C",
+"+30 °C and −10 °C"
+],
+"a": 3,
+"ex": "Up to 22 °C drop in the carburettor."
+},
+{
+"n": 14,
+"q": "With a constant-speed propeller, carburettor ice first shows as a:",
+"o": [
+"Rise in EGT",
+"Drop in manifold pressure",
+"Drop in RPM",
+"Rise in oil pressure"
+],
+"a": 1,
+"ex": "The CSU holds RPM."
+},
+{
+"n": 15,
+"q": "With a fixed-pitch propeller, carburettor ice first shows as a:",
+"o": [
+"Rise in CHT",
+"Drop in RPM",
+"Rise in RPM",
+"Drop in manifold pressure only"
+],
+"a": 1,
+"ex": "Book 4-7."
+},
+{
+"n": 16,
+"q": "A magneto is preferred to battery ignition because it:",
+"o": [
+"Advances timing automatically",
+"Needs no maintenance",
+"Is independent of the battery and gives a strong spark at high RPM",
+"Works without engine rotation"
+],
+"a": 2,
+"ex": "Book 4-7."
+},
+{
+"n": 17,
+"q": "During a magneto check, switching off one magneto should give:",
+"o": [
+"No RPM change",
+"Engine stoppage",
+"An RPM rise",
+"A small RPM drop while the engine keeps running"
+],
+"a": 3,
+"ex": "Book 4-7."
+},
+{
+"n": 18,
+"q": "Detonation is:",
+"o": [
+"Ignition before the spark",
+"Explosive burning of the charge after the spark",
+"Burning in the exhaust",
+"A carburettor fault"
+],
+"a": 1,
+"ex": "Book 4-8."
+},
+{
+"n": 19,
+"q": "Pre-ignition is caused by:",
+"o": [
+"A weak magneto",
+"Hot spots or glowing carbon igniting the charge before the spark",
+"Low-octane fuel only",
+"A lean mixture after the spark"
+],
+"a": 1,
+"ex": "Book 4-8."
+},
+{
+"n": 20,
+"q": "The firing order of a typical four-cylinder engine is:",
+"o": [
+"1-2-3-4",
+"1-4-2-3",
+"1-3-4-2",
+"4-3-2-1"
+],
+"a": 2,
+"ex": "Book 4-8."
+},
+{
+"n": 21,
+"q": "Rated altitude is the:",
+"o": [
+"Altitude of maximum TAS",
+"Height at which the waste gate opens",
+"Service ceiling",
+"Highest altitude at which sea-level power can be maintained"
+],
+"a": 3,
+"ex": "Book 4-3."
+},
+{
+"n": 22,
+"q": "Mechanical efficiency equals:",
+"o": [
+"Useful work ÷ heat in fuel",
+"THP ÷ BHP",
+"BHP ÷ IHP",
+"IHP ÷ BHP"
+],
+"a": 2,
+"ex": "Book 4-3."
+},
+{
+"n": 23,
+"q": "Of the fuel energy in a piston engine, about how much leaves in the exhaust?",
+"o": [
+"40%",
+"28%",
+"60%",
+"10%"
+],
+"a": 0,
+"ex": "~32% as engine heat."
+},
+{
+"n": 24,
+"q": "A petrol engine's compression ratio is limited to about:",
+"o": [
+"22 : 1",
+"10 : 1",
+"5 : 1",
+"30 : 1"
+],
+"a": 1,
+"ex": "Beyond that the charge self-ignites."
+},
+{
+"n": 25,
+"q": "A two-stroke engine is not used in aviation mainly because of its:",
+"o": [
+"Complexity",
+"Low power for its size",
+"Poorer efficiency, vibration and noise",
+"Weight"
+],
+"a": 2,
+"ex": "Book 4-4."
+},
+{
+"n": 26,
+"q": "The spark occurs:",
+"o": [
+"During the exhaust stroke",
+"At BDC",
+"Slightly before TDC",
+"Well after TDC"
+],
+"a": 2,
+"ex": "Ignition is advanced."
+},
+{
+"n": 27,
+"q": "Valve lag means the inlet valve closes:",
+"o": [
+"Before TDC",
+"At TDC",
+"Before BDC",
+"After BDC"
+],
+"a": 3,
+"ex": "The moving charge keeps filling the cylinder."
+},
+{
+"n": 28,
+"q": "An engine running too cold suffers from:",
+"o": [
+"More friction and lower thermal efficiency",
+"Structural failure",
+"Detonation",
+"Pre-ignition"
+],
+"a": 0,
+"ex": "Too hot gives pre-ignition and knocking."
+},
+{
+"n": 29,
+"q": "A supercharger compresses:",
+"o": [
+"Air only, driven by exhaust",
+"The mixture, driven by the crankshaft",
+"Exhaust gas",
+"Fuel only"
+],
+"a": 1,
+"ex": "A turbocharger compresses air before the carburettor."
+},
+{
+"n": 30,
+"q": "Long running at low RPM tends to:",
+"o": [
+"Cause detonation",
+"Burn the valves",
+"Overheat the magneto",
+"Foul the spark plugs with carbon"
+],
+"a": 3,
+"ex": "Book 4-7."
+}
+]
+}

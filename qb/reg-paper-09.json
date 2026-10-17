@@ -1,0 +1,418 @@
+{
+"title": "Sample paper 9",
+"src": "Bali AR, Sample Question Papers",
+"qs": [
+{
+"n": 2,
+"q": "The purpose of the REM sleep is:",
+"o": [
+"Brain restoration by strengthening, refreshing and organizing memory.",
+"Body restoration by helping the body repair tissues, build bone and muscle, and strengthen its immune system.",
+"To relax body and mind through four stages of sleep."
+],
+"a": 0
+},
+{
+"n": 4,
+"q": "Which procedure is recommended to prevent or overcome spatial disorientation?",
+"o": [
+"Reduce head and eye movement to the extent possible.",
+"Rely on the kinesthetic senses.",
+"Rely on the indications of the flight instruments."
+],
+"a": 2
+},
+{
+"n": 5,
+"q": "What action should be taken if hyperventilation is suspected?",
+"o": [
+"Breathe at a slower rate by taking very deep breaths.",
+"Consciously breathe at a slower rate than normal.",
+"Consciously force yourself to take deep breaths and breathe at a faster rate than normal."
+],
+"a": 1
+},
+{
+"n": 6,
+"q": "Change in frequency or location of navigational aids on short notice is notified through: Notams.",
+"o": [
+"NOTAM",
+"AIRAC",
+"AIP"
+],
+"a": 0
+},
+{
+"n": 7,
+"q": "When body temperature is low, it's called:",
+"o": [
+"Autokinensis.",
+"Hypothermia.",
+"Hypoxia with chill."
+],
+"a": 1
+},
+{
+"n": 8,
+"q": "Runaway end lights appear as lights:",
+"o": [
+"Red.",
+"Blue.",
+"White."
+],
+"a": 0
+},
+{
+"n": 9,
+"q": "Taxytrack center line lights are:",
+"o": [
+"Red.",
+"Green.",
+"Yellow."
+],
+"a": 1
+},
+{
+"n": 10,
+"q": "IFR flight shall not be commenced if the weather at destination and alternate is:",
+"o": [
+"Above minima.",
+"Below minima.",
+"Below expectations."
+],
+"a": 1
+},
+{
+"n": 11,
+"q": "ADC is exempted for A/C flying within of the aerodrome and below:",
+"o": [
+"10 NMS, 5000'.",
+"5 NMS, 1000'.",
+"5 NMS, 4000'."
+],
+"a": 1
+},
+{
+"n": 12,
+"q": "Runway center line lights are:",
+"o": [
+"Blue.",
+"White.",
+"Red."
+],
+"a": 1
+},
+{
+"n": 13,
+"q": "Crossing of an ATS route should be at an angle of:",
+"o": [
+"60°.",
+"90°.",
+"45°."
+],
+"a": 1
+},
+{
+"n": 14,
+"q": "An A/C descending through the transition layer will report its height in:",
+"o": [
+"Flight Levels.",
+"AMSL.",
+"Altitude."
+],
+"a": 2
+},
+{
+"n": 15,
+"q": "Information about facilities on an aerodrome is found in:",
+"o": [
+"AIPS.",
+"NOTAMS.",
+"AIRAC."
+],
+"a": 0
+},
+{
+"n": 16,
+"q": "Publicity material can be dropped from an A/C if it has the permission of:",
+"o": [
+"DM/ Commissioner of Police.",
+"DGCA.",
+"Aerodrome officer."
+],
+"a": 0
+},
+{
+"n": 17,
+"q": "A flight which exceeds Mach number -1, cannot fly over:",
+"o": [
+"Populated Areas.",
+"Indian Air Space.",
+"Europe."
+],
+"a": 1
+},
+{
+"n": 18,
+"q": "Petroleum in bulk is petroleum in receptacle, which exceeds:",
+"o": [
+"1000 Its.",
+"900 Its.",
+"1500 Its."
+],
+"a": 1
+},
+{
+"n": 19,
+"q": "The demolition of buildings and trees act came into effect in year:",
+"o": [
+"1954.",
+"1937.",
+"1994."
+],
+"a": 2
+},
+{
+"n": 20,
+"q": "What are the main signs indicating the loss of vigilance?",
+"o": [
+"Increase in sensory perception and loss of concentration.",
+"Decrease in sensory perception and sensation of muscular heaviness.",
+"Blurred vision."
+],
+"a": 1
+},
+{
+"n": 22,
+"q": "Emergency distance available for stopping aircraft is:",
+"o": [
+"From the starting point to end of clearway.",
+"From starting point to end of paved overrun.",
+"From threshold plus 50' to end of runway."
+],
+"a": 1
+},
+{
+"n": 23,
+"q": "Control Zone is from:",
+"o": [
+"Surface of earth to a specified upper limit.",
+"Surface of earth to unlimited.",
+"At least 700'."
+],
+"a": 0
+},
+{
+"n": 24,
+"q": "Notams are distributed by means of:",
+"o": [
+"Mail.",
+"Telecommunications.",
+"Speed post."
+],
+"a": 1
+},
+{
+"n": 25,
+"q": "A PIC sees the red navigation light of another aircraft at a relative bearing of 290°. The action is:",
+"o": [
+"Turn Right.",
+"Safe, no action is required.",
+"Turn left"
+],
+"a": 1,
+"ex": "Its left side faces you from your left: it is heading away to your left, so no action is needed."
+},
+{
+"n": 27,
+"q": "If there is a minor damage to aircraft on a ferry flight, passengers:",
+"o": [
+"Cannot be carried.",
+"Can be carried.",
+"Can be carried with the permission of the operator."
+],
+"a": 0
+},
+{
+"n": 28,
+"q": "Night flying hours can be logged between:",
+"o": [
+"30 minutes after sunset to 30 minutes before sunrise",
+"15 minutes after sunset to 15 minutes before sunrise",
+"Sunset to sunrise"
+],
+"a": 0
+},
+{
+"n": 29,
+"q": "Runway direction is measured from:",
+"o": [
+"True North.",
+"Compass North.",
+"Magnetic North."
+],
+"a": 2
+},
+{
+"n": 30,
+"q": "An A/C flying a track of 180° will fly at _ level on a IFR plan:",
+"o": [
+"F 260.",
+"F185.",
+"F90."
+],
+"a": 0,
+"ex": "Track 180°–359°: even flight levels for IFR."
+},
+{
+"n": 32,
+"q": "Apron is an area on aerodrome where following activities take place:",
+"o": [
+"Loading /unloading of passengers, mail and cargo only.",
+"Parking of aircraft only.",
+"Loading/unloading of passengers, mail and cargo, fueling, parking or maintenance."
+],
+"a": 2
+},
+{
+"n": 33,
+"q": "NDB separation is:",
+"o": [
+"15° at 15 Nms.",
+"30° at 15 Nms.",
+"45° at 15 Nms."
+],
+"a": 1
+},
+{
+"n": 34,
+"q": "Red pyrotechnic light to A/C in flight indicates:",
+"o": [
+"Not withstanding any previous instructions, do not land for the time being.",
+"Proceed to alternate.",
+"Keep circling."
+],
+"a": 0
+},
+{
+"n": 36,
+"q": "Aerodrome beacon light color is:",
+"o": [
+"Alternate white & green.",
+"Green.",
+"Red."
+],
+"a": 0
+},
+{
+"n": 37,
+"q": "Anti-collision lights are lights:",
+"o": [
+"Steady Red.",
+"Rotating Red.",
+"Flashing Red."
+],
+"a": 2
+},
+{
+"n": 38,
+"q": "If an A/C flying at F290 is descending over Palam and its altimeter reads 12000 it then the pilot will report its height as:",
+"o": [
+"Altitude.",
+"Flight level.",
+"On QFE."
+],
+"a": 0
+},
+{
+"n": 39,
+"q": "Which problem may occur, when flying in an environment of low contrast (fog, snow, darkness, haze)? Under these conditions it is:",
+"o": [
+"Improbable to get visual illusions.",
+"Difficult to estimate the correct speed and size of approaching objects.",
+"Impossible to detect objects."
+],
+"a": 1
+},
+{
+"n": 41,
+"q": "Action required for rapid decompression recovery is:",
+"o": [
+"Only the prompt supply of oxygen is necessary.",
+"Take prompt supply of oxygen, descend to the lowest possible level and land as soon as possible.",
+"Take prompt supply of oxygen, descend to the lowest possible level and wait for the symptoms to disappear before climbing again."
+],
+"a": 1
+},
+{
+"n": 42,
+"q": "Aircraft on flight gets an advisory and flight information service within an FIR. This is provided by:",
+"o": [
+"FIC",
+"ROC",
+"ACC"
+],
+"a": 0
+},
+{
+"n": 43,
+"q": "The alert phase starts when an A/C fails to land within:",
+"o": [
+"3 minutes.",
+"2 minutes.",
+"5 minutes."
+],
+"a": 2
+},
+{
+"n": 45,
+"q": "Decompression sickness causes:",
+"o": [
+"Lack of CO, in blood.",
+"Lack of O2 in blood.",
+"N½ bubbles in tissues."
+],
+"a": 2
+},
+{
+"n": 46,
+"q": "Hypoxia can be controlled by:",
+"o": [
+"Using oxygen above 5000 AMSL during daytime.",
+"Opening windows & air vents.",
+"Using oxygen above 5000 AMSL during nighttime."
+],
+"a": 2
+},
+{
+"n": 48,
+"q": "ADC validity for non-schedule domestic flights is:",
+"o": [
+"(-) 15 minutes to (+) 45 minutes of EOBT in RPL/ FPL.",
+"(+) 60 minutes of EOBT in RPL/ FPL.",
+"(-) 15 minutes to (+) 3 hours of EOBT."
+],
+"a": 2
+},
+{
+"n": 49,
+"q": "Wildlife hazard at aerodromes is caused due to the presence of:",
+"o": [
+"Wild animals.",
+"Animals.",
+"Birds and animals."
+],
+"a": 2
+},
+{
+"n": 50,
+"q": "Introducing Automation in a cockpit:",
+"o": [
+"Always reduces potential for human error and workload.",
+"Generally, relocates potential for error and increases workload.",
+"Eliminates human error but workload increases."
+],
+"a": 1
+}
+]
+}

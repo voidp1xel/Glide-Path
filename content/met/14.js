@@ -24,7 +24,7 @@ module.exports = {
         { label: 'Tropical maritime (Tm)', cells: ['Oceanic subtropical highs', 'Warm', { v: 'Moist', key: true }] },
         { label: 'Equatorial maritime (Em)', cells: ['Equatorial/tropical seas', 'Hot', { v: 'Very humid (SW monsoon)', key: true }] },
       ] },
-    { id: 'india-masses', type: 'bullets', icon: 'map', ask: 'Which air masses reach India?',
+    { id: 'india-masses', takeaway: 'In winter India is under continental tropical (Tc) air from the Siberian high: cold, dry, hazy. In the monsoon, equatorial maritime (Em) air covers the south, with the monsoon trough over the Gangetic plain between the moist and dry air.', hook: 'Winter continental and dry; monsoon maritime and wet.', type: 'bullets', icon: 'map', ask: 'Which air masses reach India?',
       groups: [
         { title: 'Winter', icon: 'snow', points: ['**Tc** from the Siberian high: cold, dry, fair, poor visibility', 'Most common air mass over India', 'After a WD: **Pc** incursion → cold wave'] },
         { title: 'Monsoon', icon: 'rain', points: ['**Em** south of 25°N: humid, sultry, small diurnal range', '**Tm** (Pacific, via SE Asia) over NE India & Himalaya', '**Tc** over NW India', 'Monsoon trough over the Gangetic plains between them'] },
@@ -35,7 +35,7 @@ module.exports = {
     { id: 'warm', type: 'svg', fig: 'warm-front', icon: 'cloud', ask: 'What does a warm front look like?', dgca: true,
       takeaway: 'Warm air glides up over cold air on a shallow slope (1:150–1:180) at 10–15 kt. Cloud thickens over 1000 km: CI → CS → AS → NS → ST, with long steady rain, drizzle, low stratus, frontal fog and freezing rain ahead.',
       hook: 'Warm front cloud alphabet: Cirrus, Cirrostratus, Altostratus, Nimbostratus, Stratus — "Cats Can Always Nap Soundly".' },
-    { id: 'compare', type: 'matrix', icon: 'list', ask: 'Cold vs warm front: before, during, after', revise: true, dgca: true,
+    { id: 'compare', takeaway: 'A cold front is steep and fast: a narrow band of CB, showers and squalls, a sharp veer and a quick clearance. A warm front is shallow and slow: a wide belt of layer cloud, steady rain, poor visibility and freezing rain ahead.', hook: 'Cold is quick and violent; warm is wide and wet.', type: 'matrix', icon: 'list', ask: 'Cold vs warm front: before, during, after', revise: true, dgca: true,
       corner: '', cols: ['Cold front', 'Warm front'],
       rows: [
         { label: 'Slope / speed', cells: ['1:50–1:120 · 20–30+ kt', '1:150–1:180 · 10–15 kt'] },

@@ -1,0 +1,950 @@
+{
+"title": "PANS-OPS: Aircraft Operations",
+"src": "Bali AR Ch 13",
+"qs": [
+{
+"n": 1,
+"q": "PANS-OPS means:",
+"o": [
+"Procedures for Air Navigation Services – Aircraft Operations",
+"Pilots Alternate Navigational Systems and Operational Procedures",
+"Procedures for Air Navigation Systems – Airfield Operations"
+],
+"a": 0
+},
+{
+"n": 2,
+"q": "The document containing the recommendations for instrument procedures is:",
+"o": [
+"PANS-OPS, Doc 8168",
+"The Chicago Convention",
+"The Air Navigation Bulletin"
+],
+"a": 0
+},
+{
+"n": 3,
+"q": "Which defines transition altitude?",
+"o": [
+"The altitude above which vertical position is referred to local QNH",
+"The altitude at or below which vertical position is referred to QNH (altitudes)",
+"The altitude at which 1013 hPa is set and flight levels reported"
+],
+"a": 1
+},
+{
+"n": 4,
+"q": "The transition level:",
+"o": [
+"Is published for the aerodrome in AIP ENR",
+"Is the lowest flight level available above the transition altitude",
+"Is calculated by the PIC for each approach"
+],
+"a": 1
+},
+{
+"n": 5,
+"q": "Passing through the transition layer, vertical position is expressed as:",
+"o": [
+"Altitude during climb",
+"Altitude or flight level during climb",
+"Altitude during descent"
+],
+"a": 2
+},
+{
+"n": 6,
+"q": "The change between altitude and flight level is made:",
+"o": [
+"At the transition level in the climb and the transition altitude in the descent",
+"At the transition altitude in the climb and the transition level in the descent",
+"Only at the transition altitude"
+],
+"a": 1
+},
+{
+"n": 7,
+"q": "VFR cruising level for true track 358°, variation 3°E, deviation 2°W:",
+"o": [
+"FL 65",
+"FL 75",
+"FL 70"
+],
+"a": 0,
+"ex": "Magnetic track 355° → westerly semicircle → even thousands + 500 ft for VFR. Deviation doesn't affect track."
+},
+{
+"n": 8,
+"q": "Near an aerodrome to be used, the aircraft's vertical position is expressed as:",
+"o": [
+"Altitude at or above the transition altitude",
+"Flight level at or below the transition level",
+"Altitude at or below the transition altitude"
+],
+"a": 2
+},
+{
+"n": 9,
+"q": "Vertical position at or below the transition altitude is reported as:",
+"o": [
+"Flight level",
+"Altitude",
+"Height"
+],
+"a": 1
+},
+{
+"n": 11,
+"q": "A departing IFR aircraft changes from QNH to 1013.25 hPa when passing:",
+"o": [
+"The transition layer",
+"The level ATC specifies",
+"The transition altitude"
+],
+"a": 2
+},
+{
+"n": 12,
+"q": "In the standard atmosphere, FL150 is about:",
+"o": [
+"15,000 m",
+"4,550 m",
+"455 m"
+],
+"a": 1
+},
+{
+"n": 13,
+"q": "A pre-flight altimeter check is made:",
+"o": [
+"On the apron",
+"On the manoeuvring area",
+"At a known elevation on the aerodrome"
+],
+"a": 2
+},
+{
+"n": 14,
+"q": "The SSR special-purpose codes are:",
+"o": [
+"Distress 7600, hijack 7500, radio failure 7700",
+"Distress 7500, hijack 7700, radio failure 7600",
+"Distress 7700, hijack 7500, radio failure 7600"
+],
+"a": 2
+},
+{
+"n": 15,
+"q": "Acknowledging mode/code setting instructions, pilots shall:",
+"o": [
+"Say only ROGER",
+"Say only WILCO",
+"Read back the mode and code"
+],
+"a": 2
+},
+{
+"n": 16,
+"q": "Pilots shall not use the SSR IDENT feature unless:",
+"o": [
+"Requested by ATC",
+"They have Mode C",
+"They are in controlled airspace"
+],
+"a": 0
+},
+{
+"n": 17,
+"q": "With serviceable Mode C, the pilot:",
+"o": [
+"Operates it continuously only in controlled airspace",
+"Operates it continuously whatever ATC says",
+"Operates it continuously unless ATC directs otherwise"
+],
+"a": 2
+},
+{
+"n": 18,
+"q": "With a serviceable transponder, the pilot operates it:",
+"o": [
+"At all times in flight, whether or not SSR is used for ATS",
+"Only in controlled airspace",
+"Only where SSR is used for ATS"
+],
+"a": 0
+},
+{
+"n": 19,
+"q": "Your assigned code is 5320. With radio failure you squawk:",
+"o": [
+"A 7620 Mode C",
+"A 7600 Mode C",
+"A 0020 Mode C"
+],
+"a": 1
+},
+{
+"n": 20,
+"q": "After losing two-way communication the pilot sets Mode A code:",
+"o": [
+"2000",
+"7700",
+"7600"
+],
+"a": 2
+},
+{
+"n": 21,
+"q": "With serviceable Mode C, the pilot shall operate it continuously:",
+"o": [
+"Whatever ATC says",
+"Unless ATC directs otherwise",
+"Only when ATC directs"
+],
+"a": 1
+},
+{
+"n": 23,
+"q": "Under unlawful interference the PIC sets the transponder to:",
+"o": [
+"7500",
+"7700",
+"7000"
+],
+"a": 0
+},
+{
+"n": 24,
+"q": "On receiving a TA, pilots shall:",
+"o": [
+"Respond immediately by following the TA",
+"Not manoeuvre in response to TAs alone",
+"Notify ATC of the TA"
+],
+"a": 1
+},
+{
+"n": 25,
+"q": "ACAS indications are used by pilots for:",
+"o": [
+"Both situational awareness and the active visual search for conflicting traffic",
+"Situational awareness only",
+"The visual search for conflicting traffic only"
+],
+"a": 0
+},
+{
+"n": 26,
+"q": "The two main purposes of altimeter setting are:",
+"o": [
+"To read height and pressure",
+"QNH near the aerodrome and QFE en route",
+"Adequate terrain clearance and vertical separation"
+],
+"a": 2
+},
+{
+"n": 27,
+"q": "Altitude is vertical position measured from:",
+"o": [
+"MSL",
+"Aerodrome elevation",
+"Touchdown"
+],
+"a": 0
+},
+{
+"n": 28,
+"q": "Height is vertical position measured from:",
+"o": [
+"MSL",
+"Aerodrome elevation (a specified datum)",
+"Touchdown"
+],
+"a": 1
+},
+{
+"n": 29,
+"q": "Flight level is vertical position measured from:",
+"o": [
+"MSL",
+"Aerodrome elevation",
+"The standard pressure level (1013.25 hPa)"
+],
+"a": 2
+},
+{
+"n": 30,
+"q": "With QNH 991 hPa, where is FL 0? (1 hPa = 30 ft)",
+"o": [
+"Below sea level",
+"660 ft above MSL",
+"660 ft above the transition level"
+],
+"a": 0,
+"ex": "1013 − 991 = 22 hPa × 30 = 660 ft below sea level."
+},
+{
+"n": 31,
+"q": "Flight levels are referenced to:",
+"o": [
+"The first flight level above the transition level",
+"A QNH of 1013.25 hPa",
+"The pressure surface of 1013.25 hPa"
+],
+"a": 2
+},
+{
+"n": 32,
+"q": "What is the relationship between IFR and VFR flight levels?",
+"o": [
+"For a given magnetic track, the VFR level is the IFR level plus 500 ft below FL290",
+"IFR levels use magnetic tracks 000–179 and VFR levels 180–359",
+"VFR levels may be flown in VMC or IMC, IFR only in IMC"
+],
+"a": 0
+},
+{
+"n": 33,
+"q": "When does ATC pass the QNH to a departing pilot?",
+"o": [
+"On engine start",
+"In the taxi clearance",
+"In the ATC clearance"
+],
+"a": 1
+},
+{
+"n": 35,
+"q": "En route below the transition level, where do you get altimeter settings in flight?",
+"o": [
+"Interpolate between departure and destination QNH",
+"Ask the met office for a route forecast before take-off",
+"Ask the FIS controller for local aerodrome QNHs"
+],
+"a": 2
+},
+{
+"n": 37,
+"q": "On the ground with aerodrome QNH set, a serviceable altimeter reads:",
+"o": [
+"Height above the datum",
+"The elevation of the aeroplane's position plus the height of the static vent",
+"Altitude above the datum"
+],
+"a": 1
+},
+{
+"n": 39,
+"q": "The minimum missed approach climb gradient is:",
+"o": [
+"3.3%",
+"2.8%",
+"2.5%"
+],
+"a": 2
+},
+{
+"n": 40,
+"q": "Entering a FIR using SSR from one that does not, you squawk:",
+"o": [
+"Standby",
+"A/1234 + C",
+"A/2000 + C"
+],
+"a": 2
+},
+{
+"n": 41,
+"q": "You are hijacked and don't want to alarm the gunman. You squawk:",
+"o": [
+"7700 or 7500 depending on the situation",
+"A/7600 + C",
+"A/7500 + C"
+],
+"a": 2
+},
+{
+"n": 42,
+"q": "If you find your transponder has failed you:",
+"o": [
+"Switch it off",
+"Recycle it and set 7777",
+"Tell ATC"
+],
+"a": 2
+},
+{
+"n": 43,
+"q": "Which is an invalid squawk?",
+"o": [
+"A/7777 + C",
+"A/8765 + C",
+"A/2000 + C"
+],
+"a": 1,
+"ex": "Transponder codes use digits 0–7 only."
+},
+{
+"n": 44,
+"q": "On a single SSR control box (no changeover switch), how do you change code?",
+"o": [
+"Select standby, change the code, then normal",
+"Select off, change the code, then normal",
+"Change one digit at a time"
+],
+"a": 0
+},
+{
+"n": 45,
+"q": "What does ACAS stand for?",
+"o": [
+"Advisory, Counselling and Arbitration Service",
+"Airborne Collision Avoidance System",
+"Automatic Collision Avoidance System"
+],
+"a": 1
+},
+{
+"n": 46,
+"q": "What does OIS stand for?",
+"o": [
+"Obstacle identification surface",
+"Obstacle in surface",
+"Obstacle identification slope"
+],
+"a": 0
+},
+{
+"n": 47,
+"q": "What does DER stand for?",
+"o": [
+"Departure end of runway",
+"Distance end of runway",
+"Departure end of route"
+],
+"a": 0
+},
+{
+"n": 48,
+"q": "The MSA around a navigation facility generally applies within:",
+"o": [
+"25 NM",
+"30 NM",
+"10 NM"
+],
+"a": 0
+},
+{
+"n": 49,
+"q": "The part of a flight in which the aircraft descends below 1,000 ft above DH/MDH is:",
+"o": [
+"The glide path",
+"Approach to landing",
+"Go-around"
+],
+"a": 1
+},
+{
+"n": 50,
+"q": "A radial is:",
+"o": [
+"A magnetic bearing to or from a VOR, depending on direction",
+"A magnetic bearing to a VOR",
+"A magnetic bearing extending from a VOR"
+],
+"a": 2
+},
+{
+"n": 51,
+"q": "A circling approach is:",
+"o": [
+"Flown only under radar vectoring",
+"A contact flight manoeuvre",
+"A visual manoeuvre keeping the runway in sight"
+],
+"a": 2
+},
+{
+"n": 52,
+"q": "What does MEHT mean?",
+"o": [
+"Maximum eye height",
+"Minimum eye height over the threshold",
+"Mean height over threshold"
+],
+"a": 1
+},
+{
+"n": 53,
+"q": "For a precision approach, OCH is:",
+"o": [
+"The lowest height above MSL used to meet obstacle clearance",
+"The lowest altitude above aerodrome elevation used to meet obstacle clearance",
+"The lowest height above the threshold elevation at which a missed approach must start to meet obstacle clearance"
+],
+"a": 2
+},
+{
+"n": 54,
+"q": "Aircraft approach categories are based on:",
+"o": [
+"1.3 × stalling speed clean at minimum landing mass",
+"1.3 × stalling speed in landing configuration at minimum landing mass",
+"1.3 × stalling speed in landing configuration at maximum certificated landing mass"
+],
+"a": 2
+},
+{
+"n": 55,
+"q": "The maximum bank angle in a holding pattern is:",
+"o": [
+"35°",
+"30°",
+"25°"
+],
+"a": 2
+},
+{
+"n": 56,
+"q": "The visual phase after an instrument approach, bringing the aircraft round to land on a runway not suitable for straight-in, is:",
+"o": [
+"Visual manoeuvring (circling)",
+"A contact approach",
+"The aerodrome traffic pattern"
+],
+"a": 0
+},
+{
+"n": 57,
+"q": "In a straight departure, the initial track is within ___ of the runway centreline.",
+"o": [
+"25°",
+"12.5°",
+"15°"
+],
+"a": 2
+},
+{
+"n": 58,
+"q": "In an instrument departure, the minimum obstacle clearance at the DER is:",
+"o": [
+"0 ft",
+"3.3% gradient",
+"35 ft"
+],
+"a": 0
+},
+{
+"n": 59,
+"q": "In a straight departure the initial departure track is within:",
+"o": [
+"15° of the runway centreline",
+"10° of the runway centreline",
+"25° of the runway centreline"
+],
+"a": 0
+},
+{
+"n": 60,
+"q": "If a departure track is published, the pilot is expected to:",
+"o": [
+"Correct for known wind to stay within protected airspace",
+"Ask ATC for a different heading",
+"Ignore the wind and fly heading = track"
+],
+"a": 0
+},
+{
+"n": 61,
+"q": "The main factor dictating the design of an instrument departure is generally:",
+"o": [
+"Navigation aids",
+"The terrain around the airport",
+"ATC requirements"
+],
+"a": 1
+},
+{
+"n": 62,
+"q": "On an omnidirectional departure, you climb to what height before turning?",
+"o": [
+"Transition altitude",
+"120 m (394 ft)",
+"1,000 ft"
+],
+"a": 1
+},
+{
+"n": 63,
+"q": "The main factor dictating the design of an instrument departure is generally:",
+"o": [
+"ATC requirements",
+"Navigation aids",
+"The terrain around the aerodrome"
+],
+"a": 2
+},
+{
+"n": 64,
+"q": "A SID ends at:",
+"o": [
+"The first fix of the en-route phase",
+"15 NM from the DER",
+"A fix chosen by the pilot before top of climb"
+],
+"a": 0
+},
+{
+"n": 66,
+"q": "ILS obstacle clearance assumes the pilot does not deviate from the centreline by more than:",
+"o": [
+"Half-scale localizer deflection",
+"Full-scale localizer deflection",
+"Half-scale glide path deflection and 35°"
+],
+"a": 0
+},
+{
+"n": 67,
+"q": "Who establishes the OCA/H for an approach procedure?",
+"o": [
+"The operator",
+"The PIC",
+"The State"
+],
+"a": 2
+},
+{
+"n": 68,
+"q": "Losing visual reference while circling, the pilot makes an initial climbing turn towards:",
+"o": [
+"The final missed approach track",
+"The MAP",
+"The landing runway"
+],
+"a": 2
+},
+{
+"n": 69,
+"q": "A circling approach is:",
+"o": [
+"A visual manoeuvre keeping the runway in sight",
+"A visual manoeuvre flown only in IMC",
+"Flown only under radar vectoring"
+],
+"a": 0
+},
+{
+"n": 70,
+"q": "When the circling area is established, the OCA/H is determined:",
+"o": [
+"Only for categories C, D and E",
+"For each aircraft category, and may differ between them",
+"For all categories, the same for all"
+],
+"a": 1
+},
+{
+"n": 71,
+"q": "On a non-precision approach, a straight-in approach is acceptable if the final approach track differs from the runway centreline by:",
+"o": [
+"30° or less",
+"40° or less",
+"20° or less"
+],
+"a": 0
+},
+{
+"n": 72,
+"q": "If you lose sight of the runway on the downwind leg of a circling manoeuvre you:",
+"o": [
+"Start a missed approach",
+"Turn towards the inner marker at circling altitude",
+"Continue if you have other visual cues"
+],
+"a": 0
+},
+{
+"n": 73,
+"q": "Minimum sector altitudes apply within what distance of the IAF?",
+"o": [
+"20 NM",
+"5 NM",
+"25 NM"
+],
+"a": 2
+},
+{
+"n": 74,
+"q": "A \"precision approach\" is a direct instrument approach:",
+"o": [
+"Using bearing, elevation and distance information",
+"Flown by two pilots trained in a specific method",
+"Using one source of bearing and one of elevation or distance"
+],
+"a": 0
+},
+{
+"n": 75,
+"q": "The visual phase after an instrument approach, positioning to land on a runway not suitable for straight-in, is:",
+"o": [
+"A visual approach",
+"Visual manoeuvring (circling)",
+"The aerodrome traffic pattern"
+],
+"a": 1
+},
+{
+"n": 76,
+"q": "In an ILS approach, the final approach segment begins at the:",
+"o": [
+"IAF",
+"FAF",
+"FAP"
+],
+"a": 2
+},
+{
+"n": 77,
+"q": "When may an aircraft on a straight-in VOR approach descend below the OCA?",
+"o": [
+"When the tower is in sight",
+"When in visual contact with the ground and the runway lights are in sight",
+"When in contact with the ground but not yet with the runway"
+],
+"a": 1
+},
+{
+"n": 78,
+"q": "A turn during initial approach between the end of the outbound track and the start of the intermediate or final track is a:",
+"o": [
+"Procedure turn",
+"Base turn",
+"Racetrack"
+],
+"a": 1
+},
+{
+"n": 79,
+"q": "A turn away from a track followed by a turn the other way to intercept the reciprocal track is a:",
+"o": [
+"Procedure turn",
+"Reversal track",
+"Racetrack"
+],
+"a": 0
+},
+{
+"n": 80,
+"q": "On a circling approach, don't descend below MDA until: 1) the threshold is in sight; 2) visual reference is established and can be maintained; 3) obstacle clearance can be kept and a landing made. Correct:",
+"o": [
+"1, 2",
+"1, 2, 3",
+"2, 3"
+],
+"a": 2
+},
+{
+"n": 81,
+"q": "On an offset entry into an omnidirectional racetrack procedure, time on the 30° offset track is limited to:",
+"o": [
+"1 min 30 s",
+"2 min",
+"1 min"
+],
+"a": 0
+},
+{
+"n": 82,
+"q": "A descent or climb in a holding pattern during an approach is a:",
+"o": [
+"Procedure turn",
+"Base turn",
+"Shuttle"
+],
+"a": 2
+},
+{
+"n": 83,
+"q": "The phases of a missed approach are:",
+"o": [
+"Arrival, initial, intermediate, final",
+"Initial, intermediate and final",
+"Initial and final"
+],
+"a": 1
+},
+{
+"n": 84,
+"q": "For a precision approach OCA, obstacle height is referenced to:",
+"o": [
+"MSL",
+"The threshold",
+"The highest obstacle within 25 NM"
+],
+"a": 1
+},
+{
+"n": 85,
+"q": "The design gradient for a departure (procedure design gradient) is:",
+"o": [
+"2.5%",
+"2.8%",
+"3.3%"
+],
+"a": 2
+},
+{
+"n": 86,
+"q": "The ILS glide path is normally intercepted between:",
+"o": [
+"3 and 7 NM",
+"3 and 10 NM",
+"5 and 10 NM"
+],
+"a": 1
+},
+{
+"n": 87,
+"q": "DA/DH is based on:",
+"o": [
+"OCA/H from the highest obstacle in the final approach only, plus a go-around height-loss margin",
+"OCA/H from the highest obstacle in the missed approach only, plus a height-loss allowance",
+"OCA/H from the highest obstacle in the approach or missed approach, with speed and height-loss allowances, plus an operational margin"
+],
+"a": 2
+},
+{
+"n": 89,
+"q": "Who establishes aerodrome operating minima for instrument approaches?",
+"o": [
+"The authority of the State of the Operator",
+"The operator",
+"The authority of the State of the aerodrome"
+],
+"a": 1
+},
+{
+"n": 90,
+"q": "The primary area of the intermediate approach segment is:",
+"o": [
+"3/4 of the total width",
+"1/2 of the total width",
+"10 NM either side of the track"
+],
+"a": 1
+},
+{
+"n": 91,
+"q": "Entry into a holding pattern by sector is based on:",
+"o": [
+"Course",
+"Track",
+"Heading"
+],
+"a": 2
+},
+{
+"n": 92,
+"q": "The zone of flexibility either side of the holding entry sector boundaries is:",
+"o": [
+"5°",
+"20°",
+"10°"
+],
+"a": 0
+},
+{
+"n": 93,
+"q": "The outbound time in a holding pattern above FL140 is:",
+"o": [
+"2 min",
+"1 min",
+"1 min 30 s"
+],
+"a": 2
+},
+{
+"n": 94,
+"q": "In a holding pattern all turns are made at:",
+"o": [
+"3°/s or 25° bank, whichever needs less bank",
+"3°/s",
+"3°/s or 20° bank, whichever needs less bank"
+],
+"a": 0
+},
+{
+"n": 95,
+"q": "In a standard holding pattern turns are made:",
+"o": [
+"To the left",
+"To the right",
+"Depending on the wind"
+],
+"a": 1
+},
+{
+"n": 96,
+"q": "The rate of turn in a holding pattern is:",
+"o": [
+"15° bank maximum",
+"3° per second",
+"5° per second"
+],
+"a": 1
+},
+{
+"n": 97,
+"q": "What obstacle clearance is guaranteed 5 NM beyond the edge of the holding area?",
+"o": [
+"Nil",
+"100 m",
+"300 m"
+],
+"a": 0,
+"ex": "The buffer area extends 5 NM beyond the holding area; clearance tapers to nil at its outer edge."
+},
+{
+"n": 98,
+"q": "An expected approach time is given:",
+"o": [
+"When an aircraft is told to hold",
+"After 20 minutes of holding",
+"On all flights"
+],
+"a": 0
+},
+{
+"n": 99,
+"q": "Asked to hold at a non-standard fix (e.g. en route), your turns are:",
+"o": [
+"At the pilot's discretion",
+"Right",
+"Left"
+],
+"a": 1
+},
+{
+"n": 100,
+"q": "Standard airway holding below 14,000 ft:",
+"o": [
+"Right turns, 1.5 min outbound",
+"Left turns, 1 min outbound",
+"Right turns, 1 min outbound"
+],
+"a": 2
+},
+{
+"n": 102,
+"q": "The purpose of the VSS is:",
+"o": [
+"Visual Safety Surface: to identify obstacles that may affect an instrument approach (except circling)",
+"Visual Segment Surface: to identify obstacles that may affect an instrument approach (except circling)",
+"Visual Safety Surface: to identify obstacles that may affect an instrument approach (including circling)"
+],
+"a": 1
+}
+]
+}

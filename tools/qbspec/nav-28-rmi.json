@@ -1,0 +1,277 @@
+{
+ "id": "nav-28-rmi",
+ "title": "VOR / RMI / ADF Related Questions",
+ "src": "R.K. Bali — Air Navigation, Part III Ch 5. Worked examples (Q2, 4, 7, 10, 11, 13, 19–22) turned into choices with the book's working as the answer; others keyed from the printed grid, PDF p. 262",
+ "text": "nav",
+ "start": 15170,
+ "end": 15455,
+ "key": "aaaabcabbaaaacbcbaaaaaaacccbcbbab",
+ "fix": {
+  "3": {
+   "o": [
+    "TO and fly left 4 dots",
+    "TO and fly right 4 dots",
+    "FROM and fly left 4 dots"
+   ],
+   "q": "An aircraft is on a bearing of 263° (M) from a VOR station and the OBI is set to 091°. The deviation indicator will show:"
+  },
+  "4": {
+   "o": [
+    "165°",
+    "195°",
+    "045°"
+   ],
+   "q": "On a true bearing of 230° from the station, heading 240° (M), mean variation 5° E. What does the ADF (co-located NDB) show?"
+  },
+  "5": {
+   "o": [
+    "left with FROM showing",
+    "left with TO showing",
+    "right with TO showing"
+   ],
+   "q": "An aircraft is on radial 120 with a magnetic heading of 300°; the OBS reads 330. The CDI shows \"fly\":"
+  },
+  "6": {
+   "o": [
+    "085",
+    "095",
+    "275"
+   ],
+   "q": "The OBI of a VOR is set to 090°. The TO/FROM indicator shows TO and the CDI needle is deflected halfway to the right. On what radial is the aircraft?"
+  },
+  "8": {
+   "o": [
+    "FROM, and CDI 2 dots fly right",
+    "TO, and CDI 2 dots fly right",
+    "FROM, and CDI 2 dots fly left"
+   ],
+   "q": "Flying from VOR A to VOR B on track 120°. Half-way, with the CDI showing 2 dots fly right, the pilot selects VOR B. The new indication will be:"
+  },
+  "9": {
+   "o": [
+    "48 min, 080°",
+    "8 min, 260°",
+    "16 min, 280°"
+   ],
+   "q": "Inbound on radial 090°, the pilot rotates the OBS 10° to the left, turns the aircraft 10° right and notes the time. Holding a constant heading, the CDI centres in 8 min. In nil wind, the time and final heading to the station will be:"
+  },
+  "14": {
+   "o": [
+    "The True heading",
+    "The relative heading",
+    "The magnetic heading"
+   ]
+  },
+  "15": {
+   "o": [
+    "NDB: aircraft position, VOR: aircraft position",
+    "NDB: aircraft position, VOR: beacon position",
+    "NDB: beacon position, VOR: aircraft position"
+   ],
+   "q": "An RMI shows aircraft heading. To convert the RMI bearings of NDBs and VORs to true bearings, the variation to apply is:"
+  },
+  "16": {
+   "o": [
+    "090; 090 with needle central and FROM indicated",
+    "000; 000 with needle central and TO indicated",
+    "000; 000 with needle central and FROM indicated"
+   ],
+   "q": "If you correctly tune a VOT situated to your east, your RMI should read … and your OBS would read …"
+  },
+  "17": {
+   "o": [
+    "Radial unknown, relative bearing 045°",
+    "Radial 135°, relative bearing unknown",
+    "Radial 315°, relative bearing unknown"
+   ],
+   "q": "An RMI slaved to a remote-indicating compass has failed and is locked at 090°. The tail of the VOR pointer shows 135°. The available information from the VOR is:"
+  },
+  "18": {
+   "o": [
+    "Draw a diagram to show the position of the aircraft, the VOR and NDB",
+    "Draw a diagram to show the appearance of an RMI on which both VOR and ADF bearing information is shown. VOR Drift 17° 220° R MH 337° NDB QDM 197°"
+   ]
+  },
+  "23": {
+   "o": [
+    "From",
+    "Left",
+    "Reverse",
+    "Right e) QDM = 090°, QDR = 270°, QTE = 255, QUJ = 075° QDM → QUI and QDR → QTE Use Var 15° W at VOR station"
+   ]
+  },
+  "24": {
+   "o": [
+    "229° / 049° (M)",
+    "049° / 229° (M)",
+    "049° / 229° (T)"
+   ],
+   "q": "A VOR is tuned. With 049° on the OBS the deviation bar centres with TO showing. The aircraft's radial and heading to the station are:"
+  },
+  "25": {
+   "o": [
+    "030°",
+    "270°",
+    "090°"
+   ],
+   "q": "Heading 230° (M), RBI shows 040°. What is the magnetic bearing of the aircraft from the NDB (variation 5° W at the aircraft, 6° W at the NDB)?"
+  },
+  "26": {
+   "o": [
+    "2.5 NM",
+    "3.0 NM",
+    "3.5 NM"
+   ],
+   "q": "The VOR system is limited to about 1° of accuracy. One degree at 200 NM represents a width of:"
+  },
+  "27": {
+   "o": [
+    "not much",
+    "proportional to sine heading times the signal strength",
+    "maximum"
+   ],
+   "q": "Heading 225° (M), ADF/RMI reading 090°. The quadrantal error of this bearing is:"
+  },
+  "28": {
+   "o": [
+    "001° relative",
+    "015° relative",
+    "011° relative"
+   ]
+  },
+  "29": {
+   "o": [
+    "NE",
+    "SW",
+    "NW"
+   ],
+   "q": "Heading 270° (M), OBS also 270°, full left deflection and FROM flag. In which sector from the VOR is the aircraft?"
+  },
+  "30": {
+   "o": [
+    "290°",
+    "110°",
+    "180°"
+   ]
+  },
+  "31": {
+   "o": [
+    "236°, normal",
+    "056°, reverse",
+    "064°, reverse"
+   ],
+   "q": "On radial 240°, heading 230°, CDI 2 dots fly right, TO showing. What OBS is set, and what type of sensing?"
+  },
+  "32": {
+   "o": [
+    "From/ fly right",
+    "To/ fly right",
+    "To/ fly left"
+   ]
+  },
+  "33": {
+   "o": [
+    "Port",
+    "Starboard",
+    "Not drifted"
+   ]
+  },
+  "2": {
+   "q": "Flying towards the station on heading 330°, ADF showing 350°, CDI 2 dots fly left (5-dot), FROM showing. Which radial is the aircraft on?",
+   "o": [
+    "140°",
+    "320°",
+    "136°"
+   ]
+  },
+  "7": {
+   "q": "Flying towards the station on heading 210° with 10° starboard drift; CDI 2 dots fly left, FROM showing. What does the RBI (co-located NDB) show?",
+   "o": [
+    "010°",
+    "350°",
+    "190°"
+   ]
+  },
+  "10": {
+   "q": "Homing to the station on heading 045° (M) with 10° starboard drift; VOR and NDB co-located. What does the ADF show?",
+   "o": [
+    "010°",
+    "350°",
+    "055°"
+   ]
+  },
+  "11": {
+   "q": "Flying away from the station with 10° starboard drift on true heading 300°, variation 5° E; VOR and NDB co-located. What does the ADF show?",
+   "o": [
+    "170°",
+    "190°",
+    "010°"
+   ]
+  },
+  "13": {
+   "q": "ADF 170°, heading 030° (M), TO showing, CDI 2 dots fly right, DME 120 NM. How far is the aircraft off the selected track (2° per dot)?",
+   "o": [
+    "4 NM",
+    "8 NM",
+    "12 NM"
+   ],
+   "a": "b"
+  },
+  "19": {
+   "q": "Heading 180° T, variation 7° E. The ADF shows 200° relative; NDB and VOR co-located. What does the RMI show?",
+   "o": [
+    "013°",
+    "020°",
+    "193°"
+   ]
+  },
+  "20": {
+   "q": "Homing to the station on heading 315° T, variation 5° W. The RMI shows 090°. What does the ADF (co-located NDB) show?",
+   "o": [
+    "130°",
+    "135°",
+    "230°"
+   ]
+  },
+  "21": {
+   "q": "Heading 041° (M), 17.5 NM from a VOR, on magnetic bearing 215° from it; VOR and NDB co-located. What is the relative bearing?",
+   "o": [
+    "354°",
+    "006°",
+    "174°"
+   ]
+  },
+  "22": {
+   "q": "The RMI shows 170° and the heading is 030° (M). What does the ADF read?",
+   "o": [
+    "140°",
+    "200°",
+    "320°"
+   ]
+  }
+ },
+ "drop": [
+  1,
+  12,
+  18,
+  23
+ ],
+ "ex": {
+  "2": "MBT = 330 + 350 − 360 = 320, so the aircraft is on the 140 radial (the book's OBS works out to 136, reverse sensing).",
+  "4": "QDM = 230 − 5 − 180 = 045 (M); RB = 045 − 240 + 360 = 165.",
+  "7": "MBT = 210 + 10 = 220; RB = 220 − 210 = 010.",
+  "9": "Turn 10° off and rotate the OBS 10°: an isosceles triangle, so the time to the station equals the time flown, 8 min; heading to the station 260°.",
+  "10": "QDM = 045 + 10 = 055; RB = 055 − 045 = 010.",
+  "11": "MH = 300 − 5 = 295; track out 305, QDM 125; RB = 125 − 295 + 360 = 190.",
+  "13": "2 dots × 2° = 4°; 1 in 60: 4/60 × 120 = 8 NM.",
+  "19": "MH = 180 − 7 = 173; QDM = 173 + 200 − 360 = 013.",
+  "20": "MH = 315 + 5 = 320; RB = 090 − 320 + 360 = 130.",
+  "21": "QDM = 215 − 180 = 035; RB = 035 − 041 + 360 = 354.",
+  "22": "RB = QDM − heading = 170 − 030 = 140.",
+  "25": "QDM = 230 + 040 = 270, so the bearing from the NDB is 090.",
+  "27": "RB = 090 − 225 + 360 = 225: a quadrantal bearing, so the error is at its maximum.",
+  "28": "8° drift + (5 × 60 / 42 ≈ 7°) = 015° relative.",
+  "30": "RB = 200 − 090 = 110.",
+  "33": "The QDM falls from 060 to 057 while the heading stays 055: the station moves left, so the aircraft is drifting right (starboard)."
+ }
+}

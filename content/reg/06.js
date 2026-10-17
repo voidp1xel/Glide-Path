@@ -70,7 +70,7 @@ module.exports = {
         { label: 'Leader ≥ 20 kt faster', v: 5, show: '5 min', tip: 'Same aerodrome, same exact significant point, or departing aircraft joining behind an en-route one.' },
         { label: 'Leader ≥ 40 kt faster', v: 3, show: '3 min', tip: 'Same conditions as for 5 minutes, with 40 kt (74 km/h) TAS difference.' },
       ] },
-    { id: 'time-matrix', short: 'All time minima', takeaway: 'The basic time minimum is 15 minutes, 10 with frequent fixes, 5 or 3 with a 20 or 40 kt faster leader. Reciprocal tracks need vertical separation 10 minutes either side of passing.', type: 'matrix', icon: 'grid', ask: 'Every time-based minimum', revise: true, dgca: true,
+    { id: 'time-matrix', hook: 'Fifteen, ten, five, three.', short: 'All time minima', takeaway: 'The basic time minimum is 15 minutes, 10 with frequent fixes, 5 or 3 with a 20 or 40 kt faster leader. Reciprocal tracks need vertical separation 10 minutes either side of passing.', type: 'matrix', icon: 'grid', ask: 'Every time-based minimum', revise: true, dgca: true,
       corner: 'Situation', cols: ['15 min', '10 min', '5 min', '3 min'],
       rows: [
         { label: 'Same level, same track', cells: ['basic', 'frequent fixes', 'leader +20 kt, common point', 'leader +40 kt, common point'] },
@@ -105,7 +105,7 @@ module.exports = {
         { title: 'Always', icon: 'check', points: ['**Direct controller–pilot VHF voice** maintained', 'All distances from the **same DME station**', 'Simultaneous readings checked at frequent intervals'] },
         { title: 'GNSS', icon: 'sat', points: ['Controller specifically asks for **GNSS distance** from RNAV aircraft', 'Integrated nav system with GNSS input = GNSS distance', 'Pilot may be unable: equipment, no GNSS input, loss of integrity'] },
       ] },
-    { id: 'radar', short: 'Radar in India', takeaway: 'In India radar separation is 5 NM, reduced to 3 NM at Delhi, Mumbai, Bengaluru, Kolkata and Shamshabad.', part: 'Radar and Mach number', type: 'pairs', icon: 'signal', ask: 'Radar minima in India', dgca: true,
+    { id: 'radar', hook: 'Five miles, three at the big five.', short: 'Radar in India', takeaway: 'In India radar separation is 5 NM, reduced to 3 NM at Delhi, Mumbai, Bengaluru, Kolkata and Shamshabad.', part: 'Radar and Mach number', type: 'pairs', icon: 'signal', ask: 'Radar minima in India', dgca: true,
       pairs: [
         { a: { label: '5 NM', body: 'Radar, ADS-B or MLAT separation **within surveillance coverage**.' }, b: { label: '3 NM', body: 'Where authorised at **Delhi, Mumbai, Bengaluru, Kolkata and Shamshabad** radars.' }, rule: 'ADS-B/MLAT with radar = radar minima; MLAT alone = as notified.' },
       ] },

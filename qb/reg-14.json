@@ -1,0 +1,319 @@
+{
+"title": "National Law",
+"src": "Bali AR Ch 14",
+"qs": [
+{
+"n": 1,
+"q": "A pilot may fly an aircraft not yet entered in the rating of their licence, to qualify for its endorsement:",
+"o": [
+"Within 5 NM of an aerodrome",
+"Within the local flying area of the aerodrome",
+"Anywhere"
+],
+"a": 1
+},
+{
+"n": 2,
+"q": "Public transport and aerial work aircraft must be flown by:",
+"o": [
+"PPL, CPL or ATPL holders",
+"CPL or ATPL holders",
+"ATPL holders only"
+],
+"a": 1
+},
+{
+"n": 3,
+"q": "Refuelling must stop if a jet aircraft's exhaust comes within:",
+"o": [
+"15 m",
+"30 m",
+"43 m"
+],
+"a": 2
+},
+{
+"n": 4,
+"q": "The Mathura refinery is a:",
+"o": [
+"Danger area",
+"Restricted area",
+"Prohibited area"
+],
+"a": 2
+},
+{
+"n": 5,
+"q": "A passenger who visited a yellow-fever area in the previous six days has no valid yellow-fever certificate. The action is:",
+"o": [
+"Referral to a designated quarantine facility by the Airport Health Organisation",
+"The immigration officer hands them to the District Health Officer",
+"DGCA orders an inquiry against the airline"
+],
+"a": 0
+},
+{
+"n": 6,
+"q": "Prisoners may be carried on an aircraft with the permission of:",
+"o": [
+"DGCA",
+"The aerodrome controller",
+"The Director General of Prisons"
+],
+"a": 0
+},
+{
+"n": 7,
+"q": "Smoking on a private aircraft is permitted:",
+"o": [
+"If the owner does not object",
+"Only if the certificate of airworthiness permits it",
+"Without restriction if no passengers are carried"
+],
+"a": 1
+},
+{
+"n": 8,
+"q": "An aircraft without registration marks may fly only:",
+"o": [
+"If the sale deed is not complete",
+"For a test flight before purchase",
+"If specially permitted in writing by the Central Government"
+],
+"a": 2
+},
+{
+"n": 9,
+"q": "An operating crew member shall not have taken alcohol within:",
+"o": [
+"6 h before the flight",
+"12 h before the flight",
+"24 h before the flight"
+],
+"a": 1
+},
+{
+"n": 10,
+"q": "Photography at an aerodrome needs prior written permission from:",
+"o": [
+"The aerodrome officer",
+"DGCA",
+"The Central Government"
+],
+"a": 1
+},
+{
+"n": 11,
+"q": "During refuelling, no naked light may come within:",
+"o": [
+"35 m",
+"30 m",
+"100 m"
+],
+"a": 1
+},
+{
+"n": 12,
+"q": "A pilot flying low for safety in thunder showers can be sued by:",
+"o": [
+"The State Government",
+"Nobody: they cannot be sued",
+"The owner of the property overflown"
+],
+"a": 1,
+"ex": "No action for trespass or nuisance lies for flight at a height reasonable in the circumstances."
+},
+{
+"n": 13,
+"q": "Human remains may be brought into India:",
+"o": [
+"Subject to public-health clearance of dead bodies/human remains",
+"Only as ashes in a sealed urn after cremation",
+"Only on a cargo or charter aircraft"
+],
+"a": 0
+},
+{
+"n": 15,
+"q": "The minimum crew of a private aircraft is:",
+"o": [
+"One pilot",
+"Two pilots",
+"As specified in the certificate of airworthiness"
+],
+"a": 2
+},
+{
+"n": 17,
+"q": "Dropping paper leaflets needs the permission of:",
+"o": [
+"The aerodrome",
+"The District Magistrate",
+"The operator"
+],
+"a": 1
+},
+{
+"n": 19,
+"q": "The Aircraft Rules, 1937:",
+"o": [
+"Apply to all unmanned aircraft systems",
+"Apply only to unmanned systems over 500 kg, except defence",
+"Do not apply to unmanned aircraft systems except where the rules specifically say so"
+],
+"a": 2
+},
+{
+"n": 20,
+"q": "An aircraft carrying cargo for remuneration is a:",
+"o": [
+"Private aircraft",
+"Aerial work aircraft",
+"Public transport aircraft"
+],
+"a": 2
+},
+{
+"n": 21,
+"q": "The PIC of a public transport aircraft for each flight is designated by:",
+"o": [
+"The operator",
+"DGCA",
+"The flying contract unit"
+],
+"a": 0
+},
+{
+"n": 23,
+"q": "The number of cabin crew required depends on:",
+"o": [
+"The number of passengers, excluding crew",
+"The number of persons on board, including crew",
+"The number of seats"
+],
+"a": 2
+},
+{
+"n": 24,
+"q": "The succession of command is given in:",
+"o": [
+"The Operations Manual",
+"A directive from the operator",
+"A directive from DGCA"
+],
+"a": 0
+},
+{
+"n": 25,
+"q": "An international flight from India may depart:",
+"o": [
+"From any aerodrome in India",
+"From any major aerodrome in India",
+"Only from a customs aerodrome"
+],
+"a": 2
+},
+{
+"n": 26,
+"q": "The PIC of an aeroplane shall:",
+"o": [
+"Be responsible for the safe conduct of navigation",
+"Be responsible for the safe conduct of the flight at all times",
+"Both of these"
+],
+"a": 2
+},
+{
+"n": 27,
+"q": "How many cabin crew must an aircraft with 150 seats carry?",
+"o": [
+"2",
+"3",
+"4"
+],
+"a": 1,
+"ex": "One per 50 seats or part: 51–100 seats 2, 101–150 seats 3."
+},
+{
+"n": 28,
+"q": "Each flight crew member's log book is certified for correctness by the competent authority:",
+"o": [
+"At the end of each month",
+"At the end of every quarter",
+"Half-yearly, ending June and December"
+],
+"a": 1
+},
+{
+"n": 29,
+"q": "A passenger falls sick and is suspected of an infectious disease. The PIC should:",
+"o": [
+"Land immediately",
+"Inform the health officer at the destination aerodrome",
+"Inform DGCA"
+],
+"a": 1,
+"ex": "The commander sends a health report at least 2 hours before landing."
+},
+{
+"n": 31,
+"q": "A person who breaks the Aircraft Act or its rules:",
+"o": [
+"May have their licence, certificate or approval suspended or cancelled",
+"May be arrested and refused bail",
+"May be imprisoned up to one year or fined ₹1 crore instead"
+],
+"a": 0
+},
+{
+"n": 32,
+"q": "Only essential persons may be within ___ of an aircraft being refuelled.",
+"o": [
+"15 m",
+"30 m",
+"50 m"
+],
+"a": 0
+},
+{
+"n": 33,
+"q": "A pilot's log book is preserved for:",
+"o": [
+"5 years from the date it was started",
+"5 years from the date of the last entry",
+"3 years from the date of the last entry"
+],
+"a": 1
+},
+{
+"n": 34,
+"q": "The medical for a CPL holder (under 60) is valid for:",
+"o": [
+"2 years",
+"1 year",
+"1 year only if under 40"
+],
+"a": 1
+},
+{
+"n": 35,
+"q": "The Operations Manual is:",
+"o": [
+"Prepared by the operator and approved by DGCA",
+"Prepared by DGCA and approved by the operator",
+"Prepared by the operator and approved by the manufacturer"
+],
+"a": 0
+},
+{
+"n": 37,
+"q": "Packaging and marking of dangerous goods for air transport must:",
+"o": [
+"Follow the Chicago Convention 1944",
+"Meet the ICAO Technical Instructions",
+"Have airport security clearance"
+],
+"a": 1
+}
+]
+}

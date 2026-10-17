@@ -328,7 +328,7 @@
     const trails = sv('g', { class: 'fltrails' });
     const plane = sv('g', { class: 'flplane', opacity: 0 }, sv('path', { d: PLANE, transform: `scale(${sc})` }));
     svg.append(trails, plane);
-    let i = -1, token = 0;
+    let i = -1, token = 0, flybox = null;
     const chips = el('div', { class: 'flchips' });
     const chipEls = d.steps.map((s, k) => { const b = el('button', { type: 'button', onclick: () => go(k, true) }, el('b', null, k + 1), s.label); chips.append(b); return b; });
     const back = el('button', { class: 'btn ghost', type: 'button', onclick: () => go(i - 1, false) }, icon('left'), 'Back');
@@ -351,6 +351,10 @@
       const a = p.getPointAtLength(L), b = p.getPointAtLength(Math.min(len, L + 1)), b0 = p.getPointAtLength(Math.max(0, L - 1));
       const ang = Math.atan2(b.y - b0.y, b.x - b0.x) * 180 / Math.PI;
       plane.setAttribute('transform', `translate(${a.x} ${a.y}) rotate(${ang})`); plane.setAttribute('opacity', 1);
+      if (flybox && flybox.scrollWidth > flybox.clientWidth + 4) { // phones: keep the plane in view
+        const px = (a.x - v.x) / v.width * svg.clientWidth, want = px - flybox.clientWidth / 2;
+        if (Math.abs(flybox.scrollLeft - want) > 2) flybox.scrollLeft = want;
+      }
     }
     function staticTo(k) {
       trails.replaceChildren(); plane.setAttribute('opacity', 0);
@@ -362,6 +366,7 @@
       const on = visibleAt(k), prev = visibleAt(k - 1);
       keyed.forEach(g => { const kk = g.getAttribute('data-k'); g.classList.toggle('off', !on.has(kk)); g.classList.toggle('new', on.has(kk) && !prev.has(kk)); });
       chipEls.forEach((b, j) => { b.classList.toggle('on', j === k); b.classList.toggle('past', j < k); });
+      if (chips.scrollWidth > chips.clientWidth + 4) chips.scrollLeft = chipEls[k].offsetLeft - chips.offsetLeft - 12;
       back.disabled = k <= 0; next.disabled = k >= d.steps.length - 1;
       const s = d.steps[k];
       ctx.info((k + 1) + '. ' + s.label, s.tip || '', s.quote, { icon: s.role === 'alert' ? 'alert' : 'plane', tone: s.role === 'alert' ? 'bad' : null });
@@ -403,7 +408,8 @@
         if (token !== me) return;
       }
     }
-    st.append(el('div', { class: 'flybox' }, svg), chips, el('div', { class: 'row', style: { marginTop: '12px' } }, back, playAll, replay, next));
+    flybox = el('div', { class: 'flybox' }, svg);
+    st.append(flybox, chips, el('div', { class: 'row', style: { marginTop: '12px' } }, back, playAll, replay, next));
     if (d.caption) st.append(el('p', { class: 'figcap' }, rich(d.caption)));
     keyed.forEach(g => g.classList.toggle('off', !(d.base || []).includes(g.getAttribute('data-k'))));
     go(0, false);
@@ -441,8 +447,9 @@
       // arrival bearings (from the fix) for a right-hand hold with inbound C: direct C+110..C+290, teardrop C+290..C+360, parallel C..C+110
       const s = S(T), r = 196;
       const b = x => n360(C + s * x);
-      const segs = T === 'R' ? [['direct', b(110), b(290)], ['teardrop', b(290), b(360)], ['parallel', b(0), b(110)]]
-        : [['direct', b(290), b(110)], ['teardrop', b(0), b(70)], ['parallel', b(250), b(360)]];
+      const c = x => n360(C + x); // clockwise sectors of arrival bearing (from the fix)
+      const segs = T === 'R' ? [['direct', c(110), c(290)], ['teardrop', c(290), c(360)], ['parallel', c(0), c(110)]]
+        : [['direct', c(70), c(250)], ['teardrop', c(0), c(70)], ['parallel', c(250), c(360)]];
       gSect.replaceChildren();
       const tone = { direct: 'h1', teardrop: 'h4', parallel: 'h0' };
       segs.forEach(([k, a0, a1]) => {
@@ -462,8 +469,8 @@
       const sw = s > 0 ? 1 : 0;
       gPat.replaceChildren(sv('path', { d: `M${Bs[0]},${Bs[1]} L${F[0]},${F[1]} A${RHO},${RHO} 0 0 ${sw} ${A[0]},${A[1]} L${B[0]},${B[1]} A${RHO},${RHO} 0 0 ${sw} ${Bs[0]},${Bs[1]}`, class: 'hpat' }),
         sv('circle', { cx: CX, cy: CY, r: 7, class: 'hfix' }),
-        sv('text', { x: CX + ux * 16 + rx * -14, y: CY + uy * 16 + ry * -14 + 4, 'text-anchor': 'middle', class: 'hsm' }, 'FIX'),
-        sv('text', { x: (Bs[0] + F[0]) / 2 - rx * 18, y: (Bs[1] + F[1]) / 2 - ry * 18 + 4, 'text-anchor': 'middle', class: 'hsm' }, 'inbound ' + String(Math.round(C) % 360 || 360).padStart(3, '0') + '°'));
+        sv('text', { x: CX + ux * 24 - rx * 30, y: CY + uy * 24 - ry * 30 + 4, 'text-anchor': 'middle', class: 'hsm' }, 'FIX'),
+        sv('text', { x: (Bs[0] + F[0]) / 2 - rx * 62, y: (Bs[1] + F[1]) / 2 - ry * 62 + 4, 'text-anchor': 'middle', class: 'hsm' }, 'inbound ' + String(Math.round(C) % 360 || 360).padStart(3, '0') + '°'));
     }
     function arrival() {
       const B0 = n360(HDG + 180), r = 186; const [bx, by] = [Math.sin(rad(B0)), -Math.cos(rad(B0))];

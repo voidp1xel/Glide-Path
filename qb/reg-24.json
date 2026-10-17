@@ -1,0 +1,210 @@
+{
+"title": "CRM, TEM and LOFT",
+"src": "Bali AR Ch 24",
+"qs": [
+{
+"n": 1,
+"q": "Human errors:",
+"o": [
+"Are now considered as being inherent to the cognitive function of human and can be totally eliminated by CRM training.",
+"Are now considered as being inherent to the cognitive function of human and are generally inescapable.",
+"Are likely to be eliminated in the near future by higher degree of automation."
+],
+"a": 1
+},
+{
+"n": 2,
+"q": "The error in checklist is related to an interface mismatch between:",
+"o": [
+"Liveware - Liveware.",
+"Liveware - Software.",
+"Liveware - Environment."
+],
+"a": 1,
+"ex": "Checklists, manuals and charts are Software."
+},
+{
+"n": 3,
+"q": "CRM training has under mentioned clear aims in terms of specific skills to develop for the purpose of:",
+"o": [
+"Error avoidance, threat management, system management and undesired aircraft state management.",
+"Error avoidance, threat management, error management and environment management.",
+"Error avoidance, threat management, error management and undesired aircraft state management."
+],
+"a": 2
+},
+{
+"n": 4,
+"q": "A congested cockpit restricting movement is an interface mismatch between:",
+"o": [
+"Liveware - Software.",
+"Liveware - Environment.",
+"Liveware - Hardware."
+],
+"a": 2,
+"ex": "Workspace layout is Hardware."
+},
+{
+"n": 5,
+"q": "High noise level in a cockpit is a mismatch between:",
+"o": [
+"Liveware - Liveware.",
+"Liveware - Environment.",
+"Liveware - Hardware."
+],
+"a": 1
+},
+{
+"n": 7,
+"q": "A disturbance of the biological rhythm is a mismatch between:",
+"o": [
+"Liveware - Hardware.",
+"Liveware - Software.",
+"Liveware - Environment."
+],
+"a": 2,
+"ex": "Time of day and time zones are part of the Environment."
+},
+{
+"n": 8,
+"q": "The main consideration in modern airline operations should be:",
+"o": [
+"Efficient utilisation of resources.",
+"Maximum utilisation of resources.",
+"Safety."
+],
+"a": 2
+},
+{
+"n": 9,
+"q": "The elements of the SHEL model are:",
+"o": [
+"Software, hardware, electronics and liveware.",
+"Shareware, hardware, education and limitations.",
+"Software, hardware, environment and liveware."
+],
+"a": 2
+},
+{
+"n": 10,
+"q": "Which is true regarding the interaction between various elements of the SHEL model?",
+"o": [
+"All components of the SHEL model are equally important, as conflict and error can arise from the various mismatches.",
+"The hardware is the hub for interactions between the different components of the system, hence other components should be matched to design most suitable hardware.",
+"The liveware is the hub of the SHEL model; therefore, the nonhuman components should be adapted and matched to this central component."
+],
+"a": 2
+},
+{
+"n": 11,
+"q": "CRM and LOFT training are designed to improve:",
+"o": [
+"The quality number of individuals performance.",
+"Individual performance in adverse conditions.",
+"The quality of crew performance."
+],
+"a": 2
+},
+{
+"n": 12,
+"q": "Four important disciplines from which information is drawn in understanding human performance and behavior are:",
+"o": [
+"Psychology, engineering, physiology, and anthropometry.",
+"Sociology, mathematics, biology and industrial design.",
+"Physics, biochemistry, physiology, and anthropometry."
+],
+"a": 0
+},
+{
+"n": 13,
+"q": "Pilots have now become responsible for the management of hardware and software interfaces, through which they are required to direct the operation of the aircraft. These technological advances have:",
+"o": [
+"Significantly eliminated human errors.",
+"Given rise to new forms of error.",
+"Are aimed to eliminate pilots from the cockpit."
+],
+"a": 1
+},
+{
+"n": 14,
+"q": "About what proportion of civil air accidents result from inadequate human performance?",
+"o": [
+"89%",
+"73%",
+"57%"
+],
+"a": 1
+},
+{
+"n": 15,
+"q": "What is meant by the trans authority gradient?",
+"o": [
+"It is the authority exercised by the captain over all flight operations.",
+"It is the authority relationship between captain and other crew members.",
+"It is the authority relationship between captain and first officer."
+],
+"a": 2
+},
+{
+"n": 16,
+"q": "Introducing Automation in a cockpit:",
+"o": [
+"Always reduces potential for human error and workload.",
+"Generally relocates potential for error and increases workload.",
+"Eliminates human error but work load increases."
+],
+"a": 1
+},
+{
+"n": 17,
+"q": "High arousal overload results in:",
+"o": [
+"A real danger of attention becoming narrowed.",
+"Attention becoming sharpest.",
+"An optimum arousal for more difficult or intellectual (cognitive) tasks."
+],
+"a": 0
+},
+{
+"n": 18,
+"q": "A pilot suffering from a mild head ache before flight can:",
+"o": [
+"Take Over The Counter medicines from the chemist and fly.",
+"Take Over The Counter medicines from the first aid box in the aircraft and fly.",
+"Should take medicines prescribed by an aviation medicine specialist and take his advise for flying."
+],
+"a": 2
+},
+{
+"n": 19,
+"q": "Categories of errors defined by TEM are:",
+"o": [
+"Intentional non-compliance error, Procedural error, Communication error, Proficiency error and Operational decision error.",
+"Intentional non-compliance error, Procedural error, Communication error, Proficiency error and vigilance error.",
+"Instrument error, Procedural error, Communication error, Proficiency error and vigilance error."
+],
+"a": 0
+},
+{
+"n": 20,
+"q": "Operational threats outside the control of the flight crew are:",
+"o": [
+"Adverse weather, terrain, airport conditions, heavy traffic/TCAS events, unfamiliar airports etc.",
+"Time pressure, irregular operations, flight diversions, missed approaches etc.",
+"Aircraft malfunctions, automation events etc."
+],
+"a": 1,
+"ex": "Option A lists environmental threats and C aircraft threats; operational threats are time pressure, diversions, missed approaches."
+},
+{
+"n": 21,
+"q": "What airplane equipment marked a substantial decrease in hull loss rates in the eighties?",
+"o": [
+"GPWS",
+"TCAS",
+"SSR"
+],
+"a": 0
+}
+]
+}

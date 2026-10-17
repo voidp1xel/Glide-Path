@@ -1,0 +1,758 @@
+{
+"title": "Air Traffic Services",
+"src": "Bali AR Ch 5",
+"qs": [
+{
+"n": 1,
+"q": "The lower limit of a control area is at least how high above ground or water?",
+"o": [
+"150 m",
+"200 m",
+"300 m"
+],
+"a": 1
+},
+{
+"n": 2,
+"q": "Approach control service is ATC service:",
+"o": [
+"For arriving and departing controlled flights",
+"For arriving and departing IFR flights only",
+"For IFR traffic within a control zone"
+],
+"a": 0
+},
+{
+"n": 3,
+"q": "The units providing air traffic services are:",
+"o": [
+"ACC, advisory centre, FIC, approach control office and tower",
+"ACC, FIC, approach control office, aerodrome control tower and ATS reporting office",
+"ACC, approach control office and tower only"
+],
+"a": 1
+},
+{
+"n": 4,
+"q": "Air traffic control service is provided to:",
+"o": [
+"Avoid collisions between all aircraft and keep traffic orderly",
+"Prevent collisions between aircraft, and between aircraft and obstructions on the manoeuvring area, and expedite and maintain an orderly flow of traffic",
+"Prevent collisions between controlled traffic and keep it orderly"
+],
+"a": 1
+},
+{
+"n": 5,
+"q": "To fly VFR in class E airspace:",
+"o": [
+"A clearance and/or two-way radio is required",
+"A clearance is required",
+"Two-way radio communication is not required"
+],
+"a": 2
+},
+{
+"n": 6,
+"q": "Which statement is correct?",
+"o": [
+"The lower limit of a UIR may coincide with an IFR cruising level",
+"The lower limit of a TMA is at least 700 ft (200 m) above ground",
+"The upper limit of a CTR is at least 3,000 ft AMSL"
+],
+"a": 1
+},
+{
+"n": 7,
+"q": "The speed limit (IAS) in class E airspace is:",
+"o": [
+"250 kt for VFR and IFR at all levels",
+"250 kt for IFR and VFR below FL100 (10,000 ft)",
+"250 kt for IFR only below FL100"
+],
+"a": 1
+},
+{
+"n": 8,
+"q": "The speed limit for IFR flights in class C below 3,050 m (10,000 ft) AMSL is:",
+"o": [
+"250 kt IAS",
+"Not applicable",
+"250 kt TAS"
+],
+"a": 0
+},
+{
+"n": 9,
+"q": "RCP 10 means:",
+"o": [
+"10 seconds for an instruction to reach the aircraft and the acknowledgement to return",
+"10 minutes maximum for an aircraft to carry out an instruction",
+"The aircraft must contact ATC every 10 minutes"
+],
+"a": 0
+},
+{
+"n": 10,
+"q": "Airspace where IFR and VFR are allowed, all flights get ATC and all are separated from each other, is class:",
+"o": [
+"C",
+"B",
+"D"
+],
+"a": 1
+},
+{
+"n": 11,
+"q": "The speed limit for IFR and VFR flights in class B below 10,000 ft AMSL is:",
+"o": [
+"260 kt IAS",
+"Not applicable",
+"250 kt IAS"
+],
+"a": 1
+},
+{
+"n": 12,
+"q": "ATS unit clocks are checked to be correct to within:",
+"o": [
+"±1 minute of UTC",
+"±15 seconds of UTC",
+"±30 seconds of UTC"
+],
+"a": 2
+},
+{
+"n": 14,
+"q": "The VMC minima for VFR in class B (book) are:",
+"o": [
+"8 km visibility at or above 3,050 m (10,000 ft) AMSL, clear of cloud",
+"8 km at or above 10,000 ft, 1,500 m horizontal and 300 m vertical from cloud",
+"5 NM below 10,000 ft, 1,500 m and 300 m from cloud"
+],
+"a": 0
+},
+{
+"n": 15,
+"q": "VFR in class B must keep (book):",
+"o": [
+"5 km visibility, 1,500 m horizontal and 300 m vertical from cloud",
+"8 km below 10,000 ft, 1,500 m and 300 m from cloud",
+"5 km below 3,050 m (10,000 ft) AMSL, clear of cloud"
+],
+"a": 2
+},
+{
+"n": 16,
+"q": "Airspace where all flights get ATC, IFR are separated from IFR and VFR, and VFR are separated from IFR and get traffic information on other VFR, is class:",
+"o": [
+"B",
+"E",
+"C"
+],
+"a": 2
+},
+{
+"n": 17,
+"q": "What makes an aerodrome \"controlled\"?",
+"o": [
+"It has a control tower",
+"It is in a CTR and has a control tower",
+"It is in a CTR"
+],
+"a": 0
+},
+{
+"n": 18,
+"q": "Airspace where all flights get ATC, IFR are separated from IFR and get traffic information on VFR, and VFR get traffic information on all others, is class:",
+"o": [
+"B",
+"D",
+"A"
+],
+"a": 1
+},
+{
+"n": 19,
+"q": "Airspace where IFR and VFR are allowed, IFR get ATC and are separated from other IFR, and all flights get traffic information as far as practical, is class:",
+"o": [
+"D",
+"A",
+"E"
+],
+"a": 2
+},
+{
+"n": 20,
+"q": "Airspace where participating IFR flights get air traffic advisory service and all flights get FIS on request is class:",
+"o": [
+"F",
+"E",
+"D"
+],
+"a": 0
+},
+{
+"n": 21,
+"q": "Which statement about approach control is correct?",
+"o": [
+"Operators must be told of departure delays over 45 minutes",
+"On a visual approach the aircraft keeps its own separation",
+"If holding is expected to last 30 minutes or more, an EAT is sent by the quickest means"
+],
+"a": 2
+},
+{
+"n": 22,
+"q": "Which statement about aerodrome control is correct?",
+"o": [
+"An aircraft entering the circuit without permission will be cleared to land if desirable",
+"The aerodrome controller cannot suspend VFR operations",
+"ATC permission is needed to take a vehicle onto the apron"
+],
+"a": 2
+},
+{
+"n": 23,
+"q": "In the route designator UA1Y, \"U\" means:",
+"o": [
+"Upper",
+"Unidirectional",
+"Uniform"
+],
+"a": 0
+},
+{
+"n": 25,
+"q": "Flight information service is given to all aircraft likely to be affected that are:",
+"o": [
+"Receiving ATC service or otherwise known to the ATS units",
+"Known by a filed flight plan",
+"Receiving ATC service only"
+],
+"a": 0
+},
+{
+"n": 26,
+"q": "Alerting service is provided:",
+"o": [
+"To all controlled flights, to aircraft subject to unlawful interference, and as far as practicable to all aircraft with a flight plan or otherwise known to ATS",
+"Only to aircraft receiving ATC service",
+"Only to aircraft subject to unlawful interference"
+],
+"a": 0
+},
+{
+"n": 27,
+"q": "The speed limit for IFR flights in class E below 10,000 ft AMSL is:",
+"o": [
+"250 kt TAS",
+"250 kt IAS",
+"Not applicable"
+],
+"a": 1
+},
+{
+"n": 28,
+"q": "\"Air traffic services unit\" means:",
+"o": [
+"ATC units and ATS reporting offices",
+"FICs and ATS reporting offices",
+"ATC units, flight information centres or ATS reporting offices"
+],
+"a": 2
+},
+{
+"n": 29,
+"q": "A controlled airspace extending upwards from a specified limit above the earth is a:",
+"o": [
+"Advisory airspace",
+"Control area",
+"Flight information region"
+],
+"a": 1
+},
+{
+"n": 30,
+"q": "The location indicator for Tirupati aerodrome is:",
+"o": [
+"VATP",
+"VOTP",
+"VITP"
+],
+"a": 1,
+"ex": "\"VO\" is the Chennai FIR."
+},
+{
+"n": 31,
+"q": "Aerodrome traffic is:",
+"o": [
+"All traffic on the manoeuvring area and all aircraft flying in the vicinity",
+"All traffic in the circuit",
+"All traffic on the manoeuvring area"
+],
+"a": 0
+},
+{
+"n": 32,
+"q": "Which Annex contains the SARPs for air traffic services?",
+"o": [
+"Annex 6",
+"Annex 14",
+"Annex 11"
+],
+"a": 2
+},
+{
+"n": 33,
+"q": "Information from a met watch office on en-route weather that may affect low-level flights and was not in the low-level forecast is:",
+"o": [
+"An en-route met report",
+"A NOTAM",
+"AIRMET information"
+],
+"a": 2
+},
+{
+"n": 34,
+"q": "An aerodrome flight information service (AFIS):",
+"o": [
+"Supplies ATC services but is not a State body",
+"Supplies limited services and never ATC",
+"Has ATC's privileges but works irregularly"
+],
+"a": 1
+},
+{
+"n": 35,
+"q": "Air traffic control service is provided to:",
+"o": [
+"IFR flights in classes A–F",
+"All VFR flights in classes B–E",
+"All aerodrome traffic at controlled aerodromes"
+],
+"a": 2
+},
+{
+"n": 36,
+"q": "In an FIR these services are provided:",
+"o": [
+"Flight information and alerting",
+"Flight information and advisory",
+"Flight information, alerting and advisory"
+],
+"a": 0
+},
+{
+"n": 37,
+"q": "A control area (CTA) is:",
+"o": [
+"Controlled airspace extending upwards from a specified limit above the earth",
+"Controlled airspace from the surface to a specified limit",
+"Controlled airspace upwards from 900 ft"
+],
+"a": 0
+},
+{
+"n": 38,
+"q": "Without a notified ATZ, an aerodrome's local flying area is:",
+"o": [
+"Within 5 NM of the ARP up to 3,000 ft",
+"Within 25 NM up to 10,000 ft",
+"Within 10 NM up to 5,000 ft"
+],
+"a": 0
+},
+{
+"n": 39,
+"q": "An ATC unit:",
+"o": [
+"May ask an aircraft to change its call sign temporarily when similar call signs may be confused",
+"May not ask for a call sign change after accepting the flight plan",
+"Must never ask for a call sign change"
+],
+"a": 0
+},
+{
+"n": 40,
+"q": "RNP types are prescribed:",
+"o": [
+"By regional air navigation agreements",
+"By States, not based on regional agreements",
+"By States on the basis of regional air navigation agreements"
+],
+"a": 2
+},
+{
+"n": 41,
+"q": "A control zone extends laterally at least:",
+"o": [
+"10 miles from the aerodrome centre in the directions of approach",
+"5 NM from the aerodrome centre in the directions of approach",
+"20 miles from the aerodrome centre"
+],
+"a": 1
+},
+{
+"n": 42,
+"q": "G245ZF is a designator for:",
+"o": [
+"A SID",
+"A STAR",
+"An ATS route"
+],
+"a": 2
+},
+{
+"n": 43,
+"q": "Airspace where IFR and VFR are allowed and get flight information service on request is class:",
+"o": [
+"G",
+"E",
+"C"
+],
+"a": 0
+},
+{
+"n": 44,
+"q": "RNP 4 means a navigation accuracy of:",
+"o": [
+"±4 NM on a 95% containment basis",
+"±4 NM on a 98% basis",
+"±4 NM on a 90% basis"
+],
+"a": 0
+},
+{
+"n": 45,
+"q": "Area control centres issue clearances to:",
+"o": [
+"Separate IFR flights",
+"Separate controlled flights",
+"Provide flight information"
+],
+"a": 1
+},
+{
+"n": 46,
+"q": "ATC issues clearances to:",
+"o": [
+"Separate controlled flights",
+"Provide alerting service",
+"Provide advisory service"
+],
+"a": 0
+},
+{
+"n": 47,
+"q": "Your IFR clearance says \"clearance expires at 0920\". It means:",
+"o": [
+"If not airborne by 0920 you need a new clearance",
+"Take-off clearance is expected at 0920",
+"After 0920 return to the ramp and refile"
+],
+"a": 0
+},
+{
+"n": 48,
+"q": "ATIS:",
+"o": [
+"May only be broadcast on a discrete VHF frequency",
+"Shall not be broadcast on the voice channel of an ILS",
+"Shall not be broadcast on a VOR voice channel"
+],
+"a": 1
+},
+{
+"n": 49,
+"q": "Preparing and disseminating the ATIS message is the responsibility of:",
+"o": [
+"ATS and the met office together",
+"The met office",
+"Air traffic services"
+],
+"a": 2
+},
+{
+"n": 50,
+"q": "ATIS is updated:",
+"o": [
+"As the met office prescribes",
+"Immediately a significant change occurs",
+"As the State prescribes"
+],
+"a": 1
+},
+{
+"n": 51,
+"q": "An ATIS message should, where practicable, not exceed:",
+"o": [
+"30 seconds",
+"1 minute",
+"2 minutes"
+],
+"a": 0
+},
+{
+"n": 52,
+"q": "Arrival and departure ATIS includes cloud below:",
+"o": [
+"900 m (3,000 ft) or the highest MSA, whichever is greater",
+"600 m (2,000 ft) or the highest MSA, whichever is greater",
+"1,500 m (5,000 ft) or the highest MSA, whichever is greater"
+],
+"a": 2
+},
+{
+"n": 54,
+"q": "FIS covering collision hazards is given in airspace classes:",
+"o": [
+"F and G only",
+"C, D, E, F and G",
+"A to G"
+],
+"a": 1
+},
+{
+"n": 55,
+"q": "A CTR extends laterally at least ___ NM from the aerodrome centre in the directions of approach.",
+"o": [
+"25",
+"10",
+"5"
+],
+"a": 2
+},
+{
+"n": 56,
+"q": "\"Distress\" differs from \"urgency\" because in distress:",
+"o": [
+"The aeroplane is damaged and unfit to fly",
+"There is grave and imminent danger requiring immediate assistance",
+"The aeroplane cannot reach a suitable aerodrome"
+],
+"a": 1
+},
+{
+"n": 57,
+"q": "Alerting service is provided by:",
+"o": [
+"Area control centres",
+"The ATS unit responsible for the aircraft at that time",
+"ATC units only"
+],
+"a": 1
+},
+{
+"n": 58,
+"q": "The emergency phases are:",
+"o": [
+"Uncertainty, distress, urgency",
+"Uncertainty, alert, distress",
+"Uncertainty, urgency, distress"
+],
+"a": 1
+},
+{
+"n": 59,
+"q": "When an aircraft is in difficulty, declaring the alert phase is the responsibility of:",
+"o": [
+"Rescue coordination centres",
+"Control centres only",
+"ATC units and flight information centres"
+],
+"a": 2
+},
+{
+"n": 60,
+"q": "What flights are allowed in class A airspace?",
+"o": [
+"IFR only",
+"IFR and VFR",
+"IFR and special VFR"
+],
+"a": 0
+},
+{
+"n": 61,
+"q": "The alert phase is:",
+"o": [
+"A situation where apprehension exists as to the safety of an aircraft and its occupants",
+"An event in which an aircraft is threatened by danger",
+"A situation where an aircraft is in a state of emergency"
+],
+"a": 0
+},
+{
+"n": 62,
+"q": "Apprehension exists as to the safety of an aircraft. This phase is:",
+"o": [
+"ALERFA",
+"INCERFA",
+"DETRESFA"
+],
+"a": 0
+},
+{
+"n": 63,
+"q": "Which is a distress signal?",
+"o": [
+"PAN PAN spoken by radiotelephony",
+"A parachute flare showing a red light",
+"Repeatedly switching navigation lights on and off"
+],
+"a": 1
+},
+{
+"n": 64,
+"q": "An aircraft is in distress when:",
+"o": [
+"It is threatened by grave danger",
+"It is threatened by grave and imminent danger and requires immediate assistance",
+"It is forced to land"
+],
+"a": 1
+},
+{
+"n": 65,
+"q": "The emergency phases in order are:",
+"o": [
+"INCERFA, ALERTFA, DISTRESFA",
+"INCERFA, ALERFA, DETRESFA",
+"ALERTFA, DISTRESFA, RESCUEFA"
+],
+"a": 1
+},
+{
+"n": 66,
+"q": "Which describes the alert phase (ALERFA)?",
+"o": [
+"An aircraft is 30 minutes late against its last notified ETA",
+"An aircraft says its fuel won't reach safety",
+"An aircraft cleared to land fails to land within 5 minutes of its ETA and contact is not re-established"
+],
+"a": 2
+},
+{
+"n": 67,
+"q": "DETRESFA applies when:",
+"o": [
+"An aircraft fails to land within 5 minutes of landing clearance",
+"All of these",
+"The fuel on board is considered exhausted"
+],
+"a": 2
+},
+{
+"n": 68,
+"q": "RSP 180 indicates:",
+"o": [
+"Seconds for a pilot to receive surveillance instructions",
+"Seconds for surveillance data to pass between the flight crew HMI and the controller HMI",
+"NM between two waypoints in RSP airspace"
+],
+"a": 1
+},
+{
+"n": 69,
+"q": "A strayed aircraft is one that:",
+"o": [
+"Has deviated significantly from its intended track or reports that it is lost",
+"Is seen in an area but not identified",
+"Has deviated significantly from track only"
+],
+"a": 0
+},
+{
+"n": 70,
+"q": "Having filed to one destination and landed at another, you notify ATC:",
+"o": [
+"Within 60 minutes after landing",
+"Within 30 minutes after landing",
+"Within 30 minutes of your ETA at the original destination"
+],
+"a": 1
+},
+{
+"n": 71,
+"q": "Designated airspace within controlled airspace in India is class:",
+"o": [
+"C",
+"D",
+"C and D"
+],
+"a": 2
+},
+{
+"n": 72,
+"q": "TSA801(A) is airspace temporarily segregated and allocated in the:",
+"o": [
+"Delhi FIR",
+"Chennai FIR",
+"It is an RNAV route"
+],
+"a": 1,
+"ex": "TSA/TRA numbers: Mumbai 501–600, Kolkata 601–700, Delhi 701–800, Chennai 801–900."
+},
+{
+"n": 73,
+"q": "A temporary reserved area (TRA) is airspace through which other traffic:",
+"o": [
+"May transit in VMC only",
+"May not transit without proper equipment",
+"May transit under ATC clearance"
+],
+"a": 2
+},
+{
+"n": 74,
+"q": "The MFA published in the AIP gives at least 1,000 ft clearance from obstacles within ___ of the centre line.",
+"o": [
+"10 km",
+"10 NM",
+"20 NM"
+],
+"a": 0
+},
+{
+"n": 75,
+"q": "Class C airspace in India extends from:",
+"o": [
+"Ground to FL150",
+"4,000 ft to FL285",
+"FL150 to FL290"
+],
+"a": 1
+},
+{
+"n": 76,
+"q": "After rain the controller reports the runway WET. This means:",
+"o": [
+"The surface is soaked but there is no standing water",
+"No standing water deeper than 3 cm on a third of the runway",
+"The runway is closed and you should divert"
+],
+"a": 0
+},
+{
+"n": 77,
+"q": "In the Indian AIP, ENR 3.1 lists ATS routes described as:",
+"o": [
+"Lower ATS routes",
+"Conventional navigation routes",
+"RNP routes"
+],
+"a": 1
+},
+{
+"n": 78,
+"q": "In the Indian AIP, ENR 3.2 lists ATS routes described as:",
+"o": [
+"Upper ATS routes",
+"Area navigation routes",
+"Non-RNP routes"
+],
+"a": 1
+}
+]
+}

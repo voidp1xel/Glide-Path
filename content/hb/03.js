@@ -2,6 +2,7 @@ module.exports = {
   n: 3, title: 'Stalls, Spins and Upsets', tag: 'Critical AoA · stall speed factors · deep stall · autorotation · pitch-up · spin moments · UPRT', icon: 'alert', hue: 2, partOfBook: 'Part 2 · Aerodynamics',
   big: 'Why a wing stalls and how designers make it stall politely; everything that raises or lowers the stalling speed; deep, shock and super stalls; how a wing drop turns into autorotation and a spin; and the recovery sequences for spins and upsets.',
   purpose: 'Stall-speed factor questions (√W, √n, bank angle multipliers, flaps, CG, ice) are near-certain, as are deep stall (swept wing + T-tail), autorotation, swept-wing pitch-up and the spin recovery order.',
+  bankLead: 'The Handbook prints no question bank, so these are original questions written for Glidepath from the book’s facts — not the book’s own questions. Your answers are saved.',
   lessons: [
     { id: 'map', type: 'mindmap', short: 'Mind map', icon: 'brain', ask: 'The whole chapter on one page',
       root: { label: 'Stall and spin', children: [
@@ -14,7 +15,7 @@ module.exports = {
         { label: 'Recovery', children: [{ label: 'Rudder, pause, stick fwd' }, { label: 'UPRT: 25° / 10° / 45°' }] },
       ] } },
 
-    { id: 'what', part: 'The stall', type: 'bullets', icon: 'alert', ask: 'What exactly is a stall?', dgca: true,
+    { id: 'what', short: 'What a stall is', part: 'The stall', type: 'bullets', icon: 'alert', ask: 'What exactly is a stall?', dgca: true,
       takeaway: 'A stall is boundary-layer separation: the separation point creeps forward as AoA rises until, past the critical angle, the flow breaks down. It always happens at the same critical AoA whatever the speed, weight or attitude; lift does not vanish, it just becomes too little.',
       hook: 'Speed doesn\'t stall a wing; angle does.',
       groups: [
@@ -23,7 +24,7 @@ module.exports = {
         { title: 'Symptoms', icon: 'pulse', points: ['**Buffet**: wake hitting the tailplane', 'Flaps may reduce buffet (more downwash over tail)', 'Normal wing: CP moves **back**', 'Swept wing: CP stays **forward**'] },
         { title: 'Certification', icon: 'shield', points: ['No abnormal pitch-up', 'Un-reversed roll and yaw control', 'Stall roll ≤ **20°**', 'Warning ≥ **5 kt or 5% CAS** before the stall'] },
       ] },
-    { id: 'tame', type: 'classify', icon: 'grid', ask: 'Gentle or abrupt stall?',
+    { id: 'tame', short: 'Gentle or abrupt stall', takeaway: 'Large leading-edge radius, washout, stall strips, vortex generators and rectangular planforms make the root stall first and gently; sharp edges, thin sections, sweep and high taper bring abrupt or tip-first stalls.', type: 'classify', icon: 'grid', ask: 'Gentle or abrupt stall?',
       buckets: [{ id: 'g', label: 'Gentler stall / root first' }, { id: 'a', label: 'More abrupt or tip first' }],
       items: [
         { text: 'Large leading-edge radius', bucket: 'g' }, { text: 'Washout towards the tip', bucket: 'g', why: 'The root reaches the critical angle first and the ailerons keep working.' },
@@ -33,19 +34,19 @@ module.exports = {
         { text: 'Sweepback', bucket: 'a', why: 'Spanwise BL flow thickens at the tips: tip stall.' }, { text: 'High taper', bucket: 'a' },
       ] },
 
-    { id: 'vs-eq', part: 'Stalling speed', type: 'formulas', icon: 'calc', ask: 'How much does the stall speed rise?', revise: true, dgca: true,
+    { id: 'vs-eq', hook: 'Stall speed goes with the square root.', short: 'Stall-speed sums', takeaway: 'Stall speed varies with the square root of weight and of load factor: 20% heavier is 10% faster, 4 g doubles it, and a 60° bank raises it by 41%.', part: 'Stalling speed', type: 'formulas', icon: 'calc', ask: 'How much does the stall speed rise?', revise: true, dgca: true,
       items: [
         { name: 'Basic stall speed', eq: 'V<sub>s</sub> = √( W ÷ (C<sub>Lmax</sub> ½ ρ S) )', note: 'Clean, stated weight, power off, straight and level.' },
         { name: 'New weight', eq: 'V<sub>s2</sub> = V<sub>s1</sub> × √(W₂ ÷ W₁)', note: '20% heavier → about 10% faster.', calc: { inputs: [{ k: 'v', label: 'Vs (kt)', v: 100 }, { k: 'a', label: 'Old weight', v: 50000 }, { k: 'b', label: 'New weight', v: 60000 }], f: 'v*Math.sqrt(b/a)', unit: 'kt' } },
         { name: 'Load factor', eq: 'V<sub>s</sub> in manoeuvre = V<sub>s</sub> × √n', note: '4 g → 2 × Vs.', calc: { inputs: [{ k: 'v', label: 'Vs (kt)', v: 100 }, { k: 'n', label: 'Load factor n', v: 4 }], f: 'v*Math.sqrt(n)', unit: 'kt' } },
         { name: 'Bank angle', eq: 'V<sub>s</sub> in turn = V<sub>s</sub> × √(1 ÷ cos φ)', note: '30° ×1.07 · 45° ×1.2 · 60° ×1.4 · 75° ×2.', calc: { inputs: [{ k: 'v', label: 'Vs (kt)', v: 100 }, { k: 'b', label: 'Bank (°)', v: 60 }], f: 'v/Math.sqrt(Math.cos(b*Math.PI/180))', unit: 'kt' } },
       ] },
-    { id: 'bank-chart', type: 'chart', icon: 'pulse', ask: 'Why are steep turns near the ground dangerous?', dgca: true,
+    { id: 'bank-chart', short: 'Bank and stall speed', type: 'chart', icon: 'pulse', ask: 'Why are steep turns near the ground dangerous?', dgca: true,
       takeaway: 'In a level turn the wing must carry 1/cos φ times the weight, so the stall speed rises by √(1/cos φ): only 7% at 30°, 20% at 45°, 40% at 60° and doubles at 75°.',
       hook: '30, 45, 60, 75 → 1.07, 1.2, 1.4, 2.',
       xlab: 'angle of bank (°)', ylab: 'Vs multiplier', xmin: 0, xmax: 80, ymin: 1, ymax: 2.4, xticks: [0, 15, 30, 45, 60, 75], yticks: [1, 1.5, 2],
       series: [{ label: 'Vs × √(1/cos φ)', pts: Array.from({ length: 41 }, (_, i) => { const b = i * 2; return [b, 1 / Math.sqrt(Math.cos(b * Math.PI / 180))]; }), dots: [[30, 1.07, '×1.07'], [45, 1.19, '×1.2'], [60, 1.41, '×1.4'], [75, 1.97, '×2']], labelAt: 30 }] },
-    { id: 'vs-factors', type: 'stamp', icon: 'check', ask: 'Does the stalling IAS go up or down?', tier: 'exam',
+    { id: 'vs-factors', short: 'Up or down?', takeaway: 'Flaps, power and slipstream lower the stalling IAS; forward CG, ice, frost, high Mach and load factor raise it; climbing alone leaves the stalling IAS unchanged.', type: 'stamp', icon: 'check', ask: 'Does the stalling IAS go up or down?', tier: 'exam',
       stamps: [{ id: 'up', label: 'Vs higher' }, { id: 'dn', label: 'Vs lower' }, { id: 'same', label: 'No change' }],
       cases: [
         { text: 'Trailing-edge flaps extended.', answer: 'dn', why: 'Higher CLmax.' },
@@ -57,7 +58,7 @@ module.exports = {
         { text: 'Landing gear lowered.', answer: 'up', why: 'Book: extra tail down-force.' },
         { text: 'Pulling 2 g.', answer: 'up', why: 'Vs × √2 = 1.41 ×.' },
       ] },
-    { id: 'vs-table', type: 'matrix', icon: 'list', ask: 'Stall-speed factors on one card', revise: true, dgca: true,
+    { id: 'vs-table', hook: 'Heavy, loaded or forward CG: stall faster. Flaps and power: slower.', short: 'Stall-speed table', takeaway: 'Weight and load factor act through a square root; flaps, power and slipstream lower Vs; forward CG, contamination and compressibility raise it.', type: 'matrix', icon: 'list', ask: 'Stall-speed factors on one card', revise: true, dgca: true,
       corner: 'Factor', cols: ['Effect on Vs', 'Why'],
       rows: [
         { label: 'Weight +20%', cells: [{ v: '+10%', key: true }, 'Vs ∝ √W'] },
@@ -72,10 +73,10 @@ module.exports = {
         { label: 'Forward sweep', cells: ['higher', '—'] },
       ] },
 
-    { id: 'deep', part: 'Nasty stalls', type: 'svg', fig: 'deep-stall', icon: 'alert', ask: 'Why can a T-tail jet get stuck in a stall?', dgca: true,
+    { id: 'deep', short: 'Deep stall', part: 'Nasty stalls', type: 'svg', fig: 'deep-stall', icon: 'alert', ask: 'Why can a T-tail jet get stuck in a stall?', dgca: true,
       takeaway: 'A swept wing keeps its CP forward at the stall, so the nose pitches up. A high T-tail then sits in the wing\'s turbulent wake and the elevator loses its bite; the rising descent rate increases the AoA further. A stick pusher prevents the aircraft ever getting there.',
       hook: 'Swept + T = stuck; push before you\'re stuck.' },
-    { id: 'types', type: 'matrix', icon: 'grid', ask: 'Deep, shock or super stall?', revise: true,
+    { id: 'types', short: 'Deep, shock, super stall', takeaway: 'Deep stall traps swept-wing T-tail aircraft; shock stall comes from separation behind a shock near M 0.82; super stall afflicts low-aspect-ratio deltas at very high angles.', type: 'matrix', icon: 'grid', ask: 'Deep, shock or super stall?', revise: true,
       corner: 'Stall', cols: ['Cause', 'Key fact'],
       rows: [
         { label: 'Deep stall', cells: ['Swept wing (CP stays forward) + **T-tail** in the wake', { v: 'Elevator ineffective; stick pusher', key: true }] },
@@ -83,20 +84,20 @@ module.exports = {
         { label: 'Super stall', cells: ['Low-AR (delta) wing, huge drag at high AoA', { v: 'stall AoA up to 40°; nose high, sinking', key: true }] },
         { label: 'Normal stall recovery', cells: ['—', 'Nose down, full thrust, then stabilise'] },
       ] },
-    { id: 'autorot', part: 'When a wing drops', type: 'svg', fig: 'autorotation', icon: 'rotate', ask: 'Why does a dropped wing keep dropping?', dgca: true,
+    { id: 'autorot', short: 'Autorotation', part: 'When a wing drops', type: 'svg', fig: 'autorotation', icon: 'rotate', ask: 'Why does a dropped wing keep dropping?', dgca: true,
       takeaway: 'Rolling adds AoA to the down-going wing and removes it from the rising wing. Past the stall, more AoA means less lift and more drag, so the low wing loses lift (keeps rolling) and gains drag (yaws the same way). Roll and yaw together are the start of a spin, which is why aileron is the wrong way to lift a wing at the stall.',
       hook: 'Past the peak, down means weaker and draggier.' },
-    { id: 'pitchup', type: 'bullets', icon: 'plane', ask: 'Swept wings: tip stall and pitch-up', dgca: true,
+    { id: 'pitchup', hook: 'Tips stall first, nose pitches up.', short: 'Tip stall and pitch-up', takeaway: 'Swept tips stall first because the boundary layer drifts outboard; losing their lift moves the CP forward and increases tail downwash, so the nose pitches up. Fences, vortex generators, saw-tooth leading edges and vortilons help.', type: 'bullets', icon: 'plane', ask: 'Swept wings: tip stall and pitch-up', dgca: true,
       groups: [
         { title: 'Why the tips go first', icon: 'wind', points: ['Spanwise BL flow piles up and thickens at the tips', 'High taper and sweep', 'Ailerons lose effect; one tip first → violent roll'] },
         { title: 'Why the nose rises', icon: 'alert', points: ['Tips are **aft**: losing them moves the **CP forward**', 'Lift moves inboard → **more downwash** on the tail', 'Flexure washes out the tips under load', 'It snowballs: more AoA, more tip stall'] },
         { title: 'Cures', icon: 'check', points: ['**BL fences**', '**Vortex generators**', '**Saw-tooth LE extension**', '**Vortilons** and pylons under the LE', 'Tail in line with or below the wing'] },
       ] },
 
-    { id: 'spin', part: 'Spin', type: 'svg', fig: 'spin-helix', icon: 'refresh', ask: 'What keeps a spinning aircraft going round?', dgca: true,
+    { id: 'spin', short: 'The spin', part: 'Spin', type: 'svg', fig: 'spin-helix', icon: 'refresh', ask: 'What keeps a spinning aircraft going round?', dgca: true,
       takeaway: 'A spin needs a stall plus yaw: both wings stalled, one more than the other. The aircraft corkscrews down a helix (tan θ = p ÷ c) with lift supplying the centripetal force and drag roughly balancing weight. After about two turns the aerodynamic and inertial moments balance and it settles.',
       hook: 'No stall, no spin.' },
-    { id: 'moments', type: 'matrix', icon: 'scale', ask: 'Which moments help the spin?', revise: true, tier: 'exam',
+    { id: 'moments', short: 'Spin moments', takeaway: 'Aerodynamic roll is pro-spin while aerodynamic pitch and yaw are anti-spin; inertial pitch is pro-spin. Out-spin rudder and forward stick provide the recovery moments.', type: 'matrix', icon: 'scale', ask: 'Which moments help the spin?', revise: true, tier: 'exam',
       corner: 'Moment', cols: ['Aerodynamic', 'Inertial'],
       rows: [
         { label: 'Roll (L, p)', cells: [{ v: 'Pro-spin', key: true }, 'Anti: (B − C) q r'] },
@@ -104,12 +105,12 @@ module.exports = {
         { label: 'Yaw (N, r)', cells: ['Anti-spin', 'Pro or anti: (A − B) p q'] },
       ],
       note: 'Aerodynamic roll is pro-spin (autorotation, outer wing faster, in-spin aileron). Out-spin rudder and down elevator are anti-spin.' },
-    { id: 'attitude', type: 'pairs', icon: 'rotate', ask: 'Erect vs inverted; nose-up vs nose-down',
+    { id: 'attitude', short: 'Erect vs inverted', takeaway: 'In an erect spin roll and yaw go the same way; in an inverted spin they oppose. A flatter, nose-high spin descends more slowly but rotates faster and is harder to recover.', type: 'pairs', icon: 'rotate', ask: 'Erect vs inverted; nose-up vs nose-down',
       pairs: [
         { a: { label: 'Erect spin', body: 'Roll and yaw the **same way**. Oscillatory at first, steady after ~**2 turns**. Rudder partly **shielded** by the tailplane.' }, b: { label: 'Inverted spin', body: 'Roll and yaw in **opposite senses**. Same flight path and moments otherwise; **responds better to rudder** (not shielded). Same recovery.' }, rule: 'Same recovery actions for both.' },
         { a: { label: 'Nose pitched up (higher AoA)', body: 'More CD → **slower descent**; less CL → **smaller radius**; **faster rotation**.' }, b: { label: 'Helix angle', body: '**tan θ = p ÷ c**: p = height lost per turn, c = radius of the turn. Wing tilt angle is positive with the **outer wing up**.' }, rule: 'A flatter, faster spin is harder to recover.' },
       ] },
-    { id: 'recover', type: 'sequence', icon: 'check', ask: 'Spin recovery, step by step', dgca: true,
+    { id: 'recover', short: 'Spin recovery', type: 'sequence', icon: 'check', ask: 'Spin recovery, step by step', dgca: true,
       takeaway: 'Throttle closed and ailerons neutral, full opposite rudder, a pause for the rudder to bite, then stick progressively forward to unstall the wings. The spin may briefly tighten as the stick goes forward; keep going.',
       hook: 'Power off, ailerons neutral, Rudder, Pause, Push.',
       steps: [
@@ -119,7 +120,7 @@ module.exports = {
         { label: 'Stick forward', sub: 'progressively, centrally', tip: 'Unstalls the wings. Less pitch rate q cuts the anti-spin inertial roll and yaw moments, so the spin can tighten at first.' },
         { label: 'Rotation stops', sub: 'centralise, recover dive', tip: 'Wings unstalled, rotation stops: rudder central and ease out of the dive.' },
       ] },
-    { id: 'uprt', part: 'Upsets', type: 'bullets', icon: 'gauge', ask: 'UPRT: what is an upset and how do you recover?', dgca: true,
+    { id: 'uprt', short: 'Upset recovery', part: 'Upsets', type: 'bullets', icon: 'gauge', ask: 'UPRT: what is an upset and how do you recover?', dgca: true,
       takeaway: 'An upset is pitch more than 25° up or 10° down, bank beyond 45°, or a speed inappropriate for the conditions. Recognise it on the ADI, confirm with ASI, VSI and altimeter, then: energy state, autopilot and autothrottle off, speed brakes in, recover as the manufacturer says.',
       hook: '25 up, 10 down, 45 over.',
       groups: [
@@ -127,9 +128,9 @@ module.exports = {
         { title: 'Recognise', icon: 'eye', points: ['Bank and pitch on the **ADI**', 'Nose low: speed ↑, altitude ↓, VSI descent', 'Nose high: speed ↓, altitude ↑, VSI climb'] },
         { title: 'Recover', icon: 'check', points: ['Assess the **energy state**', 'Disconnect **AP and A/T**', 'Retract **speed brakes**', 'Flight and engine inputs per manufacturer/operator'] },
       ] },
-    { id: 'numbers', part: 'Numbers', type: 'numbers', icon: 'hash', ask: 'Numbers to know',
+    { id: 'numbers', short: 'Numbers', part: 'Numbers', type: 'numbers', icon: 'hash', ask: 'Numbers to know',
       items: [{ k: 'Stall warning margin', v: '5 kt or 5%', note: 'CAS' }, { k: 'Max roll at the stall', v: '20°' }, { k: 'Weight +20%', v: 'Vs +10%' }, { k: '4 g', v: '2 × Vs' }, { k: 'Bank 30° / 45°', v: '×1.07 / ×1.2' }, { k: 'Bank 60° / 75°', v: '×1.4 / ×2' }, { k: 'Ice or snow', v: 'Vs +30%', note: 'lift −30%, drag +40%' }, { k: 'Frost', v: 'Vs +15%' }, { k: 'Compressibility felt above', v: '≈ 20,000 ft' }, { k: 'Shock stall', v: '≈ M 0.82' }, { k: 'Delta super-stall AoA', v: 'up to 40°' }, { k: 'Spin settles after', v: '≈ 2 turns' }, { k: 'Upset pitch', v: '> 25° up · > 10° down' }, { k: 'Upset bank', v: '> 45°' }] },
-    { id: 'quiz', type: 'quiz', icon: 'check', ask: 'Quick check',
+    { id: 'quiz', short: 'Quick check', type: 'quiz', icon: 'check', ask: 'Quick check',
       questions: [
         { q: 'An aircraft always stalls at the same:', options: ['IAS', 'TAS', 'Angle of attack', 'Attitude'], answer: 2 },
         { q: 'Stall speed in a 60° level turn compared with wings level:', options: ['×1.07', '×1.2', '×1.41', '×2'], answer: 2 },

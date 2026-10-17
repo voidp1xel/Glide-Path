@@ -1,0 +1,368 @@
+{
+"title": "VOR",
+"src": "R.K. Bali — Air Navigation, Part III Ch 4 (key read from the printed answer grid, PDF p. 256; Q2–3 are worked examples turned into choices)",
+"qs": [
+{
+"n": 1,
+"q": "Which of the following would not trigger the warning flag on VOR indicators?",
+"o": [
+"Site error becoming greater than 1°",
+"Standby station coming online.",
+"Ground monitor failure."
+],
+"a": 0
+},
+{
+"n": 2,
+"q": "An aircraft at 40 000 ft; the VOR elevation is 900 ft. Up to what range can the VOR signal be received?",
+"o": [
+"250 NM",
+"288 NM",
+"200 NM"
+],
+"a": 1,
+"ex": "1.25 (√40 000 + √900) = 1.25 (200 + 30) ≈ 288 NM."
+},
+{
+"n": 3,
+"q": "An aircraft at FL400; the VOR is at MSL. Maximum reception range?",
+"o": [
+"288 NM",
+"250 NM",
+"200 NM"
+],
+"a": 1,
+"ex": "VOR at MSL: range = 12.5 √FL = 12.5 × 20 = 250 NM."
+},
+{
+"n": 4,
+"q": "What is the minimum level that an aircraft, at a range of 113NM, must fly in order to contact the tower on R/T for a VDF bearing from an airport sited 169ft above MSL?",
+"o": [
+"FL80",
+"FL50",
+"FL60"
+],
+"a": 2
+},
+{
+"n": 5,
+"q": "What is the approximate maximum theoretical range at which an aircraft at FL130 could receive information from a VDF facility which is sited 1024ft above MSL?",
+"o": [
+"180NM",
+"120NM",
+"150NM"
+],
+"a": 0,
+"ex": "1.25 (√13 000 + √1024) = 1.25 (114 + 32) ≈ 182 NM."
+},
+{
+"n": 6,
+"q": "The maximum theoretical range at which an aircraft at FL.80 can obtain bearings from a ground VDF facility sited at 325ft above MSL is:",
+"o": [
+"107NM",
+"114NM",
+"134NM"
+],
+"a": 2
+},
+{
+"n": 7,
+"q": "A VOR receiver check can be made",
+"o": [
+"Any where on the ground",
+"At designated check point on airport surface",
+"Any where in the air/ ground"
+],
+"a": 1
+},
+{
+"n": 8,
+"q": "DVOR works on the principle of",
+"o": [
+"Measuring Doppler frequency shift between fixed and variable signal",
+"Measuring phase difference between fixed and variable signal",
+"Measuring time difference induced by Doppler frequency shift in single signal"
+],
+"a": 1
+},
+{
+"n": 9,
+"q": "If an aircraft flies along a VOR radial it will follow a:",
+"o": [
+"constant magnetic track",
+"great circle track",
+"Rhumb line track"
+],
+"a": 1
+},
+{
+"n": 10,
+"q": "An omni-bearing selector (OBS) shows full deflection to the left when within range of a serviceable VOR. What angular deviation are you from the selected radial?",
+"o": [
+"5° or more",
+"2.5° or more",
+"10° or more"
+],
+"a": 2,
+"ex": "Full-scale deflection on a VOR CDI is 10° (5 dots × 2°)."
+},
+{
+"n": 11,
+"q": "The two signals transmitted by a conventional VOR ground station are 90\" out of phase on magnetic:",
+"o": [
+"north",
+"west",
+"east"
+],
+"a": 2
+},
+{
+"n": 12,
+"q": "The frequency range of a VOR receiver is:",
+"o": [
+"108 to 135.95 MHz",
+"108 to 117.95 MHz",
+"118 to 135.95 MHz"
+],
+"a": 1
+},
+{
+"n": 13,
+"q": "VOR station position N61°E025, variation 13\"E; Estimated position of an aircraft N59°E025°, variation 20°E. What VOR radial is the aircraft on?",
+"o": [
+"167°",
+"347°",
+"160°"
+],
+"a": 0,
+"ex": "The aircraft is due south (180° T). Radials use the variation at the VOR: 180 − 13 E = 167."
+},
+{
+"n": 14,
+"q": "Which of the following statements concerning the variable, or directional, signal of a conventional VOR is correct?",
+"o": [
+"The receiver adds 30Hz to the variable signal before combining it with the reference signal",
+"The transmitter changes the frequency of the variable signal by 30Hz either side of the allocated frequency each time it rotates",
+"The rotation of the variable signal at a rate of 30 times per second gives it the characteristics of a 30Hz amplitude modulation"
+],
+"a": 2
+},
+{
+"n": 15,
+"q": "In which frequency band do VOR transmitters operate?",
+"o": [
+"SHF",
+"UHF",
+"VHF"
+],
+"a": 2
+},
+{
+"n": 16,
+"q": "If the reference phase differs by 30° from the variable phase, the radial from the VOR station will be:",
+"o": [
+"150°",
+"030°",
+"210°"
+],
+"a": 1
+},
+{
+"n": 17,
+"q": "In order to plot a bearing from a VOR station, a pilot needs to know the magnetic variation:",
+"o": [
+"at the half-way point between the aircraft and the station",
+"at the aircraft location",
+"at the VOR"
+],
+"a": 2
+},
+{
+"n": 18,
+"q": "A VOR is sited at position A(45°00'N, 010°00'E). An aircraft is located at position B(44°00'N, 010°00'E). Assuming that the magnetic variation at A is 10°W and at B is 15°W, the aircraft is on VOR radial:",
+"o": [
+"180°",
+"185°",
+"190°"
+],
+"a": 2,
+"ex": "Due south of the VOR: 180° T + 10° W (VOR variation) = 190."
+},
+{
+"n": 19,
+"q": "An aircraft is flying on true track 090° towards a VOR near the equator where the magnetic variation is 15° E. The variation at the aircraft position is 8° E. The aircraft is on VOR radial:",
+"o": [
+"075°",
+"285°",
+"255°"
+],
+"a": 2,
+"ex": "The aircraft is west of the VOR: 270° T − 15° E (VOR variation) = 255."
+},
+{
+"n": 20,
+"q": "The principle used in VOR bearing measurement is:",
+"o": [
+"envelope matching",
+"beat frequency discrimination",
+"phase comparison"
+],
+"a": 2
+},
+{
+"n": 21,
+"q": "Transmissions from VOR facilities may be adversely affected by:",
+"o": [
+"night effect",
+"quadrantal error",
+"uneven propagation over irregular ground surfaces"
+],
+"a": 2
+},
+{
+"n": 22,
+"q": "If VOR bearing information is used beyond the published protection range, errors could be caused by:",
+"o": [
+"interference from other transmitters",
+"noise from precipitation static exceeding the signal strength of the transmitter",
+"sky wave interference from distant transmitters on the same frequency"
+],
+"a": 0
+},
+{
+"n": 23,
+"q": "An airway 10NM wide is to be defined by two VORs each having a resultant bearing accuracy of plus or minus 5.5°. In order to ensure accurate track guidance within the airway limits the maximum distance apart for the transmitter is approximately:",
+"o": [
+"105NM",
+"210NM",
+"50NM"
+],
+"a": 0,
+"ex": "Half-width 5 NM ÷ tan 5.5° ≈ 52 NM from each VOR: about 105 NM apart."
+},
+{
+"n": 24,
+"q": "The VOR system is limited to about 1° of accuracy. One degree at 200NM represents a width of:",
+"o": [
+"2.5NM",
+"3.5NM",
+"2.0NM"
+],
+"a": 1,
+"ex": "1 in 60: 200/60 ≈ 3.5 NM."
+},
+{
+"n": 25,
+"q": "An aircraft is required to approach a VOR via the 104° radial. Which of the following settings should be made on the VOR/ILS deviation indicator?",
+"o": [
+"284° with the FROM flag showing",
+"104° with the FROM flag showing",
+"284° with the TO flag showing"
+],
+"a": 2
+},
+{
+"n": 26,
+"q": "An aircraft on a heading of 280°(M) is on a bearing of 090°(M) from a VOR. The bearing you should select on the OMNI bearing selector to centralise the VOR/ILS left/right deviation needle with a \"TO\" indication is:",
+"o": [
+"280°",
+"270°",
+"090°"
+],
+"a": 1,
+"ex": "Bearing 090° from the VOR means the aircraft is on the 090 radial; to go TO the station select 270."
+},
+{
+"n": 27,
+"q": "An aircraft is required to approach a VOR station via the 244° radial. In order to obtain correct sense indications the deviation indicator should be set to:",
+"o": [
+"244° with the TO flag showing",
+"244° with the FROM flag showing",
+"064° with the TO flag showing"
+],
+"a": 2
+},
+{
+"n": 28,
+"q": "An aircraft is 100NM from a VOR facility. Assuming no error when using a deviation indicator where 1 dot= 2° deviation, how many dots deviation from the center line of the instrument will represent the limits of the airway boundary? (Assume that the airway is 10NM wide.)",
+"o": [
+"6.0",
+"1.5",
+"3.0"
+],
+"a": 1,
+"ex": "5 NM at 100 NM = 3°; at 2° per dot that is 1.5 dots."
+},
+{
+"n": 29,
+"q": "The TO/FROM indicator of a VOR:",
+"o": [
+"Tells whether a track equal to the selected bearing will bring you to or away from the VOR",
+"Tells whether you are now flying towards or from the VOR",
+"Tells whether you should turn the aircraft towards or away from the CDI indication"
+],
+"a": 0
+},
+{
+"n": 30,
+"q": "An aircraft is tracking inbound to a VOR beacon on the 105 radial. The setting the pilot should put on the OBS and the CDI indications are:",
+"o": [
+"105, TO",
+"285, FROM",
+"285, TO"
+],
+"a": 2
+},
+{
+"n": 31,
+"q": "The principle advantage of Doppler VOR is that:",
+"o": [
+"a readout of range as well as bearing is obtained",
+"transmitter frequency instability is minimised",
+"site errors are considerably reduced"
+],
+"a": 2
+},
+{
+"n": 32,
+"q": "When a maximum range and altitude is published for a VOR?",
+"o": [
+"The terrain will cause bends and/or scalloping on the VOR signal and make it inaccurate outside standards in the airspace outside the published airspace",
+"The reception from this VOR is guaranteed free from harmful interference from other VORs when you are within this airspace",
+"The signal from the VOR will be too weak to provide information when you are outside this airspace"
+],
+"a": 1
+},
+{
+"n": 33,
+"q": "An aircraft is over flying a VOR at 30,000 ft, at a groundspeed of 300 kt. The maximum time during which no usable signals will be received (in minutes and seconds) is:",
+"o": [
+"1:40",
+"2.25",
+"0.50"
+],
+"a": 1
+},
+{
+"n": 34,
+"q": "During maintenance, malfunction or testing the identification signal of a VOR transmitter is (i) by (ii) or (iii).",
+"o": [
+"Suppressed; by a modulated tone; or suppression",
+"Suppressed; by a continuous tone; or removed",
+"Replaced; by a continuous tone; or Morse letter S"
+],
+"a": 1
+},
+{
+"n": 35,
+"q": "For an aircraft at 30,000 ft what is the maximum radius above a VOR where unreliable or no signals at all may be received at 45° above horizontal :",
+"o": [
+"2 NM",
+"5 NM",
+"4 NM"
+],
+"a": 1,
+"ex": "30 000 ft ≈ 5 NM; at 45° the radius equals the height: 5 NM."
+}
+]
+}

@@ -39,7 +39,7 @@ module.exports = {
     { id: 'fog-types', type: 'svg', fig: 'fog-types', icon: 'fog', ask: 'Radiation, advection or steaming?', dgca: true,
       takeaway: 'Radiation: the ground cools at night. Advection: warm moist air moves over a cold surface (land or sea, any time). Steaming: cold air over warm water.',
       hook: 'Advection = Arrives warm. Steaming = Sea steams under cold air.' },
-    { id: 'fog-table', type: 'matrix', icon: 'list', ask: 'Every fog type side by side', revise: true,
+    { id: 'fog-table', takeaway: 'Radiation fog forms over land on clear calm nights; advection fog when warm moist air crosses a cold surface, by day or night, over land or sea. Steaming fog is cold air over warm water; frontal fog forms ahead of a warm front in continuous rain.', hook: 'Radiation needs a night; advection needs a journey.', type: 'matrix', icon: 'list', ask: 'Every fog type side by side', revise: true,
       corner: 'Fog', cols: ['How', 'Where / when'],
       rows: [
         { label: 'Radiation', cells: ['Nocturnal cooling of ground below dew point', { v: 'Land, night; N India winter after WD; Brahmaputra valley', key: true }] },
@@ -49,7 +49,7 @@ module.exports = {
         { label: 'Upslope', cells: ['Moist air lifted up a slope, cools adiabatically', 'Hills, rising plains'] },
         { label: 'Inversion', cells: ['Subsiding cold air over a warm water body', 'Anticyclones'] },
       ] },
-    { id: 'fog-flow', type: 'flow', icon: 'help', ask: 'Will radiation fog form tonight?',
+    { id: 'fog-flow', takeaway: 'Radiation fog needs moist air, a clear sky and a light wind of about 3–7 kt under a high or col. Dead calm gives dew or shallow patches; a strong wind lifts the cooling into low stratus.', hook: 'Moist, clear, light breeze.', type: 'flow', icon: 'help', ask: 'Will radiation fog form tonight?',
       start: 'q1',
       nodes: {
         q1: { text: 'Is the air moist (small temperature–dew-point spread)?', yes: 'q2', no: 'e0' },
@@ -63,7 +63,7 @@ module.exports = {
         e4: { end: true, text: 'Radiation fog likely', body: 'Thickest around sunrise, clears 2–3 h after.', hue: 5 },
         e5: { end: true, text: 'Possible but less likely', body: 'A steep gradient brings stronger winds that stir it out.', hue: 2 },
       } },
-    { id: 'obscure', type: 'bullets', icon: 'alert', ask: 'What else ruins visibility?', tier: 'exam',
+    { id: 'obscure', takeaway: 'Besides fog, visibility is spoilt by dust haze (north India in summer), smoke and smog under inversions, volcanic ash (engine-damaging; Barren Island is India\'s active volcano) and sea spray.', hook: 'Dust, smoke, ash and spray.', type: 'bullets', icon: 'alert', ask: 'What else ruins visibility?', tier: 'exam',
       groups: [
         { title: 'Dust haze', icon: 'sun', points: ['Summer; thicker by day', 'Rajasthan → Punjab, Haryana, UP, Bihar', '6–8 km deep; diversions equally hit'] },
         { title: 'Smoke & smog', icon: 'fog', points: ['Calm wind + ground inversion', 'Smog = fog + smoke'] },

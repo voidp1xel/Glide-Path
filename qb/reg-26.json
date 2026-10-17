@@ -1,0 +1,1057 @@
+{
+"title": "Aviation Physiology",
+"src": "Bali AR Ch 26",
+"qs": [
+{
+"n": 1,
+"q": "A flight crew member has completed a two-day stay in hospital. What must they do before flying as a crew member?",
+"o": [
+"Do his class I medical from an authorized agency.",
+"Take clearance from DGCA before flying.",
+"Seek advice from the authority and Aviation Medicine Specialist."
+],
+"a": 2,
+"ex": "After illness or hospital stay, seek advice from the authority and an aviation medicine specialist before flying."
+},
+{
+"n": 2,
+"q": "Linear deceleration:",
+"o": [
+"Causes sensory illusions on the pitch axis.",
+"Can create the illusion of being in a nose up attitude.",
+"Application of full power during a missed instrument approach can lead to this illusion."
+],
+"a": 0,
+"ex": "Deceleration gives the head-down (nose-down) illusion: a pitch-axis illusion. Acceleration and full power on a go-around give the nose-up one."
+},
+{
+"n": 3,
+"q": "High blood pressure or hypertension is:",
+"o": [
+"A major cause of unfitness in pilots.",
+"Responsible for reduced tolerance to G forces.",
+"May cause chokes during flight."
+],
+"a": 0
+},
+{
+"n": 4,
+"q": "Unusual fatigue and a loss of consciousness are symptoms of:",
+"o": [
+"Leans",
+"Presbyopia",
+"Hypoxia"
+],
+"a": 2
+},
+{
+"n": 5,
+"q": "Total Space Equivalent Zone extends outwards from 120nm. To survive in this zone:",
+"o": [
+"Good quality pressure suit is adequate.",
+"Adequate food and water is enough.",
+"Adequate oxygen, pressure and heat is a must."
+],
+"a": 2
+},
+{
+"n": 6,
+"q": "At 8,000 ft, the standard barometric pressure is 77 kPa (574 mmHg). This means that there is:",
+"o": [
+"57% of the oxygen available at sea level.",
+"65% of the oxygen available at sea level.",
+"76% of the oxygen available at sea level."
+],
+"a": 2
+},
+{
+"n": 7,
+"q": "The atmospheric gas pressure:",
+"o": [
+"Decreases slower at lower altitudes compared with higher levels and equivalent altitude changes.",
+"Rises with altitude.",
+"Drops faster at lower altitudes in comparison to the same altitude changes at higher altitudes."
+],
+"a": 0
+},
+{
+"n": 8,
+"q": "The chemical composition of the earth's atmosphere approximately is:",
+"o": [
+"78% nitrogen, 21% oxygen, 0.9% argon, 0.03% carbon dioxide.",
+"70% nitrogen, 28% oxygen, 1.9% argon, 0.03% carbon dioxide.",
+"78% nitrogen, 20% oxygen, 0.9% carbon dioxide, 1.03% argon."
+],
+"a": 0
+},
+{
+"n": 9,
+"q": "The volume percentage of oxygen in the atmosphere is 21% which:",
+"o": [
+"Is constant for all altitudes in troposphere.",
+"Decreases with increasing altitude.",
+"Increases with increasing altitude."
+],
+"a": 0
+},
+{
+"n": 10,
+"q": "Pain in the middle ear during descent may be eased by:",
+"o": [
+"Increasing the rate of descent.",
+"Sneezing deliberately with the nostrils wide open.",
+"Leveling off and possibly climbing."
+],
+"a": 2
+},
+{
+"n": 11,
+"q": "Gases of physiological importance to man are:",
+"o": [
+"Oxygen and carbon dioxide.",
+"Ozone and carbon dioxide.",
+"Oxygen and Ozone."
+],
+"a": 0
+},
+{
+"n": 12,
+"q": "Oxygen, combined with hemoglobin in blood is transported by:",
+"o": [
+"Platelets.",
+"Blood plasma.",
+"Red blood cells."
+],
+"a": 2
+},
+{
+"n": 13,
+"q": "An increase in the amount of carbon dioxide in the blood leads to:",
+"o": [
+"Hyperventilation.",
+"Over breathing.",
+"Shortness of breath."
+],
+"a": 0,
+"ex": "CO₂ drives breathing: more CO₂ makes you breathe harder. Hyperventilation is the opposite, CO₂ too low."
+},
+{
+"n": 14,
+"q": "According to the ICAO standard atmosphere, the temperature lapse rate of the troposphere is approximately:",
+"o": [
+"-2°C every 1,000 feet.",
+"-10°C every 10,000 feet.",
+"-1°C every 190 meters."
+],
+"a": 0
+},
+{
+"n": 15,
+"q": "The barometric pressure drops to 1/2 of the pressure at sea level at:",
+"o": [
+"30,000 feet.",
+"18,000 feet.",
+"10,000 feet."
+],
+"a": 1
+},
+{
+"n": 16,
+"q": "The total pressure of a mixture of gases is equal to the sum of the partial pressures of the gases which compose the mixture corresponds to:",
+"o": [
+"Charle's law.",
+"Dalton's law.",
+"Henry's law"
+],
+"a": 1
+},
+{
+"n": 17,
+"q": "Boyle's law is directly applicable in case of:",
+"o": [
+"The transfer of gas between the alveoli and the blood.",
+"The expansion of trapped gases in the human body with increasing altitude.",
+"Pressure of a mixture of gases at high altitude."
+],
+"a": 1
+},
+{
+"n": 18,
+"q": "Which data compose the ICAO standard atmosphere?",
+"o": [
+"Pressure, Temperature, Humidity and positive lapse rate.",
+"Density, Pressure, Temperature and lapse rate.",
+"Density, Pressure, dryness and negative lapse rate."
+],
+"a": 1
+},
+{
+"n": 19,
+"q": "Otis Barotraumas is:",
+"o": [
+"Stretching of the ear drum caused by the expansion and contraction of gases trapped in the inner ear by a blocked Eustachian tube.",
+"Stretching of the ear drum caused by the expansion and contraction of gases trapped in the outer ear by the blocked Tympanum.",
+"Damage to the ear drum caused by the expansion and contraction of gases trapped in the middle ear by infected Ossicles."
+],
+"a": 0
+},
+{
+"n": 20,
+"q": "Dalton's law explains the occurrence of:",
+"o": [
+"Ischemic hypoxia.",
+"Histotoxic hypoxia.",
+"Hypoxic hypoxia."
+],
+"a": 2
+},
+{
+"n": 21,
+"q": "Henry's law explains the occurrence of:",
+"o": [
+"Hyperventilation.",
+"Hypoxia.",
+"Decompression sickness."
+],
+"a": 2
+},
+{
+"n": 22,
+"q": "In aviation any mismatch between what we sense and what we expect is:",
+"o": [
+"An effect of motion sickness.",
+"An illusion.",
+"A symptom of Hypoxia."
+],
+"a": 1
+},
+{
+"n": 23,
+"q": "On ascent the gases in the digestive tract will:",
+"o": [
+"Shrink.",
+"Escape to lungs.",
+"Expand."
+],
+"a": 2
+},
+{
+"n": 24,
+"q": "The most serious hypoxia:",
+"o": [
+"Causes headache and tingling in hands and feet.",
+"Causes formication, flushed cheeks and cherry-red lips.",
+"Interferes with reasoning, gives rise to unusual fatigue and, finally, results in a loss of consciousness/death."
+],
+"a": 2
+},
+{
+"n": 25,
+"q": "One of the symptoms of decompression sickness are:",
+"o": [
+"The bends.",
+"Convulsions.",
+"Impaired night vision and slow reaction time."
+],
+"a": 0
+},
+{
+"n": 26,
+"q": "The tendency to develop the bends increases with:",
+"o": [
+"Low rates of climb, age, obesity, physical activity and high temperatures.",
+"High rates of climb, age, obesity, physical activity and low temperatures.",
+"High rates of descend age, obesity, physical activity and high temperatures."
+],
+"a": 1
+},
+{
+"n": 27,
+"q": "The cabin pressure in airline operation is:",
+"o": [
+"Normally not exceeding 4,000 to 5,000 feet.",
+"Normally not exceeding 2,000 to 3,000 feet.",
+"Normally not exceeding 6,000 to 8,000 feet."
+],
+"a": 2
+},
+{
+"n": 28,
+"q": "The circulation system transports:",
+"o": [
+"Oxygen, carbon monoxide and adrenaline.",
+"Oxygen and carbon dioxide only.",
+"Chemical messengers, oxygen and carbon dioxide."
+],
+"a": 2
+},
+{
+"n": 29,
+"q": "Physiological problems at high altitude are caused by:",
+"o": [
+"Increased atmospheric pressure.",
+"Reduced oxygen percentage in atmosphere.",
+"Decreased atmospheric pressure."
+],
+"a": 2
+},
+{
+"n": 30,
+"q": "Which gas will diffuse from the blood to the alveoli:",
+"o": [
+"Nitrogen.",
+"Carbon Dioxide.",
+"Oxygen."
+],
+"a": 1
+},
+{
+"n": 31,
+"q": "The symptoms caused by gas bubbles under the skin following a decompression are called:",
+"o": [
+"Leans.",
+"Creeps.",
+"Chokes."
+],
+"a": 1
+},
+{
+"n": 32,
+"q": "The Oxygen-Carbon Dioxide exchange takes place through:",
+"o": [
+"The walls of the capillaries.",
+"Red blood cells.",
+"Platelets."
+],
+"a": 0
+},
+{
+"n": 33,
+"q": "In order to get rid of excess nitrogen following scuba diving, subsequent flights should be delayed:",
+"o": [
+"36 hours.",
+"12 hours.",
+"24 hours."
+],
+"a": 2
+},
+{
+"n": 34,
+"q": "The normal arterial blood-pressure of a healthy adult is:",
+"o": [
+"140/100 mm HG.",
+"120/60 mm HG.",
+"120/80 mm HG."
+],
+"a": 2
+},
+{
+"n": 35,
+"q": "Decompression symptoms are:",
+"o": [
+"Bends, chokes, skin manifestations, neurological symptoms and circulatory shock.",
+"Bends, chokes, personality change, impaired memory and circulatory shock.",
+"Bends, chokes, personality change, impaired memory and impaired vision."
+],
+"a": 0
+},
+{
+"n": 36,
+"q": "Baroreceptor reflex is triggered by:",
+"o": [
+"Body's need to adjust blood pressure.",
+"Body's need to adjust to extreme temperatures.",
+"Body's need to adjust to extreme cold."
+],
+"a": 0
+},
+{
+"n": 37,
+"q": "While climbing from sea level to 40,000 ft the difference in barometric pressure is greatest between:",
+"o": [
+"Sea level and 10,000 ft.",
+"10,000 and 20,000 ft.",
+"30,000 and 40,000 ft."
+],
+"a": 0,
+"ex": "Pressure falls fastest low down: about 1013 → 697 hPa from sea level to 10,000 ft."
+},
+{
+"n": 38,
+"q": "The blood-pressure which is measured during flight medical checks is the:",
+"o": [
+"Pressure in the artery of the left upper arm (representing the pressure at left arm).",
+"Pressure in the artery of the upper arm (representing the pressure at heart level).",
+"Pressure in the artery of the upper arm (representing the cardiac pressure)."
+],
+"a": 1
+},
+{
+"n": 39,
+"q": "What is the average Time of Useful Consciousness after a rapid decompression at 40,000 ft?",
+"o": [
+"About 12 seconds.",
+"More than 1 minute.",
+"About 40 seconds."
+],
+"a": 0,
+"ex": "Book table: 7–10 s after rapid decompression at FL400; 'about 12 seconds' is the nearest."
+},
+{
+"n": 40,
+"q": "What is the Time of Useful Consciousness?",
+"o": [
+"The amount of time an individual is able to function effectively (e.g. perform flying duties) in an environment of inadequate oxygen supply.",
+"The time period during which there is an inability of the cells of the body to use the oxygen available.",
+"The period of time when there is inadequate blood flow to body tissues."
+],
+"a": 0
+},
+{
+"n": 41,
+"q": "What are the signs of hypoxia during explosive decompression?",
+"o": [
+"Initially, there is an inability to concentrate, impairment of night vision, unusual fatigue, loss of consciousness/death.",
+"Initially there is cramping and spasms of the hands and feet, cold clammy skin, paleness, impaired judgement.",
+"Initially there may be a feeling of wellbeing (euphoria), impairment of night vision, unusual fatigue, loss of consciousness/ death."
+],
+"a": 2
+},
+{
+"n": 42,
+"q": "Which is the procedure to be followed when symptoms of decompression sickness occur?",
+"o": [
+"100% Oxygen, immediate descent, land as soon as possible, seek medical assistance immediately on landing.",
+"100% Oxygen, immediate descent, land in case not comfortable, seek medical assistance if required.",
+"Descend below 10,000 feet, symptoms will disappear after few minutes."
+],
+"a": 0
+},
+{
+"n": 43,
+"q": "What is decompression sickness?",
+"o": [
+"A rapid reduction in ambient pressure, may cause the nitrogen in our blood to come out of solution as small bubbles.",
+"A rapid increase in ambient pressure, may cause the nitrogen in our blood to come out of solution as small bubbles.",
+"A rapid reduction in ambient pressure, may cause the oxygen in our blood to come out of solution as small bubbles."
+],
+"a": 1
+},
+{
+"n": 44,
+"q": "The part of blood without cell is called:",
+"o": [
+"Serum.",
+"Lymph.",
+"Plasma."
+],
+"a": 0
+},
+{
+"n": 45,
+"q": "At rest, with a heart rate of 72 beats per minute and a stroke volume of 70 ml the cardiac output is about:",
+"o": [
+"7 liters/min.",
+"5 liters/min.",
+"6 liters/min."
+],
+"a": 0
+},
+{
+"n": 46,
+"q": "Hemoglobin is:",
+"o": [
+"in the white blood cells.",
+"Dissolved in the plasma.",
+"In the red blood cells."
+],
+"a": 2
+},
+{
+"n": 47,
+"q": "The heart muscle is supplied with blood from:",
+"o": [
+"The pulmonary veins.",
+"The coronary arteries.",
+"Coronary capillaries."
+],
+"a": 1
+},
+{
+"n": 48,
+"q": "Bubbles in the joints cause rheumatic-like pain, called the:",
+"o": [
+"Staggers.",
+"Chokes.",
+"Bends."
+],
+"a": 2
+},
+{
+"n": 49,
+"q": "Which symptom does not belong to the Decompression Sickness:",
+"o": [
+"Bends.",
+"Creeps.",
+"Convulsions."
+],
+"a": 2
+},
+{
+"n": 50,
+"q": "A few hours after a rapid decompression at FL320 you experience a feeling of wellbeing after having three pints of beer. You should:",
+"o": [
+"Ask for medical advice since this is a symptom of hypoxia.",
+"Ask for medical advice since this is a symptom of decompression sickness.",
+"Stop drinking and allow twenty-four hours between the last drink and take off time."
+],
+"a": 1,
+"ex": "Symptoms of DCS can appear hours later; get medical advice."
+},
+{
+"n": 51,
+"q": "In a severe case of hypoxia:",
+"o": [
+"Only brain and heart functions are maintained.",
+"Only blood pressure and heart functions are maintained.",
+"Only blood pressure and brain functions are maintained."
+],
+"a": 1
+},
+{
+"n": 52,
+"q": "Generally, active pilots should not donate blood, because:",
+"o": [
+"The loss of blood causes permanent disturbances to the circulation.",
+"The fluid reduction caused by donating one unit of blood is generally replaced within several weeks.",
+"The effects at ground level are minimal, flying during this period may entail a risk."
+],
+"a": 2
+},
+{
+"n": 53,
+"q": "In mild cases, hypoxia causes only:",
+"o": [
+"Inattentiveness, poor judgment, and brain stem reflexes.",
+"inattentiveness, poor judgment, and uncoordinated movement.",
+"State of complete unawareness and unresponsiveness."
+],
+"a": 1
+},
+{
+"n": 55,
+"q": "The symptoms of CO poisoning are:",
+"o": [
+"Memory Impairment, Sensory Loss, Tunnel Vision, Cyanosis (a bluing of the body extremities).",
+"Headache, Dizziness, Nausea, Impaired vision.",
+"Impaired Judgment, Headache, Tingling in hands & feet, Hyperventilation."
+],
+"a": 1
+},
+{
+"n": 56,
+"q": "In severe hypothermia, core body temperature can drop below:",
+"o": [
+"95 degrees.",
+"90 degrees.",
+"82 degrees."
+],
+"a": 2
+},
+{
+"n": 57,
+"q": "A pilot, climbing in a non-pressurized aircraft and without using supplemental oxygen will pass the \"critical threshold\" at approximately:",
+"o": [
+"22,000 feet.",
+"18,000 feet.",
+"10,000 feet."
+],
+"a": 0
+},
+{
+"n": 58,
+"q": "In a steep turn at 26,000 feet, you experience a loss of muscular coordination. What should be your actions?",
+"o": [
+"Breathe oxygen at 100 percent. If hypoxia is the cause, the symptoms will improve markedly after three or four breaths. If the symptoms persist, consciously slow the rate of breathing to 10-12 breaths per minute.",
+"Breathe oxygen at 100 percent. If Hyper ventilation is the cause, the symptoms will improve markedly after three or four breaths. If the symptoms persist, consciously increase the rate of breathing to 30-32 breaths per minute.",
+"Breathe oxygen at 100 percent. If CO poisoning is the cause, the symptoms will improve markedly after three or four breaths. If the symptoms persist, land as soon as possible."
+],
+"a": 0
+},
+{
+"n": 59,
+"q": "While flying solo, suddenly your mood changes to intense feelings of well- being and happiness. Your actions should be:",
+"o": [
+"Plan a date with your girlfriend.",
+"Enjoy the flight singing favorite songs.",
+"Suspect onset of hypoxia. Take oxygen and descend below 10000 feet."
+],
+"a": 2
+},
+{
+"n": 60,
+"q": "A pressurized cabin is necessary to protect against:",
+"o": [
+"Decompression sickness, expansion of gases in the intestines and hypoxia.",
+"Decompression sickness, uv rays and hypoxia.",
+"Expansion of gases in the intestines, heart attack and hypoxia."
+],
+"a": 0
+},
+{
+"n": 61,
+"q": "What is the Time of Useful Consciousness for a progressive decompression at 20,000 ft?",
+"o": [
+"Between 15 and 20 minutes depending on the physical activity being performed.",
+"Between 45 seconds and 2 minutes depending on the physical activity being performed.",
+"Between 5 and 10 minutes depending on the physical activity being performed."
+],
+"a": 2,
+"ex": "Normal ascent: FL180 20–30 min, FL220 10 min, so about 5–10 min at 20,000 ft."
+},
+{
+"n": 62,
+"q": "Hypobaric hypoxia is a result of:",
+"o": [
+"Exposure to high temperatures.",
+"High blood alcohol levels in blood.",
+"Exposure to high altitude."
+],
+"a": 0
+},
+{
+"n": 63,
+"q": "Otis Barotraumas is due to stretching of the ear drum caused by:",
+"o": [
+"The expansion and contraction of gases trapped in the inner ear by a blocked Eustachian tube.",
+"The expansion and contraction of gases trapped in the middle ear due to damage to the hearing mechanism.",
+"The expansion and contraction of gases trapped in the middle ear due to a build-up of wax."
+],
+"a": 0
+},
+{
+"n": 64,
+"q": "The release of nitrogen bubbles due to decompression can adversely affect:",
+"o": [
+"Joints, skin, respiratory system and brain.",
+"Joints, skin, inner ear and brain.",
+"Vision, liver, respiratory system and brain."
+],
+"a": 0
+},
+{
+"n": 65,
+"q": "Myocardial infarction refers to:",
+"o": [
+"A brain attack when high blood flow causes damage to brain nerves.",
+"A heart attack when low blood flow causes the heart to starve for oxygen.",
+"Expansion of trapped gases in the intestine at high altitude causing severe pain in the chest."
+],
+"a": 1
+},
+{
+"n": 66,
+"q": "Dehydration due to low relative humidity at high altitude can be prevented with:",
+"o": [
+"Excessive fluid intake.",
+"Adequate fluid intake.",
+"Diuretics like coffee or tea to be taken frequently."
+],
+"a": 1
+},
+{
+"n": 67,
+"q": "Oxygen in blood is carried by, which is found in:",
+"o": [
+"Hemoglobin, white blood cells.",
+"Hemoglobin, red blood cells.",
+"Red blood cells, platelets."
+],
+"a": 1
+},
+{
+"n": 68,
+"q": "Smoking:",
+"o": [
+"Has decreased susceptibility to Carbon Monoxide poisoning.",
+"Results in a 'masked hangover', rendering pilot unfit for flying.",
+"Reduces capacity to carry oxygen resulting in hypoxia at lower altitudes."
+],
+"a": 2
+},
+{
+"n": 69,
+"q": "What does Visual Acuity stand for?",
+"o": [
+"Is the capacity of the eye to determine small detail, undistorted, at a given distance.",
+"Time taken for night vision adaptation.",
+"Distance at which one can see objects undistorted under dim and bright Illumination."
+],
+"a": 0
+},
+{
+"n": 70,
+"q": "Out of the following, which are different types of Hypoxia?",
+"o": [
+"Hypoxic, Anemic, Ischemic, Histotoxic.",
+"Hypoxic, Anemic, Ischemic, Asphyxiation.",
+"Hypoxic, Anemic, Compression, Histotoxic."
+],
+"a": 0
+},
+{
+"n": 71,
+"q": "Flying a Cessna 172 at 6,000 feet with heaters on, you develop breathlessness. The most probable reason could be due to:",
+"o": [
+"Hypoxic Hypoxia.",
+"Anemic Hypoxia as a result of CO poisoning.",
+"Ischemic Hypoxia as a result of CO poisoning."
+],
+"a": 1,
+"ex": "Heater on: suspect carbon monoxide, which causes anaemic hypoxia."
+},
+{
+"n": 72,
+"q": "Flying Cessna 172 at 6,000 feet without heaters on, you feel sick, suffer blurred vision and feel weak. The most probable reason could be due to:",
+"o": [
+"High BP resulting in Ischemic hypoxia/stagnant hypoxia, curable by taking 100% oxygen for 2-3 minutes.",
+"Low BP resulting in Ischemic hypoxia/stagnant hypoxia, curable by taking 100% oxygen for 2-3 minutes.",
+"Low BP resulting in Ischemic hypoxia/stagnant hypoxia, taking 100% oxygen doesn't help."
+],
+"a": 2,
+"ex": "Stagnant hypoxia comes from poor blood flow; extra oxygen hardly helps."
+},
+{
+"n": 73,
+"q": "Flying a Cessna 172 at 6,000 feet without heaters on, you feel difficulty breathing and rapid heart rate. You remember having excessive drinks in a party previous night. The most probable reason could be due to:",
+"o": [
+"Histotoxic hypoxia.",
+"Hypoxic hypoxia.",
+"Ischemic hypoxia."
+],
+"a": 0
+},
+{
+"n": 74,
+"q": "Alcohol leaves the body at an average rate of:",
+"o": [
+"0.050 g/100 mL/hour, for men, this is usually a rate of about half standard drink per hour.",
+"0.035 g/100 mL/hour, for men, this is usually a rate of about quarter standard drink per hour.",
+"0.015 g/100 mL/hour, for men, this is usually a rate of about one standard drink per hour."
+],
+"a": 2
+},
+{
+"n": 75,
+"q": "You can overcome hyperventilation by:",
+"o": [
+"Consciously increasing the rate of breathing to 18-20 breaths per minute.",
+"Breathing deeply to raise the level of oxygen in blood.",
+"Breathing into a paper bag to raise the level of CO₂ in the blood."
+],
+"a": 2
+},
+{
+"n": 76,
+"q": "While joining circuit, you start breathing heavily, feel dizzy, get tingling sensations in your feet and a rapid heart rate. Your actions are:",
+"o": [
+"Suspect carbon monoxide poisoning, take 100% oxygen, turn off cabin heating and open ventilation.",
+"Suspect hypoxia, take 100% oxygen, land at the earliest and report to an aviation medicine specialist.",
+"Suspect hyperventilation, raise the CO₂ level by breathing into a paper bag or consciously lowering the breathing rate."
+],
+"a": 2
+},
+{
+"n": 77,
+"q": "Symptoms caused by gas bubbles in the lungs, following a decompression are called:",
+"o": [
+"Chokes",
+"Bends",
+"Staggers"
+],
+"a": 0
+},
+{
+"n": 78,
+"q": "The chance of a black-out during positive G Maneuvers can be reduced by:",
+"o": [
+"Engaging autopilot.",
+"A tilted back seat.",
+"Applying negative G."
+],
+"a": 1
+},
+{
+"n": 79,
+"q": "During sustained positive G-forces the order of symptoms is:",
+"o": [
+"Diminished awareness, Tiredness, Lack of coordination, Black out.",
+"Internal organs displaced, Onset of tunnel vision, Grey out, Possible black out.",
+"Memory lapses, Frequent mistakes in speech and actions, Rapid changes of mood, Grey out."
+],
+"a": 1
+},
+{
+"n": 80,
+"q": "Hemoglobin, the oxygen-carrying chemical in the blood, picks up:",
+"o": [
+"Carbon monoxide over 200 times more readily than it picks up oxygen.",
+"Carbon dioxide over 10 times more readily than it picks up oxygen.",
+"Oxygen over 5 times more readily than it picks up nitrogen."
+],
+"a": 0
+},
+{
+"n": 81,
+"q": "Carbon monoxide is a:",
+"o": [
+"Light blue, odorless, tasteless gas.",
+"Colorless, odorless, tasteless gas.",
+"Colorless, foul smelling, tasteless gas."
+],
+"a": 1
+},
+{
+"n": 82,
+"q": "Why most pilots can learn to tolerate moderate increases in positive \"G\", but many find even the smallest exposure to negative \"G\" to be unpleasant?",
+"o": [
+"Negative \"G\" manoeuvres decrease the flow of blood to the head, the face becomes white, and the vision becomes blurred.",
+"Negative \"G\" manoeuvres increase the flow of blood to the head, the face becomes very flushed, and the eyes bulge.",
+"Black out occurs in quick succession after a red out, allowing hardly any reaction time."
+],
+"a": 1
+},
+{
+"n": 83,
+"q": "Barotrauma is caused by:",
+"o": [
+"The trapped gases inside the aircraft which create pain as ambient pressure increases.",
+"The trapped gases inside the body which create pain as ambient pressure decreases.",
+"The trapped gases inside the outer ear, which cause damage to the ossicles or the ear drum."
+],
+"a": 1
+},
+{
+"n": 84,
+"q": "Breathing 100% oxygen will lift the pilot's physiological safe altitude to approximately:",
+"o": [
+"18,000 ft.",
+"22,000 ft.",
+"38,000 ft."
+],
+"a": 2
+},
+{
+"n": 85,
+"q": "The retina has about 100 million rods in its peripheral zone. Rods can:",
+"o": [
+"Only detect black and white but are much more sensitive at lower light levels.",
+"Detect all colours but are much more sensitive to black and white.",
+"Only detect black and white but are much less sensitive at lower light levels."
+],
+"a": 0
+},
+{
+"n": 86,
+"q": "Depth perception when objects are close is achieved through:",
+"o": [
+"Central Vision.",
+"Visual Acuity.",
+"Binocular Vision."
+],
+"a": 2
+},
+{
+"n": 87,
+"q": "Which scanning technique should be used when flying at night?",
+"o": [
+"Increase intensity of cabin lights.",
+"Look to the side of the object.",
+"Look directly at the object."
+],
+"a": 1
+},
+{
+"n": 88,
+"q": "Flickering light when reflected from helicopter blades or propellers of aircraft rotating at high RPM:",
+"o": [
+"Can not cause any harm, hence no action is required.",
+"Can cause Stroboscopic Vertigo, hence make frequent but small changes in RPM.",
+"Can cause nausea, dizziness or unconsciousness, hence land as soon as possible."
+],
+"a": 1
+},
+{
+"n": 89,
+"q": "A B-787 pilots feel nausea and dizziness while flying through low clouds. This could be due to:",
+"o": [
+"Somatogravic Effect, take 100% oxygen and climb to a higher altitude.",
+"The leans, get on to the instruments and correct the aircraft attitude.",
+"Stroboscopic Effect, switch off anti-collision lights."
+],
+"a": 2
+},
+{
+"n": 90,
+"q": "The primary and most reliable sense of spatial orientation is ___. The balance sensors situated in the ___ provide a secondary system.",
+"o": [
+"Ear, Eyesight.",
+"Eyesight, ear.",
+"Vestibular apparatus, Somatosensory system."
+],
+"a": 1
+},
+{
+"n": 91,
+"q": "The otoliths detect ___ and the semicircular canals detect ___.",
+"o": [
+"Angular acceleration, linear acceleration.",
+"Equilibrium, orientation",
+"Linear acceleration, angular acceleration."
+],
+"a": 2
+},
+{
+"n": 92,
+"q": "A pilot approaching a runway that is narrower than normal may feel that they are ___ and make an ___ approach.",
+"o": [
+"High, under shooting approach.",
+"Low, over shooting approach.",
+"Disoriented, instrument approach (2D)."
+],
+"a": 0,
+"ex": "A narrow runway looks like you are high, so you descend and undershoot."
+},
+{
+"n": 93,
+"q": "Of the three senses used for spatial orientation, the most reliable is ___, the insufficiently reliable is ___ and the not-at-all reliable (especially in IMC) is ___.",
+"o": [
+"The Somatosensory system (\"seat of the pants\" feeling)/G-force, The sense of vision, The Vestibular Apparatus.",
+"The Vestibular Apparatus, The Somatosensory system (\"seat of the pants\" feeling)/G-force, The sense of vision.",
+"The sense of vision, The Vestibular Apparatus, The Somatosensory system (\"seat of the pants\" feeling)/G-force."
+],
+"a": 2
+},
+{
+"n": 94,
+"q": "Coriolis illusion, causing spatial disorientation is the result of:",
+"o": [
+"Simultaneous head movements during aircraft manoeuvres can give the feeling to pilots that they are pitching, yawing, and rolling simultaneously.",
+"The absence of visual cues during IMC manoeuvres.",
+"Because of the lack of stable visual references and the erroneous mental models, the pilot is at a disadvantage."
+],
+"a": 0
+},
+{
+"n": 95,
+"q": "The Eustachian tube:",
+"o": [
+"Equalises pressure between the middle ear and the external atmosphere.",
+"Provides us with our sense of balance.",
+"Helps maintain spatial orientation."
+],
+"a": 0
+},
+{
+"n": 96,
+"q": "Night vision can be affected by:",
+"o": [
+"Lack of exercise, High blood pressure, Lack of exercise, Smoking.",
+"Obesity, Too much fat in your diet, Alcohol, Smoking.",
+"Age, hypoxia, altitudes above 8,000 ft, smoking and alcohol."
+],
+"a": 2
+},
+{
+"n": 97,
+"q": "Dark adaptation is impaired by:",
+"o": [
+"Altitudes above 8,000 feet, inhaling carbon monoxide, myopia and exposure to bright sunlight.",
+"Altitudes above 5,000 feet, vibrations, deficiency of Vitamin C and exposure to bright sunlight.",
+"Altitudes above 5,000 feet, inhaling carbon monoxide, deficiency of Vitamin A and exposure to bright sunlight."
+],
+"a": 2
+},
+{
+"n": 98,
+"q": "Myopia is more commonly known as ___ and hypermetropia as ___.",
+"o": [
+"Long-sightedness, Short-sightedness.",
+"Short-sightedness, Long-sightedness.",
+"Defective vision, color-defective vision."
+],
+"a": 1
+},
+{
+"n": 99,
+"q": "Hypothermia is potentially:",
+"o": [
+"A life-threatening condition caused by core body temperature dropping below 95 deg F. It needs emergency medical attention.",
+"Not a life-threatening condition, shivering tends to ease discomfort and is followed by full recovery with 100% oxygen.",
+"A shivering condition caused due to low cabin temperature. However, it doesn't have any adverse effect on physical and mental abilities."
+],
+"a": 0
+},
+{
+"n": 100,
+"q": "The absence of anything to focus on in a featureless sky (empty field myopia) affects the pilot's capacity to scan for traffic. It can be overcome by:",
+"o": [
+"Periodically and deliberately focusing on objects at a distance.",
+"Periodically and deliberately focusing on objects, both close and at a distance.",
+"Periodically and deliberately focusing on objects at the horizon."
+],
+"a": 1
+},
+{
+"n": 101,
+"q": "Normal Body Mass Index (BMI) is ___ for men and ___ for women.",
+"o": [
+"22-30; 20-28.",
+"20-25; 19-24.",
+"18-25; 16-23."
+],
+"a": 1
+},
+{
+"n": 102,
+"q": "\"Oxygen moves from the alveoli into the blood and from the blood into the tissues.\" This is explained by:",
+"o": [
+"Boyle's law.",
+"Charle's law.",
+"Graham's law."
+],
+"a": 2
+},
+{
+"n": 103,
+"q": "The illusions are:",
+"o": [
+"A natural phenomena, organized formal training is the best protective measure against illusions.",
+"Abnormal, require psychiatric treatment.",
+"Visual cues with no effective counter measures available to overcome them."
+],
+"a": 0
+},
+{
+"n": 104,
+"q": "Bright runway / app. lights give illusion of being:",
+"o": [
+"High, resulting in low approaches.",
+"Low, resulting in high approaches.",
+"On correct approach, resulting in an inadvertent speed loss."
+],
+"a": 1,
+"ex": "Bright lights look closer, so you feel low and fly a high approach."
+},
+{
+"n": 105,
+"q": "A dark scene spread with ground lights and stars and obscured sky can create illusions of:",
+"o": [
+"Not being aligned correctly with the actual horizon.",
+"Being aligned correctly with the actual horizon.",
+"Being aligned with the artificial horizon."
+],
+"a": 0
+}
+]
+}

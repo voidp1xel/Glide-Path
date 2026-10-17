@@ -1,0 +1,269 @@
+{
+ "id": "nav-28",
+ "title": "VOR",
+ "src": "R.K. Bali — Air Navigation, Part III Ch 4 (key read from the printed answer grid, PDF p. 256; Q2–3 are worked examples turned into choices)",
+ "text": "nav",
+ "start": 15007,
+ "end": 15158,
+ "key": "abbcacbbbccbaccbcccccaabcbcbaccbbbb",
+ "fix": {
+  "4": {
+   "o": [
+    "FL80",
+    "FL50",
+    "FL60"
+   ]
+  },
+  "5": {
+   "o": [
+    "180NM",
+    "120NM",
+    "150NM"
+   ]
+  },
+  "6": {
+   "o": [
+    "107NM",
+    "114NM",
+    "134NM"
+   ]
+  },
+  "7": {
+   "o": [
+    "Any where on the ground",
+    "At designated check point on airport surface",
+    "Any where in the air/ ground"
+   ]
+  },
+  "8": {
+   "o": [
+    "Measuring Doppler frequency shift between fixed and variable signal",
+    "Measuring phase difference between fixed and variable signal",
+    "Measuring time difference induced by Doppler frequency shift in single signal"
+   ]
+  },
+  "9": {
+   "o": [
+    "constant magnetic track",
+    "great circle track",
+    "Rhumb line track"
+   ]
+  },
+  "10": {
+   "o": [
+    "5° or more",
+    "2.5° or more",
+    "10° or more"
+   ],
+   "q": "An omni-bearing selector (OBS) shows full deflection to the left when within range of a serviceable VOR. What angular deviation are you from the selected radial?"
+  },
+  "11": {
+   "o": [
+    "north",
+    "west",
+    "east"
+   ]
+  },
+  "12": {
+   "o": [
+    "108 to 135.95 MHz",
+    "108 to 117.95 MHz",
+    "118 to 135.95 MHz"
+   ]
+  },
+  "13": {
+   "o": [
+    "167°",
+    "347°",
+    "160°"
+   ]
+  },
+  "14": {
+   "o": [
+    "The receiver adds 30Hz to the variable signal before combining it with the reference signal",
+    "The transmitter changes the frequency of the variable signal by 30Hz either side of the allocated frequency each time it rotates",
+    "The rotation of the variable signal at a rate of 30 times per second gives it the characteristics of a 30Hz amplitude modulation"
+   ]
+  },
+  "15": {
+   "o": [
+    "SHF",
+    "UHF",
+    "VHF"
+   ]
+  },
+  "16": {
+   "o": [
+    "150°",
+    "030°",
+    "210°"
+   ],
+   "q": "If the reference phase differs by 30° from the variable phase, the radial from the VOR station will be:"
+  },
+  "17": {
+   "o": [
+    "at the half-way point between the aircraft and the station",
+    "at the aircraft location",
+    "at the VOR"
+   ]
+  },
+  "18": {
+   "o": [
+    "180°",
+    "185°",
+    "190°"
+   ]
+  },
+  "19": {
+   "o": [
+    "075°",
+    "285°",
+    "255°"
+   ],
+   "q": "An aircraft is flying on true track 090° towards a VOR near the equator where the magnetic variation is 15° E. The variation at the aircraft position is 8° E. The aircraft is on VOR radial:"
+  },
+  "20": {
+   "o": [
+    "envelope matching",
+    "beat frequency discrimination",
+    "phase comparison"
+   ]
+  },
+  "21": {
+   "o": [
+    "night effect",
+    "quadrantal error",
+    "uneven propagation over irregular ground surfaces"
+   ]
+  },
+  "22": {
+   "o": [
+    "interference from other transmitters",
+    "noise from precipitation static exceeding the signal strength of the transmitter",
+    "sky wave interference from distant transmitters on the same frequency"
+   ]
+  },
+  "23": {
+   "o": [
+    "105NM",
+    "210NM",
+    "50NM"
+   ]
+  },
+  "24": {
+   "o": [
+    "2.5NM",
+    "3.5NM",
+    "2.0NM"
+   ]
+  },
+  "25": {
+   "o": [
+    "284° with the FROM flag showing",
+    "104° with the FROM flag showing",
+    "284° with the TO flag showing"
+   ]
+  },
+  "27": {
+   "o": [
+    "244° with the TO flag showing",
+    "244° with the FROM flag showing",
+    "064° with the TO flag showing"
+   ]
+  },
+  "28": {
+   "o": [
+    "6.0",
+    "1.5",
+    "3.0"
+   ]
+  },
+  "29": {
+   "o": [
+    "Tells whether a track equal to the selected bearing will bring you to or away from the VOR",
+    "Tells whether you are now flying towards or from the VOR",
+    "Tells whether you should turn the aircraft towards or away from the CDI indication"
+   ]
+  },
+  "30": {
+   "o": [
+    "105, TO",
+    "285, FROM",
+    "285, TO"
+   ]
+  },
+  "31": {
+   "o": [
+    "a readout of range as well as bearing is obtained",
+    "transmitter frequency instability is minimised",
+    "site errors are considerably reduced"
+   ]
+  },
+  "32": {
+   "o": [
+    "The terrain will cause bends and/or scalloping on the VOR signal and make it inaccurate outside standards in the airspace outside the published airspace",
+    "The reception from this VOR is guaranteed free from harmful interference from other VORs when you are within this airspace",
+    "The signal from the VOR will be too weak to provide information when you are outside this airspace"
+   ]
+  },
+  "33": {
+   "o": [
+    "1:40",
+    "2.25",
+    "0.50"
+   ]
+  },
+  "34": {
+   "o": [
+    "Suppressed; by a modulated tone; or suppression",
+    "Suppressed; by a continuous tone; or removed",
+    "Replaced; by a continuous tone; or Morse letter S"
+   ]
+  },
+  "35": {
+   "o": [
+    "2 NM",
+    "5 NM",
+    "4 NM"
+   ]
+  },
+  "2": {
+   "q": "An aircraft at 40 000 ft; the VOR elevation is 900 ft. Up to what range can the VOR signal be received?",
+   "o": [
+    "250 NM",
+    "288 NM",
+    "200 NM"
+   ]
+  },
+  "3": {
+   "q": "An aircraft at FL400; the VOR is at MSL. Maximum reception range?",
+   "o": [
+    "288 NM",
+    "250 NM",
+    "200 NM"
+   ]
+  },
+  "26": {
+   "o": [
+    "280°",
+    "270°",
+    "090°"
+   ]
+  }
+ },
+ "drop": [],
+ "ex": {
+  "2": "1.25 (√40 000 + √900) = 1.25 (200 + 30) ≈ 288 NM.",
+  "3": "VOR at MSL: range = 12.5 √FL = 12.5 × 20 = 250 NM.",
+  "5": "1.25 (√13 000 + √1024) = 1.25 (114 + 32) ≈ 182 NM.",
+  "10": "Full-scale deflection on a VOR CDI is 10° (5 dots × 2°).",
+  "13": "The aircraft is due south (180° T). Radials use the variation at the VOR: 180 − 13 E = 167.",
+  "18": "Due south of the VOR: 180° T + 10° W (VOR variation) = 190.",
+  "19": "The aircraft is west of the VOR: 270° T − 15° E (VOR variation) = 255.",
+  "23": "Half-width 5 NM ÷ tan 5.5° ≈ 52 NM from each VOR: about 105 NM apart.",
+  "24": "1 in 60: 200/60 ≈ 3.5 NM.",
+  "26": "Bearing 090° from the VOR means the aircraft is on the 090 radial; to go TO the station select 270.",
+  "28": "5 NM at 100 NM = 3°; at 2° per dot that is 1.5 dots.",
+  "35": "30 000 ft ≈ 5 NM; at 45° the radius equals the height: 5 NM."
+ }
+}

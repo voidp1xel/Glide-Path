@@ -1,0 +1,378 @@
+{
+"title": "Sample paper 15",
+"src": "Bali AR, Sample Question Papers",
+"qs": [
+{
+"n": 1,
+"q": "According to which Convention may an aircraft commander impose measures upon a person committing a crime or an offense on board the aircraft?",
+"o": [
+"The Convention of Rome.",
+"The Convention of Warsaw.",
+"The Convention of Tokyo."
+],
+"a": 2
+},
+{
+"n": 2,
+"q": "The aircraft commander, when he has reasonable grounds to believe that a person has committed or is about to commit, on board the aircraft, an offense against penal law:",
+"o": [
+"Can not authorize the assistance of other crew members.",
+"Can not request for the assistance of passengers to restrain such persons.",
+"May deliver such person to the competent authorities."
+],
+"a": 2
+},
+{
+"n": 3,
+"q": "When letters are used for the registration mark combinations shall not be used which might be confused with urgent or distress signals for example:",
+"o": [
+"XXX.",
+"RWY.",
+"DDD."
+],
+"a": 0
+},
+{
+"n": 4,
+"q": "If you are requested to report your height, to which Q-code-setting would you refer?",
+"o": [
+"QFE.",
+"QNH.",
+"QNE."
+],
+"a": 0
+},
+{
+"n": 6,
+"q": "A series of projectiles fired at 10-second intervals, each bursting red and green, means:",
+"o": [
+"Do not land for the time being",
+"Exercise caution while landing",
+"You are in or about to enter a restricted, prohibited or danger area: take remedial action"
+],
+"a": 2
+},
+{
+"n": 7,
+"q": "The phrase used by ATC to instruct you to listen out on a frequency is:",
+"o": [
+"Pay attention.",
+"Monitor.",
+"Select Frequency."
+],
+"a": 1
+},
+{
+"n": 8,
+"q": "Navigation light are to be displayed by all aircraft in flight:",
+"o": [
+"From 30 mins after sunset till 30 mins before sunrise.",
+"From sunset to sunrise.",
+"At all time."
+],
+"a": 1
+},
+{
+"n": 11,
+"q": "Aircraft meets with an accident on runway, its wreckage can be removed:",
+"o": [
+"Can be removed only after investigating authority's permission.",
+"Can be removed only after DGCA permission.",
+"For removing dead body of a dog."
+],
+"a": 2
+},
+{
+"n": 12,
+"q": "Nationality marks used in India are:",
+"o": [
+"Letters VT, VU and U",
+"Letters VT only",
+"Letters AT to AW"
+],
+"a": 0
+},
+{
+"n": 13,
+"q": "The convention on offenses and certain acts committed on board aircraft is:",
+"o": [
+"The convention of Rome.",
+"The convention of Tokyo.",
+"The convention of Chicago."
+],
+"a": 1
+},
+{
+"n": 14,
+"q": "When a controlled flight deviates from its current flight plan, ATC has to be informed in case:",
+"o": [
+"The TAS varies by plus or minus 5% or more of the TAS notified in the flight plan.",
+"The estimated time is ir error by more than 3 minutes.",
+"The TAS varies by plus or minus 10 knots or more of the TAS notified in the flight plan."
+],
+"a": 2
+},
+{
+"n": 16,
+"q": "A series of red flashes sent to an aircraft in flight means:",
+"o": [
+"Return to the airfield and land.",
+"Airfield is unsafe, do not land.",
+"Notwithstanding any other instructions do not land at the moment."
+],
+"a": 1
+},
+{
+"n": 17,
+"q": "Where ADS-B is used for identification, aircraft may be identified by the following procedure:",
+"o": [
+"Asking him to squawk assigned mode A code C.",
+"Direct recognition of the aircraft identification in an ADS-B label.",
+"Recognition of an assigned discrete code, the setting of which has been verifiec."
+],
+"a": 1
+},
+{
+"n": 18,
+"q": "During the transmission of numbers containing a decimal point:",
+"o": [
+"The term Decimal can be omitted if no chance of misunderstandings exists.",
+"The term Decimal must always be transmitted.",
+"The term Decimal must be spoken only if followed by three digits."
+],
+"a": 1
+},
+{
+"n": 20,
+"q": "The VMC minima for an airspace classified as \"G\" above 10000ft MSL are:",
+"o": [
+"1500m horizontally, 1000ft vertically from clouds; 8km visibility.",
+"1 nautical mile horizontally and 1000ft vertically from clouds; 8km visibility.",
+"1 nautical mile horizontally and 1000ft vertically from clouds; 5km visibility."
+],
+"a": 0
+},
+{
+"n": 21,
+"q": "An aircraft is considered to overtake another if it approaches the other aircraft from the rear on a line forming an angle of less than:",
+"o": [
+"50 degrees with the plane of symmetry of the latter.",
+"70 degrees with the plane of symmetry of the latter.",
+"60 degrees with the plane of symmetry of the latter."
+],
+"a": 1
+},
+{
+"n": 22,
+"q": "You observe thunderstorms without hail on our route. On radio telephony you shall report the phenomenon as:",
+"o": [
+"Thunderstorms, no hail.",
+"Thunderstorms.",
+"Thunderstorms, hail not observed."
+],
+"a": 1
+},
+{
+"n": 23,
+"q": "Aerodrome Operations Vehicles are considered to be:",
+"o": [
+"FOD.",
+"Flight Operation Hazards.",
+"A possible source of FOD."
+],
+"a": 2
+},
+{
+"n": 24,
+"q": "Pilots will feel more confident intervening (when they think that a colleague has missed something) if they know that:",
+"o": [
+"The colleague has acted irresponsibly and needs to be reprimanded to be more careful.",
+"It is common for everyone to miss obvious things, and the colleague also knows this.",
+"No intervention is required if the colleague is a senior captain and must be doing the right thing."
+],
+"a": 1
+},
+{
+"n": 25,
+"q": "The minimum radar separation to be provided to aircraft established on the localizer course shall be:",
+"o": [
+"2.0NM between aircraft on adjacent localizer course,",
+"2.5NM between aircraft on the same localizer course.",
+"3.ONM between aircraft on the same localizer course."
+],
+"a": 1
+},
+{
+"n": 26,
+"q": "What is the purpose of a Crew Member's Certificate (CMC)?",
+"o": [
+"To allow flight crew to be exempted from customs, health and immigration formalities when disembarking.",
+"To permit access to the air side of an aerodrome for aircrew.",
+". To provide identification of aircrew."
+],
+"a": 2
+},
+{
+"n": 27,
+"q": "Operational Threats outside the control of light crew are:",
+"o": [
+"Adverse weather, Terrain, Airport conditions, Heavy traffic/TCAS events, Unfamiliar airports etc.",
+"Time pressure, Irregular operations, Flight diversions, Missed approaches etc.",
+"Aircraft malfunctions: Automation events etc."
+],
+"a": 1
+},
+{
+"n": 28,
+"q": "The closure of a runway for a year, because of maintenance, will be published:",
+"o": [
+"Only in AIP.",
+"In NOTAM and AIP, inclusive Supplement.",
+"Only in NOTAM."
+],
+"a": 1
+},
+{
+"n": 30,
+"q": "While flying on a magnetic track of 157 degrees the aircraft on VFR plan will select the following levels:",
+"o": [
+"70.",
+"75.",
+"85."
+],
+"a": 1,
+"ex": "Track 000°–179°: odd thousands + 500 ft for VFR."
+},
+{
+"n": 31,
+"q": "Which part of the ear could be affected due to air pressure changes during climb and/or descent?",
+"o": [
+"The cochlea.",
+"The eustachian tube and the tympanic membrane (ear drum).",
+"The semicircular canal and inner ear."
+],
+"a": 1
+},
+{
+"n": 32,
+"q": "High intensity obstacle lights should be:",
+"o": [
+"Flashing red.",
+"Flashing white.",
+"Fixed orange."
+],
+"a": 1
+},
+{
+"n": 33,
+"q": "An AIRAC is:",
+"o": [
+"An acronym for a system aimed at advance notification based on common effective dates, of circumstances necessitating significant changes in operating procedures.",
+"A notice distributed by means of telecommunication containing information concerning the establishment, condition or change in any aeronautical facility service, procedure or hazard, the timely knowledge of which is essential to personnel concerned with flight operations.",
+"A package which consists of the following elements: AIP, supplements to the AIP, NOTAM, AIC, checklists and summaries."
+],
+"a": 0
+},
+{
+"n": 34,
+"q": "Which of the following systems describes an abbreviated precision approach path indicator:",
+"o": [
+"Ten light units arranged on one side of the runway in the form of a single wing bar of four light units, with a bisecting longitudinal line of six lights.",
+"Twenty light units symmetrically disposed about the runway center line in the form of two wing bars of four light units each, with bisecting longitudinal lines of six lights.",
+"A wing bar of 2 sharp transition multi-lamp units normally located on the left side of the runway unless it is physically impracticable to do so."
+],
+"a": 2
+},
+{
+"n": 36,
+"q": "In a severe case of hypoxia:",
+"o": [
+"Only brain and heart functions are maintained.",
+"Only blood pressure and heart functions are maintained.",
+"Only blood pressure and brain functions are maintained."
+],
+"a": 1
+},
+{
+"n": 37,
+"q": "Which of the following is defined as \"The length of the take-off run available plus the length of the stop way, if providedại:",
+"o": [
+"Take off distance available.",
+"Landing distance available.",
+"Accelerate stop distance available."
+],
+"a": 2
+},
+{
+"n": 38,
+"q": "Who is responsible for providing search and rescue facilities over land?",
+"o": [
+"The State of Registry of the aircraft.",
+"The State from which the aircraft took off.",
+"The State in whose territory the crash occurred."
+],
+"a": 2
+},
+{
+"n": 39,
+"q": "If a pilot in the air sees a 2.5 meter symbol \"X\" on the ground. What does it mean?",
+"o": [
+"A survivor requires medical assistance.",
+"Aircraft not permitted to proceed beyond this point.",
+"Flying is prohibited over this area."
+],
+"a": 0
+},
+{
+"n": 41,
+"q": "Identify Runway Lighting on center line lighting system:",
+"o": [
+"Amber light from 3000' to 1000 ft then Alternative Red and which light to the end.",
+"Alternative Red and white light from 3000'ft to 1000 ft and then Red light to the end.",
+"Alternative Red and white light from 3000' ft to end of runway."
+],
+"a": 1
+},
+{
+"n": 43,
+"q": "When instructed by ATC to hold short of Runway pilot should stop:",
+"o": [
+"With nose gear on hold line.",
+"So that no part of the A/C extends beyond hold line.",
+"So that the FIt Deck Area of A/c is even with the hold line."
+],
+"a": 1
+},
+{
+"n": 44,
+"q": "State aircraft includes:",
+"o": [
+"Air India Aircraft.",
+"Military aircraft.",
+"All aircraft registered in India."
+],
+"a": 1
+},
+{
+"n": 49,
+"q": "STAR is a:",
+"o": [
+"Designated IFR arrival route.",
+"Designated VFR arrival route.",
+"Pole Star used to ascertain the true North."
+],
+"a": 0
+},
+{
+"n": 50,
+"q": "The west end of a runway oriented east and west is numbered:",
+"o": [
+"09.",
+"10 if the magnetic heading online up is 097 degrees.",
+"28."
+],
+"a": 0,
+"ex": "The west end is used by aircraft heading east (090°), so it is runway 09."
+}
+]
+}

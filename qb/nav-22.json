@@ -1,0 +1,226 @@
+{
+"title": "Inertial Navigation",
+"src": "R.K. Bali — Air Navigation, Part II Ch 6",
+"qs": [
+{
+"n": 1,
+"q": "An aircraft flies a great-circle track from waypoint 4 (35°00.0′S 20°00.0′W) to waypoint 5 (35°00.0′S 30°00.0′W). With DSR TK/ST selected on the CDU, the desired track displayed as the aircraft overflies waypoint 4 is:",
+"o": [
+"090.0°",
+"272.9°",
+"267.1°"
+],
+"a": 2,
+"ex": "Convergency = 0.5 × 10° × sin 35° = 2.87°; DSR TK = 270° − 2.87° = 267.13°."
+},
+{
+"n": 2,
+"q": "An aircraft flies a great-circle track from waypoint 4 (35°00.0′S 20°00.0′W) to waypoint 5 (35°00.0′S 30°00.0′W). With DIS/TIME selected, the distance to go displayed as the aircraft overflies waypoint 4 is:",
+"o": [
+"491.5 nm",
+"600 nm",
+"less than 491.5 nm"
+],
+"a": 2,
+"ex": "Rhumb-line distance = 10 × 60 × cos 35° = 491.5 nm; the great circle is always shorter."
+},
+{
+"n": 3,
+"q": "An aircraft flies a great-circle track from waypoint 4 (35°00.0′S 20°00.0′W) to waypoint 5 (35°00.0′S 30°00.0′W). With POS selected and the longitude readout showing 25°00.0′W, the latitude readout will be:",
+"o": [
+"35°00.0′S",
+"south of 35°00.0′S",
+"north of 35°00.0′S"
+],
+"a": 1,
+"ex": "In the southern hemisphere the great circle lies on the polar (south) side of the rhumb line."
+},
+{
+"n": 4,
+"q": "An aircraft flies a great-circle track from waypoint 4 (35°00.0′S 20°00.0′W) to waypoint 5 (35°00.0′S 30°00.0′W). With XTK/TKE selected, midway between the waypoints the cross-track readout will show:",
+"o": [
+"00.0",
+"R05.7",
+"L05.7"
+],
+"a": 0,
+"ex": "The aircraft is following the great-circle track, so there is no cross-track displacement."
+},
+{
+"n": 5,
+"q": "An aircraft flies a great-circle track from waypoint 4 (35°00.0′S 20°00.0′W) to waypoint 5 (35°00.0′S 30°00.0′W). The total change in track angle between waypoints 4 and 5 is:",
+"o": [
+"less than 10°, decreasing",
+"more than 10°, decreasing",
+"less than 10°, increasing"
+],
+"a": 2,
+"ex": "Track at WP5 = 267.13° + 5.74° = 272.87°: increasing, by less than 10°."
+},
+{
+"n": 6,
+"q": "Waypoint 3 is 55°15′N 178°37′W and waypoint 4 is 55°15′N 171°23′E. What would be the DSR TK indicated on leaving WPT 3?",
+"o": [
+"274.1°",
+"265.9°",
+"094.1°"
+],
+"a": 0,
+"ex": "RL track 270°; convergency WPT3–WPT4 = 0.5 × 10 × sin 55°15′ = 4.1°; initial GC track 274.1°."
+},
+{
+"n": 7,
+"q": "Waypoint 3 is 55°15′N 178°37′W and waypoint 4 is 55°15′N 171°23′E. What is the approximate distance to go at WPT 3?",
+"o": [
+"171.3 nm",
+"341.7 nm",
+"491.5 nm"
+],
+"a": 1,
+"ex": "Departure = 10 × 60 × cos 55°15′ = 341.7 nm."
+},
+{
+"n": 8,
+"q": "Waypoint 3 is 55°15′N 178°37′W and waypoint 4 is 55°15′N 171°23′E. If the INS shows 0 TKE at the mid-point, what latitude should it indicate?",
+"o": [
+"55°15′N",
+"55°09.2′N",
+"55°21.8′N"
+],
+"a": 2,
+"ex": "Convergency from WPT3 to the mid-point ≈ 2° over about 171 nm; in the northern hemisphere the great circle lies north of the rhumb line, so the latitude is north of 55°15′ (book: 55°21.8′N)."
+},
+{
+"n": 9,
+"q": "Waypoint 3 is 55°15′N 178°37′W and waypoint 4 is 55°15′N 171°23′E. On reaching waypoint 4, what TMG should be indicated?",
+"o": [
+"270°",
+"274.1°",
+"265.9°"
+],
+"a": 2,
+"ex": "Final GC direction = 270° − 4.1° = 265.9°."
+},
+{
+"n": 10,
+"q": "At the end of an 8 h 24 min flight, the INS shows 43°01.1′N 27°40.3′E on the stand. The actual stand position is 42°58.9′N 27°45.9′E. The INS error as a rate per hour of flight is:",
+"o": [
+"0.55 nm/h",
+"0.65 nm/h",
+"0.45 nm/h"
+],
+"a": 1,
+"ex": "Error 2.2 nm N–S and 5.6′ × cos 43° = 4.96 nm E–W → 5.46 nm ÷ 8.4 h ≈ 0.65 nm/h."
+},
+{
+"n": 11,
+"q": "The following WPTs are correctly entered in an INS linked to the autopilot. WPTI 35°00' N 17°30'E; WPT2 40°00' N 17°30'E; WPT3 40°00' N 14°14'E. From WPTI to WPT2, the desired track and distance would be shown as:",
+"o": [
+"180°T 300 nm",
+"000°T 238 nm",
+"000°T 300 nm"
+],
+"a": 2
+},
+{
+"n": 12,
+"q": "The function of the INS stable platform is to:",
+"o": [
+"provide a permanently horizontal basis for the system's gyroscopes",
+"ensure the accelerometers remain horizontal and correctly orientated",
+"provide a datum to integrate with the airborne computer"
+],
+"a": 1
+},
+{
+"n": 13,
+"q": "The function of the accelerometers in INS is to",
+"o": [
+"determine velocities and hence displacement and new position",
+"provide power to the torquers to maintain the stable platform's horizontality",
+"maintain the angular velocity of the stable platform"
+],
+"a": 0
+},
+{
+"n": 14,
+"q": "During the alignment procedure of the INS, the aircraft",
+"o": [
+"must not be moved",
+"may be taxied slowly but not subjected to accelerations of the magnitude used for take-off",
+"may taxi but not get airborne, as this involves vertical accelerations"
+],
+"a": 0
+},
+{
+"n": 15,
+"q": "A TAS input is required in an INS in order to:",
+"o": [
+"ensure the system starts to indicate change of position as it moves",
+"provide a datum against which the accelerometers can operate.",
+"display wind information"
+],
+"a": 2
+},
+{
+"n": 16,
+"q": "In a strap-down INS, laser lock is prevented by:",
+"o": [
+"Using Gyroscopes to keep the platform horizontal",
+"Using Dither motor to break the lock",
+"Using accelerometers and computers to compensate for delays"
+],
+"a": 1
+},
+{
+"n": 17,
+"q": "RLG in IRS is used to:",
+"o": [
+"Keep the gyroscopes gimbles free to move in all directions",
+"Enable computer to link up with EFIS",
+"Eliminate mechanical precession and topple"
+],
+"a": 2
+},
+{
+"n": 18,
+"q": "A laser gyro consists of:",
+"o": [
+"2 Gyroscopes to stablise the platform",
+"a laser generating two light waves",
+"a horizontal platform stabilized by 'level push button\""
+],
+"a": 1
+},
+{
+"n": 19,
+"q": "In order to align a strap down inertial unit, it is required to insert the local geographical coordinates. This is necessary to:",
+"o": [
+"position the computing trihedron with reference to earth",
+"check operation of laser gyros",
+"re-erect laser gyros"
+],
+"a": 0
+},
+{
+"n": 20,
+"q": "Sensors of an INS measure:",
+"o": [
+"Acceleration",
+"Velocity",
+"Drift Angle"
+],
+"a": 0
+},
+{
+"n": 21,
+"q": "In ATT Mode IRS provides the following information:",
+"o": [
+"heading, position and ground speed.",
+"acceleration, angular rate and attitude data.",
+"heading, acceleration and attitude data."
+],
+"a": 1
+}
+]
+}

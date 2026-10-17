@@ -1,0 +1,58 @@
+{
+"title": "Power Plant and System Monitoring Instruments",
+"src": "R.K. Bali — Air Navigation, Part II Ch 8",
+"qs": [
+{
+"n": 1,
+"q": "What type of sensor is used to measure the output of a low pressure booster pump:",
+"o": [
+"bourdon tube",
+"aneroid capsule",
+"bellows"
+],
+"a": 0,
+"ex": "Book's key. Low pressures are more usually measured with bellows or a capsule; Bourdon tubes suit high pressures."
+},
+{
+"n": 2,
+"q": "The two principal types of direct reading pressure gauge are:",
+"o": [
+"the Bourdon tube type and the capsule operated type.",
+"capacitance type and bellows.",
+"manifold pressure type and engine pressure type."
+],
+"a": 0
+},
+{
+"n": 3,
+"q": "Which of the following are used to measure temperature? 1. Thermocouple 2. Resistance 3. Reactance 4. Mercury",
+"o": [
+"1, 2, 3, 4",
+"1, 2 and 4",
+"1, 3 and 4"
+],
+"a": 1
+},
+{
+"n": 4,
+"q": "An aircraft has a compensated capacitance fuel contents gauging system and is refuelled so that the total fuel contents are 76 000 kg at 18 °C and an SG of 0.81. Whilst the aircraft is parked the temperature increases to 26 °C and the SG becomes 0.80. The indicated fuel contents have:",
+"o": [
+"decreased by 2%",
+"increased by 1.25%",
+"remained the same"
+],
+"a": 1,
+"ex": "Book's key. A compensated capacitance system indicates mass, which has not changed, so many sources give 'remained the same'."
+},
+{
+"n": 5,
+"q": "The Bourdon tube is used to measure:",
+"o": [
+"fuel flow",
+"vibrations",
+"pressure"
+],
+"a": 2
+}
+]
+}

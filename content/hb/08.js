@@ -2,6 +2,7 @@ module.exports = {
   n: 8, title: 'High-Speed Flight, Envelope and Aeroelasticity', tag: 'Mcrit · shock formation · normal and oblique shocks · Mach tuck · area rule · supercritical wing · V-n envelope · flutter', icon: 'zap', hue: 1, partOfBook: 'Part 2 · Aerodynamics',
   big: 'What changes as an aircraft approaches and passes the speed of sound: where shockwaves form and move, what they do to lift, drag, pitch and controls, the designs that delay or tame them, how stability changes, and the structural limits of the manoeuvre envelope and aeroelastic failures.',
   purpose: 'Mcrit definition and what lowers it, the speed regimes, the shock sequence on an aerofoil, shock properties, Mach tuck and trim, area rule and supercritical aerofoils, envelope margins, and aileron reversal/divergence/flutter all appear regularly.',
+  bankLead: 'The Handbook prints no question bank, so these are original questions written for Glidepath from the book’s facts — not the book’s own questions. Your answers are saved.',
   lessons: [
     { id: 'map', type: 'mindmap', short: 'Mind map', icon: 'brain', ask: 'The whole chapter on one page',
       root: { label: 'High speed', children: [
@@ -15,7 +16,7 @@ module.exports = {
         { label: 'Aeroelastic', children: [{ label: 'Aileron reversal' }, { label: 'Divergence' }, { label: 'Flutter' }] },
       ] } },
 
-    { id: 'regimes', part: 'Mach number', type: 'matrix', icon: 'gauge', ask: 'Where does each speed regime start?', revise: true, dgca: true,
+    { id: 'regimes', hook: '0.4, Mcrit, 1.2, 5.', short: 'Speed regimes', takeaway: 'Low subsonic to M 0.4, high subsonic to Mcrit (~0.75), transonic to M 1.2, supersonic to M 5 and hypersonic beyond.', part: 'Mach number', type: 'matrix', icon: 'gauge', ask: 'Where does each speed regime start?', revise: true, dgca: true,
       corner: 'Regime', cols: ['Mach range', 'Note'],
       rows: [
         { label: 'Low subsonic', cells: ['0 – 0.4', 'air treated as incompressible'] },
@@ -24,17 +25,17 @@ module.exports = {
         { label: 'Supersonic', cells: ['1.2 – 5', 'all supersonic; Mdet ends transonic'] },
         { label: 'Hypersonic', cells: ['5 – 10', '—'] },
       ] },
-    { id: 'mach-defs', type: 'pairs', icon: 'scale', ask: 'MFS, ML, MMO, Mcrit, Mdet', dgca: true,
+    { id: 'mach-defs', short: 'Mcrit and friends', type: 'pairs', icon: 'scale', ask: 'MFS, ML, MMO, Mcrit, Mdet', dgca: true,
       takeaway: 'Mcrit is the free-stream Mach number at which the air somewhere on the aircraft (usually over maximum camber) first reaches M 1. Shocks follow, with falling CL and rising drag. More AoA (more weight) means faster local flow, so a lower Mcrit.',
       hook: 'Critical = the first sonic spot.',
       pairs: [
         { a: { label: 'Free-stream vs local Mach', body: '**MFS**: aircraft speed ÷ LSS (Machmeter). **ML**: local, varies over the airframe; **highest at max camber**.' }, b: { label: 'Mcrit', body: 'MFS when **ML first = 1.0**. Beyond: shocks, CL ↓, drag ↑. **AoA ↑ / weight ↑ → Mcrit ↓.** MMO is set below it.' }, rule: 'Mdet: above it the bow shock barely moves — upper limit of transonic.' },
         { a: { label: 'Speed of sound', body: '**LSS = 39 √T(K)** kt — temperature only. Colder at height → lower LSS.' }, b: { label: 'Climbing', body: 'Constant TAS → Mach **rises**. Constant IAS → Mach rises **faster** (TAS rises too).' }, rule: '' },
       ] },
-    { id: 'shocks', part: 'Shock formation', type: 'svg', fig: 'shock-progression', icon: 'zap', ask: 'Where are the shockwaves at each Mach number?', dgca: true,
+    { id: 'shocks', short: 'Shock formation', part: 'Shock formation', type: 'svg', fig: 'shock-progression', icon: 'zap', ask: 'Where are the shockwaves at each Mach number?', dgca: true,
       takeaway: 'At Mcrit a normal shock appears on the upper surface; past it the shock moves back, another forms underneath, and separation behind the top shock causes the shock stall. By about M 0.98 both shocks sit at the trailing edge and lift recovers. Above M 1 a bow wave forms ahead, attaching to the leading edge by about M 1.4, when CP settles at 50% chord.',
       hook: 'Top first, then bottom, both back, bow in front.' },
-    { id: 'cl-cd', type: 'sequence', icon: 'pulse', ask: 'CL, CD and CP through the transonic range',
+    { id: 'cl-cd', short: 'CL, CD and CP with Mach', takeaway: 'CL rises to Mcrit, drops at the shock stall and recovers when the shocks reach the trailing edge; CD climbs throughout the transonic range; CP settles at about 50% supersonic.', type: 'sequence', icon: 'pulse', ask: 'CL, CD and CP through the transonic range',
       steps: [
         { label: 'M 0.4–0.75', sub: 'CL rises', tip: 'Pressure waves build ahead; CL rises steadily; CP about 30% chord.' },
         { label: 'Mcrit ≈ 0.81', sub: 'top shock', tip: 'Upper flow reaches M 1: normal shock on top. CL at its maximum; CP moves back a little.' },
@@ -43,10 +44,10 @@ module.exports = {
         { label: '> M 1.0', sub: 'bow wave', tip: 'Bow shock forms ahead and approaches the LE as speed rises. No upwash or downwash.' },
         { label: '≈ M 1.4', sub: 'CP 50%', tip: 'Bow wave attached at the LE; CL lower; CD falls for the first time; CP stabilises at about 50% chord.' },
       ] },
-    { id: 'shock-types', type: 'svg', fig: 'shock-types', icon: 'layers', ask: 'Normal, oblique or expansion wave?', dgca: true,
+    { id: 'shock-types', short: 'Shock types', type: 'svg', fig: 'shock-types', icon: 'layers', ask: 'Normal, oblique or expansion wave?', dgca: true,
       takeaway: 'Behind a normal shock the flow is always subsonic, unchanged in direction, with the biggest jump in pressure, density and temperature and the biggest loss of energy. An oblique shock turns the flow and may leave it supersonic, with less loss. An expansion wave turns the flow the other way and speeds it up with no energy loss.',
       hook: 'Normal stops it, oblique bends it, expansion frees it.' },
-    { id: 'shock-table', type: 'matrix', icon: 'list', ask: 'What changes across each wave?', revise: true, tier: 'exam',
+    { id: 'shock-table', short: 'Across the shocks', takeaway: 'Normal shocks slow flow to subsonic with a large energy loss; oblique shocks turn it with less loss; expansion waves speed it up with none.', type: 'matrix', icon: 'list', ask: 'What changes across each wave?', revise: true, tier: 'exam',
       corner: 'Across', cols: ['Normal shock', 'Oblique shock', 'Expansion'],
       rows: [
         { label: 'Flow direction', cells: ['no change', 'turned', 'turned (gradually)'] },
@@ -55,19 +56,19 @@ module.exports = {
         { label: 'Density, temperature', cells: ['↑↑', '↑', '↓'] },
         { label: 'Total pressure (energy)', cells: [{ v: 'large loss', key: true }, 'smaller loss', { v: 'no loss', key: true }] },
       ] },
-    { id: 'duct', type: 'pairs', icon: 'wind', ask: 'Convergent or divergent: which speeds the flow up?',
+    { id: 'duct', short: 'Ducts', takeaway: 'Subsonic flow speeds up in a convergent duct, supersonic flow in a divergent one.', type: 'pairs', icon: 'wind', ask: 'Convergent or divergent: which speeds the flow up?',
       pairs: [
         { a: { label: 'Subsonic flow', body: '**Convergent** duct: V ↑, P ↓. Divergent: V ↓, P ↑.' }, b: { label: 'Supersonic flow', body: '**Divergent** duct: V ↑, P ↓. Convergent: V ↓, P ↑.' }, rule: 'Above M 1 the air expands into the extra area: density and pressure fall and Mach rises — that is why flow keeps accelerating behind the crest of a wing.' },
       ] },
 
-    { id: 'effects', part: 'Effects of shocks', type: 'bullets', icon: 'alert', ask: 'What do shocks do to lift, drag, pitch and controls?', dgca: true,
+    { id: 'effects', hook: 'Shocks: less lift, more drag, nose tucks.', short: 'Effects of shocks', takeaway: 'Shocks cut CLmax, add wave and interference drag, shift the CP aft to cause Mach tuck, and spoil control effectiveness or cause control buzz.', part: 'Effects of shocks', type: 'bullets', icon: 'alert', ask: 'What do shocks do to lift, drag, pitch and controls?', dgca: true,
       groups: [
         { title: 'Lift', icon: 'plane', points: ['**CLmax and stalling AoA reduced**', 'Shock stall from separation behind the top shock'] },
         { title: 'Drag', icon: 'wind', points: ['**Wave drag**: heat behind shock = lost energy; oblique shocks lose less', 'Interference drag', 'Shock-induced separation', 'Cut by VGs, area rule, thin wings, sharp LE'] },
         { title: 'Pitch: Mach tuck', icon: 'alert', points: ['CP moves **back** → nose-down', 'Less downwash at the tail adds to it', 'Dive raises Mach further → **trim drag**', 'Fixes: **Mach trimmer**, aft CG, canards, less CP travel'] },
         { title: 'Controls', icon: 'sliders', points: ['Shock ahead of a deflected surface cuts its effect', '**Control buzz**: shock near the hinge', 'Fixes: VGs, **all-moving tailplane**, roll spoilers'] },
       ] },
-    { id: 'designs', part: 'Designs for high speed', type: 'matrix', icon: 'grid', ask: 'Which design fixes what?', revise: true, dgca: true,
+    { id: 'designs', hook: 'Thin, swept, area-ruled, supercritical.', short: 'High-speed designs', takeaway: 'Mach trimmers, area ruling, thin and swept wings, supercritical sections, canards and deltas each tackle a particular high-speed problem.', part: 'Designs for high speed', type: 'matrix', icon: 'grid', ask: 'Which design fixes what?', revise: true, dgca: true,
       corner: 'Design', cols: ['Purpose', 'Catch'],
       rows: [
         { label: 'Mach trim', cells: ['cancels **Mach tuck**, keeps stick-force gradient', 'works only at high Mach'] },
@@ -81,11 +82,11 @@ module.exports = {
         { label: 'Tip droop (to 65°)', cells: ['CP forward, more directional stability', '—'] },
         { label: 'Compression lift', cells: ['shock under the body adds lift (> M 3)', 'wave rider'] },
       ] },
-    { id: 'supercrit', type: 'pairs', icon: 'plane', ask: 'Supercritical vs conventional aerofoil',
+    { id: 'supercrit', short: 'Supercritical aerofoil', takeaway: 'A flat-topped, aft-cambered supercritical section delays and weakens the upper-surface shock while staying thick enough for strength and fuel.', type: 'pairs', icon: 'plane', ask: 'Supercritical vs conventional aerofoil',
       pairs: [
         { a: { label: 'Conventional', body: 'Curved top accelerates the flow strongly: **strong shock** at a lower Mach number.' }, b: { label: 'Supercritical', body: '**Blunt nose, thick, flat upper surface, S-shaped camber** (aft camber): flow speeds up less, shock **later and weaker**, more even loading; room for fuel and strength. Needs more high-lift devices.' }, rule: 'Supercritical = flatter top, weaker shock.' },
       ] },
-    { id: 'stability', part: 'Stability at high Mach', type: 'stamp', icon: 'check', ask: 'Up or down as Mach number rises?', tier: 'exam',
+    { id: 'stability', short: 'Stability at high Mach', takeaway: 'As Mach rises longitudinal stability and trim drag increase, while lateral and directional stability decrease.', part: 'Stability at high Mach', type: 'stamp', icon: 'check', ask: 'Up or down as Mach number rises?', tier: 'exam',
       stamps: [{ id: 'up', label: 'Increases' }, { id: 'dn', label: 'Decreases' }],
       cases: [
         { text: 'Longitudinal static stability.', answer: 'up', why: 'CP moves back to ~50%; longer CP–CG arm; less downwash at the tail.' },
@@ -93,15 +94,15 @@ module.exports = {
         { text: 'Directional stability.', answer: 'dn', why: 'Fin effectiveness falls supersonic.' },
         { text: 'Trim drag.', answer: 'up', why: 'CP movement and Mach tuck need more tail force.' },
       ] },
-    { id: 'coupling', type: 'pairs', icon: 'refresh', ask: 'Yaw divergence vs pitch divergence',
+    { id: 'coupling', short: 'Inertia coupling', takeaway: 'Yaw divergence affects aircraft strong in pitch but weak in yaw; pitch divergence the reverse. Limiting roll rates and adding directional stability prevent both.', type: 'pairs', icon: 'refresh', ask: 'Yaw divergence vs pitch divergence',
       pairs: [
         { a: { label: 'Yaw divergence', body: 'Good **longitudinal**, poor **directional** stability. Pulling up in a fast roll: high **pitch-plane inertia** yaws the aircraft further.' }, b: { label: 'Pitch divergence', body: 'Good **directional**, poor **longitudinal** stability. Combined roll and yaw: high **yaw-plane inertia** drives the nose down.' }, rule: 'Cures: small inertia-axis inclination, more directional stability, roll-rate limits.' },
       ] },
 
-    { id: 'envelope', part: 'Manoeuvre envelope', type: 'svg', fig: 'vn-envelope', icon: 'grid', ask: 'How do you read a manoeuvre envelope?', dgca: true,
+    { id: 'envelope', short: 'V-n envelope', part: 'Manoeuvre envelope', type: 'svg', fig: 'vn-envelope', icon: 'grid', ask: 'How do you read a manoeuvre envelope?', dgca: true,
       takeaway: 'The curved CLmax lines show the most load factor the wing can make at each EAS: beyond them it stalls, it does not break. Where the curve meets 1 g is the basic stall speed; where it meets the limit load factor is the manoeuvring speed. The g limits carry a 50% margin to failure, the VD line a 5–10% margin.',
       hook: 'Curve = stall; flat top = strength; right wall = speed.' },
-    { id: 'env-list', type: 'bullets', icon: 'list', ask: 'Envelope details',
+    { id: 'env-list', short: 'Envelope details', takeaway: 'The CLmax boundary means stall rather than damage; the g limits carry a 50% margin to failure; the right-hand VD wall carries a 5–10% caution margin.', type: 'bullets', icon: 'list', ask: 'Envelope details',
       groups: [
         { title: 'CLmax boundary', icon: 'pulse', points: ['Beyond it: **stall, not overstress**', 'Meets n = 1 at **basic stalling speed**'] },
         { title: 'g limits', icon: 'weight', points: ['Max + and − load factor', '**50% safety margin** before failure', 'Heavier → **lower** g allowed'] },
@@ -109,19 +110,19 @@ module.exports = {
         { title: 'Also', icon: 'layers', points: ['Redrawn for altitude (CLmax falls)', 'Rolling-g limits', 'Buffet corners cut'] },
       ] },
 
-    { id: 'aeroelastic', part: 'Aeroelastic problems', type: 'svg', fig: 'aeroelastic', icon: 'waves', ask: 'Aileron reversal, divergence or flutter?', dgca: true,
+    { id: 'aeroelastic', short: 'Aeroelastic problems', part: 'Aeroelastic problems', type: 'svg', fig: 'aeroelastic', icon: 'waves', ask: 'Aileron reversal, divergence or flutter?', dgca: true,
       takeaway: 'Aileron reversal: at high IAS a down-going aileron twists a flexible wing nose-down so the roll goes the wrong way. Divergence: with the CP ahead of the flexural axis, lift twists the wing nose-up, more lift, more twist, until it breaks. Flutter: an oscillation coupled to the structure\'s own vibration, usually because a control surface\'s CG is behind its hinge.',
       hook: 'Reversal twists back, divergence twists up, flutter shakes apart.' },
-    { id: 'ae-sort', type: 'classify', icon: 'grid', ask: 'Which aeroelastic problem?', tier: 'exam',
+    { id: 'ae-sort', short: 'Reversal, divergence, flutter', takeaway: 'Aileron reversal comes from wing twist at high speed, divergence from the CP ahead of the flexural axis, and flutter from structural vibration coupling — cured by mass balance.', type: 'classify', icon: 'grid', ask: 'Which aeroelastic problem?', tier: 'exam',
       buckets: [{ id: 'r', label: 'Aileron reversal' }, { id: 'd', label: 'Divergence' }, { id: 'f', label: 'Flutter' }],
       items: [
         { text: 'Aircraft rolls the opposite way at high IAS', bucket: 'r' }, { text: 'Cured by inboard ailerons', bucket: 'r' }, { text: 'Most likely with fully powered controls', bucket: 'r' },
         { text: 'CP ahead of the flexural axis', bucket: 'd' }, { text: 'No contribution from control movement', bucket: 'd' }, { text: 'Engines hung ahead of and below the wing help', bucket: 'd' },
         { text: 'Control-surface CG behind its hinge', bucket: 'f' }, { text: 'Cured by mass balance', bucket: 'f' }, { text: 'Wing flaps like a bird\'s (flexural)', bucket: 'f' },
       ] },
-    { id: 'numbers', part: 'Numbers', type: 'numbers', icon: 'hash', ask: 'Numbers to know',
+    { id: 'numbers', short: 'Numbers', part: 'Numbers', type: 'numbers', icon: 'hash', ask: 'Numbers to know',
       items: [{ k: 'Incompressible below', v: 'M 0.4' }, { k: 'Transonic', v: 'M 0.75–1.2' }, { k: 'Supersonic', v: 'M 1.2–5' }, { k: 'Hypersonic', v: 'M 5–10' }, { k: 'Mcrit (book example)', v: 'M 0.81' }, { k: 'Shock stall', v: '≈ M 0.89' }, { k: 'Shocks at TE', v: '≈ M 0.98' }, { k: 'Bow wave attached', v: '≈ M 1.4' }, { k: 'Subsonic CP', v: '≈ 30% chord' }, { k: 'Supersonic CP', v: '≈ 50% chord' }, { k: 'Cruise climb ends', v: '≈ M 0.8' }, { k: 'Tip droop', v: 'up to 65°' }, { k: 'Compression lift', v: 'beyond M 3' }, { k: 'g-limit margin', v: '50%' }, { k: 'VD margin', v: '5–10%' }] },
-    { id: 'quiz', type: 'quiz', icon: 'check', ask: 'Quick check',
+    { id: 'quiz', short: 'Quick check', type: 'quiz', icon: 'check', ask: 'Quick check',
       questions: [
         { q: 'The critical Mach number is the free-stream Mach number at which:', options: ['The aircraft goes supersonic', 'Local flow first reaches M 1 somewhere', 'The bow wave attaches', 'Drag is lowest'], answer: 1 },
         { q: 'Increasing weight (higher AoA) makes Mcrit:', options: ['Higher', 'Lower', 'Unchanged'], answer: 1 },

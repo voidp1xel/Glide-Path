@@ -32,7 +32,7 @@ module.exports = {
     { id: 'height', part: 'Where density changes', type: 'svg', fig: 'density-halves', icon: 'layers', ask: 'How fast does density fall with height?',
       takeaway: 'About 3% per 1000 ft near the ground. Half at 6 km, a quarter at 11 km, an eighth at 17 km.',
       hook: '6-11-17: halve, halve, halve.' },
-    { id: 'latitude', type: 'pairs', icon: 'globe', ask: 'Where is air densest: equator or pole?',
+    { id: 'latitude', takeaway: 'Below about 8 km the air is densest over the cold poles; above 8 km the order reverses and the equator has the densest air. Density altitude equals pressure altitude only in ISA.', hook: 'Eight kilometres: the density flip.', type: 'pairs', icon: 'globe', ask: 'Where is air densest: equator or pole?',
       pairs: [
         { a: { label: 'Below 8 km', body: 'Densest at the **poles** (cold), least at the equator.' }, b: { label: 'Above 8 km', body: '**Reversal**: densest over the **equator**.' }, rule: 'Same 8 km reversal as temperature.' },
         { a: { label: 'Piston (low level)', body: 'More efficient in **high latitudes**.' }, b: { label: 'Jet (high level)', body: 'More efficient in the **tropics**.' }, rule: 'Each likes the latitude where its cruise air is densest.' },

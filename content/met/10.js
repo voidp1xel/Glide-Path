@@ -31,7 +31,7 @@ module.exports = {
         { name: 'St Elmo\'s fire', sub: 'glow on the aircraft', fig: 'op-stelmo', hue: 3, rows: [['You see', 'Bluish/greenish glow with crackling on wingtips, nose, propellers or windscreen.'], ['Cause', 'Strong electric field (corona discharge) in **CU/CB**.'], ['Pilot', 'Weak to moderate; warns of a charged environment and possible lightning.']] },
         { name: 'Sun dogs', sub: 'parhelia · 22°', fig: 'op-sundog', hue: 4, extra: true, rows: [['You see', 'Bright coloured spots **22° to either side** of the sun, at the sun\'s height.'], ['Cause', 'Refraction through **horizontal plate ice crystals** (CI/CS).'], ['Note', 'Beyond the book; often seen with halos.']] },
       ] },
-    { id: 'which', type: 'flow', icon: 'help', ask: 'Which phenomenon am I seeing?', dgca: true,
+    { id: 'which', takeaway: 'Sun behind you: rainbow (on rain) or glory (round your shadow). A ring round the sun: 22° in an icy veil = halo; a small ring = corona. Displaced images = mirage. Colours on cloud edges = irisation.', hook: 'Rainbows and glories face away from the sun.', type: 'flow', icon: 'help', ask: 'Which phenomenon am I seeing?', dgca: true,
       start: 'q1', nodes: {
         q1: { text: 'Is it opposite the sun (sun behind you)?', yes: 'q2', no: 'q3' },
         q2: { text: 'Big coloured arcs on rain or fog?', yes: 'rb', no: 'gl' },
@@ -47,7 +47,7 @@ module.exports = {
     { id: 'halo-corona', part: 'Rings round the sun', type: 'svg', fig: 'halo-corona', icon: 'sun', ask: 'Halo or corona?', dgca: true,
       takeaway: 'Halo: big 22° ring from refraction in ice crystals of cirrostratus — little icing risk. Corona: small coloured rings from diffraction in water droplets of altostratus — icing possible above the freezing level.',
       hook: 'Halo is High and has a big Hoop; Corona is Close and cold-wet.' },
-    { id: 'compare', type: 'matrix', icon: 'list', ask: 'Every optical effect side by side', revise: true,
+    { id: 'compare', takeaway: 'Rainbows come from refraction and reflection in raindrops (42°, red outside); halos from refraction in ice crystals (22°); coronas, glories and Bishop\'s rings from diffraction by small droplets or dust; mirages from refraction in layers of different density.', hook: 'Refraction makes big rings, diffraction small ones.', type: 'matrix', icon: 'list', ask: 'Every optical effect side by side', revise: true,
       corner: 'Effect', cols: ['Cause', 'Medium', 'Size / colour'],
       rows: [
         { label: 'Rainbow', cells: ['2 refractions + 1 internal reflection', 'Raindrops (sun behind you)', '42°, red outside; secondary 52° reversed'] },
@@ -64,7 +64,7 @@ module.exports = {
     { id: 'mirage', part: 'Bent light', type: 'svg', fig: 'mirage', icon: 'eye', ask: 'Inferior or superior mirage?',
       takeaway: 'Inferior mirage over hot surfaces (steep lapse rate) puts an image below the object. Superior mirage over cold surfaces (inversion) lifts it above.',
       hook: 'Hot = image dips (inferior); Cold = image climbs (superior).' },
-    { id: 'aurora', part: 'Light and electricity', type: 'pairs', icon: 'zap', ask: 'Aurora and lightning facts',
+    { id: 'aurora', takeaway: 'Aurora borealis is the northern lights, australis the southern, both near the magnetic poles. St Elmo\'s fire (a blue-green glow on the airframe in CU/CB) warns of a strong electric field: lightning may follow.', hook: 'Boreal is north.', part: 'Light and electricity', type: 'pairs', icon: 'zap', ask: 'Aurora and lightning facts',
       pairs: [
         { a: { label: 'Aurora Borealis', body: '**Northern Lights**, N hemisphere (NW Greenland).' }, b: { label: 'Aurora Australis', body: '**Southern Lights**, S hemisphere.' }, rule: 'Boreal = north. Both near the magnetic poles, 70–1000 km.' },
         { a: { label: 'Sheet lightning', body: 'Discharge **within** the cloud.' }, b: { label: 'Ground discharge', body: 'Cloud to ground (thunderbolt), branching streak.' }, rule: 'Air discharge goes cloud to air.' },

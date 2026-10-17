@@ -1,14 +1,14 @@
 /* Glidepath sync configuration.
-   1. Create a Firebase project (console.firebase.google.com) → add a Web app → copy its config here.
-   2. Enable Authentication → Sign-in method → Google.
-   3. Create a Firestore database and publish the rules in firebase/firestore.rules.
-   Leave it as null and the site stays local-only (nothing is sent anywhere). */
-window.GLIDEPATH_FIREBASE = null;
-/* e.g.
-window.GLIDEPATH_FIREBASE = {
-  apiKey: '…', authDomain: 'your-project.firebaseapp.com', projectId: 'your-project',
-  storageBucket: 'your-project.appspot.com', messagingSenderId: '…', appId: '…',
-};
-*/
-/* Local testing against the Firebase emulator suite (firebase emulators:start). */
-window.GLIDEPATH_EMULATOR = false;
+   Local development uses the repo's Firebase emulators. Production remains local-only
+   until the owner supplies the real Firebase web-app config. */
+const GP_LOCAL_HOSTS = new Set(['localhost', '127.0.0.1']);
+const GP_LOCAL_EMULATOR = GP_LOCAL_HOSTS.has(location.hostname);
+window.GLIDEPATH_EMULATOR = GP_LOCAL_EMULATOR;
+window.GLIDEPATH_FIREBASE = GP_LOCAL_EMULATOR ? {
+  apiKey: 'demo-api-key',
+  authDomain: 'demo-glidepath.firebaseapp.com',
+  projectId: 'demo-glidepath',
+  storageBucket: 'demo-glidepath.appspot.com',
+  messagingSenderId: '1234567890',
+  appId: '1:1234567890:web:glidepath-emulator',
+} : null;

@@ -1,0 +1,378 @@
+{
+"title": "Flight Mechanics",
+"src": "Practice questions written for Glidepath from the Aviator's Handbook, Part 2, 2-42 to 2-48 (not printed in the book: the Handbook has no question bank)",
+"qs": [
+{
+"n": 1,
+"q": "In a steady climb:",
+"o": [
+"Lift exceeds weight",
+"Lift equals weight",
+"Thrust is less than drag",
+"Lift is less than weight"
+],
+"a": 3,
+"ex": "Lift = W cos θ."
+},
+{
+"n": 2,
+"q": "The angle of climb depends on:",
+"o": [
+"Excess thrust",
+"Minimum drag only",
+"Wind",
+"Excess power"
+],
+"a": 0,
+"ex": "sin θ = (T − D)/W."
+},
+{
+"n": 3,
+"q": "The rate of climb depends on:",
+"o": [
+"Excess power",
+"Headwind",
+"Excess thrust",
+"Wing loading only"
+],
+"a": 0,
+"ex": "ROC = excess power ÷ weight."
+},
+{
+"n": 4,
+"q": "For a jet aircraft, Vx is approximately:",
+"o": [
+"1.32 VMD",
+"VMD",
+"VMP",
+"VS1"
+],
+"a": 1,
+"ex": "Thrust is roughly constant with speed."
+},
+{
+"n": 5,
+"q": "A headwind during a climb:",
+"o": [
+"Increases the climb gradient over the ground",
+"Increases the rate of climb",
+"Has no effect on anything",
+"Reduces the rate of climb"
+],
+"a": 0,
+"ex": "ROC is unchanged."
+},
+{
+"n": 6,
+"q": "Climb gradient equals:",
+"o": [
+"TAS ÷ ROC",
+"ROC ÷ groundspeed",
+"Thrust ÷ drag",
+"ROC ÷ TAS × weight"
+],
+"a": 1,
+"ex": "Book 2-43."
+},
+{
+"n": 7,
+"q": "Step climbing keeps the aircraft within about:",
+"o": [
+"2000 ft of the optimum altitude",
+"5000 ft",
+"500 ft",
+"10,000 ft"
+],
+"a": 0,
+"ex": "Steps of 4000 ft."
+},
+{
+"n": 8,
+"q": "Step climb achieves about what percentage of cruise-climb efficiency?",
+"o": [
+"50%",
+"110%",
+"75%",
+"99%"
+],
+"a": 3,
+"ex": "Book 2-44."
+},
+{
+"n": 9,
+"q": "In a glide the forces acting are:",
+"o": [
+"Lift and weight only",
+"Lift, drag and weight",
+"Lift, thrust and weight",
+"Thrust, drag and weight"
+],
+"a": 1,
+"ex": "No thrust."
+},
+{
+"n": 10,
+"q": "Best glide range is obtained at:",
+"o": [
+"VMD",
+"1.32 VMD",
+"VNE",
+"VMP"
+],
+"a": 0,
+"ex": "Maximum L/D."
+},
+{
+"n": 11,
+"q": "A heavier glider flown at its own best glide speed will:",
+"o": [
+"Glide further",
+"Have a flatter glide angle",
+"Glide less far",
+"Glide the same distance at a higher speed"
+],
+"a": 3,
+"ex": "L/D is independent of weight."
+},
+{
+"n": 12,
+"q": "Wind affects the glide's:",
+"o": [
+"Distance over the ground, not the rate of descent",
+"Rate of descent",
+"Both rate and distance",
+"Neither"
+],
+"a": 0,
+"ex": "Book 2-45."
+},
+{
+"n": 13,
+"q": "Best glide endurance (minimum sink) is at:",
+"o": [
+"1.32 VMD",
+"VMP",
+"VS0",
+"VMD"
+],
+"a": 1,
+"ex": "ROD = DV/W, least at VMP."
+},
+{
+"n": 14,
+"q": "Load factor in a level 60° bank turn is:",
+"o": [
+"1.41",
+"2",
+"4",
+"1.15"
+],
+"a": 1,
+"ex": "n = 1/cos φ."
+},
+{
+"n": 15,
+"q": "At constant bank, doubling the TAS makes the turn radius:",
+"o": [
+"Half",
+"Four times larger",
+"Unchanged",
+"Twice as large"
+],
+"a": 1,
+"ex": "r = V²/(g tan φ)."
+},
+{
+"n": 16,
+"q": "At constant bank, doubling the TAS makes the rate of turn:",
+"o": [
+"Double",
+"Half",
+"Four times",
+"Unchanged"
+],
+"a": 1,
+"ex": "ω = g tan φ ÷ V."
+},
+{
+"n": 17,
+"q": "At the same TAS and bank angle, turn radius:",
+"o": [
+"Depends on flap only",
+"Is independent of weight",
+"Decreases with weight",
+"Increases with weight"
+],
+"a": 1,
+"ex": "Book 2-46."
+},
+{
+"n": 18,
+"q": "The minimum radius of turn requires:",
+"o": [
+"CLmax, low wing loading and high density",
+"High wing loading",
+"Minimum CL",
+"High altitude"
+],
+"a": 0,
+"ex": "Book 2-47."
+},
+{
+"n": 19,
+"q": "Best range speed for a propeller aircraft is:",
+"o": [
+"VMD",
+"1.32 VMD",
+"VMO",
+"VMP"
+],
+"a": 0,
+"ex": "Book 2-48."
+},
+{
+"n": 20,
+"q": "Best endurance speed for a jet is:",
+"o": [
+"1.32 VMD",
+"VMP",
+"VMD",
+"1.19 VMD"
+],
+"a": 2,
+"ex": "Jet fuel flow follows thrust."
+},
+{
+"n": 21,
+"q": "Long-range cruise is about 4% faster than best-range speed and gives about:",
+"o": [
+"90% of the range",
+"110% of the range",
+"99% of the range",
+"50% of the range"
+],
+"a": 2,
+"ex": "Book 2-48."
+},
+{
+"n": 22,
+"q": "A 5% increase in weight increases fuel consumption by about:",
+"o": [
+"25%",
+"0.5%",
+"10%",
+"4.5%"
+],
+"a": 3,
+"ex": "Book 2-48."
+},
+{
+"n": 23,
+"q": "Typically at low speed the CP lies ahead of the CG, giving:",
+"o": [
+"A rolling moment",
+"A nose-down moment",
+"A nose-up moment",
+"No moment"
+],
+"a": 2,
+"ex": "Behind it at high speed."
+},
+{
+"n": 24,
+"q": "At constant weight, the relationship between EAS and angle of attack with altitude:",
+"o": [
+"Reverses",
+"Decreases",
+"Increases",
+"Does not change"
+],
+"a": 3,
+"ex": "Book 2-42."
+},
+{
+"n": 25,
+"q": "In a steady climb, thrust balances drag plus:",
+"o": [
+"Lift",
+"Weight",
+"W sin θ",
+"W cos θ"
+],
+"a": 2,
+"ex": "Lift supports W cos θ."
+},
+{
+"n": 26,
+"q": "A headwind during a climb affects the rate of climb by:",
+"o": [
+"Increasing it",
+"Doubling it",
+"Decreasing it",
+"Nothing"
+],
+"a": 3,
+"ex": "Only the gradient over the ground changes."
+},
+{
+"n": 27,
+"q": "In a cruise climb the aircraft climbs slowly at constant:",
+"o": [
+"IAS",
+"Altitude",
+"Power",
+"TAS"
+],
+"a": 3,
+"ex": "Book 2-44."
+},
+{
+"n": 28,
+"q": "A heavier glider flown at its best glide speed has:",
+"o": [
+"More range",
+"A lower rate of descent",
+"Less range",
+"The same range but a higher rate of descent"
+],
+"a": 3,
+"ex": "L/D is independent of weight."
+},
+{
+"n": 29,
+"q": "Gliding at altitude (at VMD) compared with low down gives:",
+"o": [
+"More range",
+"Less range",
+"The same range but a higher ROD",
+"A lower ROD"
+],
+"a": 2,
+"ex": "Higher TAS."
+},
+{
+"n": 30,
+"q": "A higher altitude makes the minimum turn radius:",
+"o": [
+"Zero",
+"Larger",
+"Smaller",
+"Unchanged"
+],
+"a": 1,
+"ex": "Lower CLmax and thrust in thin air."
+},
+{
+"n": 31,
+"q": "Specific air range (SAR) is:",
+"o": [
+"Ground distance per hour",
+"Air distance per unit of fuel",
+"Fuel per unit time",
+"Fuel per unit thrust"
+],
+"a": 1,
+"ex": "SAR = TAS ÷ fuel flow."
+}
+]
+}

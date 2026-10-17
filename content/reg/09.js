@@ -30,7 +30,7 @@ module.exports = {
         { title: 'Coverage & cost', icon: 'map', points: ['Ground stations are much easier to place than radar', 'Surveillance in remote areas'] },
         { title: 'Efficiency', icon: 'route', points: ['More direct routes, less fuel and emissions', 'Basis of NextGen'] },
       ] },
-    { id: 'services', short: 'Radar services', takeaway: 'Radar control is given in controlled airspace, radar advisory in Class F, radar flight information anywhere in the FIR. Vectors are magnetic headings.', type: 'pairs', icon: 'tower', ask: 'Which radar service where?', dgca: true,
+    { id: 'services', hook: 'Control in controlled airspace, advice in F, information anywhere.', short: 'Radar services', takeaway: 'Radar control is given in controlled airspace, radar advisory in Class F, radar flight information anywhere in the FIR. Vectors are magnetic headings.', type: 'pairs', icon: 'tower', ask: 'Which radar service where?', dgca: true,
       pairs: [
         { a: { label: 'Radar control service', body: 'In **controlled airspace**.' }, b: { label: 'Radar advisory service', body: 'In **Class F** airspace.' }, rule: '' },
         { a: { label: 'Radar flight information service', body: 'To **identified** aircraft **anywhere in the FIR**.' }, b: { label: 'Communication', body: 'All need **direct two-way contact**, but radar separation can be given between two identified aircraft when only **one** is in contact.' }, rule: 'Vectors are always magnetic headings.' },
@@ -76,7 +76,7 @@ module.exports = {
       pairs: [
         { a: { label: 'Interrupted or terminated', body: 'The pilot is told **immediately**.' }, b: { label: 'Automatic end', body: 'When an arrival is told to **contact the tower**. Before that, ATC gives the **distance from touchdown**.' }, rule: '' },
       ] },
-    { id: 'transponder', short: 'Which code', part: 'Transponder rules', type: 'flow', icon: 'signal', ask: 'Which code do I squawk in Indian airspace?', dgca: true,
+    { id: 'transponder', hook: 'Squawk always on in Indian skies.', short: 'Which code', part: 'Transponder rules', type: 'flow', icon: 'signal', ask: 'Which code do I squawk in Indian airspace?', dgca: true,
       takeaway: 'Transponder on at all times in flight in all Indian FIRs. Departures use the code given on departure; international arrivals keep the code from the adjacent FIR; domestic flights keep the last assigned code; with no code assigned, squawk A 2000 before entering. On the ground, only from entering the runway for take-off until vacating after landing.',
       start: 'q1', nodes: {
         q1: { text: 'Are you departing from an Indian aerodrome?', yes: 'e1', no: 'q2' },

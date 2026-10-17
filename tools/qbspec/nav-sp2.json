@@ -1,0 +1,385 @@
+{
+ "id": "nav-sp2",
+ "title": "Sample Paper 2",
+ "src": "R.K. Bali — Air Navigation, Sample Paper 2",
+ "text": "nav",
+ "start": 17892,
+ "end": 18308,
+ "key": "aaacacbcaaacabbccbaa aabbcbaccbccbacabbcc baacccabcbacbbaabcba abbbbcaaccbccbbccccb ccbaabbbcbbccccbcaab",
+ "fix": {
+  "1": {
+   "o": [
+    "Beginning of July.",
+    "End of September.",
+    "Beginning of January."
+   ]
+  },
+  "7": {
+   "o": [
+    "fixed by statute as 5280 ft.",
+    "equal to the average length of one minute of latitude",
+    "equal to 1/10000th part of the meridian between equator and the pole."
+   ]
+  },
+  "8": {
+   "o": [
+    "positions that have the same variation",
+    "points of equal magnetic horizontal field strength",
+    "positions that have 0° variation"
+   ]
+  },
+  "9": {
+   "q": "Position A 45° N, ?° E; position B 45° N, 45° 15'E. Distance A–B = 350 NM, B is to the east of A. What is the longitude of position A?",
+   "o": [
+    "37° 00'E",
+    "48° 00'E",
+    "51° 15'E"
+   ]
+  },
+  "11": {
+   "q": "Two aircraft are flying eastwards around the earth. Aircraft A is flying along the 50N parallel of latitude and aircraft B along the equator. If aircraft A is flying at a groundspeed of 340 knots, what would be the groundspeed of aircraft B if both aircraft fly once round the Earth in the same journey time?"
+  },
+  "16": {
+   "o": [
+    "025 degrees.",
+    "045 degrees.",
+    "055 degrees."
+   ]
+  },
+  "18": {
+   "q": "How do rhumb lines (other than meridians) appear on a polar stereographic chart?"
+  },
+  "20": {
+   "q": "Maximum allowable tailwind component for landing 10 kt. Planned runway 05 (047° magnetic). The direction of the surface wind reported by ATIS is 210°. Variation is 17°E. Calculate the maximum wind speed that can be accepted without exceeding the tailwind limit."
+  },
+  "21": {
+   "q": "If QNH is 999 hPa, what is the pressure altitude at an elevation of 25000 ft?"
+  },
+  "22": {
+   "o": [
+    "985 hPa",
+    "1034 hPa",
+    "1026 hPa"
+   ]
+  },
+  "26": {
+   "o": [
+    "17:44.",
+    "16:57.",
+    "17:21."
+   ]
+  },
+  "28": {
+   "q": "If there is a 12 knot increase in headwind, by what amount must the rate of descent be changed in order to maintain a 3° glide slope?"
+  },
+  "29": {
+   "q": "850 ft/min equals?",
+   "o": [
+    "5.2 m/s",
+    "4.6 m/s",
+    "4.3 m/s"
+   ]
+  },
+  "30": {
+   "q": "A revenue flight is to be made by a jet transport. Structural limits: Maximum Ramp Mass 69 900 kg, Maximum Take-Off Mass 69 300 kg, Maximum Landing Mass 58 900 kg, Maximum Zero Fuel Mass 52 740 kg. Take-off and landing mass are not performance limited. Dry Operating Mass 34 930 kg, trip fuel 11 500 kg, taxi fuel 250 kg, contingency & final reserve fuel 1450 kg, alternate fuel 1350 kg. The maximum traffic load that can be carried is:"
+  },
+  "32": {
+   "o": [
+    "71 000 kg",
+    "99 000 kg",
+    "53 000 kg"
+   ]
+  },
+  "34": {
+   "q": "The basic empty mass of an aircraft is 30 000 kg. The masses of the following items are: catering 300 kg; safety and rescue material nil; fly-away kit nil; crew (including crew baggage) 365 kg; fuel at take-off 3000 kg; unusable fuel 120 kg; passengers, baggage, cargo 8000 kg. The Dry Operating Mass is:"
+  },
+  "35": {
+   "q": "Maximum structural take-off mass 72 000 kg; maximum structural landing mass 56 000 kg; maximum zero fuel mass 48 000 kg; taxi fuel 800 kg; trip fuel 18 000 kg; contingency fuel 900 kg; alternate fuel 700 kg; final reserve fuel 2000 kg. Determine the actual take-off mass:"
+  },
+  "36": {
+   "q": "Why are 'stepped cruises' used on long distance flights?"
+  },
+  "38": {
+   "o": [
+    "is always equal to the powerplant ceiling",
+    "increases when the aeroplane mass decreases",
+    "is independent of the aeroplane mass"
+   ]
+  },
+  "41": {
+   "a": "a"
+  },
+  "43": {
+   "q": "In an Air Data Computer (ADC), aeroplane altitude is calculated from?",
+   "o": [
+    "Measurement of absolute barometric pressure from a static source on the fuselage.",
+    "Measurement of outside air temperature (OAT).",
+    "Measurement of elapsed time for a radio signal transmitted to the ground surface and back."
+   ]
+  },
+  "44": {
+   "q": "The pressure altitude is the altitude corresponding:"
+  },
+  "47": {
+   "o": [
+    "15200 ft.",
+    "15400 ft.",
+    "16200 ft."
+   ]
+  },
+  "51": {
+   "o": [
+    "Two dashpots responding to acceleration.",
+    "Two return springs.",
+    "Bi-metallic strips."
+   ]
+  },
+  "53": {
+   "o": [
+    "The VSI indication will over-read when descending.",
+    "The VSI will be unaffected.",
+    "The VSI will under-read at all times."
+   ]
+  },
+  "54": {
+   "o": [
+    "low airspeed range",
+    "TAS in excess of 300 kt",
+    "TAS of 300 kt"
+   ]
+  },
+  "55": {
+   "o": [
+    "The ASI will respond to changes in pressure altitude only.",
+    "The ASI will not respond",
+    "The ASI will under read at all speeds"
+   ]
+  },
+  "60": {
+   "q": "When climbing at a constant Mach number below the tropopause, in ISA conditions, the Calibrated Airspeed (CAS) will?",
+   "o": [
+    "Decrease.",
+    "Increase at a linear rate.",
+    "Remain constant."
+   ]
+  },
+  "64": {
+   "q": "The basic properties of a gyroscope are: 1. The gyro's weight. 2. The rigidity in space. 3. The inertia. 4. The high RPM. 5. The precession. The combination of correct statements is?",
+   "o": [
+    "3,4.",
+    "2, 5.",
+    "2, 3, 5."
+   ]
+  },
+  "67": {
+   "q": "When, in flight, the needle of the turn and slip indicator is on the left and the ball on the right, the aircraft is?"
+  },
+  "68": {
+   "q": "How many degrees of freedom and what is the spin axis of an attitude indicator?"
+  },
+  "69": {
+   "o": [
+    "Soft iron.",
+    "Hard iron.",
+    "Soft iron and hard iron."
+   ]
+  },
+  "70": {
+   "q": "A turn indicator has: 1. A horizontal spin axis. 2. A vertical spin axis. 3. One degree of freedom. 4. Two degrees of freedom. 5. A spin axis tied to the yawing plane of the aircraft. 6. A gravity erecting unit.",
+   "o": [
+    "1, 3",
+    "1, 5",
+    "3, 5"
+   ]
+  },
+  "71": {
+   "o": [
+    "Turning right with insufficient bank.",
+    "Turning right with too much bank.",
+    "Turning left with too much bank."
+   ]
+  },
+  "76": {
+   "o": [
+    "dots and a white light flashing",
+    "dashes and an amber light flashing",
+    "alternate dots and dashes and an amber light flashing"
+   ]
+  },
+  "77": {
+   "q": "An aircraft is flying on a heading of 270° (M). The VOR OBS is also set to 270° with full left deflection and FROM flag displayed. In which sector is the aircraft from the VOR ground station?",
+   "o": [
+    "SE",
+    "NE",
+    "NW"
+   ]
+  },
+  "79": {
+   "q": "In which wavelength band does an NDB operate?",
+   "o": [
+    "Metric",
+    "Centimetric and metric",
+    "Metric and kilometric"
+   ]
+  },
+  "80": {
+   "q": "Which radio frequency band makes use of the refraction properties of the ionosphere?",
+   "o": [
+    "EHF",
+    "HF",
+    "VHF"
+   ]
+  },
+  "81": {
+   "o": [
+    "2.46 cm",
+    "24.6 cm",
+    "2.46 m"
+   ]
+  },
+  "82": {
+   "o": [
+    "towards the station at short range.",
+    "past the station at short range.",
+    "from the station at long range."
+   ]
+  },
+  "83": {
+   "o": [
+    "earth's rotation beneath the gyroscope.",
+    "asymmetric friction at the spin axis.",
+    "instrument being a tied as opposed to space gyro."
+   ]
+  },
+  "84": {
+   "q": "What are the frequency and waveband of a radio aid that uses a wavelength of 19 cm?",
+   "o": [
+    "1.579 GHz, UHF",
+    "15.79 kHz, VLF",
+    "1.579 MHz, VHF"
+   ]
+  },
+  "85": {
+   "o": [
+    "Both the capsule & the case",
+    "the case only.",
+    "the capsule only."
+   ]
+  },
+  "86": {
+   "o": [
+    "24.6 cm",
+    "2.46 m",
+    "24.6 m"
+   ]
+  },
+  "88": {
+   "q": "The skip distance is increased by ______ the wavelength and ______ the frequency.",
+   "o": [
+    "Decreasing, decreasing",
+    "Decreasing, increasing",
+    "Increasing, increasing"
+   ]
+  },
+  "89": {
+   "q": "If an aircraft has two altimeters, only one of which is corrected for position error:",
+   "o": [
+    "ATC transponder replies will be inaccurate.",
+    "At high altitude and high speed the non-corrected altimeter will over indicate.",
+    "At high altitude and high speed the non-corrected altimeter will under indicate."
+   ]
+  },
+  "91": {
+   "q": "If the static source becomes blocked, the Machmeter will ______ as the aircraft climbs."
+  },
+  "92": {
+   "q": "If temperature decreases when flying at constant CAS at FL 200, the Machmeter indication will ______ and the true Mach number will ______.",
+   "o": [
+    "Increase, increase",
+    "Decrease, decrease",
+    "Not change, increase"
+   ]
+  },
+  "93": {
+   "o": [
+    "Needle right, ball right.",
+    "Needle right, ball center.",
+    "Needle left, ball right."
+   ]
+  },
+  "94": {
+   "q": "A slaved directional gyro derives its directional signal from?",
+   "o": [
+    "A direct reading magnetic compass.",
+    "The flight director.",
+    "The flux valve."
+   ]
+  },
+  "95": {
+   "q": "The gyro in a vertical reference data generator has: 1. One degree of freedom. 2. Two degrees of freedom. 3. Vertical axis. 4. Horizontal axis.",
+   "o": [
+    "1, 3",
+    "1, 4",
+    "2, 3"
+   ]
+  },
+  "96": {
+   "q": "DG errors are caused by: 1. Mechanical imperfections 2. Earth rate 3. Transport wander 4. Banking when pitching 5. Annual migration of the poles.",
+   "o": [
+    "All of the above",
+    "1, 2, 3, 4",
+    "2, 3, 4, 5"
+   ]
+  },
+  "97": {
+   "q": "An aeroplane is on an IFR flight. The flight is to be changed from IFR to VFR. Is it possible?",
+   "o": [
+    "No, only ATC can order you to do this",
+    "No, you have to remain IFR in accordance with the filed flight plan",
+    "Yes, the pilot in command must inform ATC using the phrase \"Cancelling my IFR flight\""
+   ]
+  },
+  "99": {
+   "o": [
+    "TAS increases.",
+    "TAS remains constant.",
+    "Mach number decreases."
+   ]
+  },
+  "100": {
+   "q": "Which mode is selected on the Navigation Display (EHSI) in diagram below? 42.3nm TRK  | M 0429.5Z BUKLO  IL M MOLAK 20 F PAVAN CHALA",
+   "o": [
+    "Map mode.",
+    "Center Map mode.",
+    "Plan mode."
+   ]
+  }
+ },
+ "drop": [
+  100
+ ],
+ "ex": {
+  "6": "03445W = 34.75° west = 2 h 19 min of time. LMT sunrise 0715 + 0219 = 0934 UTC.",
+  "9": "Δlong = distance / cos lat = 350 / cos 45° ≈ 495' = 8° 15'. A is west of B: 45° 15' − 8° 15' = 37° 00' E.",
+  "10": "Δlong = departure / cos lat = 1200 / 0.5 = 2400' = 40°, so 100° E + 40° = 140° E.",
+  "11": "Equal journey time means GS is in proportion to the length of the parallel: 340 / cos 50° ≈ 529 kt.",
+  "16": "In the southern hemisphere the compass turning errors are reversed: turning through north the compass lags, so roll out after the heading — about 055° for a turn to NE.",
+  "19": "Time to PSR = E × H / (O + H) = 4 × 320 / (280 + 320) ≈ 2.1 h.",
+  "20": "ATIS winds are magnetic. Angle between wind 210° and runway 047° = 163°, so tailwind = V × cos 17° ≈ 0.956 V. 10 / 0.956 ≈ 10.5 → about 11 kt.",
+  "21": "QNH is 14 hPa below 1013; at about 27–30 ft/hPa pressure altitude ≈ 25 000 + 400 = 25 400 ft.",
+  "26": "GS out 525, GS home 395. PET = 2900 × 395 / 920 ≈ 1245 NM; time = 1245 / 525 ≈ 2 h 22 min → 1435 + 0222 = 1657.",
+  "27": "PET = 2700 × 515 / (465 + 515) ≈ 1419 NM; 1419 / 465 ≈ 3.05 h ≈ 183 min.",
+  "28": "On a 3° slope ROD ≈ 5 × GS, so 12 kt less GS → about 60 ft/min less.",
+  "29": "850 ft/min × 0.3048 / 60 ≈ 4.3 m/s.",
+  "30": "TOM limits: MTOM 69 300; MRM − taxi 69 650; MLM + trip 70 400; MZFM + take-off fuel (11 500 + 1450 + 1350 = 14 300) = 67 040. Traffic = 67 040 − 14 300 − 34 930 = 17 810 kg.",
+  "32": "DOM = TOM − traffic − fuel = 117 000 − 18 000 − 46 000 = 53 000 kg.",
+  "33": "ZFM = TOM − usable fuel = 141 000 − (63 000 − 1000) = 79 000 kg (unusable fuel stays in the ZFM).",
+  "35": "TOM is the lowest of MTOM 72 000, MLM + trip 74 000, MZFM + take-off fuel (48 000 + 21 600) = 69 600 kg.",
+  "41": "Book key prints (b). TH = TT − drift right = 180 − 8 = 172°. MH = CH + deviation = 195 − 2 = 193°. Variation = TH − MH = −21°, i.e. 21° W, so the correct answer is (a).",
+  "42": "24 000 ft to lose; 120 NM at 288 kt = 25 min; 24 000 / 25 = 960 ft/min.",
+  "75": "5 NM at 100 NM subtends 5/100 × 60 = 3°; at 2° per dot that is 1.5 dots.",
+  "84": "f = c / λ = 300 000 000 / 0.19 m ≈ 1.579 GHz, which is in the UHF band.",
+  "86": "λ = 300 / f(MHz) = 300 / 121.95 ≈ 2.46 m.",
+  "98": "Wind angle 55° from the left: drift = asin(100 × sin 55° / 470) ≈ 10° → HDG 075°. GS ≈ 470 cos 10° − 100 cos 55° ≈ 405 kt; 265 NM / 405 kt ≈ 39 min."
+ }
+}

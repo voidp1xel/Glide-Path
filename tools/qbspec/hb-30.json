@@ -1,0 +1,371 @@
+{
+ "id": "hb-30",
+ "title": "Human Performance: Body, Senses and Mind",
+ "src": "Practice questions written for Glidepath from the Aviator's Handbook, Part 11, 11-3 to 11-8 (not printed in the book: the Handbook has no question bank)",
+ "text": "avh",
+ "start": 1,
+ "end": 3,
+ "key": "",
+ "add": [
+  {
+   "n": 1,
+   "q": "The brain is about 2% of body weight but uses about:",
+   "o": [
+    "2%",
+    "20% of its energy",
+    "5%",
+    "50%"
+   ],
+   "a": 1,
+   "ex": "Book 11-3."
+  },
+  {
+   "n": 2,
+   "q": "About what proportion of information reaches the brain through the eyes?",
+   "o": [
+    "50%",
+    "95%",
+    "70%",
+    "30%"
+   ],
+   "a": 2,
+   "ex": "Book 11-3."
+  },
+  {
+   "n": 3,
+   "q": "Henry's law explains:",
+   "o": [
+    "Barotrauma",
+    "Hypoxia",
+    "Decompression sickness",
+    "Hyperventilation"
+   ],
+   "a": 2,
+   "ex": "Dissolved gas ∝ pressure."
+  },
+  {
+   "n": 4,
+   "q": "Dalton's law of partial pressures explains:",
+   "o": [
+    "Decompression sickness",
+    "Motion sickness",
+    "Ear blockage",
+    "Hypoxia at altitude"
+   ],
+   "a": 3,
+   "ex": "Book 11-3."
+  },
+  {
+   "n": 5,
+   "q": "The rate of breathing is controlled mainly by:",
+   "o": [
+    "Carbon dioxide in the blood",
+    "Blood pressure",
+    "Nitrogen in the blood",
+    "Oxygen in the blood"
+   ],
+   "a": 0,
+   "ex": "Book 11-3."
+  },
+  {
+   "n": 6,
+   "q": "Haemoglobin combines with carbon monoxide about:",
+   "o": [
+    "25 times",
+    "2500 times",
+    "2 times",
+    "250 times more readily than oxygen"
+   ],
+   "a": 3,
+   "ex": "Anaemic hypoxia."
+  },
+  {
+   "n": 7,
+   "q": "Normal tidal volume is about:",
+   "o": [
+    "500 ml",
+    "3000 ml",
+    "50 ml",
+    "1200 ml"
+   ],
+   "a": 0,
+   "ex": "Book 11-3."
+  },
+  {
+   "n": 8,
+   "q": "Short-term memory holds about:",
+   "o": [
+    "3 items for 1 s",
+    "Unlimited items",
+    "20 items for 1 min",
+    "7 ± 2 items for 10–20 s"
+   ],
+   "a": 3,
+   "ex": "Improved by chunking."
+  },
+  {
+   "n": 9,
+   "q": "Iconic memory lasts about:",
+   "o": [
+    "1 minute",
+    "1 second",
+    "2–8 seconds",
+    "10 seconds"
+   ],
+   "a": 1,
+   "ex": "Echoic 2–8 s."
+  },
+  {
+   "n": 10,
+   "q": "The ideal leadership style balances:",
+   "o": [
+    "Goals only (P− G+)",
+    "Concern for people and goals (P+ G+)",
+    "People only (P+ G−)",
+    "Neither (P− G−)"
+   ],
+   "a": 1,
+   "ex": "Book 11-4."
+  },
+  {
+   "n": 11,
+   "q": "A pilot solving a novel problem by analysing options is using:",
+   "o": [
+    "Knowledge-based behaviour",
+    "Skill-based behaviour",
+    "Automatic behaviour",
+    "Rule-based behaviour"
+   ],
+   "a": 0,
+   "ex": "Rasmussen."
+  },
+  {
+   "n": 12,
+   "q": "Performance is best at:",
+   "o": [
+    "Very low arousal",
+    "Moderate arousal",
+    "Zero stress",
+    "Very high arousal"
+   ],
+   "a": 1,
+   "ex": "Book 11-4."
+  },
+  {
+   "n": 13,
+   "q": "One sleep cycle lasts about:",
+   "o": [
+    "4 hours",
+    "8 hours",
+    "30 minutes",
+    "90 minutes"
+   ],
+   "a": 3,
+   "ex": "Book 11-5."
+  },
+  {
+   "n": 14,
+   "q": "Sleep credit accrues at:",
+   "o": [
+    "+1 asleep, −1 awake",
+    "+2 per hour asleep and −1 per hour awake",
+    "+8 per night",
+    "+1 asleep, −2 awake"
+   ],
+   "a": 1,
+   "ex": "Max credit 16."
+  },
+  {
+   "n": 15,
+   "q": "Dreaming occurs mainly in:",
+   "o": [
+    "Stage 2",
+    "Stage 1",
+    "REM sleep",
+    "Stage 4"
+   ],
+   "a": 2,
+   "ex": "Paradoxical sleep."
+  },
+  {
+   "n": 16,
+   "q": "Cones in the retina provide:",
+   "o": [
+    "Peripheral vision",
+    "Day and colour vision, concentrated at the fovea",
+    "Night vision",
+    "Motion detection only"
+   ],
+   "a": 1,
+   "ex": "Book 11-6."
+  },
+  {
+   "n": 17,
+   "q": "Full dark adaptation of the rods takes about:",
+   "o": [
+    "30 seconds",
+    "5 minutes",
+    "30 minutes",
+    "2 hours"
+   ],
+   "a": 2,
+   "ex": "Book 11-6."
+  },
+  {
+   "n": 18,
+   "q": "At night, objects are best seen by:",
+   "o": [
+    "Looking slightly off-centre",
+    "Looking directly at them",
+    "Staring fixedly",
+    "Closing one eye"
+   ],
+   "a": 0,
+   "ex": "Fovea blind spot at night."
+  },
+  {
+   "n": 19,
+   "q": "Myopia (short sight) is corrected with a:",
+   "o": [
+    "Concave lens",
+    "Bifocal only",
+    "Convex lens",
+    "Cylindrical lens"
+   ],
+   "a": 0,
+   "ex": "Book 11-6."
+  },
+  {
+   "n": 20,
+   "q": "The semicircular canals sense:",
+   "o": [
+    "Gravity",
+    "Angular acceleration",
+    "Sound",
+    "Linear acceleration"
+   ],
+   "a": 1,
+   "ex": "Otoliths sense linear."
+  },
+  {
+   "n": 21,
+   "q": "Ear barotrauma is most likely during:",
+   "o": [
+    "Climb",
+    "Cruise",
+    "Descent",
+    "Taxi"
+   ],
+   "a": 2,
+   "ex": "Eustachian tube won't open."
+  },
+  {
+   "n": 22,
+   "q": "Prolonged noise above about what level causes hearing damage?",
+   "o": [
+    "60 dB",
+    "140 dB",
+    "40 dB",
+    "90 dB"
+   ],
+   "a": 3,
+   "ex": "140 dB is pain."
+  },
+  {
+   "n": 23,
+   "q": "Negative g (−Gz) causes:",
+   "o": [
+    "Tunnel vision",
+    "Grey-out",
+    "Black-out",
+    "Red-out"
+   ],
+   "a": 3,
+   "ex": "No protection against −Gz."
+  },
+  {
+   "n": 24,
+   "q": "With a g-suit, +Gz tolerance rises to about:",
+   "o": [
+    "20 g",
+    "4.5 g",
+    "8 g",
+    "12 g"
+   ],
+   "a": 2,
+   "ex": "Book 11-8."
+  },
+  {
+   "n": 25,
+   "q": "Westbound long flights compared with eastbound are:",
+   "o": [
+    "Easier to adapt to",
+    "Harder to adapt to",
+    "The same",
+    "Impossible to adapt to"
+   ],
+   "a": 0,
+   "ex": "Book 11-3."
+  },
+  {
+   "n": 26,
+   "q": "The resting heart pumps about:",
+   "o": [
+    "5 litres per minute",
+    "50 litres per minute",
+    "15 litres per minute",
+    "1 litre per minute"
+   ],
+   "a": 0,
+   "ex": "Book 11-3."
+  },
+  {
+   "n": 27,
+   "q": "Vibration of 1–4 Hz mainly interferes with:",
+   "o": [
+    "Balance",
+    "Vision only",
+    "Hearing",
+    "Breathing"
+   ],
+   "a": 3,
+   "ex": "Book 11-3."
+  },
+  {
+   "n": 28,
+   "q": "A BMI above 30 indicates:",
+   "o": [
+    "Overweight only",
+    "Obesity",
+    "Healthy weight",
+    "Underweight"
+   ],
+   "a": 1,
+   "ex": "BMI = kg ÷ m²."
+  },
+  {
+   "n": 29,
+   "q": "Episodic memory stores:",
+   "o": [
+    "Events",
+    "Sounds for 2–8 s",
+    "Facts and knowledge",
+    "Skills"
+   ],
+   "a": 0,
+   "ex": "Semantic = knowledge."
+  },
+  {
+   "n": 30,
+   "q": "Normal hearing range is about:",
+   "o": [
+    "2–2000 Hz",
+    "20–20,000 Hz",
+    "200–200,000 Hz",
+    "0–100 Hz"
+   ],
+   "a": 1,
+   "ex": "Book 11-7."
+  }
+ ]
+}

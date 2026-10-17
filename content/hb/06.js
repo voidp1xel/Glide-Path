@@ -2,6 +2,7 @@ module.exports = {
   n: 6, title: 'Flight Controls, Tabs and Balancing', tag: 'Rate vs displacement controls · adverse yaw · Frise and differential ailerons · tabs · horn and mass balance', icon: 'sliders', hue: 5, partOfBook: 'Part 2 · Aerodynamics',
   big: 'How ailerons, elevator, rudder and spoilers move the aircraft, the side-effects of rolling and yawing, and the tabs, hinges, horns and weights that make big controls light enough to fly and free of flutter.',
   purpose: 'Adverse aileron yaw and its four cures, roll-due-to-yaw, rate vs displacement control, the five tabs (which way each moves, stick force, effectiveness), inset hinge limits and mass balance are favourite one-liners.',
+  bankLead: 'The Handbook prints no question bank, so these are original questions written for Glidepath from the book’s facts — not the book’s own questions. Your answers are saved.',
   lessons: [
     { id: 'map', type: 'mindmap', short: 'Mind map', icon: 'brain', ask: 'The whole chapter on one page',
       root: { label: 'Controls', children: [
@@ -13,7 +14,7 @@ module.exports = {
         { label: 'Balance', children: [{ label: 'Inset hinge ≤ 25%' }, { label: 'Horn' }, { label: 'Mass balance: flutter' }] },
       ] } },
 
-    { id: 'primary', part: 'Primary controls', type: 'matrix', icon: 'grid', ask: 'What does each control do and how?', revise: true, dgca: true,
+    { id: 'primary', hook: 'Ailerons give a rate; elevator and rudder a position.', short: 'Primary controls', takeaway: 'Ailerons give a rate of roll; elevator and rudder give a displacement in pitch and yaw; spoilers dump lift and add drag, rolling the aircraft when used differentially.', part: 'Primary controls', type: 'matrix', icon: 'grid', ask: 'What does each control do and how?', revise: true, dgca: true,
       corner: 'Control', cols: ['On', 'Gives', 'Type'],
       rows: [
         { label: 'Ailerons', cells: ['main plane', 'roll (lateral control)', { v: 'rate control', key: true }] },
@@ -22,7 +23,7 @@ module.exports = {
         { label: 'Spoilers', cells: ['upper wing', 'drag ↑, lift ↓; roll if differential', 'airbrake if together'] },
       ],
       note: 'Hold an aileron deflection and the aircraft keeps rolling at a steady rate (damping balances it). Hold elevator or rudder and the aircraft settles at a new attitude.' },
-    { id: 'aileron-facts', type: 'bullets', icon: 'rotate', ask: 'Aileron details examiners ask',
+    { id: 'aileron-facts', short: 'Aileron details', takeaway: 'Roll rate settles where aileron moment equals roll damping, so it is faster with shorter span and at altitude; a lowered aileron raises that wing’s angle of attack towards the stall.', type: 'bullets', icon: 'rotate', ask: 'Aileron details examiners ask',
       groups: [
         { title: 'Roll rate', icon: 'gauge', points: ['Steady when aileron moment = damping in roll', 'Shorter span → faster roll', 'Higher altitude (same IAS) → less damping → faster roll'] },
         { title: 'Stall', icon: 'alert', points: ['Down aileron lowers that section\'s stalling angle', 'So at the stall, aileron can stall the low wing'] },
@@ -30,14 +31,14 @@ module.exports = {
         { title: 'Fin stall', icon: 'flag', points: ['Large sideslip can stall the fin', 'Dorsal fin lowers fin AR → higher stalling angle'] },
       ] },
 
-    { id: 'adverse', part: 'Side effects', type: 'svg', fig: 'adverse-yaw', icon: 'rotate', ask: 'Why does the nose swing the wrong way when you roll?', dgca: true,
+    { id: 'adverse', short: 'Adverse yaw', part: 'Side effects', type: 'svg', fig: 'adverse-yaw', icon: 'rotate', ask: 'Why does the nose swing the wrong way when you roll?', dgca: true,
       takeaway: 'Rolling right lowers the left aileron: the left wing gets more lift but also more induced drag, so the nose yaws left, away from the turn. Differential ailerons (up aileron moves further), Frise ailerons (up aileron\'s nose drops into the flow), an aileron–rudder interconnect, or roll spoilers on the down-going wing all add drag on the inside to cancel it.',
       hook: 'Down aileron, drag: the nose goes the wrong way.' },
-    { id: 'roll-yaw', type: 'pairs', icon: 'scale', ask: 'Roll due to yaw vs yaw due to roll',
+    { id: 'roll-yaw', short: 'Roll and yaw coupling', takeaway: 'Rudder produces roll in the same direction as the yaw; aileron produces yaw in the opposite direction to the roll.', type: 'pairs', icon: 'scale', ask: 'Roll due to yaw vs yaw due to roll',
       pairs: [
         { a: { label: 'Roll due to yaw', body: 'Right rudder → yaw right → **left wing faster**, more lift → **roll right** (same way). Worst at **low speed, high AoA**.' }, b: { label: 'Yaw due to roll (adverse yaw)', body: 'Right aileron → left aileron down → more lift **and induced drag** on the left → **yaw left** (opposite way).' }, rule: 'Rudder brings roll the same way; aileron brings yaw the opposite way.' },
       ] },
-    { id: 'cures', type: 'stamp', icon: 'check', ask: 'Which adverse-yaw cure is it?', tier: 'exam',
+    { id: 'cures', short: 'Adverse-yaw cures', takeaway: 'Differential and Frise ailerons, aileron–rudder interconnects and roll spoilers all add drag on the rising-aileron side to cancel adverse yaw.', type: 'stamp', icon: 'check', ask: 'Which adverse-yaw cure is it?', tier: 'exam',
       stamps: [{ id: 'd', label: 'Differential' }, { id: 'f', label: 'Frise' }, { id: 'i', label: 'Interconnect' }, { id: 's', label: 'Roll spoiler' }],
       cases: [
         { text: 'The up-going aileron moves through a bigger angle than the down-going one.', answer: 'd' },
@@ -45,7 +46,7 @@ module.exports = {
         { text: 'The rudder moves automatically whenever the ailerons move.', answer: 'i' },
         { text: 'A plate rises on the down-going wing\'s upper surface.', answer: 's' },
       ] },
-    { id: 'mixed', type: 'matrix', icon: 'layers', ask: 'Taileron, elevon, ruddervator or flaperon?', revise: true,
+    { id: 'mixed', short: 'Combined surfaces', takeaway: 'Tailerons and elevons combine elevator and aileron, ruddervators combine rudder and elevator, and flaperons combine flap and aileron.', type: 'matrix', icon: 'layers', ask: 'Taileron, elevon, ruddervator or flaperon?', revise: true,
       corner: 'Surface', cols: ['Combines', 'Where', 'Together / separately'],
       rows: [
         { label: 'Taileron', cells: ['elevator + aileron', 'all-moving tailplane', 'pitch / roll'] },
@@ -54,10 +55,10 @@ module.exports = {
         { label: 'Flaperon', cells: ['flap + aileron', 'short TE (delta)', 'lift / roll'] },
       ] },
 
-    { id: 'tabs', part: 'Tabs', type: 'svg', fig: 'control-tabs', icon: 'sliders', ask: 'Which way does each tab move?', dgca: true,
+    { id: 'tabs', short: 'Tabs', part: 'Tabs', type: 'svg', fig: 'control-tabs', icon: 'sliders', ask: 'Which way does each tab move?', dgca: true,
       takeaway: 'A balance tab is geared to move opposite to its control surface, helping it along: lighter stick, slightly less effect. An anti-balance tab moves the same way: heavier, more effective. A servo tab is the only part the pilot moves; it flies the surface. A trim tab is set by the trim wheel opposite to the surface until stick force is zero.',
       hook: 'Balance opposes and eases; anti agrees and stiffens.' },
-    { id: 'tab-table', type: 'matrix', icon: 'list', ask: 'The tab table', revise: true, dgca: true,
+    { id: 'tab-table', hook: 'Tabs move against the surface; anti-balance moves with it.', short: 'Tab table', takeaway: 'Balance, servo and trim tabs move opposite to the surface and lighten the stick; an anti-balance tab moves the same way and makes it heavier and more effective.', type: 'matrix', icon: 'list', ask: 'The tab table', revise: true, dgca: true,
       corner: 'Tab', cols: ['Moved by', 'vs surface', 'Stick force', 'Effectiveness'],
       rows: [
         { label: 'Balance', cells: ['control surface', { v: 'opposite', key: true }, 'less', 'reduced'] },
@@ -66,7 +67,7 @@ module.exports = {
         { label: 'Trim', cells: ['trim wheel/switch', 'opposite', { v: 'zero', key: true }, 'reduced'] },
         { label: 'Spring', cells: ['pilot, at high speed', 'opposite at high speed', 'less at high speed', 'reduced at high speed'] },
       ] },
-    { id: 'tab-sort', type: 'classify', icon: 'grid', ask: 'Which tab is it?',
+    { id: 'tab-sort', short: 'Which tab?', takeaway: 'Match each behaviour to the tab: feel (anti-balance), linkage-driven help (balance), pilot-driven tab (servo/spring) or cockpit-set zero force (trim).', type: 'classify', icon: 'grid', ask: 'Which tab is it?',
       buckets: [{ id: 'b', label: 'Balance' }, { id: 'a', label: 'Anti-balance' }, { id: 's', label: 'Servo / spring' }, { id: 't', label: 'Trim' }],
       items: [
         { text: 'Gives more control feel', bucket: 'a' }, { text: 'Moves the same way as the surface', bucket: 'a' },
@@ -75,18 +76,18 @@ module.exports = {
         { text: 'Set from the cockpit to zero the stick force', bucket: 't' }, { text: 'Must be reset after changing power, speed or CG', bucket: 't' },
       ] },
 
-    { id: 'balance', part: 'Aerodynamic and mass balance', type: 'svg', fig: 'hinge-balance', icon: 'scale', ask: 'How do hinges, horns and weights lighten and steady a control?', dgca: true,
+    { id: 'balance', short: 'Hinges, horns, weights', part: 'Aerodynamic and mass balance', type: 'svg', fig: 'hinge-balance', icon: 'scale', ask: 'How do hinges, horns and weights lighten and steady a control?', dgca: true,
       takeaway: 'Put some of the surface ahead of the hinge (inset hinge, horn or internal balance) and the air pushes it round with you: lighter controls without losing effectiveness, as long as the CP never gets ahead of the hinge (overbalance). A mass-balance weight ahead of the hinge puts the surface CG on the hinge line to stop flutter.',
       hook: 'Horns and insets lighten; lead stops the shake.' },
-    { id: 'balance-pairs', type: 'pairs', icon: 'scale', ask: 'Easy to confuse',
+    { id: 'balance-pairs', short: 'Balance pairs', takeaway: 'Inset hinges, horns and internal balance lighten the stick but must not move the centre of pressure ahead of the hinge; mass balance puts the surface CG on the hinge to prevent flutter.', type: 'pairs', icon: 'scale', ask: 'Easy to confuse',
       pairs: [
         { a: { label: 'Inset hinge', body: 'Hinge moved back into the surface → shorter CP arm → **less stick force**, no loss of effect. Limit **20–25%** of control chord.' }, b: { label: 'Overbalance', body: 'If the CP moves **ahead** of the hinge, the control gets **lighter as you deflect it** — the pilot loses feel.' }, rule: 'The inset limit exists to prevent overbalance.' },
         { a: { label: 'Horn balance', body: 'Area ahead of the hinge at the tip; mainly **rudders**; can carry the mass balance.' }, b: { label: 'Mass balance', body: 'Weight **ahead of the hinge** puts the surface CG on/ahead of the hinge → prevents **flutter**.' }, rule: 'Aerodynamic balance is about stick force; mass balance is about flutter.' },
         { a: { label: 'Internal balance', body: 'Sealed tongue inside the wing ahead of the hinge; the pressure difference on it helps the surface move.' }, b: { label: 'Variable-incidence tailplane', body: 'Whole tailplane trims; less trim drag, elevator stays neutral with full range.' }, rule: '' },
       ] },
-    { id: 'numbers', part: 'Numbers', type: 'numbers', icon: 'hash', ask: 'Numbers to know',
+    { id: 'numbers', short: 'Numbers', part: 'Numbers', type: 'numbers', icon: 'hash', ask: 'Numbers to know',
       items: [{ k: 'Inset hinge limit', v: '20–25%', note: 'of control chord' }, { k: 'Servo tab useless beyond', v: '≈ 20° deflection', note: 'at low IAS' }] },
-    { id: 'quiz', type: 'quiz', icon: 'check', ask: 'Quick check',
+    { id: 'quiz', short: 'Quick check', type: 'quiz', icon: 'check', ask: 'Quick check',
       questions: [
         { q: 'Ailerons are a:', options: ['Displacement control', 'Rate control', 'Trim control', 'Balance control'], answer: 1 },
         { q: 'Rolling right, adverse aileron yaw swings the nose:', options: ['Right', 'Left', 'Up', 'Down'], answer: 1 },

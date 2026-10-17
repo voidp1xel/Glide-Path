@@ -287,6 +287,16 @@
 ### Direct reading compass (E-type)
 - Mandatory standby: a direct reading **non-stabilised** compass. Parts: card, magnets, lubber line, fluid, expansion unit, compensating magnets/screws, lamp. **Pendulously** mounted magnet system with low magnetic moment.
 
+### Requirements of a direct-reading compass (p.100–101)
+- **Horizontality**: the card stays level away from the magnetic equator: magnets hung **below the pivot** (their weight opposes Z) and the pivot moved towards the nearer pole.
+- **Aperiodicity (dead beat)**: settles without oscillating: bowl filled with **methyl alcohol or silicone fluid** plus **damping filaments**; several **short powerful magnets** instead of one big one (more righting force, less inertia); weight kept near the pivot and reduced by the liquid's buoyancy.
+- **Sensitivity**: stays on the magnetic meridian: **strong magnets**, minimum pivot friction (**iridium** pivot), liquid that lightens the system and lubricates the pivot.
+
+### DRC serviceability tests (p.101)
+- Liquid free of **bubbles, discoloration, sediment**; all parts **luminous**; grid ring turns freely through 360° and its lock works; bowl suspension moves freely with no metal-to-metal feel.
+- **Pivot friction**: deflect the magnets **10–15° each way**; the two return readings within **2°** of each other.
+- **Damping**: deflect **90°**, hold **30 s**, time the return through **85°**: usually about **6.5–8.5 s** (limits in the instrument manual).
+
 ### Remote indicating (gyro-magnetic / slaved) compass
 - Combines the **north-seeking** ability of the magnetic compass with the **stability of a gyro (DI)**. A DI drifts and must be reset every 10–15 min; the slaved compass does it automatically.
 - **Detector unit (flux valve)**: three flux valves at **120°**, pendulously mounted to stay horizontal, fixed in azimuth, mounted at a **wing tip or fin top** away from aircraft magnetism. It **senses** (not seeks) the magnetic meridian → works to higher latitudes.
@@ -817,3 +827,816 @@
 - **High to low (pressure or temperature): look out below** — the altimeter over-reads.
 - Servo: **induction pick-off**, **± 60 ft** at sea level, lag removed.
 - Vibrator: reduces **friction / instrument error**, not hysteresis.
+
+## 19. Air Speed Indicator (ASI) and Machmeter
+*Part II — Aircraft Instruments, Chapter 3.*
+
+### Principle
+- **Purpose**: to give **indicated airspeed (IAS)**. **Principle**: measures the **difference between pitot and static pressure** (the dynamic pressure).
+- **Pitot pressure (P) = dynamic (D) + static (S)**; the dynamic part is also called **pitot excess (PE)**, so P = PE + S.
+- The **pitot tube**, an open-ended tube **parallel to the longitudinal axis**, faces into the airstream and feeds pitot pressure to the airspeed **capsule**; the **case** is fed with **static** pressure. The capsule therefore distorts by an amount equal to the **dynamic pressure**; the distortion is amplified and shown as IAS. The ASI is a **differential pressure gauge**.
+- **Dynamic pressure = ½ρV²** (V = TAS, ρ = air density).
+- **Square-law compensation**: the pressure driving the mechanism is **proportional to the square of the airspeed**, so the scale/mechanism compensates to show small dynamic pressures (evenly readable scale).
+- The ASI **under-reads about 2% per 1000 ft** of altitude (density falls).
+
+### From IAS to groundspeed
+- **ASIR + instrument error → IAS**; **IAS + position/pressure error → RAS / CAS** (rectified / calibrated airspeed); **CAS + compressibility → EAS**; **EAS + density → TAS**; **TAS + wind → groundspeed**.
+- **Calibrated airspeed (CAS)**: IAS corrected for **instrument and installation (position) error** — largest at **high angles of attack**; correction charts in the POH.
+- **True airspeed (TAS)**: CAS corrected for **density (altitude and temperature)**; used for flight planning.
+
+### ASI markings
+- **White arc**: flap operating range — lower limit **VS0** (power-off stall, flaps and gear down), upper limit **VFE** (max flap-extended speed).
+- **Green arc**: normal operating range — **VS1** (power-off stall, flaps and gear up) to **VNO** (max structural cruising speed).
+- **Yellow arc**: caution range, smooth air only — **VNO to VNE**.
+- **Red line**: **VNE**, never exceed.
+- **Multi-engine**: a **red radial** near the bottom of the green arc — **VMC** (minimum control speed with the critical engine inoperative); a **blue radial** — **VYSE** (best rate of climb, critical engine inoperative).
+- **Manoeuvring speed (VA)** and **VLO** are **not marked**.
+- Jets: a **barber pole** (moving red-and-white hatched pointer) shows the applicable limit (**VMO** versus altitude): it moves **down as you climb** and **up as you descend**.
+
+### Errors — "BLIP DC"
+- **B — Blockage**:
+  - **Static blocked**: climb → **under-reads**; descent → **over-reads**; level → correct.
+  - **Pitot blocked, drain clear**: airspeed **gradually drops to zero**.
+  - **Pitot and drain blocked, static clear**: level → **freezes**; climb → **over-reads**; descent → **under-reads** — the ASI **acts like an altimeter**.
+  - Pitot, drain and static all blocked: **freezes**.
+  - **SOD SUC PUD POC**: Static — Over-reads in Descent; Static — Under-reads in Climb; Pitot — Under-reads in Descent; Pitot — Over-reads in Climb.
+- **L — Lag**; **I — Instrument** (manufacturing).
+- **P — Position/pressure error**: dynamic pressure interfering at the static source; makes the ASI **under-read**.
+- **D — Density error**: from high to low density the ASI **under-reads**; for the **same IAS, TAS increases** as density falls, and vice versa.
+- **C — Compressibility error**: at **TAS ≥ 300 kt** the air brought to rest in the pitot tube is compressed, raising pitot pressure → ASI **over-reads**; the correction is always **negative** (subtracted) and gives **EAS**.
+
+### Machmeter
+- Shows **Mach number = TAS ÷ local speed of sound (LSS)**. **Principle**: the **ratio of dynamic to static pressure, (P − S) ÷ S**.
+- Two capsules: an **airspeed capsule** (dynamic pressure) and an **altitude capsule** (static); a **ratio (ranging) arm** divides one by the other. It is an **ASI with an altitude capsule**.
+- **Errors**: **blockage, instrument, position** only — **no density or temperature error**. Blockages follow **SOD SUC PUD POC** as for the ASI.
+- The speed of sound depends **only on temperature**.
+- **Regimes**: subsonic < M 0.75; transonic M 0.75–1.2; sonic M 1.0; supersonic M 1.2–5; hypersonic M 5–10; high-hypersonic > M 10.
+- **MMO**: maximum operating Mach number, kept below M 1 because shock waves form well before M 1. **Critical Mach number (MCRIT)**: the Mach number at which the airflow over some part of the wing **first reaches M 1** — a shock wave first appears.
+- **VMO limits low down, MMO high up**: a jet descending at maximum speed is limited **first by MMO, then by VMO** below a certain level. Under standard conditions, TAS 562 kt = **M 0.85 at sea level** and **M 1.0 at 40 000 ft**.
+- Jets need both an ASI and a Machmeter with red lines, or a combined instrument with concentric scales, or a barber pole.
+
+### From the questions
+- Pitot blocked by ice in a climb: ASI and Machmeter **over-read / increase** regardless of actual speed; in a descent they **decrease**.
+- Static blocked in a climb: ASI under-reads, Machmeter **under-indicates**.
+- At **MSL in ISA, CAS = TAS**. As an aircraft climbs, **TAS increases** for a given IAS.
+- **VMO is expressed in CAS**. ADC advantages over a plain pitot-static system: **position and compressibility correction, reduced lag, supplying many instruments**.
+- Turbulent flow around a pressure head causes about **95% of position error**.
+- Compressibility error is corrected using a **navigation computer**.
+- Descending at constant CAS, **dynamic pressure stays constant**.
+
+### Exam traps
+- ASI: **pitot in the capsule, static in the case**; measures **P − S**.
+- **SOD SUC PUD POC**; pitot + drain blocked → behaves **like an altimeter**.
+- White **VS0–VFE**, green **VS1–VNO**, yellow **VNO–VNE**, red **VNE**, blue **VYSE**.
+- Compressibility → **over-reads** above **300 kt TAS**; correction negative → EAS.
+- Machmeter = **(P − S) ÷ S**; **no temperature or density error**; LSS depends on **temperature only**.
+- High level limited by **MMO**, low level by **VMO**.
+
+## 20. Vertical Speed Indicator (VSI)
+*Part II — Aircraft Instruments, Chapter 4.*
+
+### Principle
+- A **rate-of-pressure-change** instrument: shows any departure from a constant pressure level as a **rate of climb or descent in feet per minute**; gives **trend and rate** information.
+- A **static pressure differential** instrument: the **capsule** gets **direct static** pressure; the **case** gets static through a **calibrated leak** (metered orifice, choke), so case pressure changes **more slowly** than capsule pressure.
+- **Climb**: static falls; capsule pressure falls at once while the case lags (higher) → the **capsule contracts** → needle **up**. **Descent**: capsule pressure rises first → the **capsule expands** → needle **down**. **Level**: case and capsule pressures equalise → needle returns to **zero**.
+- It measures the **difference between the pressure inside and outside a capsule**. Pitot pressure plays no part.
+- **Pre-flight**: needle horizontal at zero; serviceable within **± 200 fpm** between −20 °C and +50 °C. A small ground error can be set with the **adjusting screw** on the front and flown with as a new reference. In flight, cross-check with height gained over a timed period.
+
+### Errors — "BLIP T"
+- **B — Blockage**: static blocked → after a short time the pressures equalise and the VSI reads **zero** in climb or descent.
+- **L — Lag**: the **predominant error** — the instrument works on the principle of lag. Readings are wrong for some seconds after starting or ending a climb or descent (**time lag plus manoeuvre-induced error**).
+- **I — Instrument**: built-in error.
+- **P — Position**: dynamic pressure at the static source.
+- **T — Transonic jump**: near **Mach 1** a shock wave passing the static source drops static pressure briefly → a **brief false jump** — a positive sign the aircraft is close to the speed of sound.
+
+### Instantaneous VSI (IVSI)
+- **Dashpot accelerometers** (a piston responding at once to pitch changes) give an **instant change of capsule pressure** → **lag is removed**; more reliable when the aircraft **starts** a climb or descent.
+- **Disadvantages**: the dashpots also sense **turn acceleration** — in large bank (**over 40°**) it first shows a **climb**; held in the turn it settles to zero, then shows a **descent** on rolling out. It **oscillates in turbulence**.
+
+### Leaks and blockages (from the questions)
+- **Metered orifice partly blocked**: case pressure lags more → VSI **over-reads in climb and descent**.
+- **Case leak in a pressurised aircraft**: cabin pressure enters the case → reads **too high in a climb, too low in a descent**, and shows a climb even in level flight.
+- **Case leak in an unpressurised aircraft**: case equalises with cabin (≈ static) → reads **zero**.
+- **Static pipe partly blocked**: VSI **too low** when climbing or descending. **Pitot blockage**: **no effect**.
+- Static vent blocked in an unpressurised aircraft: use the **standby (alternate) static source**; last resort, break the **VSI glass**.
+- Rule of thumb: **ROD ≈ TAS (kt) × 101 × tan(slope)** → 100 kt on a 3° slope ≈ **500 fpm**.
+
+### Exam traps
+- Capsule **direct static**, case **static through a calibrated leak**; climb → capsule **contracts**.
+- Static blocked → **zero**. Lag is the main error; **IVSI** removes it with **dashpots** but shows a **climb in a steep turn**.
+- Pressurised-aircraft case leak → **high in climb, low in descent**; unpressurised → **zero**.
+- Transonic jump = brief **false** reading near Mach 1.
+
+## 21. Gyroscope and Gyro Instruments
+*Part II — Aircraft Instruments, Chapter 5.*
+
+### Gyroscopic principles
+- A **gyroscope** is a wheel with its weight concentrated at the **periphery**, spun at high speed with low-friction bearings; mounted in **gimbals**. A universally (freely) mounted gyro has **three planes of freedom**; a restricted (semi-rigid) one has one plane held fixed to the base.
+- **Rigidity in space**: the spin axis keeps its direction in space (Newton's first law). Rigidity increases with **rotor speed (RPM)**, **mass** and **radius** (moment of inertia), i.e. mass concentrated at the rim. **Attitude and heading** instruments use rigidity; their rotors are universally mounted.
+- **Precession**: a force on the rim acts **90° ahead in the direction of rotation**. The rate of precession is **proportional to the applied force** and **inversely proportional to rotor speed**. **Rate instruments** (turn indicator, turn coordinator) use precession.
+- A gyro gives **no useful indication about its own spin axis**; the rotor is kept **at right angles** to the axis to be measured. The number of degrees of freedom equals the **number of gimbals**.
+- **Power**: **vacuum, pressure or electrical**. Vacuum/pressure systems spin the rotor with an air jet on its vanes, usually **4.5–5.5 in Hg**; an **engine-driven vane pump**, regulator, filter and gauge. A dirty filter → **lower** gauge reading.
+
+### Types of gyro
+- **Free (space) gyro**: freedom in all three planes, axis fixed relative to space — **INS/IRS**.
+- **Tied gyro**: axis held by an **external force** — **DGI**.
+- **Earth gyro**: axis held by **gravity** — **artificial horizon**.
+- **Rate gyro**: freedom in **two planes**, indicates in the third (**one degree of freedom**, one gimbal) — **turn and slip indicator / turn coordinator**.
+
+| Instrument | Gyro | Spin axis | RPM (book) |
+|---|---|---|---|
+| Artificial horizon | earth gyro | **vertical** | electric **22 000–22 500**, air **15 000** |
+| DGI | tied gyro | **horizontal** | **12 000** |
+| Turn and slip | rate gyro | **horizontal** | usually electric |
+
+### Artificial horizon (attitude indicator)
+- Uses **rigidity** for indication and **precession** for control (erection). **Inner gimbal** — lateral freedom (pitch); **outer gimbal** — longitudinal freedom (bank); the **sky plate** is on the outer gimbal; the **miniature aircraft** is fixed to the case glass.
+- **Limits**: old type pitch **± 55°**, roll **± 90°**; modern pitch **± 85°**, roll **complete (360°)**. **Caging knob**: mechanically locks the gimbals to protect the gyro and allows quick re-erection (older types).
+- **Errors (air-driven gyro rotating anticlockwise seen from above)**:
+  - **Acceleration** (left/right pendulous vanes): shows **climb and bank to the right**; deceleration → **descent and bank to the left**. Also shown during the **take-off roll**.
+  - **Turning error** (fore/aft pendulous vanes): shows a **climb** in left and right turns; size depends on speed, rate of turn and erection rate.
+  - Through a turn at constant bank: **90°** → climb and **under-bank**; **180°** → climb (maximum pitch error), bank nearly correct with slight bank the opposite way; **270°** → climb and **over-bank**; **360°** → correct.
+  - Rolling out (visually) after a **180° steep turn to the right**: shows a **slight climb and bank/turn to the left** (3–5°), corrected quickly by erection.
+
+### Directional gyro indicator (DGI)
+- **Horizontal-axis tied gyro**, **two gimbals, two degrees of freedom**; rigidity for indication, precession for control. **No north-seeking element**: align with the magnetic compass after start and at least **every 15 minutes** (adjustment knob). Slaved versions are kept aligned by a **flux gate**.
+- **Wander** = shift of the gyro axis: **drift** (horizontal plane) and **topple** (vertical plane). **Real wander**: imperfections, friction, worn bearings, uneven rotor mass. **Apparent wander**: **earth rotation (earth-rate)** and **movement over the earth (transport)**.
+- **Earth-rate drift = 15° × sin latitude per hour** (maximum 15°/h at the poles).
+- **Transport drift = groundspeed ÷ 60 × tan latitude** (°/h); depends on groundspeed, track and latitude.
+- **Latitude nut**: a weight on the inner gimbal that compensates **earth-rate drift** for one chosen latitude (set in the workshop): **north — in, south — out (SONI)**. Total drift = real + latitude-nut correction + earth-rate + transport.
+- **Gimbal error**: from **bank or pitch** attitude.
+
+### Turn and slip indicator and turn coordinator
+- **TSI**: rate of turn in degrees per second; **horizontal-axis rate gyro**, **one degree of freedom**, usually **electric**; uses **precession** against a **calibrated spring**. Shows the correct turn direction even on the ground.
+- **Turn coordinator**: gimbal inclined about **30°** so it senses **roll and yaw** — shows **bank while rolling in or out**, and rate once established.
+- **Rate 1 = 3°/s** (2-minute turn); rate 2 = 6°/s; rate 3 = 9°/s; rate 4 = 12°/s. Rate 1 bank **≈ TAS ÷ 10 + 7** (not more than 25°).
+- For the same rate, bank **increases with TAS**; rate of turn at constant bank **depends on TAS only** (not weight). Turn needle reading = yaw rate in a coordinated turn.
+- **Errors — "ROGOTU"**: **R**PM high → **O**ver-reads; **G** (load factor) high → **O**ver-reads; spring **T**ension high → **U**nder-reads.
+- **Slip ball (inclinometer)**: a ball in a curved liquid-filled tube; shows the balance of gravity and centrifugal force — **not** bank. **Slip**: ball **inside** the turn (too much bank / too little rudder / rate too slow). **Skid**: ball **outside** (too much rudder, rate too fast). "**Step on the ball**". Taxiing: needle shows the turn, ball goes the **opposite** way.
+
+### Exam traps
+- Rigidity ↑ with **RPM, mass, radius**; precession rate ∝ **force ÷ RPM**, 90° on in the direction of rotation.
+- **AH = vertical earth gyro**; **DGI = horizontal tied gyro, 2 gimbals**; **TSI = horizontal rate gyro, 1 degree of freedom**.
+- Air-driven AH: **acceleration → climb + right bank**; turns → **climb**; 90° under-bank, 270° over-bank, 360° correct.
+- DGI drift **15 sin lat °/h**; latitude nut **SONI**; check against the compass **every 15 min**.
+- Rate 1 = **3°/s**, bank ≈ **TAS/10 + 7**. **ROGOTU**. Ball **in = slip**, **out = skid**.
+
+## 22. Inertial Navigation (INS / IRS)
+*Part II — Aircraft Instruments, Chapter 6.*
+
+### Principle
+- A form of **dead reckoning** using **accelerometers** (acceleration) and **gyroscopes** along **three perpendicular axes**. Needs **no external reference**, nothing magnetic, no plotting, unaffected by weather; corrections for movement over the earth and the earth's own rotation are built in.
+- **Acceleration integrated with time → velocity; velocity integrated with time → distance**, from the known start position → latitude and longitude.
+- Gimballed INS: accelerometers kept **level on a stable platform** by **three rate gyros**, gimbals and torquers, so only motion **tangential to the earth** is measured. The computer corrects for **earth rotation, the spherical (and non-spherical) earth, Coriolis, centrifugal and centripetal** accelerations. It stores **magnetic variation** for all locations and is a **great-circle navigator**.
+- **Inputs**: start position (lat/long) and waypoints; GPS position; **barometric altitude** (stabilises vertical velocity and inertial altitude); **TAS** from the ADC (for **wind**).
+- **Outputs**: pitch, roll, yaw; true and magnetic heading; TAS and GS; lat, long and inertial altitude; **wind velocity and drift angle**; vertical speed. Used by the FMS, autopilot, autothrottle, ADI/HSI, EFIS, weather radar (stabilisation), anti-skid/autobrake, FDR and others.
+
+### Modes and alignment
+- **Gyro compassing / pre-departure**: aligning the platform with the **local meridian**; the aircraft must be **stationary and level**.
+- **OFF → STBY** (warm-up; present position entered to **6 seconds of arc**) → **ALIGN** (levelling and alignment; **must not be moved**, though gusts, loading and refuelling don't matter) → **NAV** (READY NAV light; navigation computed and shown on the CDU).
+- **ATT mode**: no position or groundspeed; still gives **acceleration, angular rate and attitude**. Heading must be entered manually on the CDU and reset about **every 10 minutes**. Used after a critical fault, or if the system is switched off or misaligned in flight.
+- **BATT light**: power failure; a self-contained **15-minute** battery back-up.
+- Entering the local coordinates for a strap-down unit positions the **computing trihedron** relative to the earth.
+
+### Errors and Schuler
+- **Schuler loop**: an earth-horizontal platform behaves like a pendulum as long as the earth's radius — period **84.4 minutes**. Schuler errors are **bounded** (they oscillate, not grow).
+- Older platform INS: **1–2 nm/h**; modern strap-down RLG: about **0.5 nm/h** (over 5 h, ~2.5 nm is still good; GPS does far better).
+- Other errors: initial levelling and alignment, input inaccuracies, real wander, drift, transport wander, Coriolis, earth rotation, integration, accelerometer, latitude and height.
+- **Radial error rate = distance between the ramp position and the INS position ÷ hours in NAV mode.**
+
+### IRS with ring laser gyros (strap-down)
+- **No stabilised platform**: three accelerometers and three **ring laser gyros** are bolted to the airframe, aligned with the **pitch, roll and yaw** axes; the platform is stabilised **mathematically**, not mechanically.
+- **Advantages**: solid-state, no moving parts, very reliable and light; senses **0.004–400°/s**; **no mechanical precession, cannot topple**; low power; **faster alignment** (no spin-up, operational within a second); insensitive to **g**; longer life; integrates with GPS; easy unit replacement.
+- **Disadvantages**: **laser lock** at low rotation rates — cured by a **dither motor**; more expensive.
+- **IRU**: the computer integrating IRS outputs for the FMS and flight controls.
+
+### Advantages and disadvantages of inertial systems
+- **For**: instantaneous, continuous position and velocity; totally self-contained; all latitudes and weathers; independent of manoeuvres; W/V shown when TAS is fed; follows the **great circle**.
+- **Against**: built-in drift; **data can be inserted on the ground only** — shut down or misaligned in flight it gives **attitude only**; many error sources; costly; alignment simple when stationary but **difficult above 75° latitude** and in flight.
+
+### Exam traps
+- Integrate **once → velocity, twice → distance**. Sensors measure **acceleration**.
+- Align **stationary**; NAV before moving; lost in flight → **ATT mode** (attitude, rates, acceleration only).
+- TAS input is only for **wind**. Schuler **84.4 min**, bounded.
+- RLG: **dither motor** against **laser lock**; no precession or topple; fast alignment.
+- Error rate = **radial error ÷ hours in NAV**.
+
+## 23. Altitude Alert and Warning Systems (Radio Altimeter, TCAS, GPWS)
+*Part II — Aircraft Instruments, Chapter 7.*
+
+### Radio (radar) altimeter — RADALT
+- An **absolute altimeter** (terrain-clearance indicator): measures **height above the ground or water directly below**, however uneven; **independent of barometric settings**. Self-contained, aircraft-based.
+- Also feeds the **automatic flight system** for **autoland** (with ILS/MLS) and supplies height and rate of change of height to the **GPWS** — it is **crucial** to GPWS.
+- **FMCW** (frequency-modulated continuous wave) in the **SHF band, 4200–4400 MHz** (average **4300 MHz**), **centimetric** wavelength. The carrier is swept **± 50 MHz, 300 times a second**; a wide sweep gives a measurable frequency difference at very low height.
+- **Principle**: by the time the echo returns, the transmitter frequency has changed; the **frequency difference** between transmitted and received signals is proportional to the **time delay** and so to **height** (no Doppler — there is no relative motion).
+- Being continuous wave it needs **separate transmit and receive aerials** (flush horn aerials), far enough apart to avoid interference; about **1 watt**. The conical/elliptical beam reaches vertically below even at **± 30° pitch, ± 60° roll**; height comes from the shortest (vertical) path.
+- **Range 0–2500 ft**: above that, signals from different modulation cycles **overlap** (the receiver gets the same frequency it is transmitting). Steps of 5 ft. **Accuracy ± 2 ft from 0 to 500 ft**, ± 3% + 5 ft above 500 ft.
+- **Indicator**: logarithmic scale, expanded 0–500 ft. The pointer goes **behind a mask** above 2500 ft, on a transmitter fault, or when switched off. **Failure flag** for too much noise, airframe reflections or power loss (needle disappears, possibly with an audio warning). **Press-to-test** swings to a preset height (**ground only**). **Low-height (DH) warning**: light below the set height; an alert tone rising from about 100 ft above DH stops abruptly at DH.
+- Calibrated to show the height of the **lowest (main) wheels in the landing configuration**; with the gear **retracted** it **under-reads** (shows less than the actual clearance). It gives clearance **below** the aircraft, **not terrain ahead**.
+
+### TCAS / ACAS
+- **Purpose**: aural and visual alerts of **proximate traffic**, independent of ATC. **1030/1090 MHz (UHF)**; the aircraft equipment is an **interrogator and a transponder**. Maximum range about **30 nm**.
+- **TA (traffic advisory)**: no assessed threat yet. **RA (resolution advisory)**: a threat, with an action to take.
+- **ACAS I**: **TAs only** ("TRAFFIC TRAFFIC"), range, approximate bearing, relative height (mode C/S); warns about **40 s** from a potential collision.
+- **ACAS II**: TAs and **RAs in the vertical plane**; if both aircraft have **mode S**, the computers **coordinate** their RAs. Uses directional aerials, transponder, processor, CDU; power reduces in dense traffic.
+- **ACAS III**: horizontal advisories too (mode S).
+- **RA against a non-ACAS aircraft**: possible if it has an **altitude-reporting transponder (mode C or S)**.
+- **Preventive RA** ("MONITOR VERTICAL SPEED", "maintain vertical speed") — prevents a conflict. **Corrective RA** ("CLIMB, CLIMB", "DESCEND, DESCEND", "INCREASE CLIMB", "LEVEL OFF", reversals "CLIMB NOW") — always shown on an **RA-VSI** or EFIS. Required rates: **1500 ft/min** (increase: **2500 ft/min**). "**CLEAR OF CONFLICT**" when it ends.
+- Book notes: RA about **40 s** before collision; **no vertical RA below 1000 ft AGL**.
+- **Symbols**: hollow cyan/white diamond — other traffic; **solid cyan diamond — proximate** (within 6 nm, ±1200 ft); **solid amber/yellow circle — TA**; **solid red square — RA**. The number is relative altitude in hundreds of feet (+ above, − below) and the arrow shows climbing or descending.
+
+### GPWS
+- **Purpose**: aural and visual alerts when the aircraft is getting **dangerously close to the ground**. Inputs: **radio altitude**, air data (VSI, airspeed/Mach), **ILS glideslope**, gear and flap position, DH setting. Active from **50 to 2450 (≈ 2500) ft** radio height.
+- **Mode 1 — excessive descent rate**: "SINK RATE" (outer boundary), then "WHOOP WHOOP PULL UP" (inner).
+- **Mode 2 — excessive terrain closure rate**: 2A flaps not in landing configuration, 2B flaps in landing configuration; "TERRAIN TERRAIN", then "PULL UP".
+- **Mode 3 — altitude loss after take-off or go-around** (not in landing configuration, about 50–700 ft): "**DON'T SINK**".
+- **Mode 4 — unsafe terrain clearance not in landing configuration**: 4A gear up → "TOO LOW, TERRAIN" / "TOO LOW, GEAR" (below about 500 ft); 4B gear down, flaps not landing → "TOO LOW, FLAPS" (below about 200 ft).
+- **Mode 5 — descent below the ILS glideslope**: amber lights; soft "GLIDESLOPE" (below 1000 ft, more than **1.3 dots** low, half volume, can be cancelled), becoming loud and continuous (more than **2.5 dots**).
+- **Mode 6 — descent below the selected minimum (DH)**: "MINIMUMS, MINIMUMS" (gear down); EGPWS adds "BANK ANGLE".
+- **EGPWS (TAWS)**: all GPWS functions plus **terrain ahead** (position from the FMS/GPS and a terrain database), **bank angle** on approach (envelope shrinks below 150 ft), and **Mode 7 windshear** below 1500 ft. Mode 4C: alert if radio height falls below a proportion of its earlier value after take-off or go-around.
+- **Caution (alert)**: stop or reduce the descent, analyse, act, inform. **Warning**: **maximum power**, climb at the pitch for **stick-shaker / pitch limit (maximum gradient)**, inform ATC.
+
+### Exam traps
+- RADALT: **FMCW 4200–4400 MHz (SHF, centimetric)**, two aerials, **frequency difference ∝ height**, no Doppler, 0–2500 ft, ±2 ft to 500 ft. Gear up → **under-reads**. Tested on the ground only.
+- TCAS: TA = information; **RA = act**, vertical only in ACAS II; "Monitor/maintain vertical speed" = **preventive** RA. RA against any **mode C/S** transponder.
+- GPWS modes: **1 sink rate, 2 terrain closure, 3 don't sink, 4 too low gear/flaps, 5 glideslope, 6 minimums/bank, 7 windshear**. Range **50–2450 ft**.
+
+## 24. Power Plant and System Monitoring Instruments
+*Part II — Aircraft Instruments, Chapter 8.*
+
+### Purpose
+- Engine instruments show the **health and performance** of the engine and keep it within **operating limits** (RPM, pressure, temperature must never be exceeded); logged data show trends for **preventive maintenance**. Multi-engine aircraft usually have a set of gauges per engine.
+
+### Pressure
+- Sensors: **diaphragm/capsule** (low pressures) or **Bourdon tube** (higher pressures). Reading is **direct** (pressure line to the cockpit) or **indirect** (sensor on the engine or firewall, electrical transmission).
+- The two principal **direct-reading** pressure gauges: **Bourdon tube** and **capsule** types.
+- **Oil pressure**: direct — a **Bourdon tube** filled with thin oil; indirect — a firewall diaphragm driving a **rheostat** and a **ratio meter** (two coils).
+- **Bourdon tube**: a C-shaped or spiral tube of **oval cross-section**, one end fixed; pressure makes the section rounder and the tube **straighten**, moving the pointer.
+- **Manifold pressure (MAP)**: needed with a controllable-pitch propeller to set power for the selected RPM; an aneroid capsule/bellows reading **absolute pressure in in Hg** (10–30 in; up to 50+ for turbocharged engines). It may show boost (above atmospheric) instead.
+- **Fuel pressure**: like remote oil pressure; diaphragm sensor fitted **after the filter and pump**.
+- **Colours**: MAP — **red radial = maximum take-off MAP**, **blue and green arcs = lean and rich mixture ranges**. Oil pressure — **red lines** at max and min, **green** normal. **Amber** = caution.
+
+### Temperature
+- Principles: **expansion of a solid** (bimetallic helix), **expansion of a liquid**, **change of electrical resistance** (platinum wire), **thermocouple EMF** (two dissimilar metals; EMF depends on the temperature **difference** between junctions), **vapour pressure** in a Bourdon tube, **radiation** (pyrometer, turbojets).
+- Air temperature is mainly measured **electrically** (resistance or thermocouple). The probe is sited to avoid compressibility, but some **ram rise** remains; correcting the reading gives **COAT** (corrected outside air temperature), i.e. **SAT**. Sensors: through-the-window types in light aircraft, flush bulbs, or shielded probes.
+- **Thermocouple gauges**: hot junction at the probe, cold junction at the instrument (millivoltmeter); **self-generating**.
+- **EGT**: on the hottest cylinder's exhaust; used for **leaning**; essential for FADEC fuel-injected engines.
+- **CHT**: thermocouple (iron or copper–constantan) in the hottest cylinder head, up to **400 °C**.
+- **Oil and carburettor temperature**: not thermocouples — a **vapour-pressure Bourdon tube** (methyl chloride) or a **resistance (ratio-meter)** sensor, which is insensitive to voltage changes.
+- **Colours**: green normal, amber caution, red limits. **Carburettor air temperature** gauge (−50 to +150 °C): **yellow −10 to +15 °C = icing**, **green +15 to +40 °C = normal**, **red above +40 °C = detonation**.
+
+### RPM (tachometers)
+- Piston engines: **crankshaft** speed; gas turbines: **compressor** speed.
+- **Mechanical (magnetic) tacho**: flexible drive turning a magnet inside an aluminium **drag cup**; eddy currents drag the cup against a hairspring — small piston engines.
+- **Electrical tacho-generator**: engine-driven generator; **DC** types lose voltage over long wires; **AC** types read **frequency** and are immune to wire length — more reliable. On larger piston engines an alternator drives a **synchronous motor** and drag cup.
+- **Inductive (tacho) probe**: pulses from a phonic wheel — **turbofans**; modern pick-ups feed a digital counter.
+- **Colours**: green normal, amber caution, **red line maximum RPM**; red arcs for ranges restricted by **vibration**.
+
+### Fuel flow
+- **Independent system**: a **spring-loaded vane** in the feed line → potentiometer or a.c. synchro → milliammeter calibrated in flow; a **bypass valve** opens if the vane sticks (may show a warning).
+- **Integrated system**: a **turbine impeller** whose speed ∝ flow, with an **integrator** giving **flow (kg/h) and fuel used (kg)**; on turbines it sits in the **HP line between the FCU and the burners**; may give a low-flow warning.
+
+### Fuel quantity
+- **Mass** (kg/lb) is more useful than volume: it gives weight and energy content.
+- **Float type**: float on a variable resistance; accurate only in **steady straight and level flight**; errors from fuel movement, attitude, acceleration, temperature (expansion) and **voltage** fluctuations.
+- **Capacitance type**: concentric tubes; fuel replaces air as the **dielectric**; many probes averaged, accurate in turbulence, no high voltage in the tank. Fuel expansion is offset by its lower permittivity, so it reads **mass**. **Water** in the tank (higher density and dielectric constant) upsets the compensator and makes it **over-read**.
+
+### Torque
+- Power = **torque × RPM**. Essential on **turboprops** to protect the engine and reduction gear. A windmilling propeller gives **negative torque**.
+- **Hydro-mechanical** torquemeter: pistons moved in proportion to the turning moment; the oil pressure produced is shown as torque. **Electronic**: **strain gauges** in the drive train.
+- Units: **N·m**, J/rad, lb·ft. Colours: red limits, green normal, sometimes a **yellow arc at the low end** warning of negative torque.
+
+### Exam traps
+- **Bourdon tube = pressure** (higher pressures); capsule/bellows for low pressure.
+- Temperature methods: **thermocouple, resistance, liquid (mercury)** — not reactance.
+- **Thermocouple needs no power**; oil temperature uses **resistance or vapour pressure**.
+- CAT gauge: **yellow −10 to +15 °C icing**, red above +40 °C detonation.
+- Capacitance gauge → **mass**; water makes it over-read.
+
+## 25. Basics of Electronic Displays (FMS, EFIS, EICAS/ECAM)
+*Part II — Aircraft Instruments, Chapter 9.*
+
+### Flight management system (FMS)
+- "Pilot-interactive navigational computing and display systems" that fly a pre-planned lateral and vertical route with **maximum economy and safety**, reducing crew workload, especially in terminal areas.
+- Components: **FMC** (flight management and guidance computer — 3-D position, performance); **MCDU/CDU** (the pilot interface); **flight control unit** (lateral and vertical commands); **source selector**; **display system**. Basically two units: **FMC and CDU**. Large airliners carry **twin** systems.
+- The FMC stores the **navigation database**, updated every **28 days**: airports (ICAO 4-letter codes, position, runways, approach aid frequencies and idents, DHs, SIDs, STARs), waypoints (position, variation, holds), navaids (type, position, frequency, elevation), airways; plus a **performance database** (lift, drag, fuel flows, thrusts).
+- CDU keys: **function keys** (select the display), **alphanumeric keys** (data entry), **line keys** (interaction with the display). FMS use divides into **route management** and **performance management**.
+
+### EFIS
+- The "glass cockpit": colour screens replace mechanical instruments. Two screens per pilot (~5 inches square):
+  - **EADI / PFD**: attitude, airspeed, altitude, azimuth — the **main flying instrument**: flight director bars, speed tape (**left side**), ILS localiser and glideslope, autothrottle and AFDS modes (FMA), radio altitude, DH, groundspeed, slip indicator. **Altimeter setting** is shown on the PFD.
+  - **EHSI / ND**: navigation information. PFD/ND are Airbus terms; **EADI/EHSI** Boeing.
+- An **MFD** may add weather radar; others show systems and engines (ECAM, EICAS), crew alerting, electronic library. Airbus EFIS = **PFD + ND**.
+- **Colours**: **white** — scales, labels, present/pilot-selected data; **cyan** — IFR database items, **inactive** route (long dashes); **magenta** — computed/derived data, **active waypoint and route**, FD commands, deviation pointers; **green** — normal/engaged, valid operation, ILS frequency; **yellow/amber** — **cautions** (alerts, failures, CDI at full scale, DH flashing); **red** — **warnings**, limits needing immediate action; **brown** — ground; **blue** — sky/water; **grey/black** — backgrounds.
+- **Decision height**: set by the pilot on the **ADI section of the EFIS control panel**; shown on the EADI; **flashes yellow on reaching DH**. **Radio altitude** is digital, then below **1000 ft AGL** becomes a **circular scale** erased anticlockwise as the aircraft descends.
+- **Heading reference**: **magnetic between 73°N and 65°S**, true above these latitudes; the EHSI can show **true or magnetic**.
+
+### EHSI / ND modes
+- **MAP**: aircraft at the bottom, **track up**; can show weather (WXR), waypoints, navaids, airports, route data, tuned VOR/ADF bearings, holds; **distance to go top left**, ETA, wind (bottom left), trend vector (30/60/90 s), altitude range arc, T/C, T/D, vertical deviation (±400 ft).
+- **CENTRE MAP**: aircraft in the middle — shows what is behind.
+- **NAV / expanded NAV**: expanded puts the aircraft at the bottom so weather can be shown.
+- **PLAN**: the FMC flight plan, **true-north-up**, static; **no weather radar** and **no wind**.
+- **VOR / ILS** (full or expanded): chosen by the tuned frequency; **weather radar only in expanded** modes (and MAP). Wind is shown in MAP, expanded and full VOR/ILS.
+- **Route lines**: **active — solid magenta**; modified — white short dashes; inactive — **cyan long dashes**; offset — dash-dot.
+- Weather returns: **green** light, **amber** more, **red/magenta** most intense. WXR is controlled from **both pilots' EFIS panels** and can show on both EHSIs at once.
+
+### EICAS (Boeing) and ECAM (Airbus)
+- **EICAS — Engine Indicating and Crew Alerting System**: sensors → computers (one is enough) → **upper display: primary engine data + warnings and cautions**; **lower display: secondary engine or system data**. One display fails → the other shows primary data in **compressed** form; both fail → **standby engine indicators**. Modes: **operational, status, maintenance** — maintenance on the **ground only**.
+- **ECAM — Electronic Centralised Aircraft Monitoring**: data on the **aircraft systems**, in **checklist (left) and synoptic diagram (right)** form. Modes: **normal, advisory** (automatic, non-emergency change), **failure** (automatic, overrides all), **manual** — all available in flight.
+
+### Exam traps
+- PFD = **piloting**; ND = navigation. Boeing **EADI + EHSI**, Airbus **PFD + ND**.
+- **Magenta = active**, cyan = inactive, amber = caution, red = warning.
+- DH set on the **EFIS control panel (ADI section)**, flashes **yellow at DH**; RA circular below **1000 ft**.
+- Magnetic north between **73°N and 65°S**.
+- Weather radar **not in PLAN** (only MAP and expanded VOR/ILS). Distance to go **top left**.
+- EICAS: **upper primary, lower secondary**; maintenance mode ground only. ECAM: checklist left, diagram right.
+- Nav database **28 days**.
+
+
+## 26. Basic Radio Theory
+*Part III — Radio Navigation, Chapter 1.*
+
+### Electromagnetic waves
+- A changing electric field produces a perpendicular magnetic field, and the other way round; together they travel through space at the speed of light as **electromagnetic (EM) waves**. Around a radiating aerial there is **an electrical and a magnetic field**.
+- **Frequency**: the number of waves passing a point per second (1 cycle per second = 1 Hz; kHz = 10³, MHz = 10⁶, GHz = 10⁹ Hz).
+- **Wavelength (λ)**: the distance a wave covers while travelling through 360°.
+- **λ = c ÷ f**, c = **3 × 10⁸ m/s**. Higher frequency → shorter wavelength, and vice versa.
+- **Phase difference**: the angular difference between two waves of the same frequency.
+- **Polarisation**: the direction in which the **electrical** component lies (the magnetic component is perpendicular to it).
+- **Polar diagram**: the aerial characteristics of a transmitter or receiver; for a transmitter it is drawn to where signal strength has fallen to **50%**.
+
+### Transmission and modulation
+- **Continuous wave (CW)**: continuous transmission, **separate aerials** for transmitter and receiver, working independently.
+- **Pulse modulation**: short pulses (primary and secondary radar); **one aerial** shared, switching between transmit and receive.
+- **Modulation**: superimposing audio frequency or information on a carrier wave. Three types:
+- **Amplitude modulation (AM)**: carrier amplitude varies with the amplitude of the audio, frequency constant. VHF communications are AM. Transmitter complicated, receiver simple; **susceptible to static and noise** (static = external disturbance, noise = within the system).
+- **Frequency modulation (FM)**: carrier frequency varies with the audio frequency, amplitude constant. Transmitter simpler, receiver complicated; **free from static and noise**; drawback: **less range for the same power**.
+- **Phase modulation**: carrier phase changed at fixed intervals (**used in GPS**).
+
+### Frequency bands
+| Band | Frequency | Wavelength | Name |
+|---|---|---|---|
+| VLF | 3–30 kHz | 100–10 km | Myriametric |
+| LF | 30–300 kHz | 10–1 km | Kilometric |
+| MF | 300 kHz–3 MHz | 1 km–100 m | Hectometric |
+| HF | 3–30 MHz | 100–10 m | Decametric |
+| VHF | 30–300 MHz | 10–1 m | Metric |
+| UHF | 300 MHz–3 GHz | 1 m–10 cm | Decimetric |
+| SHF | 3–30 GHz | 10–1 cm | Centimetric |
+| EHF | 30–300 GHz | 1 cm–1 mm | Millimetric |
+- Radar bands: **L 1–2 GHz, S 2–4 GHz, C 4–8 GHz, X 8–12 GHz**.
+
+### Properties and propagation
+- EM waves are **refracted, reflected, diffracted and attenuated** (attenuation = loss of amplitude). Passing between media both **direction and speed** change; they **bend towards the denser medium** (towards the normal going from less dense to denser).
+- **Ground waves** (everything not refracted by the ionosphere):
+- **Direct (line-of-sight) wave**: VHF, UHF, SHF, EHF. **LOS range (NM) = 1.25 (√H_tx + √H_rx)**, heights in feet.
+- **Surface wave**: follows the earth's curvature by **diffraction**; intensity falls quickly; only for low frequencies (up to about **2 MHz**): VLF, LF, MF. Attenuation **rises with frequency** and is **greater over land than sea**.
+- **Ground-reflected wave**: arrives after reflection from the ground.
+- **Duct propagation**: VHF/UHF/SHF trapped under a **temperature inversion with humidity decreasing rapidly with height**; travels hundreds of miles (interference from distant VHF stations in high-pressure weather).
+- Drawbacks of low frequency: **static**, **large aerials**, **high transmitter power**.
+- **Sky wave (ionospheric)**: refracted back from the ionosphere; **2–30 MHz** (MF and HF). Below about 10 MHz works best **at night**; above 10 MHz **by day**.
+
+### Ionosphere
+- Layers of charged particles made by **UV radiation**. **D layer 50–100 km (avg 75)**, **E layer 100–150 km (avg 125)**, **F layer** above (splits into F1/F2 on summer days).
+- Electron density is **greatest in the F layer, least in D**. At night the **D layer disappears** and E-layer density falls, so the ionosphere is effectively **higher at night**.
+- **Skip distance**: transmitter → first returning sky wave. **Dead space**: end of the surface wave → first returning sky wave (no signal at all).
+- **Critical angle**: the angle of incidence at which the first sky wave returns (the **critical ray**); at smaller angles the wave escapes.
+- **Fading**: variation of signal strength at the receiver; increases with sky-wave frequency.
+- **HF at night**: the wave must penetrate further before it bends back → skip distance grows and the receiver falls into dead space → **halve the HF frequency at night**. "**Sun up, frequency up; sun down, frequency down.**"
+- Raising frequency (same conditions): **less refraction → longer skip distance → bigger dead space**.
+- VLF/LF are absorbed by the layers; **VHF and above pass through**; part of MF and HF is reflected back.
+
+### Operating frequencies
+| System | Frequency | Band |
+|---|---|---|
+| Decca / Loran C | 70–130 kHz / 100 kHz | LF |
+| ADF | 190–1750 kHz | LF/MF |
+| HF communications | 2–25 MHz | HF |
+| ILS markers | 75 MHz | VHF |
+| ILS localiser | 108.1–111.95 MHz | VHF |
+| VOR | 108.0–117.95 MHz | VHF |
+| VHF communications | 118–137 MHz | VHF |
+| ILS glide path | 329.15–335.0 MHz | UHF |
+| DME | 960–1213 MHz | UHF |
+| SSR | 1030 / 1090 MHz | UHF |
+| GPS | L1 1575.42, L2 1227.6 MHz | UHF |
+| Satcom (Inmarsat) | 1500–1600 MHz air ↔ sat; 4000–6000 MHz sat ↔ ground | UHF / SHF |
+| Radio altimeter | 4200–4400 MHz | SHF |
+| MLS | 5031–5091 MHz | SHF |
+| Weather radar | 9375 MHz | SHF |
+| ATC surveillance radar | 600–1300 MHz | UHF |
+| Ground movement radar | 10–16 GHz | SHF |
+- **Cone of confusion (null zone)**: a cone over NDB, VDF and VOR stations with no usable signal; needles behave erratically.
+
+### Exam traps
+- λ = c/f: **12 mm → 25 GHz**, **3.5 cm → 8.57 GHz**, **19 cm → 1.579 GHz (UHF)**, **121.95 MHz → 2.46 m**, **373 kHz → about 800 m**.
+- VOR, VHF and ILS localiser are **metric**; weather radar is **centimetric**; NDB is **kilometric/hectometric**.
+- **295 kHz is LF** (LF ends at 300 kHz), not MF.
+- Skip distance is **greater by night**; HF frequency must be **decreased at night**.
+- Dead space is **between** the end of the surface wave and the first sky wave; skip distance is measured **from the transmitter**.
+- Ducting: **inversion + humidity decreasing with height**.
+- The book's grid gives "refraction increases with frequency"; physically refraction **decreases** as frequency rises (that is why skip distance grows) — Glidepath's bank follows the physics and notes the book key.
+
+## 27. ADF / NDB
+*Part III — Radio Navigation, Chapter 2 (with Chapter 3, Track and Drift Questions).*
+
+### The equipment
+- **ADF** (Automatic Direction Finder) = aircraft receiver; **NDB** (Non-Directional Beacon) = ground transmitter. The ADF receives NDBs and broadcast stations in about **190–1750 kHz**; NDBs use **190–450 kHz** (LF/MF). **500 kHz** (maritime distress) is not used for NDBs; 530–1750 kHz AM broadcast stations can also be tuned.
+- The ADF is a separate set from the NAV/COM radio. An NDB can carry voice to the aircraft, but the pilot **cannot reply** on the ADF.
+- Uses: **homing, holding, approach and en-route** navigation.
+- **Principle**: relative bearing by **loop theory / switched cardioids**.
+- Control panel: **OFF**; **ANT (REC)** — not automatic, used for **tuning**; **ADF (COMP)** — automatic direction finding; **BFO (CW)** — makes the ident audible; frequency selector; **TEST** button.
+- **RBI** (relative bearing indicator) shows the bearing of the station from the nose.
+
+### Emission types
+- **NON A1A**: continuous unmodulated carrier (NON) for direction finding, periodically replaced by **interrupted carrier (A1A)** keyed with the Morse ident. Used for **long-range, high-power** NDBs. Needs the **BFO** to hear the ident.
+- **NON A2A**: ident carried by **keyed tone amplitude modulation (A2A)**; medium-range NDBs. **BFO on for tuning, off for identification.**
+- **BFO (beat frequency oscillator)**: generates a signal slightly removed from the received one (e.g. 262 kHz against 260 kHz); mixing gives 260, 262, 522 and **2 kHz** — the 2 kHz beat is the audible tone.
+
+### How it works
+- Two aerials: a **loop** (directional) and a **sense** aerial.
+- Loop aligned with the NDB: the vertical arms receive the signal in different phase → maximum EMF; loop at 90° to the NDB → **zero EMF (null)**.
+- A loop alone has **180° ambiguity** (direction property error), resolved by the **sense aerial**.
+- Polar diagrams: loop = **figure of 8**; sense = **circle**; combined = **cardioid** (one maximum, one minimum). The **null** of the cardioid drives the RBI pointer; the loop is kept with its null 90° to the station.
+- Bearings: **true** (from true north), **magnetic** (from magnetic north), **relative** (from the nose/heading).
+
+### Range
+- **Range ∝ √power**: to double the range, **quadruple the power**.
+- Sea gives more range than land; **lower frequency gives more range**.
+- Night effect limits NDB range to about **70 NM**; the **DOC** (designated operational coverage) also limits it.
+- Accuracy (day only, within DOC): **±2° up to 70 NM, ±5° beyond**.
+- **Locator NDB**: **15 W, 10–25 NM, NON A2A**, co-located with ILS markers. **Homing/holding/aerodrome NDB**: **200 W, 50 NM, NON A2A**. **Long-range NDB**: no fixed range.
+
+### Errors
+- **Night effect**: at night sky waves appear in the MF band and hit the loop's horizontal arms → the null is distorted, the needle wanders, signal fades. **Maximum at dawn and dusk.** Reduce it: use a **lower-frequency** beacon, one **within 70 NM**, a **high-power** beacon.
+- **Coastal refraction**: the wave speeds up over the (less dense) sea and **bends away from the normal, towards the land**. Worst when the bearing crosses the coast at an **acute angle** and the beacon is **far inland**; least when it crosses at 90°. Reduce it: fly **high**, use beacons whose signal crosses at **90°**, beacons **near the coast**, **higher power**.
+- **Quadrantal error**: the aircraft's metal and fields bend the signal before the loop; **maximum on quadrantal (inter-cardinal) relative bearings** (045, 135, 225, 315). Corrected with a **quadrantal correction card**: **RB = LSR ± QC** (LSR = loop scale reading).
+- **Interference**: from other NDBs; prevented by the **DOC** published in the AIP, valid **by day only** (protected range).
+- **Mountain effect**: hills reflect and re-radiate LF/MF; low-flying aircraft get a composite, erroneous bearing.
+- **Static / precipitation**: thunderstorms (CB) and precipitation reduce range and accuracy — the **greatest inaccuracy** in ADF bearings; the needle may point at a CB.
+- **No failure warning**: most ADFs have **no failure flag**, so failures can go unnoticed.
+- **Bank angle (dip)**: bank induces EMF in the loop's horizontal elements.
+
+### Track and drift (Chapter 3)
+- **QDM** (MBT): magnetic track to the station; **QDR** (MBF): magnetic bearing from the station (= radial); **QUJ** (TBT): true track to; **QTE** (TBF): true bearing from.
+- **QDM = QDR ± 180°**; **QUJ = QDM ± variation**; **QTE = QDR ± variation = QUJ ± 180°**.
+- **MBT = MH + RB**; **RB = MBT − MH** (add/subtract 360 as needed).
+- **TMG = H + drift**; **TMG = RT + TE** (starboard +, port −). TMG right of heading = starboard drift.
+- Winds are **true**; aerodrome METAR/ATIS winds and runway headings are **magnetic**; tracks are true unless stated; ATS routes magnetic.
+- Homing with RB 000 in a crosswind gives a **curved path**; heading **decreasing** means the wind pushes you right (**right / starboard drift**).
+- **Bearing accuracy classes**: A ±2°, B ±5°, C ±10°, D more than 10°. **Position classes**: A 5 NM, B 20 NM, C 50 NM, D more than 50 NM.
+- Off-track sums: **TE (°) = off-track distance × 60 ÷ distance**; RB to an NDB ahead = drift ± TE.
+
+### Exam traps
+- Long-range NDBs use **NON A1A**; BFO needed to hear an **A1A** ident.
+- Quadrantal error peaks at **045/135/225/315 relative** — e.g. heading 315°, a signal from 360° (M) arrives at 045° relative.
+- Coastal refraction: an NDB **50 NM inland** gives a bigger error over the sea than one 20 NM inland; **acute angle** is worst.
+- To double NDB range: **×4 power**.
+- Outbound with RB 184 (4° starboard drift) → inbound on the reciprocal hold **RB 356**.
+- The promulgated range (DOC) applies **by day only**.
+- ADF has **no** failure warning; VOR and ILS have flags.
+
+## 28. VOR
+*Part III — Radio Navigation, Chapter 4 (with Chapter 5, VOR/RMI/ADF Related Questions).*
+
+### Basics
+- **VHF Omni-directional Range**: line-of-sight en-route aid, **108.00–117.95 MHz**, **160 channels**. 108–112 MHz shared with the ILS localiser: **odd first decimal = localiser, even = VOR** ("**LOVE**"); **112–117.95 MHz VOR only**.
+- Usually part of a **NAV/COM** set. The pilot cannot transmit on a NAV radio, but ATS can transmit on a VOR frequency (ATIS, or to reach an aircraft with radio failure).
+- Uses: magnetic bearings by day and night; airways, routes, approaches, holding, radial interceptions, track keeping and position.
+- **Principle: phase comparison of two 30 Hz signals.** **Radial**: a magnetic track radiating out from the station.
+
+### Conventional VOR (CVOR)
+- **Reference signal**: 30 Hz **frequency-modulated**, omni-directional (polar diagram a **circle**), same phase in all directions.
+- **Variable signal**: 30 Hz **amplitude-modulated** by an aerial rotating **clockwise at 30 rev/s (1800 rpm)**; polar diagram a **rotating figure of 8**.
+- Both are **in phase on magnetic north**; the phase difference at any point = the **magnetic bearing from the station (QDR)** (e.g. QTE 220°, variation 10° W → QDR 230° → phase difference 230°). They are 90° out of phase on magnetic east.
+- Combined polar diagram: a **limaçon** (made at the ground; no sharp null), unlike the ADF **cardioid** (made at the aircraft; well-defined null).
+- A radial is a **great circle** path.
+
+### Doppler VOR (DVOR)
+- For sites with uneven terrain: about **50 aerials**, reasonably **free of site error**. Reference signal **AM**, variable signal **FM**, rotation **anticlockwise**. Same frequencies, same airborne receiver, same phase-comparison principle.
+
+### Types
+- **Standard VOR**: airway centre lines, about **200 W**. **Terminal VOR (TVOR)**: low power, aerodrome location / procedural approach with DME. **Broadcast VOR (BVOR)**: voice (ATIS) superimposed.
+- **VOT** (VOR test facility): low-power, transmits **only the 360° radial** (phase difference 180° in all directions). Centre the CDI: **000° ± 4° FROM** or **180° ± 4° TO** ("Cessna 182"). A VOT can be used **anywhere on the ground**; a VOR receiver check is done **at designated points**.
+
+### Accuracy and monitoring
+- Ground signal **±3° (95%)**; VOT check **±4°**; airborne check **±6°**; overall **±5° (95%)**.
+- Ident every **10 s**. The ident is **removed** (or the station switched off) if the bearing is wrong by more than **1°**, the monitor fails, or power drops **15%** below normal.
+- **Cone of confusion**: no signal above the station (radiation at about 40–80° elevation): TO/FROM flickers, CDI swings, warning flag may show.
+- **Warning flag** shows with: no/low aircraft power, aircraft equipment failure, ground station failure, indicator failure, weak reference or variable signal, during tuning.
+
+### Errors ("SAP" aggregate + two more)
+- **Site error**: buildings, uneven terrain, trees, wires, fences, long grass (course displacement); max **1°** or the ident is removed.
+- **Airborne equipment error**: receiver inaccuracy; max **±1°**.
+- **Propagation error**: reflection, refraction, diffraction (uneven ground). Site + airborne + propagation = **aggregate error**.
+- **Beacon alignment error**: reference/variable signals not aligned with magnetic north.
+- **Pilotage error**: radials bunch up close to the station; the CDI is very sensitive.
+- No night effect, no quadrantal error.
+
+### Range
+- **Range ∝ √power**; **LOS = 1.25 (√H_tx + √H_rx)**, or **12.5 √FL** for a station at MSL.
+- **DOC** given in **range and altitude** (ADF: range only); within it, freedom from interference by co-channel VORs is guaranteed. Beyond it: **interference from other transmitters**.
+
+### The indicator (OBS, CDI, TO/FROM)
+- **OBS**: selects any of the 360 magnetic tracks. **CDI**: deviation from the selected track; **2° per dot**, full scale **10°** (5 dots).
+- **TO/FROM** does **not** show whether you are heading to or from the station; it depends only on the **OBS selection** and the **aircraft's position**: would flying the selected track take you to or away from the station?
+- **Alarm flag** with receiver/power failure, no usable signal (range, height, overhead or **abeam** the station), ground station failure.
+- **Reverse sensing**: when the selected track is roughly opposite to the heading, the needle shows the wrong way. To go **inbound on a radial**, set the **reciprocal** of the radial with **TO** (e.g. inbound on the 104 radial: **284 TO**).
+- Variation for VOR bearings: always at the **VOR**.
+
+### RMI (Chapter 5)
+- Compass card slaved to the **gyro-magnetic compass** (shows **magnetic heading**); needles show **QDM** (head) and **QDR** (tail).
+- **ADF needle**: QDM made by adding magnetic heading and relative bearing mechanically; **VOR needle**: fed straight from the VOR phase measurement (so it stays correct even if the card fails).
+- Gives: magnetic heading, relative bearing, QDM/QDR, radial, fix.
+- To make true bearings: **NDB → variation at the aircraft; VOR → variation at the beacon**.
+- RMI card stuck at 090°: the VOR tail still gives the **radial**; the relative bearing is unknown. ADF pointer 200° with card stuck at 090° → RB = 110°.
+
+### Exam traps
+- Phase difference = **QDR (magnetic bearing FROM)**. 30° difference → radial **030**.
+- Radial from a position: use the **VOR's** variation (aircraft due south of a VOR with 13° E → radial 167).
+- Inbound on a radial: OBS = **radial ± 180 with TO**.
+- 1° at 200 NM ≈ **3.5 NM**; 5 NM at 100 NM = 3° = **1.5 dots**.
+- A VOR radial is a **great circle**, not a rhumb line.
+- DVOR's advantage: **reduced site error**.
+- VOT: **360 FROM / 180 TO**, tolerance ±4°.
+
+## 29. Holding, Radial Intercept, Bearing to Plot
+*Part III — Radio Navigation, Chapter 6.*
+
+### Standard holding pattern
+- **Right turns, rate 1 (3°/s)**, **1-minute** legs up to **FL140**, **1½ minutes** above FL140 (about 4 and 6 minutes a circuit).
+- Terms (for an inbound track of 270°): inbound leg/track 270°; holding (inbound) radial 090°; outbound leg/heading 090°.
+- **Holding speeds (IAS)**: up to FL140 **230 kt**; FL140–200 **240 kt**; FL200–340 **265 kt**; above FL340 **M0.83**.
+- **Non-standard hold**: the mirror image, **left turns**; timing may differ.
+
+### Entry sectors (±5° flexibility on the boundaries)
+- **Sector 1 — parallel**: fly outbound on the **published inbound track** (on the non-holding side) for 1 minute, then turn **left** (in a right-hand hold) back to the fix/inbound track.
+- **Sector 2 — offset (teardrop)**: fly a track **30° off the reciprocal** of the inbound track, on the holding side, for 1 minute, then turn back onto the inbound track.
+- **Sector 3 — direct**: turn straight into the pattern on crossing the fix.
+- Sizes: **direct 180°, teardrop 70°, parallel 110°**. For a right-hand hold, measure the aircraft's track to the fix against the inbound track: from −70° to +110° direct; +110° to +180° teardrop; +180° to +290° parallel. Book method: draw the sectors on the holding radial (holding radial − 70°, + 110°).
+- At VOR intersections or VOR/DME fixes, entries are limited to the radials or DME arcs that form the fix.
+
+### Wind corrections in the hold
+- **Drift**: inbound leg — apply the **actual drift**; outbound leg — apply **three times the drift**. Rate of turn is unchanged.
+- **Time**: outbound leg only — **±1 second per knot** of headwind/tailwind component.
+
+### Radial intercepts
+- Standard intercept angles **30°, 60°, 90°**. If not given: **intercept angle = 2 × (difference between present and final MBT/MBF)**, rounded **up** to 30/60/90.
+- **Heading to intercept = final MBT/MBF ± intercept angle** (pick the practical one, towards the new track).
+- **RB at the intercept = final MBT − heading** (add 360 if negative). This is the relative bearing that "confirms interception".
+- Turning off by an angle and rotating the OBS by the same angle makes an isosceles triangle: time to the station = time taken for the bearing to change.
+
+### Bearing to plot (BTP)
+- Bearings are always **plotted from the station**, and only **true bearings (QTE)** are plotted.
+- VOR: centre the CDI with **FROM** showing; the OBS reading is the QDR. RMI gives QDR for both VOR and ADF.
+- **Variation**: ADF — use variation **at the aircraft**; VOR and other ground beacons — **at the station**; mean heading — mean variation.
+- **QTE = QDM ± var ± 180°** or **LSR + QC + true heading ± 180°**.
+- **Lambert (and polar stereographic) chart**: no correction, **BTP = QTE**.
+- **Mercator chart**: apply the **conversion angle (CA = ½ d.long × sin mean lat)**: **BTP = QTE ± CA**, where the change of longitude makes it necessary.
+
+### Exam traps
+- Outbound leg: **3 × drift**, **1 s per knot**; inbound leg: actual drift.
+- Holding speed **230 kt** up to FL140; legs **1 min** up to FL140, **1½ min** above.
+- Intercept angle: **double the difference, round up** (20° → 60°, 40° → 90°).
+- Plot from the **station**, in **true**. Lambert: no conversion angle.
+- ADF bearings: variation at the **aircraft**; VOR: at the **station**.
+
+## 30. ILS
+*Part III — Radio Navigation, Chapter 7.*
+
+### Components
+- **Guidance**: localiser (lateral, VHF) and glide path (vertical, UHF). Tuning the localiser frequency **automatically tunes the paired glide path** (one selection, one ident).
+- **Range**: outer and middle marker beacons, or a low-power **DME co-located with the glide path**.
+- **Visual**: approach, touchdown-zone, centre-line and runway lights.
+
+### Localiser
+- **108–112 MHz, odd first decimals** (108.1, 109.15, 110.3…), VHF, shares the VOR receiver.
+- **Principle: lobe comparison / difference in depth of modulation (DDM)**: two overlapping lobes on the **same frequency** with different modulation: **90 Hz (yellow) on the left**, **150 Hz (blue) on the right** of the centre line as seen on the approach.
+- Coverage: **±10° to 25 NM**, **±35° to 17 NM**; vertically up to **7°** (from the localiser). Outside the coverage you may get **false course** indications.
+- Aerial at the **far (non-approach) end**, about **300 m beyond the runway on the extended centre line**. Some localisers radiate a **back beam** behind the aerial.
+- CDI: turn towards the needle; **0.5° per dot** on a five-dot display (full scale 2.5°).
+
+### Glide path
+- **329.3–335 MHz, UHF**, DDM; nominally **3°**. **90 Hz below** the path, **150 Hz above**.
+- Coverage: **8° each side** of the centre line to at least **10 NM**; vertically **0.45θ to 1.75θ** (1.35°–5.25° for 3°; down to 0.30θ where needed).
+- Correct with **power** (rate of descent), not by pointing the nose.
+- **False glide paths** come from the multiple lobes in the vertical plane (ground reflection); they lie **above** the true path, the first at about **6°** for a 3° path. Signs: high rate of descent, height over the OM higher than published, flag may show.
+- **ILS reference point**: the point at a specified height (about **50 ft**) above the threshold through which the glide path passes.
+
+### Marker beacons (75 MHz)
+| Marker | Distance | Audio | Light |
+|---|---|---|---|
+| Outer (OM) | 3.5–6 NM | **400 Hz dashes**, 2 per second | **Blue** |
+| Middle (MM) | about 3500 ft | **1300 Hz dot-dash**, 3 per second | **Amber** |
+| Inner (IM) | about 1000 ft | **3000 Hz dots**, 6 per second | **White** |
+- The OM marks the glide-path intercept at the published height; the MM is near the Cat I decision height (about 200 ft); the IM (about 1000 ft out) marks the **Cat II** decision point (book: about 50 ft). The **inner marker is optional**.
+- Ident: Morse, usually starting with **I**, **1020 Hz** tone, from the **localiser**; removed on failure (may be kept for localiser-only approaches with a warning).
+- **ILS/DME** ranges are zero-referenced to the **threshold**; use only within the localiser coverage, up to about **6000 ft**.
+
+### Categories and minima
+| Cat | DH | RVR |
+|---|---|---|
+| I | ≥ 60 m (200 ft) | 800 m vis / 550 m RVR |
+| II | 30 to < 60 m | 300 m |
+| IIIA | 0 to < 30 m | 175 m |
+| IIIB | 0 to < 15 m | 50 m |
+| IIIC | 0 | 0 |
+- Cat I guidance to **200 ft**, Cat II to **100 ft**, Cat III to the **runway surface**.
+- With the glide path out: non-precision (localiser only, MDA).
+- **RVR**: the distance a pilot on the centre line can see runway centre-line markings or lights.
+- **Holding positions** for Cat II/III are further from the runway to keep aircraft out of the **ILS sensitive area** (aircraft would disturb the signals).
+
+### Rate of descent sums
+- On 3°: **ROD ≈ 5 × groundspeed** (ft/min); exact **GS (kt) × 101.3 × tan θ**. Height on 3° ≈ **300–318 ft per NM** (+ 50 ft threshold crossing).
+- Every 10 kt change in GS ≈ **50 ft/min** change in ROD. Headwind up → GS down → ROD down.
+- Distance to intercept: height ÷ 300 (≈ 2500 ft → 8.3 NM; ÷ 318 → 7.8 NM).
+
+### Exam traps
+- **90 Hz: left and below → fly right and up.** 150 Hz: right and above.
+- Localiser **odd** decimals 108–112; glide path **UHF** 329–335 MHz; markers **75 MHz**.
+- OM **blue, 400 Hz dashes**; MM **amber, 1300 Hz dot-dash**; IM **white, 3000 Hz dots**.
+- Glide path azimuth: **8° each side to 10 NM**; localiser **±10° to 25 NM, ±35° to 17 NM**.
+- False glide paths are **above** the true one (first at ~6°).
+- The book's key for "more 90 Hz than 150 Hz" prints *right and down*; by its own lobe rules the answer is **right and up**.
+
+## 31. Radar, SSR and DME
+*Part III — Radio Navigation, Chapter 8.*
+
+### Primary radar
+- Radio Detection And Ranging. **Primary**: echo principle (range) + searchlight principle (bearing = where the aerial points). Pulse radar uses **one aerial** for transmit and receive; **CW radar** has **no minimum range**.
+- **Pulse width (length)**: start to end of one pulse. **PRP/PRI**: start of one pulse to the start of the next. **PRF = 1/PRI** (pulses per second).
+- **Range = c × t ÷ 2** (out and back). 1 µs of echo time ≈ 150 m of range.
+- **Maximum range = c ÷ (2 × PRF)**: the **higher the PRF, the shorter** the maximum range (each pulse must return before the next).
+- **Minimum range = c × PW ÷ 2** (e.g. 3 µs → 450 m). **Range resolution** also = c × PW ÷ 2 (2 µs → 300 m ≈ 984 ft).
+- **Azimuth resolution**: targets are smeared by one **beam width**; two targets need to be a beam width apart (1 in 60: 3° beam → 2 NM apart shows separately at **40 NM**). Narrower beam = better.
+- **Power ∝ range⁴**: double the range → **16 ×** power.
+
+### Radars by type
+| Radar | Frequency | Wavelength / notes |
+|---|---|---|
+| En-route surveillance | ~600 MHz | 50 cm, up to 250 NM, 5–15 rpm, little rain clutter |
+| Terminal area surveillance | 600–3000 MHz | 10–20 cm, about 75 NM |
+| Aerodrome (approach) surveillance | — | about 25 NM |
+| Precision approach radar | 9–10 GHz | 3 cm (military fields) |
+| Surface movement (ASDE) | SHF 3–10+ GHz | ~3 cm, up to 60 rpm, 2.5–6 NM |
+| SSR | 1030 / 1090 MHz | 27 cm |
+| Airborne weather radar | 9.375 GHz (X band) | 3.2 cm |
+| Radio altimeter | 4.2–4.4 GHz | 7 cm |
+| Doppler | 8.75–8.85 / 13.25–13.4 GHz | — |
+| DME | 960–1213 MHz | 27 cm |
+
+### Airborne weather radar (AWR)
+- **X band, about 9–10 GHz (3 cm)**: large drops and storms reflect well; fog, mist and stratus do not. Range up to about **150 NM**. Antenna gyro-stabilised (book: in pitch and yaw).
+- Colours: **magenta/red heavy**, **yellow moderate**, **green light**.
+- **Mapping**: **cosecant-squared beam** (more power to the far part of the beam).
+- **Cloud height**: height difference = (tilt ± half beam width) ÷ 60 × range in ft (range NM × 6080). Top: lower edge where the echo just disappears.
+- On the ground: operate only **with precautions for personnel** (and buildings).
+
+### Doppler and MTI
+- **Doppler effect**: received frequency rises when the target approaches, falls as it recedes. Once used for groundspeed and drift; now used in **MTI** radar to reject fixed or slow clutter.
+- **Blind speeds** (MTI response zero): reduce by **lower frequency (longer wavelength)**, **high PRF**, staggered PRT, frequency diversity, jittered PRF.
+
+### Secondary radar — SSR
+- The target carries a **transponder** that replies, so transmitter power is lower (one-way trip) and replies can carry **coded information**.
+- **Interrogator 1030 MHz, transponder 1090 MHz** (UHF); different frequencies avoid **self-triggering**.
+- Interrogation pulse spacing: **Mode A 8 µs** (identity, **4096 codes**), **Mode B 17 µs** (not used), **Mode C 21 µs** (pressure altitude, **100 ft steps**, always referenced to **1013.25 hPa**), Mode D 25 µs (research).
+- **Mode S**: everything Mode C does plus data link; altitude in **25 ft** steps; more than 4096 codes.
+- Mode C/S not used if it differs by more than **±300 ft**.
+- Switch: OFF – **SBY** (on, not replying: after start, before take-off, after landing) – ON (Mode A only) – **ALT** (Mode A + C) – TST.
+- **IDENT** adds the **SPI pulse** for about **20 s**.
+- Codes: **7500 hijack, 7600 radio failure, 7700 emergency**, 2000 no code allotted, 0000 transponder failure.
+- **Garbling**: overlapping replies from aircraft closer than about **1.7 NM**; removed by a killer circuit.
+
+### DME
+- **Slant range** to the station; **UHF 962–1213 MHz**; secondary radar; **random (jittered) PRF** principle.
+- Aircraft interrogates with **pulse pairs**; ground transponder replies after a fixed **50 µs delay** on a frequency **63 MHz** away (so it can't lock on to its own reflections).
+- **Search mode 150 pps**; **lock-on (tracking) 24–30 pps, average 27**; if nothing is found, **standby / 60 pps**. A ground station handles up to **2700 pps**: **100 aircraft** locked on (**126** in search/standby); more than 100 → **saturation (swamping)**: the weakest/furthest lose lock.
+- **Memory**: on losing the signal the range freezes for about **10 s**, then search resumes.
+- **Range = (c × (T − 50 µs)) ÷ 2**.
+- **Slant range error**: negligible when height is below **1000 ft per NM** of range. Overhead it shows the **height in NM** (FL360 ≈ 6 NM).
+- **Ground range = √(slant² − height²)** (height in NM, ft ÷ 6080).
+- **Groundspeed**: accurate only when tracking **directly to or from** the station (and far away at height).
+- **Ident**: DME once every **30 s**, VOR every **10 s**: every fourth VOR ident replaced by the DME ident, at a **higher pitch**.
+- **Accuracy**: **±0.25 NM + 1.25%** of distance (book table also: ±0.5 NM or 3%).
+- **TACAN**: military azimuth + range; civil aircraft use only its **DME**.
+- **ILS/DME**: zero at the threshold; reliable in the approach direction within the localiser coverage, up to about **6000 ft**.
+- **Pairing with VOR**: co-located and serving the same station; may still be paired within **7 NM**; then the ident ends in **Z**. Same ident and "associated" when within **2000 ft (600 m)**.
+
+### Exam traps
+- Max range uses **PRF**, min range and range resolution use **pulse width**.
+- 300 µs echo → **45 km** (book key prints 45 NM; its own working gives km).
+- SSR **1030 up, 1090 down**; Mode C **1013.25 hPa**, 100 ft steps; Mode S 25 ft.
+- DME saturation: **100** aircraft (126 in search); search **150 pps**, track **27 pps**.
+- DME groundspeed is good only **directly to/from** the station; overhead it reads height.
+- AWR: **3 cm X band**; doesn't see fog or stratus.
+- MTI blind speeds: **lower frequency, higher PRF**.
+
+## 32. GNSS
+*Part III — Radio Navigation, Chapter 9.*
+
+### Systems and orbits
+- Satellite navigation systems: **GPS (NAVSTAR, USA)**, **GLONASS (Russia)**, Galileo, BeiDou, **NavIC (India)**.
+- GNSS satellites use inclined **Medium Earth Orbits**; GPS at about **55°** to the equator.
+- Three segments: **space**, **control**, **user**.
+
+### GPS constellation
+- **24 satellites**: **21 operational + 3 spares**, **6 orbital planes**, **4 per plane**, inclined **55°**, about **20 200 km** high (GPS orbits about **1200 km above GLONASS**, which is why they never collide).
+- Orbital period **11 h 58 min** (twice a day). Each satellite carries **4 atomic clocks** (one working, three spares).
+- At least **4–5 satellites** are always in view. Earth model: **WGS-84**.
+
+### How a position is found
+- **Principle**: simultaneous **ranges** from a number of satellites (range = signal travel time × c).
+- Each satellite sends a unique **pseudo-random noise (PRN) code** of **1 ms**; the data give **satellite position (ephemeris)**, clock time, clock error, ionospheric information and other data.
+- Ranges measured with the receiver's (less accurate) crystal clock are **pseudo-ranges**; **1 ms clock error ≈ 162 NM**.
+- **1 satellite**: position in space (a sphere); **2**: ambiguous (circle); **3**: ambiguous (two points); **4**: a **3-D fix** (and the clock error solved); **5**: **RAIM**.
+- **L1 1575.42 MHz**: **C/A (coarse acquisition) code** repeated every millisecond, plus P code; **L2 1227.6 MHz**: **P code** (encrypted = **Y code**). The precision code is modulated at 10.23 MHz and repeats every 7 days.
+
+### RAIM
+- **Receiver Autonomous Integrity Monitoring**: checks the integrity of the GPS data (timely warning when it must not be used). Needs **5 satellites** (4 + 1), or **4 + baro-aiding** (altimeter setting entered). To **isolate and exclude** a faulty satellite: **6**, or 5 + baro.
+
+### Errors
+- **Ephemeris** (satellite position) ~2.5 m; **satellite clock** ~1.5 m (checked every 12 h).
+- **Ionospheric delay**: the **largest** error; reduced with **two frequencies**; ~5 m single-frequency.
+- **Tropospheric delay** ~0.3 m; **multipath** (careful aerial siting).
+- **GDOP**: geometric dilution of precision — worst when the satellites are **close together** (poor cuts).
+- **Vertical position**: height above the **WGS-84 ellipsoid** can differ from MSL altitude by hundreds of feet; vertical accuracy is worse than horizontal: use the altimeter.
+
+### Augmentation and services
+- **DGPS**: a reference station at a surveyed point compares its GPS position with the truth and broadcasts the **correction** to nearby receivers (1–3 m).
+- **WAAS**: en route + Cat I-type approaches; **LAAS**: local, Cat II/III.
+- **GAGAN** (GPS Aided GEO Augmented Navigation, India): reference stations (**INRES**) → master control (**INMCC**) → uplink (**INLUS**) → **geostationary satellites** broadcasting corrections on the **GPS frequency**.
+- **NavIC (IRNSS)**: India's regional system, **7 satellites** in geosynchronous orbit, 3 atomic clocks each.
+- **SPS**: C/A code, all users: **100 m horizontal (95%)**, 300 m (99.99%). **PPS**: C/A + P(Y) code, US DoD and authorised users: **16 m (98%)**.
+
+### Pros and cons
+- Advantages: worldwide, all speeds and altitudes, highly accurate, 24 h, continuous **3-D** position, unrestricted range, **entirely space-based**, with INS can replace ground aids, cheap portable sets.
+- Disadvantages: a **military system** that could be interrupted; civil accuracy lower by policy; without RAIM no immediate warning of satellite malfunction.
+
+### Exam traps
+- Position by **ranges**, not bearings. **4** satellites for a 3-D fix, **5** for RAIM.
+- **24** satellites (21 + 3), **6 planes × 4**, **55°**, ~20 200 km, period **~12 h**.
+- Civil frequency **L1 1575.42 MHz**; earth model **WGS-84**.
+- GDOP worst when satellites are **close together**.
+- DGPS = the **correction** applied to the raw position.
+
+## 33. Summary of Navigation Aids
+*Part III — Radio Navigation, Chapter 10 (the book's revision table).*
+
+### The aids at a glance
+| Aid | Frequency | Principle | Range / coverage | Accuracy | Main errors |
+|---|---|---|---|---|---|
+| ADF / NDB | 190–1750 kHz / 190–450 kHz | Bearing by loop | Locator 10–25 NM, holding 50 NM, LR > 100 NM | ±2° to 70 NM (day), ±5° beyond | Coastal, quadrantal, night, interference, static, mountain |
+| VHF comm | 117.975–137 MHz | AM, 8.33 kHz spacing above FL245 (25 kHz below) | LOS | — | — |
+| VOR | 108–117.95 MHz (even decimals 108–112) | Phase comparison | LOS, 12.5 √FL | ±3° ground, ±5° overall, ±6° airborne check | Site, airborne, propagation, pilotage |
+| DVOR | same | ~50 aerials | same | same | no site error |
+| ILS localiser | 108–112 MHz (odd decimals) | Lobe comparison (DDM) | ±10° to 25 NM, ±35° to 17 NM, 7° vertical | — | Site, propagation |
+| ILS glide path | 329.3–335 MHz | DDM | ±8° to 10 NM; 0.45θ–1.75θ | — | False glide paths |
+| Markers | 75 MHz | Fan beams | OM 3.5–6 NM, MM 3500 ft, IM 1050 ft | — | — |
+| DME | 962–1213 MHz | Random PRF, 50 µs delay | 200 NM; search 150 pps, lock 24–30 | 0.5 NM or 3% | Fruiting, garbling |
+| SSR | 1030 / 1090 MHz | Mode and code pulses | Max code 4096 | — | Garbling |
+| TCAS | 1030 / 1090 MHz | SSR principle | 30 NM | — | — |
+| GPS | L1 1575, L2 1228 MHz | Pseudo-random ranges | Global | SPS 100 m | Ephemeris, clock, ionosphere, GDOP, multipath |
+| MLS | 5030–5090 MHz | Time-referenced scanning beam | ±40° to 20 NM; back ±20° to 10 NM | ±20 ft lateral, ±2 ft vertical | Vehicles near the transmitter |
+| Satcom | 6 GHz up, 4 GHz ground, 1.5 GHz aircraft | — | — | — | — |
+| Radio altimeter | 4.2–4.4 GHz | FMCW: frequency shift = time | Up to 2500 ft | 5 ft ± 3% (landing) | — |
+| Doppler (obsolete) | 8.8–13.5 GHz | Doppler shift | — | GS ±0.1%, drift ±0.1° | Sea movement, sea bias, aerial alignment |
+| AWR | ~10 GHz (X band) | Searchlight + echo, 3° cone, cosecant² mapping | 70 NM weather, 150 NM mapping | — | — |
+
+### TCAS (from the summary table)
+- Uses the **SSR principle** on 1030/1090 MHz, range about **30 NM**.
+- **TCAS I: traffic advisories (TA) only**. **TCAS II: resolution advisories (RA) in the vertical plane only**.
+- RAs: **corrective** (change vertical speed: climb/descend) or **preventive** (monitor vertical speed); RA generated about **40 s** before collision (book table). No RAs below about **1000 ft**.
+- Symbols: hollow diamond — other traffic; solid white/blue diamond — proximate (within 6 NM, ±1200 ft); **yellow circle — TA**; **red square — RA**.
+- Fly the RA on the VSI: keep the needle out of the red, "fly to the green".
+
+### GPWS modes (from the summary table)
+| Mode | Hazard | Envelope | Alert / warning |
+|---|---|---|---|
+| 1 | Excessive rate of descent | 50–2450 ft AGL | "SINK RATE" → "WHOOP WHOOP PULL UP" |
+| 2 | Excessive closure with rising terrain | below 1800 ft (not landing config), 790 ft (landing config) | "TERRAIN TERRAIN" → pull up |
+| 3 | Height loss after take-off / go-around | 50–700 ft AGL | "DON'T SINK" |
+| 4 | Unsafe landing configuration | gear up below 500 ft, flaps up below 200 ft | "TOO LOW GEAR / FLAPS" |
+| 5 | Below glide slope | 100–200 ft and below | "GLIDE SLOPE" (no warning) |
+| 6 | Decision height | selected height | "MINIMUMS" (no warning) |
+| 7 (EGPWS) | Excessive bank / wind shear | bank on finals below 150 ft; wind shear below 1500 ft | "BANK ANGLE", "WIND SHEAR" |
+- GPWS inputs: radio altimeter, VSI/air data, ILS glide slope, gear and flap positions.
+
+### The book's formula sheet
+- **True altitude** = PA + 4 × (actual − ISA temp) × PA/1000 (4% of PA per 10° deviation).
+- **Density altitude** = PA + 118 × (actual − ISA temp).
+- **TAS** ≈ RAS + 1.75% of RAS per 1000 ft.
+- **TAT (K) = SAT (K) × (1 + 0.2 M²)**; ram rise = (TAS/100)².
+- **Mach = TAS ÷ LSS**; **LSS = 39 √T (K)**.
+- **QNH = QFE + elevation/30** (hPa, elevation in ft).
+- **LOS range = 1.25 √H_tx + 1.25 √H_rx**, or **12.5 √FL**.
+- **Distance to station** = TAS × minutes ÷ bearing change (°).
+- **Departure = d.long × 60 × cos lat**; **convergency = d.long × sin mean lat**; **CA = ½ convergency**.
+- **Gyro drift** = real + earth rate (**15 × sin lat**, as in the book's table; its formula sheet prints cos) + transport wander (GS/60 × tan lat).
+- Fuel: litres × SG = kg; Imp gal × SG × 10 = lb; kg × 2.2 = lb; Imp gal × 1.2 = US gal; 100 L = 22 Imp gal = 26.4 US gal.
+
+### Exam traps
+- Know the **frequency and band** of every aid: ADF LF/MF, VOR/LOC/markers VHF, GP/DME/SSR/GPS UHF, rad-alt/MLS/AWR SHF.
+- TCAS II resolves **only in the vertical**; TCAS I gives **TA only**.
+- GPWS Mode 4: gear **500 ft**, flaps **200 ft**; Mode 5 glide slope and Mode 6 minimums are **alerts, not warnings**.
+- Radio altimeter works to **2500 ft**.

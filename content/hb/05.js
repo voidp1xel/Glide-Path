@@ -2,6 +2,7 @@ module.exports = {
   n: 5, title: 'Stability', tag: 'Static and dynamic · neutral point and static margin · phugoid · dihedral effect · spiral and Dutch roll', icon: 'scale', hue: 4, partOfBook: 'Part 2 · Aerodynamics',
   big: 'Why an aircraft returns to trimmed flight after a gust: static and dynamic stability, the tailplane and CG in pitch, the fin in yaw, the wings in roll, and what happens when yaw and roll stability are out of balance.',
   purpose: 'Every paper asks which axis goes with which stability, what CG movement does, neutral point and static margin, phugoid vs short period, dorsal vs ventral fins, high vs low wing and sweep as dihedral, and spiral divergence vs Dutch roll.',
+  bankLead: 'The Handbook prints no question bank, so these are original questions written for Glidepath from the book’s facts — not the book’s own questions. Your answers are saved.',
   lessons: [
     { id: 'map', type: 'mindmap', short: 'Mind map', icon: 'brain', ask: 'The whole chapter on one page',
       root: { label: 'Stability', children: [
@@ -13,10 +14,10 @@ module.exports = {
         { label: 'Coupling', children: [{ label: 'Spiral: dir > lat' }, { label: 'Dutch roll: lat > dir' }, { label: 'Yaw damper' }] },
       ] } },
 
-    { id: 'static', part: 'Static and dynamic', type: 'svg', fig: 'static-stability', icon: 'scale', ask: 'Positive, neutral or negative?', dgca: true,
+    { id: 'static', short: 'Static stability', part: 'Static and dynamic', type: 'svg', fig: 'static-stability', icon: 'scale', ask: 'Positive, neutral or negative?', dgca: true,
       takeaway: 'Static stability is only the first tendency after a disturbance: back towards equilibrium (positive), stay put (neutral) or keep going (negative). Most aircraft are statically stable in pitch and yaw and roughly neutral in roll.',
       hook: 'Bowl, table, hilltop.' },
-    { id: 'axes', type: 'matrix', icon: 'grid', ask: 'Which stability is about which axis?', revise: true, dgca: true,
+    { id: 'axes', hook: 'Tail for pitch, fin for yaw, dihedral for roll.', short: 'Axes and surfaces', takeaway: 'Longitudinal stability is about the lateral axis via the tailplane, directional stability about the vertical axis via the fin, and lateral stability about the longitudinal axis via the wings.', type: 'matrix', icon: 'grid', ask: 'Which stability is about which axis?', revise: true, dgca: true,
       corner: 'Stability', cols: ['About axis', 'Motion', 'Main surface', 'Control'],
       rows: [
         { label: 'Longitudinal', cells: [{ v: 'lateral', key: true }, 'pitch', 'tailplane', 'elevator'] },
@@ -24,7 +25,7 @@ module.exports = {
         { label: 'Lateral', cells: [{ v: 'longitudinal', key: true }, 'roll', 'wings', 'ailerons'] },
       ],
       note: 'The names cross over: longitudinal stability is about the lateral axis, lateral stability about the longitudinal axis.' },
-    { id: 'dynamic', type: 'chart', icon: 'pulse', ask: 'What does dynamic stability look like?', dgca: true,
+    { id: 'dynamic', short: 'Dynamic stability', type: 'chart', icon: 'pulse', ask: 'What does dynamic stability look like?', dgca: true,
       takeaway: 'All three curves start with a statically stable aircraft swinging back. Positive dynamic stability: the swings die out. Neutral: they carry on. Negative: they grow. A statically unstable aircraft is always dynamically unstable too.',
       hook: 'Static is the first swing; dynamic is the story after.',
       xlab: 'time', ylab: 'pitch displacement', xmin: 0, xmax: 10, ymin: -2.2, ymax: 2.2, xticks: [], yticks: [0],
@@ -34,15 +35,15 @@ module.exports = {
         { label: 'negative', pts: Array.from({ length: 101 }, (_, i) => { const t = i / 10; return [t, Math.min(2.1, Math.max(-2.1, 0.5 * Math.exp(0.14 * t) * Math.cos(2.2 * t)))]; }), labelAt: 97 },
       ] },
 
-    { id: 'long', part: 'Longitudinal stability', type: 'svg', fig: 'pitch-balance', icon: 'plane', ask: 'How does the tailplane keep the nose steady?', dgca: true,
+    { id: 'long', short: 'Longitudinal balance', part: 'Longitudinal stability', type: 'svg', fig: 'pitch-balance', icon: 'plane', ask: 'How does the tailplane keep the nose steady?', dgca: true,
       takeaway: 'A gust raises the AoA of wing and tail together. The wing\'s lift acts ahead of the CG (nose-up), the tail\'s behind it on a much longer arm (nose-down). With the CG far enough forward the tail wins and the nose goes back down. Move the CG aft and the arms equalise: that CG position is the neutral point.',
       hook: 'Long tail arm wins the tug-of-war.' },
-    { id: 'cg', type: 'pairs', icon: 'weight', ask: 'Forward CG vs aft CG', dgca: true,
+    { id: 'cg', hook: 'Forward is stable and heavy; the neutral point is the edge.', short: 'CG, neutral point, margin', takeaway: 'A forward CG means more stability and heavier controls; the aft limit leaves a static margin before the neutral point, where the aircraft would be neutrally stable.', type: 'pairs', icon: 'weight', ask: 'Forward CG vs aft CG', dgca: true,
       pairs: [
         { a: { label: 'Forward CG limit', body: '**Most stable**, **heaviest stick forces**, **least manoeuvrable**: set by the maximum permissible stability.' }, b: { label: 'Aft CG limit', body: '**Least stable**, **lightest stick forces**, **most manoeuvrable**: set by the minimum permissible stability; tends to neutral.' }, rule: 'Behind the neutral point the aircraft is unstable and over-responsive.' },
         { a: { label: 'Neutral point', body: 'CG position at which the aircraft is **neutrally stable**: wing and tail moments equal. The reference point for longitudinal static stability.' }, b: { label: 'Static margin', body: 'Distance between the **aft CG limit** and the **neutral point**. The CG is never allowed to reach the neutral point.' }, rule: 'Manoeuvre point lies behind the neutral point.' },
       ] },
-    { id: 'long-factors', type: 'classify', icon: 'grid', ask: 'More or less longitudinal stability?', tier: 'exam',
+    { id: 'long-factors', short: 'Longitudinal factors', takeaway: 'Forward CG, a bigger tail or longer tail arm and longitudinal dihedral add stability; aft CG, flaps, high power with a low thrust line, wing downwash and the fuselage reduce it.', type: 'classify', icon: 'grid', ask: 'More or less longitudinal stability?', tier: 'exam',
       buckets: [{ id: 'up', label: 'Increases it' }, { id: 'dn', label: 'Reduces it' }, { id: 'none', label: 'No effect' }],
       items: [
         { text: 'CG moved forward', bucket: 'up' }, { text: 'Larger tailplane or longer tail arm', bucket: 'up' }, { text: 'Tail incidence less than wing (longitudinal dihedral)', bucket: 'up' },
@@ -50,7 +51,7 @@ module.exports = {
         { text: 'Wing downwash on the tail', bucket: 'dn' }, { text: 'Fuselage and nacelles', bucket: 'dn' },
         { text: 'Wing camber', bucket: 'none' }, { text: 'Elevator position', bucket: 'none', why: 'It changes trim, not the tail\'s stabilising contribution.' },
       ] },
-    { id: 'modes', type: 'pairs', icon: 'pulse', ask: 'Phugoid or short period?', dgca: true,
+    { id: 'modes', short: 'Phugoid vs short period', type: 'pairs', icon: 'pulse', ask: 'Phugoid or short period?', dgca: true,
       takeaway: 'The phugoid is a slow swap of height for speed at nearly constant AoA, easy to fly out of. The short-period mode is a rapid AoA and g oscillation at nearly constant speed, too fast for the pilot: control inputs can reinforce it (PIO), so pitch dampers handle it.',
       hook: 'Phugoid = Potential ↔ kinetic, Patient. Short = Sharp.',
       pairs: [
@@ -58,7 +59,7 @@ module.exports = {
         { a: { label: 'Static stability', body: 'Disturbance in AoA at **constant load factor** (n = 1).' }, b: { label: 'Manoeuvre stability', body: 'Disturbance in AoA and **load factor** at **constant speed**. Less at higher altitude for the same EAS.' }, rule: 'High static stability gives high manoeuvre stability.' },
       ] },
 
-    { id: 'dir', part: 'Directional stability', type: 'bullets', icon: 'compass', ask: 'What keeps the nose pointing into wind?', dgca: true,
+    { id: 'dir', short: 'Directional stability', part: 'Directional stability', type: 'bullets', icon: 'compass', ask: 'What keeps the nose pointing into wind?', dgca: true,
       takeaway: 'Directional stability is weathercocking: a sideslip puts the relative airflow on the fin, behind the CG, and yaws the nose back into it. The fuselage works against it (its side force acts ahead of the CG); dorsal fins help at large sideslip angles.',
       hook: 'The fin is the weathercock\'s tail.',
       groups: [
@@ -68,10 +69,10 @@ module.exports = {
         { title: 'Sideslip β', icon: 'wind', points: ['Angle between centreline and relative airflow', 'Positive with airflow **from the right**'] },
       ] },
 
-    { id: 'lat', part: 'Lateral stability', type: 'svg', fig: 'dihedral-effect', icon: 'rotate', ask: 'How does dihedral level the wings?', dgca: true,
+    { id: 'lat', short: 'Dihedral effect', part: 'Lateral stability', type: 'svg', fig: 'dihedral-effect', icon: 'rotate', ask: 'How does dihedral level the wings?', dgca: true,
       takeaway: 'When a wing drops the aircraft slips towards it. With dihedral, the relative airflow from the slip side meets the low wing at a larger AoA, so it gains lift and rolls the aircraft level. Damping in roll alone only resists the rate of roll; it cannot bring the wings level.',
       hook: 'Slip towards the low wing, the low wing lifts.' },
-    { id: 'lat-factors', type: 'classify', icon: 'grid', ask: 'Does it add or remove lateral stability?', tier: 'exam',
+    { id: 'lat-factors', short: 'Lateral factors', type: 'classify', icon: 'grid', ask: 'Does it add or remove lateral stability?', tier: 'exam',
       buckets: [{ id: 'up', label: 'Adds lateral stability' }, { id: 'dn', label: 'Reduces it' }],
       items: [
         { text: 'Dihedral', bucket: 'up' }, { text: 'High wing', bucket: 'up', why: 'Crossflow blows up onto the leading wing.' }, { text: 'Sweepback', bucket: 'up', why: '10° sweepback ≈ 1° dihedral.' },
@@ -80,13 +81,13 @@ module.exports = {
       ],
       takeaway: 'A swept high wing can be too stable in roll; that is why big high-wing swept transports use anhedral.' },
 
-    { id: 'coupling', part: 'When roll and yaw interact', type: 'pairs', icon: 'refresh', ask: 'Spiral divergence or Dutch roll?', dgca: true,
+    { id: 'coupling', short: 'Spiral vs Dutch roll', part: 'When roll and yaw interact', type: 'pairs', icon: 'refresh', ask: 'Spiral divergence or Dutch roll?', dgca: true,
       takeaway: 'If directional stability beats lateral stability the nose keeps turning into the slip while the wings lag: a slowly tightening spiral. If lateral stability beats directional, the rising wing\'s extra induced drag yaws the aircraft back and forth: Dutch roll, the more dangerous of the two.',
       hook: 'Big fin → spiral; big dihedral → Dutch roll.',
       pairs: [
         { a: { label: 'Spiral divergence', body: '**Directional > lateral.** Nose yaws into the slip, wings lag, outer wing faster → more bank → slowly tightening spiral. **Usually pilot-controllable.**' }, b: { label: 'Dutch roll', body: '**Lateral > directional.** Low wing lifts strongly; its extra induced drag yaws the nose → oscillating roll and yaw. **More dangerous.** **Yaw damper**; without one correct with **ailerons, not rudder**.' }, rule: 'Directional divergence = too little directional stability: sideslip grows until broadside.' },
       ] },
-    { id: 'tricks', type: 'tricks', icon: 'spark', ask: 'Memory tricks for this chapter',
+    { id: 'tricks', short: 'Memory tricks', takeaway: 'Short phrases for the chapter’s key facts.', type: 'tricks', icon: 'spark', ask: 'Memory tricks for this chapter',
       cards: [
         { name: 'Longitudinal ↔ lateral axis; lateral ↔ longitudinal axis', trick: 'The names swap seats', emoji: '🔁' },
         { name: 'Static margin = aft CG limit to neutral point', trick: 'The margin is the gap before neutral', emoji: '📏' },
@@ -94,9 +95,9 @@ module.exports = {
         { name: '10° sweepback ≈ 1° dihedral', trick: 'Ten swept, one lifted', emoji: '🔟' },
         { name: 'Dutch roll: lateral > directional; cure yaw damper, use ailerons', trick: 'The Dutch roll their wings, damp their yaw', emoji: '🌷' },
       ] },
-    { id: 'numbers', part: 'Numbers', type: 'numbers', icon: 'hash', ask: 'Numbers to know',
+    { id: 'numbers', short: 'Numbers', part: 'Numbers', type: 'numbers', icon: 'hash', ask: 'Numbers to know',
       items: [{ k: 'Sweepback equivalent', v: '10° ≈ 1° dihedral' }, { k: 'Usual static stability', v: '+ pitch, + yaw', note: 'neutral in roll' }, { k: 'Sideslip positive', v: 'airflow from the right' }] },
-    { id: 'quiz', type: 'quiz', icon: 'check', ask: 'Quick check',
+    { id: 'quiz', short: 'Quick check', type: 'quiz', icon: 'check', ask: 'Quick check',
       questions: [
         { q: 'Longitudinal stability is about the:', options: ['Longitudinal axis', 'Lateral axis', 'Vertical axis', 'Spin axis'], answer: 1 },
         { q: 'Moving the CG forward:', options: ['Reduces stability and stick forces', 'Increases stability and stick forces', 'Has no effect', 'Moves the neutral point'], answer: 1 },

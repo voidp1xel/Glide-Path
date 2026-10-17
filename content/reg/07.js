@@ -56,7 +56,7 @@ module.exports = {
         { a: { label: 'Requested by the pilot', body: 'Runway in sight and visual reference to terrain; give a **position report** when asking.' }, b: { label: 'Initiated by the controller', body: 'Considering traffic and weather; **not** if the crew may be unfamiliar with the aerodrome and terrain. May clear direct to base or final.' }, rule: 'Separation from other traffic: ATC. Terrain clearance: pilot.' },
         { a: { label: 'Tell ATC at once if…', body: 'Weather worsens and terrain goes out of sight; you can\'t keep following the preceding aircraft; you need more spacing.' }, b: { label: 'Instrument approach', body: 'Approach control specifies the procedure; you may ask for another and get it if circumstances permit.' }, rule: '' },
       ] },
-    { id: 'visual-vis', short: 'Visual app. visibility', takeaway: 'A visual approach needs at least 2,800 m (Cat A/B), 3,200 m (Cat C) or 3,600 m (Cat D), or 5 km for a circling-only runway, and never below NPA minima.', type: 'matrix', icon: 'fog', ask: 'Visual approach: how much visibility?', revise: true, dgca: true,
+    { id: 'visual-vis', hook: '2,800, 3,200, 3,600 by category.', short: 'Visual app. visibility', takeaway: 'A visual approach needs at least 2,800 m (Cat A/B), 3,200 m (Cat C) or 3,600 m (Cat D), or 5 km for a circling-only runway, and never below NPA minima.', type: 'matrix', icon: 'fog', ask: 'Visual approach: how much visibility?', revise: true, dgca: true,
       corner: 'Aeroplane category', cols: ['Minimum ground visibility / RVR'],
       rows: [
         { label: 'Cat A and B', cells: [{ v: '2,800 m', key: true }] },
@@ -74,7 +74,7 @@ module.exports = {
         { title: 'Allowed when', icon: 'check', points: ['Requested, agreed by the other pilot, authorised by the ATS authority', 'Classes **D and E**, **daylight**, **VMC**', 'From **one** other aircraft', 'A specified part of climb/descent **at or below 10,000 ft**'] },
         { title: 'Safeguards', icon: 'alert', points: ['IFR flight gets alternative instructions', 'Pilot tells ATC **before entering IMC**', 'Essential traffic information is given'] },
       ] },
-    { id: 'arr-info', short: 'Arrival info', type: 'sequence', icon: 'radio', ask: 'What does approach tell an arriving aircraft, and when?', dgca: true,
+    { id: 'arr-info', hook: 'First contact, start of final, at once.', short: 'Arrival info', type: 'sequence', icon: 'radio', ask: 'What does approach tell an arriving aircraft, and when?', dgca: true,
       takeaway: 'On first contact: approach type and runway, met information, runway surface, aid changes. At the start of final: significant wind changes, wind shear, visibility/RVR. During final, at once: sudden hazards like a vehicle on the runway, wind variations, surface or aid changes, RVR changes.',
       steps: [
         { label: 'First contact', sub: 'approach & runway', tip: 'Type of approach and runway in use; met information; current runway surface conditions; changes in visual and non-visual aids. Elements already received are skipped.' },

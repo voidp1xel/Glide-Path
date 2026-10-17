@@ -12,7 +12,7 @@ module.exports = {
         { label: 'Satellites', children: [{ label: 'Polar 650–1500 km' }, { label: 'Geostationary 36 000 km' }, { label: 'INSAT-3D/3DR' }] },
         { label: 'Images', children: [{ label: 'IR: cold = white' }, { label: 'Jet = cirrus streaks' }, { label: 'Ash brown' }] },
       ] } },
-    { id: 'bands', part: 'Ground radar', type: 'matrix', icon: 'waves', ask: 'Which radar band does what?', dgca: true, revise: true,
+    { id: 'bands', takeaway: 'Shorter wavelengths see smaller drops: X band (3 cm) is the airborne weather radar that sees cloud and storms; S band (10 cm) sees through heavy rain to track cyclones (Cyclone Detection Radar).', hook: 'X for aircraft, S for storms at sea.', part: 'Ground radar', type: 'matrix', icon: 'waves', ask: 'Which radar band does what?', dgca: true, revise: true,
       corner: 'Band', cols: ['Wavelength', 'Used for'],
       rows: [
         { label: 'K', cells: ['1 cm (0.75–2.5)', 'Cloud detection'] },
@@ -21,12 +21,12 @@ module.exports = {
         { label: 'S', cells: [{ v: '10 cm (8–15)', key: true }, { v: 'Rain, cyclones, depressions: Cyclone Detection Radar', key: true }] },
         { label: 'L', cells: ['20 cm (15–30)', '—'] },
       ] },
-    { id: 'scopes', type: 'pairs', icon: 'eye', ask: 'PPI or RHI? Polar or geostationary?',
+    { id: 'scopes', takeaway: 'A PPI shows echoes in plan (bearing and range); an RHI shows their height. A bright band at the freezing level marks steady stratiform rain; sharp-edged echoes mark convection.', hook: 'P for plan, H for height.', type: 'pairs', icon: 'eye', ask: 'PPI or RHI? Polar or geostationary?',
       pairs: [
         { a: { label: 'PPI', body: 'Plan view: **bearing and range** of echoes.' }, b: { label: 'RHI', body: 'Range–height: direct reading of **height of CB tops**.' }, rule: 'P for plan, H for height.' },
         { a: { label: 'Stratiform echo', body: 'Diffuse, uniform; **bright band** at the freezing level (weak, uniform updraughts).' }, b: { label: 'Convective echo', body: '**Sharp edges**; blurring = first sign of decay; top near −40 °C = CB.' }, rule: 'Bright band means a weak storm.' },
       ] },
-    { id: 'echo', part: 'Reading echoes', type: 'stamp', icon: 'storm', ask: 'What does this echo tell you?', dgca: true,
+    { id: 'echo', takeaway: 'Echo shapes give the game away: hooks and protuberances mean hail, a figure-6 means a tornado, long-lived spiral bands mean a tropical cyclone, a bright band means a weak storm, slanting rain shafts mean wind shear.', hook: 'Hook for hail, six for a twister.', part: 'Reading echoes', type: 'stamp', icon: 'storm', ask: 'What does this echo tell you?', dgca: true,
       lead: 'Severe-weather signatures on a radar screen.',
       stamps: [{ id: 'H', label: 'Hail' }, { id: 'T', label: 'Tornado' }, { id: 'C', label: 'Tropical cyclone' }, { id: 'W', label: 'Weak storm' }, { id: 'S', label: 'Wind shear' }],
       cases: [
@@ -43,7 +43,7 @@ module.exports = {
       hook: 'Go, Yield, Run, Must-avoid.' },
     { id: 'sats', part: 'Satellites', type: 'svg', fig: 'sat-orbits', icon: 'globe', ask: 'Two kinds of weather satellite', dgca: true,
       takeaway: 'Polar orbiters (NOAA) fly at 650–1500 km and see the whole earth twice a day. Geostationary satellites (INSAT, METEOSAT, GOES) sit ~36 000 km above the equator, always over the same spot; five cover the globe.' },
-    { id: 'india-sats', type: 'matrix', icon: 'list', ask: 'Indian met satellites', tier: 'exam', revise: true,
+    { id: 'india-sats', takeaway: 'India\'s met satellites are geostationary: Kalpana-1 (74°E), INSAT-3A (93.5°E), INSAT-3D (82°E) and INSAT-3DR (74°E); together 3D and 3DR give fresh images every 15 minutes.', type: 'matrix', icon: 'list', ask: 'Indian met satellites', tier: 'exam', revise: true,
       corner: 'Satellite', cols: ['Launched · position', 'Resolution'],
       rows: [
         { label: 'Kalpana-1', cells: ['12 Sep 2002 · 74°E', 'VIS 2 km, IR/WV 8 km'] },
@@ -51,7 +51,7 @@ module.exports = {
         { label: 'INSAT-3D', cells: [{ v: '25 Jul 2013 · 82°E', key: true }, '1 km VIS/SWIR, 4 km MIR/TIR, 8 km WV; T & humidity profiles'] },
         { label: 'INSAT-3DR', cells: ['8 Sep 2016 · 74°E', 'With 3D: 48 passes/day, new images every 15 min'] },
       ] },
-    { id: 'images', type: 'pairs', icon: 'eye', ask: 'Reading a satellite picture',
+    { id: 'images', takeaway: 'On an infrared picture the coldest (highest) cloud tops are the whitest; on a visible picture thick water cloud is brightest. Long cirrus streaks mark jet streams; ash is brown, dust tan, smoke grey.', hook: 'Infrared: cold is white.', type: 'pairs', icon: 'eye', ask: 'Reading a satellite picture',
       pairs: [
         { a: { label: 'IR image', body: '**Coldest = whitest**, warm = dark grey/black: high cloud tops are white.' }, b: { label: 'Visible image', body: 'Thick and water clouds brighter than ice cloud; shadows show high cloud.' }, rule: '' },
         { a: { label: 'Jet stream', body: 'Very long **cirrus streaks**.' }, b: { label: 'Smoke / dust / ash', body: 'Smoke brown-grey (oil: black); dust usually tan; volcanic **ash brown**, steam white; haze pale grey.' }, rule: '' },

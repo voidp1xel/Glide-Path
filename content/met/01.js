@@ -3,7 +3,7 @@ module.exports = {
   big: 'What air is made of, how it is layered from the surface to space, why the tropopause matters, and the ISA numbers every altimeter is built on.',
   purpose: 'Almost every paper has 2–4 questions from here: tropopause heights, which layer has which cloud, ISA values and an ISA-deviation sum. Easy marks if the numbers are sharp.',
   lessons: [
-    { id: 'start', type: 'story', short: 'Start here', icon: 'book', ask: 'New to the atmosphere? Start here',
+    { id: 'start', takeaway: 'The atmosphere is a thin skin of gases held by gravity, heated from the ground up, and stacked in four layers that are told apart by what the temperature does with height.', type: 'story', short: 'Start here', icon: 'book', ask: 'New to the atmosphere? Start here',
       steps: [
         { kicker: 'The idea', title: 'A thin skin of air', text: ['The atmosphere is a mixture of gases held to the earth by **gravity**. It is about 480 km deep, but **80% of it is squeezed into the lowest 16 km**.', 'Because air has weight, it presses down: that is **atmospheric pressure**.'], visual: 'fig:air-composition-big' },
         { kicker: 'Who heats it', title: 'Heated from below', text: ['The sun warms the **ground**, and the ground warms the air above it.', 'That is why it gets colder as you climb, and why **heat from the earth\'s surface** is the exam answer to "the atmosphere is heated by".'], visual: 'fig:heated-below' },
@@ -64,7 +64,7 @@ module.exports = {
       takeaway: 'Falls to the tropopause, stays at −56.5°C, rises through the stratosphere to about 0°C at 50 km, falls to about −100°C at 80 km, then rises.',
       hook: 'Zig-zag: down, flat, up, down, up.',
       note: 'Each turn of the red line is a "pause": tropopause, stratopause, mesopause.' },
-    { id: 'which-layer', type: 'classify', icon: 'grid', ask: 'Which layer is it in?',
+    { id: 'which-layer', takeaway: 'Troposphere: all the weather and nearly all the water vapour. Stratosphere: the ozone layer and nacreous clouds. Mesosphere: meteors, noctilucent clouds and the coldest air. Thermosphere: ionised air that reflects radio.', hook: 'Weather low, ozone next, meteors burn, radio bounces.', type: 'classify', icon: 'grid', ask: 'Which layer is it in?',
       lead: 'Sort each fact into its layer.',
       buckets: [{ id: 't', label: 'Troposphere' }, { id: 's', label: 'Stratosphere' }, { id: 'm', label: 'Mesosphere' }, { id: 'th', label: 'Thermosphere' }],
       items: [
@@ -107,7 +107,7 @@ module.exports = {
         { name: 'ISA deviation', eq: 'ISA dev = T<sub>actual</sub> − T<sub>ISA</sub>', ex: 'At 2 km it is 5°C. ISA = 15 − 13 = 2°C. Deviation = 5 − 2 = **+3°C**.', calc: { inputs: [{ k: 'a', label: 'Actual temp (°C)', v: 5 }, { k: 'h', label: 'Height (km)', v: 2 }], f: "(a - (h<=11 ? 15-6.5*h : (h<=20 ? -56.5 : -56.5+(h-20)))).toFixed(1)", out: 'ISA ', unit: '°C' } },
         { name: 'Pressure deviation', eq: 'Δp = p<sub>actual</sub> − 1013.25', ex: 'MSL pressure 1002.25 hPa → −11 hPa.' },
       ] },
-    { id: 'isa-jsa', type: 'pairs', icon: 'scale', ask: 'Which standard is which?',
+    { id: 'isa-jsa', takeaway: 'ISA has a tropopause at 11 km (then −56.5 °C); JSA keeps 2 °C per 1000 ft all the way up with no tropopause. Nacreous clouds sit in the stratosphere, noctilucent ones higher in the mesosphere.', type: 'pairs', icon: 'scale', ask: 'Which standard is which?',
       pairs: [
         { a: { label: 'ISA', body: '6.5°C/km (≈2°C/1000 ft) to 11 km, then isothermal −56.5°C. Has a tropopause. Good below 30,000 ft.' }, b: { label: 'JSA', body: '2°C/1000 ft all the way. **No tropopause.** For very high flying, space flight, engine design.' }, rule: 'JSA has no tropopause; ISA has one at 11 km.' },
         { a: { label: 'Nacreous clouds', body: 'Mother-of-pearl. **Upper stratosphere**, high latitudes, winter.' }, b: { label: 'Noctilucent clouds', body: 'Night-shining. **Upper mesosphere**, polar regions.' }, rule: 'N-a-creous is lower (strat), N-o-ctilucent is higher (meso): a before o.' },

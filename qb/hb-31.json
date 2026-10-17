@@ -1,0 +1,366 @@
+{
+"title": "Disorientation, Illusions, Decompression and Hypoxia",
+"src": "Practice questions written for Glidepath from the Aviator's Handbook, Part 11, 11-9 to 11-16 (not printed in the book: the Handbook has no question bank)",
+"qs": [
+{
+"n": 1,
+"q": "About what proportion of orientation cues comes from the eyes?",
+"o": [
+"30%",
+"90%",
+"70%",
+"50%"
+],
+"a": 1,
+"ex": "Book 11-9."
+},
+{
+"n": 2,
+"q": "The most dangerous type of spatial disorientation is:",
+"o": [
+"All are equal",
+"Type 1 — unrecognised",
+"Type 2 — recognised",
+"Type 3 — incapacitating"
+],
+"a": 1,
+"ex": "The pilot is unaware."
+},
+{
+"n": 3,
+"q": "The Coriolis illusion is caused by:",
+"o": [
+"Rolling out of a turn",
+"Moving the head during a sustained turn",
+"Flying over water",
+"Accelerating on take-off"
+],
+"a": 1,
+"ex": "Most disorienting."
+},
+{
+"n": 4,
+"q": "The leans result from:",
+"o": [
+"Rapid head movement",
+"Linear acceleration",
+"A roll below the vestibular threshold",
+"A sloping runway"
+],
+"a": 2,
+"ex": "Book 11-10."
+},
+{
+"n": 5,
+"q": "In a graveyard spiral the pilot:",
+"o": [
+"Sees a false horizon",
+"Feels a pitch-up",
+"Re-enters a spin",
+"Pulls back and tightens the descending turn"
+],
+"a": 3,
+"ex": "Book 11-10."
+},
+{
+"n": 6,
+"q": "The somatogravic illusion makes linear acceleration feel like:",
+"o": [
+"A pitch-down",
+"A roll",
+"A yaw",
+"A pitch-up"
+],
+"a": 3,
+"ex": "Dangerous on a night go-around."
+},
+{
+"n": 7,
+"q": "An up-sloping runway makes the pilot feel:",
+"o": [
+"High, leading to a low approach",
+"Fast",
+"Slow",
+"Low, leading to a high approach"
+],
+"a": 0,
+"ex": "Book 11-11."
+},
+{
+"n": 8,
+"q": "A wide runway makes the pilot feel:",
+"o": [
+"Fast",
+"High, leading to a low approach",
+"Low, leading to a high approach",
+"Correct"
+],
+"a": 2,
+"ex": "Book 11-11."
+},
+{
+"n": 9,
+"q": "A black-hole approach tends to put the aircraft:",
+"o": [
+"On the correct path",
+"Left of the centreline",
+"Above the glidepath",
+"Below the glidepath"
+],
+"a": 3,
+"ex": "Book 11-12."
+},
+{
+"n": 10,
+"q": "Autokinesis is:",
+"o": [
+"A false horizon",
+"Loss of depth cues in snow",
+"A fixed light in the dark appearing to move",
+"Focusing 1–2 m ahead"
+],
+"a": 2,
+"ex": "Book 11-12."
+},
+{
+"n": 11,
+"q": "Empty-field myopia causes the eyes to focus about:",
+"o": [
+"1–2 m ahead",
+"On the windscreen",
+"100 m ahead",
+"At infinity"
+],
+"a": 0,
+"ex": "Book 11-12."
+},
+{
+"n": 12,
+"q": "Decompression sickness is caused by bubbles of:",
+"o": [
+"Carbon monoxide",
+"Nitrogen",
+"Carbon dioxide",
+"Oxygen"
+],
+"a": 1,
+"ex": "Henry's law."
+},
+{
+"n": 13,
+"q": "After scuba diving deeper than 30 ft, the book says do not fly for:",
+"o": [
+"12 hours",
+"24 hours",
+"2 hours",
+"48 hours"
+],
+"a": 1,
+"ex": "12 h for shallower dives."
+},
+{
+"n": 14,
+"q": "The bends are:",
+"o": [
+"Skin itching",
+"Visual disturbances",
+"Joint pain from decompression sickness",
+"Chest symptoms"
+],
+"a": 2,
+"ex": "Creeps = skin, chokes = lungs."
+},
+{
+"n": 15,
+"q": "Misting and sudden cold in the cabin indicate:",
+"o": [
+"Hyperventilation",
+"Engine fire",
+"Pressurisation overspeed",
+"Rapid decompression"
+],
+"a": 3,
+"ex": "Book 11-13."
+},
+{
+"n": 16,
+"q": "Hypoxia caused by carbon monoxide is:",
+"o": [
+"Anaemic hypoxia",
+"Hypoxic hypoxia",
+"Histotoxic hypoxia",
+"Stagnant hypoxia"
+],
+"a": 0,
+"ex": "Blood can't carry O₂."
+},
+{
+"n": 17,
+"q": "Hypoxia caused by alcohol is:",
+"o": [
+"Histotoxic hypoxia",
+"Stagnant hypoxia",
+"Hypoxic hypoxia",
+"Anaemic hypoxia"
+],
+"a": 0,
+"ex": "Cells can't use O₂."
+},
+{
+"n": 18,
+"q": "Hypoxia caused by high g is:",
+"o": [
+"Stagnant hypoxia",
+"Anaemic hypoxia",
+"Hypoxic hypoxia",
+"Histotoxic hypoxia"
+],
+"a": 0,
+"ex": "Poor circulation."
+},
+{
+"n": 19,
+"q": "The compensatory stage of hypoxia is between about:",
+"o": [
+"Above 20,000 ft",
+"0 and 10,000 ft",
+"15,000 and 20,000 ft",
+"10,000 and 15,000 ft"
+],
+"a": 3,
+"ex": "Book 11-14."
+},
+{
+"n": 20,
+"q": "100% oxygen is needed from about:",
+"o": [
+"10,000 ft",
+"63,000 ft",
+"20,000 ft",
+"34,000 ft"
+],
+"a": 3,
+"ex": "Pressure breathing ~41,000 ft."
+},
+{
+"n": 21,
+"q": "The time of useful consciousness at 25,000 ft is about:",
+"o": [
+"10 minutes",
+"3 minutes",
+"30 minutes",
+"70 seconds"
+],
+"a": 1,
+"ex": "Book 11-15."
+},
+{
+"n": 22,
+"q": "Hyperventilation lowers the blood level of:",
+"o": [
+"Carbon dioxide",
+"Nitrogen",
+"Carbon monoxide",
+"Oxygen"
+],
+"a": 0,
+"ex": "Blood becomes alkaline."
+},
+{
+"n": 23,
+"q": "If unsure at altitude whether symptoms are hypoxia or hyperventilation:",
+"o": [
+"Ignore them",
+"Climb higher",
+"Treat as hyperventilation",
+"Treat as hypoxia and use oxygen"
+],
+"a": 3,
+"ex": "Book 11-16."
+},
+{
+"n": 24,
+"q": "The orientation triad is made up of:",
+"o": [
+"Brain, heart and lungs",
+"Instruments, eyes and ears",
+"Eyes, ears and nose",
+"Eyes, vestibular organs and proprioceptive receptors"
+],
+"a": 3,
+"ex": "Book 11-9."
+},
+{
+"n": 25,
+"q": "To recover from disorientation, the book advises flying straight and level for at least:",
+"o": [
+"60 seconds",
+"1 hour",
+"10 minutes",
+"5 seconds"
+],
+"a": 0,
+"ex": "Trust the instruments."
+},
+{
+"n": 26,
+"q": "The somatogyral illusion arises because canal fluid catches up in a sustained turn in about:",
+"o": [
+"20 seconds",
+"10 minutes",
+"2 seconds",
+"2 minutes"
+],
+"a": 0,
+"ex": "Book 11-10."
+},
+{
+"n": 27,
+"q": "A narrow runway makes the pilot feel:",
+"o": [
+"Low, leading to a high approach",
+"Fast",
+"High, leading to a low approach",
+"Correct"
+],
+"a": 2,
+"ex": "Book 11-11."
+},
+{
+"n": 28,
+"q": "Haze or rain on the windscreen (book) makes the pilot feel:",
+"o": [
+"High, leading to a low approach",
+"Low",
+"Fast",
+"Slow"
+],
+"a": 0,
+"ex": "Book 11-12."
+},
+{
+"n": 29,
+"q": "Hyperventilation symptoms include:",
+"o": [
+"Blue lips only",
+"Tingling or numbness in the lips and fingers",
+"Joint pain",
+"Itching skin"
+],
+"a": 1,
+"ex": "Book 11-16."
+},
+{
+"n": 30,
+"q": "The time of useful consciousness at 30,000 ft is about:",
+"o": [
+"70 seconds",
+"3 minutes",
+"10 seconds",
+"10 minutes"
+],
+"a": 0,
+"ex": "Book 11-15."
+}
+]
+}

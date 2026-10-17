@@ -15,7 +15,7 @@ module.exports = {
     { id: 'itcz', part: 'Convergence zones', type: 'svg', fig: 'itcz', icon: 'globe', ask: 'Where is the ITCZ through the year?', dgca: true,
       takeaway: 'Where the NE and SE trades meet. It follows the sun: to about 20°N in July (merging with the monsoon trough), south of the equator to Australia in January. Active stretches of 75–150 km have heavy showers and CB.',
       hook: 'ITCZ follows the sun like a sunflower.' },
-    { id: 'disc', type: 'matrix', icon: 'list', ask: 'Easterly wave, peninsular discontinuity, surge, shear line', revise: true,
+    { id: 'disc', takeaway: 'An easterly wave is a trough in the easterlies with the weather behind it; the peninsular discontinuity is a dry line in April–May bringing afternoon storms; a surge is a speed-up within one air mass; a shear line separates opposing winds.', type: 'matrix', icon: 'list', ask: 'Easterly wave, peninsular discontinuity, surge, shear line', revise: true,
       corner: 'Feature', cols: ['What', 'When / where', 'Weather'],
       rows: [
         { label: 'Easterly wave', cells: ['Trough in the easterlies; λ ≈ 1500 km; best at 500 hPa', 'Andaman Sea → west across S India (winter); pre-monsoon & monsoon', 'Weather in the rear; can seed depressions/cyclones'] },
@@ -33,7 +33,7 @@ module.exports = {
     { id: 'tc', part: 'Tropical cyclones', type: 'svg', fig: 'cyclone-plan', icon: 'storm', ask: 'What is inside a tropical cyclone?', dgca: true,
       takeaway: 'A calm, clear, warm eye (30–65 km) ringed by the eye wall of CB with > 64 kt winds — the most dangerous part — then the outer storm area to ~400 km with gales and spiral bands. In the NH the right-forward sector is worst.',
       hook: 'Eye = peace, wall = war.' },
-    { id: 'tc-needs', type: 'flow', icon: 'help', ask: 'Can a tropical cyclone form here?',
+    { id: 'tc-needs', takeaway: 'A tropical cyclone needs sea warmer than about 26 °C, a latitude of roughly 5°–25° (enough Coriolis to spin, warm enough sea), weak vertical shear and humid air through the middle troposphere.', hook: 'Warm sea, off the equator, little shear.', type: 'flow', icon: 'help', ask: 'Can a tropical cyclone form here?',
       start: 'q1', nodes: {
         q1: { text: 'Is the sea warmer than about 26°C (to ~60 m depth)?', yes: 'q2', no: 'e1' },
         q2: { text: 'Is the latitude between about 5° and 25°?', yes: 'q3', no: 'e2' },
@@ -45,7 +45,7 @@ module.exports = {
       } },
     { id: 'tc-facts', type: 'numbers', icon: 'hash', ask: 'Cyclone numbers', revise: true,
       items: [{ k: 'Minimum TC wind', v: '34 kt', note: 'IMD: 3-min mean' }, { k: 'SST', v: '> 26°C', note: 'to ~60 m' }, { k: 'Latitude', v: '5°–25°' }, { k: 'Shear', v: '< 20 kt', note: '850–200 hPa' }, { k: 'Eye', v: '30–65 km' }, { k: 'Eye wall', v: '50–150 km', note: '> 64 kt' }, { k: 'Outer area', v: '≈ 400 km' }, { k: 'Size', v: '150–800 km' }, { k: 'Speed', v: '300–500 km/day' }, { k: 'Central pressure', v: '1000–900 hPa' }, { k: 'Steep gradient within', v: '100 km' }, { k: 'Circulation top', v: '≈ 40,000 ft' }, { k: 'Indian TC life', v: '3–5 days', note: 'max 6–7' }, { k: 'Per year', v: 'Bay 4.5 · AS 1.1' }] },
-    { id: 'avoid', type: 'bullets', icon: 'route', ask: 'Cyclones and India',
+    { id: 'avoid', takeaway: 'Indian cyclones peak in October–November (May–June is the other season) and are weaker for their short sea tracks. In the NH, with strong wind from port the centre is ahead: turn until the wind is from starboard and dropping.', hook: 'Wind on the port side: the storm is ahead.', type: 'bullets', icon: 'route', ask: 'Cyclones and India',
       groups: [
         { title: 'Season', icon: 'calendar', points: ['Nil Feb–Mar', 'Frequent May, June, Oct, Nov', '**Peak Oct–Nov**', 'TN coast hit in **Oct–Nov**'] },
         { title: 'Why weaker', icon: 'info', points: ['Short sea track before landfall', 'Mostly immature/moderate'] },
@@ -53,7 +53,7 @@ module.exports = {
         { title: 'Avoiding one', icon: 'plane', points: ['Strong wind from **port** → centre **ahead**', 'Turn until wind is from **starboard** and weakening'] },
         { title: 'Recent storms', icon: 'storm', points: ['Phailin 2013 (Odisha)', 'Hudhud 2014 (AP, 960 hPa)', 'Nilofar 2014 (AS)', 'Vardah 2016', 'Biparjoy 2023 (Gujarat, Naliya)'] },
       ] },
-    { id: 'pairs', type: 'pairs', icon: 'scale', ask: 'Pairs that catch students out',
+    { id: 'pairs', takeaway: 'Tropical cyclones are non-frontal, warm-core and form over warm sea at 5°–25°; extra-tropical depressions are frontal and travel west to east. A surge is a speed-up inside one air mass; a front separates two.', type: 'pairs', icon: 'scale', ask: 'Pairs that catch students out',
       pairs: [
         { a: { label: 'Tropical cyclone', body: 'Non-frontal, warm core, 5–25°, over sea > 26°C.' }, b: { label: 'Extra-tropical depression', body: 'Frontal (polar front), moves W → E; cyclone families, each SW of the last.' }, rule: 'Fronts belong only to extra-tropical lows.' },
         { a: { label: 'Surge', body: 'Speeds up within one air mass → velocity convergence.' }, b: { label: 'Front', body: 'Boundary between two different air masses.' }, rule: 'Surge = same air mass.' },

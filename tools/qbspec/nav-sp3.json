@@ -1,0 +1,420 @@
+{
+ "id": "nav-sp3",
+ "title": "Sample Paper 3",
+ "src": "R.K. Bali — Air Navigation, Sample Paper 3",
+ "text": "nav",
+ "start": 18321,
+ "end": 18753,
+ "key": "cabcccbbbcbcbacbcbaa aababcabcbbbacabcaba cacaabaaabaccacabaaa accabbbabcbbaacababc bccbababacaaccbbcabc",
+ "fix": {
+  "1": {
+   "o": [
+    "66.5°",
+    "90.0°",
+    "23.5°"
+   ]
+  },
+  "2": {
+   "o": [
+    "a line on the surface of the earth cutting all meridians at the same angle",
+    "any straight line on a lambert projection",
+    "a line convex to the nearest pole on a Mercator projection"
+   ]
+  },
+  "3": {
+   "o": [
+    "you must fly a great circle.",
+    "you must fly a rhumb line.",
+    "you, in most cases, will also fly the shortest possible track."
+   ]
+  },
+  "5": {
+   "q": "Position A is 58°N 030°W and position B is 51°N 020°W. What is the rhumb line bearing from A to B, if the great circle track from A to B, measured at A, is 100° T?",
+   "o": [
+    "110°T",
+    "284°T",
+    "104°T"
+   ]
+  },
+  "6": {
+   "o": [
+    "will often have an earlier standard date than the UTC date.",
+    "will generally be located at eastern longitudes.",
+    "will generally be located at western longitudes."
+   ]
+  },
+  "8": {
+   "o": [
+    "True north and compass north",
+    "magnetic north and compass north",
+    "the horizontal and the total intensity of the earth's magnetic field"
+   ]
+  },
+  "9": {
+   "q": "What is the final position after the following rhumb line tracks and distances have been followed from position 60° 00'N 030° 00'W? South for 360 NM, East for 360 NM, North for 360 NM, West for 360 NM.",
+   "o": [
+    "59° 00'N 030° 00'W",
+    "60° 00'N 031° 48'W",
+    "60° 00'N 031° 48'E"
+   ]
+  },
+  "10": {
+   "q": "In order to fly from position A (10° 00'N, 030° 00'W) to position B (30° 00'N, 050° 00'W), maintaining a constant true course, it is necessary to fly?"
+  },
+  "11": {
+   "q": "An aircraft departs from position A (09° 10'S 178° 22'W) and flies northward following the meridian for 2750 NM. It then flies westward along the parallel of latitude for 400 NM to position B. The coordinates of position B are?",
+   "o": [
+    "53° 20'N 172° 38'E",
+    "36° 40'N 173° 19'E",
+    "36° 20'N 169° 22'W"
+   ]
+  },
+  "12": {
+   "q": "Position A 45° N, ?° E; position B 45° N, 45° 15'E. Distance A–B = 200 NM, B is to the east of A. What is the longitude of position A?",
+   "o": [
+    "51° 20'E",
+    "48° 33'E",
+    "40° 32'E"
+   ]
+  },
+  "13": {
+   "q": "Two aircraft are flying eastwards around the earth. Aircraft A is flying along the 45°N parallel of latitude and aircraft B along the equator. If aircraft A is flying at a groundspeed of 300 knots, what would be the groundspeed of aircraft B if both aircraft fly once round the Earth in the same journey time?",
+   "o": [
+    "420 knots.",
+    "424 knots.",
+    "480 knots."
+   ]
+  },
+  "14": {
+   "q": "When correcting a RAS of 150 kt, a TAS of less than 150 kt is obtained. Therefore the:",
+   "o": [
+    "density of the air must be greater than ISA mean sea level air density",
+    "allowance has not been made for compressibility",
+    "an error must have been made in the calculations"
+   ]
+  },
+  "16": {
+   "q": "A runway in the northern hemisphere is on an agonic line and heading 045 degrees. If an aircraft with zero compass deviation takes off in still air, what will the compass (acceleration) error be?"
+  },
+  "17": {
+   "q": "In order to convert true heading into magnetic heading a compass card and...  are required?",
+   "o": [
+    "Deviation card.",
+    "Error card.",
+    "Map with isogonal lines."
+   ]
+  },
+  "21": {
+   "q": "On a Lambert chart (standard parallels 37° N and 65° N), with respect to the straight line drawn on the map between A (N49° W030°) and B (N48° W040°), the:",
+   "o": [
+    "Great circle and rhumb line are to the south of the parallel of origin.",
+    "Great circle and rhumb line are to the north the parallel of origin.",
+    "Great circle is to the north, the rhumb line is to the south."
+   ]
+  },
+  "22": {
+   "q": "Maximum allowable crosswind component is 20 kt. Runway 06, QDM 063° (M). Wind direction 100° (M). Calculate the maximum allowable wind speed."
+  },
+  "23": {
+   "q": "Distance 'Q' to 'R' 2160 NM, Groundspeed 'out' 535 kt, Groundspeed 'back' 585 kt. Safe endurance 6 HR. The distance from 'Q' to the Point of Safe Return (PSR) between 'Q' and 'R' is?"
+  },
+  "24": {
+   "q": "True course A to B = 250°, distance A to B = 315 NM, TAS = 450 kt, W/V = 200°/60 kt, ETD A = 0650 UTC. What is the ETA at B?",
+   "o": [
+    "0736 UTC",
+    "0659 UTC",
+    "0732 UTC"
+   ]
+  },
+  "26": {
+   "q": "True altitude is obtained from ______ on board an aircraft?"
+  },
+  "30": {
+   "o": [
+    "0.75M",
+    "0.83M.",
+    "0.93M."
+   ]
+  },
+  "31": {
+   "q": "An aircraft was over 'A' at 1435 hours flying direct to 'B'. Distance 'A' to 'B' 2900 NM, true airspeed 470 kt, mean wind component 'out' +55 kt, mean wind component 'back' −75 kt, safe endurance 9 HR 30 MIN. The distance from 'A' to the Point of Safe Return (PSR) is?"
+  },
+  "32": {
+   "q": "An aircraft was over 'Q' at 1545 hours flying direct to 'R'. Distance 'Q' to 'R' 3016 NM, true airspeed 525 kt, mean wind component 'out' −90 kt, mean wind component 'back' +75 kt, safe endurance 10:00 HR. The distance from 'Q' to the Point of Safe Return (PSR) is?",
+   "o": [
+    "2510 NM",
+    "2522 NM",
+    "2570 NM"
+   ]
+  },
+  "34": {
+   "q": "At 0430 an aircraft is in level cruise flight at a groundspeed of 350 knots, at FL370, 165 NM from a VOR. It is required to descend at a mean rate of 1800 feet/min, to be at FL80 overhead the VOR. What is the latest time to commence descent, if the mean ground speed in the descent is to be 200 knots?",
+   "o": [
+    "0505",
+    "0459",
+    "0449"
+   ]
+  },
+  "35": {
+   "q": "An aeroplane is to depart from an airfield where the performance limited take-off mass is 89 200 kg. Certificated maximum masses: ramp (taxi) mass 89 930 kg, take-off mass 89 430 kg, landing mass 71 520 kg, zero fuel mass 62 050 kg. Fuel on board at ramp: taxi fuel 600 kg, trip fuel 17 830 kg, contingency, final reserve and alternate 9030 kg. If the Dry Operating Mass is 40 970 kg the traffic load that can be carried on this flight is:"
+  },
+  "36": {
+   "o": [
+    "17080 kg",
+    "29280 kg.",
+    "12200 kg."
+   ]
+  },
+  "38": {
+   "q": "DOM 33 500 kg, payload 7600 kg, MTOW 66 200 kg, taxi fuel 200 kg, tank capacity 16 100 kg. Find the maximum fuel and traffic load that can be carried.",
+   "o": [
+    "15 900 kg / 16 800 kg",
+    "17 100 kg / 15 600 kg",
+    "17 300 kg / 15 400 kg"
+   ]
+  },
+  "40": {
+   "o": [
+    "not rely on its readings, especially when changes of pitch attitude are occurring",
+    "only rely on it when changing to horizontal flight",
+    "rely on its readings in all attitudes of flight"
+   ]
+  },
+  "43": {
+   "o": [
+    "the time of take-off",
+    "the time at which the flight plan is filed",
+    "the estimated off-block time"
+   ]
+  },
+  "45": {
+   "q": "On the 27th of February, at 52°S 040°E, sunrise is at 0243 UTC. On the same day, at 52°S 035°W, sunrise is at:",
+   "o": [
+    "0743 UTC",
+    "0243 UTC",
+    "2143 UTC"
+   ]
+  },
+  "46": {
+   "q": "Magnetic heading 060°, magnetic variation 8°W, drift angle 4° right. What is the true track?"
+  },
+  "47": {
+   "o": [
+    "130°",
+    "145°",
+    "115°"
+   ]
+  },
+  "50": {
+   "q": "The altimeter consists of one or several aneroid capsules located in a sealed casing. The pressures in the aneroid capsule (i) and casing (ii) are respectively?",
+   "o": [
+    "(i) Static pressure (ii) Total pressure",
+    "(i) Vacuum (or very low pressure) (ii) Static pressure",
+    "(i) Static pressure at time t (ii) Static pressure at time t − Δt"
+   ]
+  },
+  "52": {
+   "o": [
+    "Allow damping of the measurement in the unit.",
+    "Reduce the hysteresis effect.",
+    "Reduce the effect of friction in the linkages."
+   ]
+  },
+  "58": {
+   "q": "If the casing of a VSI in a pressurised aircraft develops a leak (cabin pressure enters the case):"
+  },
+  "59": {
+   "q": "What do the upper and lower limits of the yellow arc on an ASI represent?"
+  },
+  "60": {
+   "o": [
+    "It will under read.",
+    "It will over read.",
+    "It will read zero in all condition."
+   ]
+  },
+  "61": {
+   "q": "At any given weight, whatever the airfield altitude, an aircraft will always lift off at the same?"
+  },
+  "66": {
+   "o": [
+    "Dynamic pressure.",
+    "Ambient temperature.",
+    "Static pressure."
+   ]
+  },
+  "67": {
+   "q": "The indications of the directional gyro when used as an on-board instrument are valid only for a short period of time. The causes of this inaccuracy are? 1.  The earth's rotation. 2.  The longitudinal acceleration. 3.  The aircraft's motion over the surface of the earth. 4.  The mechanical defects of the gyro. 5.  The gyro's weight. 6.  The gimbals mount of the gyro rings. The combination of correct statements is?",
+   "o": [
+    "1, 2, 4.",
+    "1,3,4, 6.",
+    "2, 5, 6."
+   ]
+  },
+  "68": {
+   "o": [
+    "Climb due to pendulous vanes.",
+    "No climb",
+    "Descent due to pendulous vanes."
+   ]
+  },
+  "70": {
+   "o": [
+    "Nose up and AOB too low.",
+    "Nose up and AOB too high.",
+    "Nose up and correct AOB."
+   ]
+  },
+  "71": {
+   "q": "An artificial horizon has ______ degrees of freedom and a ______ spin axis.",
+   "o": [
+    "Two, vertical",
+    "Two, horizontal",
+    "One, vertical"
+   ]
+  },
+  "72": {
+   "q": "When both the needle and ball of a turn and slip indicator are displaced to the right, the aircraft is?"
+  },
+  "75": {
+   "o": [
+    "altitude based on regional QNH",
+    "aircraft height based on sub-scale setting",
+    "flight level based on 1013.25 hPa"
+   ]
+  },
+  "76": {
+   "o": [
+    "1000 MHz",
+    "1000 GHz",
+    "1000 kHz"
+   ]
+  },
+  "77": {
+   "o": [
+    "transmission frequencies are 63 MHz different for each aircraft",
+    "pulse pairs are discrete to a particular aircraft",
+    "pulse pairs are amplitude modulated with the aircraft registration"
+   ]
+  },
+  "80": {
+   "o": [
+    "160°",
+    "193°",
+    "167°"
+   ]
+  },
+  "82": {
+   "o": [
+    "Centimetric",
+    "Decimetric",
+    "Metric"
+   ]
+  },
+  "83": {
+   "a": "a"
+  },
+  "84": {
+   "o": [
+    "Increases with increasing frequency.",
+    "Decreases with increasing frequency.",
+    "Is constant at all frequencies."
+   ]
+  },
+  "85": {
+   "o": [
+    "VHF",
+    "LF",
+    "HF"
+   ]
+  },
+  "90": {
+   "q": "For a VOR and a DME beacon to be said to be associated, the aerial separation must not exceed ______ in a terminal area and ______ outside a terminal area."
+  },
+  "91": {
+   "q": "DME is a (i) ______ radar operating in the (ii) ______ band and transmits (iii) ______.",
+   "o": [
+    "(i) secondary; (ii) UHF; (iii) pulse pairs",
+    "(i) secondary; (ii) SHF; (iii) 2400 pulse pairs per second",
+    "(i) primary; (ii) SHF; (iii) CW pulses"
+   ]
+  },
+  "92": {
+   "o": [
+    "Aneroid capsule.",
+    "Differential capsule.",
+    "Bellows."
+   ]
+  },
+  "93": {
+   "o": [
+    "Over read",
+    "Under read",
+    "Read cabin altitude"
+   ]
+  },
+  "95": {
+   "o": [
+    "Pitot pressure.",
+    "The ratio of (pitot pressure − static pressure) to static pressure.",
+    "The ratio of static pressure to dynamic pressure."
+   ]
+  },
+  "96": {
+   "q": "The International Date Line is found on or near the ______. When crossing the date line travelling west, you go into the ______ day:",
+   "o": [
+    "Parallel, next",
+    "Meridian, previous",
+    "Meridian, next"
+   ],
+   "a": "c"
+  },
+  "98": {
+   "q": "What error is caused by movement of the gyro relative to the earth in a DGI?"
+  },
+  "99": {
+   "q": "Gyroscope rigidity is increased by ______ RPM and concentrating the mass at the ______ of the rotor.",
+   "o": [
+    "Increasing, hub",
+    "Increasing, rim",
+    "Decreasing, hub"
+   ]
+  }
+ },
+ "drop": [
+  100
+ ],
+ "ex": {
+  "4": "Convergency = Δlong × sin mean lat, so the pair with the highest mean latitude (60°N/55°N) gives the biggest difference.",
+  "5": "Conversion angle = ½ × Δlong × sin mean lat = 5 × sin 54.5° ≈ 4°. In the northern hemisphere the great circle lies poleward of the rhumb line, so RL = 100 + 4 = 104°T.",
+  "9": "South 360 NM → 54°N. East 360 NM at 54°N = 612' of longitude; west 360 NM at 60°N = 720'. Net 108' ≈ 1° 48' west → 031° 48'W.",
+  "11": "09°10'S + 2750' = 36°40'N. Westward 400 NM at 36°40' = 400 / cos 36.7° ≈ 498' = 8° 18'. 178° 22'W + 8° 18' west = 186° 40'W = 173° 20'E.",
+  "12": "Δlong = 200 / cos 45° ≈ 283' = 4° 43'. A = 45° 15' − 4° 43' = 40° 32' E.",
+  "13": "300 / cos 45° ≈ 424 kt.",
+  "14": "The printed question says 'a TAS of > 150 kt', which makes none of the options right; the source question reads 'less than 150 kt'. TAS below RAS means the air is denser than ISA sea level.",
+  "19": "12 cm × 2 000 000 = 240 km ≈ 130 NM.",
+  "22": "The book uses the runway number (060°): angle 40°, so 20 / sin 40° ≈ 31 kt. (With QDM 063°, 20 / sin 37° ≈ 33 kt.)",
+  "23": "PSR = 6 × 535 × 585 / 1120 ≈ 1677 NM.",
+  "24": "Wind 50° off the nose from the left: drift ≈ 6°, GS ≈ 450 cos 6° − 60 cos 50° ≈ 409 kt. 315 / 409 ≈ 46 min → 0736.",
+  "29": "LSS = 38.95 √T = 38.95 × √263 ≈ 632 kt. M = 594 / 632 ≈ 0.94.",
+  "30": "ISA at 25 000 ft = −34.5 °C (238.5 K). LSS ≈ 38.95 × √238.5 ≈ 601 kt. M = 500 / 601 ≈ 0.83.",
+  "31": "GS out 525, back 395. PSR = 9.5 × 525 × 395 / 920 ≈ 2141 NM.",
+  "32": "GS out 435, back 600. PSR = 10 × 435 × 600 / 1035 ≈ 2522 NM.",
+  "33": "PET = 2450 × 385 / 735 ≈ 1283 NM; 1283 / 350 ≈ 3.67 h = 220 min.",
+  "34": "29 000 ft at 1800 ft/min = 16.1 min, covering 16.1/60 × 200 ≈ 54 NM. Cruise 165 − 54 = 111 NM at 350 kt = 19 min → start descent at 0449.",
+  "35": "The book treats 62 050 kg as the limiting zero fuel mass: traffic load = 62 050 − 40 970 = 21 080 kg (TOM 89 200 would allow 21 370 kg).",
+  "36": "Useful load = TOM − DOM = 64 280 − 35 000 = 29 280 kg.",
+  "37": "DOM = 61 300 + 2300 = 63 600. Useful load = 132 000 − 63 600 = 68 400 kg.",
+  "38": "Take-off fuel = tank 16 100 − taxi 200 = 15 900 kg. Traffic = 66 200 − 33 500 − 15 900 = 16 800 kg.",
+  "44": "070°W and 110°E are on the same great circle through the pole: (90 − 56) + (90 − 62) = 62° × 60 = 3720 NM.",
+  "45": "Same latitude, 75° further west = 5 h later: 0243 + 0500 = 0743 UTC.",
+  "46": "TH = 060 − 8 = 052°; drift right → TT = 052 + 4 = 056°.",
+  "48": "The error is 4°. By the 1 in 60 rule, 200 NM × 4/60 ≈ 13–14 NM off track.",
+  "53": "ROD ≈ GS × 101 × tan 3° ≈ 100 × 101 × 0.052 ≈ 530 ft/min, i.e. about −500 ft/min.",
+  "64": "LSS = 38.95 × √233 ≈ 594 kt.",
+  "79": "Flying 090°T towards the VOR, the aircraft is due west of it: true bearing from the station 270°. Use the variation at the station: 270 − 15 = 255°.",
+  "80": "The aircraft is due south of the VOR: 180°T − 13°E = 167°.",
+  "83": "Book key prints (c). Ionospheric (D-layer) absorption is lowest at night and decreases as frequency increases, so the correct answer is (a) midnight and high frequency.",
+  "96": "Book key prints (b). The date line roughly follows the 180° meridian, and travelling westwards across it you move into the next day (for example, leaving Los Angeles on Monday you arrive in Tokyo on Tuesday)."
+ }
+}

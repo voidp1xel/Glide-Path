@@ -1,0 +1,128 @@
+{
+ "id": "nav-32",
+ "title": "GNSS",
+ "src": "R.K. Bali — Air Navigation, Part III Ch 9 (key read from the printed answer grid, PDF p. 293)",
+ "text": "nav",
+ "start": 17236,
+ "end": 17295,
+ "key": "ccbaaacaacabcbc",
+ "fix": {
+  "1": {
+   "o": [
+    "simultaneous bearings from a number of satellites",
+    "range and bearing from each known satellite's position",
+    "simultaneous ranges from a number of satellites"
+   ]
+  },
+  "2": {
+   "o": [
+    "the time difference between the transmission of the satellite's coded signal and the time that it is received at the aircraft",
+    "the time difference between the satellite and the aircraft GPS unit transmitting the same code point on the signal",
+    "the correction applied to the 'raw' GPS position to obtain a more precise position"
+   ]
+  },
+  "3": {
+   "o": [
+    "the GPS orbit is at 55° to the equator while the GLONASS is at 60°",
+    "the GPS satellite orbits are 1200 km higher than the GLONASS orbits",
+    "GLONASS has only three orbital planes while GPS has six orbital planes"
+   ]
+  },
+  "4": {
+   "o": [
+    "provide two-dimension and three-dimension positions",
+    "only provide position in latitude and longitude",
+    "indicate two-dimension positions or position lines in the horizontal plane"
+   ]
+  },
+  "5": {
+   "o": [
+    "1575.42 MHz in the L-band",
+    "2227.5 MHz in the S-band",
+    "1227.6 MHz in the L-band"
+   ]
+  },
+  "6": {
+   "o": [
+    "to protect US national security",
+    "to protect the DoD copyright",
+    "to prevent 100% reliance on a system which may have to be interrupted for military purposes at a moment's notice"
+   ]
+  },
+  "7": {
+   "o": [
+    "seriously reduced during periods of sunspot activity",
+    "seriously eroded during periods of anomalous propagation in an inversion",
+    "derived from accurate timepieces in the satellite and the aircraft's GPS receiver"
+   ]
+  },
+  "8": {
+   "o": [
+    "once in twelve hours",
+    "once in eight hours",
+    "once in 24 hours"
+   ]
+  },
+  "9": {
+   "o": [
+    "satellites are closest together",
+    "satellites are spaced well apart",
+    "satellites are nearest the horizon"
+   ],
+   "q": "Satellite geometry error is greatest when:"
+  },
+  "10": {
+   "o": [
+    "is basically a military-based system made available to civil users with solar- powered satellites which have an infinite life",
+    "has no possible input by the pilot",
+    "is entirely space-based"
+   ]
+  },
+  "11": {
+   "o": [
+    "UHF, range position line",
+    "UHF, secondary radar principles",
+    "SHF, secondary radar principles"
+   ],
+   "q": "NAVSTAR/GPS operates in the … band and the receiver determines position by …"
+  },
+  "12": {
+   "o": [
+    "20180 km, 65°",
+    "20180 km, 55°",
+    "19099 km, 65°"
+   ]
+  },
+  "13": {
+   "o": [
+    "WGS90",
+    "PZ90",
+    "WGS84"
+   ]
+  },
+  "14": {
+   "o": [
+    "3",
+    "4",
+    "5"
+   ]
+  },
+  "15": {
+   "o": [
+    "12",
+    "21",
+    "24"
+   ],
+   "q": "The NAVSTAR/GPS constellation comprises … satellites."
+  }
+ },
+ "drop": [],
+ "ex": {
+  "3": "The book: GPS orbits about 1200 km above GLONASS.",
+  "8": "GPS orbital period is 11 h 58 min: about twice a day.",
+  "9": "GDOP is worst when the satellites are close together (poor cuts between position lines).",
+  "12": "Book figure: about 20 200 km, 55°.",
+  "14": "Three ranges leave a clock-error ambiguity: four satellites give a 3-D fix (five for RAIM).",
+  "15": "24 in all: 21 operational + 3 spares (book)."
+ }
+}

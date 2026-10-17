@@ -12,16 +12,16 @@ module.exports = {
         { label: 'Indian airspace', children: [{ label: 'VA VE VI VO' }, { label: 'P, R, D areas' }, { label: 'TSA / TRA 501–999' }, { label: '15 NM border' }] },
         { label: 'Routes', children: [{ label: 'A B G R regional' }, { label: 'L M N P RNAV' }, { label: 'K U S prefix' }, { label: 'MFA 1,000 ft in 10 km' }] },
       ] } },
-    { id: 'services', short: 'Three services', part: 'The three services', type: 'tree', icon: 'tower', ask: 'What are the air traffic services?', dgca: true,
+    { id: 'services', short: 'Three services', part: 'The three services', type: 'mindmap', icon: 'tower', ask: 'What are the air traffic services?', dgca: true,
       takeaway: 'ATS has five objectives: prevent collisions in the air (a) and on the manoeuvring area (b), keep traffic flowing (c), give useful information (d), and alert SAR (e). ATC meets a, b and c; FIS meets d; alerting meets e. Of the three ATC parts, only aerodrome control also meets objective b.',
       hook: 'Control, Inform, Alert.',
-      root: { label: 'Air traffic services', sub: 'Annex 11 · CAR Section 9 Series E', children: [
+      root: { label: 'Air traffic services · Annex 11 · CAR Section 9 Series E', children: [
         { label: 'Air traffic control', icon: 'tower', sub: 'objectives a, b, c', children: [
-          { label: 'Area control', sub: 'ACC · a, c', tip: 'Controlled flights en route, except the parts handled by approach and aerodrome control.' },
-          { label: 'Approach control', sub: 'APP · a, c', tip: 'The arrival and departure parts of controlled flights. May be a separate unit or combined with the tower or ACC.' },
-          { label: 'Aerodrome control', sub: 'TWR · a, b, c', tip: 'Aerodrome traffic. The only part that also prevents collisions with obstructions on the manoeuvring area.' } ] },
-        { label: 'Flight information', icon: 'info', sub: 'objective d', children: [{ label: 'FIS by FIC', sub: 'advice and information' }, { label: 'ATIS', sub: 'broadcast' }, { label: 'Advisory service', sub: 'Class F routes' }] },
-        { label: 'Alerting', icon: 'alert', sub: 'objective e', children: [{ label: 'Notify RCC', sub: 'via FIC or ACC' }, { label: 'Three phases', sub: 'INCERFA, ALERFA, DETRESFA' }] },
+          { label: 'Area control · ACC · a, c', tip: 'Controlled flights en route, except the parts handled by approach and aerodrome control.' },
+          { label: 'Approach control · APP · a, c', tip: 'The arrival and departure parts of controlled flights. May be a separate unit or combined with the tower or ACC.' },
+          { label: 'Aerodrome control · TWR · a, b, c', tip: 'Aerodrome traffic. The only part that also prevents collisions with obstructions on the manoeuvring area.' } ] },
+        { label: 'Flight information', icon: 'info', sub: 'objective d', children: [{ label: 'FIS by FIC · advice and information' }, { label: 'ATIS · broadcast' }, { label: 'Advisory service · Class F routes' }] },
+        { label: 'Alerting', icon: 'alert', sub: 'objective e', children: [{ label: 'Notify RCC · via FIC or ACC' }, { label: 'Three phases · INCERFA, ALERFA, DETRESFA' }] },
       ] } },
     { id: 'objectives', short: 'ATS objectives', takeaway: 'ATS objectives: (a) prevent collisions in the air, (b) prevent collisions with obstructions on the manoeuvring area, (c) keep traffic flowing, (d) give useful information, (e) alert SAR.', type: 'stamp', icon: 'check', ask: 'Which objective is it?', tier: 'exam',
       stamps: [{ id: 'a', label: '(a)' }, { id: 'b', label: '(b)' }, { id: 'c', label: '(c)' }, { id: 'd', label: '(d)' }, { id: 'e', label: '(e)' }],
@@ -105,7 +105,7 @@ module.exports = {
         { a: { label: 'Temporary Segregated Area', body: 'For the **exclusive** use of one user for a set time: **no transit** by other traffic. e.g. TSA801(A) [Thanjavur].' }, b: { label: 'Temporary Reserved Area', body: 'Reserved for one user, but others **may transit with ATC clearance**. e.g. TRA601(A) [Panagarh].' }, rule: 'Segregated = sealed; Reserved = request to cross.' },
         { a: { label: 'Numbers', body: 'One series **501–999** for both: Mumbai **501–600**, Kolkata **601–700**, Delhi **701–800**, Chennai **801–900**, 901–999 reserved.' }, b: { label: 'Vicinity of an aerodrome', body: 'Where no ATZ exists: **5 NM radius of the ARP up to 3,000 ft AGL** for VFR flights.' }, rule: '' },
       ] },
-    { id: 'atc', short: 'Who gets ATC', part: 'ATC service', type: 'classify', icon: 'tower', ask: 'Does this flight get ATC service?', dgca: true,
+    { id: 'atc', hook: 'IFR in A–E, VFR in B–D, all special VFR.', short: 'Who gets ATC', part: 'ATC service', type: 'classify', icon: 'tower', ask: 'Does this flight get ATC service?', dgca: true,
       takeaway: 'ATC is given to IFR flights in Classes A to E, VFR flights in B, C and D, all special VFR flights, and all aerodrome traffic at controlled aerodromes.',
       buckets: [{ id: 'y', label: 'ATC provided' }, { id: 'n', label: 'No ATC' }],
       items: [
@@ -113,7 +113,7 @@ module.exports = {
         { text: 'Aircraft in the circuit of a controlled aerodrome', bucket: 'y' }, { text: 'VFR flight in Class E', bucket: 'n', why: 'VFR gets only traffic information in E.' },
         { text: 'IFR flight in Class F', bucket: 'n', why: 'Class F gives advisory service, not control.' }, { text: 'VFR flight in Class G', bucket: 'n' },
       ] },
-    { id: 'sep', short: 'Who is separated', takeaway: 'ATC separates all flights in A and B, IFR from IFR in C, D and E, IFR from VFR in C, and IFR from special VFR.', type: 'bullets', icon: 'scale', ask: 'Whom does an ATC clearance separate?', dgca: true,
+    { id: 'sep', hook: 'A and B separate everyone; C keeps IFR off VFR.', short: 'Who is separated', takeaway: 'ATC separates all flights in A and B, IFR from IFR in C, D and E, IFR from VFR in C, and IFR from special VFR.', type: 'bullets', icon: 'scale', ask: 'Whom does an ATC clearance separate?', dgca: true,
       groups: [
         { title: 'Always', icon: 'check', points: ['**All** flights in Classes **A and B**', '**IFR from IFR** in Classes **C, D, E**', '**IFR from VFR** in Class **C**', '**IFR from special VFR**'] },
         { title: 'Only if prescribed', icon: 'info', points: ['Special VFR from special VFR'] },

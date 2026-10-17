@@ -12,19 +12,19 @@ module.exports = {
         { label: 'Briefing', children: [{ label: 'PIB' }, { label: 'Post-flight reports' }, { label: 'ASBS' }] },
         { label: 'India', children: [{ label: 'AAI · HQ Safdarjung' }, { label: '4 NOFs' }, { label: 'Series A B C D G' }] },
       ] } },
-    { id: 'package', short: 'Information package', part: 'The products', type: 'tree', icon: 'doc', ask: 'What is in the Integrated Aeronautical Information Package?', dgca: true,
+    { id: 'package', short: 'Information package', part: 'The products', type: 'mindmap', icon: 'doc', ask: 'What is in the Integrated Aeronautical Information Package?', dgca: true,
       takeaway: 'The package is the AIP with its Amendments and Supplements, NOTAM with PIBs, AICs, and checklists and summaries. AAI provides all of it in India except AICs, which DGCA publishes.',
       hook: 'AAI publishes, except Circulars come from DGCA.',
-      root: { label: 'Integrated Aeronautical Information Package', sub: 'Annex 15 · PANS-AIM Doc 10066', children: [
-        { label: 'AIP', icon: 'book', children: [{ label: 'Lasting information', sub: 'GEN, ENR, AD' }, { label: 'AIP Amendment', sub: 'permanent changes', tip: 'Replacement sheets; consecutive serial numbers; AIRAC amendments show an effective date. India: once a year, in April.' }, { label: 'AIP Supplement', sub: 'temporary ≥ 3 months, yellow', tip: 'Also short-duration information with extensive text or graphics. Numbered per calendar year; kept at the front of each part while valid.' }] },
-        { label: 'NOTAM', icon: 'alert', children: [{ label: 'Short-term or short-notice changes' }, { label: 'PIB', sub: 'plain-language summary before flight' }, { label: 'SNOWTAM, ASHTAM', sub: 'special series' }] },
+      root: { label: 'Integrated Aeronautical Information Package · Annex 15 · PANS-AIM Doc 10066', children: [
+        { label: 'AIP', icon: 'book', children: [{ label: 'Lasting information · GEN, ENR, AD' }, { label: 'AIP Amendment · permanent changes', tip: 'Replacement sheets; consecutive serial numbers; AIRAC amendments show an effective date. India: once a year, in April.' }, { label: 'AIP Supplement · temporary ≥ 3 months, yellow', tip: 'Also short-duration information with extensive text or graphics. Numbered per calendar year; kept at the front of each part while valid.' }] },
+        { label: 'NOTAM', icon: 'alert', children: [{ label: 'Short-term or short-notice changes' }, { label: 'PIB · plain-language summary before flight' }, { label: 'SNOWTAM, ASHTAM · special series' }] },
         { label: 'AIC', icon: 'info', children: [{ label: 'Neither AIP nor NOTAM' }, { label: 'Published by DGCA in India' }] },
-        { label: 'Other', icon: 'list', children: [{ label: 'Checklists & summaries' }, { label: 'Charts' }, { label: 'Digital data sets', sub: 'AIP, terrain, obstacle, aerodrome mapping, procedures' }] },
+        { label: 'Other', icon: 'list', children: [{ label: 'Checklists & summaries' }, { label: 'Charts' }, { label: 'Digital data sets · AIP, terrain, obstacle, aerodrome mapping, procedures' }] },
       ] } },
     { id: 'which', short: 'Which document', type: 'stamp', icon: 'check', ask: 'Which document carries this change?', dgca: true,
       takeaway: 'Permanent change: AIP Amendment. Temporary change lasting 3 months or more, or bulky text/graphics: AIP Supplement. Temporary short change or anything at short notice: NOTAM. Advance notice or explanation that fits neither: AIC.',
       hook: 'Forever = AMDT, for months = SUP, for now = NOTAM, for your information = AIC.',
-      stamps: [{ id: 'amdt', label: 'AIP Amendment' }, { id: 'sup', label: 'AIP Supplement' }, { id: 'notam', label: 'NOTAM' }, { id: 'aic', label: 'AIC' }],
+      stamps: [{ id: 'amdt', label: 'AIP Amendment' }, { id: 'sup', label: 'AIP Supplement' }, { id: 'notam', hook: 'One NOTAM, one subject.', label: 'NOTAM' }, { id: 'aic', label: 'AIC' }],
       cases: [
         { text: 'A new runway opens permanently and the aerodrome chart changes.', answer: 'amdt' },
         { text: 'A runway will be closed for resurfacing for the next five months, with a temporary chart.', answer: 'sup' },
@@ -33,7 +33,7 @@ module.exports = {
         { text: 'A danger area is activated tomorrow for a military exercise.', answer: 'notam' },
         { text: 'An advisory explanation of wake turbulence hazards.', answer: 'aic' },
       ] },
-    { id: 'aip', short: 'AIP parts', takeaway: 'The AIP has three parts: GEN (regulations and services), ENR (en-route rules, airspace, routes, warnings) and AD (aerodromes). AIP India has two volumes.', type: 'matrix', icon: 'book', ask: 'The three parts of the AIP', revise: true, dgca: true,
+    { id: 'aip', hook: 'GEN, ENR, AD.', short: 'AIP parts', takeaway: 'The AIP has three parts: GEN (regulations and services), ENR (en-route rules, airspace, routes, warnings) and AD (aerodromes). AIP India has two volumes.', type: 'matrix', icon: 'book', ask: 'The three parts of the AIP', revise: true, dgca: true,
       corner: 'Part', cols: ['Contains'],
       rows: [
         { label: 'Part 1 GEN', cells: ['national regulations, differences from ICAO, units, time, codes, abbreviations, location indicators, services (AIS, charts, ATS, comms, met, SAR), charges'] },
@@ -56,7 +56,7 @@ module.exports = {
         { text: '/26', label: 'Year', tip: 'Two-digit year.' },
         { text: 'NOTAMR', label: 'Type: replacement', tip: 'NOTAMN new, NOTAMR replaces an earlier one, NOTAMC cancels.' },
       ] },
-    { id: 'notam-not', short: 'NOTAM or not', type: 'classify', icon: 'x', ask: 'NOTAM or not?', dgca: true,
+    { id: 'notam-not', hook: 'No safety effect, no NOTAM.', short: 'NOTAM or not', type: 'classify', icon: 'x', ask: 'NOTAM or not?', dgca: true,
       takeaway: 'Things that do not affect safe operations are not NOTAMed: routine apron or taxiway work, marking work when another runway is usable, harmless obstructions, partial lighting or comms failures with alternatives, no marshalling, broken signs, and parachuting in the listed cases.',
       buckets: [{ id: 'y', label: 'Issue a NOTAM' }, { id: 'n', label: 'No NOTAM' }],
       items: [

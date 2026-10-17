@@ -15,7 +15,7 @@ window.__figaudit = async function (width = 680, only) {
     let svgStr; try { svgStr = G.FIGS[name](); } catch (e) { out.push([name, 'ERROR', String(e).slice(0, 80)]); continue; }
     if (typeof svgStr !== 'string' || !svgStr.includes('<svg')) continue;
     box.innerHTML = `<div class="fig">${svgStr}</div>`;
-    const svg = box.querySelector('svg'); if (!svg) continue;
+    const svg = box.querySelector('svg'); if (!svg) continue; if (G.figTextTone) G.figTextTone(svg);
     svg.classList.add('fig'); svg.style.width = '100%'; svg.style.height = 'auto'; svg.style.display = 'block';
     await new Promise(r => setTimeout(r, 0));
     const S = svg.getBoundingClientRect();

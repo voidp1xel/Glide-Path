@@ -1,0 +1,293 @@
+{
+"title": "Basic Radio Theory",
+"src": "R.K. Bali — Air Navigation, Part III Ch 1 (key read from the printed answer grid, PDF p. 239)",
+"qs": [
+{
+"n": 1,
+"q": "A frequency of 0.02 GHz has a wavelength of:",
+"o": [
+"0.015 km",
+"0.15 km",
+"1.5 km"
+],
+"a": 0,
+"ex": "λ = c / f = 3×10⁸ / 2×10⁷ = 15 m = 0.015 km."
+},
+{
+"n": 2,
+"q": "A wavelength of 0.007 NM corresponds to a frequency of about:",
+"o": [
+"23.2 MHz",
+"2.32 MHz",
+"232 MHz"
+],
+"a": 0,
+"ex": "0.007 NM × 1852 = 12.96 m; f = 3×10⁸ / 12.96 ≈ 23.2 MHz (the book works it to 23.17 MHz)."
+},
+{
+"n": 3,
+"q": "In an amplitude modulated signal, the amplitude of the carrier wave will:",
+"o": [
+"remain constant, and the frequency will vary according to the amplitude of the modulating signal",
+"vary according to the amplitude of the modulating signal",
+"vary according to the frequency of the modulating signal"
+],
+"a": 1
+},
+{
+"n": 4,
+"q": "To establish and maintain effective HF communications the frequency used at a given range:",
+"o": [
+"should remain constant",
+"should only be varied by season, decreased in summer and increased in winter",
+"should be decreased at night"
+],
+"a": 2
+},
+{
+"n": 5,
+"q": "For a given set of ionosphere conditions, as the frequency of an HF signal is increased:",
+"o": [
+"the size of the dead space increases due solely to the decreasing minimum skip distance",
+"the size of the dead space increases due solely to the increasing minimum skip distance",
+"the size of the dead space decreases because the surface wave coverage decreases, and the minimum skip distance decreases"
+],
+"a": 1
+},
+{
+"n": 6,
+"q": "Around a radiating transmitter aerial there is:",
+"o": [
+"a magnetic field.",
+"an electrical field.",
+"an electrical and magnetic field."
+],
+"a": 2
+},
+{
+"n": 8,
+"q": "The frequency which corresponds to a wavelength of 12 mm is:",
+"o": [
+"25 MHz",
+"2.5 MHz",
+"25 GHz"
+],
+"a": 2,
+"ex": "f = 3×10⁸ / 0.012 m = 25 GHz."
+},
+{
+"n": 9,
+"q": "For a given HF frequency skip distance will normally:",
+"o": [
+"be greater by day than by night",
+"be greater by night than by day",
+"be less by night than by day"
+],
+"a": 1
+},
+{
+"n": 10,
+"q": "The rate of refraction of a radio wave which occurs within the ionosphere:",
+"o": [
+"decreases as the frequency of the radio wave increases",
+"increases as the frequency of the radio wave increases",
+"is greater at night"
+],
+"a": 0,
+"ex": "The book's grid prints (b). Refraction in the ionosphere gets weaker as frequency rises — that is why the skip distance and dead space grow with frequency (Q5) and why HF frequency is halved at night."
+},
+{
+"n": 11,
+"q": "The frequency corresponding to a wavelength of 3.5 cm is:",
+"o": [
+"857 MHz.",
+"85.7 MHz.",
+"8.57 GHz."
+],
+"a": 2
+},
+{
+"n": 12,
+"q": "In sky wave propagation the distance between the end of the surface wave and the first returning sky wave is called the:",
+"o": [
+"maximum usable range",
+"dead space",
+"skip distance"
+],
+"a": 1
+},
+{
+"n": 13,
+"q": "A frequency of 295 KHz would be described as:",
+"o": [
+"LF",
+"short wave.",
+"MF."
+],
+"a": 0
+},
+{
+"n": 15,
+"q": "Sky waves are not likely to occur by day or night in which of the following frequency bands:",
+"o": [
+"VHF.",
+"HF",
+"MF."
+],
+"a": 0
+},
+{
+"n": 16,
+"q": "The maximum theoretical range at which an aircraft at FL80 can obtain bearings from a ground VDF facility sited 325 FT above MSL is:",
+"o": [
+"114 NM",
+"107 NM",
+"134 NM"
+],
+"a": 2,
+"ex": "1.25 (√8000 + √325) = 1.25 (89.4 + 18.0) ≈ 134 NM."
+},
+{
+"n": 17,
+"q": "What is the minimum level that an aircraft, at a range of 113 NM, must fly in order to contact the tower on R/T for a VDF bearing from an airport sited 169 FT above MSL?",
+"o": [
+"FL60",
+"FL50",
+"FL80"
+],
+"a": 0,
+"ex": "113 / 1.25 = 90.4; minus √169 = 13 → √h = 77.4 → h ≈ 6000 ft: FL60."
+},
+{
+"n": 18,
+"q": "What is the first returning sky wave called?",
+"o": [
+"The critical ray.",
+"The sky ray",
+"The space wave."
+],
+"a": 0
+},
+{
+"n": 19,
+"q": "What is the metric distance of an NDB wavelength?",
+"o": [
+"Decimetric",
+"Metric",
+"Kilometric"
+],
+"a": 2
+},
+{
+"n": 20,
+"q": "Which radio frequency employs the refraction properties of the ionosphere?",
+"o": [
+"EHF",
+"HF",
+"VHF"
+],
+"a": 1
+},
+{
+"n": 21,
+"q": "VOR wavelength is?",
+"o": [
+"2.46 cm",
+"24.6 cm",
+"2.46 m"
+],
+"a": 2
+},
+{
+"n": 22,
+"q": "VOR wavelength is",
+"o": [
+"Millimetric.",
+"Centimetric",
+"Metric."
+],
+"a": 2
+},
+{
+"n": 24,
+"q": "What is the frequency and waveband of a radio aid that uses a wavelength of 19 cm?",
+"o": [
+"15.79 Hz. ELF.",
+"15.79 Khz. VLF.",
+"1.579 Ghz UHF"
+],
+"a": 2
+},
+{
+"n": 25,
+"q": "The wavelength of a 121.95 MHz signal is?",
+"o": [
+"24.6 Cm.",
+"2.46 m.",
+"2.46 km."
+],
+"a": 1
+},
+{
+"n": 26,
+"q": "What is skip distance?",
+"o": [
+"The distance between a receiver and the first and second fundamentals.",
+"The distance between the transmitter and the first returning sky wave.",
+"The distance between the first fundamental returning to the ground, and the receiver."
+],
+"a": 1
+},
+{
+"n": 27,
+"q": "Weather radar is?",
+"o": [
+"Centimetric",
+"Metric.",
+"Kilometric"
+],
+"a": 0
+},
+{
+"n": 28,
+"q": "The wavelength of VHF radio signal is?",
+"o": [
+"Millimetric.",
+"Centimetric",
+"Metric."
+],
+"a": 2
+},
+{
+"n": 29,
+"q": "The wavelength of ILS localizer is.",
+"o": [
+"Millimetric.",
+"Centimetric.",
+"Metric."
+],
+"a": 2
+},
+{
+"n": 30,
+"q": "Atmospheric ducting close to the earth is most likely:",
+"o": [
+"In an inversion with constant humidity at all altitudes.",
+"In an inversion with humidity decreasing with increasing altitude.",
+"Over land."
+],
+"a": 1
+},
+{
+"n": 31,
+"q": "Frequency of a wave length of 3.5 cms is:",
+"o": [
+"8.57 Khz",
+"8.57 Mhz",
+"8.57 Ghz."
+],
+"a": 2,
+"ex": "f = 3×10⁸ / 0.035 = 8.57 GHz."
+}
+]
+}

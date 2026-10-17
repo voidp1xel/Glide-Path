@@ -1,0 +1,448 @@
+{
+"title": "Sample paper 11",
+"src": "Bali AR, Sample Question Papers",
+"qs": [
+{
+"n": 1,
+"q": "If you see red light of the aircraft ahead at 2 O'clock, it means:",
+"o": [
+"Safe. The aircraft is moving from left to right.",
+"Unsafe. The aircraft is moving from right to left.",
+"Safe. The aircraft is flying away from you."
+],
+"a": 1,
+"ex": "Red on your right: it is crossing right to left in front of you and you must give way."
+},
+{
+"n": 2,
+"q": "The most common symptoms of work overload are:",
+"o": [
+"Failures of interpersonal skills, communications, decision-making, and leadership.",
+"A sharp degradation of performance, Funneling of attention or focus, Regression, Mental 'blocking\".",
+"Difficulty of task, duration of task, fatigue and level of arousal."
+],
+"a": 1
+},
+{
+"n": 3,
+"q": "An aircraft shall display navigation lights:",
+"o": [
+"Outside the daylight period at engine-start. During the daylight period this is not applicable.",
+"While moving on the movement area of an aerodrome.",
+"While taxiing, but not when it is moving in apron."
+],
+"a": 1
+},
+{
+"n": 4,
+"q": "Who decides whether to fly under IFR or VFR in VMC?",
+"o": [
+"The PIC.",
+"The Operator.",
+"The ATS authority."
+],
+"a": 0
+},
+{
+"n": 5,
+"q": "Which action shall be taken by an aircraft in the traffic pattern of an aerodrome, experiencing radio failure to indicate difficulties which compel it to land without requiring immediate assistance?",
+"o": [
+"Switching on and off four times the landing lights.",
+"Switching on and off three times the landing lights.",
+"The repeated switching on and off of the landing lights."
+],
+"a": 2
+},
+{
+"n": 6,
+"q": "The signal from pilot to marshaller which means brakes applied is:",
+"o": [
+"Fist clenched in front of the face then fingers extended.",
+"Hands crossed in front of the face, palms outwards, then move arms outwards.",
+"Right arm and hand with fingers extended in front of face, then clench fist."
+],
+"a": 2
+},
+{
+"n": 7,
+"q": "About ___ of the information processed by humans comes through the visual channel.",
+"o": [
+"50-60%",
+"70-80%",
+"80-90%"
+],
+"a": 1
+},
+{
+"n": 8,
+"q": "Air traffic services unit clocks and other time recording devices shall be checked as necessary to ensure correct time within plus or minus:",
+"o": [
+"1 minute of UTC at all times.",
+"15 seconds of UTC at all times.",
+"30 seconds of UTC at all times."
+],
+"a": 2
+},
+{
+"n": 9,
+"q": "In ATS route designator UA1Y what does U mean:",
+"o": [
+"Upper.",
+"Unidirectional.",
+"Uniform."
+],
+"a": 0
+},
+{
+"n": 10,
+"q": "Required Navigation Performance (RNP) shall be prescribed:",
+"o": [
+"By regional air navigation agreements.",
+"By states but not on the basis of regional air agreements.",
+"By states on the basis of regional air navigation agreements."
+],
+"a": 2
+},
+{
+"n": 13,
+"q": "What are the controlled IFR separation methods applied by ATC?",
+"o": [
+"Vertical, horizontal and composite separation.",
+"Time separation and track separation.",
+"Composite separation and radar separation."
+],
+"a": 0
+},
+{
+"n": 14,
+"q": "Aircraft shall not be held closer to a runway-in-use:",
+"o": [
+"Than at a runway-holding position.",
+"Than at runway edge.",
+"Than at 40m from the runway edge."
+],
+"a": 0
+},
+{
+"n": 15,
+"q": "Temporary changes on specifications for AIP supplements of long duration and information of short duration which contains extensive text and or graphics shall be published as AIP supplements. What is considered a long duration?",
+"o": [
+"Three months or longer.",
+"Two months or longer.",
+"One year or longer."
+],
+"a": 0
+},
+{
+"n": 16,
+"q": "The temporary, long-term modification (3 months or more) and the short-term extensive or graphical information are published as follows: AIP Supplements. B Trigger NOTAM.",
+"o": [
+"AIP Supplements",
+"Trigger NOTAM",
+"NOTAM"
+],
+"a": 0
+},
+{
+"n": 17,
+"q": "Taxiway edge lights shall be:",
+"o": [
+"Fixed showing green.",
+"Fixed showing yellow.",
+"Fixed showing blue."
+],
+"a": 2
+},
+{
+"n": 18,
+"q": "Runway threshold identification lights, when provided, should be:",
+"o": [
+"Fixed green",
+"Fixed white",
+"Flashing white"
+],
+"a": 2
+},
+{
+"n": 19,
+"q": "Taxiway center line lights other than an exit taxiway shall be:",
+"o": [
+"Fixed lights showing blue.",
+"Fixed lights showing green.",
+"Fixed lights showing yellow."
+],
+"a": 1
+},
+{
+"n": 20,
+"q": "Low intensity obstacle lights on fixed objects shall be:",
+"o": [
+"Flashing red.",
+"Fixed red.",
+"Flashing yellow."
+],
+"a": 1
+},
+{
+"n": 21,
+"q": "A B-787 pilots feel nausea and dizziness while flying through low clouds. This could be due to:",
+"o": [
+"Somatogravic Effect, take 100% oxygen and climb to a higher altitude.",
+"The leans, get on to the instruments and correct the aircraft attitude.",
+"Stroboscopic Effect, switch off anti-collision lights."
+],
+"a": 2
+},
+{
+"n": 22,
+"q": "In a standard holding pattern turns are made:",
+"o": [
+"To the left.",
+"To the right.",
+"In a direction depending on the wind direction."
+],
+"a": 1
+},
+{
+"n": 23,
+"q": "When determining the OCA for a precision approach, obstacle height is referenced to:",
+"o": [
+"MSL.",
+"Threshold.",
+"Highest obstacle within 25 nm of aerodrome."
+],
+"a": 1
+},
+{
+"n": 24,
+"q": "A \"precision approach\" is a direct instrument approach:",
+"o": [
+"Using bearing, elevation and distance information.",
+"Carried out by a crew of at least two pilots trained with a specific working method.",
+"Using at least one source of bearing information and one source of elevation or distance information."
+],
+"a": 0
+},
+{
+"n": 26,
+"q": "Maximum permissible bank angle in a holding pattern is_ _degrees:",
+"o": [
+"35.",
+"30.",
+"25."
+],
+"a": 2
+},
+{
+"n": 27,
+"q": "A radial is:",
+"o": [
+"A magnetic bearing to or from a VOR station, depending on whether the aircraft is inbound or outbound to or from the VOR.",
+"A magnetic bearing to a VOR station.",
+"A magnetic bearing extending from a VOR station."
+],
+"a": 2
+},
+{
+"n": 28,
+"q": "You test your altimeter with aerodrome QNH set. What would a serviceable altimeter read?",
+"o": [
+"The height of the aeroplane above the datum.",
+"The elevation of the position of the aeroplane plus the height of the altimeter static vent.",
+"The altitude of the aeroplane above the datum."
+],
+"a": 1
+},
+{
+"n": 29,
+"q": "If the QNH is 991 Mb where is FL? (Assume 1 Mb = 30 ft):",
+"o": [
+"Below sea level.",
+"660 ft above mean sea level.",
+"660 ft above the transition level."
+],
+"a": 0
+},
+{
+"n": 30,
+"q": "When an aircraft carries a serviceable transponder, the pilot shall operate the transponder:",
+"o": [
+"At all times during flight, regardless of whether the aircraft is within or outside airspace where SSR is used for ATS purposes.",
+"Only when the aircraft is flying within controlled airspace.",
+"Only when the aircraft is flying within airspace where SSR is used for ATS purposes."
+],
+"a": 0
+},
+{
+"n": 31,
+"q": "Which of the following cruising levels would you select under the following conditions: True track 358°, variation 3°E, deviation 2°W?",
+"o": [
+"FL 65.",
+"FL 75.",
+"FL 70."
+],
+"a": 0,
+"ex": "Magnetic track 355° → westerly semicircle → VFR even thousands + 500 ft."
+},
+{
+"n": 32,
+"q": "Every member of the Flight Crew shall get his logbook certified for correctness by the competent authority:",
+"o": [
+"At the end of each calendar month.",
+"At the end of every quarter.",
+"At a half yearly interval ending Jun and Dec."
+],
+"a": 1
+},
+{
+"n": 33,
+"q": "Succession of command is given:",
+"o": [
+"In Operation manual.",
+"By Operator.",
+"By DGCA."
+],
+"a": 0
+},
+{
+"n": 34,
+"q": "An aircraft without registration markings can be flown only:",
+"o": [
+"If the sale deed is not yet completed.",
+"For the purpose of test flight only, prior to purchase.",
+"If specially permitted in writing by the central govt."
+],
+"a": 2
+},
+{
+"n": 35,
+"q": "The holder of a commercial pilot licence when as Co-Pilot performing under the supervision of a pilot who fulfills the flying experience requirements of a check pilot, the duties and functions of a pilot-in-command shall be entitled to be credited:",
+"o": [
+"In full with his flight time but not more than 300 hours towards the total time required for a higher grade of pilot licence.",
+"50% of the flight time towards the total time required for higher grade of pilot licence in accordance with the requirements of the licensing authority.",
+"In full with his flight time towards the total time required for higher grade of pilot licence."
+],
+"a": 2
+},
+{
+"n": 36,
+"q": "A CPL applicant (India) shall have completed in aeroplanes not less than:",
+"o": [
+"20 h of instrument instruction, not more than 10 h ground time",
+"20 h of instrument instruction, not more than 5 h ground time",
+"10 h of instrument time, not more than 5 h on an approved simulator"
+],
+"a": 2
+},
+{
+"n": 40,
+"q": "Between which components is an interface mismatch causing stress due to poor cockpit design, thus leading to reduced human performance?",
+"o": [
+"Liveware - Software.",
+"Liveware - Liveware.",
+"Liveware - Hardware."
+],
+"a": 2
+},
+{
+"n": 41,
+"q": "Which of the following sentences concerning crew performance is correct?",
+"o": [
+"Mistakes can always be detected and corrected by the individual, hence too much practice is not needed.",
+"The quality of crew-performance is not dependent on the arousal level of the individual.",
+"The quality of crew-performance depends on the practice done to improve reliability."
+],
+"a": 2
+},
+{
+"n": 42,
+"q": "Pilots are more easily inclined to make mistakes when:",
+"o": [
+"Making decisions independently of others.",
+"They are not constrained by time.",
+"They are not able to assess and control the risks involved in a situation."
+],
+"a": 2
+},
+{
+"n": 43,
+"q": "The amount of light which strikes the retina is controlled by:",
+"o": [
+"The cornea.",
+"The lens.",
+"The pupil."
+],
+"a": 2
+},
+{
+"n": 44,
+"q": "Which of the following statements in regard to motivation is correct?",
+"o": [
+"Too much motivation may result in hypo vigilance and thus in a decrease in attention.",
+"Motivation will reduce the task automation process hence performance will degrade.",
+"The learning process is vastly improved with motivation."
+],
+"a": 2
+},
+{
+"n": 45,
+"q": "Long-term memory is an essential component of the pilot's knowledge and expertise:",
+"o": [
+"Information in long-term memory is always fresh and easy to retrieve",
+"It is useful to pre-activate knowledge in long-term memory so it is available when needed",
+"Long-term memory capacity is limited to a few weeks"
+],
+"a": 1
+},
+{
+"n": 46,
+"q": "The human information processing system is highly efficient compared to computers because of its:",
+"o": [
+"Speed.",
+"Working memory capacity.",
+"Flexibility."
+],
+"a": 2
+},
+{
+"n": 47,
+"q": "Thinking on human reliability is changing:",
+"o": [
+"Human errors can be avoided. All it takes is to be vigilant and to extend one's knowledge.",
+"It is thought that it will be possible to eliminate errors in the near future.",
+"Human errors are now considered as being inherent to the cognitive function of humans and are generally inescapable."
+],
+"a": 2
+},
+{
+"n": 48,
+"q": "Gases of physiological importance to man are:",
+"o": [
+"Oxygen and carbon dioxide.",
+"Nitrogen and carbon dioxide.",
+"Oxygen and carbon monoxide."
+],
+"a": 0
+},
+{
+"n": 49,
+"q": "The total pressure of a mixture of gases is equal to the sum of the partial pressures of the gases which compose the mixture corresponds to:",
+"o": [
+"Henry's law.",
+"Dalton's law.",
+"Graham's law."
+],
+"a": 1
+},
+{
+"n": 50,
+"q": "The barometric pressure drops to 1/2 of the pressure at sea level at:",
+"o": [
+"10000 feet.",
+"18000 feet.",
+"25000 feet."
+],
+"a": 1
+}
+]
+}

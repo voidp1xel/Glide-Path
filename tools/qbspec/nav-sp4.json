@@ -1,0 +1,451 @@
+{
+ "id": "nav-sp4",
+ "title": "Sample Paper 4",
+ "src": "R.K. Bali — Air Navigation, Sample Paper 4",
+ "text": "nav",
+ "start": 18765,
+ "end": 19186,
+ "key": "aaaabccacbacacaababa aacaacbbcbaaccccbacb bcbabaacbbacccaaaabc bacabacabaababbaabaa cacccbccbcbabacacacc",
+ "fix": {
+  "1": {
+   "o": [
+    "Between sunset and when the centre of the sun is 6° below the true horizon.",
+    "Between sunset and when the top of the sun is 6° below the visual horizon.",
+    "Between sunset and when the centre of the sun is 6° below the visual horizon."
+   ]
+  },
+  "4": {
+   "q": "An aircraft passes position A (75° 00'N 120° 00'W) en route to position B (75° 00'N 140° 30'W). What is the great circle track on departure from A?"
+  },
+  "5": {
+   "o": [
+    "when the mean sun transits the meridian of the place in question.",
+    "when the mean sun transits the anti meridian of the place in question.",
+    "when the mean sun transits the 180E/W meridian."
+   ]
+  },
+  "7": {
+   "o": [
+    "compass north is east of magnetic north",
+    "compass north is west of magnetic north",
+    "true north is east of magnetic north"
+   ]
+  },
+  "8": {
+   "q": "Position A 45° N, ?° E; position B 45° N, 50° 15'E. Distance A–B = 280 NM, B is to the east of A. What is the longitude of position A?",
+   "o": [
+    "43° 39'E",
+    "45° 57'E",
+    "52° 53'E"
+   ]
+  },
+  "9": {
+   "q": "What is the longitude of a position 15 NM to the east of 58° 42'N 094° 00'W?",
+   "o": [
+    "093° 53.3'W",
+    "094° 13.0'W",
+    "093° 31.1'W"
+   ]
+  },
+  "10": {
+   "q": "On an instrument check while taxiing, when carrying out a turn the turn and slip indicator will show:",
+   "o": [
+    "slip into the turn",
+    "skid out of the turn",
+    "no slip or skid"
+   ]
+  },
+  "12": {
+   "o": [
+    "Easterly turn.",
+    "Westerly turn.",
+    "No turn."
+   ]
+  },
+  "15": {
+   "q": "At what DRMC heading is roll-out required when conducting a turn from south-west to south-east at 45 degrees north?"
+  },
+  "16": {
+   "o": [
+    "1 : 2 780 000",
+    "1 : 278 000",
+    "1 : 27 800 000"
+   ]
+  },
+  "17": {
+   "o": [
+    "Lambert's conformal.",
+    "Polar stereographical projection.",
+    "Direct Mercator."
+   ]
+  },
+  "18": {
+   "q": "An aeroplane is flying at TAS 180 kt on a track of 090°. The W/V is 045°/50 kt. How far can the aeroplane fly out from its base and return in one hour?"
+  },
+  "19": {
+   "q": "The following information is displayed on an Inertial Navigation System: GS 520 kt, true HDG 090°, drift angle 5° right, TAS 480 kt, SAT −51 °C. The W/V being experienced is?"
+  },
+  "21": {
+   "q": "For take-off an aircraft requires a headwind component of at least 10 kt and has a crosswind limitation of 35 kt. The angle between the wind direction and the runway is 60°. Calculate the minimum and maximum allowable wind speed."
+  },
+  "22": {
+   "o": [
+    "Mach number increases.",
+    "Mach number decreases.",
+    "TAS decreases."
+   ]
+  },
+  "24": {
+   "q": "When climbing at a constant Mach number below the tropopause, in ISA conditions, the Calibrated Airspeed (CAS) will? b) Increase at a linear rate. c) Increase at an exponential rate.",
+   "o": [
+    "Decrease.",
+    "Increase at a linear rate.",
+    "Increase at an exponential rate."
+   ]
+  },
+  "25": {
+   "q": "In a steady climb the auto-throttle maintains a constant calibrated airspeed. If the total temperature remains constant, the Mach number?"
+  },
+  "26": {
+   "o": [
+    "Increases.",
+    "Decreases.",
+    "Remains approximately constant."
+   ]
+  },
+  "27": {
+   "q": "If ambient temperature increases by 10 degrees, for an aircraft flying at constant TAS, the indicated Mach number will ______ and the true Mach number will ______.",
+   "o": [
+    "Increase, increase",
+    "Decrease, decrease",
+    "Not change, increase"
+   ]
+  },
+  "28": {
+   "q": "Distance 'A' to 'B' 2600 NM, Groundspeed 'out' 395 kt, Groundspeed 'back' 480 kt. The time from 'A' to the Point of Equal Time (PET) between 'A' and 'B' is?"
+  },
+  "33": {
+   "o": [
+    "may only be moved if permitted by the regulating authority and endorsed in the aero plane's certificate of airworthiness.",
+    "is in a fixed position and is unaffected by aero plane loading.",
+    "can be allowed to move between defined limits."
+   ]
+  },
+  "34": {
+   "q": "In a direct reading compass the magnet system is made aperiodic by:"
+  },
+  "36": {
+   "o": [
+    "at or near the natural balance point of the empty aero plane",
+    "at or near the forward limit of the center of gravity",
+    "at a convenient point which may not physically be on the aero plane"
+   ]
+  },
+  "38": {
+   "o": [
+    "Strength increases with increase in magnetic latitude",
+    "Strength varies as cosine of magnetic latitude",
+    "has the same polarity in both the hemispheres"
+   ]
+  },
+  "39": {
+   "o": [
+    "Air speed indicator",
+    "An accelerometer",
+    "Mach meter"
+   ]
+  },
+  "40": {
+   "q": "It is possible, in flight, to: 1. file an IFR flight plan 2. modify an active IFR or VFR flight plan 3. cancel an active VFR flight plan 4. close an active VFR flight plan. The combination of correct statements is:",
+   "o": [
+    "2, 3, 4",
+    "1, 2, 3, 4",
+    "1, 2, 3"
+   ]
+  },
+  "42": {
+   "o": [
+    "002°10'W",
+    "000°15'E",
+    "000°40'E"
+   ]
+  },
+  "43": {
+   "o": [
+    "compass deviation",
+    "magnetic variation",
+    "wind velocity"
+   ]
+  },
+  "44": {
+   "q": "IAS 120 kt, FL 80, OAT +20 °C. What is the TAS?"
+  },
+  "45": {
+   "q": "Airport elevation is 1000 ft, QNH is 988 hPa. What is the approximate airport pressure altitude? (Assume 1 hPa = 27 ft)",
+   "o": [
+    "320 ft",
+    "1680 ft",
+    "−320 ft"
+   ]
+  },
+  "46": {
+   "q": "Half way between two reporting points the navigation log gives the following information: TAS 360 kt, W/V 330°/80 kt, compass heading 237°, deviation on this heading −5°, variation 19°W. What is the average ground speed for this leg?",
+   "o": [
+    "403 kt",
+    "354 kt",
+    "373 kt"
+   ]
+  },
+  "47": {
+   "o": [
+    "Ring laser gyro",
+    "Rotor free gyro",
+    "Free gyro"
+   ]
+  },
+  "49": {
+   "o": [
+    "270 ft amsl",
+    "−270 ft amsl",
+    "30 660 ft amsl"
+   ]
+  },
+  "50": {
+   "q": "The primary factor which makes the servo-assisted altimeter more accurate than the simple pressure altimeter is the use of?"
+  },
+  "53": {
+   "o": [
+    "Altitude of the main wheels above ground.",
+    "Height of the flight deck above the ground.",
+    "Height of the main wheels above the ground."
+   ]
+  },
+  "55": {
+   "o": [
+    "VSI needle moving downwards.",
+    "VSI needle moving upwards.",
+    "VSI needle stationary."
+   ]
+  },
+  "56": {
+   "o": [
+    "Accelerometer system.",
+    "Choke system.",
+    "Bi-metallic compensator."
+   ]
+  },
+  "59": {
+   "q": "CAS is?"
+  },
+  "60": {
+   "o": [
+    "VS1 for the lower limit and VNE for the upper limit.",
+    "VS1 for the lower limit and VLO for the upper limit.",
+    "VS1 for the lower limit and VNO for the upper limit."
+   ]
+  },
+  "61": {
+   "o": [
+    "VLO for the lower limit and VNE for the upper limit.",
+    "VNO for the lower limit and VNE for the upper limit.",
+    "VFE for the lower limit and VNE for the upper limit."
+   ]
+  },
+  "62": {
+   "q": "A Machmeter comprises:"
+  },
+  "64": {
+   "o": [
+    "Increases.",
+    "Decreases.",
+    "Increases then remains constant."
+   ]
+  },
+  "65": {
+   "o": [
+    "One degree of freedom, whose vertical axis, aligned with the real vertical to the location, is maintained in this direction by an automatic erecting system.",
+    "Two degrees of freedom, whose horizontal axis corresponding to the reference direction is maintained in the horizontal plane by an automatic erecting system.",
+    "Two degrees of freedom, whose axis aligned with the vertical to the location is maintained in this direction by an erecting system."
+   ]
+  },
+  "68": {
+   "o": [
+    "Too much nose-up and bank too high.",
+    "Too much nose-up and bank too low.",
+    "Attitude and bank correct."
+   ]
+  },
+  "69": {
+   "q": "An attitude indicator (AI) has?",
+   "o": [
+    "One degree of freedom and a lateral spin axis.",
+    "Two degrees of freedom and a vertical spin axis.",
+    "Two degrees of freedom and a horizontal spin axis."
+   ]
+  },
+  "70": {
+   "o": [
+    "Nose up and bank",
+    "Nose down and bank",
+    "Nose level and bank"
+   ]
+  },
+  "71": {
+   "q": "Which of the following properties are possessed by a standby artificial horizon? 1. Independent power supply. 2. Integral gyro. 3. Remote (external) gyro. 4. Used only in emergencies. 5. At least one per pilot in JAR 25 aircraft.",
+   "o": [
+    "1, 2",
+    "2, 3",
+    "3, 4"
+   ]
+  },
+  "73": {
+   "q": "The turn needle indicates ______ in a slightly banked turn?"
+  },
+  "77": {
+   "q": "The ATC transponder system, excluding Mode S, contains:",
+   "o": [
+    "two modes, each of 4096 codes",
+    "four modes, each 1024 codes",
+    "four modes, each 4096 codes"
+   ]
+  },
+  "79": {
+   "o": [
+    "400 Hz",
+    "2000 Hz",
+    "3000 Hz"
+   ]
+  },
+  "81": {
+   "o": [
+    "hear the ident, and must always be switched on",
+    "find the loop 'null' position",
+    "hear the IDENT of some NDB stations radiating a continuous wave signal"
+   ]
+  },
+  "82": {
+   "o": [
+    "blue - amber - white",
+    "amber - white - green",
+    "white - amber - blue"
+   ]
+  },
+  "83": {
+   "o": [
+    "200 MHz and is modulated by alternate dot/dash in Morse",
+    "75 MHz and is modulated by alternate dot/dash in Morse",
+    "75 MHz and is modulated by Morse at two dashes per second"
+   ]
+  },
+  "85": {
+   "q": "Instrument Landing System (ILS) glide paths provide azimuth coverage of (i) ______° each side of the localiser centre-line to a distance of (ii) ______ NM from the threshold.",
+   "o": [
+    "(i) 25 (ii) 17",
+    "(i) 35 (ii) 25",
+    "(i) 8 (ii) 10"
+   ]
+  },
+  "86": {
+   "o": [
+    "60",
+    "100",
+    "200"
+   ]
+  },
+  "87": {
+   "o": [
+    "is approximately ±2 NM",
+    "is approximately ±0.5 NM",
+    "decreases with increase of range"
+   ]
+  },
+  "88": {
+   "o": [
+    "Increasing humidity, decreasing altitude, increasing temperature.",
+    "Increasing humidity, increasing altitude, decreasing temperature.",
+    "Increasing humidity, increasing altitude, increasing temperature."
+   ]
+  },
+  "91": {
+   "o": [
+    "the pulse recurrence rates are varied",
+    "they are not on the receiver frequency",
+    "DME uses the UHF band"
+   ]
+  },
+  "92": {
+   "o": [
+    "4255 ft/min",
+    "4283 ft/min",
+    "4382 ft/min"
+   ]
+  },
+  "93": {
+   "o": [
+    "Read zero continuously.",
+    "Read cabin altitude.",
+    "Over read."
+   ]
+  },
+  "94": {
+   "o": [
+    "Increase by 5 Kts.",
+    "Increase by 10 Kts.",
+    "Remain constant."
+   ]
+  },
+  "95": {
+   "o": [
+    "The CAS of an aircraft as a fraction of the local speed of sound.",
+    "The local speed of sound as a fraction of the CAS of an aircraft.",
+    "The IAS of an aircraft as a fraction of the local speed of sound."
+   ]
+  },
+  "98": {
+   "o": [
+    "increase sensitivity, increase aperiodicity.",
+    "increase sensitivity at high latitudes, lubricate bearings.",
+    "increase sensitivity, decrease aperiodicity."
+   ]
+  },
+  "99": {
+   "q": "The 'departure' between positions 60°N 160°E and 60°N 'X' is 1800 NM east. What is the longitude of 'X'?"
+  },
+  "100": {
+   "o": [
+    "Full VOR mode.",
+    "Expanded VOR mode.",
+    "Full NAV mode."
+   ]
+  }
+ },
+ "drop": [
+  95,
+  100
+ ],
+ "ex": {
+  "4": "Convergency = 20.5° × sin 75° ≈ 19.8°; half is ≈ 10°. Flying west in the northern hemisphere the great circle starts poleward of west: 270 + 10 = 280°.",
+  "8": "Δlong = 280 / cos 45° ≈ 396' = 6° 36'. A = 50° 15' − 6° 36' = 43° 39' E.",
+  "9": "Δlong = 15 / cos 58.7° ≈ 28.9'. 094° 00'W − 28.9' = 093° 31.1'W.",
+  "16": "10° of longitude at 60°N = 600 × 0.5 = 300 NM ≈ 555.6 km = 55 560 000 cm. 55 560 000 / 20 ≈ 2 780 000.",
+  "18": "GS out ≈ 141 kt, GS home ≈ 212 kt. Time out = 1 h × 212 / (141 + 212) ≈ 0.6 h → 0.6 × 141 ≈ 85 NM.",
+  "19": "Track = 095°. Ground vector 520 kt on 095° minus air vector 480 kt on 090° leaves a wind blowing towards about 140°, i.e. 320°/60 kt.",
+  "21": "Headwind V cos 60° ≥ 10 → V ≥ 20 kt. Crosswind V sin 60° ≤ 35 → V ≤ 40 kt.",
+  "28": "PET = 2600 × 480 / 875 ≈ 1426 NM; 1426 / 395 ≈ 3.61 h ≈ 217 min.",
+  "29": "PSR = 9 × 465 × 385 / 850 ≈ 1896 NM.",
+  "30": "DOM = 44 800 + 2300 = 47 100. Max traffic load = MZFM − DOM = 65 500 − 47 100 = 18 400 kg.",
+  "41": "An IFR flight plan must be filed at least 60 min before off-block time: 1815 − 60 min = 1715 UTC.",
+  "42": "315 km ≈ 170 NM. Δlong = 170 / cos 60° = 340' = 5° 40'. 005° W + 5° 40' E = 000° 40' E.",
+  "44": "About 2 % per 1000 ft plus the warm temperature: 120 kt at FL80 and +20 °C gives about 141 kt on the computer.",
+  "45": "QNH is 25 hPa below standard: PA = 1000 + 25 × 27 ≈ 1680 ft.",
+  "46": "MH = 237 − 5 = 232°, TH = 232 − 19 = 213°. Adding the wind 330°/80 to 360 kt on 213° gives GS ≈ 403 kt.",
+  "49": "QFE 9 hPa above 1013 → about 9 × 30 = 270 ft below the standard datum: −270 ft.",
+  "61": "The printed option (b) reads 'VNE for the lower limit'; the yellow (caution) arc runs from VNO to VNE.",
+  "63": "ISA at 40 000 ft = −56.5 °C (216.5 K). LSS = 38.95 × √216.5 ≈ 573 kt.",
+  "74": "Rate one bank ≈ TAS/10 + 7 = 12 + 7 ≈ 19–20°.",
+  "78": "On a 3° path ROD ≈ 5 × GS = 5 × 120 = 600 ft/min.",
+  "80": "ROD ≈ 5 × GS = 5 × 90 = 450 ft/min.",
+  "92": "350 kt = 350 × 6076 / 60 ≈ 35 440 ft/min horizontally; × 0.12 ≈ 4255 ft/min.",
+  "99": "Δlong = 1800 / cos 60° = 3600' = 60°. 160° E + 60° = 220° E = 140° W."
+ }
+}

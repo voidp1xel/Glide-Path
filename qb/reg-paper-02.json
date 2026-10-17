@@ -1,0 +1,488 @@
+{
+"title": "Sample paper 2",
+"src": "Bali AR, Sample Question Papers",
+"qs": [
+{
+"n": 1,
+"q": "Inst. Chart procedures are given in:",
+"o": [
+"AIP.",
+"NOTAMS.",
+"AIRAC."
+],
+"a": 0
+},
+{
+"n": 2,
+"q": "Inst. Charts carried in aircraft are contained in:",
+"o": [
+"Operation Manual.",
+"Aircraft Manual.",
+"Route guides."
+],
+"a": 2
+},
+{
+"n": 3,
+"q": "Danger areas are given in:",
+"o": [
+"AIRAC.",
+"AIC.",
+"AIP."
+],
+"a": 2
+},
+{
+"n": 5,
+"q": "Vertical separation applicable to non-RVSM aircraft operating in RVSM airspaces is:",
+"o": [
+"500'",
+"1000'",
+"2000'"
+],
+"a": 2
+},
+{
+"n": 6,
+"q": "Weather below minima implies that:",
+"o": [
+"RVR/ Visibility and weather below minima specified by the operator.",
+"Weather below V M C.",
+"RVR / VIS and weather below minima specified by ICAO."
+],
+"a": 0
+},
+{
+"n": 7,
+"q": "Two digits in black over yellow back ground hanging from the tower indicates:",
+"o": [
+"Time in UTC (hrs).",
+"Runway in use.",
+"Location of ATS reporting point."
+],
+"a": 1
+},
+{
+"n": 8,
+"q": "Circling minima's are:",
+"o": [
+"Higher than precision app minimas.",
+"Lower than precision app minimas.",
+"Same as precision app minimas."
+],
+"a": 0
+},
+{
+"n": 9,
+"q": "ARP is at the:",
+"o": [
+"Geometric centre of an aerodrome.",
+"Highest elevation at an aerodrome.",
+"Designated point at the aerodrome."
+],
+"a": 2
+},
+{
+"n": 10,
+"q": "SIDS are published in:",
+"o": [
+"AIRAC",
+"NOTAMS",
+"AIP"
+],
+"a": 2
+},
+{
+"n": 11,
+"q": "White flashes from tower to aircraft in flight means:",
+"o": [
+"Return to this aerodrome and proceed to apron.",
+"Land at this aerodrome and proceed to apron.",
+"Land after green signal from Tower."
+],
+"a": 1
+},
+{
+"n": 12,
+"q": "OCA is determined after taking into account margin for:",
+"o": [
+"Terrain Clearance.",
+"Pilot Error.",
+"Operational Considerations."
+],
+"a": 0
+},
+{
+"n": 13,
+"q": "RVR/DH for cat II ILS ops is:",
+"o": [
+"550m/60",
+"300m/30m",
+"350m/30m"
+],
+"a": 1
+},
+{
+"n": 14,
+"q": "Green Light on an aircraft is visible if seen from the front:",
+"o": [
+"At an arc of 110° to the port side.",
+"At an arc of 110° to the starboard side.",
+"At an arc of 140° to the starboard side."
+],
+"a": 1
+},
+{
+"n": 15,
+"q": "Position reports to be given by an aircraft, if no route is being followed will be at an interval of:",
+"o": [
+"30 mins.",
+"60 mins.",
+"First report after 30 mins and subsequent reports after 60 mins."
+],
+"a": 2,
+"ex": "With no route, report 30 minutes after departure and then every hour."
+},
+{
+"n": 16,
+"q": "Oxygen is carried on board for all crew members and passengers when at atmospheric pressure will be less than:",
+"o": [
+"620 hPa",
+"700 hPa",
+"376 hPa"
+],
+"a": 0
+},
+{
+"n": 18,
+"q": "An IFR flight will maintain a minimum altitude of:",
+"o": [
+"2000' above highest obstacle with in 8 kms of aircraft position in mountainous areas",
+"Both A) and C) are correct",
+"1000' above highest obstacle with in 600m of aircraft position in mountainous areas."
+],
+"a": 0
+},
+{
+"n": 19,
+"q": "Prisoners can be carried on board with the permission of:",
+"o": [
+"Police commissioner",
+"DGCA",
+"DM"
+],
+"a": 1
+},
+{
+"n": 20,
+"q": "If cornea is curved more than normal, the person suffers from:",
+"o": [
+"Myopia",
+"Presbiopia",
+"Hypermetropia"
+],
+"a": 0
+},
+{
+"n": 21,
+"q": "According to ICAO Annex 8, a certificate of airworthiness shall be renewed or shall remain valid subject to the:",
+"o": [
+"Laws of the state of registry and operation",
+"Laws of the state in which is operated",
+"Laws of the state of registry"
+],
+"a": 2
+},
+{
+"n": 22,
+"q": "Flight Information Region (FIR) is an airspace within which the following services are provided:",
+"o": [
+"Flight Information Service and Alerting Service",
+"Flight Information Service and Advisory Service",
+"Flight Information Service, Alerting Service and Advisory Service"
+],
+"a": 0
+},
+{
+"n": 23,
+"q": "VFR flights are not permitted:",
+"o": [
+"Above FL 100",
+"Above FL150",
+"Above FL 50"
+],
+"a": 1
+},
+{
+"n": 24,
+"q": "Personnel are required to preserve their log books for a period of --- years after the date of last entry:",
+"o": [
+"2 years",
+"5 years",
+"1 year"
+],
+"a": 1
+},
+{
+"n": 25,
+"q": "Movement area of an aerodrome constitutes the following:",
+"o": [
+"Area including runways / taxiways excluding apron",
+"Area excluding taxiways but including runways and apron",
+"Area including runways / taxiways / aprons"
+],
+"a": 2
+},
+{
+"n": 26,
+"q": "PIC of an aeroplane on Scheduled operations can fly for a maximum number of hours in a period of 28 consecutive days:",
+"o": [
+"125 hours",
+"100 hours",
+"80 percent of time as co-pilot"
+],
+"a": 1
+},
+{
+"n": 27,
+"q": "The validity of an ATPL holder's (under 60) medical and of the licence is:",
+"o": [
+"6 months and 5 years",
+"6 months and 2 years",
+"12 months and 10 years"
+],
+"a": 2
+},
+{
+"n": 28,
+"q": "Cabin crew required for a passenger plane with 83 seating capacity is:",
+"o": [
+"1",
+"2",
+"3"
+],
+"a": 1
+},
+{
+"n": 29,
+"q": "The common illusion created by linear acceleration or deceleration is:",
+"o": [
+"A banking sensation due to disturbances in the fluid circulation in the inner ear",
+"A combined pitch up and banking sensations",
+"A pitch up feeling when the aircraft accelerates"
+],
+"a": 2
+},
+{
+"n": 30,
+"q": "Aircraft on flight gets an advisory and flight information service with in an FIR, it is provided by:",
+"o": [
+"FIC",
+"Approach control office",
+"Area control center"
+],
+"a": 0
+},
+{
+"n": 31,
+"q": "Navigation lights of an aeroplane cover the following sectors:",
+"o": [
+"Red on starboard, green on port 110 deg each",
+"Green on starboard, red on port 110 deg each",
+"Red on starboard, green on port 140 deg each"
+],
+"a": 1
+},
+{
+"n": 32,
+"q": "EDTO is applicable to:",
+"o": [
+"Twin engine operations.",
+"Aeroplane with two or more turbine engines.",
+"Aeroplane with more than two reciprocating engines."
+],
+"a": 1
+},
+{
+"n": 33,
+"q": "Control area is:",
+"o": [
+"Controlled airspace extending upwards from a specified limit above the earth",
+"Controlled airspace extending upwards from surface of the earth to a specified limit",
+"Both A and B above"
+],
+"a": 0
+},
+{
+"n": 34,
+"q": "When refueling operations are in progress, unauthorized persons are prohibited within:",
+"o": [
+"15 mtrs",
+"30 mtrs",
+"43 mtrs"
+],
+"a": 0
+},
+{
+"n": 35,
+"q": "Linear accelerations when flying straight and level in IMC may give the illusion of:",
+"o": [
+"Descending",
+"Spinning",
+"Climbing"
+],
+"a": 2
+},
+{
+"n": 36,
+"q": "Decompression sickness causes:",
+"o": [
+"Lack of CO, in blood",
+"Lack of O, in blood.",
+"N½ bubbles in tissues"
+],
+"a": 2
+},
+{
+"n": 37,
+"q": "Under normal circumstances, which gas will diffuse from the blood to the alveoli:",
+"o": [
+"Carbon monoxide",
+"Carbon dioxide",
+"Oxygen"
+],
+"a": 1
+},
+{
+"n": 38,
+"q": "An aircraft incident and accident is to be reported within:",
+"o": [
+"Incident 24 hrs, accident 24 hours",
+"Incident 24 hrs, accident 48 hours",
+"Incident 24 hrs, accident 12 hours"
+],
+"a": 0
+},
+{
+"n": 39,
+"q": "Emergency check list is to be carried by:",
+"o": [
+"Scheduled flights",
+"Non - scheduled operators",
+"All aircraft"
+],
+"a": 2
+},
+{
+"n": 40,
+"q": "Which type of service is provided in Class F airspace?",
+"o": [
+"Air traffic control service",
+"Air traffic advisory service and FIS",
+"Air traffic advisory service"
+],
+"a": 1
+},
+{
+"n": 41,
+"q": "As a PIC you find yourself over a prohibited area, you will:",
+"o": [
+"Signal urgency and land at the nearest aerodrome",
+"Signal distress and land at nearest aerodrome",
+"As 'B' and land at aerodrome outside the prohibited area"
+],
+"a": 2
+},
+{
+"n": 42,
+"q": "The repeated switching on and off of the landing lights indicate:",
+"o": [
+"Urgency",
+"Distress",
+"Pan Pan"
+],
+"a": 0,
+"ex": "Landing lights switched on and off repeatedly: compelled to land, no immediate assistance needed (urgency)."
+},
+{
+"n": 43,
+"q": "A pressurized flight shall:",
+"o": [
+"Carry oxygen for all crew members",
+"Carry oxygen for all crew members and passengers",
+"Carry oxygen for all crew members and passengers, in the event of loss of pressurization, pressure in the compartment would be less than 700 mb • 748"
+],
+"a": 2
+},
+{
+"n": 44,
+"q": "General information of purely explanatory or advisory nature are promulgated through:",
+"o": [
+"AIP",
+"AIC",
+"NOTAM"
+],
+"a": 1
+},
+{
+"n": 45,
+"q": "Succession of command is given by:",
+"o": [
+"The operator to pilots by a circular",
+"DGCA",
+"Central Government"
+],
+"a": 0
+},
+{
+"n": 46,
+"q": "Doc 4444 relates to:",
+"o": [
+"Flight level tables",
+"Position reports",
+"All above"
+],
+"a": 2
+},
+{
+"n": 47,
+"q": "What does the term EXPECTED APPROACH TIME mean:",
+"o": [
+"The time an arriving aircraft expects to arrive over the designated nav aid serving the destination",
+"The holding time over the facility from which the instrument approach starts",
+"The time at which ATC expects a delayed arriving aircraft to leave the holding point to complete its approach"
+],
+"a": 2
+},
+{
+"n": 48,
+"q": "When calculating the length of the runway available (TODA):",
+"o": [
+"The stopway has to be taken into account.",
+"The clearway has to be taken into account.",
+"The runway slope has to be taken into account."
+],
+"a": 1
+},
+{
+"n": 49,
+"q": "A circling approach is:",
+"o": [
+"A visual flight manoeuvre keeping the runway in sight",
+"A contact flight manoeuvre",
+"A visual manoeuvre to be conducted only in IMC"
+],
+"a": 0
+},
+{
+"n": 50,
+"q": "For aircraft flying over the high seas, which rules apply?",
+"o": [
+"Those of the State of the Operator",
+"Those established under the Chicago Convention",
+"Those of the States adjacent to the high seas overflown"
+],
+"a": 1
+}
+]
+}

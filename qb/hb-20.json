@@ -1,0 +1,366 @@
+{
+"title": "Pitot-Static Instruments: Altimeter, VSI, ASI and Machmeter",
+"src": "Practice questions written for Glidepath from the Aviator's Handbook, Part 6, 6-3 to 6-8 (not printed in the book: the Handbook has no question bank)",
+"qs": [
+{
+"n": 1,
+"q": "The pitot tube senses:",
+"o": [
+"Total pressure (dynamic + static)",
+"Dynamic pressure only",
+"Cabin pressure",
+"Static pressure only"
+],
+"a": 0,
+"ex": "Book 6-3."
+},
+{
+"n": 2,
+"q": "The static vent is mounted:",
+"o": [
+"Inside the cabin only",
+"Facing into the airflow",
+"On the propeller hub",
+"Flush with the skin, at right angles to the airflow"
+],
+"a": 3,
+"ex": "Book 6-3."
+},
+{
+"n": 3,
+"q": "Which instruments use static pressure only?",
+"o": [
+"VSI and Machmeter",
+"ASI and altimeter",
+"Altimeter and VSI",
+"ASI and Machmeter"
+],
+"a": 2,
+"ex": "ASI and Machmeter also need pitot."
+},
+{
+"n": 4,
+"q": "Static vents are usually fitted on both sides and interconnected to:",
+"o": [
+"Feed the cabin",
+"Reduce icing",
+"Double the pressure",
+"Cancel sideslip errors"
+],
+"a": 3,
+"ex": "Book 6-3."
+},
+{
+"n": 5,
+"q": "With the static source blocked, the altimeter:",
+"o": [
+"Over-reads in a climb",
+"Shows cabin altitude",
+"Freezes at the blockage altitude",
+"Reads zero"
+],
+"a": 2,
+"ex": "Book 6-3."
+},
+{
+"n": 6,
+"q": "With the static source blocked, the VSI:",
+"o": [
+"Shows a climb",
+"Over-reads",
+"Is unaffected",
+"Reads zero"
+],
+"a": 3,
+"ex": "Book 6-3."
+},
+{
+"n": 7,
+"q": "With pitot and drain blocked, in a climb the ASI:",
+"o": [
+"Under-reads",
+"Reads zero",
+"Over-reads",
+"Freezes"
+],
+"a": 2,
+"ex": "It acts like an altimeter."
+},
+{
+"n": 8,
+"q": "Using the alternate static inside a pressurised cabin, the altimeter shows:",
+"o": [
+"Cabin altitude",
+"Radio height",
+"Density altitude",
+"Pressure altitude"
+],
+"a": 0,
+"ex": "Book 6-3."
+},
+{
+"n": 9,
+"q": "Altimeter lag causes it to:",
+"o": [
+"Under-read in a climb and over-read in a descent",
+"Over-read in a climb",
+"Freeze in the descent",
+"Read correctly in a climb"
+],
+"a": 0,
+"ex": "Book 6-5."
+},
+{
+"n": 10,
+"q": "Flying into air colder than ISA without correction, the altimeter:",
+"o": [
+"Reads correctly",
+"Over-reads, so the aircraft is lower than indicated",
+"Reads radio height",
+"Under-reads"
+],
+"a": 1,
+"ex": "High to low, look out below."
+},
+{
+"n": 11,
+"q": "Flying from high to low pressure without resetting the sub-scale, the altimeter:",
+"o": [
+"Under-reads",
+"Over-reads",
+"Reads true altitude",
+"Freezes"
+],
+"a": 1,
+"ex": "Book 6-5."
+},
+{
+"n": 12,
+"q": "The book's cold-temperature correction to minimum altitudes is about:",
+"o": [
+"4% per 10 °C below ISA",
+"1% per 10 °C",
+"10% per 1 °C",
+"4 ft per 1000 ft"
+],
+"a": 0,
+"ex": "Book 6-5."
+},
+{
+"n": 13,
+"q": "Density altitude is approximately:",
+"o": [
+"True altitude − 1000 ft",
+"Pressure altitude ± 4 ft per °C",
+"QNH altitude × 1.2",
+"Pressure altitude ± 118 ft per °C of ISA deviation"
+],
+"a": 3,
+"ex": "Book 6-5."
+},
+{
+"n": 14,
+"q": "At FL180 with ISA −10 °C, the true altitude is about:",
+"o": [
+"17,280 ft",
+"16,820 ft",
+"18,000 ft",
+"18,720 ft"
+],
+"a": 0,
+"ex": "18,000 − 18 × 4 × 10."
+},
+{
+"n": 15,
+"q": "The VSI works by comparing:",
+"o": [
+"Static with cabin pressure",
+"Direct static with static fed through a calibrated leak",
+"Pitot with static",
+"Two pitot sources"
+],
+"a": 1,
+"ex": "Book 6-6."
+},
+{
+"n": 16,
+"q": "An IVSI removes lag by using:",
+"o": [
+"An inertial dashpot",
+"A servo motor",
+"Pitot pressure",
+"A larger capsule"
+],
+"a": 0,
+"ex": "Book 6-6."
+},
+{
+"n": 17,
+"q": "ASI compressibility error at high speed causes it to:",
+"o": [
+"Read TAS",
+"Freeze",
+"Over-read",
+"Under-read"
+],
+"a": 2,
+"ex": "Book 6-7."
+},
+{
+"n": 18,
+"q": "The green arc on an ASI runs from:",
+"o": [
+"VS0 to VNE",
+"VNO to VNE",
+"VS1 to VNO",
+"VS0 to VFE"
+],
+"a": 2,
+"ex": "Book 6-7."
+},
+{
+"n": 19,
+"q": "The white arc on an ASI runs from:",
+"o": [
+"VS0 to VFE",
+"VFE to VNE",
+"VS1 to VFE",
+"VS1 to VNO"
+],
+"a": 0,
+"ex": "Book 6-7."
+},
+{
+"n": 20,
+"q": "The blue line on a twin's ASI marks:",
+"o": [
+"VNO",
+"VNE",
+"VMCA",
+"VYSE"
+],
+"a": 3,
+"ex": "Best rate of climb, one engine out."
+},
+{
+"n": 21,
+"q": "The Machmeter has no temperature or density error because it measures:",
+"o": [
+"The ratio (P − S) ÷ S",
+"Dynamic pressure only",
+"TAS directly",
+"Static pressure only"
+],
+"a": 0,
+"ex": "Errors cancel in the ratio."
+},
+{
+"n": 22,
+"q": "The speed of sound depends only on:",
+"o": [
+"Altitude",
+"Density",
+"Pressure",
+"Temperature"
+],
+"a": 3,
+"ex": "661 kt at ISA sea level."
+},
+{
+"n": 23,
+"q": "Position (pressure) error is larger:",
+"o": [
+"At high altitude only",
+"Never",
+"When the pitot heater is on",
+"In ground effect"
+],
+"a": 3,
+"ex": "Book 6-3."
+},
+{
+"n": 24,
+"q": "A pitot leak makes the ASI:",
+"o": [
+"Freeze",
+"Read zero",
+"Under-read",
+"Over-read"
+],
+"a": 2,
+"ex": "Book 6-3 table."
+},
+{
+"n": 25,
+"q": "The altimeter capsule is:",
+"o": [
+"Filled with oil",
+"Open to the cabin",
+"Sealed and partly evacuated, in a case fed with static pressure",
+"Fed with pitot pressure"
+],
+"a": 2,
+"ex": "Book 6-4."
+},
+{
+"n": 26,
+"q": "A servo-assisted altimeter:",
+"o": [
+"Almost eliminates lag",
+"Has no instrument error",
+"Reads radio height",
+"Needs no static source"
+],
+"a": 0,
+"ex": "Book 6-4."
+},
+{
+"n": 27,
+"q": "The cross-hatched flag on a three-pointer altimeter shows:",
+"o": [
+"A static blockage",
+"Below 10,000 ft",
+"Above 10,000 ft",
+"Wrong sub-scale"
+],
+"a": 1,
+"ex": "Book 6-4."
+},
+{
+"n": 28,
+"q": "The VSI metering unit's capillary and orifice compensate for:",
+"o": [
+"Turns",
+"Lag",
+"Pitot blockage",
+"Altitude and temperature"
+],
+"a": 3,
+"ex": "Book 6-6."
+},
+{
+"n": 29,
+"q": "An IVSI may give errors in:",
+"o": [
+"Slow climbs",
+"Cold air",
+"Turns steeper than about 40° of bank",
+"Level flight"
+],
+"a": 2,
+"ex": "Book 6-6."
+},
+{
+"n": 30,
+"q": "Jet aircraft are limited by VMO low down and:",
+"o": [
+"VA high up",
+"VFE low down",
+"MMO high up",
+"VNE high up"
+],
+"a": 2,
+"ex": "Book 6-8."
+}
+]
+}

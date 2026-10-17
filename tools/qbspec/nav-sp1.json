@@ -1,0 +1,416 @@
+{
+ "id": "nav-sp1",
+ "title": "Sample Paper 1",
+ "src": "R.K. Bali — Air Navigation, Sample Paper 1",
+ "text": "nav",
+ "start": 17432,
+ "end": 17878,
+ "key": "bcaacbacccccccaaacca acaabbabcbcaabacabac cbaaccacbaaaaccccbab cbabcbbabbacaaacbcba caaacabcacacbbbaacac",
+ "fix": {
+  "3": {
+   "o": [
+    "the angle of inclination of meridians towards each other.",
+    "the angle at which a meridian cuts the equator.",
+    "the angle of inclination of one parallel of latitude with another."
+   ]
+  },
+  "4": {
+   "q": "The initial great circle track from A (S 27° 30' E 017° 45') to B (S 27° 30' E 029° 15') is:",
+   "o": [
+    "092.65°",
+    "088.34°",
+    "091.61°"
+   ]
+  },
+  "5": {
+   "o": [
+    "in May sunrise occurs later at 4500N than at 4500S.",
+    "in November sunset occurs earlier at 4500S than at 4500N.",
+    "at equator sunrise and sunset occur at quite regular times throughout the year."
+   ]
+  },
+  "6": {
+   "q": "When approaching the international date line from the east, you:",
+   "o": [
+    "should increase your date by an extra date at the first midnight you experience.",
+    "should be prepared to decrease your date by 1.",
+    "should be prepared to increase your date by 1."
+   ],
+   "a": "c"
+  },
+  "7": {
+   "q": "When magnetic direction is 270° and true direction is 265°, the variation is"
+  },
+  "10": {
+   "o": [
+    "600 nm",
+    "450 nm",
+    "300 nm"
+   ]
+  },
+  "11": {
+   "o": [
+    "04° 00'N 030° 30'W",
+    "03° 58'N 030° 02'W",
+    "04° 00'N 029° 55'W"
+   ]
+  },
+  "12": {
+   "q": "An aircraft at position 60° N 005° W tracks 090° (T) for 350 km. On completion of the flight the longitude will be?",
+   "o": [
+    "002° 10'W",
+    "000° 15'E",
+    "001° 19'E"
+   ]
+  },
+  "14": {
+   "q": "An aircraft is over position PONTA (55° 30'N 060° 15'W), where PBN VOR (53° 30'N 060° 15'W) can be received. The magnetic variation is 31° W at PONTA and 28° W at PBN. What is the radial from PBN?",
+   "o": [
+    "031°",
+    "332°",
+    "028°"
+   ]
+  },
+  "16": {
+   "o": [
+    "0",
+    "10",
+    "16"
+   ]
+  },
+  "17": {
+   "q": "A direct reading magnetic compass will be affected by: 1. Adjacent electrical equipment 2. Ferrous metals 3. Non-ferrous metals",
+   "o": [
+    "1,2",
+    "1,3",
+    "1, 4."
+   ]
+  },
+  "19": {
+   "o": [
+    "180 degree turn to the west.",
+    "180 degree turn to the east.",
+    "No apparent turn."
+   ]
+  },
+  "21": {
+   "o": [
+    "The higher the latitude the closer they approximate to a straight line.",
+    "The lower the latitude the closer they approximate to a straight line.",
+    "They are all represented by straight lines."
+   ]
+  },
+  "22": {
+   "q": "Distance 'Q' to 'R' 1970 NM, Groundspeed 'out' 436 kt, Groundspeed 'back' 485 kt. Safe endurance 9 HR. The distance from 'Q' to the Point of Safe Return (PSR) between 'Q' and 'R' is?",
+   "o": [
+    "1964 NM",
+    "2079 NM",
+    "2066 NM"
+   ]
+  },
+  "25": {
+   "o": [
+    "31000 ft.",
+    "30382 ft.",
+    "30674 ft."
+   ]
+  },
+  "33": {
+   "o": [
+    "extremely unstable and require small elevator control to change pitch.",
+    "extremely stable and will require excessive elevator control to change pitch.",
+    "extremely stable and require small elevator control to change pitch."
+   ],
+   "a": "b"
+  },
+  "34": {
+   "o": [
+    "landing mass",
+    "dry operating mass",
+    "take-off mass"
+   ]
+  },
+  "35": {
+   "q": "A jet transport has the following structural limits: Maximum Ramp Mass 63 060 kg, Maximum Take-Off Mass 62 800 kg, Maximum Landing Mass 54 900 kg, Maximum Zero Fuel Mass 51 300 kg. Fuel: taxi 400 kg, trip 8400 kg, contingency & final reserve 1800 kg, alternate 1100 kg. If the Dry Operating Mass is 34 930 kg, determine the maximum traffic load that can be carried if departure and landing airfields are not performance limited."
+  },
+  "36": {
+   "q": "Determine the Zero Fuel Mass for the following single engine aeroplane. Standard Empty Mass 1764 lbs, Optional Equipment 35 lbs, Pilot + front seat passenger 300 lbs, Cargo 350 lbs, Ramp Fuel = Block Fuel 60 gal, Trip Fuel 35 gal, fuel density 6 lbs/gal.",
+   "o": [
+    "2659 lbs",
+    "2414 lbs",
+    "2449 lbs"
+   ]
+  },
+  "37": {
+   "q": "Maximum Structural Landing Mass 125 000 kg, Maximum Zero Fuel Mass 108 500 kg, Maximum Structural Take-off Mass 155 000 kg, Dry Operating Mass 82 000 kg. Scheduled trip fuel is 17 000 kg and the reserve fuel is 5000 kg. Assuming performance limitations are not restricting, the maximum permitted take-off mass and maximum traffic load are respectively:"
+  },
+  "38": {
+   "o": [
+    "prevent excessive 'g'-loading during the landing flare",
+    "avoid unplanned centre of gravity (CG) movement and aircraft damage",
+    "allow steep turns"
+   ]
+  },
+  "39": {
+   "o": [
+    "the operator",
+    "the loading supervisor",
+    "the CAA"
+   ]
+  },
+  "40": {
+   "q": "A reduction in airspeed will cause an air-driven artificial horizon to indicate:",
+   "o": [
+    "a climbing turn to the right",
+    "a pitch up",
+    "a descending turn to the left"
+   ]
+  },
+  "41": {
+   "q": "While carrying out a turn at the magnetic equator with a direct reading compass, there will be:",
+   "o": [
+    "no turning error",
+    "a tendency to over-read the turn through North and under-read the turn through South",
+    "a tendency to under-read all turns due to liquid swirl"
+   ]
+  },
+  "42": {
+   "q": "During an IFR flight TAS and time appear to deviate from the data in the flight plan. The minimum deviations that should be reported to ATC in order to conform to PANS-RAC are:"
+  },
+  "44": {
+   "q": "Which white EFIS symbol represents the aircraft?",
+   "o": [
+    "A triangle (△)",
+    "A triangle on top of a box",
+    "A circle (○)"
+   ]
+  },
+  "46": {
+   "o": [
+    "Over reads the altitude in case of a side-slip to the right and displays the correct information during symmetric flight.",
+    "Keeps on providing reliable reading in all situations.",
+    "Over reads the altitude in case of a sideslip to the left and displays the correct information during symmetric flight."
+   ]
+  },
+  "53": {
+   "q": "During the approach, a crew reads 650 ft on the radio altimeter. This is an indication of the true:",
+   "o": [
+    "Height of the lowest wheels with regard to the ground at any time.",
+    "Height of the aircraft with regard to the ground at any time.",
+    "Height of the aircraft with regard to the runway."
+   ]
+  },
+  "55": {
+   "o": [
+    "Pulse modulation of the carrier wave.",
+    "A combination of frequency modulation and pulse modulation.",
+    "Frequency modulation of the carrier wave."
+   ]
+  },
+  "57": {
+   "o": [
+    "The VSI indication will be too high when descending.",
+    "The VSI indication will be too high when accelerating at constant descending.",
+    "The VSI indication will be too low when descending."
+   ]
+  },
+  "58": {
+   "q": "What does an ASI indicate?"
+  },
+  "59": {
+   "o": [
+    "That which may only be exceeded with caution and in still air.",
+    "That which may never be exceeded.",
+    "That which may be exceeded only in emergencies."
+   ]
+  },
+  "61": {
+   "o": [
+    "By the MMO.",
+    "By the VMO in still air.",
+    "Initially by the MMO, then by the VMO below a certain flight level."
+   ]
+  },
+  "62": {
+   "q": "In a standard atmosphere and at sea level, the calibrated airspeed (CAS) is:"
+  },
+  "66": {
+   "q": "In building a gyroscope, the best efficiency is obtained by concentrating the mass:"
+  },
+  "67": {
+   "o": [
+    "Only works if there is a complete electrical failure.",
+    "Contains its own separate gyro.",
+    "Is automatically connected to the primary vertical gyro if the alternator fails."
+   ]
+  },
+  "69": {
+   "q": "The indications of a directional gyroscope or gyrocompass are subject to errors due to: 1. Rotation of Earth. 2. Aeroplane motion on Earth. 3. Lateral and transversal aeroplane bank angles. 4. North change. 5. Mechanical defects. Choose the combination with true statements only.",
+   "o": [
+    "2, 3, 5.",
+    "1, 2, 3, 5.",
+    "3, 4, 5."
+   ]
+  },
+  "72": {
+   "q": "A turn indicator used in conjunction with an attitude indicator will show: 1. Turn direction. 2. Rate of turn. 3. Angular velocity about the true vertical axis. 4. Angular velocity about the aircraft vertical axis. 5. Angular velocity about the longitudinal axis.",
+   "o": [
+    "1,2.",
+    "1,3.",
+    "1,2, 4."
+   ]
+  },
+  "73": {
+   "q": "Rate-of-turn indications are:",
+   "o": [
+    "Proportional to TAS.",
+    "Proportional to CAS.",
+    "Proportional to mass."
+   ]
+  },
+  "74": {
+   "o": [
+    "22°",
+    "33°",
+    "44°"
+   ]
+  },
+  "76": {
+   "o": [
+    "the aircraft's receiver measuring the phase angle of signals received from a number of satellites in known positions",
+    "measuring the time taken for an aircraft's transmissions to travel to a number of satellites, in known positions, and return to the aircraft's receiver",
+    "measuring the time taken for a minimum number of satellites' transmissions, in known positions, to reach the aircraft's receiver"
+   ]
+  },
+  "78": {
+   "q": "A DME in tracking mode that subsequently experiences a reduction in signal strength will switch the equipment in the first instance to:",
+   "o": [
+    "standby mode",
+    "signal controlled search",
+    "memory mode"
+   ]
+  },
+  "80": {
+   "q": "Which of the following is an ILS localiser frequency?",
+   "o": [
+    "109.15 MHz",
+    "108.25 MHz",
+    "110.20 MHz"
+   ]
+  },
+  "81": {
+   "o": [
+    "phase comparison",
+    "continuous wave transmission",
+    "pulse technique"
+   ]
+  },
+  "82": {
+   "o": [
+    "static interference - night effect - absence of failure warning system",
+    "static interference - station interference - latitude error",
+    "height error - station interference - mountain effect"
+   ]
+  },
+  "83": {
+   "o": [
+    "Is to prevent self-triggering of the receiving equipment by the transmitter",
+    "Is to avoid the reception in the aircraft of signals referring to other aircraft.",
+    "Is to prevent overload of the system."
+   ]
+  },
+  "85": {
+   "q": "The minimum number of satellites required for receiver autonomous integrity monitoring (RAIM) is:",
+   "o": [
+    "3",
+    "4",
+    "5"
+   ]
+  },
+  "87": {
+   "o": [
+    "GS out = GS home",
+    "in nil wind conditions",
+    "in beam wind conditions"
+   ]
+  },
+  "90": {
+   "o": [
+    "110 degrees.",
+    "290 degrees.",
+    "280 degrees."
+   ]
+  },
+  "91": {
+   "q": "Compass heading 090°, deviation 2°W, variation 12°E, TAS 160 kt. Whilst maintaining radial 070° from a VOR station, the aircraft flies a ground distance of 14 NM in 6 min. What is the W/V (T)?",
+   "o": [
+    "160°/50 kt",
+    "150°/50 kt",
+    "160°/60 kt"
+   ]
+  },
+  "93": {
+   "o": [
+    "Difference between G/C being measured at either meridian",
+    "Difference between G/C and R/L Bearings",
+    "Difference between Grid north and True North."
+   ]
+  },
+  "94": {
+   "o": [
+    "An altimeter with a density capsule.",
+    "An ASI with an altitude capsule.",
+    "A VSI with a modified scale."
+   ]
+  },
+  "96": {
+   "o": [
+    "Breaking the rate-of-climb indicator glass window.",
+    "Slightly opening a window to restore the ambient pressure in the cabin.",
+    "Descending as much as possible in order to fly at a pressure as close to 1013.25 hPa as possible."
+   ]
+  },
+  "98": {
+   "q": "Heading information from a gyro platform is given by a gyro with:"
+  },
+  "99": {
+   "o": [
+    "a frequency modulated wave, for which the frequency difference between the transmitted wave and the received wave after ground reflection is measured",
+    "a pulse transmission, for which the time between transmission and reception is measured on a circular scanning screen",
+    "a wave transmission, for which the frequency shift by Doppler effect after ground reflection is measured"
+   ]
+  },
+  "100": {
+   "q": "What heading is the aircraft currently flying in diagram below? 76nm TRK 025 M 1734.2Z MMV 080°/24 025°  b) 030°.  c) 037°.",
+   "o": []
+  }
+ },
+ "drop": [
+  100
+ ],
+ "ex": {
+  "4": "Convergency = Δlong × sin lat = 11.5° × sin 27.5° ≈ 5.3°; half of it is 2.65°. In the southern hemisphere the great circle bulges towards the South Pole, so the initial track is 090° + 2.65° = 092.65°.",
+  "6": "Book key prints (b). Approaching the date line from the east means you are flying westwards, and crossing it westbound you add a day, so the correct answer is (c).",
+  "10": "Departure = Δlong × cos lat = 600' × cos 60° = 300 NM.",
+  "12": "350 km ≈ 189 NM. Δlong = 189 / cos 60° = 378' = 6° 18', so 005° W + 6° 18' E ≈ 001° 19' E.",
+  "14": "PONTA is due north of PBN on the same meridian, so the true bearing from PBN is 000°. Apply the variation at the station (28° W): radial = 000 + 28 = 028°.",
+  "15": "PSR distance = E × O × H / (O + H) = 7 × 380 × 470 / 850 ≈ 1471 NM.",
+  "18": "With the RMI card stuck at 075°, the needle reading 270° gives relative bearing = 270 − 075 = 195°.",
+  "22": "PSR = 9 × 436 × 485 / (436 + 485) ≈ 2066 NM.",
+  "23": "Wind is 90° to the track from the left: drift = asin(100/460) ≈ 12.6° → TH ≈ 077°, MH = 077 − 10 = 067°, CH = 067 + 2 = 069°. GS = √(460² − 100²) ≈ 449 kt.",
+  "24": "ISA at 16 000 ft is −17 °C, so the air is 13° colder. About 4 % per 10° → true altitude ≈ 16 000 × (1 − 0.052) ≈ 15 200 ft.",
+  "29": "In this question a negative 'equivalent headwind' is a headwind: GS out = 470 kt, GS back = 530 kt. PET from A = D × H / (O + H) = 1000 × 530 / 1000 = 530 NM.",
+  "30": "GS out = 390 + 55 = 445 kt, GS back = 390 − 75 = 315 kt. PSR = 9.5 × 445 × 315 / 760 ≈ 1752 NM.",
+  "31": "Headwind component ≈ 30 × cos 60° = 15 kt → GS ≈ 182 kt. 39 NM takes ≈ 12.9 min; 18 000 ft / 12.9 min ≈ 1400 ft/min.",
+  "32": "1 in 60 rule: 3° ≈ 3/60 = 0.05. 18 × 6080 × 0.05 = 5472 ft, plus the 50 ft threshold crossing height = 5522 ft.",
+  "33": "Book key prints (a). With the CG at the forward limit the aeroplane is very stable and needs large elevator inputs to change pitch, so the correct answer is (b).",
+  "35": "Limiting TOM is the lowest of: MTOM 62 800; MRM − taxi 62 660; MLM + trip 63 300; MZFM + take-off fuel (8400 + 1800 + 1100 = 11 300) = 62 600. Traffic load = 62 600 − 11 300 − 34 930 = 16 370 kg.",
+  "36": "ZFM = 1764 + 35 + 300 + 350 = 2449 lbs (fuel is not part of zero fuel mass).",
+  "37": "TOM limits: MZFM + fuel = 108 500 + 22 000 = 130 500; MLM + trip = 142 000; MTOM 155 000 → 130 500 kg. Traffic load = MZFM − DOM = 26 500 kg.",
+  "43": "MB = MH + RB = 311 + 270 = 581 − 360 = 221°.",
+  "74": "Rule of thumb: bank for rate one ≈ TAS/10 + 7 = 15 + 7 = 22°.",
+  "77": "Each VOR may be 3.5° off: half-width 5 NM / tan 3.5° ≈ 82 NM from each station, so about 165 NM apart.",
+  "80": "ILS localiser channels are 108–111.975 MHz with an odd first decimal (108.1, 108.15, 108.3 …); 109.15 fits, 108.25 and 110.20 do not.",
+  "91": "MH = 090 − 2 = 088, TH = 100°. Track = radial 070 M + 12 = 082 T; GS = 14 NM in 6 min = 140 kt. Solving the triangle gives a wind of about 160°/50 kt."
+ }
+}

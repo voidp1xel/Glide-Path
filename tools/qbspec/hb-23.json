@@ -1,0 +1,371 @@
+{
+ "id": "hb-23",
+ "title": "INS, Ring-Laser Gyros, Autopilot, EFIS and FMS",
+ "src": "Practice questions written for Glidepath from the Aviator's Handbook, Part 6, 6-24 to 6-31 (not printed in the book: the Handbook has no question bank)",
+ "text": "avh",
+ "start": 1,
+ "end": 3,
+ "key": "",
+ "add": [
+  {
+   "n": 1,
+   "q": "An inertial reference unit contains:",
+   "o": [
+    "3 gyros only",
+    "1 gyro and 3 accelerometers",
+    "3 gyros and 3 accelerometers",
+    "2 gyros and 2 accelerometers"
+   ],
+   "a": 2,
+   "ex": "Book 6-24."
+  },
+  {
+   "n": 2,
+   "q": "An INS obtains distance by integrating acceleration:",
+   "o": [
+    "Once",
+    "Twice",
+    "Three times",
+    "Not at all"
+   ],
+   "a": 1,
+   "ex": "Acceleration → velocity → distance."
+  },
+  {
+   "n": 3,
+   "q": "To compute wind, the INS also needs:",
+   "o": [
+    "Radio altitude",
+    "TAS from the ADC",
+    "VOR bearing",
+    "Fuel flow"
+   ],
+   "a": 1,
+   "ex": "Book 6-24."
+  },
+  {
+   "n": 4,
+   "q": "INS alignment must be done:",
+   "o": [
+    "While taxiing",
+    "In flight",
+    "With the aircraft stationary",
+    "At any time"
+   ],
+   "a": 2,
+   "ex": "Book 6-25."
+  },
+  {
+   "n": 5,
+   "q": "Gyro-compassing finds:",
+   "o": [
+    "Latitude and true north, but not longitude",
+    "Longitude only",
+    "Magnetic north",
+    "All three coordinates"
+   ],
+   "a": 0,
+   "ex": "Longitude is entered."
+  },
+  {
+   "n": 6,
+   "q": "INS alignment is quickest at:",
+   "o": [
+    "45° latitude",
+    "It is the same everywhere",
+    "The poles",
+    "The equator"
+   ],
+   "a": 3,
+   "ex": "Earth rate horizontal component greatest."
+  },
+  {
+   "n": 7,
+   "q": "If an INS is switched off and on in flight, it can give:",
+   "o": [
+    "Nothing at all",
+    "Full navigation",
+    "Position only",
+    "Attitude only (ATT mode)"
+   ],
+   "a": 3,
+   "ex": "Book 6-25."
+  },
+  {
+   "n": 8,
+   "q": "The Schuler period is:",
+   "o": [
+    "24 hours",
+    "42.2 minutes",
+    "12 minutes",
+    "84.4 minutes"
+   ],
+   "a": 3,
+   "ex": "Max error at 42.2 min."
+  },
+  {
+   "n": 9,
+   "q": "An unbounded INS error is:",
+   "o": [
+    "Initial azimuth misalignment",
+    "Accelerometer bias",
+    "Platform tilt",
+    "First-stage integrator error"
+   ],
+   "a": 0,
+   "ex": "Book 6-26."
+  },
+  {
+   "n": 10,
+   "q": "A Kalman filter:",
+   "o": [
+    "Blends INS and external fixes to give the best position",
+    "Aligns the INS",
+    "Removes lock-in",
+    "Filters hydraulic fluid"
+   ],
+   "a": 0,
+   "ex": "Book 6-26."
+  },
+  {
+   "n": 11,
+   "q": "A ring-laser gyro works on the:",
+   "o": [
+    "Sagnac effect",
+    "Doppler effect",
+    "Seebeck effect",
+    "Schuler effect"
+   ],
+   "a": 0,
+   "ex": "Counter-rotating beams."
+  },
+  {
+   "n": 12,
+   "q": "Ring-laser gyro lock-in is cured by:",
+   "o": [
+    "Heating",
+    "Mercury switches",
+    "A dither motor",
+    "Faster rotation"
+   ],
+   "a": 2,
+   "ex": "Book 6-27."
+  },
+  {
+   "n": 13,
+   "q": "An advantage of the ring-laser gyro is:",
+   "o": [
+    "Needs no power",
+    "No moving parts and fast start-up",
+    "Uses mercury",
+    "Very heavy rotor"
+   ],
+   "a": 1,
+   "ex": "Book 6-27."
+  },
+  {
+   "n": 14,
+   "q": "A yaw damper prevents:",
+   "o": [
+    "Dutch roll",
+    "Spiral instability",
+    "Phugoid",
+    "Mach tuck"
+   ],
+   "a": 0,
+   "ex": "Book 6-28."
+  },
+  {
+   "n": 15,
+   "q": "Autopilot auto-trim normally operates in:",
+   "o": [
+    "Yaw only",
+    "Roll only",
+    "Pitch only",
+    "All axes"
+   ],
+   "a": 2,
+   "ex": "Book 6-28."
+  },
+  {
+   "n": 16,
+   "q": "After a failure in a fail-passive autoland system:",
+   "o": [
+    "The aircraft goes around automatically",
+    "The autopilot rolls out the aircraft",
+    "The autoland is abandoned and the pilot lands",
+    "The landing continues automatically"
+   ],
+   "a": 2,
+   "ex": "Two autopilots."
+  },
+  {
+   "n": 17,
+   "q": "A fail-operational autoland needs at least:",
+   "o": [
+    "Three autopilots",
+    "Two",
+    "Five",
+    "One"
+   ],
+   "a": 0,
+   "ex": "Book 6-28."
+  },
+  {
+   "n": 18,
+   "q": "On EFIS, the active route is shown in:",
+   "o": [
+    "Cyan",
+    "Magenta",
+    "Green",
+    "Amber"
+   ],
+   "a": 1,
+   "ex": "Book 6-29."
+  },
+  {
+   "n": 19,
+   "q": "On EFIS, cautions are shown in:",
+   "o": [
+    "Red",
+    "Amber",
+    "Magenta",
+    "White"
+   ],
+   "a": 1,
+   "ex": "Red is for warnings."
+  },
+  {
+   "n": 20,
+   "q": "The FMS navigation database is valid for:",
+   "o": [
+    "90 days",
+    "7 days",
+    "1 year",
+    "28 days"
+   ],
+   "a": 3,
+   "ex": "AIRAC cycle."
+  },
+  {
+   "n": 21,
+   "q": "The best radio position update for the FMS is:",
+   "o": [
+    "NDB",
+    "VOR/DME",
+    "DME/DME",
+    "VOR/VOR"
+   ],
+   "a": 2,
+   "ex": "Book 6-31."
+  },
+  {
+   "n": 22,
+   "q": "A cost index of zero gives:",
+   "o": [
+    "Maximum speed",
+    "Minimum time",
+    "Long-range cruise at MMO",
+    "Minimum fuel (maximum range)"
+   ],
+   "a": 3,
+   "ex": "Book 6-31."
+  },
+  {
+   "n": 23,
+   "q": "An INS uses how many accelerometers?",
+   "o": [
+    "Two",
+    "Three",
+    "Six",
+    "One"
+   ],
+   "a": 1,
+   "ex": "N–S, E–W and vertical."
+  },
+  {
+   "n": 24,
+   "q": "INS warm-up before alignment takes about:",
+   "o": [
+    "30 minutes",
+    "30 seconds",
+    "3–4 minutes",
+    "2 hours"
+   ],
+   "a": 2,
+   "ex": "Book 6-25."
+  },
+  {
+   "n": 25,
+   "q": "INS errors with the Schuler loop are greatest at:",
+   "o": [
+    "12 minutes",
+    "84.4 minutes",
+    "42.2 minutes",
+    "24 hours"
+   ],
+   "a": 2,
+   "ex": "Back to zero at 84.4 minutes."
+  },
+  {
+   "n": 26,
+   "q": "Accelerometer bias produces an error that is:",
+   "o": [
+    "Bounded",
+    "Always growing",
+    "Unbounded",
+    "Zero"
+   ],
+   "a": 0,
+   "ex": "Schuler-limited."
+  },
+  {
+   "n": 27,
+   "q": "Lasers used in a ring-laser gyro are:",
+   "o": [
+    "Infrared only",
+    "Monochromatic, coherent and directional",
+    "White light",
+    "Pulsed radar"
+   ],
+   "a": 1,
+   "ex": "Helium–neon cavity."
+  },
+  {
+   "n": 28,
+   "q": "In Cat IIIB autoland the system also performs:",
+   "o": [
+    "Only the approach to DH",
+    "Only the flare",
+    "A go-around only",
+    "The roll-out"
+   ],
+   "a": 3,
+   "ex": "Book 6-28."
+  },
+  {
+   "n": 29,
+   "q": "In the book's autoland sequence the flare begins at about:",
+   "o": [
+    "50 ft",
+    "5 ft",
+    "1500 ft",
+    "330 ft"
+   ],
+   "a": 0,
+   "ex": "GS disconnected."
+  },
+  {
+   "n": 30,
+   "q": "EICAS has which modes?",
+   "o": [
+    "Normal, advisory, failure, manual",
+    "Map, plan, VOR",
+    "Standby and alert",
+    "Operational, status and maintenance"
+   ],
+   "a": 3,
+   "ex": "ECAM has normal, advisory, failure, manual."
+  }
+ ]
+}

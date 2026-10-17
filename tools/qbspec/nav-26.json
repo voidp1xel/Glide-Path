@@ -1,0 +1,36 @@
+{
+ "id": "nav-26",
+ "title": "Basic Radio Theory",
+ "src": "R.K. Bali — Air Navigation, Part III Ch 1 (key read from the printed answer grid, PDF p. 239)",
+ "text": "nav",
+ "start": 14117,
+ "end": 14231,
+ "key": "aabcbcbcbbcbabacaacbccbcbbaccbc",
+ "fix": {
+  "1": {"q": "A frequency of 0.02 GHz has a wavelength of:", "o": ["0.015 km", "0.15 km", "1.5 km"]},
+  "2": {"q": "A wavelength of 0.007 NM corresponds to a frequency of about:", "o": ["23.2 MHz", "2.32 MHz", "232 MHz"]},
+  "3": {"o": ["remain constant, and the frequency will vary according to the amplitude of the modulating signal", "vary according to the amplitude of the modulating signal", "vary according to the frequency of the modulating signal"]},
+  "4": {"o": ["should remain constant", "should only be varied by season, decreased in summer and increased in winter", "should be decreased at night"]},
+  "5": {"o": ["the size of the dead space increases due solely to the decreasing minimum skip distance", "the size of the dead space increases due solely to the increasing minimum skip distance", "the size of the dead space decreases because the surface wave coverage decreases, and the minimum skip distance decreases"]},
+  "9": {"o": ["be greater by day than by night", "be greater by night than by day", "be less by night than by day"]},
+  "10": {"o": ["decreases as the frequency of the radio wave increases", "increases as the frequency of the radio wave increases", "is greater at night"], "a": "a"},
+  "11": {"q": "The frequency corresponding to a wavelength of 3.5 cm is:"},
+  "12": {"o": ["maximum usable range", "dead space", "skip distance"]},
+  "19": {"o": ["Decimetric", "Metric", "Kilometric"]},
+  "20": {"o": ["EHF", "HF", "VHF"]},
+  "21": {"o": ["2.46 cm", "24.6 cm", "2.46 m"]},
+  "23": {"o": ["During the day with ground and sky waves", "During rainy days", "During rainy nights"]},
+  "24": {"q": "What is the frequency and waveband of a radio aid that uses a wavelength of 19 cm?"},
+  "30": {"q": "Atmospheric ducting close to the earth is most likely:"}
+ },
+ "drop": [7, 14, 23],
+ "ex": {
+  "1": "λ = c / f = 3×10⁸ / 2×10⁷ = 15 m = 0.015 km.",
+  "2": "0.007 NM × 1852 = 12.96 m; f = 3×10⁸ / 12.96 ≈ 23.2 MHz (the book works it to 23.17 MHz).",
+  "8": "f = 3×10⁸ / 0.012 m = 25 GHz.",
+  "10": "The book's grid prints (b). Refraction in the ionosphere gets weaker as frequency rises — that is why the skip distance and dead space grow with frequency (Q5) and why HF frequency is halved at night.",
+  "16": "1.25 (√8000 + √325) = 1.25 (89.4 + 18.0) ≈ 134 NM.",
+  "17": "113 / 1.25 = 90.4; minus √169 = 13 → √h = 77.4 → h ≈ 6000 ft: FL60.",
+  "31": "f = 3×10⁸ / 0.035 = 8.57 GHz."
+ }
+}

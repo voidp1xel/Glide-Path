@@ -86,7 +86,7 @@ module.exports = {
     { id: 'patterns', part: 'Pressure patterns', type: 'svg', fig: 'pressure-patterns', icon: 'target', ask: 'What do lows, highs, troughs, ridges and cols look like?',
       takeaway: 'Low: anticlockwise, converging, rising air, bad weather but good visibility. High: clockwise, diverging, sinking air, fair weather but poor visibility. Trough is V-shaped; ridge is rounded; col sits between two highs and two lows.',
       hook: 'Lows are Lousy weather but Look clear; Highs are Happy but Hazy.' },
-    { id: 'pattern-sort', type: 'classify', icon: 'grid', ask: 'Low or high?',
+    { id: 'pattern-sort', takeaway: 'Lows and troughs: converging air, anticlockwise winds (NH), bad weather but good visibility. Highs and ridges: subsiding air, clockwise winds, fair weather but haze. A col sits between two highs and two lows with light, variable winds.', hook: 'Low: lousy weather, long views. High: haze, but fine.', type: 'classify', icon: 'grid', ask: 'Low or high?',
       buckets: [{ id: 'l', label: 'Low / trough' }, { id: 'h', label: 'High / ridge' }, { id: 'c', label: 'Col' }],
       items: [
         { text: 'Anticlockwise winds (NH)', bucket: 'l' }, { text: 'Converging air', bucket: 'l' }, { text: 'Winds back', bucket: 'l' }, { text: 'Better visibility, bad weather', bucket: 'l' }, { text: 'V-shaped isobars', bucket: 'l' },
@@ -101,7 +101,7 @@ module.exports = {
         { title: 'Tendency & isallobars', icon: 'clock', points: ['Tendency: 24 h in India, 3 h at higher latitudes', 'Isallobar = equal pressure tendency', 'Lows move towards the **isallobaric low** and deepen', 'Isallobaric high = weakening'] },
         { title: 'Gradient', icon: 'sliders', points: ['Perpendicular to isobars, high → low', 'Close isobars = steep = strong wind', 'Far apart = flat = weak wind'] },
       ] },
-    { id: 'pairs', part: 'Numbers and traps', type: 'pairs', icon: 'scale', ask: 'Pairs that catch students out',
+    { id: 'pairs', takeaway: 'QNH is reduced to MSL with ISA, QFF with the actual temperature. Isobars join equal pressure, isallobars equal pressure change. Transition altitude is the top of QNH flying; transition level the bottom of flight levels.', part: 'Numbers and traps', type: 'pairs', icon: 'scale', ask: 'Pairs that catch students out',
       pairs: [
         { a: { label: 'QNH', body: 'Reduced to MSL **assuming ISA**. Shows elevation on the ground.' }, b: { label: 'QFF', body: 'Reduced to MSL using **actual temperature**. For synoptic charts.' }, rule: 'Hotter than ISA → QFF < QNH. At MSL they are equal.' },
         { a: { label: 'Isobar', body: 'Equal **pressure**.' }, b: { label: 'Isallobar', body: 'Equal pressure **tendency** (change with time).' }, rule: '"Allo" = change.' },

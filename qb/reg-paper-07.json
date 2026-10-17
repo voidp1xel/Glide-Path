@@ -1,0 +1,458 @@
+{
+"title": "Sample paper 7",
+"src": "Bali AR, Sample Question Papers",
+"qs": [
+{
+"n": 1,
+"q": "In an approach with vertical guidance, minimum height below which p-i-c cannot descend unless visual reference to land is established:",
+"o": [
+"DA.",
+"DH.",
+"MDA"
+],
+"a": 0
+},
+{
+"n": 2,
+"q": "An instrument approach procedure without vertical guidance is a:",
+"o": [
+"Non precision approach, 2D Type B.",
+"Precision approach, 2D Type A.",
+"Non precision approach, 2D Type A."
+],
+"a": 2
+},
+{
+"n": 3,
+"q": "Which is the correct order of priority:",
+"o": [
+"Gliders do not give way to balloons.",
+"Power-driven heavier-than-air aircraft shall give way to airships, gliders, and balloons.",
+"Gliders shall give way to airships and balloons."
+],
+"a": 1
+},
+{
+"n": 4,
+"q": "Green Light on an aircraft is visible if seen from the front:",
+"o": [
+"At an arc of 110° to the starboard side.",
+"At an arc of 110° to the port side.",
+"At an arc of 140° to the starboard side."
+],
+"a": 0
+},
+{
+"n": 5,
+"q": "ILS glide slope angle normally is set at:",
+"o": [
+"2.5°.",
+"3.0°.",
+"3.5°."
+],
+"a": 1
+},
+{
+"n": 6,
+"q": "An instrument runway served by ILS & visual aids intended for operations with a DH not lower than 60m and RVR not less than 550m is a:",
+"o": [
+"Precision approach runway Cat I",
+"Precision approach runway Cat II",
+"Precision approach runway Cat III"
+],
+"a": 0
+},
+{
+"n": 7,
+"q": "Airfield safety altitude:",
+"o": [
+"Is highest sector safety altitude with in 25NMS.",
+"Is highest sector safety altitude with in 10NMs.",
+"Provides clearance from obstructions within 50NMs of aerodrome."
+],
+"a": 0
+},
+{
+"n": 8,
+"q": "Enroute Jeppensen charts are based on projection.",
+"o": [
+"Lamberts .",
+"Mercator.",
+"Conical."
+],
+"a": 0
+},
+{
+"n": 9,
+"q": "Types of Hypoxia are:",
+"o": [
+"Stagnant hypoxia.",
+"Anaemic hypoxia.",
+"Both of these."
+],
+"a": 2
+},
+{
+"n": 10,
+"q": "For Commercial Pilot Licence aeroplane, the applicant shall have completed in aeroplanes not less than - if the privileges of the licence are to be expected:",
+"o": [
+"5 hours of night flight time including 3 take-offs and 3 landings as pilot-in- command.",
+"5 hours of night flight time including 5 take-offs and 5 landings as pilot-in- command.",
+"5 hours of night flight time including 10 take-offs and 10 landings as pilot-in- command."
+],
+"a": 2
+},
+{
+"n": 11,
+"q": "Cabin crew requirement for an airplane with seating capacity of more than 50 passengers is:",
+"o": [
+"One cabin crew for each unit of 50 passengers.",
+"Two cabin crew plus one cabin crew for each unit of 50 passengers units above 99 passengers.",
+"None of the above."
+],
+"a": 1
+},
+{
+"n": 12,
+"q": "Vertical separation in RVSM airspace:",
+"o": [
+"Is increased.",
+"Is decreased.",
+"Does not alter."
+],
+"a": 1
+},
+{
+"n": 13,
+"q": "On PAPI approach, if a pilot sees 3 lights white and one red, the aircraft is:",
+"o": [
+"Too high.",
+"Slightly high.",
+"On correct approach."
+],
+"a": 1
+},
+{
+"n": 14,
+"q": "MDA is calculated for:",
+"o": [
+"Non-precision approach.",
+"Circling approaches.",
+"Both A & B) are correct."
+],
+"a": 2
+},
+{
+"n": 15,
+"q": "ETOPS stands for:",
+"o": [
+"Extra Time Operations.",
+"Extended Turbojet Operations.",
+"Extended Range for Twin Engine Operations."
+],
+"a": 2
+},
+{
+"n": 16,
+"q": "An Air India aircraft is on a dry lease to I.A.F. for military use. It will be known as a:",
+"o": [
+"Civil aircraft.",
+"Military aircraft.",
+"International flight."
+],
+"a": 1
+},
+{
+"n": 18,
+"q": "Flight manual contains:",
+"o": [
+"Fuel and oil to be carried on board.",
+"Certificate of air worthiness.",
+"Information and instruction to safe operations:"
+],
+"a": 2
+},
+{
+"n": 19,
+"q": "Succession of command is given by:",
+"o": [
+"The operator to pilots by a circular.",
+"DGCA.",
+"Central government."
+],
+"a": 0
+},
+{
+"n": 20,
+"q": "In short-term memory, information is stored for approximately ___ and its capacity is ___ items.",
+"o": [
+"40 to 60 seconds, 11 ± 3",
+"20 to 30 seconds, 7 ± 2",
+"10 to 20 seconds, 7 ± 2"
+],
+"a": 2
+},
+{
+"n": 21,
+"q": "If a passenger falls sick on board an a/c and he is suspected of any infectious disease, then PIC's action is:",
+"o": [
+"To land immediately.",
+"To inform the officer-in-charge of destination aerodrome at least two hrs. before landing.",
+"To inform DGCA."
+],
+"a": 1
+},
+{
+"n": 22,
+"q": "The pilot of a departing aircraft flying under IF shall change the altimeter setting from QNH to standard setting 1013.25hPA when passing:",
+"o": [
+"Transition layer.",
+"The level specified by ATC.",
+"Transition altitude."
+],
+"a": 2
+},
+{
+"n": 23,
+"q": "Hyperventilation is caused due to:",
+"o": [
+"Decreased breathing rate.",
+"Increased heart beat.",
+"Emotional tension or anxiety."
+],
+"a": 2
+},
+{
+"n": 26,
+"q": "Mandatory instructions signs on an aerodrome shall have the following colours:",
+"o": [
+"White inscription on a red background.",
+"Yellow inscription on a black background.",
+"Black inscription on a yellow background."
+],
+"a": 0
+},
+{
+"n": 27,
+"q": "Hyper ventilation is caused due to lack of in blood system:",
+"o": [
+"Oxygen.",
+"Carbon Dioxide.",
+"cO."
+],
+"a": 1
+},
+{
+"n": 28,
+"q": "OCA circling approach is the OCA precision approach:",
+"o": [
+"Lower than.",
+"Higher than.",
+"Equal to."
+],
+"a": 1
+},
+{
+"n": 30,
+"q": "Enroute flight levels are on:",
+"o": [
+"QNH.",
+"QNE.",
+"QFE."
+],
+"a": 1
+},
+{
+"n": 31,
+"q": "To overcome severe turbulence pilot should maintain:",
+"o": [
+"Constant flight attitude.",
+"Constant airspeed.",
+"Constant airspeed and attitude."
+],
+"a": 0,
+"ex": "In turbulence, hold a constant attitude and let the airspeed fluctuate."
+},
+{
+"n": 32,
+"q": "At Aerodromes where no ATZ is established, the vicinity of aerodrome for VFR flights shall be:",
+"o": [
+"5 NM from the ARP up to 1,000 ft AGL",
+"25 NM from the ARP up to 5,000 ft AGL",
+"5 NM from the ARP up to 3,000 ft AGL"
+],
+"a": 2
+},
+{
+"n": 33,
+"q": "Deviations from ICAO procedures are published in:",
+"o": [
+"AIP.",
+"AIRAC.",
+"AIC."
+],
+"a": 0
+},
+{
+"n": 34,
+"q": "In which chapter of the AIP can you find a list with \"location indicators\"?",
+"o": [
+"AGA.",
+"GEN.",
+"ENR."
+],
+"a": 1
+},
+{
+"n": 35,
+"q": "Track separation is also known as separation:",
+"o": [
+"Vertical.",
+"Lateral.",
+"Composite."
+],
+"a": 1
+},
+{
+"n": 36,
+"q": "Abrupt head movements in IMC operations may cause:",
+"o": [
+"False horizon.",
+"Disorientation.",
+"Optical illusion."
+],
+"a": 1
+},
+{
+"n": 37,
+"q": "Flight Engg. Is carried on board:",
+"o": [
+"If P-I-C desires so.",
+"If operator feels so.",
+"If demanded by C of A"
+],
+"a": 2
+},
+{
+"n": 38,
+"q": "Flight plan is prepared by:",
+"o": [
+"Taking any arbitrary points on route.",
+"Taking the shortest distance to the destination.",
+"Choosing routes as listed in AIP."
+],
+"a": 2
+},
+{
+"n": 40,
+"q": "ADC is required for:",
+"o": [
+"Scheduled flight only.",
+"Non-scheduled flight only.",
+"All flights are in ADIZs."
+],
+"a": 2
+},
+{
+"n": 41,
+"q": "Vertical separation in CVSM airspaces above FL 290 is:",
+"o": [
+"1000'.",
+"2000'.",
+"4000'."
+],
+"a": 1
+},
+{
+"n": 42,
+"q": "What is the minimum flight altitude permitted over towns and settlements and populated areas?",
+"o": [
+"The altitude which permits the aircraft to land safely in the event of an engine failure.",
+"1000 ft above the highest obstacle within 600 m of the aircraft position.",
+"500 ft."
+],
+"a": 1
+},
+{
+"n": 43,
+"q": "A worker working close to the runway is thrown off and seriously injured by a jet blast from a departing aircraft, it is an:",
+"o": [
+"Notifiable Accident.",
+"Notifiable Incident.",
+"Notifiable Occurrence."
+],
+"a": 0,
+"ex": "Serious injury from jet blast is an accident."
+},
+{
+"n": 44,
+"q": "Minimum visibility required to fly at 12000' for a VFR flight is:",
+"o": [
+"5 kms.",
+"8 kms.",
+"10 kms."
+],
+"a": 1
+},
+{
+"n": 45,
+"q": "ATC services are provided to IFR flights and traffic information to VFR flights as far as practical provided in class airspace:",
+"o": [
+"E.",
+"D.",
+"C."
+],
+"a": 0
+},
+{
+"n": 46,
+"q": "Cruising level available on a magnetic track of 300° are:",
+"o": [
+"115, 135, 155, 175.",
+"110, 130, 150, 160.",
+"125, 145, 165, 185."
+],
+"a": 2
+},
+{
+"n": 47,
+"q": "Route designator for domestic routes is:",
+"o": [
+"Whiskey",
+"Alpha",
+"Blue"
+],
+"a": 0
+},
+{
+"n": 48,
+"q": "In the Indian AIP, ENR 3.2 lists ATS routes described as:",
+"o": [
+"Upper ATS routes",
+"Area navigation routes",
+"Non-RNP routes"
+],
+"a": 1
+},
+{
+"n": 49,
+"q": "Standing water on runway is notified through a:",
+"o": [
+"Notam SW.",
+"Snowtam.",
+"AIRRAC."
+],
+"a": 1
+},
+{
+"n": 50,
+"q": "CARS is a: Cockpit Audio Recording System (CARS). It is a light weight voice recorder.",
+"o": [
+"Cockpit Audio Recording System: a lightweight voice recorder",
+"Cockpit Automatic Recording System: a heavyweight flight recorder",
+"Cockpit Audio Recovery System: a crash-protected recorder"
+],
+"a": 0
+}
+]
+}

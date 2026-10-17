@@ -1,0 +1,298 @@
+{
+"title": "Altitude Alert and Warning Systems",
+"src": "R.K. Bali — Air Navigation, Part II Ch 7",
+"qs": [
+{
+"n": 1,
+"q": "How does a radio altimeter work?",
+"o": [
+"Measures the Doppler shift of a CW transmission.",
+"Measures the Doppler shift of a pulse transmission.",
+"Measures the time from transmission to the reception of a CW frequency."
+],
+"a": 2,
+"ex": "Book note: a Doppler shift needs relative motion, so a radio altimeter does not use one."
+},
+{
+"n": 2,
+"q": "Radio altimeter gives height indications by:",
+"o": [
+"Measuring the Doppler frequency shift in transmitted frequency.",
+"Measuring time diff. of a CW transmitted at fixed frequency.",
+"Measuring time diff. of a CW transmitted at changing frequency."
+],
+"a": 2
+},
+{
+"n": 3,
+"q": "In case landing gears are retracted, radio altimeter is showing",
+"o": [
+"More then actual clearance.",
+"Less than actual clearance.",
+"Actual clearance."
+],
+"a": 1
+},
+{
+"n": 4,
+"q": "In case landing gears are retracted, radio altimeter",
+"o": [
+"Under- reads",
+"Over - reads",
+"Reads - correct"
+],
+"a": 0,
+"ex": "Book note: the radio altimeter is calibrated with the landing gear down."
+},
+{
+"n": 5,
+"q": "The radio altimeter indicates 2000 ft. What is the minimum height that the aircraft would be at?",
+"o": [
+"1935' in cruising configuration",
+"1935' in landing configuration",
+"1945' in landing configuration"
+],
+"a": 1
+},
+{
+"n": 6,
+"q": "During the approach, a crew reads on the radio altimeter the value of 650 ft. This is an indication of the true?",
+"o": [
+"Height of the lowest wheels with regard to the ground at any time.",
+"Height of the aircraft with regard to the ground at any time.",
+"Height of the aircraft with regard to the runway."
+],
+"a": 0
+},
+{
+"n": 7,
+"q": "For most radio altimeters, when a system error occurs during approach the?",
+"o": [
+"Height indication is removed.",
+"OH lamp flashes red and the audio signal sounds.",
+"DH lamp flashes red."
+],
+"a": 0
+},
+{
+"n": 8,
+"q": "A radio altimeter can be defined as a?",
+"o": [
+"Ground radio aid used to measure the true height of the aircraft.",
+"Ground radio aid used to measure the true altitude of the aircraft.",
+"Self-contained on-board aid used to measure the true height of the aircraft"
+],
+"a": 2
+},
+{
+"n": 9,
+"q": "The data supplied by a radio altimeter?",
+"o": [
+"Indicates the distance between the ground and the aircraft.",
+"Concerns only the decision height.",
+"Is used only by the radio altimeter indicator."
+],
+"a": 0
+},
+{
+"n": 10,
+"q": "The low-altitude radio altimeters used in precision approaches: 1. operate in the 1540–1660 MHz range 2. are of the pulsed type 3. are of the frequency-modulation type 4. have an operating range of 0 to 5000 ft 5. have a precision of ±2 ft between 0 and 500 ft. The combination of correct statements is:",
+"o": [
+"3, 5",
+"1, 2, 4",
+"2, 3, 5"
+],
+"a": 0
+},
+{
+"n": 11,
+"q": "The operating frequency range of a low altitude radio altimeter is?",
+"o": [
+"2700 MHz to 2900 MHz.",
+"5 GHz.",
+"4200 MHz to 4400 MHz."
+],
+"a": 2
+},
+{
+"n": 12,
+"q": "Modern low altitude radio altimeters emit waves in the following frequency band?",
+"o": [
+"HF (High Frequency).",
+"UHF (Ultra High Frequency).",
+"SHF (Super High Frequency)."
+],
+"a": 2
+},
+{
+"n": 13,
+"q": "The operation of the radio altimeter of a modern aircraft is based on?",
+"o": [
+"Pulse modulation of the carrier wave.",
+"A combination of frequency modulation and pulse modulation.",
+"Frequency modulation of the carrier wave."
+],
+"a": 2
+},
+{
+"n": 14,
+"q": "In low altitude radio altimeters height measurement (above ground) is based upon?",
+"o": [
+"A triangular amplitude modulation wave, for which modulation phase shift between transmitted and received waves after ground reflection is measured.",
+"A frequency modulation wave, for which the frequency variation between the transmitted wave and the received wave after ground reflection is measured.",
+"A pulse transmission, for which time between transmission and reception is measured on a circular scanning screen."
+],
+"a": 1
+},
+{
+"n": 15,
+"q": "The aircraft radio equipment which emits on a frequency of 4400 MHz is the?",
+"o": [
+"Weather radar.",
+"Primary radar.",
+"Radio altimeter."
+],
+"a": 2
+},
+{
+"n": 16,
+"q": "A radio altimeter is?",
+"o": [
+"Aircraft based and indicates true altitude.",
+"Aircraft based and indicates pressure altitude.",
+"Aircraft based and indicates true height."
+],
+"a": 2
+},
+{
+"n": 17,
+"q": "Radio altimeters are",
+"o": [
+"Crucial to GPWS operations.",
+"Not required for GPWS operations.",
+"Used to determine altitude above msl."
+],
+"a": 0
+},
+{
+"n": 18,
+"q": "For the landing configuration a radio altimeter indicates?",
+"o": [
+"Height of the aircraft above the ground.",
+"Height of the flight deck above the ground.",
+"Height of the main wheel above the ground."
+],
+"a": 2
+},
+{
+"n": 19,
+"q": "Low altitude radio altimeters operate on the wavelength?",
+"o": [
+"Metric.",
+"Decimetric.",
+"Centimetric."
+],
+"a": 2
+},
+{
+"n": 20,
+"q": "If there is a fault in the system the radalt display will?",
+"o": [
+"Needle will disappear and an alarm flag will appear, possibly accompanied by an audio warning.",
+"Freeze.",
+"Turn red and activate an aural warning."
+],
+"a": 0
+},
+{
+"n": 21,
+"q": "A radio altimeter measures?",
+"o": [
+"True Altitude.",
+"Pressure altitude.",
+"Height above the ground or water over which the aircraft is flying."
+],
+"a": 2
+},
+{
+"n": 22,
+"q": "A RADALT provides?",
+"o": [
+"Height above terrain.",
+"Pressure altitude.",
+"Density altitude."
+],
+"a": 0
+},
+{
+"n": 23,
+"q": "The failure of the radio altimeter would cause?",
+"o": [
+"Loss of pressure altitude data.",
+"Loss of density altitude data.",
+"Loss of height data."
+],
+"a": 2
+},
+{
+"n": 24,
+"q": "A radio altimeter has a maximum effective height because?",
+"o": [
+"At greater heights the signal will be too weak.",
+"At greater heights signal from different modulation cycles will overlap.",
+"At greater heights the signal will be absorbed by moisture in the air."
+],
+"a": 1
+},
+{
+"n": 25,
+"q": "Radio altimeters are accurate only within the height range?",
+"o": [
+"Zero to 50 ft.",
+"Zero to 500 ft.",
+"Zero ft to 2500 ft."
+],
+"a": 2
+},
+{
+"n": 26,
+"q": "If the GPWS activates, and alerts the pilot with an aural warning DON'T SINK (two times), it is because:",
+"o": [
+"during take-off or missed approach manoeuvre, the aircraft has started to lose altitude.",
+"during landing the aircraft is below Glide Path.",
+"during landing if landing gear is unsafe."
+],
+"a": 0
+},
+{
+"n": 27,
+"q": "The GPWS (Ground Proximity Warning System) is active for a height range from:",
+"o": [
+"0 ft to 2500 ft measured by the radio altimeter",
+"50 ft to 2500 ft measured by the radio altimeter",
+"50 ft to 1500 ft measured by the radio altimeter"
+],
+"a": 1
+},
+{
+"n": 28,
+"q": "Can an RA be generated against an aircraft that is not ACAS Il equipped?",
+"o": [
+"An RA can be generated against all aircraft equipped with an altitude reporting transponder (Mode S or Mode A/C).",
+"An RA can be generated against all aircraft equipped with a transponder (Mode A).",
+"An RA can be generated against all aircraft equipped with no transponder onboard."
+],
+"a": 0
+},
+{
+"n": 29,
+"q": "\"Maintain Vertical Speed\" is a:",
+"o": [
+"TA",
+"Cautionary RA",
+"Preventive RA"
+],
+"a": 2
+}
+]
+}

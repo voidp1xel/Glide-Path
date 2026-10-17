@@ -15,7 +15,17 @@ module.exports = {
     { id: 'marks', short: 'Mark sizes', part: 'The marks', type: 'svg', fig: 'reg-marks', icon: 'plane', ask: 'Where do the marks go, and how big?', dgca: true,
       takeaway: 'On a heavier-than-air aircraft the marks are at least 50 cm high on the wings and at least 30 cm on the fuselage and vertical tail, with every character in a group the same height. Lighter-than-air aircraft need at least 50 cm.',
       hook: 'Wings are wide: fifty. Body is slim: thirty.' },
-    { id: 'who', short: 'Who assigns marks', takeaway: 'The ITU gives each State its call-sign letters; the State of Registry assigns the 1–5 character registration mark; ICAO assigns common marks (4YA–4YZ) to international operating agencies.', type: 'pairs', icon: 'user', ask: 'Who assigns what?', dgca: true,
+    { id: 'heights', type: 'explore', short: 'How tall?', icon: 'ruler', ask: 'Is this mark tall enough, and where may it go?', dgca: true,
+      lead: 'Drag the height of a painted mark.',
+      takeaway: 'On heavier-than-air aircraft the marks on the wings must be at least 50 cm high; on the fuselage and vertical tail at least 30 cm. Lighter-than-air aircraft also need at least 50 cm.',
+      hook: 'Fifty on the wings, thirty on the body.',
+      tabs: [{ kind: 'dial', label: 'Mark height', icon: 'ruler', title: 'Minimum height of the marks', unit: 'cm', min: 0, max: 80, step: 5, start: 40, ticks: [0, 30, 50, 80], plus: true, ends: ['shorter', 'taller'],
+        bands: [
+          { from: 0, to: 30, label: 'Too short', sub: 'below every minimum', tip: 'Under 30 cm is too small for any position on an aeroplane.' },
+          { from: 30, to: 50, label: 'Fuselage and tail only', sub: '≥ 30 cm', tip: 'Fuselage (or equivalent structure) and vertical tail marks must be at least 30 cm high.' },
+          { from: 50, to: 80, label: 'Wings too', sub: '≥ 50 cm', tip: 'Marks on the wings must be at least 50 cm high; lighter-than-air aircraft (other than unmanned free balloons) also need at least 50 cm.' },
+        ] }] },
+    { id: 'who', hook: 'ITU gives the letters, the State the mark, ICAO the 4Y.', short: 'Who assigns marks', takeaway: 'The ITU gives each State its call-sign letters; the State of Registry assigns the 1–5 character registration mark; ICAO assigns common marks (4YA–4YZ) to international operating agencies.', type: 'pairs', icon: 'user', ask: 'Who assigns what?', dgca: true,
       pairs: [
         { a: { label: 'Nationality mark', body: 'Chosen by the State from the **radio call-sign symbols the ITU allots** to it.' }, b: { label: 'Registration mark', body: 'Assigned by the **State of Registry or the common mark registering authority**; **1 to 5** letters/numbers.' }, rule: 'ITU gives the letters; the State hands them out.' },
         { a: { label: 'Common mark', body: 'For aircraft of an **international operating agency** registered jointly by two or more States. ITU allots symbols **4YA–4YZ** to ICAO.' }, b: { label: 'Assigning the common mark', body: '**ICAO** assigns the common mark to the common mark registering authority.' }, rule: 'Common mark: ITU → ICAO → authority.' },

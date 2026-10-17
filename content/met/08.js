@@ -17,7 +17,7 @@ module.exports = {
     { id: 'vertical', part: 'Why air rises', type: 'svg', fig: 'conv-div', icon: 'rotate', ask: 'Convergence or divergence?', dgca: true,
       takeaway: 'Air piling in at the surface (convergence) has to rise: lows and troughs bring cloud and rain but good visibility. Air spreading out (divergence) sinks: highs and ridges bring fair weather but haze.',
       hook: 'Converge → climb → cloud. Diverge → descend → dry.' },
-    { id: 'causes', type: 'bullets', icon: 'list', ask: 'What makes air go up or down?',
+    { id: 'causes', takeaway: 'Air is lifted by local eddies and thermals, by terrain (up the windward slope, down the lee, sometimes as mountain waves), by fronts (gradual at warm, sharp at cold fronts) and by shear near jet streams.', hook: 'Heat, hills, fronts and shear.', type: 'bullets', icon: 'list', ask: 'What makes air go up or down?',
       groups: [
         { title: 'Local (few km)', icon: 'home', points: ['Frictional eddies (to ~1 km)', 'Thermals → CU, CB, bumps', 'Sea breeze, valley, katabatic winds'] },
         { title: 'Terrain', icon: 'mountain', points: ['Up on windward, down on lee', 'Strong wind → mountain waves', 'Waves can reach the stratosphere (nacreous cloud)'] },
@@ -116,7 +116,7 @@ module.exports = {
         { label: 'Nimbostratus', sub: 'continuous rain', tip: 'Dark, low, steady rain; icing above the freezing level; ice pellets possible.' },
         { label: 'Stratus / fractus', sub: 'near the front', tip: 'Low ragged cloud, drizzle, poor visibility.' },
       ] },
-    { id: 'identify', type: 'flow', icon: 'help', ask: 'Which cloud is it?', dgca: true,
+    { id: 'identify', takeaway: 'Work down from the obvious: anvil and hail = CB; flat base and cauliflower top = CU; high icy cloud = CI, CS (halo) or CC; ground-glass sun = AS; continuous rain from a dark layer = NS; drizzle from a grey layer = ST.', hook: 'Tower, heap, ice, middle, low.', type: 'flow', icon: 'help', ask: 'Which cloud is it?', dgca: true,
       start: 'q1', nodes: {
         q1: { text: 'Is it a towering cloud with thunder, lightning, hail or an anvil?', yes: 'cb', no: 'q2' },
         q2: { text: 'Is it a heaped cloud with a flat base and cauliflower top?', yes: 'cu', no: 'q3' },
@@ -131,7 +131,7 @@ module.exports = {
         as: { end: true, text: 'Altostratus (AS)', hue: 0 }, ac: { end: true, text: 'Altocumulus (AC)', hue: 0 },
         ns: { end: true, text: 'Nimbostratus (NS)', hue: 1 }, st: { end: true, text: 'Stratus (ST)', hue: 1 }, sc: { end: true, text: 'Stratocumulus (SC)', hue: 1 },
       } },
-    { id: 'hazards', type: 'matrix', icon: 'alert', ask: 'What each cloud does to an aircraft', dgca: true, revise: true,
+    { id: 'hazards', takeaway: 'High ice clouds are harmless (except CAT near jets). AS and NS bring long rain and icing below 0 °C; SC and AC bring bumps; CU and above all CB bring the worst turbulence, icing and visibility.', hook: 'The taller the cloud, the bigger the hazard.', type: 'matrix', icon: 'alert', ask: 'What each cloud does to an aircraft', dgca: true, revise: true,
       corner: 'Cloud', cols: ['Precipitation', 'Icing', 'Turbulence', 'Visibility'],
       rows: [['CI', 'none', 'none', 'none (CAT near jets)', 'good'], ['CS', 'none', 'negligible', 'smooth', 'good'], ['CC', 'none', 'negligible', 'slight', 'good'], ['AC', 'virga at most', 'possible', 'slight–moderate', 'good'], ['AS', 'continuous light (thick)', 'yes below 0 °C', 'smooth', 'moderate'], ['NS', 'continuous rain/snow', 'moderate', 'smooth', 'poor'], ['SC', 'light drizzle', 'light', 'bumpy', 'moderate'], ['ST', 'drizzle', 'light', 'smooth', 'poor slant vis'], ['CU/TCU', 'showers (TCU)', 'moderate in TCU', 'bumpy–severe', 'good outside'], ['CB', 'showers, hail', 'SEVERE', 'SEVERE', 'very poor']].map(r => ({ label: r[0], cells: r.slice(1).map(v => /SEVERE|continuous|moderate$/.test(v) ? { v, key: true } : v) })) },
     { id: 'species', part: 'Species and features', type: 'gallery', icon: 'grid', ask: 'Species and special features', dgca: true,
@@ -148,11 +148,11 @@ module.exports = {
         { name: 'Pileus', sub: 'cap cloud', fig: 'sp-pileus', hue: 3, extra: true, rows: [['What', 'Small smooth cap just above a rising CU/CB top.'], ['Means', 'Vigorous updraught pushing moist air up.']] },
         { name: 'Arcus', sub: 'shelf / roll cloud', fig: 'sp-arcus', hue: 1, extra: true, rows: [['What', 'Dark horizontal shelf or roll on the leading edge of a CB.'], ['Means', '**Gust front**: sudden wind shift, squall, wind shear.']] },
       ] },
-    { id: 'sort', type: 'classify', icon: 'grid', ask: 'Sort the clues into the right band', dgca: true,
+    { id: 'sort', takeaway: 'High clouds give halos and fine fibres; medium clouds give a ground-glass sun, coronas and lenticular lenses; low clouds give drizzle, bumps and continuous rain; vertical clouds give anvils, hail and cauliflower tops.', type: 'classify', icon: 'grid', ask: 'Sort the clues into the right band', dgca: true,
       lead: 'Tap a clue, then the band it belongs to.',
       buckets: [{ id: 'h', label: 'High' }, { id: 'm', label: 'Medium' }, { id: 'l', label: 'Low' }, { id: 'v', label: 'Vertical' }],
       items: [{ text: 'Halo round the sun', bucket: 'h' }, { text: 'Feathery ice filaments', bucket: 'h' }, { text: 'Tiny ripples, no shading', bucket: 'h' }, { text: 'Ground-glass sun, corona', bucket: 'm' }, { text: 'Lens cloud over a ridge', bucket: 'm', why: 'Altocumulus lenticularis.' }, { text: 'Turrets on a medium-level layer', bucket: 'm' }, { text: 'Drizzle from a uniform layer', bucket: 'l' }, { text: 'Bumpy grey rolls', bucket: 'l' }, { text: 'Continuous rain, sun hidden', bucket: 'l', why: 'NS: low base, extends upward.' }, { text: 'Anvil and hail', bucket: 'v' }, { text: 'Flat base, cauliflower top', bucket: 'v' }, { text: 'Mammatus pouches', bucket: 'v' }] },
-    { id: 'genera', type: 'matrix', icon: 'list', ask: 'What weather does each cloud give?', revise: true, dgca: true,
+    { id: 'genera', takeaway: 'Each genus has a signature: CS → halo, AS → corona and steady rain when thick, ST → drizzle, SC → bumps, NS → continuous rain or snow, CU → bumps and showers, CB → thunderstorms, hail and squalls.', hook: 'Halo high, corona middle, drizzle low.', type: 'matrix', icon: 'list', ask: 'What weather does each cloud give?', revise: true, dgca: true,
       corner: 'Cloud', cols: ['Level', 'Looks like', 'Gives'],
       rows: [
         { label: 'CI', cells: ['High', 'Feathery ice filaments', 'Nothing; no icing'] },
@@ -166,7 +166,7 @@ module.exports = {
         { label: 'CU', cells: ['Vertical', 'Cauliflower, flat base', 'Fair-weather: daytime, none'] },
         { label: 'CB', cells: ['Vertical', 'Tower with anvil', { v: 'Showers, hail, TS, severe icing & turbulence', key: true }] },
       ] },
-    { id: 'which-cloud', type: 'stamp', icon: 'cloud', ask: 'Name that cloud',
+    { id: 'which-cloud', takeaway: 'Read the clue word: halo → CS, drizzle → ST, steady rain → NS, hail and anvil → CB, ground-glass sun → AS, lens over a ridge → AC lenticularis, feathery strands → CI.', type: 'stamp', icon: 'cloud', ask: 'Name that cloud',
       stamps: ['CI', 'CS', 'AC', 'AS', 'ST', 'NS', 'CB'].map(c => ({ id: c, label: c })),
       cases: [
         { text: 'A halo surrounds the sun.', answer: 'CS' }, { text: 'Fine drizzle falls from a low grey uniform layer.', answer: 'ST' },
@@ -174,7 +174,7 @@ module.exports = {
         { text: 'The sun looks as if seen through ground glass; a corona appears.', answer: 'AS' }, { text: 'Lens-shaped clouds hang over the lee of a ridge.', answer: 'AC', why: 'Altocumulus lenticularis marks mountain-wave crests.' },
         { text: 'Delicate white feathery filaments of ice, high up.', answer: 'CI' },
       ] },
-    { id: 'special', type: 'pairs', icon: 'scale', ask: 'Pairs that catch students out',
+    { id: 'special', takeaway: 'Halo (22°, refraction in ice, CS) is not a corona (≤ 5°, diffraction in droplets, AS). Nacreous clouds are stratospheric; noctilucent clouds, in the mesosphere, are the highest of all. Castellanus turrets warn of instability aloft.', type: 'pairs', icon: 'scale', ask: 'Pairs that catch students out',
       pairs: [
         { a: { label: 'Halo', body: '**CS**, ice crystals, **refraction**, large ring **22°** (46° rare). Book: red on the outside when well developed.' }, b: { label: 'Corona', body: '**AS** (small water drops), **diffraction**, small rings **≤ 5°**, red outside.' }, rule: 'Halo = high ice = little icing; corona above the freezing level = icing possible.' },
         { a: { label: 'Nacreous', body: 'Upper **stratosphere**; mother-of-pearl colours; Scotland, Scandinavia.' }, b: { label: 'Noctilucent', body: 'Upper **mesosphere** 80–85 km; 45°–72°N in summer twilight.' }, rule: 'Noctilucent is the highest cloud.' },

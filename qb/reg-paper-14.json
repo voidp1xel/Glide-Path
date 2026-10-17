@@ -1,0 +1,496 @@
+{
+"title": "Sample paper 14",
+"src": "Bali AR, Sample Question Papers",
+"qs": [
+{
+"n": 1,
+"q": "Area Control Centers issue clearances for the purpose of:",
+"o": [
+"Achieving separation between FR flights.",
+"• Achieving separation between controlled flights.",
+"Providing flight information Service."
+],
+"a": 1
+},
+{
+"n": 2,
+"q": "The different emergency phases (in correct order) are:",
+"o": [
+"ALERT, INCERFA, and DISTRESFA",
+"INCERFA, ALERFA and DETRESFA.",
+"ALERT, DISTRESS and RESCUE."
+],
+"a": 1
+},
+{
+"n": 3,
+"q": "A VFR flight constitutes essential traffic to other VFR flights, when operating in controlled airspace classified as:",
+"o": [
+"B.",
+"B, C, D and E.",
+"B and C."
+],
+"a": 0
+},
+{
+"n": 4,
+"q": "During an arrival procedure under an IFR flight plan in VMC conditions, traffic avoidance is the responsibility of:",
+"o": [
+"The radar controller.",
+"The pilot in command.",
+"The approach controller."
+],
+"a": 1
+},
+{
+"n": 5,
+"q": "Unless otherwise prescribed by the appropriate ATS authority, the horizontal radar separation minimum shall be:",
+"o": [
+"3.5NM.",
+"10.0NM.",
+"5.0NM."
+],
+"a": 2
+},
+{
+"n": 6,
+"q": "In which section of the AlP are contained information elements relating to areas and or routes for which meteorological service is provided?",
+"o": [
+"MET.",
+"GEN.",
+"RAC."
+],
+"a": 1
+},
+{
+"n": 7,
+"q": "Whenever a distress signal and or message or equivalent transmission is intercepted by the PIC of an aircraft, he shall:",
+"o": [
+"Record the position of the craft in distress if given and if possible, take a bearing on the transmission.",
+"If possible, take a bearing on the transmission.",
+"Record the position of the craft in distress if given."
+],
+"a": 0
+},
+{
+"n": 8,
+"q": "The minimum equipment list of a public transport airplane is to be found in the:",
+"o": [
+"Flight manual.",
+"Operation manual.",
+"CAR OPS."
+],
+"a": 1
+},
+{
+"n": 9,
+"q": "The fire-extinguisher types which may be used on Class B fires are: 1. H,O. 2. CO¿ Dry-chemical. 4. Halogen. The combination of correct statements is:",
+"o": [
+"3, 4.",
+"1, 2, 3, 4.",
+"2, 3, 4."
+],
+"a": 2
+},
+{
+"n": 10,
+"q": "While approaching the outer marker, the tower informs you about the presence of a \"microburst\". You should expect to encounter:",
+"o": [
+"Convection motion of air mass.",
+"Super cooled water.",
+"Wind shear (vertical and horizontal)."
+],
+"a": 2
+},
+{
+"n": 11,
+"q": "The letter \"L\" is written in the wake turbulence box of a flight plan form when the maximum certified take-off weight of an aircraft is less than or equal to:",
+"o": [
+"14,000 kg",
+"20,000 kg",
+"7,000 kg"
+],
+"a": 2
+},
+{
+"n": 12,
+"q": "An aircraft station fails to establish radio contact with an aeronautical station on the designated frequency. What action is required by the pilot:",
+"o": [
+"Return to the airport of departure.",
+"Land at the nearest airport without an ATC unit.",
+"Attempt to establish contact with the station on an alternative frequency."
+],
+"a": 2
+},
+{
+"n": 13,
+"q": "The frequency used for the transmission of a \"MAYDAY\" call shall be:",
+"o": [
+"The frequency currently in use.",
+"Any frequency at pilot's discretion.",
+"The distress frequency 121.5 MHz."
+],
+"a": 0
+},
+{
+"n": 14,
+"q": "An urgency call content is to be as follows:",
+"o": [
+"PAN PAN PAN, aircraft identification, the intention of the person in command, heading, height, position.",
+"PAN PAN PAN (on 121,5 MHz). present position, heading aircraft, identification, the intention of the person in command, the identification of the station being called.",
+"PAN PAN PAN (on the frequency in use), name of station addressed, the nature of the urgency condition, the intention of the person in command."
+],
+"a": 2
+},
+{
+"n": 15,
+"q": "An \"Automatic Terminal Information Service\" provides:",
+"o": [
+"Information concerning en-route weather phenomena which may affect the safety of aircraft operation.",
+"Routine information to arriving and departing aircraft by means of continuous and repetitive broadcast.",
+"Weather reports relating to a specific number of aerodromes located within a flight information region (FIR)."
+],
+"a": 1
+},
+{
+"n": 16,
+"q": "What is the radio telephony call sign for the aeronautical station indicating approach control radar arrivals:",
+"o": [
+"Arrival.",
+"Approach Radar.",
+"Approach."
+],
+"a": 0
+},
+{
+"n": 17,
+"q": "To indicate that he is no longer occupying the active runway a pilot shall report to the controller:",
+"o": [
+"Runway free.",
+"Clear of runway.",
+"Runway vacated."
+],
+"a": 2
+},
+{
+"n": 18,
+"q": "The objective of the investigation of an accident or incident shall be the:",
+"o": [
+"Prevention of accidents or incidents and to help the judges.",
+"Prevention of accidents or incidents and to help the manufacturers in design.",
+"Prevention of accidents or incidents."
+],
+"a": 2
+},
+{
+"n": 19,
+"q": "A State shall provide assistance to an aircraft subjected to an act of unlawful seizure. This assistance includes:",
+"o": [
+"Permission to land on an isolated airfield.",
+"Provision of navigation aids, air traffic services and permission to overfly avoiding populated areas.",
+"Provision of navigation aids, air traffic services and permission to land."
+],
+"a": 2
+},
+{
+"n": 20,
+"q": "The most common specific cause of pilot-induced accidents is:",
+"o": [
+"Poor pre-flight planning.",
+"Hypoxia",
+"Controlled Flight Into Terrain (CFIT)"
+],
+"a": 2
+},
+{
+"n": 21,
+"q": "King air VT-ABC receives the following instruction: \"V-BC climb straight ahead until 2500 feet before turning right, wind 270 degrees 6 knots, cleared for takeoff\". What is the correct read back:",
+"o": [
+"Straight ahead, 2500 feet right turn, wind west 6 knots, cleared for take-off, V-BC.",
+"Straight ahead, at 2500 feet right turn, cleared for take-off, V-BC.",
+"Wilco, cleared for take-off, V-BC."
+],
+"a": 1
+},
+{
+"n": 22,
+"q": "What does QNE mean?",
+"o": [
+"What indication will my altimeter give on landing at _ (place) at hours, my sub-scale being set to 1013.2 millibars (29.92 inches)?",
+"What should I set on the sub scale of my altimeter so that the instrument would indicate its height above the reference elevation being used?",
+"What should I set on the sub scale of my altimeter so that the instrument would indicate its elevation if my aircraft were on the ground at your station?"
+],
+"a": 0
+},
+{
+"n": 23,
+"q": "You use a halon extinguisher on fires of: 1) solids (fabric, plastic); 2) liquids (alcohol, gasoline); 3) gas; 4) metals (aluminium, magnesium). Correct:",
+"o": [
+"2, 3, 4.",
+"1, 2, 4.",
+"1, 2, 3."
+],
+"a": 2
+},
+{
+"n": 24,
+"q": "With regard to flight time limitations, \"flight time\" means:",
+"o": [
+"The total time from when an aircraft first moves under its own power for the purpose of taking off until it comes to rest after the flight.",
+"The time between take-off and landing.",
+"The time between an aircraft starting to move and coming to a complete stop plus one and a half hours."
+],
+"a": 0
+},
+{
+"n": 25,
+"q": "An applicant for a Commercial Pilot License aeroplane shall have completed in aeroplanes not less than:",
+"o": [
+"150 hours of flight time and 100 hours as pilot-in-command.",
+"200 hours of flight time and 70 hours as pilot-in-command.",
+"200 hours of flight time and 100 hours as pilot-in-command."
+],
+"a": 2
+},
+{
+"n": 26,
+"q": "CRM training has under mentioned clear aims in terms of specific skills to develop for the purpose of:",
+"o": [
+"Error avoidance, threat management, system management and undesired aircraft state management.",
+"Error avoidance, threat management, error management and environment management.",
+"Error avoidance, threat management, error management and undesired aircraft state management."
+],
+"a": 2
+},
+{
+"n": 27,
+"q": "In the Indian AIP, the former Lower ATS routes are now ___ and the former Upper ATS routes are now ___.",
+"o": [
+"Standard navigation routes; RNP routes",
+"Conventional navigation routes; Area navigation routes",
+"Domestic navigation routes; Regional navigation routes"
+],
+"a": 1
+},
+{
+"n": 28,
+"q": "You are entering a FIR where SSR is used from an area where SSR is not used. What would you squawk?",
+"o": [
+"Standby.",
+"A/1234+C.",
+"A/2000+C."
+],
+"a": 2
+},
+{
+"n": 29,
+"q": "Who establishes the OCA/H (Obstacle Clearance Altitude/Height) for an approach procedure?",
+"o": [
+"The operator.",
+"The pilot in command.",
+"The state."
+],
+"a": 2
+},
+{
+"n": 30,
+"q": "What is gradient for departure runway?",
+"o": [
+"2.5%.",
+"2.8%.",
+"3.3%."
+],
+"a": 2
+},
+{
+"n": 31,
+"q": "Pilots shall not operate the SSR special position indicator (IDENT) feature unless:",
+"o": [
+"Requested by ATC.",
+"They operate a transponder with Mode C.",
+"They operate within controlled airspace."
+],
+"a": 0
+},
+{
+"n": 32,
+"q": "Which of the following is not a mandatory instruction sign:",
+"o": [
+"Taxi-holding position sign.",
+"Road holding position sign.",
+"Direction sign."
+],
+"a": 2
+},
+{
+"n": 33,
+"q": "Hyper vigilance is:",
+"o": [
+"Necessary in critical stages of a flight.",
+"Necessary to allow flight crew to concentrate on instruments while landing.",
+"In its most acute forms, an extremely agitated state of panic or near panic."
+],
+"a": 2
+},
+{
+"n": 34,
+"q": "Runway center line lights shall be fixed lights showing variable from the threshold to the point 900m from the runway end, alternate and variable from 900m to 300m from runway end, and _ from 300m to the runway end:",
+"o": [
+"White, red and white, red.",
+"White, yellow and white, red.",
+"Green, white and yellow, red."
+],
+"a": 0
+},
+{
+"n": 35,
+"q": "You are flying in Mumbai FIR when you intercept a distress call. You record the message and tell Mumbai FIC. The radio operator at Mumbai tells you to standby. What should you consider doing whilst awaiting instructions?",
+"o": [
+"Make a general call on 121.5 asking other airplanes to assist.",
+"Descend to low level and carry out a surface search for ships.",
+"Proceed to the position given in the distress message."
+],
+"a": 2
+},
+{
+"n": 36,
+"q": "In which section of AIP are contained information elements relating to prohibited, restricted and dangerous areas?",
+"o": [
+"AGA.",
+"ENR.",
+"GEN."
+],
+"a": 1
+},
+{
+"n": 37,
+"q": "Which convention makes acts of violence on board, destruction of aircraft in flight and destroying or damaging any air navigation facility punishable?",
+"o": [
+"The Tokyo convention.",
+"The Montreal convention.",
+"The Warsaw convention."
+],
+"a": 1
+},
+{
+"n": 38,
+"q": "An aircraft is flying under IFR in an area where the visibility is unlimited and the sky is clear (free of clouds), when it totally loses radio communications. The procedure to be followed is:",
+"o": [
+"Descend to En-route Minimum Safe Altitude and join closest airfield open to FR operations.",
+"Land on the closest appropriate aerodrome, then advise Air Traffic Services of landing.",
+"Continue flight on to destination, complying with last received clearances in the fled flight plan."
+],
+"a": 1
+},
+{
+"n": 39,
+"q": "When operating under Special VFR clearance, the responsibility for remaining clear of obstacles on the ground rests with:",
+"o": [
+"Operator.",
+"The aircraft commander.",
+"Air traffic control."
+],
+"a": 1
+},
+{
+"n": 40,
+"q": "ICAO was established by the Convention of:",
+"o": [
+"Warsaw",
+"Chicago",
+"Montreal"
+],
+"a": 1
+},
+{
+"n": 41,
+"q": "The height of the marks under the wings of heavier than air aircraft shall be at least:",
+"o": [
+"50 centimeters.",
+"Between 40 and 50 centimeters.",
+"60 centimeters."
+],
+"a": 0
+},
+{
+"n": 42,
+"q": "Scanning at night should be performed by:",
+"o": [
+"Scanning with one eye open.",
+"Slight eye movement to the side of the object.",
+"Concentrated fixation on an object (image must fall on the fovea centralis)."
+],
+"a": 1
+},
+{
+"n": 43,
+"q": "A pilot approaching a runway which is narrower than normal may feel he is at a greater height than he actually is. To compensate he may fly a:",
+"o": [
+"Flatter than normal approach with the tendency to undershoot.",
+"Higher than normal approach with the tendency to overshoot.",
+"Compensatory glide path and stall out."
+],
+"a": 0
+},
+{
+"n": 44,
+"q": "Motor programs are:",
+"o": [
+"Stored routines that enable patterns of behavior to be executed without continuous conscious control.",
+"Rules that enable us to deal with preconceived situations.",
+"Stored routines that enable patterns of behavior to be executed only under continuous conscious control."
+],
+"a": 0
+},
+{
+"n": 45,
+"q": "If during flight a pilot is in a mental condition of \"optimum arousal\" he/she will be:",
+"o": [
+"Unprepared to handle a difficult situation.",
+"Prepared best to cope with a difficult task.",
+"In a confused mental state."
+],
+"a": 1
+},
+{
+"n": 47,
+"q": "What is understood by air-sickness?",
+"o": [
+"An illness caused within the Central Nervous system accompanied by nausea, vomiting and fever.",
+"An illness caused by an infection of the middle ear accompanied by nausea, vomiting and hearing loss.",
+"A sensory conflict within the vestibular system accompanied by nausea, vomiting and fear."
+],
+"a": 2
+},
+{
+"n": 48,
+"q": "Flying from Bengaluru to Moscow you will have a lay-over of 4 days. What time measure is relevant for your circadian rhythm on the 3rd day?",
+"o": [
+"ZT (Zonal Time).",
+"LT (Local Time).",
+"UTC (Universal Coordinated Time)."
+],
+"a": 1
+},
+{
+"n": 49,
+"q": "A person who smokes one packet of cigarettes a day will reduce his capacity to transport oxygen effectively by:",
+"o": [
+"0.5% to 2%.",
+"5% to 8%.",
+"12% to 18%."
+],
+"a": 1
+},
+{
+"n": 50,
+"q": "Cold clammy skin is indicative of:",
+"o": [
+"Hypoxia.",
+"Decompression sickness.",
+"Hyperventilating"
+],
+"a": 2
+}
+]
+}

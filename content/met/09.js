@@ -27,7 +27,7 @@ module.exports = {
         { name: 'Dry parcel temperature', eq: 'T = T<sub>0</sub> − 9.8 × h<sub>km</sub>', ex: '30°C surface, 2 km → 30 − 19.6 ≈ **10°C**.', calc: { inputs: [{ k: 't', label: 'Surface temp (°C)', v: 30 }, { k: 'h', label: 'Height (km)', v: 2 }], f: 't-9.8*h', unit: '°C' } },
         { name: 'Per 1000 ft', eq: 'DALR ≈ 3°C · SALR ≈ 1.5°C · ISA ≈ 2°C', note: 'Per 1000 ft.' },
       ] },
-    { id: 'criteria', type: 'matrix', icon: 'list', ask: 'The stability rules in one table', revise: true, dgca: true,
+    { id: 'criteria', takeaway: 'Compare the environmental lapse rate (ELR) with the DALR and SALR: less than both = absolutely stable; between them = conditionally unstable (unstable only once saturated); more than both = absolutely unstable. Isothermal layers and inversions are very stable.', hook: 'Below both stable, between conditional, above both unstable.', type: 'matrix', icon: 'list', ask: 'The stability rules in one table', revise: true, dgca: true,
       corner: 'If…', cols: ['Dry air', 'Saturated air', 'Name'],
       rows: [
         { label: 'ELR < SALR', cells: ['Stable', 'Stable', { v: 'Absolutely stable', key: true }] },
@@ -36,7 +36,7 @@ module.exports = {
         { label: 'ELR = DALR = SALR', cells: ['Neutral', 'Neutral', 'Indifferent'] },
         { label: 'Isothermal / inversion', cells: ['Stable', 'Stable', 'Very stable'] },
       ] },
-    { id: 'stamp', type: 'stamp', icon: 'flag', ask: 'Name the stability',
+    { id: 'stamp', takeaway: 'Put the ELR between the two adiabats: ELR 6.8 with DALR 9.8 and SALR 5 is conditionally unstable; a super-adiabatic desert surface is absolutely unstable; any inversion or isothermal layer is absolutely stable.', type: 'stamp', icon: 'flag', ask: 'Name the stability',
       stamps: [{ id: 'as', label: 'Absolutely stable' }, { id: 'cu', label: 'Conditionally unstable' }, { id: 'au', label: 'Absolutely unstable' }, { id: 'n', label: 'Neutral' }],
       cases: [
         { text: 'DALR 9.8, ELR 6.8, SALR 5 (°C/km).', answer: 'cu' }, { text: 'ELR 4.5, SALR 5.5.', answer: 'as' },

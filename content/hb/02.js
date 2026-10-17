@@ -2,6 +2,7 @@ module.exports = {
   n: 2, title: 'Airflow, Lift and Drag', tag: 'Boundary layer · lift curve · parasite and induced drag · VMD · ground effect', icon: 'wind', hue: 1, partOfBook: 'Part 2 · Aerodynamics',
   big: 'What the air actually does round a wing, from stagnation point to separation; how lift builds with angle of attack; the two families of drag, the tip vortex behind induced drag, the speeds the drag curve defines, and ground effect.',
   purpose: 'The core of the aerodynamics paper: boundary-layer properties, what moves the transition point, how camber, aspect ratio and sweep change the lift curve, Dp ∝ V² vs Di ∝ 1/V², VMD/VMP/1.32 VMD and ground effect come up in almost every sitting.',
+  bankLead: 'The Handbook prints no question bank, so these are original questions written for Glidepath from the book’s facts — not the book’s own questions. Your answers are saved.',
   lessons: [
     { id: 'map', type: 'mindmap', short: 'Mind map', icon: 'brain', ask: 'The whole chapter on one page',
       root: { label: 'Lift and drag', children: [
@@ -15,15 +16,15 @@ module.exports = {
         { label: 'Ground effect', children: [{ label: '< ½ span' }, { label: 'Float, nose-down' }, { label: 'ASI under-reads' }] },
       ] } },
 
-    { id: 'flow', part: 'Air round the aerofoil', type: 'svg', fig: 'aerofoil-flow', icon: 'wind', ask: 'What happens to the air between leading and trailing edge?', dgca: true,
+    { id: 'flow', short: 'Air round the wing', part: 'Air round the aerofoil', type: 'svg', fig: 'aerofoil-flow', icon: 'wind', ask: 'What happens to the air between leading and trailing edge?', dgca: true,
       takeaway: 'Air stops dead at the leading-edge stagnation point (maximum pressure), divides, speeds up to its fastest and lowest pressure near maximum camber, then slows against a rising (adverse) pressure. The boundary layer starts laminar, turns turbulent at the transition point and finally separates where it runs out of energy.',
       hook: 'Stop, split, speed up, slow down, split off.' },
-    { id: 'bl', type: 'pairs', icon: 'layers', ask: 'Laminar or turbulent: which boundary layer do we want?', dgca: true,
+    { id: 'bl', hook: 'Laminar is slick but quits; turbulent rubs but clings.', short: 'Laminar vs turbulent', takeaway: 'The laminar layer is thin with little friction but separates easily; the turbulent layer has more friction but more energy, so it clings on against the adverse pressure gradient. Roughness and speed move the transition point forward.', type: 'pairs', icon: 'layers', ask: 'Laminar or turbulent: which boundary layer do we want?', dgca: true,
       pairs: [
         { a: { label: 'Laminar layer', body: 'Before transition. **Thin, smooth, steady**; moderate velocity gradient; **low skin friction**; low energy, so it **separates easily**.' }, b: { label: 'Turbulent layer', body: 'After transition. **Thick, unsteady**; high velocity gradient; **more skin friction** but high kinetic energy, so it **resists separation**.' }, rule: 'Turbulent is preferred for delaying separation; a thin sub-laminar layer under it keeps friction down.' },
         { a: { label: 'Transition point', body: 'Laminar → turbulent; usually at **minimum pressure / maximum camber**. Moves **forward** with **roughness** and **speed**.' }, b: { label: 'Separation point', body: 'Where the boundary layer leaves the surface because it lacks the energy to fight the **adverse pressure gradient**. Moves forward as AoA rises.' }, rule: 'Transition changes the layer; separation ends it.' },
       ] },
-    { id: 'aoa-steps', type: 'sequence', icon: 'rotate', ask: 'How does lift build as the nose comes up?',
+    { id: 'aoa-steps', short: 'Lift vs angle of attack', takeaway: 'From zero lift at about −4°, lift grows as the suction peak strengthens and moves forward — best L/D near 4° — until near 16° the separation point races forward and the wing stalls.', type: 'sequence', icon: 'rotate', ask: 'How does lift build as the nose comes up?',
       steps: [
         { label: '−4°', sub: 'zero lift', tip: 'Pressure drop on top equals the drop underneath: no lift on a typical cambered section.' },
         { label: '0°', sub: 'lift begins', tip: 'Flow over the top accelerates; static pressure on top falls well below that underneath. The LE stagnation point moves from the upper to the lower surface as AoA rises.' },
@@ -32,13 +33,13 @@ module.exports = {
         { label: '16°', sub: 'stall', tip: 'Transition and separation points race forward, the adverse gradient steepens, the flow leaves the top contour and the low-pressure area collapses.' },
       ] },
 
-    { id: 'lift-eq', part: 'Lift', type: 'formulas', icon: 'calc', ask: 'The lift equation and what it tells you', revise: true, dgca: true,
+    { id: 'lift-eq', hook: 'Same IAS, same lift, any height.', short: 'Lift equation', takeaway: 'L = CL × ½ρV² × S, with V as TAS. The same IAS gives the same lift at any height; doubling the speed lets CL fall to a quarter.', part: 'Lift', type: 'formulas', icon: 'calc', ask: 'The lift equation and what it tells you', revise: true, dgca: true,
       items: [
         { name: 'Lift', eq: 'L = C<sub>L</sub> × ½ ρ V² × S', note: 'V is **TAS**. ½ρV² is dynamic pressure, so the same IAS gives the same lift at any height.', calc: { inputs: [{ k: 'c', label: 'CL', v: 0.5 }, { k: 'r', label: 'ρ (kg/m³)', v: 1.225 }, { k: 'v', label: 'TAS (m/s)', v: 70 }, { k: 's', label: 'Wing area (m²)', v: 30 }], f: 'c*0.5*r*v*v*s', unit: 'N' } },
         { name: 'CL needed for level flight', eq: 'C<sub>L</sub> = W ÷ (½ ρ V² S)', note: 'Double the speed → CL (and roughly AoA) to **¼**.', calc: { inputs: [{ k: 'w', label: 'Weight (N)', v: 60000 }, { k: 'r', label: 'ρ (kg/m³)', v: 1.225 }, { k: 'v', label: 'TAS (m/s)', v: 70 }, { k: 's', label: 'Wing area (m²)', v: 30 }], f: 'w/(0.5*r*v*v*s)', unit: '' } },
         { name: 'Speed for a new CL', eq: 'V₂ = V₁ × √(C<sub>L1</sub> ÷ C<sub>L2</sub>)', note: 'Lift constant: V² × CL is constant.', calc: { inputs: [{ k: 'v', label: 'V₁ (kt)', v: 100 }, { k: 'a', label: 'CL₁', v: 0.4 }, { k: 'b', label: 'CL₂', v: 1.6 }], f: 'v*Math.sqrt(a/b)', unit: 'kt' } },
       ] },
-    { id: 'lift-curve', type: 'chart', icon: 'pulse', ask: 'How does camber change the lift curve?', dgca: true,
+    { id: 'lift-curve', short: 'Camber and the lift curve', type: 'chart', icon: 'pulse', ask: 'How does camber change the lift curve?', dgca: true,
       takeaway: 'A symmetric section gives no lift at 0° and its curve passes through the origin. Camber moves the whole curve up and to the left: lift at 0°, a negative zero-lift angle, a higher CLmax and a slightly lower stalling angle.',
       hook: 'Camber climbs: up and left.',
       xlab: 'angle of attack (°)', ylab: 'CL', xmin: -6, xmax: 20, ymin: -0.6, ymax: 1.8, xticks: [-4, 0, 4, 8, 12, 16], yticks: [-0.5, 0, 0.5, 1, 1.5],
@@ -47,7 +48,7 @@ module.exports = {
         { label: 'cambered', pts: [[-6, -0.2], [-4, 0], [0, 0.4], [4, 0.8], [8, 1.2], [11, 1.45], [13.5, 1.58], [15, 1.45], [17, 1.15]], dots: [[-4, 0, '−4° zero lift'], [13.5, 1.58, 'CLmax']], labelAt: 8 },
       ],
       note: 'Read across: at 0° the cambered wing already has CL 0.4.' },
-    { id: 'cl-factors', type: 'matrix', icon: 'sliders', ask: 'What does each design change do to the lift curve?', revise: true, dgca: true,
+    { id: 'cl-factors', hook: 'Camber lifts the max; sweep raises the angle, lowers the max.', short: 'What shapes the lift curve', takeaway: 'More camber raises CLmax; higher aspect ratio steepens the curve and lowers the stalling angle; sweepback lowers CLmax but raises the stalling angle; a rough or sharp leading edge brings an earlier, more abrupt stall; higher Reynolds number helps.', type: 'matrix', icon: 'sliders', ask: 'What does each design change do to the lift curve?', revise: true, dgca: true,
       corner: 'If you increase…', cols: ['CLmax', 'Stalling AoA', 'Note'],
       rows: [
         { label: 'Camber', cells: [{ v: 'higher', key: true }, 'lower', 'curve up and left; lower stall speed'] },
@@ -57,14 +58,14 @@ module.exports = {
         { label: 'LE roughness', cells: ['lower', 'lower', 'roughness aft of 20% chord: no effect'] },
         { label: 'Reynolds number', cells: ['higher', 'higher', 'earlier turbulent layer delays separation'] },
       ] },
-    { id: 'lift-facts', type: 'bullets', icon: 'list', ask: 'Lift facts examiners love',
+    { id: 'lift-facts', short: 'Lift facts', takeaway: 'V in the lift equation is TAS; most lift comes from the upper surface; best L/D is near 4°; and sharp-edged wings can use a leading-edge vortex for extra lift.', type: 'bullets', icon: 'list', ask: 'Lift facts examiners love',
       groups: [
         { title: 'Speed and density', icon: 'gauge', points: ['V in the equation is **TAS**', 'Same **IAS** → same lift and drag at any height', 'Same TAS, thinner air → less lift, less drag', '40,000 ft: ρ ≈ ¼ → TAS 2× for the same IAS'] },
         { title: 'Where lift comes from', icon: 'wind', points: ['Mostly from the **upper surface**', 'Best L/D ≈ **4°**, CL 12–25 × CD', 'Greatest lift ≈ 16°, least drag ≈ −2°', 'Minimum flying IAS set by **CLmax**'] },
         { title: 'Leading-edge vortex', icon: 'rotate', points: ['Sharp LE: laminar flow separates at the nose', 'A stationary vortex ("bubble") forms under it', 'Used on swept and delta wings to raise CL', 'May re-attach as a turbulent layer'] },
       ] },
 
-    { id: 'drag-sort', part: 'Drag', type: 'classify', icon: 'grid', ask: 'Parasite or induced?', tier: 'exam',
+    { id: 'drag-sort', short: 'Parasite or induced', part: 'Drag', type: 'classify', icon: 'grid', ask: 'Parasite or induced?', tier: 'exam',
       buckets: [{ id: 'p', label: 'Parasite drag' }, { id: 'i', label: 'Induced drag' }],
       items: [
         { text: 'Skin friction in the boundary layer', bucket: 'p' }, { text: 'Form (pressure) drag', bucket: 'p' }, { text: 'Wing–fuselage junction', bucket: 'p', why: 'Interference drag is parasite.' },
@@ -73,16 +74,16 @@ module.exports = {
         { text: 'Up to ¾ of drag at take-off', bucket: 'i' }, { text: 'Halved by doubling aspect ratio', bucket: 'i' }, { text: 'Reduced by winglets', bucket: 'i' },
       ],
       takeaway: 'Parasite drag is the price of moving through air; induced drag is the price of making lift.' },
-    { id: 'vortex', type: 'svg', fig: 'tip-vortex', icon: 'rotate', ask: 'Why does making lift create drag?', dgca: true,
+    { id: 'vortex', short: 'Tip vortices', type: 'svg', fig: 'tip-vortex', icon: 'rotate', ask: 'Why does making lift create drag?', dgca: true,
       takeaway: 'High pressure under the wing spills round the tip to the low pressure on top: outward underneath, inward on top. The vortices shed at the tips push the air behind the wing down (induced downwash), which tilts the lift vector rearward. That rearward component is induced drag.',
       hook: 'Out below, in above, round the tip: the lift leans back.' },
-    { id: 'wake', type: 'bullets', icon: 'alert', ask: 'Wake vortices: what makes the worst one?',
+    { id: 'wake', short: 'Wake turbulence', takeaway: 'Wake vortices are strongest behind heavy, clean, slow aircraft; they sink about 1000 ft, trail up to 9 nm and drift along the ground in light winds.', type: 'bullets', icon: 'alert', ask: 'Wake vortices: what makes the worst one?',
       groups: [
         { title: 'Strongest when', icon: 'weight', points: ['**Heavy**', '**Clean** (flaps up)', '**Slow** → high AoA', 'More lift = bigger pressure difference'] },
         { title: 'Where it goes', icon: 'route', points: ['Sinks about **1000 ft**', 'Trails up to **9 nm**', 'Below 1000 ft AGL spreads ~**2 spans** along the ground', 'Crosswind can carry it onto a parallel runway'] },
         { title: 'What it does to the wing', icon: 'plane', points: ['Induced downwash lowers effective AoA', 'Lift tilts back → induced drag', 'Less tailplane AoA → less longitudinal stability'] },
       ] },
-    { id: 'drag-factors', type: 'matrix', icon: 'scale', ask: 'What changes each kind of drag?', revise: true, dgca: true,
+    { id: 'drag-factors', hook: 'Parasite grows with speed squared; induced falls with it.', short: 'Drag factor table', takeaway: 'Parasite drag grows with the square of speed and with gear and flaps but ignores weight; induced drag falls with the square of speed, rises with weight and falls with higher aspect ratio.', type: 'matrix', icon: 'scale', ask: 'What changes each kind of drag?', revise: true, dgca: true,
       corner: 'Change', cols: ['Parasite drag', 'Induced drag'],
       rows: [
         { label: '2 × EAS', cells: [{ v: '4 ×', key: true }, { v: '¼ (CDi to 1/16)', key: true }] },
@@ -94,10 +95,10 @@ module.exports = {
         { label: 'More sweepback', cells: ['—', 'more'] },
         { label: 'Elliptical planform', cells: ['—', { v: 'minimum (e = 1)', key: true }] },
       ] },
-    { id: 'drag-curve', type: 'svg', fig: 'drag-curve', icon: 'pulse', ask: 'Which speed gives what?', dgca: true,
+    { id: 'drag-curve', short: 'The drag curve', type: 'svg', fig: 'drag-curve', icon: 'pulse', ask: 'Which speed gives what?', dgca: true,
       takeaway: 'Total drag is least where parasite drag equals induced drag: VMD, about 4° AoA and best L/D. VMP (0.76 VMD) gives least power: prop endurance and minimum sink. 1.32 VMD, where a line from the origin touches the curve, gives jet range.',
       hook: 'VMD is RAGE: Range (props), Angle of climb, Glide range, Endurance (jets).' },
-    { id: 'curve-shift', type: 'stamp', icon: 'check', ask: 'Does VMD go up or down?', tier: 'exam',
+    { id: 'curve-shift', short: 'Does VMD move?', takeaway: 'Anything that adds parasite drag (flaps, gear, damage) lowers VMD; more weight raises it.', type: 'stamp', icon: 'check', ask: 'Does VMD go up or down?', tier: 'exam',
       stamps: [{ id: 'up', label: 'VMD increases' }, { id: 'dn', label: 'VMD decreases' }],
       cases: [
         { text: 'The aircraft is heavier.', answer: 'up', why: 'More weight moves the Dp/Di crossing to a higher speed; VMP rises too.' },
@@ -105,22 +106,22 @@ module.exports = {
         { text: 'A bird strike damages the leading edge.', answer: 'dn', why: 'Damage adds parasite drag, like extra configuration drag.' },
         { text: 'Fuel is burnt off on a long cruise.', answer: 'dn', why: 'Lighter aircraft → lower VMD.' },
       ] },
-    { id: 'drag-eq', type: 'formulas', icon: 'calc', ask: 'Drag formulas', revise: true,
+    { id: 'drag-eq', short: 'Drag formulas', takeaway: 'Parasite drag ∝ V², CDi = CL² ÷ πAe, and induced drag ∝ 1/V². VMP is 0.76 VMD; jet best range is at 1.32 VMD.', type: 'formulas', icon: 'calc', ask: 'Drag formulas', revise: true,
       items: [
         { name: 'Parasite drag', eq: 'D<sub>p</sub> = ½ ρ V² C<sub>Dp</sub> S', note: 'Grows with the square of EAS.' },
         { name: 'Induced drag coefficient', eq: 'C<sub>Di</sub> = C<sub>L</sub>² ÷ (π A e)', note: 'e = 1 for an elliptical wing.', calc: { inputs: [{ k: 'c', label: 'CL', v: 0.5 }, { k: 'a', label: 'Aspect ratio', v: 8 }, { k: 'e', label: 'e', v: 0.85 }], f: 'c*c/(Math.PI*a*e)', unit: '' } },
         { name: 'Induced drag with speed', eq: 'D<sub>i2</sub> = D<sub>i1</sub> × (V₁ ÷ V₂)²', calc: { inputs: [{ k: 'd', label: 'Di at V₁ (N)', v: 4000 }, { k: 'a', label: 'V₁ (kt)', v: 120 }, { k: 'b', label: 'V₂ (kt)', v: 240 }], f: 'd*(a/b)*(a/b)', unit: 'N' } },
         { name: 'VMP and jet range speed', eq: 'VMP = 0.76 VMD &nbsp; · &nbsp; V<sub>jet range</sub> = 1.32 VMD', calc: { inputs: [{ k: 'v', label: 'VMD (kt)', v: 200 }], f: "'VMP ' + Math.round(0.76*v) + ' kt · 1.32 VMD ' + Math.round(1.32*v)", out: '', unit: 'kt' } },
       ] },
-    { id: 'ground', part: 'Ground effect', type: 'pairs', icon: 'plane', ask: 'What changes inside ground effect?', dgca: true,
+    { id: 'ground', short: 'Ground effect', part: 'Ground effect', type: 'pairs', icon: 'plane', ask: 'What changes inside ground effect?', dgca: true,
       takeaway: 'Within about half a wingspan of the ground the vortices are squashed, downwash weakens and effective AoA rises. Induced drag falls, so the aircraft floats; the tail loses downwash, so the nose pitches down; and the static ports see higher pressure, so ASI and altimeter under-read.',
       hook: 'Half a span: float, nose drops, gauges low.',
       pairs: [
         { a: { label: 'Entering (landing)', body: '**Less AoA** needed for the same lift; **induced drag falls** → slower deceleration → **longer float**; less downwash on tail → **nose-down**; **ASI and altimeter under-read**.' }, b: { label: 'Danger', body: 'If you arrive at a **high AoA**, ground effect raises the **effective** AoA further and can stall the wing — worst on high-AR and swept wings.' }, rule: 'Ground effect lowers induced drag only; parasite drag is unchanged.' },
       ] },
-    { id: 'numbers', part: 'Numbers', type: 'numbers', icon: 'hash', ask: 'Numbers to know',
+    { id: 'numbers', short: 'Numbers', part: 'Numbers', type: 'numbers', icon: 'hash', ask: 'Numbers to know',
       items: [{ k: 'BL edge', v: '99%', note: 'of free-stream speed' }, { k: 'BL thickness', v: '2 mm LE · 20 mm TE' }, { k: 'Zero-lift AoA (cambered)', v: '≈ −4°' }, { k: 'Best L/D AoA', v: '≈ 4°', note: 'CL 12–25 × CD' }, { k: 'Stalling AoA', v: '≈ 16°' }, { k: 'Least drag AoA', v: '≈ −2°' }, { k: 'LE roughness ignored aft of', v: '20% chord' }, { k: 'Gear/flaps parasite rise', v: 'up to 80%' }, { k: 'Induced share at take-off', v: 'up to ¾' }, { k: 'Vortex sink', v: '≈ 1000 ft' }, { k: 'Vortex trail', v: 'up to 9 nm' }, { k: 'VMP', v: '0.76 VMD' }, { k: 'Jet range speed', v: '1.32 VMD' }, { k: 'Ground effect within', v: '½ wingspan' }, { k: 'Low-drag max thickness', v: '40–50% chord' }] },
-    { id: 'quiz', type: 'quiz', icon: 'check', ask: 'Quick check',
+    { id: 'quiz', short: 'Quick check', type: 'quiz', icon: 'check', ask: 'Quick check',
       questions: [
         { q: 'At the leading-edge stagnation point:', options: ['Velocity is maximum, pressure minimum', 'Velocity is zero, pressure maximum', 'Dynamic pressure is maximum', 'The boundary layer separates'], answer: 1 },
         { q: 'Compared with a laminar boundary layer, a turbulent one has:', options: ['Less skin friction and separates sooner', 'More skin friction but resists separation', 'Less skin friction and resists separation', 'No effect on separation'], answer: 1 },

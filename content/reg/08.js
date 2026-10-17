@@ -13,12 +13,12 @@ module.exports = {
         { label: 'Lights', children: [{ label: 'Vis ≤ 5,000 m by day' }, { label: 'PAPI always' }, { label: '15 min after T/O' }] },
         { label: 'Surface', children: [{ label: 'Friction 0.40 good' }, { label: 'Thirds of the runway' }, { label: 'Hot spots' }] },
       ] } },
-    { id: 'positions', short: 'Tower positions', part: 'Inside the tower', type: 'tree', icon: 'tower', ask: 'Who in the tower is responsible for what?', dgca: true,
+    { id: 'positions', short: 'Tower positions', part: 'Inside the tower', type: 'mindmap', icon: 'tower', ask: 'Who in the tower is responsible for what?', dgca: true,
       takeaway: 'The aerodrome controller has the runway and the air around the aerodrome. The ground controller has the manoeuvring area except the runways. Clearance delivery gives start-up and ATC clearances to departing IFR flights.',
       hook: 'Runway = Tower; Taxiway = Ground; Paperwork = Delivery.',
-      root: { label: 'Aerodrome control tower', sub: 'prevents collisions on and near the aerodrome', children: [
+      root: { label: 'Aerodrome control tower · prevents collisions on and near the aerodrome', children: [
         { label: 'Aerodrome controller', icon: 'plane', children: [{ label: 'Runway operations' }, { label: 'Aircraft in the tower\'s area, incl. circuits' }, { label: 'One per parallel runway', tip: 'Where parallel or near-parallel runways are used simultaneously, each runway should have its own aerodrome controller.' }] },
-        { label: 'Ground controller', icon: 'route', children: [{ label: 'Manoeuvring area', sub: 'EXCEPT runways' }, { label: 'Vehicles, towed aircraft, people' }] },
+        { label: 'Ground controller', icon: 'route', children: [{ label: 'Manoeuvring area · EXCEPT runways' }, { label: 'Vehicles, towed aircraft, people' }] },
         { label: 'Clearance delivery', icon: 'doc', children: [{ label: 'Start-up clearance' }, { label: 'ATC clearance to departing IFR' }] },
         { label: 'Alerting', icon: 'alert', children: [{ label: 'Calls rescue & fire-fighting', tip: 'Accident on or near the aerodrome; safety of an aircraft impaired; on crew request; or whenever desirable.' }] },
       ] } },
@@ -28,7 +28,7 @@ module.exports = {
         { title: 'On the ground', icon: 'route', points: ['Aircraft on the manoeuvring area', 'Aircraft and vehicles on the manoeuvring area', 'Aircraft and obstructions on the manoeuvring area'] },
         { title: 'How', icon: 'eye', points: ['Continuous **visual** watch, plus surveillance in low visibility', 'Local rules and Temporary Local Instructions', 'Circuits of all aerodromes in one CTR coordinated'] },
       ] },
-    { id: 'startup', short: 'Gate to runway', takeaway: 'Close the doors before calling, give persons on board and security status, take the taxi information, get an explicit cross or hold-short, finish checks, then take off on a clearance that names the runway.', part: 'Start-up to take-off', type: 'sequence', icon: 'plane', ask: 'From the gate to the runway', dgca: true,
+    { id: 'startup', hook: 'Doors closed before you call.', short: 'Gate to runway', takeaway: 'Close the doors before calling, give persons on board and security status, take the taxi information, get an explicit cross or hold-short, finish checks, then take off on a clearance that names the runway.', part: 'Start-up to take-off', type: 'sequence', icon: 'plane', ask: 'From the gate to the runway', dgca: true,
       steps: [
         { label: 'Before calling', sub: 'doors closed', tip: 'Step ladder or aerobridge removed and doors closed before asking for start-up or push-back.' },
         { label: 'Start-up request', sub: 'POB + security', tip: 'Give the total persons on board including crew, and that the security check is complete.' },
@@ -49,7 +49,7 @@ module.exports = {
         { name: 'Visibility (if < 10 km) or RVR', trick: '5th', emoji: '5' },
         { name: 'Correct time', trick: '6th', emoji: '6' },
       ] },
-    { id: 'runway-rules', short: 'Runway rules', takeaway: 'Report "vacated" only when the whole aircraft is past the holding position; tell ATC before taxi if you need to back-track; only one aircraft is cleared to land at a time.', part: 'On the manoeuvring area', type: 'bullets', icon: 'route', ask: 'Rules for using the runway', dgca: true,
+    { id: 'runway-rules', hook: 'Vacated means the tail is past the line.', short: 'Runway rules', takeaway: 'Report "vacated" only when the whole aircraft is past the holding position; tell ATC before taxi if you need to back-track; only one aircraft is cleared to land at a time.', part: 'On the manoeuvring area', type: 'bullets', icon: 'route', ask: 'Rules for using the runway', dgca: true,
       groups: [
         { title: 'Taxiing on the runway in use', icon: 'route', points: ['Allowed if no delay or risk to others', 'Back-track: tell ATC **before taxiing**', 'No holding on the runway in use without permission'] },
         { title: '"Runway vacated"', icon: 'check', points: ['Reported when the **entire aircraft** is beyond the runway-holding position', 'Asked for when the tower cannot see it itself'] },

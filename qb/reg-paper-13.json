@@ -1,0 +1,466 @@
+{
+"title": "Sample paper 13",
+"src": "Bali AR, Sample Question Papers",
+"qs": [
+{
+"n": 4,
+"q": "An aircraft being towed by night must display:",
+"o": [
+"The same lights that are required in flight.",
+"Flashing navigation lights.",
+"Steady navigation lights."
+],
+"a": 0
+},
+{
+"n": 5,
+"q": "A revised estimate shall be notified if the ETA destination passed by aircraft varies by:",
+"o": [
+"3 minutes.",
+"2 minutes.",
+"5 minutes."
+],
+"a": 1
+},
+{
+"n": 6,
+"q": "• While on IF flight, a pilot has an emergency which causes a deviation from an ATC clearance, what action must be taken?",
+"o": [
+"Squawk 7700.",
+"The appropriate ATC unit shall be notified of the action taken as soon as circumstances permit.",
+"Request an amended clearance or cancel the IFR flight plan."
+],
+"a": 1
+},
+{
+"n": 7,
+"q": "All flights above flight levels are to be cleared IFR irrespective of weather Conditions:",
+"o": [
+"F 280.",
+"F 150.",
+"F 140."
+],
+"a": 1
+},
+{
+"n": 8,
+"q": "What is the meaning of AGL?",
+"o": [
+"Altitude of ground level.",
+"Aerodrome ground level.",
+"Above ground level."
+],
+"a": 2
+},
+{
+"n": 9,
+"q": "For operation in Class 'C and D' airspace in India, aircraft shall be equipped with appropriate:",
+"o": [
+"Two-way HF radio apparatus, and a compass.",
+"Two-way VHF radio apparatus, and a radio compass.",
+"Two-way radio apparatus, and a navigation aid."
+],
+"a": 1
+},
+{
+"n": 10,
+"q": "PIC of an aeroplane shall be responsible for:",
+"o": [
+"Sate conduct of flight outside controlled airspace only.",
+"Obstacle clearance when being vectored on radar.",
+"Safe conduct of flight at all times."
+],
+"a": 2
+},
+{
+"n": 11,
+"q": "A signalman will ask the pilot to apply parking brakes by the following signals:",
+"o": [
+"Raise arm and hand, with fingers extended, horizontally in front of body, then clench fist.",
+"Arms down, palms facing inwards, moving arms from extended position inwards.",
+"Horizontally moving his hands, fingers extended, palms toward ground."
+],
+"a": 0
+},
+{
+"n": 12,
+"q": "To perform a VFR flight in airspace classification E:",
+"o": [
+"A clearance and/or two-way radio communication is required.",
+"A clearance is required.",
+"Two-way radio communication is not required."
+],
+"a": 2
+},
+{
+"n": 13,
+"q": "Which condition is requested so that an aerodrome may be considered controlled?",
+"o": [
+"The aerodrome shall be provided with a Control Tower.",
+"The aerodrome shall be located within a Control Zone (CTR) and provided with a Control Tower.",
+"The aerodrome shall be located within a Control Zone."
+],
+"a": 0
+},
+{
+"n": 14,
+"q": "An ATS airspace where IFR and VFR flights are permitted, all flights are subject to air traffic control service and are separated from each other is classified as:",
+"o": [
+"Airspace C.",
+"Airspace B.",
+"Airspace D."
+],
+"a": 1
+},
+{
+"n": 15,
+"q": "Which statement regarding aerodrome control service is correct?",
+"o": [
+"An aircraft entering the traffic circuit without permission of ATC, will be cleared to land if this is desirable.",
+"Suspension of VFR operations cannot be initiated by the aerodrome controller.",
+"ATC permission is required for entering the apron in a vehicle."
+],
+"a": 2
+},
+{
+"n": 16,
+"q": "Air Traffic Control service shall be provided to:",
+"o": [
+"All IF flights in class A, B, C, D, E and F airspace.",
+"All VFR flights in class B, C, D and E airspace.",
+"To all aerodrome traffic at controlled aerodromes."
+],
+"a": 2
+},
+{
+"n": 17,
+"q": "The ATIS broadcast message should, whenever practicable, not exceed:",
+"o": [
+"30 seconds.",
+"1 minute.",
+"2 minutes."
+],
+"a": 0
+},
+{
+"n": 18,
+"q": "ATC clearances are solely issued for:",
+"o": [
+"Alerting pilots about other aircraft in close vicinity.",
+"Making pilots follow laid down procedures.",
+"Expediting and separating air traffic."
+],
+"a": 2
+},
+{
+"n": 19,
+"q": "\"Time Approach Procedure\" is used as necessary to expedite the approach of a number of arriving aircraft. This will be obtained requesting aircraft:",
+"o": [
+"To maintain a specified speed during the approach procedure.",
+"To pass the specified point inbound at the previously notified time.",
+"To apply a step down descent between aircraft in the approach sequence."
+],
+"a": 1
+},
+{
+"n": 20,
+"q": "Operational Threats outside the control of light crew are:",
+"o": [
+"Adverse weather, Terrain, Airport conditions, Heavy traffic/TCAS events, Unfamiliar airports etc.",
+"Time pressure, Irregular operations, Flight diversions, Missed approaches etc.",
+"Aircraft malfunctions, Automation events etc."
+],
+"a": 1
+},
+{
+"n": 21,
+"q": "Secondary Surveillance Radar (SSR) information may be used alone in the provision of separation between aircraft provided:",
+"o": [
+"Instructions to pilot are acknowledged by him by making specific maneuver(s).",
+"Aircraft identification is established and maintained by use of discrete SSR codes.",
+"It cannot be used for providing separation."
+],
+"a": 1
+},
+{
+"n": 22,
+"q": "The information concerning charges for aerodromes/heliports and Air Navigation Services are on the following part of the AIP:",
+"o": [
+"AD.",
+"GEN.",
+"FAL."
+],
+"a": 1
+},
+{
+"n": 23,
+"q": "\"TODA\" take-off distance available is:",
+"o": [
+"The length of the take-off run available plus the length of the clearway (if provided).",
+"The length of the take-off run available plus the length of stopway and clearway (if provided).",
+"The length of the take-off run plus the length of the stopway."
+],
+"a": 0
+},
+{
+"n": 24,
+"q": "The \"PAPI\" shall consist of:",
+"o": [
+"Two wing bars of 4 sharp transition multi-lamp or paired units equally spaced.",
+"A wing bar of 4 sharp transition multi-lamp or paired units equally spaced.",
+"Two wing bars of 6 sharp transition multi-lamp or paired units equally spaced."
+],
+"a": 1
+},
+{
+"n": 25,
+"q": "Transition from altitude to flight level, and vice-versa is done:",
+"o": [
+"At transition level during climb and transition altitude during descent.",
+"At transition altitude during climb and transition level during descent.",
+"Only at transition altitude."
+],
+"a": 1
+},
+{
+"n": 26,
+"q": "Which of the following correctly defines flight level?",
+"o": [
+"Vertical position with reference to MSL.",
+"Vertical position with reference to aerodrome elevation.",
+"Vertical position with reference to the standard pressure level."
+],
+"a": 2
+},
+{
+"n": 27,
+"q": "What is defined as the portion of a flight in which the aircraft descends below 1000 ft above the relevant DH or MDH?",
+"o": [
+"Glide path.",
+"Approach to landing.",
+"Go around / Missed Approach."
+],
+"a": 1
+},
+{
+"n": 28,
+"q": "The main factor that dictates in general the design of an instrument departure procedure is:",
+"o": [
+"ATC availability and requirements.",
+"Availability of navigation aids.",
+"The terrain surrounding the aerodrome."
+],
+"a": 2
+},
+{
+"n": 29,
+"q": "Which are the phases of a missed approach procedure?",
+"o": [
+"Arrival, initial, intermediate and final.",
+"Initial, intermediate and final.",
+"Initial and final."
+],
+"a": 1
+},
+{
+"n": 30,
+"q": "Pilots logbook is to be preserved for.",
+"o": [
+"5 years from the date of starting the logbook.",
+"5 years from the date of last entry.",
+"3 years from the date of last entry."
+],
+"a": 1
+},
+{
+"n": 31,
+"q": "One pilot will be designated as PIC of a public transport aircraft for each flight by:",
+"o": [
+"The operator.",
+"DGCA.",
+"Flying contract unit."
+],
+"a": 0
+},
+{
+"n": 32,
+"q": "An applicant for a Commercial Pilot License aeroplane shall have completed not less than _hours of cross country flight time as pilot-in-command including a cross country flight totaling not less than km ( _NM), in the course of which full stop landings at two different aerodromes shall be made. The hours and distance referred are:",
+"o": [
+"15 hours and 540km (300NM).",
+"20 hours and 540km (300NM).",
+"10 hours and 270km (150NM)."
+],
+"a": 1
+},
+{
+"n": 33,
+"q": "If, after commencing an instrument approach, the reported RVR/Visibility falls below the applicable minimum, the approach shall not be continued:",
+"o": [
+"Below MDA/DA, as applicable.",
+"Below AOM published for the aerodrome.",
+"Below 1000 ft above the aerodrome."
+],
+"a": 2
+},
+{
+"n": 34,
+"q": "A fast decompression is recognizable by the following elements: 1. Mist in the cabin. 2. Blast towards the exterior of the aircraft. 3. Expansion of body gases. 4. Blast of air released violently from the lungs. The combination of correct statements is:",
+"o": [
+"1, 4.",
+"1, 2, 3, 4.",
+"1, 2, 3."
+],
+"a": 1
+},
+{
+"n": 35,
+"q": "Weather radar is?",
+"o": [
+"Centimetric.",
+"Decimetric.",
+"Metric."
+],
+"a": 0
+},
+{
+"n": 36,
+"q": "What is the correct way of transmitting the number 13500?",
+"o": [
+"One three five zero zero.",
+"One three five hundred.",
+"One three thousand five hundred."
+],
+"a": 2
+},
+{
+"n": 37,
+"q": "Which of the following statements is correct?",
+"o": [
+"The urgency communications have priority over all the other communications.",
+"The urgency communications have priority over all the other communications, except distress.",
+"ATC clearances have the same priority as urgency communications."
+],
+"a": 1
+},
+{
+"n": 39,
+"q": "Which of the following Annexes to the Chicago convention contains international standards and recommended practices for air traffic services (ATS)?",
+"o": [
+"Annex 6.",
+"Annex 14.",
+"Annex 11."
+],
+"a": 2
+},
+{
+"n": 40,
+"q": "The atmosphere contains the following gases:",
+"o": [
+"78% nitrogen, 21% oxygen, 0.03% carbon dioxide, rest rare gases.",
+"78% helium, 21% oxygen, 0.03% carbon dioxide, rest: rare gases.",
+"78% nitrogen, 21% oxygen, 1% carbon monoxide, rest: rare gases."
+],
+"a": 0
+},
+{
+"n": 41,
+"q": "Fatigue and permanent concentration:",
+"o": [
+"Increase the tolerance to hypoxia.",
+"Lower the tolerance to hypoxia.",
+"Do not affect hypoxia at all."
+],
+"a": 1
+},
+{
+"n": 42,
+"q": "An increase in the amount of carbon dioxide in the blood leads to:",
+"o": [
+"A decrease of acidity in the blood.",
+"A reduction of red blood cells.",
+"Shortness of breath."
+],
+"a": 2
+},
+{
+"n": 43,
+"q": "A pilot climbing in a non-pressurized aircraft and without using supplemental oxygen will pass the \"critical threshold\" at approximately:",
+"o": [
+"16000 ft.",
+"18000 ft.",
+"22000 ft."
+],
+"a": 2
+},
+{
+"n": 44,
+"q": "Breathing 100% OXYGEN will lift the pilot's physiological safe altitude to approximately:",
+"o": [
+"38000 ft.",
+"10000 ft.",
+"20000 ft."
+],
+"a": 0
+},
+{
+"n": 45,
+"q": "The parts) of the eye responsible for night vision:",
+"o": [
+"Are the cones and rods.",
+"Is the cornea.",
+"Are rods."
+],
+"a": 2
+},
+{
+"n": 46,
+"q": "Empty field myopia is caused by:",
+"o": [
+"Atmospheric perspective.",
+"Lack of distant focal points.",
+"Flying over mountainous terrain."
+],
+"a": 1
+},
+{
+"n": 47,
+"q": "It is inadvisable to fly when suffering from a cold. The reason for this is:",
+"o": [
+"The tissue around the nasal end of the Eustachian tube is likely to be swollen thus causing difficulty in equalizing the pressure within the middle ear and the nasal/throat area. Pain and damage to the eardrum can result, particularly during fast descents.",
+"Although the change in air pressure during a climb at lower altitudes is very small, it increases rapidly at high altitudes. If the tissue in the Eustachian tube of the ear is swollen, gentle descents at high altitude would result in damage to the ear drum.",
+"Swollen tissue in the inner ear will increase the rate of metabolic production resulting in hyperventilation."
+],
+"a": 0
+},
+{
+"n": 48,
+"q": "The metabolization of alcohol:",
+"o": [
+"Is quicker when used to it.",
+"Is a question of time.",
+"Can be influenced by easy-to-get medication."
+],
+"a": 1
+},
+{
+"n": 49,
+"q": "Acute stress quickly leads to:",
+"o": [
+"A decrease in the amount of resources mobilized to face the situation.",
+"A state of over activation beyond the control of willpower.",
+"The mobilization of resources required to cope with the stressors."
+],
+"a": 2
+},
+{
+"n": 50,
+"q": "In a complex task high level of arousal:",
+"o": [
+"Reduce failures.",
+"Lead to better decision-making.",
+"Narrows the span of attention."
+],
+"a": 2
+}
+]
+}

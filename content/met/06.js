@@ -49,7 +49,7 @@ module.exports = {
     { id: 'gradient', type: 'svg', fig: 'gradient-wind', icon: 'rotate', ask: 'Why is the wind weaker round a low than round a high?',
       takeaway: 'On curved isobars a third force (centripetal) is needed. Round a low the wind is sub-geostrophic; round a high it is super-geostrophic.',
       hook: 'Lows are Less, Highs are Higher.' },
-    { id: 'winds-table', type: 'matrix', icon: 'list', ask: 'Which balanced wind is which?', revise: true, dgca: true,
+    { id: 'winds-table', takeaway: 'Geostrophic: pressure force = Coriolis on straight isobars. Gradient adds curvature. Cyclostrophic: pressure force = centripetal, in a cyclone core. Inertial: no pressure force, always anticyclonic. Thermal: the vector difference between levels, cold air on the left (NH).', hook: 'Straight, curved, spinning, coasting, thermal.', type: 'matrix', icon: 'list', ask: 'Which balanced wind is which?', revise: true, dgca: true,
       corner: 'Wind', cols: ['Forces in balance', 'Isobars', 'Where it fits'],
       rows: [
         { label: 'Geostrophic', cells: ['PGF = Coriolis', 'Straight, parallel', { v: 'Mid-latitudes; fails at equator', key: true }] },
@@ -62,7 +62,7 @@ module.exports = {
     { id: 'friction', type: 'svg', fig: 'friction-wind', icon: 'waves', ask: 'What does friction do to the wind?', dgca: true,
       takeaway: 'Within the friction layer (about 1 km) the wind slows and turns towards the low: about 15° and ⅔ speed over the sea, about 30° and ⅓–½ speed over land.',
       hook: 'Sea 15, Land 30.' },
-    { id: 'diurnal-wind', type: 'pairs', icon: 'clock', ask: 'How does the surface wind change from day to night?',
+    { id: 'diurnal-wind', takeaway: 'By day thermals mix the strong upper wind down, so the surface wind veers and strengthens (NH). At night the mixing stops: the surface wind backs and drops. A gust lasts seconds, a squall at least a minute, a gale is a steady 34 kt or more.', hook: 'Day veers and blows; night backs and slows.', type: 'pairs', icon: 'clock', ask: 'How does the surface wind change from day to night?',
       pairs: [
         { a: { label: 'Day', body: 'Thermals deepen the friction layer and drag strong upper wind down. Surface wind **stronger, gusty and veered** (NH).' }, b: { label: 'Night', body: 'Friction layer shrinks; upper wind can\'t reach down. Surface wind **weak and backed**; shear around 500 m.' }, rule: 'Day → veers and increases. Night → backs and decreases.' },
         { a: { label: 'Gust', body: 'Transient rise lasting **seconds**.' }, b: { label: 'Squall', body: 'Rise of ≥16 kt to ≥22 kt lasting **≥1 minute**, with CB.' }, rule: 'Duration tells them apart.' },
@@ -87,7 +87,7 @@ module.exports = {
     { id: 'slopes', type: 'svg', fig: 'slope-winds', icon: 'mountain', ask: 'Anabatic, katabatic or Föhn?', dgca: true,
       takeaway: 'Anabatic: warm, up the slope by day. Katabatic: cold, down the slope at night (frost and fog in hollows). Föhn: warm and dry down the lee after the air rained out on the windward side.',
       hook: 'ANA goes up the stairs; KATA comes down; FÖHN is the hairdryer.' },
-    { id: 'local-stamp', type: 'stamp', icon: 'flag', ask: 'Which local wind is it?',
+    { id: 'local-stamp', takeaway: 'Anabatic winds blow up sunny slopes; katabatic winds drain down cold slopes at night (Bora, Mistral). Föhn is the warm dry wind on a mountain\'s lee (Chinook). Sea breeze by day, land breeze by night.', hook: 'Ana goes up, kata comes down.', type: 'stamp', icon: 'flag', ask: 'Which local wind is it?',
       stamps: [{ id: 'ana', label: 'Anabatic' }, { id: 'kata', label: 'Katabatic' }, { id: 'fohn', label: 'Föhn' }, { id: 'sea', label: 'Sea breeze' }, { id: 'land', label: 'Land breeze' }],
       cases: [
         { text: 'A clear, calm night in the hills of NE India; fog forms in the valley by dawn.', answer: 'kata' },
@@ -98,7 +98,7 @@ module.exports = {
         { text: 'The Bora sweeps off the mountains onto the Adriatic at over 100 kt.', answer: 'kata', why: 'The Bora is a cold katabatic wind.' },
         { text: 'The Mistral funnels down the Rhône valley from the snowy Alps.', answer: 'kata' },
       ] },
-    { id: 'named', type: 'matrix', icon: 'globe', ask: 'Named winds of the world', tier: 'exam', revise: true,
+    { id: 'named', takeaway: 'Bora and Mistral are cold katabatic winds; Chinook and Föhn are warm dry lee winds; Haboob, Harmattan and Khamsin carry dust and sand. Trades blow at 10°–30°, the doldrums sit at 5°N–5°S, the Roaring Forties at 35°–60°.', hook: 'Cold falls (Bora, Mistral), warm dries (Föhn, Chinook).', type: 'matrix', icon: 'globe', ask: 'Named winds of the world', tier: 'exam', revise: true,
       corner: 'Wind', cols: ['Type', 'Where'],
       rows: [
         { label: 'Bora', cells: ['Cold katabatic', 'Yugoslavia / NE Italy → Adriatic'] }, { label: 'Mistral', cells: ['Katabatic', 'Rhône valley → Gulf of Lyons'] },
@@ -139,7 +139,7 @@ module.exports = {
         { k: 'Geostrophic valid beyond', v: '≈ 30° latitude' }, { k: 'TEJ', v: '13°N · 15 km' },
         { k: 'Trades', v: '10°–30°' }, { k: 'Doldrums', v: '5°N–5°S' },
       ] },
-    { id: 'beaufort', type: 'scale', icon: 'wind', ask: 'The Beaufort scale', tier: 'exam',
+    { id: 'beaufort', takeaway: 'Beaufort force 8 is a gale (34–40 kt) and force 12 a hurricane (64 kt or more). Speeds are measured at 10 m.', hook: 'Eight is a gale at 34; twelve a hurricane at 64.', type: 'scale', icon: 'wind', ask: 'The Beaufort scale', tier: 'exam',
       bars: [[0, 'Calm', '<1'], [1, 'Light air', '1–3'], [2, 'Light breeze', '4–6'], [3, 'Gentle breeze', '7–10'], [4, 'Moderate breeze', '11–16'], [5, 'Fresh breeze', '17–21'], [6, 'Strong breeze', '22–27'], [7, 'Near gale', '28–33'], [8, 'Gale', '34–40'], [9, 'Strong gale', '41–47'], [10, 'Storm', '48–55'], [11, 'Violent storm', '56–63'], [12, 'Hurricane', '≥64']].map(([f, n, k]) => ({ label: f + ' · ' + n, v: f + 0.6, show: k + ' kt', hue: f > 7 ? 5 : f > 4 ? 4 : 1 })),
       max: 12.6, note: 'Speeds at 10 m. Force 8 = gale (34 kt), force 12 = hurricane (64 kt).' },
     { id: 'tricks', type: 'tricks', icon: 'spark', ask: 'Memory tricks',

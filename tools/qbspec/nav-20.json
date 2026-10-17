@@ -1,0 +1,114 @@
+{
+ "id": "nav-20",
+ "title": "Vertical Speed Indicator",
+ "src": "R.K. Bali — Air Navigation, Part II Ch 4",
+ "text": "nav",
+ "start": 11106,
+ "end": 11199,
+ "key": "baabccbcccccbcccabca",
+ "fix": {
+  "1": {
+   "o": [
+    "More reliable during steady climb descend",
+    "More reliable when a/c initiates climb / descend",
+    "Reliable at all times."
+   ]
+  },
+  "2": {
+   "q": "An aircraft fitted with an IVSI will show:",
+   "o": [
+    "climbing indications during a turn",
+    "descending indications during a turn",
+    "correct indications during turns"
+   ]
+  },
+  "4": {
+   "o": [
+    "second calibrated port",
+    "correction based on an accelerometer sensor",
+    "bimetallic strip"
+   ]
+  },
+  "7": {
+   "o": [
+    "differential pressure",
+    "static pressure",
+    "dynamic pressure"
+   ]
+  },
+  "8": {
+   "o": [
+    "the VSI will indicate an increasing rate of climb",
+    "the VSI will indicate a decreasing rate of climb",
+    "the VSI will return to zero"
+   ]
+  },
+  "9": {
+   "o": [
+    "Decrease static pressure but increase pitot pressure.",
+    "Decrease pitot pressure but increase static pressure.",
+    "Increase position errors."
+   ]
+  },
+  "10": {
+   "q": "If the metered orifice in a VSI becomes partly blocked, the VSI indication will be:",
+   "o": [
+    "too high when climbing",
+    "too low when descending",
+    "too high when climbing or descending"
+   ]
+  },
+  "11": {
+   "o": [
+    "Too low when climbing or descending",
+    "Too high when climbing or descending",
+    "Too high when climbing and too low when descending"
+   ]
+  },
+  "12": {
+   "o": [
+    "It will over read",
+    "It will under read",
+    "It will read zero."
+   ]
+  },
+  "13": {
+   "o": [
+    "a combination of time lag and instrument error",
+    "a combination of time lag and manoeuvre-induced errors",
+    "a combination of position error and manoeuvre-induced errors"
+   ]
+  },
+  "14": {
+   "o": [
+    "The VSI indication will be too low when climbing.",
+    "The VSI will be too low when descending.",
+    "The VSI will not be affected."
+   ]
+  },
+  "16": {
+   "o": [
+    "Continue with flight if engineer is on board",
+    "Taxi back and VSI should be repaired",
+    "Continue with flight with new reference."
+   ]
+  },
+  "20": {
+   "o": [
+    "VSI needle moving downwards.",
+    "VSI needle moving upwards.",
+    "VSI needle stationary."
+   ]
+  }
+ },
+ "ex": {
+  "2": "Book note: drawbacks of the IVSI — it shows a climb during a turn, and oscillates in turbulence.",
+  "5": "ROD ≈ 100 kt × 101.3 ft/min per kt × tan 3° ≈ 530 ft/min.",
+  "1": "Book note: During turns the piston is pulled out because of centrifugal force and the capsule contracts.",
+  "9": "Book note: After some time pressure will equalize in capsule and sealed casing.It will show zero in level, climb and descend.",
+  "11": "Book note: In Pressurized a/c, there is extra pressure coming in the static chamber, so, the capsule will contract and it will show rate of climb very high. This extra pressure will also effect rate of descend, which will be shown too low because of extra pressure. It will show rate of climb even in level flight.",
+  "12": "Book note: If there is a leak, pressure will quickly equalize with atmospheric pressure in the capsule, so, difference is zero.",
+  "16": "Book note: Error can be corrected with an adjusting screw on the front of the instrument."
+ },
+ "drop": []
+}

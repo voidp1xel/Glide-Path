@@ -1,0 +1,312 @@
+{
+"title": "ADF / NDB",
+"src": "R.K. Bali — Air Navigation, Part III Ch 2 (key read from the printed answer grid, PDF p. 245)",
+"qs": [
+{
+"n": 1,
+"q": "Direction property error is known as?",
+"o": [
+"180° ambiguity",
+"90° ambiguity",
+"quadrantal error"
+],
+"a": 0
+},
+{
+"n": 2,
+"q": "What is used to resolve 180° ambiguity?",
+"o": [
+"Align radio compass to True North",
+"Sense Aerial",
+"Loop Aerial"
+],
+"a": 1
+},
+{
+"n": 3,
+"q": "An aircraft is flying on a heading of 315°. Which of the following (magnetic) signal bearings will cause the maximum quadrantal error?",
+"o": [
+"360°",
+"225°",
+"135°"
+],
+"a": 0,
+"ex": "Signal from 360° on heading 315° arrives at relative bearing 045°, a quadrantal (inter-cardinal) bearing: maximum error. 225° and 135° arrive at 270° and 180° relative: no error."
+},
+{
+"n": 4,
+"q": "Variations of signal in NDB receivers due skywaves indicates the presence of:",
+"o": [
+"night effect",
+"coastal refraction",
+"mountain or terrain effect"
+],
+"a": 0
+},
+{
+"n": 5,
+"q": "The BFO selector on an ADF receiver is used to:",
+"o": [
+"find the loop \"null\" position",
+"stop loop rotation",
+"hear the IDENT of some NDB stations radiating a continuous wave signal"
+],
+"a": 2
+},
+{
+"n": 6,
+"q": "Which one of the following disturbances is most likely to cause the greatest inaccuracy in ADF bearings?",
+"o": [
+"Quadrantal error",
+"Local thunderstorm activity",
+"Coastal effect"
+],
+"a": 1
+},
+{
+"n": 7,
+"q": "Factors liable to affect most NDB/ADF system performance and reliability include:",
+"o": [
+"static interference- night effect- absence of failure warning system",
+"static interference- station interference-latitude error",
+"height error- station interference- mountain effect"
+],
+"a": 0
+},
+{
+"n": 8,
+"q": "There are two NDBs, one 20NM inland, and the other 50NM inland from the coast. Assuming that the error caused by coastal refraction is the same for both propagations, the extent of the error in a position line plotted by an aircraft that is over water will be:",
+"o": [
+"greater from the beacon that is 20NM inland",
+"the same from both beacons when the aircraft is on a relative bearing Of 180° and 360°",
+"greater from the beacon that is 50NM inland"
+],
+"a": 2
+},
+{
+"n": 9,
+"q": "What is the wavelength of an NDB transmitting on 373 kHz?",
+"o": [
+"800m",
+"80m",
+"8000m"
+],
+"a": 0,
+"ex": "λ = 3×10⁸ / 373 000 ≈ 804 m."
+},
+{
+"n": 10,
+"q": "An aircraft is \"homing\" to a radio beacon whilst maintaining a relative bearing of zero. If the magnetic heading decreases, the aircraft is experiencing:",
+"o": [
+"zero drift",
+"right drift",
+"left drift"
+],
+"a": 1,
+"ex": "With RB 000 the nose follows the beacon; the heading falls (turning left) because the wind is pushing you right: right (starboard) drift."
+},
+{
+"n": 11,
+"q": "Errors caused by the effect of coastal refraction on bearings at lower altitudes are maximum when the NDB is:",
+"o": [
+"inland and the bearing crosses the coast at an acute angle",
+"inland and the bearing crosses the coast at right angles",
+"near the coast and the bearing crosses the coast at right angles"
+],
+"a": 0
+},
+{
+"n": 12,
+"q": "Quadrantal errors associated with aircraft Automatic Direction Finding (ADF) equipment are caused by:",
+"o": [
+"skywave/ground wave contamination",
+"signal bending by the aircraft metallic surfaces",
+"signal bending caused by electrical interference from aircraft wiring"
+],
+"a": 1
+},
+{
+"n": 13,
+"q": "\"Night Effect\" which causes loss of signal and fading, resulting in bearing errors from transmissions, is due to:",
+"o": [
+"interference from other transmissions and is maximum at dusk when east of the NDB",
+"static activity increasing at night particularly in the lower frequency band",
+"skywave distortion of the null position and is maximum at dawn and dusk"
+],
+"a": 2
+},
+{
+"n": 14,
+"q": "Which of the following is likely to have the greatest effect on ADF accuracy?",
+"o": [
+"Mutual interference between aircraft aerials",
+"Frequency drift at the ground station",
+"Interference from other NDBs, particularly at night"
+],
+"a": 2
+},
+{
+"n": 15,
+"q": "An aircraft is maintaining track outbound from an NDB with a constant relative bearing of 184° .To return to the NDB the relative bearing to maintain is:",
+"o": [
+"184°",
+"004°",
+"356°"
+],
+"a": 2,
+"ex": "Outbound with RB 184 means 4° starboard drift. Coming back on the reciprocal, the same wind gives 4° port drift, so the nose points 4° right of the station: RB 356."
+},
+{
+"n": 16,
+"q": "Which statement about the NDB transmitter is correct?",
+"o": [
+"It is operating in the HF/VHF band",
+"It is very simple, being required to transmit only a carrier wave and identification",
+"In India, most NDBs operate in the frequency band 455 - 1750 kHz"
+],
+"a": 1
+},
+{
+"n": 17,
+"q": "The purpose of the BFO switch on the ADF receiver is to:",
+"o": [
+"cut out the static noise",
+"improve the strength of the received signal",
+"make the signal audible"
+],
+"a": 2
+},
+{
+"n": 18,
+"q": "When using NDBs night effect is most likely to be greatest at:",
+"o": [
+"dusk",
+"dawn or dusk",
+"dawn"
+],
+"a": 1
+},
+{
+"n": 19,
+"q": "With regard to the following types of NDB which statements is correct?",
+"o": [
+"Locators have 200 W power, 50 nm range and are NON A2A",
+"Locators have 5000 W power, 50 nm range and are NON A1A",
+"Locators have 15 W power, 10-25 nm range and are NON A2A"
+],
+"a": 2
+},
+{
+"n": 20,
+"q": "The D layer of the ionosphere affects the accuracy of NDB bearings:",
+"o": [
+"never",
+"by day and night",
+"by night only"
+],
+"a": 2,
+"ex": "Key as printed in the book."
+},
+{
+"n": 21,
+"q": "An ADF uses a sense aerial to:",
+"o": [
+"transmit the beacon ident",
+"determine the null position",
+"resolve ambiguous bearings"
+],
+"a": 2
+},
+{
+"n": 22,
+"q": "Which of the following equipments does not have a system to warn the pilot that it is inoperative:",
+"o": [
+"ADF",
+"ILS",
+"VOR"
+],
+"a": 0
+},
+{
+"n": 23,
+"q": "The BFO:",
+"o": [
+"is used to make the ident from an A1A NDB audible",
+"is used to determine the signal strength of an NDB",
+"creates the audio ident for an NDB"
+],
+"a": 0
+},
+{
+"n": 24,
+"q": "An NDB signal crossing from land to sea will … speed and bend … the normal.",
+"o": [
+"decrease, away from",
+"increase, towards",
+"increase, away from"
+],
+"a": 2
+},
+{
+"n": 25,
+"q": "Long range NDBs normally employ:",
+"o": [
+"A3W",
+"A9E",
+"NON/A1A"
+],
+"a": 2
+},
+{
+"n": 26,
+"q": "When using a NON A2A NDB the BFO should be:",
+"o": [
+"off for tuning and on for identification",
+"off for tuning and off for identification",
+"on for tuning and off for identification"
+],
+"a": 2
+},
+{
+"n": 27,
+"q": "What is the approved frequency band assigned to aeronautical ADFs?",
+"o": [
+"190-1750 kHz",
+"190-1750 Hz",
+"190-1750 GHz"
+],
+"a": 0
+},
+{
+"n": 28,
+"q": "The promulgated range for an NDB is applicable:",
+"o": [
+"during daytime only",
+"throughout 24 hours, but is most prone to error around dusk and dawn",
+"during night time only"
+],
+"a": 0
+},
+{
+"n": 29,
+"q": "An aero plane is flying parallel to a coast. Which of the following NDBs will give the greatest coastal refraction LOP error?",
+"o": [
+"NDB sited on the coast-RBI 300°",
+"NDB sited 30 nm inland-RBI 330°",
+"NDB sited on the coast-RBI 330°"
+],
+"a": 1
+},
+{
+"n": 30,
+"q": "A radio beacon has an operational range of 10 NM. By what factor should the transmitter power be increased in order to achieve an operational range of 20 NM?",
+"o": [
+"Eight",
+"Four",
+"Two"
+],
+"a": 1,
+"ex": "Range ∝ √power: double the range needs four times the power."
+}
+]
+}

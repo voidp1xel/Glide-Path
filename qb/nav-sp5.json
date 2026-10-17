@@ -1,0 +1,1005 @@
+{
+"title": "Sample Paper 5",
+"src": "R.K. Bali — Air Navigation, Sample Paper 5",
+"qs": [
+{
+"n": 1,
+"q": "The main reason that day and night, throughout the year, have different durations is due to the?",
+"o": [
+"The changing distance between the Sun and the Earth.",
+"The inclination of the ecliptic to the Equator.",
+"The changing shape of the orbit of the Earth around the Sun."
+],
+"a": 1
+},
+{
+"n": 2,
+"q": "The purpose of creating a network of latitudes and longitudes is",
+"o": [
+"for pinpointing positions on the Earth",
+"for strategic reasons during war",
+"for navigation by ships"
+],
+"a": 0
+},
+{
+"n": 3,
+"q": "The datum used for measuring directions is",
+"o": [
+"the meridian of the place",
+"Latitude of the place",
+"none is correct."
+],
+"a": 0
+},
+{
+"n": 4,
+"q": "Which one of the following describes the appearance of rhumb lines, except meridians, on a polar stereographic chart?",
+"o": [
+"Ellipses around the pole.",
+"Curves concave to the pole.",
+"Curves convex to the pole."
+],
+"a": 1
+},
+{
+"n": 5,
+"q": "On 4 February the air almanac lists 1941 as the time of sunset at 5000S. An observer registers sunset at 2113 UTC this day. What is the observers position?",
+"o": [
+"5000S 02300W.",
+"5000S 01035W.",
+"5000S 02200E."
+],
+"a": 0,
+"ex": "Sunset (LMT) 1941 observed at 2113 UTC: the observer is 92 min of time west = 23° W."
+},
+{
+"n": 6,
+"q": "The angle between magnetic north and compass north is called:",
+"o": [
+"magnetic variation",
+"compass deviation",
+"alignment error"
+],
+"a": 1
+},
+{
+"n": 7,
+"q": "A positive (easterly) magnetic variation signifies that?",
+"o": [
+"True North is East of Magnetic North.",
+"True North is West of Magnetic North.",
+"Magnetic North is West of Compass North."
+],
+"a": 1
+},
+{
+"n": 8,
+"q": "In order to fly from position A (10° 00'N, 030° 00'W) to position B (30° 00'N, 050° 00'W), maintaining a constant true course, it is necessary to fly?",
+"o": [
+"A rhumb line track.",
+"The constant average drift route.",
+"The great-circle route."
+],
+"a": 0
+},
+{
+"n": 9,
+"q": "At a fixed pressure altitude an increase in temperature will ?",
+"o": [
+"Decrease density but increase density altitude.",
+"Decrease density altitude",
+"Not affect density altitude"
+],
+"a": 0
+},
+{
+"n": 10,
+"q": "The coordinates of the heliport at Issy les Moulineaux are N48° 50' E002° 16.5'. The coordinates of the antipodes are?",
+"o": [
+"S41° 10' W177° 43.5'",
+"S41° 10' E177° 43.5'",
+"S48° 50' W177° 43.5'"
+],
+"a": 2,
+"ex": "The antipode has the opposite latitude and the longitude 180° away: 180° − 2° 16.5' = 177° 43.5' W."
+},
+{
+"n": 11,
+"q": "The position of an aircraft that it would reach if it were flown in conditions of no wind is known as:",
+"o": [
+"DR position",
+"Most probable position",
+"Air position."
+],
+"a": 2
+},
+{
+"n": 12,
+"q": "The sensitivity of a magnetic compass can be affected by?",
+"o": [
+"The H component of the earth's magnetic field.",
+"The Z component of the earth's magnetic field.",
+"Both of the above."
+],
+"a": 2
+},
+{
+"n": 13,
+"q": "When cruising on a westerly heading a direct reading magnetic compass will indicate?",
+"o": [
+"Northerly turn.",
+"Southerly turn.",
+"No turn."
+],
+"a": 2
+},
+{
+"n": 14,
+"q": "When turning right through 90 degrees to north, in the northern hemisphere, roll out should be conducted on a heading of?",
+"o": [
+"010 degrees.",
+"020 degrees.",
+"350 degrees."
+],
+"a": 2,
+"ex": "In the northern hemisphere the compass lags turning onto north, so roll out early: about 350° when turning right onto 360°."
+},
+{
+"n": 15,
+"q": "When turning from SE to SW at 50 degrees north, the roll out should occur at?",
+"o": [
+"245 degrees.",
+"210 degrees.",
+"225 degrees."
+],
+"a": 0
+},
+{
+"n": 16,
+"q": "On a Lambert conformal conic chart, great circles that are not meridians are?",
+"o": [
+"Curves concave to the pole of projection.",
+"Straight lines within the standard parallels.",
+"Curves concave to the parallel of origin."
+],
+"a": 2
+},
+{
+"n": 17,
+"q": "Parallels of latitude, except the equator, are? a. Rhumb lines. b) Complex curves. c) Great circle.",
+"o": [
+"Rhumb lines.",
+"Complex curves.",
+"Great circles."
+],
+"a": 0
+},
+{
+"n": 18,
+"q": "TAS = 270 kt, true HDG = 270°, actual wind 205°(T)/30 kt. Calculate the drift angle and GS.",
+"o": [
+"12R – 269 kt",
+"6L – 259 kt",
+"6R – 259 kt"
+],
+"a": 2,
+"ex": "Wind 65° off the left of the nose: drift ≈ asin(30 × sin 65° / 270) ≈ 6° right; GS ≈ 270 − 30 cos 65° ≈ 259 kt."
+},
+{
+"n": 19,
+"q": "TAS = 135 kt, HDG (°T) = 278°, W/V = 140°/20 kt. Calculate the track (°T) and GS.",
+"o": [
+"284° – 150 kt",
+"273° – 150 kt",
+"280° – 150 kt"
+],
+"a": 0,
+"ex": "Adding 135 kt on 278° and the wind (from 140°, blowing towards 320°) at 20 kt gives a track of about 284° and a GS of about 150 kt."
+},
+{
+"n": 20,
+"q": "Magnetic track = 210°, magnetic HDG = 215°, VAR = 15°E, TAS = 360 kt; the aircraft flies 64 NM in 12 min. Calculate the true W/V.",
+"o": [
+"264°/50 kt",
+"265°/40 kt",
+"260°/50 kt"
+],
+"a": 0,
+"ex": "TH = 215 + 15 = 230°, TT = 225°, GS = 64 NM in 12 min = 320 kt. Ground vector − air vector gives a wind of about 264°/50 kt."
+},
+{
+"n": 21,
+"q": "Course 095°(T), TAS is 220 kt, wind speed 70 kt. Maximum drift angle will be obtained for a wind direction of:",
+"o": [
+"165°.",
+"185°.",
+"215°."
+],
+"a": 1,
+"ex": "For a given course, drift is greatest when the wind blows at 90° to it: 095 + 90 = 185°."
+},
+{
+"n": 22,
+"q": "When climbing through an isothermal layer at constant mach number?",
+"o": [
+"CAS increases.",
+"CAS decreases.",
+"TAS decreases."
+],
+"a": 1
+},
+{
+"n": 23,
+"q": "When descending through an isothermal layer at constant CAS?",
+"o": [
+"LSS increases.",
+"LSS decreases.",
+"LSS remains constant."
+],
+"a": 2
+},
+{
+"n": 24,
+"q": "How will mach meter indication respond if an aircraft is flying at constant CAS at FL270 when it experiences a reduction in OAT?",
+"o": [
+"No change.",
+"Decrease.",
+"Increase or decrease depending on TAT."
+],
+"a": 0
+},
+{
+"n": 25,
+"q": "A mach meter comprises of?",
+"o": [
+"A combination of ASI and altimeter.",
+"An ASI with its scale marked in mach numbers.",
+"An altimeter with its scale marked in mach numbers."
+],
+"a": 0
+},
+{
+"n": 26,
+"q": "An aircraft is flying at 310 Kts TAS at FL290, Temperature deviation is -6°C The local speed of sound is?",
+"o": [
+"570 Kts.",
+"583 Kts.",
+"596 Kts."
+],
+"a": 1,
+"ex": "ISA at FL290 = −42.5 °C; ISA −6 gives −48.5 °C (224.7 K). LSS = 38.95 × √224.7 ≈ 584 kt."
+},
+{
+"n": 27,
+"q": "An increase of 0.15 in Mach number results in an increase of 93 kt TAS. If the temperature deviation from ISA is −9 °C, the FL is?",
+"o": [
+"FL200.",
+"FL130.",
+"FL90."
+],
+"a": 1,
+"ex": "LSS = 93 / 0.15 = 620 kt → T = (620 / 38.95)² ≈ 253 K = −20 °C. ISA − 9 means ISA temp ≈ −11 °C → about 13 000 ft."
+},
+{
+"n": 28,
+"q": "Distance 'A' to 'B' 2900 NM, Groundspeed 'out' 420 kt, Groundspeed 'back' 480 kt. Safe endurance 8 HR 30 MIN. The time from 'A' to the Point of Safe Return (PSR) is?",
+"o": [
+"272 MIN.",
+"295 MIN.",
+"249 MIN."
+],
+"a": 0,
+"ex": "Time to PSR = E × H / (O + H) = 8.5 × 480 / 900 ≈ 4.53 h ≈ 272 min."
+},
+{
+"n": 29,
+"q": "Distance 'Q' to 'R' 1760 NM, Groundspeed 'out' 450 kt, Groundspeed 'back' 360 kt. The time from 'Q' to the Point of Equal Time (PET) between 'Q' and 'R' is?",
+"o": [
+"109 MIN.",
+"116 MIN.",
+"104 MIN."
+],
+"a": 2,
+"ex": "PET = 1760 × 360 / 810 ≈ 782 NM; 782 / 450 ≈ 1.74 h ≈ 104 min."
+},
+{
+"n": 31,
+"q": "Considering only structural limitations, on long distance flights (at the aero plane's maximum range), the traffic load is normally limited by:",
+"o": [
+"the maximum zero fuel mass.",
+"the maximum zero fuel mass plus the take-off mass.",
+"the maximum take-off mass."
+],
+"a": 2
+},
+{
+"n": 32,
+"q": "Traffic load is the:",
+"o": [
+"zero fuel mass minus dry operating mass.",
+"dry operating mass minus the disposable load.",
+"dry operating mass minus the variable load."
+],
+"a": 0
+},
+{
+"n": 33,
+"q": "Maximum Structural Landing Mass 68 000 kg, Maximum Zero Fuel Mass 70 200 kg, Maximum Structural Take-off Mass 78 200 kg, Dry Operating Mass 48 000 kg. Scheduled trip fuel is 7000 kg and the reserve fuel is 2800 kg. Assuming performance limitations are not restricting, the maximum permitted take-off mass and maximum traffic load are respectively:",
+"o": [
+"77200 kg and 22200 kg",
+"75000 kg and 17200 kg",
+"75000 kg and 20000 kg"
+],
+"a": 1,
+"ex": "TOM limited by MLM + trip = 75 000 kg. Traffic = 75 000 − 9800 − 48 000 = 17 200 kg."
+},
+{
+"n": 34,
+"q": "Dry Operating Mass 29 800 kg, Maximum Take-Off Mass 52 400 kg, Maximum Zero-Fuel Mass 43 100 kg, Maximum Landing Mass 46 700 kg, trip fuel 4000 kg, fuel quantity at brake release 8000 kg. The maximum traffic load is:",
+"o": [
+"13 300 kg",
+"9 300 kg",
+"12 900 kg"
+],
+"a": 2,
+"ex": "TOM limits: MTOM 52 400; MLM + trip 50 700; MZFM + fuel 51 100 → 50 700. Traffic = 50 700 − 8000 − 29 800 = 12 900 kg."
+},
+{
+"n": 35,
+"q": "A flight has been made from London to Valencia carrying minimum fuel and maximum traffic load. On the return flight the fuel tanks are to be filled to capacity with a total fuel load of 20 100 litres at a fuel density of 0.79 kg/l. Structural limits: Maximum Ramp Mass 69 900 kg, Maximum Take-Off Mass 69 300 kg, Maximum Landing Mass 58 900 kg, Maximum Zero Fuel Mass 52 740 kg. The performance limited take-off mass at Valencia is 67 330 kg. The landing mass at London is not performance limited. Dry Operating Mass 34 930 kg, trip fuel (Valencia to London) 5990 kg, taxi fuel 250 kg. The maximum traffic load that can be carried from Valencia will be:",
+"o": [
+"13 240 kg",
+"16 770 kg",
+"14 331 kg"
+],
+"a": 2,
+"ex": "Fuel = 20 100 × 0.79 = 15 879 kg, so take-off fuel 15 629 kg. Lowest TOM limit is MLM + trip = 58 900 + 5990 = 64 890 kg. Traffic = 64 890 − 15 629 − 34 930 = 14 331 kg."
+},
+{
+"n": 36,
+"q": "The maximum certificated taxi (or ramp) mass is that mass to which an aero plane may be loaded prior to engine start. It is :",
+"o": [
+"a value which varies with airfield temperature and altitude; corrections are listed in the flight manual",
+"a value which varies only with airfield altitude; standard corrections are listed in the flight manual",
+"a fixed value which is listed in the flight manual"
+],
+"a": 2
+},
+{
+"n": 37,
+"q": "In calculations with respect to the position of the center of gravity a reference is made to a datum. The datum is",
+"o": [
+"an arbitrary reference chosen by the pilot which can be located anywhere on the aero plane",
+"a reference plane which is chosen by the aero plane manufacturer. Its position is given in the aero plane Flight or Loading Manual",
+"calculated from the loading manifest"
+],
+"a": 1
+},
+{
+"n": 38,
+"q": "Moment (balance) arms are measured from a specific point to the body station at which the mass is located. That point is known as",
+"o": [
+"the focal point",
+"the datum",
+"the center of gravity of the aero plane"
+],
+"a": 1
+},
+{
+"n": 39,
+"q": "The second segment of take-off flight path begins",
+"o": [
+"when acceleration starts from V2 to the speed for the flap retraction",
+"when landing gear is fully retracted",
+"when flap retraction begins"
+],
+"a": 1
+},
+{
+"n": 40,
+"q": "Which of the following statements is applicable to the acceleration height at the beginning of the 3rd climb segment?",
+"o": [
+"The minimum one engine out acceleration height must be maintained in case of all engines operating",
+"The maximum acceleration height depends on the maximum time take-off thrust may be applied",
+"There is no requirement for minimum climb performance when flying at the acceleration height"
+],
+"a": 1
+},
+{
+"n": 41,
+"q": "If a pilot lands at an aerodrome other than the destination aerodrome specified in the flight plan, he must ensure that the ATS unit at the destination aerodrome is informed within a certain number of minutes of his planned ETA at destination. The number of minutes is:",
+"o": [
+"30",
+"15",
+"45"
+],
+"a": 0
+},
+{
+"n": 42,
+"q": "You make a diversion from the route given in the flight plan and land at an uncontrolled airfield. Within what time after landing should you inform ATC?",
+"o": [
+"20 mins",
+"45 mins",
+"30 mins"
+],
+"a": 2
+},
+{
+"n": 43,
+"q": "The scale on a Lambert conformal conic chart:",
+"o": [
+"is constant along a meridian of longitude",
+"is constant along a parallel of latitude",
+"varies slightly as a function of latitude and longitude"
+],
+"a": 1
+},
+{
+"n": 44,
+"q": "On a Direct Mercator chart, a rhumb line appears as a:",
+"o": [
+"small circle concave to the nearer pole",
+"straight line",
+"curve convex to the nearer pole"
+],
+"a": 1
+},
+{
+"n": 45,
+"q": "An aircraft was over 'Q' at 1320 hours flying direct to 'R'. Distance 'Q' to 'R' 3016 NM, true airspeed 480 kt, mean wind component 'out' −90 kt, mean wind component 'back' +75 kt, safe endurance 10:00 HR. The distance from 'Q' to the Point of Safe Return (PSR) is:",
+"o": [
+"2370 NM",
+"2290 NM",
+"1510 NM"
+],
+"a": 1,
+"ex": "GS out 390, GS back 555. PSR = 10 × 390 × 555 / 945 ≈ 2290 NM."
+},
+{
+"n": 46,
+"q": "An island is observed to be 15° to the left. The aircraft heading is 120° (M), variation 17° (W). The true bearing from the aircraft to the island is:",
+"o": [
+"268°",
+"302°",
+"088°"
+],
+"a": 2,
+"ex": "MB = 120 − 15 = 105° M; TB = 105 − 17 = 088° T."
+},
+{
+"n": 47,
+"q": "During a climb after take-off from a contaminated runway, if the total pressure probe of the airspeed indicator is blocked, the pilot finds that the indicated airspeed:",
+"o": [
+"Decreases abruptly towards zero.",
+"Increases steadily.",
+"Increases abruptly towards VNE."
+],
+"a": 1
+},
+{
+"n": 48,
+"q": "With a pitot probe blocked due to ice build up, the aircraft airspeed indicator will indicate in descent a",
+"o": [
+"Increasing speed.",
+"Fluctuating speed",
+"Decreasing speed."
+],
+"a": 2
+},
+{
+"n": 49,
+"q": "The density altitude is?",
+"o": [
+"The altitude of the standard atmosphere on which the density is equal to the actual density of the atmosphere.",
+"The temperature altitude corrected for the difference between the real temperature and standard temperature.",
+"The pressure altitude corrected for the relative density prevailing at this point."
+],
+"a": 0
+},
+{
+"n": 50,
+"q": "What will happen to the altimeter reading in a right sideslip, if an aircraft has a static vent at each side of the fuselage, but the left one is blocked?",
+"o": [
+"Over read",
+"Under read.",
+"No change."
+],
+"a": 1
+},
+{
+"n": 51,
+"q": "A change of longitude of 1 minute corresponds to 0.5 NM at:",
+"o": [
+"60°N",
+"45°N",
+"20°W"
+],
+"a": 0,
+"ex": "Departure = Δlong × cos lat: 1' × cos 60° = 0.5 NM."
+},
+{
+"n": 52,
+"q": "What will happen to altimeter indication if an aircraft in level flight enters a cold front?",
+"o": [
+"Over indication.",
+"Under indication.",
+"No change."
+],
+"a": 0
+},
+{
+"n": 53,
+"q": "In low altitude radio altimeters, the reading is zero when main landing gear wheels are on the ground. For this, it is necessary to?",
+"o": [
+"Change the display scale in short final, in order to have a precise readout.",
+"Compensate residual altitude due to antennas height above the ground and coaxial cables length.",
+"Account for signal processing time in the unit and apply a correction factor to the readings."
+],
+"a": 2
+},
+{
+"n": 54,
+"q": "The operating frequency range of a low altitude radio altimeter is?",
+"o": [
+"2700 MHz to 2900 MHz.",
+"5 GHz",
+"4200 MHz to 4400 MHz."
+],
+"a": 2
+},
+{
+"n": 55,
+"q": "An advantage of VHF as compared to low frequency radio is:",
+"o": [
+"Speed of reception as waves travel faster",
+"Much greater range is possible",
+"Reduction of static interference"
+],
+"a": 2
+},
+{
+"n": 56,
+"q": "As an aircraft moves close to the ground during a landing the VSI might?",
+"o": [
+"Become inaccurate due to ground effect.",
+"Become inaccurate due to turbulence.",
+"Stick due to loss of pitot source."
+],
+"a": 0
+},
+{
+"n": 57,
+"q": "What should the VSI indicate when an aircraft on a 3 degree glide slope is flying at 100 Kts TAS?",
+"o": [
+"224 fpm descent.",
+"524 fpm descent.",
+"424 fpm descent."
+],
+"a": 1,
+"ex": "ROD ≈ 100 kt × 101 × tan 3° ≈ 530 ft/min."
+},
+{
+"n": 58,
+"q": "If the port static vent of a large aircraft is blocked, what will happen to the VSI indications when it is side slipping at a constant rate to the left in a descent?",
+"o": [
+"Over indicate.",
+"Under indicate.",
+"Be unaffected."
+],
+"a": 2
+},
+{
+"n": 59,
+"q": "What does the blue line on a twin engine piston aircraft ASI indicate?",
+"o": [
+"VXSE.",
+"VYSE",
+"VNE."
+],
+"a": 1
+},
+{
+"n": 60,
+"q": "What are indicated by the lower and upper ends of the white arc on an ASI?",
+"o": [
+"VS1 and VFE.",
+"VSO and VFE.",
+"VFE and VFO."
+],
+"a": 1
+},
+{
+"n": 61,
+"q": "When descending from FL400 and attempting to maintain maximum groundspeed, airspeed will be limited by?",
+"o": [
+"VNE then VMO.",
+"VNO then VNE.",
+"MMO then VMO."
+],
+"a": 2
+},
+{
+"n": 62,
+"q": "During a straight and uniform climb, the pilot maintains a constant calibrated airspeed (CAS)?",
+"o": [
+"The Mach number increases and the true airspeed (TAS) increases.",
+"The Mach number increases and the true airspeed (TAS) is constant.",
+"The Mach number is constant and the true airspeed (TAS) is constant."
+],
+"a": 0
+},
+{
+"n": 63,
+"q": "VLE is the maximum?",
+"o": [
+"Speed authorized in flight.",
+"Flight speed with landing gear down.",
+"Speed at which the landing gear can be operated with full safety"
+],
+"a": 1
+},
+{
+"n": 64,
+"q": "How will Machmeter indication vary in a constant CAS climb?",
+"o": [
+"Increase.",
+"Decrease.",
+"Increase then remain constant."
+],
+"a": 0
+},
+{
+"n": 65,
+"q": "What is the LSS at MSL, ISA?",
+"o": [
+"600 Kts.",
+"661 Kts.",
+"750 Kts."
+],
+"a": 1
+},
+{
+"n": 66,
+"q": "What would happen if the static pipe became detached from the back of a mach meter in a pressurised aircraft at high altitude?",
+"o": [
+"Under read.",
+"Over read.",
+"No effect."
+],
+"a": 0
+},
+{
+"n": 67,
+"q": "The degrees of freedom of a gyro are determined by the number of gimbal rings it comprises. Among the flight control instruments, the artificial horizon plays an essential part. It uses a gyroscope with?",
+"o": [
+"Two degrees of freedom, whose axis is oriented and continuously maintained to local vertical by an automatic erecting system.",
+"Two degrees of freedom, whose horizontal axis corresponding to a reference direction is maintained in a horizontal axis corresponding to a reference direction is maintained in a horizontal plane by an automatic erecting system.",
+"One degree of freedom, whose horizontal axis is maintained in a horizontal plane by an automatic erecting system."
+],
+"a": 0
+},
+{
+"n": 68,
+"q": "A slaved directional gyro derives it's directional signal from?",
+"o": [
+"a direct reading magnetic compass.",
+"The flight director.",
+"The flux valve."
+],
+"a": 2
+},
+{
+"n": 69,
+"q": "Aircraft attitude is indicated on?",
+"o": [
+"EICAS/ECAM primary display.",
+"EFIS ND.",
+"EFIS PFD."
+],
+"a": 2
+},
+{
+"n": 70,
+"q": "when turning through 90° at constant AOB and pitch attitude, what will a classic artificial horizon indicate?",
+"o": [
+"Too much nose up and too little bank angle.",
+"Too much nose up and too much bank angle.",
+"Too little nose up and too little bank angle."
+],
+"a": 0
+},
+{
+"n": 71,
+"q": "The ball in a serviceable slip indicator is ______ by ______ and ______ indicate the state of slip.",
+"o": [
+"Held central, gravity, does not always",
+"Positioned, acceleration, does not always",
+"Held central, gravity, always"
+],
+"a": 1
+},
+{
+"n": 72,
+"q": "The turn indicator is affected by: 1. AOB 2. Airspeed 3. Weight 4. Altitude",
+"o": [
+"1, 2",
+"2, 3",
+"3, 4"
+],
+"a": 0
+},
+{
+"n": 73,
+"q": "The correct turn and slip indications when turning right on the ground are?",
+"o": [
+"Needle and ball right.",
+"Needle and ball left.",
+"Needle right and ball left."
+],
+"a": 2
+},
+{
+"n": 74,
+"q": "Rate-of-turn indications depend on: 1. Airspeed 2. Mass 3. AOB",
+"o": [
+"1, 2",
+"2, 3",
+"1, 3"
+],
+"a": 2
+},
+{
+"n": 75,
+"q": "Course Deviation Indicator (CDI) for a VOR is selected to 090°. From/To indicator indicates \"TO\". CDI needle is deflected halfway to the right. On what radial is the aircraft?",
+"o": [
+"095°",
+"275°",
+"085°"
+],
+"a": 1,
+"ex": "With 090 selected and TO showing, the aircraft is west of the station. Needle right means the 270 radial is to the right, so the aircraft is north of it: about 275."
+},
+{
+"n": 76,
+"q": "The VOR system is limited to about 1° of accuracy. One degree at 200 NM represents a width of:",
+"o": [
+"2.5 NM",
+"3.0 NM",
+"3.5 NM"
+],
+"a": 2
+},
+{
+"n": 77,
+"q": "What is the approximate angular coverage of reliable navigation information for a 3° ILS glide path out to a distance of 10 NM?",
+"o": [
+"3° above and below the glide path and 10° each side of the localiser centerline",
+"1.35° above the horizontal to 5.25° above the horizontal and 8° each side of the localiser centerline",
+"0.45° above the horizontal to 1.75° above the glide path and 8° each side of the localiser centerline"
+],
+"a": 1
+},
+{
+"n": 78,
+"q": "An aircraft is on radial 120 with a magnetic heading of 300°, the track selector (OBS) reads: 330. The indications on the Course Deviation Indicator (CDI) are 'fly':",
+"o": [
+"left with 'TO' showing",
+"right with 'TO' showing",
+"right with 'FROM' showing"
+],
+"a": 0,
+"ex": "OBS 330 with the aircraft on radial 120 gives TO. Looking along 330°, the 150 radial (the selected inbound line) is to the left of the aircraft, so fly left."
+},
+{
+"n": 79,
+"q": "Magnetic heading 280°, VOR radial 090°. What bearing should be selected on the omni-bearing selector in order to centralise the VOR deviation needle with a \"TO\" indication?",
+"o": [
+"100°",
+"090°",
+"270°"
+],
+"a": 2,
+"ex": "On radial 090 and heading roughly back towards the station, select 270 for a centred needle with TO."
+},
+{
+"n": 80,
+"q": "An aircraft carrying out an ILS approach is receiving more 90 Hz than 150 Hz modulation notes from both the localiser and glide path transmitters. The ILS indication will show:",
+"o": [
+"fly left and fly up",
+"fly right and fly down",
+"fly left and fly down"
+],
+"a": 1,
+"ex": "More 90 Hz on the localiser means the aircraft is left of the centre-line (fly right); more 90 Hz on the glide path means it is above (fly down)."
+},
+{
+"n": 81,
+"q": "Quadrantal errors associated with aircraft Automatic Direction Finding (ADF) equipment are caused by:",
+"o": [
+"misalignment of the loop aerial",
+"skywave/ground wave contamination",
+"signal bending by the aircraft metallic surfaces"
+],
+"a": 2
+},
+{
+"n": 82,
+"q": "A VOR and DME are co-located. You want to identify the DME by listening to the call sign. Having heard the same call sign 4 times in 30 seconds the:",
+"o": [
+"VOR and DME call signs were the same and broadcast with the same pitch",
+"DME call sign is the one with the higher pitch that was broadcast only once",
+"DME call sign was not transmitted, the distance information is sufficient proof of correct operation"
+],
+"a": 1
+},
+{
+"n": 83,
+"q": "When 95 nm from a VOR you commence a descent from FL 330 with the intention of arriving at the VOR at FL 100. What rate of descent is required if your mean ground speed is 250 knots?",
+"o": [
+"1059ft/min.",
+"1010ft/min.",
+"1150ft/min."
+],
+"a": 1,
+"ex": "23 000 ft to lose; 95 NM at 250 kt = 22.8 min; 23 000 / 22.8 ≈ 1010 ft/min."
+},
+{
+"n": 84,
+"q": "Radio Waves are coming from the land to sea the waves will bend:",
+"o": [
+"Towards normal",
+"Remain same",
+"Away from normal"
+],
+"a": 2
+},
+{
+"n": 85,
+"q": "What will be the rate of descent when flying down a 12% glide slope, at a groundspeed of 375 knots?",
+"o": [
+"4560ft/min.",
+"4217ft/min.",
+"4227ft/min."
+],
+"a": 0,
+"ex": "375 × 6076 / 60 × 0.12 ≈ 4557 ft/min."
+},
+{
+"n": 86,
+"q": "At 80 NM from a VOR an aircraft commences a descent from FL330 in order to arrive overhead the VOR at FL100. What rate of descent is required if the mean groundspeed in the descent is to be 240 knots?",
+"o": [
+"1300ft/min.",
+"1150ft/min.",
+"1120ft/min."
+],
+"a": 1,
+"ex": "23 000 ft; 80 NM at 240 kt = 20 min → 1150 ft/min."
+},
+{
+"n": 87,
+"q": "An aircraft is on an ILS 3 degree glide slope, which passes over the runway threshold at a height of 50 feet. The DME range is 15 nm from the threshold. What is the height above the runway threshold elevation? (Use the 1 in 60 rule and the approximation 6000 feet = 1 nautical mile)",
+"o": [
+"3550 feet.",
+"4450 feet.",
+"4550 feet."
+],
+"a": 2,
+"ex": "15 × 6000 × 3/60 = 4500 ft, plus the 50 ft threshold crossing height = 4550 ft."
+},
+{
+"n": 88,
+"q": "On a chart where meridians and parallels of latitude cut each other at right angles and the scale in the immediate vicinity of any point is correct, the chart is said to be:",
+"o": [
+"Equal area projection",
+"poly-conic projection",
+"Orthomorphic projection."
+],
+"a": 2
+},
+{
+"n": 89,
+"q": "For an aircraft at a height of 1500 feet, interception of a 3° ILS glide path will occur at approximately?",
+"o": [
+"7.0 nm from the threshold.",
+"5.0 nm from the threshold.",
+"6.0 nm from the threshold."
+],
+"a": 1,
+"ex": "A 3° path is about 300 ft per NM: 1500 / 300 = 5 NM."
+},
+{
+"n": 90,
+"q": "Conversion angle increases with:",
+"o": [
+"Increase of latitude and decrease of d.long",
+"Decrease of latitude and decrease of d.long",
+"Increase of latitude and increase of d.long"
+],
+"a": 2,
+"ex": "Conversion angle = ½ × d.long × sin mean lat, so it grows with both latitude and d.long."
+},
+{
+"n": 91,
+"q": "What will happen to the altimeter indications in an aircraft in level flight if the right static vent becomes blocked and the left remains clear?",
+"o": [
+"Over indicate when side slipping right.",
+"Over indicate when side slipping left.",
+"Under indicate in all conditions."
+],
+"a": 0
+},
+{
+"n": 92,
+"q": "The vectors of the triangle of velocities that are resolved by the computer to determine course and G/S are:",
+"o": [
+"Course & TAS, track & G/S, wind direction and speed",
+"Course & G/S, track & TAS, W/V",
+"Track & wind speed, course & TAS, wind direction & G/S"
+],
+"a": 0
+},
+{
+"n": 94,
+"q": "The response rate of a VSI can be improved by fitting a?",
+"o": [
+"Accelerometer system.",
+"Choke system.",
+"Bi-metalic compensator."
+],
+"a": 0
+},
+{
+"n": 95,
+"q": "An aircraft approaching an NDB on heading 240°, ADF reads 000°. The aircraft maintains heading but drifts to the left. The ADF reading will be:",
+"o": [
+"< 000°",
+"= 000°",
+"> 000°"
+],
+"a": 2,
+"ex": "Drifting left puts the beacon to the right of the nose, so the relative bearing becomes slightly more than 000°."
+},
+{
+"n": 96,
+"q": "During an acceleration phase at constant attitude, the resetting principle of the artificial horizon results in the horizon bar indicating a?",
+"o": [
+"Nose-down attitude.",
+"Constant attitude.",
+"Nose-up attitude."
+],
+"a": 2
+},
+{
+"n": 97,
+"q": "In the Southern hemisphere, during deceleration following a landing in an Easterly direction, the magnetic compass will indicate:",
+"o": [
+"an apparent turn to the North",
+"no apparent turn.",
+"a heading fluctuating about 090°."
+],
+"a": 0
+},
+{
+"n": 98,
+"q": "A radio altimeter can be defined as a:",
+"o": [
+"ground radio aid used to measure the true altitude of the aircraft",
+"self-contained on-board aid used to measure the true height of the aircraft",
+"self-contained on-board aid used to measure the true altitude of the aircraft"
+],
+"a": 1
+},
+{
+"n": 99,
+"q": "Aeroplane loading: A) must be performed under the supervision of qualified personnel; B) must be consistent with the data used for calculating the mass and balance; C) must comply with compartment dimension limitations; D) must comply with the maximum load per running metre; E) must comply with the maximum mass per cargo compartment.",
+"o": [
+"A, B, C, D and E",
+"C, D and E only",
+"A and B only"
+],
+"a": 0
+}
+]
+}

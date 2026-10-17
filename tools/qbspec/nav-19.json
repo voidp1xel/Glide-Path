@@ -1,0 +1,264 @@
+{
+ "id": "nav-19",
+ "title": "Air Speed Indicator and Machmeter",
+ "src": "R.K. Bali — Air Navigation, Part II Ch 3",
+ "text": "nav",
+ "start": 10490,
+ "end": 11011,
+ "key": "bccbccabaaccaccbcbcbccbaacbacabcccabcccabcbbbcbccaaaaaacbcbaabacbbaaaaccccbbcbcbcbbbbbaabbbccbac",
+ "fix": {
+  "3": {
+   "q": "A pitot tube covered by ice which blocks the ram air inlet will affect the following instrument(s):",
+   "o": [
+    "altimeter only",
+    "vertical speed indicator only",
+    "airspeed indicator only"
+   ]
+  },
+  "5": {
+   "o": [
+    "Uder- read",
+    "Over- read",
+    "Will read correct"
+   ]
+  },
+  "7": {
+   "o": [
+    "Calibrated airspeed",
+    "Ground speed",
+    "Equivalent airspeed"
+   ]
+  },
+  "8": {
+   "o": [
+    "Pitot blocked during climb.",
+    "Static blocked during descend (over- read)",
+    "Pitot blocked during descend"
+   ]
+  },
+  "9": {
+   "o": [
+    "Under- read, under- read",
+    "Under - read, over - read",
+    "Over - read, under - read ."
+   ]
+  },
+  "10": {
+   "o": [
+    "(i) negative (ii) an increase (iii) dynamic (iv) EAS",
+    "(i) positive (ii) an increase (ili) dynamic (iv) TAS",
+    "(1) negative (in) a decrease (iii) static (iv) EAS"
+   ]
+  },
+  "11": {
+   "o": [
+    "ISA at the height the aircraft is flying",
+    "the full ISA",
+    "ISA at mean sea level"
+   ]
+  },
+  "12": {
+   "o": [
+    "higher than the true airspeed (TAS)",
+    "independent of the true airspeed (TAS)",
+    "equal to the true airspeed (TAS)"
+   ]
+  },
+  "13": {
+   "q": "A white arc on an ASI indicates:",
+   "o": [
+    "flaps extension speed range",
+    "safe cruise speed",
+    "safe speed on approach to land"
+   ]
+  },
+  "17": {
+   "o": [
+    "with flaps extended in landing position",
+    "at which the flight controls can be fully deflected",
+    "not to be exceeded except in still air and with caution"
+   ]
+  },
+  "19": {
+   "o": [
+    "continue to indicate the speed applicable at the time of the blockage",
+    "read zero",
+    "over-read"
+   ]
+  },
+  "20": {
+   "q": "Dynamic pressure sensed by a pitot tube:",
+   "o": [
+    "is not affected by the density of the surrounding air",
+    "increases if air density increases",
+    "increases if air density decreases"
+   ]
+  },
+  "21": {
+   "o": [
+    "instrument error, position error, compressibility error and manoeuvre induced error",
+    "instrument error, position error, density error and manoeuvre induced error",
+    "instrument error, position error"
+   ]
+  },
+  "22": {
+   "o": [
+    "instrument and compressibility only",
+    "instrument, pressure and temperature only",
+    "position, density, instrument, compressibility, manoeuvre induced"
+   ]
+  },
+  "24": {
+   "o": [
+    "indicated speed and altitude, using a speed indicator equipped with an altimeter-type aneroid",
+    "an ordinary airspeed indicator scaled for Mach number instead of knots",
+    "a kind of echo sounder comparing the velocity of sound with indicated speed"
+   ]
+  },
+  "25": {
+   "o": [
+    "true airspeed (TAS) divided by the local speed of sound",
+    "equivalent airspeed (EAS) divided by the local speed of sound",
+    "indicated airspeed (IAS) divided by the local speed of sound"
+   ]
+  },
+  "26": {
+   "o": [
+    "[Pt + Ps] to Ps",
+    "Pt to Ps",
+    "[Pt − Ps] to Ps"
+   ]
+  },
+  "27": {
+   "o": [
+    "a direct function of temperature; it varies in proportion to the square root of the absolute temperature",
+    "the ratio of the aircraft true airspeed to the sonic velocity at the altitude considered",
+    "the ratio of the aircraft conventional airspeed to the sonic velocity at the altitude considered"
+   ]
+  },
+  "28": {
+   "o": [
+    "temperature",
+    "temperature and pressure",
+    "pressure"
+   ]
+  },
+  "33": {
+   "o": [
+    "progressively under-indicate the Mach number",
+    "stick at the Mach number at the time of blockage",
+    "increase no matter what the actual Mach number"
+   ]
+  },
+  "36": {
+   "o": [
+    "Vary with airspeed and temperature.",
+    "Vary only with airspeed.",
+    "Vary only with temperature."
+   ]
+  },
+  "39": {
+   "o": [
+    "speed indicated on the autothrottle control box, versus temperature",
+    "speed indicated on the autothrottle control box, versus altitude",
+    "maximum speed in VMO operation, versus altitude"
+   ]
+  },
+  "40": {
+   "o": [
+    "calibrated airspeed (CAS)",
+    "true airspeed (TAS)",
+    "equivalent airspeed (EAS)"
+   ]
+  },
+  "41": {
+   "o": [
+    "by the MMO",
+    "initially by the MMO, then by the VMO below a certain flight level",
+    "by the VMO in still air"
+   ]
+  },
+  "43": {
+   "o": [
+    "an increase in the dynamic pressure",
+    "approximately 95% of the position error",
+    "density error"
+   ]
+  },
+  "50": {
+   "o": [
+    "White, green, yellow.",
+    "White, green, red.",
+    "Red, White, Yellow."
+   ]
+  },
+  "56": {
+   "q": "The lower and upper limits of the green arc on an ASI are:",
+   "o": [
+    "V1, V2",
+    "VNE, VNO",
+    "VS1, VNO"
+   ]
+  },
+  "59": {
+   "o": [
+    "The IAS will be too high when descending.",
+    "The IAS will be too low when accelerating.",
+    "The IAS will be too low at all times."
+   ]
+  },
+  "66": {
+   "o": [
+    "VLE at the lower end and VLO at the upper end.",
+    "VSi at the lower end and Vo at the upper end.",
+    "Vsi at the lower end and MMo at the upper end."
+   ]
+  },
+  "74": {
+   "o": [
+    "Lower end of white arc",
+    "Upper end of yellow are",
+    "Lower end of green arc."
+   ]
+  },
+  "81": {
+   "o": [
+    "Remains constant.",
+    "Decreases if the static temperature is lower than the standard temperature, increases if above.",
+    "Increases."
+   ]
+  },
+  "89": {
+   "o": [
+    "An altimeter with a density capsule.",
+    "An AST with an altitude capsule.",
+    "A VSI with a modified scale."
+   ]
+  },
+  "92": {
+   "q": "If temperature decreases when flying at constant CAS at FL 200, the Machmeter indication will … and the true Mach number will …",
+   "o": [
+    "increase, increase",
+    "decrease, decrease",
+    "not change, increase"
+   ]
+  },
+  "96": {
+   "o": [
+    "The CAS of an aircraft as a fraction of the local speed of sound",
+    "The local speed of sound as a fraction of the CAS of an aircraft",
+    "The IAS of an aircraft as a fraction of the local speed of sound"
+   ]
+  }
+ },
+ "ex": {
+  "96": "Book's key. Strictly, Mach number = TAS ÷ local speed of sound; of these options the book picks IAS.",
+  "36": "Book's key. Compare Q93: the Machmeter reading (from (P − S) ÷ S) has no temperature error.",
+  "92": "Book's key. At constant CAS and pressure altitude, (P − S) ÷ S is unchanged, so the Machmeter reading does not change; since TAS and the speed of sound both vary with √T, the true Mach number should not change either.",
+  "5": "Book note: It will be correct even if you accelerate or decelerate but not if you climb / descend.",
+  "8": "Book note: More prone to stalling because of low power setting and low speed.",
+  "9": "Book note: Altimeter will freeze and ASI will Under - read",
+  "10": "Book note: Correction for compressibility error is always negative. (subtracted)"
+ },
+ "drop": []
+}

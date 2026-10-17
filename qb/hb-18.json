@@ -1,0 +1,366 @@
+{
+"title": "Electrical Principles, Magnetism and Batteries",
+"src": "Practice questions written for Glidepath from the Aviator's Handbook, Part 5, 5-3 to 5-8 (not printed in the book: the Handbook has no question bank)",
+"qs": [
+{
+"n": 1,
+"q": "One ampere is a flow of:",
+"o": [
+"One watt per volt squared",
+"One volt per ohm per second",
+"One coulomb per second",
+"One joule per second"
+],
+"a": 2,
+"ex": "Book 5-3."
+},
+{
+"n": 2,
+"q": "Electrical power equals:",
+"o": [
+"Current ÷ resistance",
+"Voltage × current",
+"Charge × time",
+"Voltage ÷ current"
+],
+"a": 1,
+"ex": "Book 5-3."
+},
+{
+"n": 3,
+"q": "Two 20 Ω resistors in parallel have a combined resistance of:",
+"o": [
+"400 Ω",
+"10 Ω",
+"40 Ω",
+"20 Ω"
+],
+"a": 1,
+"ex": "1/R = 1/20 + 1/20."
+},
+{
+"n": 4,
+"q": "Capacitors in parallel:",
+"o": [
+"Add directly",
+"Combine as reciprocals",
+"Halve the capacitance",
+"Cancel each other"
+],
+"a": 0,
+"ex": "Opposite to resistors."
+},
+{
+"n": 5,
+"q": "In a purely inductive AC circuit, the current:",
+"o": [
+"Is in phase",
+"Leads the voltage by 90°",
+"Lags the voltage by 90°",
+"Is zero"
+],
+"a": 2,
+"ex": "CIVIL."
+},
+{
+"n": 6,
+"q": "In a purely capacitive AC circuit, the current:",
+"o": [
+"Leads the voltage by 90°",
+"Is in phase",
+"Lags by 90°",
+"Is 180° out"
+],
+"a": 0,
+"ex": "CIVIL."
+},
+{
+"n": 7,
+"q": "A capacitor in a DC circuit:",
+"o": [
+"Acts as a short circuit",
+"Blocks steady current",
+"Passes DC freely",
+"Doubles the current"
+],
+"a": 1,
+"ex": "Book 5-4."
+},
+{
+"n": 8,
+"q": "Inductive reactance as frequency increases:",
+"o": [
+"Increases",
+"Decreases",
+"Becomes zero",
+"Stays the same"
+],
+"a": 0,
+"ex": "XL = 2πfL."
+},
+{
+"n": 9,
+"q": "At resonance:",
+"o": [
+"Resistance is zero",
+"Current is zero",
+"Frequency is zero",
+"Inductive and capacitive reactance are equal"
+],
+"a": 3,
+"ex": "Book 5-4."
+},
+{
+"n": 10,
+"q": "Ohm's law states:",
+"o": [
+"P = V ÷ I",
+"I = V ÷ R",
+"V = I ÷ R",
+"R = V × I"
+],
+"a": 1,
+"ex": "Book 5-5."
+},
+{
+"n": 11,
+"q": "Fleming's right-hand rule applies to:",
+"o": [
+"Generators",
+"Batteries",
+"Motors",
+"Transformers"
+],
+"a": 0,
+"ex": "Left hand for motors."
+},
+{
+"n": 12,
+"q": "Lenz's law explains:",
+"o": [
+"Thermocouple EMF",
+"Static electricity",
+"Magnetic saturation",
+"Back EMF opposing the change that produces it"
+],
+"a": 3,
+"ex": "Book 5-5."
+},
+{
+"n": 13,
+"q": "Which does NOT increase an induced EMF?",
+"o": [
+"Thicker wire insulation",
+"More turns",
+"A stronger field",
+"Faster relative movement"
+],
+"a": 0,
+"ex": "Book 5-5."
+},
+{
+"n": 14,
+"q": "Using the right-hand grip rule on a solenoid, the thumb points to the:",
+"o": [
+"South pole",
+"Earth",
+"Current source",
+"North pole"
+],
+"a": 3,
+"ex": "Book 5-5."
+},
+{
+"n": 15,
+"q": "A temporary magnet is made from:",
+"o": [
+"Soft iron",
+"Copper",
+"Hard steel",
+"Aluminium"
+],
+"a": 0,
+"ex": "Easily magnetised and demagnetised."
+},
+{
+"n": 16,
+"q": "Retentivity is:",
+"o": [
+"Resistance to current",
+"The maximum magnetism possible",
+"The ease of magnetising",
+"The magnetism remaining after the magnetising field is removed"
+],
+"a": 3,
+"ex": "Book 5-7."
+},
+{
+"n": 17,
+"q": "Aircraft magnetism is caused mainly by:",
+"o": [
+"Lightning strikes only",
+"The compass",
+"Electrical wiring only",
+"Hammering and vibration during construction in the earth's field"
+],
+"a": 3,
+"ex": "Book 5-7."
+},
+{
+"n": 18,
+"q": "Cells connected in series:",
+"o": [
+"Add capacity; voltage stays the same",
+"Add their voltages; capacity stays the same",
+"Cancel out",
+"Halve the voltage"
+],
+"a": 1,
+"ex": "Book 5-8."
+},
+{
+"n": 19,
+"q": "Two 12 V, 40 Ah batteries in parallel give:",
+"o": [
+"24 V, 40 Ah",
+"24 V, 80 Ah",
+"12 V, 80 Ah",
+"12 V, 40 Ah"
+],
+"a": 2,
+"ex": "Book 5-8."
+},
+{
+"n": 20,
+"q": "The nominal voltage of a nickel-cadmium cell is:",
+"o": [
+"3.6 V",
+"1.5 V",
+"2 V",
+"1.2 V"
+],
+"a": 3,
+"ex": "Book 5-8."
+},
+{
+"n": 21,
+"q": "The electrolyte of a nickel-cadmium battery is:",
+"o": [
+"Distilled water",
+"Lithium salt",
+"Sulphuric acid",
+"Potassium hydroxide"
+],
+"a": 3,
+"ex": "Book 5-8."
+},
+{
+"n": 22,
+"q": "A known hazard of Ni-Cd batteries is:",
+"o": [
+"Freezing",
+"Thermal runaway",
+"Sulphation",
+"Rapid voltage drop under load"
+],
+"a": 1,
+"ex": "Book 5-8."
+},
+{
+"n": 23,
+"q": "An aircraft battery capacity check is required every:",
+"o": [
+"Week",
+"3 months",
+"Year",
+"5 years"
+],
+"a": 1,
+"ex": "Must give at least 80%."
+},
+{
+"n": 24,
+"q": "A semiconductor has conductivity:",
+"o": [
+"Higher than a conductor",
+"Of zero",
+"Lower than an insulator",
+"Between a conductor and an insulator"
+],
+"a": 3,
+"ex": "Transistors, diodes."
+},
+{
+"n": 25,
+"q": "A piezo-electric crystal produces a charge when:",
+"o": [
+"Light falls on it",
+"It is rubbed",
+"It is heated",
+"Pressure is applied"
+],
+"a": 3,
+"ex": "Book 5-3."
+},
+{
+"n": 26,
+"q": "Conventional current flows:",
+"o": [
+"Opposite to electron flow",
+"With electron flow",
+"Only in AC circuits",
+"From − to +"
+],
+"a": 0,
+"ex": "Book 5-3."
+},
+{
+"n": 27,
+"q": "Capacitance depends on the:",
+"o": [
+"Frequency only",
+"Current only",
+"Number of turns",
+"Dielectric, plate area and plate spacing"
+],
+"a": 3,
+"ex": "Book 5-4."
+},
+{
+"n": 28,
+"q": "Kirchhoff's first law states that:",
+"o": [
+"Voltage equals current × resistance",
+"Current into a junction equals current out",
+"Induced EMF opposes the change",
+"EMF depends on the rate of change of flux"
+],
+"a": 1,
+"ex": "Book 5-5."
+},
+{
+"n": 29,
+"q": "A diode has:",
+"o": [
+"Equal resistance both ways",
+"No effect on DC",
+"Nil resistance forward and infinite resistance reverse",
+"High forward resistance"
+],
+"a": 2,
+"ex": "Book 5-6."
+},
+{
+"n": 30,
+"q": "A magnet can be demagnetised by heating it above about:",
+"o": [
+"100 °C",
+"300 °C",
+"900 °C",
+"2000 °C"
+],
+"a": 2,
+"ex": "Book 5-7."
+}
+]
+}

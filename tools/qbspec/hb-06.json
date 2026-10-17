@@ -1,0 +1,371 @@
+{
+ "id": "hb-06",
+ "title": "Flight Controls, Tabs and Balancing",
+ "src": "Practice questions written for Glidepath from the Aviator's Handbook, Part 2, 2-38 to 2-41 (not printed in the book: the Handbook has no question bank)",
+ "text": "avh",
+ "start": 1,
+ "end": 3,
+ "key": "",
+ "add": [
+  {
+   "n": 1,
+   "q": "Ailerons are described as a:",
+   "o": [
+    "Rate control",
+    "Trim control",
+    "Mass-balanced control only",
+    "Displacement control"
+   ],
+   "a": 0,
+   "ex": "A held aileron gives a steady roll rate."
+  },
+  {
+   "n": 2,
+   "q": "Holding a fixed elevator deflection gives:",
+   "o": [
+    "Nothing",
+    "A roll",
+    "A constant pitch rate",
+    "A fixed pitch attitude change (displacement)"
+   ],
+   "a": 3,
+   "ex": "Book 2-38."
+  },
+  {
+   "n": 3,
+   "q": "Climbing at constant IAS, the roll rate for a given aileron deflection:",
+   "o": [
+    "Decreases",
+    "Increases",
+    "Reverses",
+    "Stays the same"
+   ],
+   "a": 1,
+   "ex": "Less roll damping in thin air."
+  },
+  {
+   "n": 4,
+   "q": "Rolling to the right, adverse aileron yaw swings the nose:",
+   "o": [
+    "Right",
+    "Left",
+    "Down",
+    "Up"
+   ],
+   "a": 1,
+   "ex": "Induced drag of the down-going left aileron."
+  },
+  {
+   "n": 5,
+   "q": "Applying right rudder produces a roll:",
+   "o": [
+    "None",
+    "Only at high speed",
+    "To the left",
+    "To the right"
+   ],
+   "a": 3,
+   "ex": "The outer wing goes faster."
+  },
+  {
+   "n": 6,
+   "q": "In a differential aileron system:",
+   "o": [
+    "Only one moves",
+    "The up-going aileron moves through a larger angle",
+    "Both move equally",
+    "The down-going aileron moves further"
+   ],
+   "a": 1,
+   "ex": "Book 2-39."
+  },
+  {
+   "n": 7,
+   "q": "A Frise aileron reduces adverse yaw because:",
+   "o": [
+    "It moves only downwards",
+    "It is mass balanced",
+    "It has a balance tab",
+    "The up-going aileron's leading edge protrudes into the airflow"
+   ],
+   "a": 3,
+   "ex": "Book 2-39."
+  },
+  {
+   "n": 8,
+   "q": "Roll spoilers deploy on the:",
+   "o": [
+    "Both wings equally",
+    "Up-going wing",
+    "Down-going wing",
+    "Tailplane"
+   ],
+   "a": 2,
+   "ex": "Book 2-39."
+  },
+  {
+   "n": 9,
+   "q": "A ruddervator combines:",
+   "o": [
+    "Rudder and elevator on a V-tail",
+    "Rudder and aileron",
+    "Flap and aileron",
+    "Aileron and elevator"
+   ],
+   "a": 0,
+   "ex": "Book 2-39."
+  },
+  {
+   "n": 10,
+   "q": "A balance tab:",
+   "o": [
+    "Prevents flutter",
+    "Moves the same way, increasing stick force",
+    "Moves opposite to the control surface, reducing stick force",
+    "Is moved directly by the pilot"
+   ],
+   "a": 2,
+   "ex": "Book 2-40."
+  },
+  {
+   "n": 11,
+   "q": "An anti-balance tab:",
+   "o": [
+    "Zeroes stick force",
+    "Increases stick force and control effectiveness",
+    "Is used only for trimming",
+    "Reduces stick force"
+   ],
+   "a": 1,
+   "ex": "It moves the same way as the surface."
+  },
+  {
+   "n": 12,
+   "q": "With a servo tab, the pilot's control input moves:",
+   "o": [
+    "Both directly",
+    "The trim wheel",
+    "Only the tab",
+    "Only the control surface"
+   ],
+   "a": 2,
+   "ex": "The tab then flies the surface."
+  },
+  {
+   "n": 13,
+   "q": "A spring tab is used to improve servo-tab performance at:",
+   "o": [
+    "Supersonic speed",
+    "High altitude only",
+    "High IAS",
+    "Low IAS"
+   ],
+   "a": 3,
+   "ex": "Book 2-40."
+  },
+  {
+   "n": 14,
+   "q": "A trim tab is moved:",
+   "o": [
+    "In the same direction as the surface",
+    "Only on the ground",
+    "Automatically by the CG",
+    "Opposite to the control surface until stick force is zero"
+   ],
+   "a": 3,
+   "ex": "Book 2-40."
+  },
+  {
+   "n": 15,
+   "q": "An inset hinge is limited to about:",
+   "o": [
+    "20–25% of the control chord",
+    "5%",
+    "100%",
+    "50%"
+   ],
+   "a": 0,
+   "ex": "So the CP never moves ahead of the hinge."
+  },
+  {
+   "n": 16,
+   "q": "If the control surface CP moves ahead of the hinge line the result is:",
+   "o": [
+    "Adverse yaw",
+    "Overbalance",
+    "Aileron reversal",
+    "Flutter"
+   ],
+   "a": 1,
+   "ex": "Controls get lighter with deflection."
+  },
+  {
+   "n": 17,
+   "q": "A horn balance is most commonly used on:",
+   "o": [
+    "Ailerons only",
+    "Flaps",
+    "Rudders",
+    "Spoilers"
+   ],
+   "a": 2,
+   "ex": "Book 2-41."
+  },
+  {
+   "n": 18,
+   "q": "Mass balancing a control surface prevents:",
+   "o": [
+    "Flutter",
+    "Adverse yaw",
+    "Overbalance",
+    "High stick forces"
+   ],
+   "a": 0,
+   "ex": "Surface CG moved to the hinge line."
+  },
+  {
+   "n": 19,
+   "q": "A mass-balance weight is placed:",
+   "o": [
+    "Ahead of the hinge line",
+    "At the wing root",
+    "Behind the hinge line",
+    "On the trim tab"
+   ],
+   "a": 0,
+   "ex": "Book 2-41."
+  },
+  {
+   "n": 20,
+   "q": "A variable-incidence tailplane trims by:",
+   "o": [
+    "Moving a trim tab",
+    "Moving the CG",
+    "Moving the elevator only",
+    "Moving the whole tailplane"
+   ],
+   "a": 3,
+   "ex": "Less trim drag; elevator stays neutral."
+  },
+  {
+   "n": 21,
+   "q": "A shorter wingspan gives a roll rate that is:",
+   "o": [
+    "Slower",
+    "Faster, because damping in roll is less",
+    "Zero",
+    "Unchanged"
+   ],
+   "a": 1,
+   "ex": "Book 2-38."
+  },
+  {
+   "n": 22,
+   "q": "A down-going aileron makes that wing section's stalling angle:",
+   "o": [
+    "Unchanged",
+    "Lower",
+    "Higher",
+    "Negative"
+   ],
+   "a": 1,
+   "ex": "More camber."
+  },
+  {
+   "n": 23,
+   "q": "The elevator is described as a:",
+   "o": [
+    "Trim control",
+    "Secondary control",
+    "Rate control",
+    "Displacement control"
+   ],
+   "a": 3,
+   "ex": "Ailerons are the rate control."
+  },
+  {
+   "n": 24,
+   "q": "A dorsal fin delays fin stall by:",
+   "o": [
+    "Adding mass balance",
+    "Increasing its camber",
+    "Moving the CG aft",
+    "Lowering the fin's aspect ratio"
+   ],
+   "a": 3,
+   "ex": "Book 2-38."
+  },
+  {
+   "n": 25,
+   "q": "Spoilers used together on both wings act as:",
+   "o": [
+    "High-lift devices",
+    "Roll controls",
+    "Airbrakes and lift dumpers",
+    "Trim tabs"
+   ],
+   "a": 2,
+   "ex": "Differentially they give roll."
+  },
+  {
+   "n": 26,
+   "q": "Roll due to yaw is greatest at:",
+   "o": [
+    "High altitude only",
+    "Low angle of attack",
+    "High speed",
+    "Low speed and high angle of attack"
+   ],
+   "a": 3,
+   "ex": "Book 2-39."
+  },
+  {
+   "n": 27,
+   "q": "Elevons are found on:",
+   "o": [
+    "Tail-less delta wings",
+    "Canards",
+    "V-tails",
+    "Biplanes"
+   ],
+   "a": 0,
+   "ex": "Ruddervators are on V-tails."
+  },
+  {
+   "n": 28,
+   "q": "An anti-balance tab moves:",
+   "o": [
+    "Only at low speed",
+    "Opposite to the control surface",
+    "Only when trimmed",
+    "The same way as the control surface"
+   ],
+   "a": 3,
+   "ex": "More stick force and effectiveness."
+  },
+  {
+   "n": 29,
+   "q": "A servo tab is ineffective at low IAS because:",
+   "o": [
+    "The spring is compressed",
+    "It moves the same way as the surface",
+    "It is mass-balanced",
+    "Deflections above about 20° are ineffective"
+   ],
+   "a": 3,
+   "ex": "Hence the spring tab."
+  },
+  {
+   "n": 30,
+   "q": "A variable-incidence tailplane gives:",
+   "o": [
+    "More trim drag",
+    "Less elevator authority",
+    "Less trim drag and full elevator range",
+    "No trim capability"
+   ],
+   "a": 2,
+   "ex": "Book 2-41."
+  }
+ ]
+}

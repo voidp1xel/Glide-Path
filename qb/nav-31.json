@@ -1,0 +1,665 @@
+{
+"title": "Radar, SSR and DME",
+"src": "R.K. Bali — Air Navigation, Part III Ch 8 (keys read from the printed answer grids, PDF pp. 279, 281, 288)",
+"qs": [
+{
+"n": 1,
+"q": "The time between transmission and reception of a single pulse is 300 microseconds. Determine the range of the target",
+"o": [
+"45 NM",
+"90 NM",
+"45 km"
+],
+"a": 2,
+"ex": "Book key prints (a), but its own working gives 3×10⁸ × 300 µs ÷ 2 = 45 000 m = 45 km."
+},
+{
+"n": 2,
+"q": "Ignoring pulse width and fly back, calculate the maximum range in nautical miles for a primary radar having a PRF of 500 pulses per second",
+"o": [
+"162 NM",
+"300 NM",
+"162 km"
+],
+"a": 0,
+"ex": "3×10⁸ ÷ (2 × 500) = 300 km = 162 NM."
+},
+{
+"n": 3,
+"q": "Ignoring pulse width and fly back, calculate the maximum permissible PRF for a primary radar which is required to give a range of 200 nm",
+"o": [
+"370 pps",
+"405 pps",
+"150 pps"
+],
+"a": 1,
+"ex": "3×10⁸ ÷ (2 × 370 400 m) ≈ 405 pps."
+},
+{
+"n": 4,
+"q": "The maximum range of a pulsed radar is governed by which parameter?",
+"o": [
+"Pulse width",
+"PRF",
+"Speed of propagation"
+],
+"a": 1
+},
+{
+"n": 5,
+"q": "Ignoring fly-back, the maximum theoretical range of a primary radar with a PRF of 800 pps is:",
+"o": [
+"101 NM",
+"202 NM",
+"50.5 NM"
+],
+"a": 0,
+"ex": "3×10⁸ ÷ 1600 = 187.5 km ≈ 101 NM."
+},
+{
+"n": 6,
+"q": "A radar with a maximum range of 265 NM will have a maximum theoretical PRF of:",
+"o": [
+"305 pps",
+"730 pps",
+"163 pps"
+],
+"a": 0,
+"ex": "265 NM = 490.8 km; 3×10⁸ ÷ (2 × 490 800) ≈ 305 pps."
+},
+{
+"n": 7,
+"q": "Given a PRF of 3200 pps, the maximum theoretical radar range is:",
+"o": [
+"50NM",
+"75NM",
+"25NM"
+],
+"a": 2,
+"ex": "3×10⁸ ÷ 6400 = 46.9 km ≈ 25 NM."
+},
+{
+"n": 8,
+"q": "A primary radar is required to have a maximum range of 400 NM. Ignoring pulse width and fly-back, the maximum PRF it could employ is:",
+"o": [
+"465PPS",
+"812PPS",
+"203 PPS"
+],
+"a": 2,
+"ex": "400 NM = 740.8 km; 3×10⁸ ÷ 1 481 600 ≈ 203 pps."
+},
+{
+"n": 9,
+"q": "The minimum theoretical range of a primary radar with a pulse width of 3 µs is:",
+"o": [
+"900 m",
+"450 m",
+"300 m"
+],
+"a": 1,
+"ex": "Min range = c × PW ÷ 2 = 3×10⁸ × 3 µs ÷ 2 = 450 m."
+},
+{
+"n": 10,
+"q": "If the pulse width in a primary radar is 2 µs, the range resolution is:",
+"o": [
+"1000 m",
+"300 ft",
+"984 ft"
+],
+"a": 2,
+"ex": "3×10⁸ × 2 µs ÷ 2 = 300 m ≈ 984 ft."
+},
+{
+"n": 11,
+"q": "The advantage of CW radar over a pulse system is that:",
+"o": [
+"there is no minimum range",
+"a single antenna can be used for TX and RX",
+"is useful for SSR operations"
+],
+"a": 0
+},
+{
+"n": 12,
+"q": "Beam width 3°, pulse width 3 µs. Two targets 2 NM apart will appear as separate targets at what distance from the radar head?",
+"o": [
+"80 NM",
+"50 NM",
+"40 NM"
+],
+"a": 2,
+"ex": "Two targets must be a beam width apart: 2 NM = 3° at 40 NM (1 in 60)."
+},
+{
+"n": 13,
+"q": "An AWR to be switched on:",
+"o": [
+"During taxing by taking precautions for building and hangers",
+"Only after take off in take off direction",
+"At line up point in take off direction"
+],
+"a": 2
+},
+{
+"n": 14,
+"q": "At FL270, an AWR return at 40 NM is identifiable between beam-centre tilts of −1° and −6°. Beam width 3°. Heights of the base and top of the rain-bearing cloud?",
+"o": [
+"Base FL30, top FL210",
+"Base FL30, top FL290",
+"Base FL90, top FL170"
+],
+"a": 2,
+"ex": "Base: 27 000 − (4.5/60 × 6080 × 40) ≈ 9000 ft. Top: 27 000 − (2.5/60 × 6080 × 40) ≈ 17 000 ft."
+},
+{
+"n": 15,
+"q": "An AWR echo at 30 NM shows with the beam level and is lost when the beam centre is tilted up 2°. Beam width 3°. How high above the aircraft is the top of the rain?",
+"o": [
+"600 ft",
+"1500 ft",
+"3000 ft"
+],
+"a": 1,
+"ex": "Lower edge = 2 − 1.5 = 0.5°: 0.5/60 × 6080 × 30 ≈ 1500 ft."
+},
+{
+"n": 16,
+"q": "AWR operation on ground is",
+"o": [
+"Totally prohibited",
+"Unrestricted in the aerodrome maintenance area",
+"Only permitted with certain precautions to safeguard the health of personnel"
+],
+"a": 2
+},
+{
+"n": 17,
+"q": "When an altimeter is used for SSR it is always referenced to:",
+"o": [
+"1013.25 hPa",
+"QFE",
+"The pressure setting in use"
+],
+"a": 0
+},
+{
+"n": 18,
+"q": "Mode C or Mode S of SSR is not to be used when the indication differs by more than:",
+"o": [
+"± 100 ft",
+"± 200 ft",
+"None of the above (the limit is ± 300 ft)"
+],
+"a": 2
+},
+{
+"n": 19,
+"q": "A DME receiver does not lock on to its own transmitter because of:",
+"o": [
+"It works on the principle of random PRF",
+"DME is free from ground clutter",
+"Transmitter and receiver are working at different frequency"
+],
+"a": 2
+},
+{
+"n": 20,
+"q": "Number of aircraft needed to saturate a DME beacon:",
+"o": [
+"100",
+"126",
+"127"
+],
+"a": 0
+},
+{
+"n": 21,
+"q": "Maximum number of aircraft that can use a DME station:",
+"o": [
+"100",
+"126",
+"127"
+],
+"a": 1
+},
+{
+"n": 22,
+"q": "An aircraft at 20 000 ft over a DME station will read:",
+"o": [
+"Zero",
+"2000 ft",
+"About 6 km"
+],
+"a": 2,
+"ex": "20 000 ft ≈ 3.3 NM ≈ 6 km: the DME shows height over the station."
+},
+{
+"n": 23,
+"q": "Ground Speed indications when using a DME will be reliable/ accurate when a/c is flying",
+"o": [
+"towards/ away from ground stn",
+"a/c is flying 90° to ground stn (max error)",
+"a/c is flying at height less than 1000' per nm"
+],
+"a": 0
+},
+{
+"n": 24,
+"q": "A DME shows 50 NM. The accuracy of the indicated distance is:",
+"o": [
+"0.15 NM + 0.5 NM",
+"0.625 NM (0.25 NM + 1.25%)",
+"0.5 NM"
+],
+"a": 1,
+"ex": "0.25 NM + 1.25% of 50 = 0.625 NM."
+},
+{
+"n": 25,
+"q": "A letter Z at the end of identification code means:",
+"o": [
+"DME and VOR are not co-located but serving same st and at a dist of more than 7 nm",
+"DME and VOR are co-located and are serving same st",
+"DME and VOR are not co-located, are serving same stn. are within 7 nm from each other"
+],
+"a": 2
+},
+{
+"n": 26,
+"q": "In which situation will DME speed most closely represent the groundspeed of an aircraft at FL400?",
+"o": [
+"When overhead the station, with no change of heading at transit",
+"When tracking directly towards the station at a range of 100NM or more",
+"When passing abeam the station and within 5NM of it"
+],
+"a": 1
+},
+{
+"n": 27,
+"q": "A DME interrogation pulse takes 2000 µs to reach the ground transponder and return. The slant range is:",
+"o": [
+"186NM",
+"296NM",
+"165NM"
+],
+"a": 2
+},
+{
+"n": 28,
+"q": "What is the maximum distance between VOR and DME/TACAN ground installations if they are to have the same Morse identifier?",
+"o": [
+"2000 m",
+"1000 m",
+"600 m"
+],
+"a": 2
+},
+{
+"n": 29,
+"q": "A DME in tracking mode subsequently experiences a reduction in signal strength will switch the equipment in the first instance to:",
+"o": [
+"standby mode",
+"memory mode",
+"signal controlled search"
+],
+"a": 1
+},
+{
+"n": 30,
+"q": "Of what use, if any, is a military TACAN station to civil aviation?",
+"o": [
+"It is of no use to civil aviation",
+"It can provide DME distance",
+"It can provide a magnetic bearing"
+],
+"a": 1
+},
+{
+"n": 31,
+"q": "A DME that has difficulty obtaining a \"lock-on\": (NOTE: PRF= pulse recurrence frequency, PPS= pulse per second)",
+"o": [
+"stays in search mode but reduces PRF to max. 60PPS after 1500 pulse pairs have been transmitted",
+"stays in search mode but without a reduction in PRF",
+"stays in search mode but reduces PRF to max. 60PPS after 100 seconds"
+],
+"a": 0
+},
+{
+"n": 32,
+"q": "A VOR and DME are co-located. You want to identify the DME by listening to the Call sign. Having heard the same call sign 4 times in 30 seconds the:",
+"o": [
+"VOR and DME call signs were the same and broadcast with the same pitch",
+"DME call sign was not transmitted; the distance information is sufficient proof of correct operation",
+"DME call sign is the one with the higher pitch that was broadcast only once"
+],
+"a": 2
+},
+{
+"n": 33,
+"q": "The aircraft DME receiver cannot lock on to interrogation signals reflected from the ground because:",
+"o": [
+"DME pulse recurrent rates are varied",
+"aircraft transmitter and DME ground station are transmitted on different frequencies",
+"reflections are subject to Doppler frequency shift"
+],
+"a": 1
+},
+{
+"n": 34,
+"q": "Distance Measuring Equipment (DME) operates in the:",
+"o": [
+"UHF band and is a secondary radar system",
+"SHF band and uses frequency modulation techniques",
+"UHF band and is a primary radar system"
+],
+"a": 0
+},
+{
+"n": 35,
+"q": "The DME (Distance Measuring Equipment) operates within the following frequencies:",
+"o": [
+"329 to 335MHz",
+"962 to 1213MHz",
+"962 to 1213kHz"
+],
+"a": 1
+},
+{
+"n": 36,
+"q": "On a DME, display counters rotating throughout their range indicates:",
+"o": [
+"airborne equipment failure",
+"the airborne equipment is conducting a frequency search",
+"the airborne receiver is conducting a range search"
+],
+"a": 2
+},
+{
+"n": 37,
+"q": "A DME station is 1000 ft above MSL. An aircraft at FL370, 15 NM away, will read:",
+"o": [
+"14NM",
+"16NM",
+"15NM"
+],
+"a": 1,
+"ex": "Height 36 000 ft ≈ 5.9 NM; √(15² + 5.9²) ≈ 16 NM."
+},
+{
+"n": 38,
+"q": "A DME is at MSL. An aircraft passing vertically over it at FL360 reads about:",
+"o": [
+"6 NM",
+"8 NM",
+"7 NM"
+],
+"a": 0
+},
+{
+"n": 39,
+"q": "During a flight at FL210, a pilot does not receive any DME distance indication from a DME station located approximately 220NM away. The reason for this that the:",
+"o": [
+"Aero plane is circling around the station",
+"Aero plane is below the \"line of sight\" altitude",
+"Altitude is too high"
+],
+"a": 1
+},
+{
+"n": 40,
+"q": "For a conventional DME facility \"Beacon Saturation\" will occur whenever the number of simultaneous interrogations exceeds:",
+"o": [
+"60",
+"200",
+"100"
+],
+"a": 2
+},
+{
+"n": 41,
+"q": "Which of the following will give the most accurate calculation of aircraft ground speed?",
+"o": [
+"A DME station sited on the flight route",
+"A VOR station sited on the flight route",
+"A DME station sited across the flight route"
+],
+"a": 0
+},
+{
+"n": 42,
+"q": "An aircraft will not accept replies from its own transmissions that are reflected from the ground because the:",
+"o": [
+"the aircraft's registration is embedded onto the signal",
+"pulses are transmitted in pairs",
+"interrogation and reply frequencies are 63 Mhz apart"
+],
+"a": 2
+},
+{
+"n": 43,
+"q": "If an ident signal is received once in 30 seconds on a frequency paired VOR/ DME, then:",
+"o": [
+"the VOR only is operational",
+"the TACAN signal is degraded",
+"the DME only is operational"
+],
+"a": 2
+},
+{
+"n": 44,
+"q": "An aircraft DME receiver rejects pulses meant for other aircraft because:",
+"o": [
+"the random PRF is unique to each aircraft",
+"the transmission and reply frequencies are 63 MHz apart",
+"the pulses are unique to each aircraft"
+],
+"a": 0
+},
+{
+"n": 45,
+"q": "The DME automatic standby will activate the DME interrogator when:",
+"o": [
+"there are too many aircraft in the area for it to service",
+"a VOR frequency that has a frequency paired DME is selected",
+"the DME ident signal is received"
+],
+"a": 1
+},
+{
+"n": 46,
+"q": "Airborne DME equipment is able to discriminate between pulses intended for it self and pulses intended for other aircraft because:",
+"o": [
+"aircraft will only accept unique twin pulses",
+"aircraft reject pulses not synchronised with its own random pulse recurrence rate",
+"each aircraft has its own frequency allocation"
+],
+"a": 1
+},
+{
+"n": 47,
+"q": "An aircraft at FL250 interrogates a DME beacon 400 ft above MSL. Maximum range likely?",
+"o": [
+"210 NM",
+"198 NM",
+"222 NM"
+],
+"a": 2,
+"ex": "1.25 (√25 000 + √400) = 1.25 (158 + 20) ≈ 222 NM."
+},
+{
+"n": 48,
+"q": "Slant range error for an aircraft at 9000 ft above a DME sited at 2000 ft elevation, when the slant range is 12 NM:",
+"o": [
+"1.42 NM",
+"0.31 NM",
+"0.09 NM"
+],
+"a": 2
+},
+{
+"n": 49,
+"q": "The range indicated by DME is considered to be accurate to within:",
+"o": [
+"0.2 NM",
+"3% of range",
+"1.25% of range + 0.25 NM"
+],
+"a": 2
+},
+{
+"n": 50,
+"q": "A DME reply arrives 1200 µs after the interrogation; the DME has a fixed delay of 50 µs. Range of the aircraft from the DME:",
+"o": [
+"45 NM",
+"75 NM",
+"93 NM"
+],
+"a": 2,
+"ex": "(1200 − 50) µs × 150 m/µs = 172.5 km ≈ 93 NM."
+},
+{
+"n": 51,
+"q": "DME and VOR are frequency paired because:",
+"o": [
+"cockpit workload is reduced",
+"both ground transmitter aerials can be placed on the same site if required",
+"the same receiver can be used for both aids"
+],
+"a": 0
+},
+{
+"n": 52,
+"q": "A DME receiver distinguishes replies to its own interrogations from those meant for other aircraft because:",
+"o": [
+"DME is a secondary radar and each aircraft transmits and receives on a different frequency",
+"when DME is in the range search mode it will accept only pulses separated by + or - 63 MHz from the interrogation frequency",
+"each aircraft transmits pulses at a random rate (jittering) and will only accept replies that match this randomisation"
+],
+"a": 2
+},
+{
+"n": 53,
+"q": "In the initial stage of the DME search pattern, before lock-on:",
+"o": [
+"the airborne transmitter transmits 150 pulses each second",
+"the aircraft transmits 24 pulses per second and the receiver checks a maximum of 150",
+"the ground receiver keeps the ground transmitter pulse rate at no more than 150 per second"
+],
+"a": 0
+},
+{
+"n": 54,
+"q": "DME is a (i) … radar operating in the (ii) … band and transmits (iii) …",
+"o": [
+"secondary; UHF; pulse pairs",
+"secondary; SHF; 2400 pulse pairs per second",
+"primary; SHF; CW pulses"
+],
+"a": 0
+},
+{
+"n": 55,
+"q": "The accuracy of a DME:",
+"o": [
+"approximately ± 2 NM",
+"approximately ± 0.5 NM",
+"decreases with increase of range"
+],
+"a": 2
+},
+{
+"n": 56,
+"q": "The OFF flag on aircraft DME mileage displays indicate:",
+"o": [
+"any of the below; B or C",
+"the DME is off",
+"DME is tuned to the wrong frequency"
+],
+"a": 0
+},
+{
+"n": 57,
+"q": "Groundspeed measurement using DME equipment is most accurate flying:",
+"o": [
+"towards the station at short range",
+"past the station at short range",
+"from the station at long range"
+],
+"a": 2
+},
+{
+"n": 58,
+"q": "A VOR/DME share the same first two letters of their respective identifiers; the last identifying letter of the DME is a Z. This means that:",
+"o": [
+"they are a maximum distance of 30m apart",
+"they are more than 600m apart but serve the same location",
+"they are widely separated and do not serve the same location"
+],
+"a": 1
+},
+{
+"n": 59,
+"q": "When a DME is used instead of marker beacons to provide range to the threshold on an ILS approach and where the DME frequency is paired with the ILS, the DME indications should not be used at altitudes greater than:",
+"o": [
+"25.000 ft",
+"6,000 ft",
+"3,000 ft"
+],
+"a": 1
+},
+{
+"n": 60,
+"q": "If a VOR station and a DME station, having different locations, are selected to provide a fix:",
+"o": [
+"all 2 answers below are correct",
+"two different IDs will have to be checked",
+"two sets, with separate frequency control, are required in the aircraft"
+],
+"a": 0
+},
+{
+"n": 61,
+"q": "The airborne DME equipment will transmit pulse pairs at a comparatively high PRF:",
+"o": [
+"At all times, except when the panel control LO is operated",
+"When first switched on and after a channel selection",
+"Whenever a stable signal is being received from the selected ground station"
+],
+"a": 1
+},
+{
+"n": 62,
+"q": "At FL360 and 10 NM plan range from the station, the DME will read:",
+"o": [
+"12.3 NM",
+"11.6 NM",
+"9.5 NM"
+],
+"a": 1,
+"ex": "36 000 ft ≈ 5.9 NM; √(100 + 35) ≈ 11.6 NM."
+},
+{
+"n": 63,
+"q": "A radar rotating at 15 rpm with a 2 µs pulse width and a 3° beam width has two aircraft 1 NM apart approaching. At what distance will it show separate echoes?",
+"o": [
+"20 NM",
+"15 NM",
+"25 NM"
+],
+"a": 0,
+"ex": "1 NM = 3° at 20 NM (1 in 60)."
+},
+{
+"n": 64,
+"q": "Blind speed in a MTI radar can be reduced by operating the radar at:",
+"o": [
+"lower frequencies",
+"short wave lengths",
+"a low prf"
+],
+"a": 0
+}
+]
+}

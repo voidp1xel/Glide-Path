@@ -24,7 +24,7 @@ module.exports = {
         { name: '°F → K', eq: 'K = 5/9 (F − 32) + 273', ex: '68°F → 20°C → **293 K**.', calc: { inputs: [{ k: 'f', label: '°F', v: 68 }], f: '5/9*(f-32)+273', unit: 'K' } },
         { name: 'Absolute zero', eq: '0 K = −273°C', note: 'Book: −273.16°C. Molecular motion almost stops.' },
       ] },
-    { id: 'heat-temp', type: 'pairs', icon: 'scale', ask: 'Heat or temperature? Specific or latent?',
+    { id: 'heat-temp', takeaway: 'Heat is the total energy of the molecules; temperature is their average. Water has a high specific heat (1) and soil a low one (0.2), so land heats and cools faster than the sea.', hook: 'Heat is the sum, temperature the average.', type: 'pairs', icon: 'scale', ask: 'Heat or temperature? Specific or latent?',
       pairs: [
         { a: { label: 'Heat', body: '**Sum total** of the kinetic energy of all molecules.' }, b: { label: 'Temperature', body: '**Average** kinetic energy of the molecules.' }, rule: 'A bath at 60°C holds more heat than a cup of boiling water. The thermosphere is "hot" but holds almost no heat.' },
         { a: { label: 'Specific heat', body: 'Heat to raise 1 unit mass by 1°C. Water **1**, ice 0.5, soil **0.2**.' }, b: { label: 'Latent heat', body: 'Heat absorbed or released in a **change of state**, with no temperature change.' }, rule: 'Low specific heat → heats fast. Land heats and cools faster than water.' },

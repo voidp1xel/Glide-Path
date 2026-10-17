@@ -1,0 +1,390 @@
+{
+"title": "AC and DC Machines and Aircraft Power Systems",
+"src": "Practice questions written for Glidepath from the Aviator's Handbook, Part 5, 5-9 to 5-20 (not printed in the book: the Handbook has no question bank)",
+"qs": [
+{
+"n": 1,
+"q": "The RMS value of an AC voltage is:",
+"o": [
+"0.5 × peak",
+"1.414 × peak",
+"Peak ÷ 3",
+"0.707 × peak"
+],
+"a": 3,
+"ex": "Book 5-9."
+},
+{
+"n": 2,
+"q": "An 8-pole alternator turning at 6000 RPM produces:",
+"o": [
+"200 Hz",
+"50 Hz",
+"400 Hz",
+"800 Hz"
+],
+"a": 2,
+"ex": "f = (poles/2) × RPM/60."
+},
+{
+"n": 3,
+"q": "Power factor is:",
+"o": [
+"True power ÷ apparent power",
+"Apparent ÷ true power",
+"Voltage ÷ current",
+"Reactance ÷ resistance"
+],
+"a": 0,
+"ex": "Book 5-9."
+},
+{
+"n": 4,
+"q": "In an alternator:",
+"o": [
+"The field rotates and the armature is stationary",
+"The armature rotates",
+"Both rotate",
+"A commutator gives DC"
+],
+"a": 0,
+"ex": "Book 5-11."
+},
+{
+"n": 5,
+"q": "Alternator output voltage is controlled by varying the:",
+"o": [
+"Load",
+"Frequency",
+"Rotating field current",
+"Engine RPM"
+],
+"a": 2,
+"ex": "Book 5-11."
+},
+{
+"n": 6,
+"q": "In a three-phase alternator the windings are spaced:",
+"o": [
+"60° apart",
+"90° apart",
+"120° apart",
+"180° apart"
+],
+"a": 2,
+"ex": "Book 5-11."
+},
+{
+"n": 7,
+"q": "In a star-connected system, line voltage equals:",
+"o": [
+"Phase voltage",
+"3 × phase voltage",
+"1.73 × phase voltage",
+"0.707 × phase voltage"
+],
+"a": 2,
+"ex": "115 V phase → 200 V line."
+},
+{
+"n": 8,
+"q": "The speed of a synchronous motor depends on:",
+"o": [
+"Supply voltage",
+"Supply frequency",
+"Load",
+"Armature current"
+],
+"a": 1,
+"ex": "Book 5-12."
+},
+{
+"n": 9,
+"q": "A synchronous motor is used to drive:",
+"o": [
+"Fuel pumps",
+"Starters",
+"Engine RPM indicators",
+"Landing-gear actuators"
+],
+"a": 2,
+"ex": "Book 5-12."
+},
+{
+"n": 10,
+"q": "The difference between synchronous speed and rotor speed of an induction motor is called:",
+"o": [
+"Ripple",
+"Lag",
+"Drift",
+"Slip"
+],
+"a": 3,
+"ex": "About 5%."
+},
+{
+"n": 11,
+"q": "In a DC generator, AC is converted to DC by the:",
+"o": [
+"Field coil",
+"Commutator",
+"Rectifier diodes",
+"Slip rings"
+],
+"a": 1,
+"ex": "Book 5-13."
+},
+{
+"n": 12,
+"q": "Armature reaction is corrected by:",
+"o": [
+"Interpoles",
+"A larger commutator",
+"A fuse",
+"A reverse-current relay"
+],
+"a": 0,
+"ex": "Book 5-13."
+},
+{
+"n": 13,
+"q": "A reverse-current (cut-out) relay prevents:",
+"o": [
+"Under-frequency",
+"Over-voltage",
+"The battery driving current back into the generator",
+"Arcing at the brushes"
+],
+"a": 2,
+"ex": "Book 5-14."
+},
+{
+"n": 14,
+"q": "A shunt-wound DC generator gives:",
+"o": [
+"Voltage that rises with load",
+"Nearly constant voltage",
+"Very high starting torque",
+"AC output"
+],
+"a": 1,
+"ex": "Book 5-14."
+},
+{
+"n": 15,
+"q": "A series-wound DC motor:",
+"o": [
+"Runs at constant speed",
+"Has high starting torque and must not run unloaded",
+"Has low starting torque",
+"Is used for fans"
+],
+"a": 1,
+"ex": "Used for starters and actuators."
+},
+{
+"n": 16,
+"q": "A shunt-wound DC motor:",
+"o": [
+"Overspeeds without load",
+"Has the highest starting torque",
+"Is used only as a starter",
+"Runs at nearly constant speed"
+],
+"a": 3,
+"ex": "Book 5-15."
+},
+{
+"n": 17,
+"q": "A transformer works only on:",
+"o": [
+"Pulsed DC only",
+"AC",
+"Both equally",
+"DC"
+],
+"a": 1,
+"ex": "Book 5-17."
+},
+{
+"n": 18,
+"q": "An inverter converts:",
+"o": [
+"High-voltage AC to low-voltage AC",
+"DC to AC",
+"Frequency only",
+"AC to DC"
+],
+"a": 1,
+"ex": "A TRU converts AC to DC."
+},
+{
+"n": 19,
+"q": "A voltmeter is connected:",
+"o": [
+"In series with high resistance",
+"In parallel and has high resistance",
+"In parallel with low resistance",
+"In series with low resistance"
+],
+"a": 1,
+"ex": "Book 5-18."
+},
+{
+"n": 20,
+"q": "An ammeter is connected:",
+"o": [
+"In series and has low resistance",
+"In parallel and has high resistance",
+"Across the battery only",
+"In parallel with low resistance"
+],
+"a": 0,
+"ex": "Book 5-18."
+},
+{
+"n": 21,
+"q": "In a single-pole (earth-return) system the return path is:",
+"o": [
+"A separate return wire",
+"The battery case",
+"The ground power unit",
+"The metal airframe"
+],
+"a": 3,
+"ex": "Book 5-18."
+},
+{
+"n": 22,
+"q": "Paralleling AC generators requires matching of:",
+"o": [
+"Voltage only",
+"Frequency, phase and voltage",
+"Current only",
+"Power factor only"
+],
+"a": 1,
+"ex": "Book 5-18."
+},
+{
+"n": 23,
+"q": "Static wicks are fitted on the:",
+"o": [
+"Leading edges",
+"Trailing edges",
+"Engine nacelles only",
+"Wheel axles"
+],
+"a": 1,
+"ex": "Book 5-18."
+},
+{
+"n": 24,
+"q": "A trip-free circuit breaker:",
+"o": [
+"Has no reset",
+"Must be replaced after tripping",
+"Cannot be held in while the fault persists",
+"Can be held in during a fault"
+],
+"a": 2,
+"ex": "Book 5-19."
+},
+{
+"n": 25,
+"q": "Fuses and circuit breakers are connected:",
+"o": [
+"In parallel with the load",
+"Across the battery",
+"In series with the load",
+"In the earth return only"
+],
+"a": 2,
+"ex": "Book 5-19."
+},
+{
+"n": 26,
+"q": "The period of an AC wave is:",
+"o": [
+"Peak × 0.707",
+"1 ÷ frequency",
+"Frequency × 2",
+"360°"
+],
+"a": 1,
+"ex": "Book 5-9."
+},
+{
+"n": 27,
+"q": "One advantage of AC in aircraft is:",
+"o": [
+"Easier battery charging",
+"No need for transformers",
+"Commutators are simpler",
+"Less cable weight at high voltage"
+],
+"a": 3,
+"ex": "Book 5-9."
+},
+{
+"n": 28,
+"q": "A 4-pole synchronous motor at 400 Hz runs at:",
+"o": [
+"24,000 RPM",
+"12,000 RPM",
+"1200 RPM",
+"6000 RPM"
+],
+"a": 1,
+"ex": "RPM = 120 f ÷ poles."
+},
+{
+"n": 29,
+"q": "The DC generator voltage regulator is a variable resistance:",
+"o": [
+"In the load",
+"In the armature",
+"In parallel with the battery",
+"In series with the field"
+],
+"a": 3,
+"ex": "Book 5-14."
+},
+{
+"n": 30,
+"q": "A starter-generator is used mainly on:",
+"o": [
+"Piston engines",
+"Batteries",
+"APUs only",
+"Turbine engines"
+],
+"a": 3,
+"ex": "Poor output at low RPM."
+},
+{
+"n": 31,
+"q": "A two-wire (dipole) distribution system is used on:",
+"o": [
+"All metal aircraft",
+"Single-engine trainers only",
+"Non-conductive (composite) airframes",
+"Helicopters only"
+],
+"a": 2,
+"ex": "Book 5-18."
+},
+{
+"n": 32,
+"q": "In the resistor colour code, red represents:",
+"o": [
+"3",
+"1",
+"7",
+"2"
+],
+"a": 3,
+"ex": "Black 0, brown 1, red 2, orange 3."
+}
+]
+}

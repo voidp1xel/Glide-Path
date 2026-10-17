@@ -118,6 +118,21 @@ function render() {
 }
 async function onPill() {
   if (!user) {
+    if (window.GLIDEPATH_EMULATOR) {
+      const email = prompt('Local sync emulator email (use the same on web and Android)');
+      if (!email) return;
+      const password = prompt('Local sync emulator password (6+ characters)');
+      if (!password) return;
+      try {
+        try { await fb.signInWithEmailAndPassword(auth, email.trim(), password); }
+        catch (e) {
+          if (e.code === 'auth/user-not-found' || e.code === 'auth/invalid-credential' || e.code === 'auth/invalid-login-credentials')
+            await fb.createUserWithEmailAndPassword(auth, email.trim(), password);
+          else throw e;
+        }
+      } catch (e) { G.toast('Emulator sign-in failed: ' + (e.code || e.message)); }
+      return;
+    }
     try { await fb.signInWithPopup(auth, new fb.GoogleAuthProvider()); }
     catch (e) { if (e.code === 'auth/popup-blocked' || e.code === 'auth/operation-not-supported-in-this-environment') fb.signInWithRedirect(auth, new fb.GoogleAuthProvider()); else G.toast('Sign-in failed: ' + (e.code || e.message)); }
     return;

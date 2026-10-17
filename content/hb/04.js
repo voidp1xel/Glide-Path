@@ -2,6 +2,7 @@ module.exports = {
   n: 4, title: 'Aerofoils, Wings and High-Lift Devices', tag: 'Aerofoil types · planforms · sweep · delta and canard · aspect ratio · slats and flaps', icon: 'layers', hue: 3, partOfBook: 'Part 2 · Aerodynamics',
   big: 'What makes a good aerofoil, how each wing planform shares out its lift and where it stalls first, why designers sweep, taper, twist and add canards, and how slats and flaps raise CLmax for take-off and landing.',
   purpose: 'Planform stall patterns, sweepback pros and cons, forward sweep and canards, aspect-ratio effects, and the flap-vs-slat effects on CLmax, stalling AoA, pitch and L/D are standard Technical General questions.',
+  bankLead: 'The Handbook prints no question bank, so these are original questions written for Glidepath from the book’s facts — not the book’s own questions. Your answers are saved.',
   lessons: [
     { id: 'map', type: 'mindmap', short: 'Mind map', icon: 'brain', ask: 'The whole chapter on one page',
       root: { label: 'Wings', children: [
@@ -14,14 +15,14 @@ module.exports = {
         { label: 'High lift', children: [{ label: 'Slats +70% CLmax' }, { label: 'Krueger' }, { label: 'Fowler biggest' }, { label: 'Flaps: nose-down' }] },
       ] } },
 
-    { id: 'ideal', part: 'Aerofoils', type: 'bullets', icon: 'check', ask: 'What would the perfect aerofoil have?',
+    { id: 'ideal', short: 'The ideal aerofoil', takeaway: 'An ideal aerofoil has a high CLmax, low drag across a range of angles, a good lift/drag ratio and a small, stable movement of the centre of pressure.', part: 'Aerofoils', type: 'bullets', icon: 'check', ask: 'What would the perfect aerofoil have?',
       groups: [
         { title: 'High CLmax', icon: 'plane', text: 'Low landing speed.' },
         { title: 'Low CDmin over a range', icon: 'wind', text: 'High flight speeds at more than one AoA.' },
         { title: 'Good L/D and endurance ratio', icon: 'fuel', text: 'Efficiency, load carrying, less fuel; less power required for endurance.' },
         { title: 'Small, stable CP travel', icon: 'target', text: 'Peak loads lie along the line of CP travel; less travel = lighter structure.' },
       ] },
-    { id: 'types', type: 'matrix', icon: 'grid', ask: 'High-lift, general-purpose or high-speed section?', revise: true, dgca: true,
+    { id: 'types', hook: 'Fat and curved for lift, thin and flat for speed.', short: 'Aerofoil types', takeaway: 'High-lift sections are thick and deeply cambered; high-speed sections are thin, sharp and nearly symmetric with maximum thickness near mid-chord, like laminar-flow sections.', type: 'matrix', icon: 'grid', ask: 'High-lift, general-purpose or high-speed section?', revise: true, dgca: true,
       corner: 'Aerofoil', cols: ['Aircraft', 'Camber', 'Shape', 'Max thickness'],
       rows: [
         { label: 'High lift', cells: ['gliders, sailplanes', { v: 'deep', key: true }, 'rounded LE, thick', '25–30%'] },
@@ -32,24 +33,24 @@ module.exports = {
         { label: 'Symmetric', cells: ['—', 'none', 'no CP movement', '—'] },
       ] },
 
-    { id: 'planforms', part: 'Planforms', type: 'svg', fig: 'wing-planforms', icon: 'plane', ask: 'Where does each planform stall first?', dgca: true,
+    { id: 'planforms', short: 'Planforms and stall', part: 'Planforms', type: 'svg', fig: 'wing-planforms', icon: 'plane', ask: 'Where does each planform stall first?', dgca: true,
       takeaway: 'Elliptical wings give the least induced drag but stall all at once with no warning. Rectangular wings stall at the root, keeping the ailerons working. High taper, pointed tips and sweepback load up the tips and tend to tip-stall.',
       hook: 'Square stalls at the root; sharp and swept stall at the tip.' },
-    { id: 'planform-pairs', type: 'pairs', icon: 'scale', ask: 'Elliptical vs rectangular; moderate vs high taper',
+    { id: 'planform-pairs', short: 'Planform pairs', takeaway: 'Elliptical wings have the least induced drag but stall all at once; rectangular wings stall at the root; the more taper, the more the tip works and the earlier it stalls.', type: 'pairs', icon: 'scale', ask: 'Elliptical vs rectangular; moderate vs high taper',
       pairs: [
         { a: { label: 'Elliptical', body: '**Least induced drag**; CL ≈ 1.0 everywhere. Hard to build, **no stall warning**, ailerons weak at the stall.' }, b: { label: 'Rectangular', body: 'High CL at the root, low at the tip → **root stalls first**, ailerons effective. Poor aerodynamic and structural efficiency.' }, rule: 'Elliptical is best for drag, rectangular is best for stall behaviour.' },
         { a: { label: 'Moderate taper (0.5)', body: 'Lift distribution and stall pattern close to **elliptical**.' }, b: { label: 'High taper (0.25) / pointed (0)', body: 'Highest CL near the **tip** → **tip stall**; a pointed tip is always stalled (no subsonic use).' }, rule: 'The more taper, the more the tip works and the earlier it stalls.' },
       ] },
-    { id: 'sweep', type: 'svg', fig: 'sweep-components', icon: 'wind', ask: 'What does sweepback do to the airflow?', dgca: true,
+    { id: 'sweep', short: 'Sweepback airflow', type: 'svg', fig: 'sweep-components', icon: 'wind', ask: 'What does sweepback do to the airflow?', dgca: true,
       takeaway: 'Only the component of the airflow at right angles to the leading edge (V cos Λ) makes lift and sets the local Mach number; the spanwise component (V sin Λ) just slides along the wing, dragging the boundary layer out to the tips. Hence: higher critical Mach, but lower CLmax, higher stall speed and tip stall.',
       hook: 'Cos does the work, sine slides to the tip.' },
-    { id: 'sweep-list', type: 'bullets', icon: 'list', ask: 'Sweepback: the good and the bad', dgca: true,
+    { id: 'sweep-list', hook: 'Sweep buys speed, pays in stall manners.', short: 'Sweep: pros and cons', takeaway: 'Sweep delays compressibility and smooths the ride in turbulence, but costs CLmax, raises stall speed and brings tip stall, pitch-up, Mach tuck and high descent rates on approach.', type: 'bullets', icon: 'list', ask: 'Sweepback: the good and the bad', dgca: true,
       groups: [
         { title: 'Good', icon: 'check', points: ['Better **high-speed** behaviour', 'Like a lower AR: gentle lift slope', '**Good in turbulence**: gusts change wing loading less', 'Adds dihedral effect'] },
         { title: 'Bad', icon: 'alert', points: ['**Lower CLmax, higher stall speed**', 'Longer take-off/landing runs', '**Tip stall, pitch-up, super stall**', '**Mach tuck**', 'Less TE room for flaps; TE flaps less effective'] },
         { title: 'On approach', icon: 'plane', points: ['Raising the nose adds more drag than lift', '→ high rate of descent', 'High-drag devices lower VMD towards approach speed', 'Ram\'s-horn vortex at the tip'] },
       ] },
-    { id: 'special', type: 'matrix', icon: 'grid', ask: 'Delta, forward sweep, crescent or canard?', revise: true,
+    { id: 'special', short: 'Special wings', takeaway: 'Crescent wings keep the boundary layer inboard, tail-less deltas stall at high angles, slender deltas gain vortex lift, forward-swept wings stall at the root and canards trim with less drag.', type: 'matrix', icon: 'grid', ask: 'Delta, forward sweep, crescent or canard?', revise: true,
       corner: 'Design', cols: ['How it works', 'Key point'],
       rows: [
         { label: 'Crescent (Victor)', cells: ['Root most swept and thickest; tips nearly unswept', 'BL does not run to the tips; less tip stall'] },
@@ -58,24 +59,24 @@ module.exports = {
         { label: 'Forward sweep (X-29)', cells: ['Flexure raises tip AoA → aero-elastic tailoring', { v: 'Root stalls first; ailerons stay effective', key: true }] },
         { label: 'Canard', cells: ['Control surface ahead of the wing', 'Less trim drag; works at high AoA'] },
       ] },
-    { id: 'canard', type: 'pairs', icon: 'alert', ask: 'Canard: who stalls first?',
+    { id: 'canard', short: 'Canard stall order', takeaway: 'On a canard aircraft, a wing stalling first costs stability and a canard stalling first costs control; conventional aircraft avoid both by stalling the wing before the tail.', type: 'pairs', icon: 'alert', ask: 'Canard: who stalls first?',
       pairs: [
         { a: { label: 'Wing stalls first', body: 'Canard keeps lifting the nose: **stability is lost**.' }, b: { label: 'Canard stalls first', body: 'Nose drops and cannot be raised: **control is lost**.' }, rule: 'A conventional aircraft\'s wing always stalls before its tail, keeping both.' },
       ] },
-    { id: 'ar', type: 'pairs', icon: 'ruler', ask: 'High or low aspect ratio?', dgca: true,
+    { id: 'ar', hook: 'Long wings glide; short wings roll.', short: 'Aspect ratio', takeaway: 'High aspect ratio cuts induced drag for transports and gliders; low aspect ratio suits fast combat aircraft with high roll rates and stalling angles but much induced drag at low speed.', type: 'pairs', icon: 'ruler', ask: 'High or low aspect ratio?', dgca: true,
       pairs: [
         { a: { label: 'High AR', body: 'Transports, gliders. **Low induced drag**, good lift at low speed. Long, heavy, flexible wings — not for high speed.' }, b: { label: 'Low AR', body: 'Combat aircraft. Low drag at transonic/supersonic speed, **high roll rate, high stalling AoA**. But **high induced drag** and downwash at low speed.' }, rule: 'CDi ∝ 1/AR: double the AR, halve the induced drag.' },
       ] },
-    { id: 'lowar', type: 'bullets', icon: 'alert', ask: 'Flying a low-AR wing slowly: the traps',
+    { id: 'lowar', short: 'Low-AR traps', takeaway: 'Flying a low-aspect-ratio wing slowly invites huge induced drag: over-rotation, steep slow turns or pulling up below the glide path quickly bleed speed and raise sink.', type: 'bullets', icon: 'alert', ask: 'Flying a low-AR wing slowly: the traps',
       groups: [
         { title: 'Take-off', icon: 'plane', points: ['Over-rotation → huge induced drag', 'May not fly out of ground effect', 'Slower acceleration, longer run'] },
         { title: 'Approach and landing', icon: 'alert', points: ['Steep slow turns: drag and Vs rise', 'Below the glide path, raising the nose → more Di → more ROD', 'Flaring from a steep slow approach → rapid speed loss'] },
       ] },
 
-    { id: 'devices', part: 'High-lift devices', type: 'svg', fig: 'high-lift-devices', icon: 'sliders', ask: 'How does each flap and slat work?', dgca: true,
+    { id: 'devices', short: 'Flaps and slats', part: 'High-lift devices', type: 'svg', fig: 'high-lift-devices', icon: 'sliders', ask: 'How does each flap and slat work?', dgca: true,
       takeaway: 'Trailing-edge flaps add camber (Fowler also adds area) and so raise CLmax but lower the stalling angle. Slats open a slot that energises the boundary layer: they raise CLmax by up to 70% and raise the stalling angle without adding camber. A Krueger flap hinges from under the leading edge and adds camber but no slot.',
       hook: 'Flaps bend, slats blow, Fowler grows.' },
-    { id: 'clmax-rank', type: 'scale', icon: 'trophy', ask: 'Which device gives the most CLmax?',
+    { id: 'clmax-rank', short: 'CLmax ranking', takeaway: 'Fowler flaps give the most CLmax, then slotted, plain flap with slat, split and plain flaps; a slat alone mainly lets the wing reach a higher angle.', type: 'scale', icon: 'trophy', ask: 'Which device gives the most CLmax?',
       bars: [
         { label: 'Fowler flap', v: 7, show: 'highest', tip: 'Moves back (more area) and down (more camber), with a slot.' },
         { label: 'Slotted flap', v: 6, show: '2nd', tip: 'Camber plus a slot energising the flow over the flap.' },
@@ -86,7 +87,7 @@ module.exports = {
         { label: 'Basic aerofoil', v: 1, show: 'lowest' },
       ],
       note: 'Order from the book\'s CL–AoA graph; the Fowler flap reaches CL ≈ 3.' },
-    { id: 'flap-slat', type: 'stamp', icon: 'check', ask: 'Flaps, slats or both?', tier: 'exam',
+    { id: 'flap-slat', short: 'Flaps or slats?', takeaway: 'Both raise CLmax and lower stall speed; only flaps add camber, lower the stalling angle and pitch the nose down, while slats energise the boundary layer and raise the stalling angle.', type: 'stamp', icon: 'check', ask: 'Flaps, slats or both?', tier: 'exam',
       stamps: [{ id: 'f', label: 'TE flaps' }, { id: 's', label: 'Slats' }, { id: 'b', label: 'Both' }],
       cases: [
         { text: 'Raise CLmax.', answer: 'b' },
@@ -97,7 +98,7 @@ module.exports = {
         { text: 'Give a nose-high landing attitude that spoils the view.', answer: 's' },
         { text: 'Lower the stalling speed.', answer: 'b' },
       ] },
-    { id: 'flap-effects', type: 'matrix', icon: 'list', ask: 'Lowering TE flaps: what changes?', revise: true, dgca: true,
+    { id: 'flap-effects', hook: 'Flaps: more lift, lower angle, nose down.', short: 'Lowering flaps', takeaway: 'Lowering trailing-edge flaps raises CLmax, lowers the stalling angle and speeds, worsens L/D, pitches the nose down, increases tail downwash and leaves the aerodynamic centre unchanged.', type: 'matrix', icon: 'list', ask: 'Lowering TE flaps: what changes?', revise: true, dgca: true,
       corner: 'Item', cols: ['Effect of flap'],
       rows: [
         { label: 'CLmax, camber', cells: [{ v: 'increase', key: true }] },
@@ -112,7 +113,7 @@ module.exports = {
         { label: 'TORR', cells: ['falls up to the optimum setting, then rises'] },
         { label: 'First / last degrees', cells: ['mostly lift / mostly drag'] },
       ] },
-    { id: 'tricks', part: 'Remember', type: 'tricks', icon: 'spark', ask: 'Memory tricks for this chapter',
+    { id: 'tricks', short: 'Memory tricks', takeaway: 'Short phrases for the chapter’s key facts.', part: 'Remember', type: 'tricks', icon: 'spark', ask: 'Memory tricks for this chapter',
       cards: [
         { name: 'Laminar section thickest at 50% chord; normal at 25–30%', trick: 'Laminar waits till halfway', emoji: '½' },
         { name: 'Swept wing: V cos Λ makes lift, V sin Λ flows spanwise', trick: 'Cos does the work, sine slides to the tip', emoji: '↗' },
@@ -120,9 +121,9 @@ module.exports = {
         { name: 'Slats: +70% CLmax, higher stall AoA, no camber', trick: 'Slats Slot, flaps Flex', emoji: '🪶' },
         { name: 'Slender delta: vortex lift +30%', trick: 'Concorde\'s thirty-percent tornado', emoji: '🌀' },
       ] },
-    { id: 'numbers', part: 'Numbers', type: 'numbers', icon: 'hash', ask: 'Numbers to know',
+    { id: 'numbers', short: 'Numbers', part: 'Numbers', type: 'numbers', icon: 'hash', ask: 'Numbers to know',
       items: [{ k: 'Conventional max thickness', v: '25–30% chord' }, { k: 'Laminar / high-speed max thickness', v: '≈ 50% chord' }, { k: 'Elliptical wing CL', v: '≈ 1.0 root to tip' }, { k: 'Moderate taper', v: '0.5', note: 'near-elliptical' }, { k: 'High taper', v: '0.25', note: 'tip stall' }, { k: 'Pointed tip', v: 'taper 0' }, { k: 'Slender delta vortex lift', v: 'up to +30% CL' }, { k: 'Slender delta CP', v: '≈ 50% chord' }, { k: 'Slats raise CLmax', v: 'up to 70%' }, { k: 'Fowler flap CL', v: '≈ 3' }] },
-    { id: 'quiz', type: 'quiz', icon: 'check', ask: 'Quick check',
+    { id: 'quiz', short: 'Quick check', type: 'quiz', icon: 'check', ask: 'Quick check',
       questions: [
         { q: 'A laminar-flow aerofoil has its maximum thickness at about:', options: ['10% chord', '25–30% chord', '50% chord', '75% chord'], answer: 2 },
         { q: 'Which planform has the least induced drag?', options: ['Rectangular', 'Elliptical', 'High taper', 'Delta'], answer: 1 },

@@ -1,0 +1,579 @@
+{
+ "id": "nav-sp8",
+ "title": "Sample Paper 8",
+ "src": "R.K. Bali — Air Navigation, Sample Paper 8",
+ "text": "nav",
+ "start": 20665,
+ "end": 21119,
+ "key": "bcaccabbbaabbacaaaac bbbbacbbcacacbbabcba acaacbaacccbaacbcbaa cabcacabbcabcbbacacc bbababbcbaabcbabbaaa",
+ "fix": {
+  "1": {
+   "q": "Is the length of one nautical mile greater at the equator or at the poles?"
+  },
+  "2": {
+   "q": "The closest and furthest points of the Earth from the Sun are called:"
+  },
+  "3": {
+   "q": "Aphelion occurs on approximately:"
+  },
+  "4": {
+   "q": "The periods of maximum rate of change of the length of day and night are around the:"
+  },
+  "5": {
+   "o": [
+    "The length of the day will be the same once every month.",
+    "The length of the day will vary with the latitude of the observer.",
+    "The length of the day will vary in the course of the year."
+   ]
+  },
+  "6": {
+   "q": "An island is observed to be 15° to the left. Aircraft heading is 120° (M), variation 17°W. The true bearing from the aircraft to the island is?"
+  },
+  "7": {
+   "q": "The anti-meridian of 30°W is:"
+  },
+  "9": {
+   "q": "Deviation is 4°E, magnetic heading 132°, variation 24°W. Find the compass and true headings.",
+   "o": [
+    "136° (C), 156° (T)",
+    "128° (C), 108° (T)",
+    "136° (C), 108° (T)"
+   ]
+  },
+  "10": {
+   "q": "The latitude nut in a Directional Gyro Indicator (DGI) is used to compensate for:"
+  },
+  "12": {
+   "o": [
+    "2 degrees of freedom",
+    "1 degree of freedom",
+    "3 degrees of freedom"
+   ]
+  },
+  "13": {
+   "q": "The main cause of error in a direct reading magnetic compass is:"
+  },
+  "14": {
+   "q": "Considering the MMO and VMO, the captain of a pressurised aircraft begins his descent from a high flight level. In order to meet his scheduled time of arrival, he decides to use the maximum ground speed at any time of the descent. He will be limited:",
+   "o": [
+    "Initially by MMO, then by VMO below a certain flight level.",
+    "Initially by VMO, then by MMO below a certain flight level.",
+    "By the VMO in the still air."
+   ]
+  },
+  "15": {
+   "q": "A turn indicator is an instrument which indicates rate of turn. Rate of turn depends upon: 1. Bank angle 2. Aeroplane speed 3. Aeroplane weight. The combination of correct statements is:",
+   "o": [
+    "1, 3",
+    "2, 3",
+    "1, 2"
+   ]
+  },
+  "17": {
+   "q": "An aircraft is accelerating in the northern hemisphere heading west. Will a direct reading magnetic compass (1) over-read or under-read and (2) indicate a turn to the north or to the south?",
+   "o": [
+    "(1) over-read (2) north",
+    "(1) under-read (2) south",
+    "(1) under-read (2) north"
+   ]
+  },
+  "20": {
+   "q": "In Item 19 of the ICAO flight plan, endurance is the:",
+   "o": [
+    "maximum flight time plus 45 minutes holding fuel.",
+    "maximum flight time plus 30 minutes holding fuel.",
+    "fuel endurance of the aircraft."
+   ]
+  },
+  "21": {
+   "q": "The circumference of the Earth is about:",
+   "o": [
+    "10 800 NM",
+    "40 000 km",
+    "21 856 statute miles"
+   ]
+  },
+  "22": {
+   "q": "An aircraft is overhead a DME at 36 000 ft. What will the DME read?",
+   "o": [
+    "0",
+    "5.92 NM",
+    "9.3 km"
+   ]
+  },
+  "25": {
+   "o": [
+    "compass north and magnetic north.",
+    "true north and magnetic north.",
+    "compass north and lubber line.."
+   ]
+  },
+  "26": {
+   "o": [
+    "reduced pilot input to maintain control.",
+    "better stability and handling.",
+    "lower fuel consumption and greater range."
+   ]
+  },
+  "27": {
+   "o": [
+    "VMO and VNE",
+    "VNE and VNO",
+    "VMO and VLO"
+   ]
+  },
+  "28": {
+   "o": [
+    "dynamic pressure.",
+    "static pressure.",
+    "both dynamic and static pressures."
+   ]
+  },
+  "29": {
+   "q": "The blue line on an airspeed indicator indicates ______ and is associated with ______.",
+   "o": [
+    "VS1, single-engine aircraft",
+    "VMC, all aircraft",
+    "VYSE, multi-engine aircraft"
+   ]
+  },
+  "30": {
+   "o": [
+    "VMCG",
+    "VMBE",
+    "VMCA"
+   ]
+  },
+  "31": {
+   "q": "At VMCG the aircraft must not deviate laterally more than:",
+   "o": [
+    "15° from the runway centre line",
+    "the confines of the runway as specified in the aerodrome manual",
+    "30 feet from the runway centre line"
+   ]
+  },
+  "32": {
+   "q": "VOR station position N61° E025°, variation 13°E; estimated position of an aircraft N59° E025°, variation 20°E. What VOR radial is the aircraft on?"
+  },
+  "33": {
+   "o": [
+    "050°",
+    "220°",
+    "230°"
+   ]
+  },
+  "34": {
+   "q": "QDM and QDR are measured in degrees which take into account:",
+   "o": [
+    "The Earth's true north",
+    "The Earth's magnetic field",
+    "The aircraft's compass north"
+   ]
+  },
+  "35": {
+   "q": "To obtain a QDM it is necessary to add:",
+   "o": [
+    "The true bearing of the station to the aircraft heading (C).",
+    "The relative bearing of the station to the aircraft heading (M).",
+    "The magnetic bearing from the station to the aircraft heading (T)."
+   ]
+  },
+  "36": {
+   "o": [
+    "Pressure altitude corrected for variations from standard temperature.",
+    "True altitude corrected for outside air temperature.",
+    "Indicated altitude corrected for non standard temperature."
+   ]
+  },
+  "37": {
+   "q": "Traffic load (payload) consists of:",
+   "o": [
+    "The total mass of passengers, baggage and cargo, including any non-revenue load and usable fuel.",
+    "The total mass of passengers, baggage and cargo, including any non-revenue load.",
+    "DOM plus useful load including fuel on board."
+   ]
+  },
+  "39": {
+   "q": "A and B are on the parallel of 30°S. The longitude of A is 012°E and the great circle bearing of A from B is 266°. Find the longitude of B.",
+   "o": [
+    "004°W",
+    "028°E",
+    "176°W"
+   ]
+  },
+  "40": {
+   "q": "If the QTE is 220° and variation 10°W, the phase difference between the reference and variable signals for a conventional VOR is:"
+  },
+  "41": {
+   "q": "The scale of a Transverse Mercator chart is correct at the:",
+   "o": [
+    "Datum meridian and its anti-meridian",
+    "Datum meridian and meridians at 90° to it",
+    "Standard parallel and the prime meridian"
+   ]
+  },
+  "43": {
+   "q": "On an IFR navigation chart, a number 80 within a 1° quadrant of latitude and longitude represents:"
+  },
+  "44": {
+   "o": [
+    "795 ft/min",
+    "650 ft/min",
+    "985 ft/min"
+   ]
+  },
+  "46": {
+   "q": "An aircraft is tracking outbound from a VOR, intending to maintain the centre line of an airway defined by the 300° radial. The VOR shows the aircraft to be on the 295° radial and the DME gives a range of 85 NM. Determine the aircraft's displacement from the airway centre line.",
+   "o": [
+    "14 NM",
+    "7 NM",
+    "5 NM"
+   ]
+  },
+  "47": {
+   "q": "The sequence of colours on an ASI (from low to high speed) is:"
+  },
+  "48": {
+   "q": "Any parallel of latitude is a:",
+   "o": [
+    "Rhumb line",
+    "Great circle",
+    "Track with constantly changing direction"
+   ]
+  },
+  "50": {
+   "q": "Calculate the total fuel required for a turbojet aircraft. Thrust 80 kN, specific fuel consumption 0.6 kg/(s·kN), flight time one hour.",
+   "o": [
+    "43 200 kg",
+    "86 400 kg",
+    "172 800 kg"
+   ]
+  },
+  "51": {
+   "q": "Seasons are caused by the:",
+   "o": [
+    "Changing distance between the sun and the earth",
+    "Changing speed of rotation of the earth",
+    "Inclination of the earth's axis"
+   ]
+  },
+  "52": {
+   "q": "FL350, Mach 0.80, OAT −55 °C. Find the TAS.",
+   "o": [
+    "594 kt",
+    "460 kt",
+    "525 kt"
+   ]
+  },
+  "53": {
+   "q": "On which projection is it impossible to show the North Pole?",
+   "o": [
+    "Direct Mercator",
+    "Polar stereographic",
+    "Transverse Mercator"
+   ]
+  },
+  "54": {
+   "q": "Distance 1200 NM, track 090°, TAS (normal) 200 kt, TAS (reduced) 150 kt, wind 090°/20 kt. Find the distance and time to the critical point (based on the reduced TAS).",
+   "o": [
+    "680 NM; 3 h 46 min",
+    "610 NM; 3 h 12 min",
+    "760 NM; 4 h 07 min"
+   ]
+  },
+  "55": {
+   "q": "Distance 1500 NM, TAS (4 engines) 360 kt, TAS (3 engines) 300 kt, track 090°, W/V 330°/30 kt. Find the distance and time to the critical point.",
+   "o": [
+    "812 NM; 2 h 51 min",
+    "942 NM; 2 h 31 min",
+    "712 NM; 1 h 54 min"
+   ]
+  },
+  "56": {
+   "q": "Distance 2400 NM, track 080°, W/V 030°/25 kt, TAS (normal) 440 kt, TAS (reduced) 360 kt, fuel on board 10 000 kg, reserve 1000 kg, fuel flow (normal) 1400 kg/hr, fuel flow (reduced) 1000 kg/hr. Find the distance and time to the PNR (the aircraft returns on 3 engines from the PNR).",
+   "o": [
+    "1255 NM; 2 h 57 min",
+    "1510 NM; 3 h 33 min",
+    "1385 NM; 3 h 12 min"
+   ]
+  },
+  "57": {
+   "q": "The first segment of the take-off climb starts from the end of the take-off distance:"
+  },
+  "58": {
+   "q": "The direct reading compass works on the principle that a magnetised compass card aligns itself with the:",
+   "o": [
+    "Vertical component of the Earth's magnetic field.",
+    "Horizontal component of the Earth's magnetic field.",
+    "Vertical component of the Earth's electro-magnetic field."
+   ]
+  },
+  "60": {
+   "q": "Distance 800 NM, track 330°, W/V 270°/30 kt, TAS 240 kt, fuel on board 1000 kg, fuel flow 150 kg/hr, reserve 100 kg. Find the distance and time to the PNR.",
+   "o": [
+    "714 NM; 3 h 11 min",
+    "576 NM; 2 h 42 min",
+    "434 NM; 1 h 56 min"
+   ]
+  },
+  "61": {
+   "q": "In order to convert true heading into magnetic heading, a compass card and ______ are required."
+  },
+  "62": {
+   "q": "If the tailwind (outbound) increases, the distance to the CP will:"
+  },
+  "63": {
+   "q": "Pressure altitude 5000 ft, QNH 1018.25 hPa. What is the indicated altitude with QNH set?",
+   "o": [
+    "4850 ft",
+    "5150 ft",
+    "5000 ft"
+   ]
+  },
+  "64": {
+   "a": "b"
+  },
+  "65": {
+   "q": "GNSS (GPS) satellites orbit the earth:",
+   "o": [
+    "Once in twelve hours.",
+    "Once in eight hours.",
+    "Once in 24 hours."
+   ]
+  },
+  "67": {
+   "q": "Primary radar (PSR) detection is based on ______; secondary radar (SSR) detection is based on ______.",
+   "o": [
+    "signal reflection (echo); transponder response",
+    "transponder response; signal reflection (echo)",
+    "interrogator signals on board; response to transponder signals"
+   ]
+  },
+  "68": {
+   "q": "FL250, OAT −15 °C, TAS 450 kt. Calculate the LSS and Mach number.",
+   "o": [
+    "655 kt; 0.75",
+    "627 kt; 0.72",
+    "582 kt; 0.65"
+   ]
+  },
+  "69": {
+   "q": "The SSR code meaning 'no code allotted / leaving an FIR' is:"
+  },
+  "70": {
+   "q": "If the pulse width in a primary radar is 0.5 µs, the range resolution will be?",
+   "o": [
+    "150 m",
+    "100 m",
+    "75 m"
+   ]
+  },
+  "71": {
+   "q": "TODA is the total distance available for an aircraft to take off, being the length of the runway:"
+  },
+  "72": {
+   "q": "Descending at constant TAS in ISA conditions, the CAS will ______ and the Mach number will ______.",
+   "o": [
+    "Decrease, increase",
+    "Increase, decrease",
+    "Increase, remain constant"
+   ]
+  },
+  "73": {
+   "q": "What is an aclinic line?",
+   "o": [
+    "Line joining places of equal variation",
+    "Line joining places of equal dip",
+    "Line joining places of zero magnetic dip"
+   ]
+  },
+  "74": {
+   "q": "A radio altimeter transmits:",
+   "o": [
+    "An amplitude modulated continuous wave of frequency 4400–4800 MHz",
+    "A frequency modulated continuous wave of frequency 4200–4400 MHz",
+    "A phase modulated pulse wave of frequency 4200–4400 MHz"
+   ]
+  },
+  "76": {
+   "q": "Heading (T) 270°, TAS 250 kt, track (T) 267°, G/S 213 kt. Find the drift and W/V.",
+   "o": [
+    "3° P; 287°/39 kt",
+    "3° S; 250°/39 kt",
+    "3° S; 107°/39 kt"
+   ]
+  },
+  "77": {
+   "q": "Track error 9° S, drift 4° S, heading 090°. Find the track required and the track made good (TMG)."
+  },
+  "78": {
+   "q": "The highest latitude at which the sun will rise above the horizon and set every day is about:"
+  },
+  "79": {
+   "q": "The accuracy of SSR Mode C altitude reporting is:",
+   "o": [
+    "±300 ft",
+    "±150 ft",
+    "±50 ft"
+   ]
+  },
+  "80": {
+   "q": "When, in flight, the needle of a needle-and-ball indicator is on the left and the ball on the right, the aircraft is:",
+   "o": [
+    "Turning right with not enough bank.",
+    "Turning left with too much bank.",
+    "Turning left with not enough bank."
+   ]
+  },
+  "81": {
+   "q": "Distance between A and B is 500 NM. Departure time from A 1200 UTC. Arrival time at B (29°29'N 000°E) 1430 LMT. Find the ground speed.",
+   "o": [
+    "112 kt",
+    "200 kt",
+    "225 kt"
+   ]
+  },
+  "82": {
+   "q": "The type of altimeter that directly measures the distance to the ground below the aircraft is the:",
+   "o": [
+    "Barometric altimeter",
+    "Radio altimeter",
+    "Aneroid altimeter"
+   ]
+  },
+  "83": {
+   "q": "The Cockpit Voice Recorder (CVR) and Flight Data Recorder (FDR) are designed to record for durations of (respectively):",
+   "o": [
+    "2 hrs and 25 hrs",
+    "2 days and 25 hrs",
+    "1 hr and 24 hrs"
+   ]
+  },
+  "84": {
+   "q": "Convert into litres: USG/Hr  IG/Hr 10  8.3 102  85",
+   "o": [
+    "102, 85,336",
+    "8.3, 6.9, 31.4",
+    "85, 102, 322"
+   ]
+  },
+  "85": {
+   "q": "When the static vent gets blocked in an unpressurised aircraft, the right action (if no alternate static is fitted) is to:"
+  },
+  "87": {
+   "o": [
+    "Safe operations at runways with displaced threshold.",
+    "Weight of the aircraft without causing structural damage.",
+    "Initial climb to a specified height with adequate vertical clearance."
+   ]
+  },
+  "88": {
+   "q": "When selected, the ______ mode puts the aircraft symbol at the ______ of the display and enables the ______ radar display.",
+   "o": [
+    "Full ILS; top; secondary surveillance",
+    "Expanded ILS; middle; ground mapping",
+    "Expanded ILS; bottom; weather"
+   ]
+  },
+  "89": {
+   "q": "For a rate one turn at TAS 250 kt, the bank angle is about:"
+  },
+  "90": {
+   "q": "An aircraft is approaching the station on radial 300° with 10° starboard drift and is asked to approach on radial 270°. After reaching the station it is to hold on radial 110°, non-standard (left-hand) pattern. What will be the type of entry?"
+  },
+  "91": {
+   "q": "On a 3° glide path at 3 DME, the ILS glide slope shows 2 dots fly-up on a 4-dot indicator. Approximately how many feet is the aircraft above/below the glide slope?",
+   "o": [
+    "106 ft below the glide slope",
+    "106 ft above the glide slope",
+    "156 ft below the glide slope"
+   ]
+  },
+  "92": {
+   "q": "On a map of scale 1 : 1 000 000, how many inches represent a ground distance of 400 km?",
+   "o": [
+    "10.02 in",
+    "15.74 in",
+    "17.56 in"
+   ]
+  },
+  "93": {
+   "q": "After flying for 1 h 30 min at G/S 150 kt an aircraft is 15 NM off track. The remaining time to destination is 45 min at G/S 180 kt. Find the closing angle."
+  },
+  "94": {
+   "q": "As per the ICAO standard, DME accuracy is?",
+   "o": [
+    "±0.50 NM plus 1.50% of the distance measured",
+    "±0.25 NM plus 1.25% of the distance measured",
+    "±1.25 NM plus 1.50% of the distance measured"
+   ]
+  },
+  "96": {
+   "q": "The frequency range of DME is:",
+   "o": [
+    "1030 to 1090 MHz",
+    "960 to 1213 MHz",
+    "1227 to 1575 MHz"
+   ]
+  },
+  "97": {
+   "o": [
+    "FROM; half-scale deflection to the left",
+    "TO; half-scale deflection to the left",
+    "TO; half-scale deflection to the right"
+   ]
+  },
+  "98": {
+   "o": [
+    "Detect the larger water droplets.",
+    "Obtain optimum use of the Cosecant squared beam.",
+    "Detect the smaller cloud formations as well as large."
+   ]
+  },
+  "99": {
+   "q": "What is the vertical coverage of the ILS glide slope (θ = glide path angle)?",
+   "o": [
+    "Up to 1.75θ and down to 0.45θ above the horizontal",
+    "Up to 3.5° and down to 1.75° above the horizontal",
+    "Up to 3θ and down to 0.45θ below the horizontal"
+   ]
+  },
+  "100": {
+   "q": "Clock times in the flight plan form are inserted as:"
+  }
+ },
+ "drop": [
+  8,
+  44,
+  75,
+  84
+ ],
+ "ex": {
+  "6": "MB = 120 − 15 = 105° M; TB = 105 − 17 = 088° T.",
+  "9": "CH = MH − easterly deviation = 132 − 4 = 128°. TH = MH − westerly variation = 132 − 24 = 108°.",
+  "17": "Accelerating on a westerly heading in the northern hemisphere gives an apparent turn towards north; on 270° that means a reading above 270°, i.e. over-reading.",
+  "22": "36 000 ft / 6076 ft per NM ≈ 5.92 NM of slant range.",
+  "33": "QDM 050 → QDR (radial) 230° M. The VOR phase difference equals the radial: 230°.",
+  "39": "In the southern hemisphere the great circle from B westwards starts south of west: 270 − 266 = 4° = half the convergency, so convergency = 8° = Δlong × sin 30° → Δlong = 16°. B = 12 + 16 = 028° E.",
+  "40": "QTE (true radial) 220° + 10° W = 230° M, which equals the phase difference.",
+  "46": "5° at 85 NM: 85 × 5/60 ≈ 7 NM.",
+  "50": "80 kN × 0.6 kg/(s·kN) = 48 kg/s × 3600 s = 172 800 kg (as the question's units give).",
+  "52": "LSS = 38.95 × √218 ≈ 575 kt; TAS = 0.80 × 575 ≈ 460 kt.",
+  "54": "Based on the reduced TAS: O = 130 kt, H = 170 kt. CP = 1200 × 170 / 300 = 680 NM; at the normal GS of 180 kt that takes about 3 h 46 min.",
+  "55": "Wind component on 090° = −30 cos 120° = +15 kt (tail). On 3 engines O = 315, H = 285: CP = 1500 × 285 / 600 ≈ 712 NM; at the 4-engine GS of 375 kt that takes ≈ 1 h 54 min.",
+  "60": "GS out ≈ 224 kt, home ≈ 254 kt; endurance = 900 / 150 = 6 h. TPNR = 6 × 254 / 478 ≈ 3.19 h = 3 h 11 min; DPNR ≈ 714 NM.",
+  "62": "CP = D × H / (O + H): more tailwind out raises O and lowers H, so the CP moves closer to the start.",
+  "63": "QNH is 5 hPa above standard: indicated altitude ≈ 5000 + 5 × 30 = 5150 ft.",
+  "64": "Book key prints (c). The ionospheric delay is the largest atmospheric error in GNSS ranging (tropospheric delay is smaller), so the correct answer is (b).",
+  "68": "LSS = 38.95 × √258 ≈ 626 kt; M = 450 / 626 ≈ 0.72.",
+  "70": "Range resolution = c × PW / 2 = 300 m/µs × 0.5 / 2 = 75 m.",
+  "76": "Track is left of heading: 3° port drift. Ground vector − air vector gives a wind of about 287°/39 kt.",
+  "77": "TMG = heading + starboard drift = 094°. To correct a 9° starboard track error the required track is 094 − 9 = 085°.",
+  "81": "At 000° longitude LMT = UTC, so the flight takes 2 h 30 min: 500 / 2.5 = 200 kt.",
+  "89": "Rule of thumb: TAS/10 + 7 = 25 + 7 = 32°.",
+  "91": "Full scale ≈ 0.7° above or below, so 2 dots ≈ 0.35°. At 3 NM: 3 × 6076 × tan 0.35° ≈ 111 ft; fly-up means the aircraft is below.",
+  "92": "400 km at 1 : 1 000 000 = 40 cm = 15.75 in.",
+  "93": "Closing angle = 15 NM over the remaining 135 NM ≈ 15/135 × 60 ≈ 7°.",
+  "97": "With 060 set the aircraft (on radial 235) is 5° from the 240 radial and TO shows. Facing 060 the aircraft is right of course, so the needle is half-scale left (5° of a 10° scale)."
+ }
+}

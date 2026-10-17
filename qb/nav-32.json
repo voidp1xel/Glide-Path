@@ -1,0 +1,162 @@
+{
+"title": "GNSS",
+"src": "R.K. Bali — Air Navigation, Part III Ch 9 (key read from the printed answer grid, PDF p. 293)",
+"qs": [
+{
+"n": 1,
+"q": "Position fixing by satellite is by means of:",
+"o": [
+"simultaneous bearings from a number of satellites",
+"range and bearing from each known satellite's position",
+"simultaneous ranges from a number of satellites"
+],
+"a": 2
+},
+{
+"n": 2,
+"q": "The DGPS is:",
+"o": [
+"the time difference between the transmission of the satellite's coded signal and the time that it is received at the aircraft",
+"the time difference between the satellite and the aircraft GPS unit transmitting the same code point on the signal",
+"the correction applied to the 'raw' GPS position to obtain a more precise position"
+],
+"a": 2
+},
+{
+"n": 3,
+"q": "The reason that the satellites of GPS and GLONASS do not collide is:",
+"o": [
+"the GPS orbit is at 55° to the equator while the GLONASS is at 60°",
+"the GPS satellite orbits are 1200 km higher than the GLONASS orbits",
+"GLONASS has only three orbital planes while GPS has six orbital planes"
+],
+"a": 1,
+"ex": "The book: GPS orbits about 1200 km above GLONASS."
+},
+{
+"n": 4,
+"q": "The GPS can:",
+"o": [
+"provide two-dimension and three-dimension positions",
+"only provide position in latitude and longitude",
+"indicate two-dimension positions or position lines in the horizontal plane"
+],
+"a": 0
+},
+{
+"n": 5,
+"q": "The GPS transmission frequency which can be used by civil aircraft is:",
+"o": [
+"1575.42 MHz in the L-band",
+"2227.5 MHz in the S-band",
+"1227.6 MHz in the L-band"
+],
+"a": 0
+},
+{
+"n": 6,
+"q": "The US DoD degrades GPS accuracy:",
+"o": [
+"to protect US national security",
+"to protect the DoD copyright",
+"to prevent 100% reliance on a system which may have to be interrupted for military purposes at a moment's notice"
+],
+"a": 0
+},
+{
+"n": 7,
+"q": "The accuracy of range measurement of satellite to GPS receiver is:",
+"o": [
+"seriously reduced during periods of sunspot activity",
+"seriously eroded during periods of anomalous propagation in an inversion",
+"derived from accurate timepieces in the satellite and the aircraft's GPS receiver"
+],
+"a": 2
+},
+{
+"n": 8,
+"q": "Satellites used in GNSS, orbit the earth:",
+"o": [
+"once in twelve hours",
+"once in eight hours",
+"once in 24 hours"
+],
+"a": 0,
+"ex": "GPS orbital period is 11 h 58 min: about twice a day."
+},
+{
+"n": 9,
+"q": "Satellite geometry error is greatest when:",
+"o": [
+"satellites are closest together",
+"satellites are spaced well apart",
+"satellites are nearest the horizon"
+],
+"a": 0,
+"ex": "GDOP is worst when the satellites are close together (poor cuts between position lines)."
+},
+{
+"n": 10,
+"q": "It may be claimed that GNSS has the advantage over other air navigation systems in that it:",
+"o": [
+"is basically a military-based system made available to civil users with solar- powered satellites which have an infinite life",
+"has no possible input by the pilot",
+"is entirely space-based"
+],
+"a": 2
+},
+{
+"n": 11,
+"q": "NAVSTAR/GPS operates in the … band and the receiver determines position by …",
+"o": [
+"UHF, range position line",
+"UHF, secondary radar principles",
+"SHF, secondary radar principles"
+],
+"a": 0
+},
+{
+"n": 12,
+"q": "The orbital height and inclination of the NAVSTAR/GPS constellation are:",
+"o": [
+"20180 km, 65°",
+"20180 km, 55°",
+"19099 km, 65°"
+],
+"a": 1,
+"ex": "Book figure: about 20 200 km, 55°."
+},
+{
+"n": 13,
+"q": "The model of the earth used for NAVSTAR/GPS is:",
+"o": [
+"WGS90",
+"PZ90",
+"WGS84"
+],
+"a": 2
+},
+{
+"n": 14,
+"q": "The minimum number of satellites required for a 3D fix is:",
+"o": [
+"3",
+"4",
+"5"
+],
+"a": 1,
+"ex": "Three ranges leave a clock-error ambiguity: four satellites give a 3-D fix (five for RAIM)."
+},
+{
+"n": 15,
+"q": "The NAVSTAR/GPS constellation comprises … satellites.",
+"o": [
+"12",
+"21",
+"24"
+],
+"a": 2,
+"ex": "24 in all: 21 operational + 3 spares (book)."
+}
+]
+}
